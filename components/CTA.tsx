@@ -64,8 +64,8 @@ export default function CTA() {
           {/* Left Content */}
           <div
             className={`transition-all duration-700 ${isVisible
-                ? "opacity-100 translate-y-0"
-                : "opacity-0 translate-y-8"
+              ? "opacity-100 translate-y-0"
+              : "opacity-0 translate-y-8"
               }`}
           >
             <span className="inline-block text-[#D4AF37] text-sm font-semibold tracking-widest uppercase mb-4">
@@ -111,15 +111,40 @@ export default function CTA() {
                 </div>
               </div>
 
-
+              <div className="flex items-center gap-4 group cursor-pointer">
+                <div className="w-14 h-14 rounded-2xl glass text-[#D4AF37] flex items-center justify-center group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 shadow-lg group-hover:shadow-[0_0_30px_rgba(212,175,55,0.3)]">
+                  <svg
+                    className="w-6 h-6"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={1.5}
+                      d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <div className="text-sm text-[#737373]">Call Us</div>
+                  <a
+                    href="tel:+12138570502"
+                    className="text-[#f5f5f5] hover:text-[#D4AF37] transition-colors text-lg"
+                  >
+                    +1 213-857-0502
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
 
           {/* Contact Form */}
           <div
             className={`transition-all duration-700 delay-200 ${isVisible
-                ? "opacity-100 translate-y-0"
-                : "opacity-0 translate-y-12"
+              ? "opacity-100 translate-y-0"
+              : "opacity-0 translate-y-12"
               }`}
           >
             <form
