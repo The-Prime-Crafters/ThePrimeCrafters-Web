@@ -4,25 +4,25 @@ import { useEffect, useRef, useState } from "react";
 
 const stats = [
   {
-    value: 150,
+    value: 6,
     suffix: "+",
     label: "Projects Delivered",
     description: "Successfully completed automation projects",
   },
   {
-    value: 85,
+    value: 6,
     suffix: "+",
     label: "Clients Served",
     description: "Trusted by businesses worldwide",
   },
   {
-    value: 2.5,
-    suffix: "M+",
+    value: 500,
+    suffix: "+",
     label: "Hours Saved",
-    description: "Automated manual work hours",
+    description: "Automated manual work hours per client",
   },
   {
-    value: 340,
+    value: 180,
     suffix: "%",
     label: "Average ROI",
     description: "Return on investment for clients",
@@ -87,9 +87,8 @@ function StatCard({
 
   return (
     <div
-      className={`relative group p-8 rounded-3xl glass-card border-[rgba(255,255,255,0.08)] text-center card-hover transition-all duration-700 ${
-        isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
-      }`}
+      className={`relative group p-8 rounded-3xl glass-card border-[rgba(255,255,255,0.08)] text-center card-hover transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
+        }`}
       style={{ transitionDelay: `${index * 150}ms` }}
     >
       {/* Background Glow */}
@@ -162,9 +161,8 @@ export default function Stats() {
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Section Header */}
         <div
-          className={`text-center mb-16 transition-all duration-700 ${
-            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-          }`}
+          className={`text-center mb-16 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+            }`}
         >
           <span className="inline-block text-[#D4AF37] text-sm font-semibold tracking-widest uppercase mb-4">
             By The Numbers

@@ -63,11 +63,10 @@ export default function CTA() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Left Content */}
           <div
-            className={`transition-all duration-700 ${
-              isVisible
+            className={`transition-all duration-700 ${isVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-8"
-            }`}
+              }`}
           >
             <span className="inline-block text-[#D4AF37] text-sm font-semibold tracking-widest uppercase mb-4">
               Get In Touch
@@ -104,80 +103,24 @@ export default function CTA() {
                 <div>
                   <div className="text-sm text-[#737373]">Email Us</div>
                   <a
-                    href="mailto:hello@primecrafters.ai"
+                    href="mailto:aman@theprimecrafters.com"
                     className="text-[#f5f5f5] hover:text-[#D4AF37] transition-colors text-lg"
                   >
-                    hello@primecrafters.ai
+                    aman@theprimecrafters.com
                   </a>
                 </div>
               </div>
 
-              <div className="flex items-center gap-4 group cursor-pointer">
-                <div className="w-14 h-14 rounded-2xl glass text-[#D4AF37] flex items-center justify-center group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 shadow-lg group-hover:shadow-[0_0_30px_rgba(212,175,55,0.3)]">
-                  <svg
-                    className="w-6 h-6"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1.5}
-                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <div className="text-sm text-[#737373]">Call Us</div>
-                  <a
-                    href="tel:+1234567890"
-                    className="text-[#f5f5f5] hover:text-[#D4AF37] transition-colors text-lg"
-                  >
-                    +1 (234) 567-890
-                  </a>
-                </div>
-              </div>
 
-              <div className="flex items-center gap-4 group cursor-pointer">
-                <div className="w-14 h-14 rounded-2xl glass text-[#D4AF37] flex items-center justify-center group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 shadow-lg group-hover:shadow-[0_0_30px_rgba(212,175,55,0.3)]">
-                  <svg
-                    className="w-6 h-6"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1.5}
-                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                    />
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1.5}
-                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <div className="text-sm text-[#737373]">Location</div>
-                  <span className="text-[#f5f5f5] text-lg">
-                    San Francisco, CA
-                  </span>
-                </div>
-              </div>
             </div>
           </div>
 
           {/* Contact Form */}
           <div
-            className={`transition-all duration-700 delay-200 ${
-              isVisible
+            className={`transition-all duration-700 delay-200 ${isVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-12"
-            }`}
+              }`}
           >
             <form
               onSubmit={handleSubmit}
