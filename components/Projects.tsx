@@ -1,61 +1,8 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-
-const projects = [
-  {
-    title: "Enterprise Data Pipeline",
-    industry: "Financial Services",
-    description:
-      "Automated data processing pipeline handling 10M+ transactions daily with real-time analytics and reporting.",
-    results: ["85% faster processing", "99.9% accuracy", "$2M annual savings"],
-    image: "📊",
-  },
-  {
-    title: "AI Customer Service Bot",
-    industry: "E-Commerce",
-    description:
-      "Intelligent chatbot handling 80% of customer inquiries with natural language understanding and seamless escalation.",
-    results: [
-      "80% query resolution",
-      "24/7 availability",
-      "40% cost reduction",
-    ],
-    image: "🤖",
-  },
-  {
-    title: "Predictive Maintenance System",
-    industry: "Manufacturing",
-    description:
-      "Machine learning system predicting equipment failures before they occur, reducing downtime significantly.",
-    results: ["60% less downtime", "45% maintenance savings", "ROI in 6 months"],
-    image: "⚙️",
-  },
-  {
-    title: "Document Processing AI",
-    industry: "Legal Tech",
-    description:
-      "Automated document analysis and extraction system processing thousands of legal documents daily.",
-    results: ["95% accuracy", "10x faster review", "70% cost savings"],
-    image: "📄",
-  },
-  {
-    title: "Supply Chain Optimizer",
-    industry: "Logistics",
-    description:
-      "AI-powered supply chain optimization reducing inventory costs and improving delivery times.",
-    results: ["30% inventory reduction", "25% faster delivery", "$5M saved"],
-    image: "🚛",
-  },
-  {
-    title: "Healthcare Analytics Platform",
-    industry: "Healthcare",
-    description:
-      "Advanced analytics platform for patient data analysis and treatment outcome predictions.",
-    results: ["20% better outcomes", "HIPAA compliant", "Real-time insights"],
-    image: "🏥",
-  },
-];
+import Link from "next/link";
+import { projectsData } from "@/app/data/projects";
 
 export default function Projects() {
   const [isVisible, setIsVisible] = useState(false);
@@ -92,9 +39,8 @@ export default function Projects() {
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Section Header */}
         <div
-          className={`text-center mb-16 transition-all duration-700 ${
-            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-          }`}
+          className={`text-center mb-16 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+            }`}
         >
           <span className="inline-block text-[#D4AF37] text-sm font-semibold tracking-widest uppercase mb-4">
             Our Portfolio
@@ -111,14 +57,13 @@ export default function Projects() {
 
         {/* Projects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {projects.map((project, index) => (
+          {projectsData.map((project, index) => (
             <div
               key={project.title}
-              className={`group relative rounded-3xl glass-card border-[rgba(255,255,255,0.08)] overflow-hidden card-hover transition-all duration-700 ${
-                isVisible
-                  ? "opacity-100 translate-y-0"
-                  : "opacity-0 translate-y-12"
-              }`}
+              className={`group relative rounded-3xl glass-card border-[rgba(255,255,255,0.08)] overflow-hidden card-hover transition-all duration-700 ${isVisible
+                ? "opacity-100 translate-y-0"
+                : "opacity-0 translate-y-12"
+                }`}
               style={{ transitionDelay: `${index * 100}ms` }}
             >
               {/* Project Image/Icon Area */}
@@ -135,7 +80,7 @@ export default function Projects() {
               </div>
 
               {/* Content */}
-              <div className="p-6">
+              <div className="p-6 relative z-10">
                 <h3 className="text-xl font-semibold text-[#f5f5f5] mb-3 font-[var(--font-cormorant)] group-hover:text-[#D4AF37] transition-colors">
                   {project.title}
                 </h3>
@@ -156,9 +101,10 @@ export default function Projects() {
                 </div>
 
                 {/* View Case Study Link */}
-                <a
-                  href="#contact"
-                  className="inline-flex items-center gap-2 text-[#D4AF37] text-sm font-medium group/link"
+                <Link
+                  href={`/case-study/${project.slug}`}
+                  className="inline-flex items-center gap-2 text-[#D4AF37] text-sm font-medium group/link hover:text-[#FFD700] transition-colors cursor-pointer"
+                  onClick={() => console.log(`Navigating to case study: ${project.slug}`)}
                 >
                   View Case Study
                   <svg
@@ -174,7 +120,7 @@ export default function Projects() {
                       d="M17 8l4 4m0 0l-4 4m4-4H3"
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
 
               {/* Bottom Border Accent */}
@@ -188,9 +134,8 @@ export default function Projects() {
 
         {/* View All Projects CTA */}
         <div
-          className={`text-center mt-12 transition-all duration-700 delay-500 ${
-            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-          }`}
+          className={`text-center mt-12 transition-all duration-700 delay-500 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+            }`}
         >
           <a href="#contact" className="btn-secondary inline-flex items-center gap-2">
             Discuss Your Project
