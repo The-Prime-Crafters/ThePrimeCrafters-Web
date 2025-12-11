@@ -87,6 +87,11 @@ const metadata = {
             name: "PrimeCrafters"
         }
     ],
+    icons: {
+        icon: "/logo.png",
+        shortcut: "/logo.png",
+        apple: "/logo.png"
+    },
     openGraph: {
         title: "PrimeCrafters | AI Automation Excellence",
         description: "Transform your business with cutting-edge AI automation solutions.",
@@ -108,12 +113,12 @@ function RootLayout({ children }) {
             children: children
         }, void 0, false, {
             fileName: "[project]/app/layout.tsx",
-            lineNumber: 54,
+            lineNumber: 59,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/layout.tsx",
-        lineNumber: 53,
+        lineNumber: 58,
         columnNumber: 5
     }, this);
 }

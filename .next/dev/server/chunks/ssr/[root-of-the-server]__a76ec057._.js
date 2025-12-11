@@ -343,32 +343,17 @@ async function CaseStudyPage({ params }) {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                             href: "/",
-                            className: "text-[var(--gold-500)] hover:text-[var(--gold-400)] transition-colors flex items-center gap-2",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                    xmlns: "http://www.w3.org/2000/svg",
-                                    fill: "none",
-                                    viewBox: "0 0 24 24",
-                                    strokeWidth: 2,
-                                    stroke: "currentColor",
-                                    className: "w-5 h-5",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                        strokeLinecap: "round",
-                                        strokeLinejoin: "round",
-                                        d: "M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                        lineNumber: 40,
-                                        columnNumber: 29
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                    lineNumber: 32,
-                                    columnNumber: 25
-                                }, this),
-                                "Back to Home"
-                            ]
-                        }, void 0, true, {
+                            className: "flex items-center gap-3",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                src: "/logo.png",
+                                alt: "PrimeCrafters Logo",
+                                className: "h-8 w-auto"
+                            }, void 0, false, {
+                                fileName: "[project]/app/case-study/[slug]/page.tsx",
+                                lineNumber: 32,
+                                columnNumber: 25
+                            }, this)
+                        }, void 0, false, {
                             fileName: "[project]/app/case-study/[slug]/page.tsx",
                             lineNumber: 28,
                             columnNumber: 21
@@ -379,7 +364,7 @@ async function CaseStudyPage({ params }) {
                             children: "View All Projects"
                         }, void 0, false, {
                             fileName: "[project]/app/case-study/[slug]/page.tsx",
-                            lineNumber: 48,
+                            lineNumber: 34,
                             columnNumber: 21
                         }, this)
                     ]
@@ -402,12 +387,12 @@ async function CaseStudyPage({ params }) {
                             className: "absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[600px] bg-[#D4AF37] rounded-full opacity-[0.03] blur-3xl"
                         }, void 0, false, {
                             fileName: "[project]/app/case-study/[slug]/page.tsx",
-                            lineNumber: 60,
+                            lineNumber: 46,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/case-study/[slug]/page.tsx",
-                        lineNumber: 59,
+                        lineNumber: 45,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -421,7 +406,7 @@ async function CaseStudyPage({ params }) {
                                         children: project.image
                                     }, void 0, false, {
                                         fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                        lineNumber: 65,
+                                        lineNumber: 51,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -429,13 +414,13 @@ async function CaseStudyPage({ params }) {
                                         children: project.industry
                                     }, void 0, false, {
                                         fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                        lineNumber: 66,
+                                        lineNumber: 52,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                lineNumber: 64,
+                                lineNumber: 50,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -445,12 +430,12 @@ async function CaseStudyPage({ params }) {
                                     children: project.title
                                 }, void 0, false, {
                                     fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                    lineNumber: 72,
+                                    lineNumber: 58,
                                     columnNumber: 25
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                lineNumber: 71,
+                                lineNumber: 57,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -458,7 +443,7 @@ async function CaseStudyPage({ params }) {
                                 children: project.description
                             }, void 0, false, {
                                 fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                lineNumber: 75,
+                                lineNumber: 61,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -471,7 +456,7 @@ async function CaseStudyPage({ params }) {
                                                 children: item.value
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                                lineNumber: 86,
+                                                lineNumber: 72,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -479,30 +464,30 @@ async function CaseStudyPage({ params }) {
                                                 children: item.metric
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                                lineNumber: 89,
+                                                lineNumber: 75,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                        lineNumber: 82,
+                                        lineNumber: 68,
                                         columnNumber: 29
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                lineNumber: 80,
+                                lineNumber: 66,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/case-study/[slug]/page.tsx",
-                        lineNumber: 63,
+                        lineNumber: 49,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/case-study/[slug]/page.tsx",
-                lineNumber: 58,
+                lineNumber: 44,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -519,14 +504,14 @@ async function CaseStudyPage({ params }) {
                                     className: "w-full h-full object-cover"
                                 }, void 0, false, {
                                     fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                    lineNumber: 104,
+                                    lineNumber: 90,
                                     columnNumber: 33
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "absolute inset-0 bg-gradient-to-t from-[var(--background)]/60 to-transparent pointer-events-none"
                                 }, void 0, false, {
                                     fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                    lineNumber: 109,
+                                    lineNumber: 95,
                                     columnNumber: 33
                                 }, this)
                             ]
@@ -548,12 +533,12 @@ async function CaseStudyPage({ params }) {
                                                 d: "M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                                lineNumber: 122,
+                                                lineNumber: 108,
                                                 columnNumber: 41
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                            lineNumber: 114,
+                                            lineNumber: 100,
                                             columnNumber: 37
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -561,7 +546,7 @@ async function CaseStudyPage({ params }) {
                                             children: "Project Screenshot"
                                         }, void 0, false, {
                                             fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                            lineNumber: 128,
+                                            lineNumber: 114,
                                             columnNumber: 37
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -569,37 +554,37 @@ async function CaseStudyPage({ params }) {
                                             children: "Add your screenshot here"
                                         }, void 0, false, {
                                             fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                            lineNumber: 131,
+                                            lineNumber: 117,
                                             columnNumber: 37
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                    lineNumber: 113,
+                                    lineNumber: 99,
                                     columnNumber: 33
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "absolute inset-0 bg-gradient-to-t from-[var(--background)]/90 to-transparent"
                                 }, void 0, false, {
                                     fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                    lineNumber: 135,
+                                    lineNumber: 121,
                                     columnNumber: 33
                                 }, this)
                             ]
                         }, void 0, true)
                     }, void 0, false, {
                         fileName: "[project]/app/case-study/[slug]/page.tsx",
-                        lineNumber: 101,
+                        lineNumber: 87,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/case-study/[slug]/page.tsx",
-                    lineNumber: 100,
+                    lineNumber: 86,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/case-study/[slug]/page.tsx",
-                lineNumber: 99,
+                lineNumber: 85,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -615,7 +600,7 @@ async function CaseStudyPage({ params }) {
                                     children: "Overview"
                                 }, void 0, false, {
                                     fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                    lineNumber: 147,
+                                    lineNumber: 133,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -623,13 +608,13 @@ async function CaseStudyPage({ params }) {
                                     children: project.fullDescription
                                 }, void 0, false, {
                                     fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                    lineNumber: 150,
+                                    lineNumber: 136,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/case-study/[slug]/page.tsx",
-                            lineNumber: 146,
+                            lineNumber: 132,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -656,17 +641,17 @@ async function CaseStudyPage({ params }) {
                                                             d: "M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                                            lineNumber: 168,
+                                                            lineNumber: 154,
                                                             columnNumber: 41
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                                        lineNumber: 160,
+                                                        lineNumber: 146,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                                    lineNumber: 159,
+                                                    lineNumber: 145,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -674,13 +659,13 @@ async function CaseStudyPage({ params }) {
                                                     children: "The Challenge"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                                    lineNumber: 175,
+                                                    lineNumber: 161,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                            lineNumber: 158,
+                                            lineNumber: 144,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -688,13 +673,13 @@ async function CaseStudyPage({ params }) {
                                             children: project.challenge
                                         }, void 0, false, {
                                             fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                            lineNumber: 179,
+                                            lineNumber: 165,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                    lineNumber: 157,
+                                    lineNumber: 143,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -718,17 +703,17 @@ async function CaseStudyPage({ params }) {
                                                             d: "M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456Z"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                                            lineNumber: 196,
+                                                            lineNumber: 182,
                                                             columnNumber: 41
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                                        lineNumber: 188,
+                                                        lineNumber: 174,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                                    lineNumber: 187,
+                                                    lineNumber: 173,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -736,13 +721,13 @@ async function CaseStudyPage({ params }) {
                                                     children: "Our Solution"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                                    lineNumber: 203,
+                                                    lineNumber: 189,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                            lineNumber: 186,
+                                            lineNumber: 172,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -750,19 +735,19 @@ async function CaseStudyPage({ params }) {
                                             children: project.solution
                                         }, void 0, false, {
                                             fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                            lineNumber: 207,
+                                            lineNumber: 193,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                    lineNumber: 185,
+                                    lineNumber: 171,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/case-study/[slug]/page.tsx",
-                            lineNumber: 156,
+                            lineNumber: 142,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -773,7 +758,7 @@ async function CaseStudyPage({ params }) {
                                     children: "Key Features"
                                 }, void 0, false, {
                                     fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                    lineNumber: 215,
+                                    lineNumber: 201,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -796,17 +781,17 @@ async function CaseStudyPage({ params }) {
                                                             d: "m4.5 12.75 6 6 9-13.5"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                                            lineNumber: 230,
+                                                            lineNumber: 216,
                                                             columnNumber: 45
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                                        lineNumber: 222,
+                                                        lineNumber: 208,
                                                         columnNumber: 41
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                                    lineNumber: 221,
+                                                    lineNumber: 207,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -814,24 +799,24 @@ async function CaseStudyPage({ params }) {
                                                     children: feature
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                                    lineNumber: 237,
+                                                    lineNumber: 223,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                            lineNumber: 220,
+                                            lineNumber: 206,
                                             columnNumber: 33
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                    lineNumber: 218,
+                                    lineNumber: 204,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/case-study/[slug]/page.tsx",
-                            lineNumber: 214,
+                            lineNumber: 200,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -842,7 +827,7 @@ async function CaseStudyPage({ params }) {
                                     children: "Technologies Used"
                                 }, void 0, false, {
                                     fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                    lineNumber: 247,
+                                    lineNumber: 233,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -852,29 +837,29 @@ async function CaseStudyPage({ params }) {
                                             children: tech
                                         }, index, false, {
                                             fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                            lineNumber: 252,
+                                            lineNumber: 238,
                                             columnNumber: 33
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                    lineNumber: 250,
+                                    lineNumber: 236,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/case-study/[slug]/page.tsx",
-                            lineNumber: 246,
+                            lineNumber: 232,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/case-study/[slug]/page.tsx",
-                    lineNumber: 144,
+                    lineNumber: 130,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/case-study/[slug]/page.tsx",
-                lineNumber: 143,
+                lineNumber: 129,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -889,12 +874,12 @@ async function CaseStudyPage({ params }) {
                                 children: "Ready to Build Something Amazing?"
                             }, void 0, false, {
                                 fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                lineNumber: 268,
+                                lineNumber: 254,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/case-study/[slug]/page.tsx",
-                            lineNumber: 267,
+                            lineNumber: 253,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -902,7 +887,7 @@ async function CaseStudyPage({ params }) {
                             children: "Let's discuss how we can help transform your business with AI and automation."
                         }, void 0, false, {
                             fileName: "[project]/app/case-study/[slug]/page.tsx",
-                            lineNumber: 272,
+                            lineNumber: 258,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -914,7 +899,7 @@ async function CaseStudyPage({ params }) {
                                     children: "Start Your Project"
                                 }, void 0, false, {
                                     fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                    lineNumber: 277,
+                                    lineNumber: 263,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -923,24 +908,24 @@ async function CaseStudyPage({ params }) {
                                     children: "View More Projects"
                                 }, void 0, false, {
                                     fileName: "[project]/app/case-study/[slug]/page.tsx",
-                                    lineNumber: 280,
+                                    lineNumber: 266,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/case-study/[slug]/page.tsx",
-                            lineNumber: 276,
+                            lineNumber: 262,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/case-study/[slug]/page.tsx",
-                    lineNumber: 266,
+                    lineNumber: 252,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/case-study/[slug]/page.tsx",
-                lineNumber: 265,
+                lineNumber: 251,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
@@ -955,17 +940,17 @@ async function CaseStudyPage({ params }) {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/case-study/[slug]/page.tsx",
-                        lineNumber: 290,
+                        lineNumber: 276,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/case-study/[slug]/page.tsx",
-                    lineNumber: 289,
+                    lineNumber: 275,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/case-study/[slug]/page.tsx",
-                lineNumber: 288,
+                lineNumber: 274,
                 columnNumber: 13
             }, this)
         ]

@@ -27,23 +27,9 @@ export default async function CaseStudyPage({
                 <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
                     <Link
                         href="/"
-                        className="text-[var(--gold-500)] hover:text-[var(--gold-400)] transition-colors flex items-center gap-2"
+                        className="flex items-center gap-3"
                     >
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth={2}
-                            stroke="currentColor"
-                            className="w-5 h-5"
-                        >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"
-                            />
-                        </svg>
-                        Back to Home
+                        <img src="/logo.png" alt="PrimeCrafters Logo" className="h-8 w-auto" />
                     </Link>
                     <Link
                         href="/#projects"
@@ -270,7 +256,7 @@ export default async function CaseStudyPage({
                         </span>
                     </h2>
                     <p className="text-lg text-[var(--text-secondary)] mb-8 max-w-2xl mx-auto">
-                        Let's discuss how we can help transform your business with AI and
+                        Let&apos;s discuss how we can help transform your business with AI and
                         automation.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">

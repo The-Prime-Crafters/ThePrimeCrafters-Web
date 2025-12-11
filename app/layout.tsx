@@ -29,6 +29,11 @@ export const metadata: Metadata = {
     "Custom AI Solutions",
   ],
   authors: [{ name: "PrimeCrafters" }],
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
   openGraph: {
     title: "PrimeCrafters | AI Automation Excellence",
     description:

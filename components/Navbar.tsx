@@ -5,7 +5,6 @@ import { useState, useEffect } from "react";
 const navLinks = [
   { name: "Services", href: "#services" },
   { name: "Projects", href: "#projects" },
-  { name: "Process", href: "#process" },
   { name: "Testimonials", href: "#testimonials" },
   { name: "Contact", href: "#contact" },
 ];
@@ -39,13 +38,7 @@ export default function Navbar() {
             className="flex items-center gap-3 group"
             aria-label="PrimeCrafters Home"
           >
-            <div className="relative w-10 h-10">
-              <div className="absolute inset-0 bg-gradient-to-br from-[#D4AF37] to-[#B8972F] rounded-lg transform rotate-45 group-hover:rotate-[55deg] transition-transform duration-300" />
-              <div className="absolute inset-[3px] bg-[#0a0a0a] rounded-md transform rotate-45" />
-              <span className="absolute inset-0 flex items-center justify-center text-[#D4AF37] font-bold text-lg font-[var(--font-cormorant)]">
-                P
-              </span>
-            </div>
+            <img src="/logo.png" alt="PrimeCrafters Logo" className="h-10 w-auto" />
             <span className="text-xl font-semibold tracking-wide font-[var(--font-cormorant)]">
               <span className="text-[#f5f5f5]">Prime</span>
               <span className="text-gradient-gold">Crafters</span>
