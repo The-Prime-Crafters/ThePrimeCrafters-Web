@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import type * as THREE_TYPES from "three";
 
 export default function Hero() {
   const [activeOption, setActiveOption] = useState(3);
@@ -30,8 +31,8 @@ export default function Hero() {
       // OPTION 1: Particle Network System
       if (activeOption === 1) {
         const particleCount = 100;
-        const particles: THREE.Mesh[] = [];
-        const connections: THREE.Line[] = [];
+        const particles: THREE_TYPES.Mesh[] = [];
+        const connections: THREE_TYPES.Line[] = [];
 
         const particleGeometry = new THREE.SphereGeometry(0.05, 8, 8);
         const particleMaterial = new THREE.MeshBasicMaterial({
@@ -76,7 +77,7 @@ export default function Hero() {
             particle.position.add(particle.userData.velocity);
 
             // Bounce off boundaries
-            ['x', 'y', 'z'].forEach(axis => {
+            (['x', 'y', 'z'] as const).forEach((axis: 'x' | 'y' | 'z') => {
               if (Math.abs(particle.position[axis]) > 5) {
                 particle.userData.velocity[axis] *= -1;
               }

@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://theprimecrafters.com
+Sitemap: https://theprimecrafters.com/sitemap.xml
