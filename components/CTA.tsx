@@ -15,7 +15,7 @@ export default function CTA() {
   const sectionRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
+    const observer = new IntersectionObserver( 
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsVisible(true);
@@ -24,7 +24,7 @@ export default function CTA() {
       { threshold: 0.1 }
     );
 
-    if (sectionRef.current) {
+    if (sectionRef.current) {    
       observer.observe(sectionRef.current);
     }
 
