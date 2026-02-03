@@ -6,6 +6,7 @@ export interface Project {
     image: string;
     slug: string;
     screenshot?: string;
+    websiteUrl?: string;
     fullDescription: string;
     challenge: string;
     solution: string;
@@ -27,6 +28,7 @@ export const projectsData: Project[] = [
         image: "🌐",
         slug: "3vltn",
         screenshot: "/3vltn.png",
+        websiteUrl: "https://3vltn.com/",
         fullDescription:
             "3vltn is a cutting-edge domain investment platform that revolutionizes how domain investors buy, sell, and market their domain portfolios. By leveraging advanced AI technology, the platform automates the entire sales process from campaign creation to deal closure.",
         challenge:
@@ -68,6 +70,7 @@ export const projectsData: Project[] = [
         image: "🏥",
         slug: "lmn8-ketamine-therapy",
         screenshot: "/lmn8.png",
+        websiteUrl: "https://lumen8health.com/",
         fullDescription:
             "lmn8 is a healthcare technology platform that bridges the gap between ketamine therapy clinics and patients seeking treatment. The platform uses AI to match patients with the most suitable clinics based on their specific needs, location, and treatment requirements.",
         challenge:

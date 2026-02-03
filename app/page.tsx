@@ -11,26 +11,26 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="h-screen w-full overflow-y-scroll snap-y snap-mandatory scroll-smooth">
-        <section className="h-screen w-full snap-start">
+      <main className="w-full scroll-smooth">
+        <section className="min-h-screen w-full">
           <Hero />
         </section>
-        <section className="min-h-screen lg:h-screen w-full snap-start flex flex-col justify-center">
+        <section className="w-full">
           <Services />
         </section>
-        <section className="min-h-screen lg:h-screen w-full snap-start flex flex-col justify-center">
+        <section className="w-full">
           <Projects />
         </section>
-        <section className="min-h-screen w-full snap-start flex flex-col justify-center">
+        <section className="w-full">
           <Stats />
         </section>
-        <section className="min-h-screen w-full snap-start flex flex-col justify-center">
+        <section className="w-full">
           <Testimonials />
         </section>
-        <section className="min-h-screen w-full snap-start flex flex-col justify-center">
+        <section className="w-full">
           <CTA />
         </section>
-        <section className="w-full snap-start">
+        <section className="w-full">
           <Footer />
         </section>
       </main>
