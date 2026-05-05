@@ -20,11 +20,23 @@ export async function generateMetadata({
   const project = projectsData.find((p) => p.slug === slug);
 
   if (!project) {
-    return { robots: { index: false, follow: false } };
+    return {
+      robots: { index: false, follow: false },
+    };
   }
 
+  const url = `https://www.theprimecrafters.com/case-study/${slug}`;
+
   return {
-    title: project.title,
+    title: `${project.title} | The Prime Crafters`,
+    description: project.description,
+    alternates: {
+      canonical: url,
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
   };
 }
 

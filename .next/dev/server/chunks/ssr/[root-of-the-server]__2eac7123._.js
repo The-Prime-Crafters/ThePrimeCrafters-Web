@@ -18,9 +18,9 @@ __turbopack_context__.s([
 ]);
 const projectsData = [
     {
-        title: "3vltn",
+        title: "3vltn Domain AI Platform Case Study",
         industry: "Domain Investment",
-        description: "A premier domain selling and purchasing platform tailored for domain investors with AI-powered campaigns and autonomous deal closing.",
+        description: "Discover how PrimeCrafters built the 3vltn AI platform for domain investors—automating campaigns, negotiations, and deal closing with 250% more closures.",
         results: [
             "AI Email Agent",
             "Automated Campaigns",
@@ -65,9 +65,9 @@ const projectsData = [
         ]
     },
     {
-        title: "lmn8 Ketamine Therapy AI",
+        title: "lmn8 Ketamine Therapy AI Case Study",
         industry: "Healthcare & AI",
-        description: "An innovative platform connecting ketamine therapy clinics with patients, streamlining the intake and matching process through AI.",
+        description: "Learn how PrimeCrafters built lmn8's HIPAA-compliant AI platform matching ketamine therapy patients with clinics—94% accuracy, 65% faster intake.",
         results: [
             "Patient-Clinic Matching",
             "AI Screening",
@@ -112,9 +112,9 @@ const projectsData = [
         ]
     },
     {
-        title: "Faithful Companion",
+        title: "Faithful Companion App Case Study",
         industry: "Mobile Application",
-        description: "A dedicated spiritual companion app for the Christian community, offering daily devotionals, prayer support, and church integration.",
+        description: "See how PrimeCrafters built Faithful Companion, a Christian spiritual app with 50K+ daily users, daily devotionals, prayer support, and church integration.",
         results: [
             "Daily Devotionals",
             "Prayer Community",
@@ -158,9 +158,9 @@ const projectsData = [
         ]
     },
     {
-        title: "RV Park AI Voice Agent",
+        title: "RV Park AI Voice Agent Case Study",
         industry: "Voice AI Automation",
-        description: "A specialized AI voice agent designed for RV parks across the US, handling reservations, inquiries, and customer service calls 24/7.",
+        description: "See how PrimeCrafters built an AI voice agent for RV parks that answers 100% of calls, automates bookings 24/7, and saves 30+ staff hours per week.",
         results: [
             "24/7 Availability",
             "Automated Bookings",
@@ -205,9 +205,9 @@ const projectsData = [
         ]
     },
     {
-        title: "Spectrum Voice Agent",
+        title: "Spectrum AI Voice Agent Case Study",
         industry: "Enterprise Sales AI",
-        description: "A high-performance voice agent developed for Spectrum to automate sales calls, qualify leads, and close deals efficiently.",
+        description: "Explore how PrimeCrafters built Spectrum's AI voice agent—handling 10K+ sales calls/month, boosting conversion by 45%, and cutting costs by 70%.",
         results: [
             "Sales Automation",
             "Lead Qualification",
@@ -253,9 +253,9 @@ const projectsData = [
         ]
     },
     {
-        title: "Lead Generation Tools",
+        title: "AI Lead Generation Tools Case Study",
         industry: "Marketing Tools",
-        description: "A suite of powerful lead generation tools designed to identify, qualify, and engage potential prospects across various industries.",
+        description: "Learn how PrimeCrafters' AI lead generation tools generate 50K+ leads/month, cut prospecting time by 90%, and integrate seamlessly with Salesforce and HubSpot.",
         results: [
             "Multi-Channel Scraping",
             "CRM Integration",
@@ -338,8 +338,17 @@ async function generateMetadata({ params }) {
             }
         };
     }
+    const url = `https://www.theprimecrafters.com/case-study/${slug}`;
     return {
-        title: project.title
+        title: `${project.title} | The Prime Crafters`,
+        description: project.description,
+        alternates: {
+            canonical: url
+        },
+        robots: {
+            index: true,
+            follow: true
+        }
     };
 }
 async function CaseStudyPage({ params }) {
@@ -365,12 +374,12 @@ async function CaseStudyPage({ params }) {
                                 className: "h-8 w-auto"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                                lineNumber: 52,
+                                lineNumber: 64,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                            lineNumber: 51,
+                            lineNumber: 63,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -379,18 +388,18 @@ async function CaseStudyPage({ params }) {
                             children: "View All Projects"
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                            lineNumber: 55,
+                            lineNumber: 67,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                    lineNumber: 50,
+                    lineNumber: 62,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                lineNumber: 49,
+                lineNumber: 61,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -406,7 +415,7 @@ async function CaseStudyPage({ params }) {
                                     children: project.image
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                                    lineNumber: 68,
+                                    lineNumber: 80,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -414,13 +423,13 @@ async function CaseStudyPage({ params }) {
                                     children: project.industry
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                                    lineNumber: 69,
+                                    lineNumber: 81,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                            lineNumber: 67,
+                            lineNumber: 79,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -428,7 +437,7 @@ async function CaseStudyPage({ params }) {
                             children: project.title
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                            lineNumber: 74,
+                            lineNumber: 86,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -436,7 +445,7 @@ async function CaseStudyPage({ params }) {
                             children: project.description
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                            lineNumber: 78,
+                            lineNumber: 90,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -449,7 +458,7 @@ async function CaseStudyPage({ params }) {
                                             children: item.value
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                                            lineNumber: 86,
+                                            lineNumber: 98,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -457,29 +466,29 @@ async function CaseStudyPage({ params }) {
                                             children: item.metric
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                                            lineNumber: 89,
+                                            lineNumber: 101,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                                    lineNumber: 85,
+                                    lineNumber: 97,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                            lineNumber: 83,
+                            lineNumber: 95,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                    lineNumber: 66,
+                    lineNumber: 78,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                lineNumber: 65,
+                lineNumber: 77,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -494,29 +503,29 @@ async function CaseStudyPage({ params }) {
                             className: "w-full h-full object-cover"
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                            lineNumber: 103,
+                            lineNumber: 115,
                             columnNumber: 15
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex items-center justify-center h-full text-gray-400",
                             children: "No Screenshot"
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                            lineNumber: 109,
+                            lineNumber: 121,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                        lineNumber: 101,
+                        lineNumber: 113,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                    lineNumber: 100,
+                    lineNumber: 112,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                lineNumber: 99,
+                lineNumber: 111,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -531,7 +540,7 @@ async function CaseStudyPage({ params }) {
                                     children: "Overview"
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                                    lineNumber: 122,
+                                    lineNumber: 134,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -539,13 +548,13 @@ async function CaseStudyPage({ params }) {
                                     children: project.fullDescription
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                                    lineNumber: 123,
+                                    lineNumber: 135,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                            lineNumber: 121,
+                            lineNumber: 133,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -558,20 +567,20 @@ async function CaseStudyPage({ params }) {
                                             children: "Challenge"
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                                            lineNumber: 131,
+                                            lineNumber: 143,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: project.challenge
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                                            lineNumber: 132,
+                                            lineNumber: 144,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                                    lineNumber: 130,
+                                    lineNumber: 142,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -581,26 +590,26 @@ async function CaseStudyPage({ params }) {
                                             children: "Solution"
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                                            lineNumber: 136,
+                                            lineNumber: 148,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: project.solution
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                                            lineNumber: 137,
+                                            lineNumber: 149,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                                    lineNumber: 135,
+                                    lineNumber: 147,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                            lineNumber: 129,
+                            lineNumber: 141,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -610,7 +619,7 @@ async function CaseStudyPage({ params }) {
                                     children: "Key Features"
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                                    lineNumber: 143,
+                                    lineNumber: 155,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -622,18 +631,18 @@ async function CaseStudyPage({ params }) {
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                                            lineNumber: 146,
+                                            lineNumber: 158,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                                    lineNumber: 144,
+                                    lineNumber: 156,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                            lineNumber: 142,
+                            lineNumber: 154,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -643,7 +652,7 @@ async function CaseStudyPage({ params }) {
                                     children: "Technologies"
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                                    lineNumber: 153,
+                                    lineNumber: 165,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -653,29 +662,29 @@ async function CaseStudyPage({ params }) {
                                             children: tech
                                         }, index, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                                            lineNumber: 156,
+                                            lineNumber: 168,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                                    lineNumber: 154,
+                                    lineNumber: 166,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                            lineNumber: 152,
+                            lineNumber: 164,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                    lineNumber: 119,
+                    lineNumber: 131,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                lineNumber: 118,
+                lineNumber: 130,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
@@ -687,13 +696,13 @@ async function CaseStudyPage({ params }) {
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-                lineNumber: 166,
+                lineNumber: 178,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/case-study/[slug]/page.tsx",
-        lineNumber: 47,
+        lineNumber: 59,
         columnNumber: 5
     }, this);
 }

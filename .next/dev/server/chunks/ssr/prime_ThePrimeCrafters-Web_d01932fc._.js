@@ -1372,9 +1372,9 @@ __turbopack_context__.s([
 ]);
 const projectsData = [
     {
-        title: "3vltn",
+        title: "3vltn Domain AI Platform Case Study",
         industry: "Domain Investment",
-        description: "A premier domain selling and purchasing platform tailored for domain investors with AI-powered campaigns and autonomous deal closing.",
+        description: "Discover how PrimeCrafters built the 3vltn AI platform for domain investors—automating campaigns, negotiations, and deal closing with 250% more closures.",
         results: [
             "AI Email Agent",
             "Automated Campaigns",
@@ -1419,9 +1419,9 @@ const projectsData = [
         ]
     },
     {
-        title: "lmn8 Ketamine Therapy AI",
+        title: "lmn8 Ketamine Therapy AI Case Study",
         industry: "Healthcare & AI",
-        description: "An innovative platform connecting ketamine therapy clinics with patients, streamlining the intake and matching process through AI.",
+        description: "Learn how PrimeCrafters built lmn8's HIPAA-compliant AI platform matching ketamine therapy patients with clinics—94% accuracy, 65% faster intake.",
         results: [
             "Patient-Clinic Matching",
             "AI Screening",
@@ -1466,9 +1466,9 @@ const projectsData = [
         ]
     },
     {
-        title: "Faithful Companion",
+        title: "Faithful Companion App Case Study",
         industry: "Mobile Application",
-        description: "A dedicated spiritual companion app for the Christian community, offering daily devotionals, prayer support, and church integration.",
+        description: "See how PrimeCrafters built Faithful Companion, a Christian spiritual app with 50K+ daily users, daily devotionals, prayer support, and church integration.",
         results: [
             "Daily Devotionals",
             "Prayer Community",
@@ -1512,9 +1512,9 @@ const projectsData = [
         ]
     },
     {
-        title: "RV Park AI Voice Agent",
+        title: "RV Park AI Voice Agent Case Study",
         industry: "Voice AI Automation",
-        description: "A specialized AI voice agent designed for RV parks across the US, handling reservations, inquiries, and customer service calls 24/7.",
+        description: "See how PrimeCrafters built an AI voice agent for RV parks that answers 100% of calls, automates bookings 24/7, and saves 30+ staff hours per week.",
         results: [
             "24/7 Availability",
             "Automated Bookings",
@@ -1559,9 +1559,9 @@ const projectsData = [
         ]
     },
     {
-        title: "Spectrum Voice Agent",
+        title: "Spectrum AI Voice Agent Case Study",
         industry: "Enterprise Sales AI",
-        description: "A high-performance voice agent developed for Spectrum to automate sales calls, qualify leads, and close deals efficiently.",
+        description: "Explore how PrimeCrafters built Spectrum's AI voice agent—handling 10K+ sales calls/month, boosting conversion by 45%, and cutting costs by 70%.",
         results: [
             "Sales Automation",
             "Lead Qualification",
@@ -1607,9 +1607,9 @@ const projectsData = [
         ]
     },
     {
-        title: "Lead Generation Tools",
+        title: "AI Lead Generation Tools Case Study",
         industry: "Marketing Tools",
-        description: "A suite of powerful lead generation tools designed to identify, qualify, and engage potential prospects across various industries.",
+        description: "Learn how PrimeCrafters' AI lead generation tools generate 50K+ leads/month, cut prospecting time by 90%, and integrate seamlessly with Salesforce and HubSpot.",
         results: [
             "Multi-Channel Scraping",
             "CRM Integration",

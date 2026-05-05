@@ -326,8 +326,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d
 ;
 function generateMetadata() {
     return {
-        title: "The Prime Crafters | AI & Automation Agency",
-        description: "We help businesses grow with AI automation, voice agents, and modern web solutions.",
+        title: "AI Automation Solutions | PrimeCrafters",
+        description: "PrimeCrafters delivers cutting-edge AI automation solutions that streamline operations, boost efficiency, and drive measurable ROI for businesses worldwide.",
         alternates: {
             canonical: "https://www.theprimecrafters.com/"
         },

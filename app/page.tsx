@@ -10,9 +10,9 @@ import Footer from "@/components/Footer";
 /* ✅ SEO FIX: Canonical + Robots */
 export function generateMetadata() {
   return {
-    title: "The Prime Crafters | AI & Automation Agency",
+    title: "AI Automation Solutions | PrimeCrafters",
     description:
-      "We help businesses grow with AI automation, voice agents, and modern web solutions.",
+      "PrimeCrafters delivers cutting-edge AI automation solutions that streamline operations, boost efficiency, and drive measurable ROI for businesses worldwide.",
 
     alternates: {
       canonical: "https://www.theprimecrafters.com/", // ✅ IMPORTANT

@@ -557,10 +557,6 @@
     margin-top: calc(var(--spacing) * 16);
   }
 
-  .mt-20 {
-    margin-top: calc(var(--spacing) * 20);
-  }
-
   .mb-1 {
     margin-bottom: calc(var(--spacing) * 1);
   }
@@ -868,7 +864,7 @@
     max-width: var(--container-sm);
   }
 
-  .flex-grow, .grow {
+  .flex-grow {
     flex-grow: 1;
   }
 
