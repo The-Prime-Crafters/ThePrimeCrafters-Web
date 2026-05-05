@@ -7,6 +7,24 @@ import Testimonials from "@/components/Testimonials";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 
+/* ✅ SEO FIX: Canonical + Robots */
+export function generateMetadata() {
+  return {
+    title: "The Prime Crafters | AI & Automation Agency",
+    description:
+      "We help businesses grow with AI automation, voice agents, and modern web solutions.",
+
+    alternates: {
+      canonical: "https://www.theprimecrafters.com/", // ✅ IMPORTANT
+    },
+
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
+}
+
 export default function Home() {
   return (
     <>

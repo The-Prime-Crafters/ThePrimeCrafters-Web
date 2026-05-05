@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/case-study/3vltn":{},"/case-study/lmn8-ketamine-therapy":{},"/case-study/faithful-companion":{},"/case-study/rv-park-voice-agent":{},"/case-study/spectrum-voice-agent":{},"/case-study/lead-generation-tools":{}},"dynamicRoutes":{"/case-study/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/case-study/[slug]","routeRegex":"^\\/case\\-study\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"376297aefa31e936c73a2dea69873fa3","previewModeSigningKey":"f7dc7510578e18db41ca9055a03bff823ae5143908a7db49e44f8dc1bdec8482","previewModeEncryptionKey":"2ce690804535a671db665fe50b105b0079e0440cf017a5c22f07369e766379d0"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "eacc3413b05c2b7568483ca4d9f5b53b",
+    "previewModeSigningKey": "45cd3bc82f468be435e4fe706b3342eb383dbea18ac4d6515b00c848187f4330",
+    "previewModeEncryptionKey": "55a4729ebaee14e1c41adbad81cf3a7390c99de31aec46e68fc996f875b7d742"
+  }
+}

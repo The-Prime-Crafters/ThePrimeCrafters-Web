@@ -6,8 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://theprimecrafters.com/sitemap.xml",
-    host: "https://theprimecrafters.com",
+    sitemap: "https://www.theprimecrafters.com/sitemap.xml",
   };
 }
-
