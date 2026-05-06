@@ -76,15 +76,8 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$o
 const metadata = {
     title: "PrimeCrafters | AI Automation Excellence",
     description: "Transform your business with cutting-edge AI automation solutions. PrimeCrafters delivers proven results with a track record of successful projects.",
-    metadataBase: new URL("https://theprimecrafters.com"),
-    keywords: [
-        "AI Automation",
-        "Business Automation",
-        "AI Integration",
-        "Process Automation",
-        "Workflow Optimization",
-        "Custom AI Solutions"
-    ],
+    // ✅ FIXED: use www
+    metadataBase: new URL("https://www.theprimecrafters.com"),
     authors: [
         {
             name: "PrimeCrafters"
@@ -103,7 +96,7 @@ const metadata = {
         description: "Transform your business with cutting-edge AI automation solutions.",
         type: "website",
         locale: "en_US",
-        url: "https://theprimecrafters.com",
+        url: "https://www.theprimecrafters.com",
         siteName: "PrimeCrafters"
     },
     twitter: {
@@ -127,9 +120,9 @@ function RootLayout({ children }) {
                         __html: JSON.stringify({
                             "@context": "https://schema.org",
                             "@type": "Organization",
-                            url: "https://theprimecrafters.com",
+                            url: "https://www.theprimecrafters.com",
                             name: "PrimeCrafters",
-                            logo: "https://theprimecrafters.com/logo.png",
+                            logo: "https://www.theprimecrafters.com/logo.png",
                             sameAs: [
                                 "https://www.linkedin.com/company/the-prime-crafters/posts/?feedView=all",
                                 "https://www.instagram.com/theprimecrafters/",
@@ -139,7 +132,7 @@ function RootLayout({ children }) {
                     }
                 }, void 0, false, {
                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/layout.tsx",
-                    lineNumber: 70,
+                    lineNumber: 69,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$script$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -149,7 +142,7 @@ function RootLayout({ children }) {
                         __html: JSON.stringify({
                             "@context": "https://schema.org",
                             "@type": "WebSite",
-                            url: "https://theprimecrafters.com",
+                            url: "https://www.theprimecrafters.com",
                             name: "PrimeCrafters | AI Automation Excellence"
                         })
                     }
@@ -162,12 +155,12 @@ function RootLayout({ children }) {
             ]
         }, void 0, true, {
             fileName: "[project]/prime/ThePrimeCrafters-Web/app/layout.tsx",
-            lineNumber: 67,
+            lineNumber: 66,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/layout.tsx",
-        lineNumber: 66,
+        lineNumber: 65,
         columnNumber: 5
     }, this);
 }

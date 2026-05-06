@@ -21,33 +21,32 @@ export const metadata: Metadata = {
   title: "PrimeCrafters | AI Automation Excellence",
   description:
     "Transform your business with cutting-edge AI automation solutions. PrimeCrafters delivers proven results with a track record of successful projects.",
-  metadataBase: new URL("https://theprimecrafters.com"),
-  keywords: [
-    "AI Automation",
-    "Business Automation",
-    "AI Integration",
-    "Process Automation",
-    "Workflow Optimization",
-    "Custom AI Solutions",
-  ],
+
+  // ✅ FIXED: use www
+  metadataBase: new URL("https://www.theprimecrafters.com"),
+
   authors: [{ name: "PrimeCrafters" }],
+
   icons: {
     icon: "/logo.png",
     shortcut: "/logo.png",
     apple: "/logo.png",
   },
+
   alternates: {
-    canonical: "/",
+    canonical: "/", // ✅ resolves to https://www.theprimecrafters.com/
   },
+
   openGraph: {
     title: "PrimeCrafters | AI Automation Excellence",
     description:
       "Transform your business with cutting-edge AI automation solutions.",
     type: "website",
     locale: "en_US",
-    url: "https://theprimecrafters.com",
+    url: "https://www.theprimecrafters.com", // ✅ FIXED
     siteName: "PrimeCrafters",
   },
+
   twitter: {
     card: "summary_large_image",
     title: "PrimeCrafters | AI Automation Excellence",
@@ -59,9 +58,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en" className="dark">
       <body
@@ -74,9 +73,9 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              url: "https://theprimecrafters.com",
+              url: "https://www.theprimecrafters.com", // ✅ FIXED
               name: "PrimeCrafters",
-              logo: "https://theprimecrafters.com/logo.png",
+              logo: "https://www.theprimecrafters.com/logo.png", // ✅ FIXED
               sameAs: [
                 "https://www.linkedin.com/company/the-prime-crafters/posts/?feedView=all",
                 "https://www.instagram.com/theprimecrafters/",
@@ -85,6 +84,7 @@ export default function RootLayout({
             }),
           }}
         />
+
         <Script
           id="jsonld-website"
           type="application/ld+json"
@@ -92,11 +92,12 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              url: "https://theprimecrafters.com",
+              url: "https://www.theprimecrafters.com", // ✅ FIXED
               name: "PrimeCrafters | AI Automation Excellence",
             }),
           }}
         />
+
         {children}
       </body>
     </html>
