@@ -61,6 +61,12 @@
       "namedRegex": "^/_not\\-found(?:/)?$"
     },
     {
+      "page": "/aboutus",
+      "regex": "^/aboutus(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/aboutus(?:/)?$"
+    },
+    {
       "page": "/portfolio",
       "regex": "^/portfolio(?:/)?$",
       "routeKeys": {},
