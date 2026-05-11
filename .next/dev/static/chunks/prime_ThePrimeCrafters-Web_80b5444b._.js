@@ -14,16 +14,16 @@ var _s = __turbopack_context__.k.signature();
 ;
 const navLinks = [
     {
-        name: "About Us",
-        href: "/aboutus"
-    },
-    {
         name: "Services",
         href: "#services"
     },
     {
         name: "Projects",
         href: "#projects"
+    },
+    {
+        name: "About",
+        href: "/aboutus"
     },
     {
         name: "Testimonials",

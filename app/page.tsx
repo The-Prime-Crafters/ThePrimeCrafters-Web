@@ -7,6 +7,7 @@ import Testimonials from "@/components/Testimonials";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 
+
 /* ✅ SEO FIX: Canonical + Robots */
 export function generateMetadata() {
   return {
