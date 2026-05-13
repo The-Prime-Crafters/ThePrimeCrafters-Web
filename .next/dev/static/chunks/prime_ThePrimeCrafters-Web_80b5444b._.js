@@ -15,7 +15,7 @@ var _s = __turbopack_context__.k.signature();
 const navLinks = [
     {
         name: "Services",
-        href: "#services"
+        href: "/services"
     },
     {
         name: "Projects",

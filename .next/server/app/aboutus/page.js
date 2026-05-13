@@ -1,6 +1,6 @@
 var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/aboutus/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__211da7f6._.js")
-R.c("server/chunks/ssr/prime_ThePrimeCrafters-Web_d441cf2f._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__41fc3e15._.js")
+R.c("server/chunks/ssr/prime_ThePrimeCrafters-Web_app_aboutus_012f423f._.js")
 R.c("server/chunks/ssr/5c776_next_dist_bdc349e2._.js")
 R.c("server/chunks/ssr/prime_ThePrimeCrafters-Web_c602f0cb._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__213f515f._.js")

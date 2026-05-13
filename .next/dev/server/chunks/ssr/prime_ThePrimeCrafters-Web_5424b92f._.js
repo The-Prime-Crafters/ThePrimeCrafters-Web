@@ -14,7 +14,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d
 const navLinks = [
     {
         name: "Services",
-        href: "#services"
+        href: "/services"
     },
     {
         name: "Projects",
