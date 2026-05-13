@@ -1324,7 +1324,7 @@ function CaseStudiesPreview() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                href: "/case-studies",
+                                href: "/#projects",
                                 "aria-label": "View all AI automation case studies",
                                 className: "text-[var(--gold-500)] hover:text-[var(--gold-400)] transition-colors whitespace-nowrap text-lg",
                                 children: "View All Case Studies →"
@@ -1557,7 +1557,7 @@ function CTASection() {
                             className: "flex flex-wrap justify-center gap-4 relative z-10",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                    href: "/contact",
+                                    href: "/#contact",
                                     "aria-label": "Schedule a free AI automation consultation",
                                     className: "inline-flex px-8 py-4 rounded-2xl bg-[var(--gold-500)] text-black font-semibold hover:scale-105 hover:shadow-lg hover:shadow-[var(--gold-500)]/20 transition-all duration-300",
                                     children: "Schedule a Free Consultation"
@@ -1567,7 +1567,7 @@ function CTASection() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                    href: "/contact",
+                                    href: "/#contact",
                                     "aria-label": "Contact The Prime Crafters",
                                     className: "inline-flex px-8 py-4 rounded-2xl border border-[var(--border-subtle)] glass-card hover:border-[var(--gold-500)]/40 hover:scale-105 transition-all duration-300",
                                     children: "Contact Us"

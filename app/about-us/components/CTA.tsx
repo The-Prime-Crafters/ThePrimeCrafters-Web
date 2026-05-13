@@ -41,7 +41,7 @@ export default function CTASection() {
           {/* CTA BUTTONS */}
           <div className="flex flex-wrap justify-center gap-4 relative z-10">
             <Link
-              href="/contact"
+              href="/#contact"
               aria-label="Schedule a free AI automation consultation"
               className="inline-flex px-8 py-4 rounded-2xl bg-[var(--gold-500)] text-black font-semibold hover:scale-105 hover:shadow-lg hover:shadow-[var(--gold-500)]/20 transition-all duration-300"
             >
@@ -49,7 +49,7 @@ export default function CTASection() {
             </Link>
 
             <Link
-              href="/contact"
+              href="/#contact"
               aria-label="Contact The Prime Crafters"
               className="inline-flex px-8 py-4 rounded-2xl border border-[var(--border-subtle)] glass-card hover:border-[var(--gold-500)]/40 hover:scale-105 transition-all duration-300"
             >

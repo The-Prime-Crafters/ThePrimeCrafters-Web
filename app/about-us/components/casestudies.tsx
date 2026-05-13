@@ -49,7 +49,7 @@ export default function CaseStudiesPreview() {
 
           {/* CTA */}
           <Link
-            href="/case-studies"
+            href="/#projects"
             aria-label="View all AI automation case studies"
             className="text-[var(--gold-500)] hover:text-[var(--gold-400)] transition-colors whitespace-nowrap text-lg"
           >

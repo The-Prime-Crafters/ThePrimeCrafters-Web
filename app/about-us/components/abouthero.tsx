@@ -75,7 +75,7 @@ export default function AboutHero() {
           {/* CTA BUTTONS */}
           <div className="flex flex-wrap gap-4">
             <Link
-              href="/contact"
+              href="/#contact"
               aria-label="Book a free AI automation consultation"
               className="px-7 py-4 rounded-2xl bg-[var(--gold-500)] text-black font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[var(--gold-500)]/20 active:scale-95"
             >
@@ -83,7 +83,7 @@ export default function AboutHero() {
             </Link>
 
             <Link
-              href="/case-studies"
+              href="/#projects"
               aria-label="View AI automation case studies"
               className="px-7 py-4 rounded-2xl border border-[var(--border-subtle)] glass-card transition-all duration-300 hover:scale-105 hover:border-[var(--gold-500)]/50"
             >
