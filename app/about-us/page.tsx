@@ -18,7 +18,10 @@ export const metadata: Metadata = {
 
   description:
     "Learn about The Prime Crafters — an AI automation agency helping businesses scale with AI voice agents, workflow automation, custom chatbots, and intelligent business systems.",
-
+     alternates: {
+    canonical: "https://theprimecrafters.com/about-us", // 👈 add this
+  },
+ 
   keywords: [
     "AI Automation Agency",
     "AI Solutions Company",
