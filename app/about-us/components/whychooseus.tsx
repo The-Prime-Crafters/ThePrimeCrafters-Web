@@ -4,24 +4,28 @@ import { useEffect, useState } from "react";
 
 export default function WhyChooseUs() {
   const features = [
-    "Custom AI Automation Solutions",
-    "Fast AI System Implementation",
-    "Scalable Business Infrastructure",
-    "Dedicated Long-Term Support",
+    "Custom Solutions, Not Templates",
+    "Fast Implementation",
+    "Built to Scale",
+    "Dedicated Support",
   ];
 
   const highlights = [
     {
-      title: "2x Faster AI Deployment",
-      desc: "We use optimized development workflows to deliver production-ready AI automation systems significantly faster than traditional agencies.",
+      title: "Custom Solutions, Not Templates",
+      desc: "We don't plug in off-the-shelf tools and call it automation. Every system is engineered from the ground up to match your exact workflows, data structure, and business goals.",
     },
     {
-      title: "Enterprise-Grade AI Infrastructure",
-      desc: "Every system is engineered with scalability, security, uptime, and long-term business growth in mind.",
+      title: "Fast Implementation",
+      desc: "We've built optimized development pipelines that allow us to ship production-ready AI systems 2x faster than the industry average — without cutting corners on quality.",
     },
     {
-      title: "24/7 Monitoring & Optimization",
-      desc: "Continuous monitoring, maintenance, and performance optimization ensure your AI systems operate reliably around the clock.",
+      title: "Built to Scale",
+      desc: "The systems we build today are designed to handle 10x your current volume tomorrow. Scalable architecture is a requirement, not an afterthought.",
+    },
+    {
+      title: "Dedicated Support",
+      desc: "We don't disappear after launch. Our team provides ongoing monitoring, optimization, and support to make sure your systems continue performing as your business grows.",
     },
   ];
 
@@ -31,14 +35,13 @@ export default function WhyChooseUs() {
     const interval = setInterval(() => {
       setActiveIndex((prev) => (prev + 1) % highlights.length);
     }, 2500);
-
     return () => clearInterval(interval);
   }, [highlights.length]);
 
   return (
     <section
       aria-labelledby="why-choose-heading"
-      className="py-28 px-6 relative overflow-hidden"
+      className="py-20 px-6 relative overflow-hidden"
     >
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-black via-[#0b0b0b] to-black" />
@@ -48,66 +51,40 @@ export default function WhyChooseUs() {
 
       <div className="relative max-w-6xl mx-auto">
         
-        {/* HEADER */}
-        <header className="text-center mb-16">
-          <span className="text-[var(--gold-400)] uppercase tracking-widest text-sm">
-            Why Choose The Prime Crafters
-          </span>
+         
 
-          <h2
+          {/* HEADING — from doc Section 5 */}
+          <h1
             id="why-choose-heading"
-            className="text-5xl md:text-6xl font-bold mt-6"
+            className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] mt-6 mb-8 text-gradient-gold"
           >
-            Custom AI Automation Built For{" "}
-            <span className="text-[var(--gold-500)]">
-              Long-Term Business Growth
-            </span>
-          </h2>
+            Why Choose The Prime Crafters
+          </h1>
 
-          <p className="mt-6 text-lg text-[var(--text-secondary)] max-w-3xl mx-auto leading-relaxed">
-            The Prime Crafters is a custom AI automation agency focused on
-            building scalable systems that streamline operations, reduce manual
-            workload, and support sustainable business growth. Unlike generic
-            agencies, we engineer deeply integrated AI infrastructure tailored
-            specifically to your workflows and operational goals.
-          </p>
-        </header>
-
-        {/* MAIN CONTENT */}
-        <article className="glass-card rounded-3xl p-12 md:p-16 border border-[var(--border-subtle)] relative overflow-hidden">
           
-          {/* Glow */}
+
+          
+
+        {/* MAIN CONTENT CARD */}
+        <article className="glass-card rounded-3xl p-8 sm:p-12 md:p-16 border border-[var(--border-subtle)] relative overflow-hidden">
           <div className="absolute top-[-100px] right-[-100px] w-[300px] h-[300px] bg-[var(--gold-500)]/10 blur-[120px] rounded-full" />
 
-          <div className="grid md:grid-cols-2 gap-12">
-            
+          <div className="grid md:grid-cols-2 gap-10 sm:gap-12">
             {/* LEFT SIDE */}
             <div>
-              <h3 className="text-2xl font-semibold mb-4">
-                What Sets Our AI Automation Agency Apart
-              </h3>
-
-              <p className="text-[var(--text-secondary)] leading-relaxed">
-                We don’t rely on cookie-cutter software or prebuilt automation
-                templates. Every AI solution is custom engineered to match your
-                business processes, data structure, integrations, and long-term
-                scaling requirements.
+              
+              <p className="text-sm sm:text-base text-[var(--text-secondary)] leading-relaxed">
+                 There's no shortage of agencies claiming to do AI. What sets us
+            apart is how we do it — deeply integrated, fully custom, and built
+            to last.
               </p>
-
-              <ul className="mt-8 space-y-4">
+              <ul className="mt-6 sm:mt-8 space-y-3 sm:space-y-4">
                 {features.map((feature) => (
-                  <li
-                    key={feature}
-                    className="flex items-center gap-3"
-                  >
-                    <span
-                      className="text-[var(--gold-500)] text-xl"
-                      aria-hidden="true"
-                    >
+                  <li key={feature} className="flex items-center gap-3">
+                    <span className="text-[var(--gold-500)] text-lg sm:text-xl">
                       ✔
                     </span>
-
-                    <span className="font-medium">
+                    <span className="text-sm sm:text-base font-medium">
                       {feature}
                     </span>
                   </li>
@@ -115,31 +92,20 @@ export default function WhyChooseUs() {
               </ul>
             </div>
 
-            {/* RIGHT SIDE */}
-            <div
-              className="flex items-center"
-              aria-label="AI agency highlights"
-            >
+            {/* RIGHT SIDE — rotating highlight */}
+            <div className="flex items-center" aria-label="AI agency highlights">
               <div className="w-full">
-                
-                {/* ACTIVE CARD */}
-                <div className="p-8 rounded-3xl border border-[var(--gold-500)] bg-[var(--gold-500)]/10 transition-all duration-500">
-                  <h3 className="text-2xl font-semibold text-white mb-3">
+                <div className="p-6 sm:p-8 rounded-3xl border border-[var(--gold-500)] bg-[var(--gold-500)]/10 transition-all duration-500">
+                  <h3 className="text-xl sm:text-2xl font-semibold text-white mb-3">
                     {highlights[activeIndex].title}
                   </h3>
-
-                  <p className="text-[var(--text-secondary)] leading-relaxed">
+                  <p className="text-sm sm:text-base text-[var(--text-secondary)] leading-relaxed">
                     {highlights[activeIndex].desc}
                   </p>
-
-                  <div className="mt-6 w-2 h-2 bg-[var(--gold-500)] rounded-full animate-pulse" />
+                  <div className="mt-5 sm:mt-6 w-2 h-2 bg-[var(--gold-500)] rounded-full animate-pulse" />
                 </div>
 
-                {/* INDICATORS */}
-                <div
-                  className="flex gap-2 mt-6 justify-center"
-                  aria-hidden="true"
-                >
+                <div className="flex gap-2 mt-5 justify-center" aria-hidden="true">
                   {highlights.map((_, i) => (
                     <div
                       key={i}

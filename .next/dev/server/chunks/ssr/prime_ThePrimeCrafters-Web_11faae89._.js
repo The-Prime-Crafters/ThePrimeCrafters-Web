@@ -24,7 +24,7 @@ const navLinks = [
     },
     {
         name: "About",
-        href: "/aboutus"
+        href: "/about-us"
     },
     {
         name: "Testimonials",

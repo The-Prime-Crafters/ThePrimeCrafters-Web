@@ -1,0 +1,23 @@
+{
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [],
+  "pages": {
+    "/_app": [
+      "static/chunks/5c776_next_dist_compiled_dc7be57a._.js",
+      "static/chunks/5c776_next_dist_shared_lib_ce08299b._.js",
+      "static/chunks/5c776_next_dist_client_d3ef4616._.js",
+      "static/chunks/5c776_next_dist_e8c2ed5f._.js",
+      "static/chunks/5c776_next_app_cc1340fc.js",
+      "static/chunks/[next]_entry_page-loader_ts_e5e0c3d4._.js",
+      "static/chunks/5c776_react-dom_ba0c20fb._.js",
+      "static/chunks/5c776_650cab25._.js",
+      "static/chunks/[root-of-the-server]__a194fec0._.js",
+      "static/chunks/prime_ThePrimeCrafters-Web_pages__app_2da965e7._.js",
+      "static/chunks/turbopack-prime_ThePrimeCrafters-Web_pages__app_3a276513._.js"
+    ]
+  },
+  "ampFirstPages": []
+}

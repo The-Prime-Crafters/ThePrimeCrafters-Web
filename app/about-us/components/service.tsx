@@ -1,150 +1,124 @@
+"use client";
+
+import { useEffect, useState } from "react";
+
 const services = [
   {
     title: "AI Voice Agents",
     description:
-      "Deploy intelligent AI voice systems that automate inbound calls, appointment scheduling, lead qualification, and customer support — available 24/7 without manual intervention.",
+      "Intelligent voice systems that handle inbound calls, qualify leads, book appointments, and manage customer interactions — 24 hours a day, without a human on the line.",
   },
   {
     title: "Workflow Automation",
     description:
-      "Automate repetitive business operations and streamline internal processes using AI-powered workflow systems that improve speed, accuracy, and operational efficiency.",
+      "We map your most repetitive business processes and replace them with automated systems that run faster, more accurately, and at a fraction of the cost.",
   },
   {
     title: "Custom AI Chatbots",
     description:
-      "Build human-like AI chatbot systems trained specifically on your business processes, services, and customer interactions for support, onboarding, and sales.",
+      "Human-like chat systems trained on your business data — for sales, support, onboarding, or internal operations. Deployed on your website, CRM, or messaging platform.",
   },
   {
-    title: "CRM Integrations",
+    title: "CRM & System Integrations",
     description:
-      "Connect CRMs, APIs, databases, and third-party platforms into one intelligent automation ecosystem that centralizes operations and improves productivity.",
+      "We connect your tools — CRMs, APIs, databases, and third-party platforms — into one seamless, automated ecosystem that keeps your data flowing and your team unblocked.",
+  },
+  {
+    title: "AI Strategy & Automation Consulting",
+    description:
+      "Not sure where to start? We analyze your current workflows, identify the highest-ROI automation opportunities, and build a roadmap for implementing AI across your business.",
   },
 ];
 
 export default function ServicesOverview() {
+  const [active, setActive] = useState(0);
+
+  // auto rotate (dynamic feel)
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActive((prev) => (prev + 1) % services.length);
+    }, 3500);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
-    <section className="py-28 px-6 relative overflow-hidden">
+    <section className="py-24 px-6 relative overflow-hidden">
       {/* BACKGROUND */}
       <div className="absolute inset-0 bg-gradient-to-b from-black via-[#0b0b0b] to-black" />
 
       {/* GLOW */}
-      <div className="absolute top-[-120px] left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-[var(--gold-500)]/5 blur-[140px] rounded-full" />
+      <div className="absolute top-[-150px] left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-[var(--gold-500)]/5 blur-[160px] rounded-full" />
 
-      <div className="max-w-7xl mx-auto relative z-10">
-        {/* HEADER */}
-        <div className="mb-20 text-center">
-          {/* LABEL */}
-          <span className="text-[var(--gold-400)] uppercase tracking-widest text-sm">
-            What We Do
-          </span>
+      <div className="max-w-6xl mx-auto relative z-10">
 
-          {/* HEADING */}
-          <h2 className="text-5xl md:text-6xl font-bold mt-6 leading-tight">
-            AI Solutions Built For
-            <span className="text-[var(--gold-500)]">
-              {" "}
-              Business Growth
-            </span>
-          </h2>
+        {/* TITLE */}
+        <h1 className="text-[var(--gold-500)] text-5xl md:text-6xl font-bold mb-4">
+          What We Do
+        </h1>
 
-          {/* INTRO */}
-          <p className="mt-6 text-lg text-[var(--text-secondary)] max-w-3xl mx-auto leading-relaxed">
-            We design and develop intelligent AI automation systems
-            that help businesses eliminate manual work, optimize
-            operations, improve customer experiences, and scale faster
-            using modern automation infrastructure.
-          </p>
-        </div>
+        <p className="text-[var(--text-secondary)] max-w-3xl mb-12 leading-relaxed">
+          We design and build AI-powered systems that automate your operations,
+          reduce workload, and create the infrastructure your business needs to scale — without adding headcount.
+        </p>
 
-        {/* GRID */}
-        <div className="grid lg:grid-cols-12 gap-6 items-stretch">
-          {/* FEATURED SERVICE */}
-          <article className="lg:col-span-5">
-            <div className="glass-card rounded-3xl p-10 border border-[var(--border-subtle)] h-full relative overflow-hidden hover:border-[var(--gold-500)]/30 transition-all duration-300">
-              {/* GLOW */}
-              <div className="absolute top-[-80px] right-[-80px] w-[200px] h-[200px] bg-[var(--gold-500)]/10 blur-[100px] rounded-full" />
+        {/* BIG MASTER CARD */}
+        <div className="grid lg:grid-cols-2 gap-8 glass-card p-6 md:p-10 rounded-3xl border border-[var(--border-subtle)] relative overflow-hidden">
 
-              {/* ICON */}
-              <div className="text-[var(--gold-500)] text-4xl mb-6">
-                ✦
-              </div>
+          {/* LEFT SIDE - SMALL SELECTABLE CARDS */}
+          <div className="space-y-3">
+            {services.map((service, index) => {
+              const isActive = index === active;
 
-              {/* TITLE */}
-              <h3 className="text-3xl font-semibold mb-5 leading-snug">
-                AI Strategy & Automation Systems
-              </h3>
-
-              {/* DESCRIPTION */}
-              <p className="text-[var(--text-secondary)] leading-relaxed text-lg">
-                We build end-to-end AI automation systems that replace
-                slow manual workflows, streamline operations, and
-                create scalable digital infrastructure tailored to your
-                business goals and operational needs.
-              </p>
-
-              {/* FEATURES */}
-              <div className="mt-10 space-y-4">
-                <div className="flex items-start gap-3 text-sm text-[var(--text-secondary)] leading-relaxed">
-                  <span className="text-[var(--gold-500)] mt-0.5">
-                    ✔
-                  </span>
-
-                  <span>
-                    Workflow automation systems that reduce repetitive
-                    tasks and improve operational efficiency.
-                  </span>
+              return (
+                <div
+                  key={service.title}
+                  onClick={() => setActive(index)}
+                  className={`cursor-pointer p-5 rounded-2xl border transition-all duration-300 ${
+                    isActive
+                      ? "bg-[var(--gold-500)]/10 border-[var(--gold-500)] scale-[1.02]"
+                      : "border-[var(--border-subtle)] opacity-60 hover:opacity-100"
+                  }`}
+                >
+                  <h3 className="font-semibold text-white">
+                    {service.title}
+                  </h3>
                 </div>
+              );
+            })}
+          </div>
 
-                <div className="flex items-start gap-3 text-sm text-[var(--text-secondary)] leading-relaxed">
-                  <span className="text-[var(--gold-500)] mt-0.5">
-                    ✔
-                  </span>
+          {/* RIGHT SIDE - DYNAMIC CONTENT */}
+          <div className="flex flex-col justify-center p-6 md:p-10 rounded-2xl border border-[var(--border-subtle)] bg-black/30 relative overflow-hidden">
 
-                  <span>
-                    AI integration systems connecting CRMs, APIs, and
-                    third-party business tools seamlessly.
-                  </span>
-                </div>
+            {/* glow */}
+            <div className="absolute top-[-100px] right-[-100px] w-[250px] h-[250px] bg-[var(--gold-500)]/10 blur-[120px] rounded-full" />
 
-                <div className="flex items-start gap-3 text-sm text-[var(--text-secondary)] leading-relaxed">
-                  <span className="text-[var(--gold-500)] mt-0.5">
-                    ✔
-                  </span>
-
-                  <span>
-                    Business process optimization designed to save
-                    time, reduce overhead, and increase productivity.
-                  </span>
-                </div>
-              </div>
+            <div className="text-[var(--gold-500)] text-sm uppercase tracking-widest mb-3">
+              Service Detail
             </div>
-          </article>
 
-          {/* OTHER SERVICES */}
-          <div className="lg:col-span-7 grid sm:grid-cols-2 gap-6">
-            {services.map((service, index) => (
-              <article
-                key={index}
-                className="glass-card rounded-3xl p-8 border border-[var(--border-subtle)] hover:-translate-y-2 hover:border-[var(--gold-500)]/30 transition-all duration-300"
-              >
-                {/* ICON */}
-                <div className="text-[var(--gold-500)] text-2xl mb-4">
-                  ✦
-                </div>
+            <h2 className="text-2xl md:text-3xl font-semibold mb-4">
+              {services[active].title}
+            </h2>
 
-                {/* TITLE */}
-                <h3 className="text-xl font-semibold mb-4">
-                  {service.title}
-                </h3>
+            <p className="text-[var(--text-secondary)] leading-relaxed text-base md:text-lg">
+              {services[active].description}
+            </p>
 
-                {/* DESCRIPTION */}
-                <p className="text-[var(--text-secondary)] text-sm leading-relaxed">
-                  {service.description}
-                </p>
-              </article>
-            ))}
+            {/* progress indicator */}
+            <div className="mt-8 h-1 w-full bg-white/10 rounded-full overflow-hidden">
+              <div
+                className="h-full bg-[var(--gold-500)] transition-all duration-500"
+                style={{
+                  width: `${((active + 1) / services.length) * 100}%`,
+                }}
+              />
+            </div>
+
           </div>
         </div>
+
       </div>
     </section>
   );

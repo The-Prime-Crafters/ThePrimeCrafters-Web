@@ -1,28 +1,13 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { Cormorant_Garamond, Outfit } from "next/font/google";
 import "./globals.css";
 
-const cormorant = Cormorant_Garamond({
-  variable: "--font-cormorant",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  display: "swap",
-});
-
-const outfit = Outfit({
-  variable: "--font-outfit",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   title: "PrimeCrafters | AI Automation Excellence",
   description:
     "Transform your business with cutting-edge AI automation solutions. PrimeCrafters delivers proven results with a track record of successful projects.",
 
-  // ✅ FIXED: use www
   metadataBase: new URL("https://www.theprimecrafters.com"),
 
   authors: [{ name: "PrimeCrafters" }],
@@ -34,7 +19,7 @@ export const metadata: Metadata = {
   },
 
   alternates: {
-    canonical: "/", // ✅ resolves to https://www.theprimecrafters.com/
+    canonical: "/",
   },
 
   openGraph: {
@@ -43,7 +28,7 @@ export const metadata: Metadata = {
       "Transform your business with cutting-edge AI automation solutions.",
     type: "website",
     locale: "en_US",
-    url: "https://www.theprimecrafters.com", // ✅ FIXED
+    url: "https://www.theprimecrafters.com",
     siteName: "PrimeCrafters",
   },
 
@@ -63,9 +48,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      <body
-        className={`${cormorant.variable} ${outfit.variable} antialiased bg-[#0a0a0a] text-[#f5f5f5]`}
-      >
+      <body className="antialiased bg-[#0a0a0a] text-[#f5f5f5]">
+        {/* Organization Schema */}
         <Script
           id="jsonld-organization"
           type="application/ld+json"
@@ -73,9 +57,9 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              url: "https://www.theprimecrafters.com", // ✅ FIXED
+              url: "https://www.theprimecrafters.com",
               name: "PrimeCrafters",
-              logo: "https://www.theprimecrafters.com/logo.png", // ✅ FIXED
+              logo: "https://www.theprimecrafters.com/logo.png",
               sameAs: [
                 "https://www.linkedin.com/company/the-prime-crafters/posts/?feedView=all",
                 "https://www.instagram.com/theprimecrafters/",
@@ -85,6 +69,7 @@ export default function RootLayout({
           }}
         />
 
+        {/* Website Schema */}
         <Script
           id="jsonld-website"
           type="application/ld+json"
@@ -92,7 +77,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              url: "https://www.theprimecrafters.com", // ✅ FIXED
+              url: "https://www.theprimecrafters.com",
               name: "PrimeCrafters | AI Automation Excellence",
             }),
           }}

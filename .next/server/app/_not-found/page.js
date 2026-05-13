@@ -5,7 +5,7 @@ R.c("server/chunks/ssr/5c776_next_dist_esm_build_templates_app-page_db4a0589.js"
 R.c("server/chunks/ssr/[root-of-the-server]__fb8f5fa8._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__15fa2494._.js")
 R.c("server/chunks/ssr/5c776_next_dist_3fd80ab8._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__ff2147ef._.js")
+R.c("server/chunks/ssr/prime_ThePrimeCrafters-Web_9d269ebd._.js")
 R.c("server/chunks/ssr/5c776_next_dist_client_components_faaf989a._.js")
 R.c("server/chunks/ssr/5c776_next_dist_client_components_builtin_forbidden_21a5d102.js")
 R.c("server/chunks/ssr/13b74_ThePrimeCrafters-Web__next-internal_server_app__not-found_page_actions_a8772921.js")

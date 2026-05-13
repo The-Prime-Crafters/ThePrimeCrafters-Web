@@ -13,7 +13,7 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url("../media/1b99372b3eaef0c8-s.p.758e15a8.woff2") format("woff2");
+  src: url("@vercel/turbopack-next/internal/font/google/font?{%22url%22:%22https://fonts.gstatic.com/s/outfit/v15/QGYvz_MVcBeNP4NJtEtqUYLknw.woff2%22,%22preload%22:true,%22has_size_adjust%22:true}") format("woff2");
   unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -31,7 +31,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../media/1b99372b3eaef0c8-s.p.758e15a8.woff2") format("woff2");
+  src: url("@vercel/turbopack-next/internal/font/google/font?{%22url%22:%22https://fonts.gstatic.com/s/outfit/v15/QGYvz_MVcBeNP4NJtEtqUYLknw.woff2%22,%22preload%22:true,%22has_size_adjust%22:true}") format("woff2");
   unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -49,7 +49,7 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("../media/1b99372b3eaef0c8-s.p.758e15a8.woff2") format("woff2");
+  src: url("@vercel/turbopack-next/internal/font/google/font?{%22url%22:%22https://fonts.gstatic.com/s/outfit/v15/QGYvz_MVcBeNP4NJtEtqUYLknw.woff2%22,%22preload%22:true,%22has_size_adjust%22:true}") format("woff2");
   unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -67,7 +67,7 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url("../media/1b99372b3eaef0c8-s.p.758e15a8.woff2") format("woff2");
+  src: url("@vercel/turbopack-next/internal/font/google/font?{%22url%22:%22https://fonts.gstatic.com/s/outfit/v15/QGYvz_MVcBeNP4NJtEtqUYLknw.woff2%22,%22preload%22:true,%22has_size_adjust%22:true}") format("woff2");
   unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -85,7 +85,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("../media/1b99372b3eaef0c8-s.p.758e15a8.woff2") format("woff2");
+  src: url("@vercel/turbopack-next/internal/font/google/font?{%22url%22:%22https://fonts.gstatic.com/s/outfit/v15/QGYvz_MVcBeNP4NJtEtqUYLknw.woff2%22,%22preload%22:true,%22has_size_adjust%22:true}") format("woff2");
   unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 

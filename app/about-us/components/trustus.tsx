@@ -2,14 +2,33 @@
 
 import { useEffect, useState } from "react";
 
-export default function TrustSection() {
-  const stats = [
-    { number: "50+", label: "Projects Delivered" },
-    { number: "98%", label: "Client Satisfaction" },
-    { number: "24/7", label: "Support & Monitoring" },
-    { number: "10x", label: "Workflow Efficiency" },
-  ];
+const trustSignals = [
+  {
+    title: "Real Experience Across Real Industries",
+    desc: "We've built AI systems for healthcare providers, real estate investors, sales teams, service businesses, and more. That cross-industry experience means we come to your project already knowing what works.",
+  },
+  {
+    title: "Production-Grade Standards",
+    desc: "Every system we build is architected for reliability — scalable cloud infrastructure, automated monitoring, and enterprise security standards built in from day one.",
+  },
+  {
+    title: "Transparent & Collaborative",
+    desc: "You're never left in the dark. We communicate clearly at every stage, and we don't consider a project complete until you're fully satisfied with what we've built.",
+  },
+  {
+    title: "Founder-Led Delivery",
+    desc: "Every client engagement is led by our founding team — not outsourced to junior contractors. You get senior-level attention from start to finish.",
+  },
+];
 
+const stats = [
+  { number: "50+", label: "Projects Delivered" },
+  { number: "98%", label: "Client Satisfaction" },
+  { number: "24/7", label: "Support & Monitoring" },
+  { number: "10x", label: "Workflow Efficiency" },
+];
+
+export default function TrustSection() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
@@ -18,148 +37,108 @@ export default function TrustSection() {
     }, 2000);
 
     return () => clearInterval(interval);
-  }, [stats.length]);
+  }, []);
 
   return (
     <section
       aria-labelledby="trust-heading"
-      className="min-h-screen flex items-center px-6 relative overflow-hidden"
+      className="relative py-24 px-6 overflow-hidden"
     >
-      {/* Background */}
+      {/* BACKGROUND */}
       <div className="absolute inset-0 bg-gradient-to-b from-black via-[#0b0b0b] to-black" />
 
-      {/* Glow */}
-      <div className="absolute top-[-120px] left-[-120px] w-[400px] h-[400px] bg-[var(--gold-500)]/10 blur-[140px] rounded-full" />
+      {/* GLOW */}
+      <div className="absolute top-[-120px] left-[-120px] w-[500px] h-[500px] bg-[var(--gold-500)]/10 blur-[160px] rounded-full" />
+      <div className="absolute bottom-[-120px] right-[-120px] w-[400px] h-[400px] bg-[var(--gold-500)]/5 blur-[160px] rounded-full" />
 
-      <div className="max-w-7xl mx-auto relative z-10 w-full">
-        
+      <div className="max-w-7xl mx-auto relative z-10">
+
         {/* HEADER */}
-        <header className="text-center mb-20">
-          <span className="text-[var(--gold-400)] uppercase tracking-widest text-sm">
-            Trusted AI Agency
-          </span>
-
-          <h2
+        <header className="text-center mb-16">
+          <h1
             id="trust-heading"
-            className="text-5xl md:text-6xl font-bold mt-6"
+            className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] mt-6 mb-8 text-gradient-gold"
           >
-            Delivering Reliable{" "}
-            <span className="text-[var(--gold-500)]">
-              AI Automation Systems
-            </span>
-          </h2>
+            Why Trust Us
+          </h1>
 
-          <p className="text-[var(--text-secondary)] max-w-3xl mx-auto mt-6 text-lg leading-relaxed">
-            The Prime Crafters builds production-grade AI systems designed for
-            scalability, security, and long-term business growth. As a trusted
-            AI automation agency, we help businesses streamline operations,
-            reduce manual workload, and scale efficiently using intelligent
-            automation infrastructure.
+          <p className="text-sm sm:text-base md:text-lg text-[var(--text-secondary)] max-w-3xl mx-auto leading-relaxed">
+            We're not a faceless tech company. The Prime Crafters was built by
+            people who understand both AI and business — and who are personally
+            invested in the results we deliver.
           </p>
         </header>
 
         {/* MAIN GRID */}
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          
-          {/* LEFT SIDE */}
-          <article className="glass-card rounded-3xl p-12 border border-[var(--border-subtle)] relative overflow-hidden">
-            
-            {/* Glow */}
-            <div className="absolute top-[-100px] right-[-100px] w-[250px] h-[250px] bg-[var(--gold-500)]/10 blur-[120px] rounded-full" />
+        <div className="grid lg:grid-cols-3 gap-6">
 
-            <h3 className="text-2xl font-semibold mb-4">
-              Enterprise-Grade AI Reliability
+          {/* LEFT: TRUST CARDS */}
+          <div className="lg:col-span-2 grid sm:grid-cols-2 gap-6">
+            {trustSignals.map((signal) => (
+              <div
+                key={signal.title}
+                className="relative glass-card rounded-3xl p-8 border border-[var(--border-subtle)] hover:border-[var(--gold-500)]/30 transition-all duration-300 overflow-hidden"
+              >
+                {/* glow */}
+                <div className="absolute top-[-80px] right-[-80px] w-[200px] h-[200px] bg-[var(--gold-500)]/10 blur-[120px] rounded-full" />
+
+                <h3 className="text-lg sm:text-xl font-semibold text-[var(--gold-500)] mb-3">
+                  {signal.title}
+                </h3>
+
+                <p className="text-sm sm:text-base text-[var(--text-secondary)] leading-relaxed">
+                  {signal.desc}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          {/* RIGHT: COMPACT STATS PANEL */}
+          <div className="glass-card rounded-3xl p-5 sm:p-6 border border-[var(--border-subtle)] relative overflow-hidden">
+
+            {/* glow */}
+            <div className="absolute top-[-100px] right-[-100px] w-[220px] h-[220px] bg-[var(--gold-500)]/10 blur-[140px] rounded-full" />
+
+            <h3 className="text-sm sm:text-base font-semibold mb-4 text-[var(--gold-500)]">
+              Performance Snapshot
             </h3>
 
-            <p className="text-[var(--text-secondary)] leading-relaxed mb-8">
-              We build scalable AI systems for businesses across healthcare,
-              real estate, e-commerce, and service industries. Every automation
-              system is engineered for uptime, security, and performance —
-              ensuring your business operations run smoothly 24/7.
-            </p>
+            <div className="space-y-3">
+              {stats.map((stat, index) => {
+                const isActive = index === activeIndex;
 
-            <ul className="space-y-4">
-              <li className="flex items-center gap-3">
-                <span
-                  className="text-[var(--gold-500)]"
-                  aria-hidden="true"
-                >
-                  ✔
-                </span>
-                <p>Scalable Cloud Infrastructure</p>
-              </li>
-
-              <li className="flex items-center gap-3">
-                <span
-                  className="text-[var(--gold-500)]"
-                  aria-hidden="true"
-                >
-                  ✔
-                </span>
-                <p>Automated Monitoring & Performance Tracking</p>
-              </li>
-
-              <li className="flex items-center gap-3">
-                <span
-                  className="text-[var(--gold-500)]"
-                  aria-hidden="true"
-                >
-                  ✔
-                </span>
-                <p>Enterprise Security Standards</p>
-              </li>
-
-              <li className="flex items-center gap-3">
-                <span
-                  className="text-[var(--gold-500)]"
-                  aria-hidden="true"
-                >
-                  ✔
-                </span>
-                <p>Founder-Led Strategy & Support</p>
-              </li>
-            </ul>
-          </article>
-
-          {/* RIGHT SIDE */}
-          <div
-            className="grid grid-cols-2 gap-6"
-            aria-label="Company trust statistics"
-          >
-            {stats.map((stat, index) => {
-              const isActive = index === activeIndex;
-
-              return (
-                <div
-                  key={stat.label}
-                  className={`rounded-3xl p-8 text-center border transition-all duration-500 ${
-                    isActive
-                      ? "bg-[var(--gold-500)]/10 border-[var(--gold-500)] scale-105 shadow-lg shadow-[var(--gold-500)]/10"
-                      : "glass-card border-[var(--border-subtle)] opacity-60"
-                  }`}
-                >
+                return (
                   <div
-                    className={`text-4xl md:text-5xl font-bold mb-3 ${
+                    key={stat.label}
+                    className={`rounded-2xl p-4 border transition-all duration-500 ${
                       isActive
-                        ? "text-[var(--gold-500)]"
-                        : "text-white"
+                        ? "bg-[var(--gold-500)]/10 border-[var(--gold-500)] scale-[1.02]"
+                        : "border-[var(--border-subtle)] opacity-60"
                     }`}
                   >
-                    {stat.number}
+                    <div
+                      className={`text-2xl sm:text-3xl font-bold ${
+                        isActive ? "text-[var(--gold-500)]" : "text-white"
+                      }`}
+                    >
+                      {stat.number}
+                    </div>
+
+                    <p className="text-[10px] sm:text-xs uppercase tracking-wider text-[var(--text-secondary)] mt-1">
+                      {stat.label}
+                    </p>
+
+                    {isActive && (
+                      <div className="mt-2 w-1.5 h-1.5 bg-[var(--gold-500)] rounded-full animate-pulse" />
+                    )}
                   </div>
+                );
+              })}
+            </div>
 
-                  <p className="text-[var(--text-secondary)] text-sm uppercase tracking-wider">
-                    {stat.label}
-                  </p>
-
-                  {isActive && (
-                    <div className="mt-3 w-2 h-2 bg-[var(--gold-500)] rounded-full mx-auto animate-pulse" />
-                  )}
-                </div>
-              );
-            })}
           </div>
         </div>
+
       </div>
     </section>
   );
