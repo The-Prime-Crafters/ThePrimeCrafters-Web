@@ -10,33 +10,19 @@ import CaseStudies from "./components/casestudies";
 import ProcessSection from "./components/process";
 import TrustSection from "./components/trustus";
 import CTASection from "./components/CTA";
+import { Footer } from "@/components";
 
 
 export const metadata: Metadata = {
   title:
-    "About The Prime Crafters | AI Automation Agency & Workflow Experts",
+    "About Us | The Prime Crafters | AI Automation Agency",
 
   description:
-    "Learn about The Prime Crafters — an AI automation agency helping businesses scale with AI voice agents, workflow automation, custom chatbots, and intelligent business systems.",
+    "About us, The Prime Crafters is an AI automation agency helping businesses scale with AI voice agents, workflow automation, chatbots, and custom integrations",
      alternates: {
-    canonical: "https://theprimecrafters.com/about-us", // 👈 add this
+    canonical: "https://www.theprimecrafters.com/about-us", // 👈 add this
   },
  
-  keywords: [
-    "AI Automation Agency",
-    "AI Solutions Company",
-    "Voice AI Solutions",
-    "Workflow Automation",
-    "Business Automation Experts",
-    "Custom AI Automation",
-    "AI Chatbot Development",
-  ],
-
-  robots: {
-    index: true,
-    follow: true,
-  },
-
   openGraph: {
     title:
       "The Prime Crafters | AI Automation Agency",
@@ -60,6 +46,7 @@ export default function aboutus() {
       <ProcessSection />
       <TrustSection />
       <CTASection />
+      <Footer/>
     </main>
   );
 }

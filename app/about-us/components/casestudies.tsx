@@ -35,9 +35,9 @@ export default function CaseStudiesPreview() {
           <div>
 
             {/* HEADING */}
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] mt-6 mb-8 text-gradient-gold">
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] mt-6 mb-8 text-gradient-gold">
               Featured Case Studies
-            </h1>
+            </h2>
 
             {/* INTRO */}
             <p className="text-sm sm:text-base text-[var(--text-secondary)] mt-4 max-w-2xl leading-relaxed">

@@ -51,19 +51,14 @@ export default function WhyChooseUs() {
 
       <div className="relative max-w-6xl mx-auto">
         
-         
-
+        
           {/* HEADING — from doc Section 5 */}
-          <h1
+          <h2
             id="why-choose-heading"
             className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] mt-6 mb-8 text-gradient-gold"
           >
             Why Choose The Prime Crafters
-          </h1>
-
-          
-
-          
+          </h2>
 
         {/* MAIN CONTENT CARD */}
         <article className="glass-card rounded-3xl p-8 sm:p-12 md:p-16 border border-[var(--border-subtle)] relative overflow-hidden">

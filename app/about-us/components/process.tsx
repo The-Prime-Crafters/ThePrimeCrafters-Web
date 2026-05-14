@@ -71,9 +71,9 @@ export default function ProcessSection() {
           
 
           {/* HEADING — from doc Section 7 */}
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] mt-6 mb-8 text-gradient-gold">
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] mt-6 mb-8 text-gradient-gold">
             Our Process
-          </h1>
+          </h2>
 
           {/* INTRO COPY */}
           <p className="text-base sm:text-lg text-[var(--text-secondary)] leading-relaxed max-w-2xl mb-8">
@@ -87,14 +87,15 @@ export default function ProcessSection() {
               const isActive = index === activeStep;
               const isDone = index < activeStep;
               return (
-                <div
-                  key={index}
-                  className={`flex items-center gap-3 sm:gap-4 p-4 sm:p-5 rounded-2xl transition-all duration-300 border ${
-                    isActive
-                      ? "bg-[var(--gold-500)]/10 border-[var(--gold-500)] scale-[1.02]"
-                      : "border-[var(--border-subtle)] opacity-60"
-                  }`}
-                >
+                <button
+  key={index}
+  onClick={() => setActiveStep(index)}
+  className={`w-full text-left flex items-center gap-3 sm:gap-4 p-4 sm:p-5 rounded-2xl transition-all duration-300 border cursor-pointer ${
+    isActive
+      ? "bg-[var(--gold-500)]/10 border-[var(--gold-500)] scale-[1.02]"
+      : "border-[var(--border-subtle)] opacity-60 hover:opacity-100 hover:border-[var(--gold-500)]/30"
+  }`}
+>
                   <div
                     className={`w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center rounded-full border text-xs sm:text-sm font-medium shrink-0 ${
                       isActive
@@ -113,7 +114,7 @@ export default function ProcessSection() {
                   >
                     {step.title}
                   </p>
-                </div>
+               </button>
               );
             })}
           </div>

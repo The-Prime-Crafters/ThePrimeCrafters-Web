@@ -55,12 +55,12 @@ export default function TrustSection() {
 
         {/* HEADER */}
         <header className="text-center mb-16">
-          <h1
+          <h2
             id="trust-heading"
             className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] mt-6 mb-8 text-gradient-gold"
           >
             Why Trust Us
-          </h1>
+          </h2>
 
           <p className="text-sm sm:text-base md:text-lg text-[var(--text-secondary)] max-w-3xl mx-auto leading-relaxed">
             We're not a faceless tech company. The Prime Crafters was built by

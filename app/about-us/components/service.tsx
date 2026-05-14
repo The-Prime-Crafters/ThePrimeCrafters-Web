@@ -53,9 +53,9 @@ export default function ServicesOverview() {
       <div className="max-w-6xl mx-auto relative z-10">
 
         {/* TITLE */}
-        <h1 className="text-[var(--gold-500)] text-5xl md:text-6xl font-bold mb-4">
+        <h2 className="text-[var(--gold-500)] text-5xl md:text-6xl font-bold mb-4">
           What We Do
-        </h1>
+        </h2>
 
         <p className="text-[var(--text-secondary)] max-w-3xl mb-12 leading-relaxed">
           We design and build AI-powered systems that automate your operations,

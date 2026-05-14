@@ -14,9 +14,9 @@ export default function MissionSection() {
         
 
           {/* HEADING — from doc Section 3 */}
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] mt-6 mb-8 text-gradient-gold">
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] mt-6 mb-8 text-gradient-gold">
             Our Mission
-          </h1>
+          </h2>
 
           {/* MISSION STATEMENT */}
           <p className="text-base sm:text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed max-w-2xl">

@@ -21,13 +21,13 @@ export default function CompanyIntro() {
       <div className="max-w-5xl mx-auto relative z-10 text-center">
 
         {/* HEADING */}
-        <h1
+        <h2
           className={`text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] mt-6 mb-8 text-gradient-gold transition-all duration-1000 ${
             mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
           }`}
         >
           Who We Are
-        </h1>
+        </h2>
 
         {/* CONTENT CARD WRAPPER */}
         <div className="space-y-6">

@@ -1,4 +1,4 @@
-:HL["/_next/static/chunks/c7f52c9c7961d92e.css","style"]
+:HL["/_next/static/chunks/b851ddecb11fd1d9.css","style"]
 :HL["/logo.png","image"]
 :HL["/lmn8.png","image"]
-0:{"buildId":"XH5rR2D7__BcLbb1NnO97","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"case-study","paramType":null,"paramKey":"case-study","hasRuntimePrefetch":false,"slots":{"children":{"name":"slug","paramType":"d","paramKey":"lmn8-ketamine-therapy","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"n-bnZ0kkpljX6G26GMara","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"case-study","paramType":null,"paramKey":"case-study","hasRuntimePrefetch":false,"slots":{"children":{"name":"slug","paramType":"d","paramKey":"lmn8-ketamine-therapy","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

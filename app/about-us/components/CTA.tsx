@@ -14,9 +14,9 @@ export default function CTASection() {
           
 
           {/* HEADING — from doc Section 9 */}
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] mt-6 mb-8 text-gradient-gold">
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] mt-6 mb-8 text-gradient-gold">
             Ready to Automate Your Business?
-          </h1>
+          </h2>
 
           {/* MAIN COPY */}
           <p className="text-sm sm:text-base md:text-lg text-[var(--text-secondary)] leading-relaxed max-w-3xl mx-auto mb-4 relative z-10">
