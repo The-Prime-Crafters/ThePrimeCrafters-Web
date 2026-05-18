@@ -1,11 +1,28 @@
 const industries = [
-  "Healthcare",
-  "Real Estate",
-  "E-commerce",
-  "SaaS",
-  "Local Businesses",
-  "Customer Support",
-  "Service Businesses",
+  {
+    name: "Healthcare",
+    description: "Patient intake automation, appointment scheduling, HIPAA-compliant voice agents, and clinic workflow systems.",
+  },
+  {
+    name: "Real Estate",
+    description: "Lead qualification, AI-powered follow-ups, CRM integrations, and voice agents for property inquiries.",
+  },
+  {
+    name: "E-commerce",
+    description: "Order automation, AI support, abandoned cart recovery, and chatbots that drive sales.",
+  },
+  {
+    name: "SaaS",
+    description: "Onboarding automation, AI support agents, churn workflows, and CRM integrations.",
+  },
+  {
+    name: "Local Businesses",
+    description: "Booking automation, phone handling, lead follow-up, and AI assistants for local operations.",
+  },
+  {
+    name: "Service Businesses",
+    description: "Proposal automation, client onboarding, scheduling systems, and CRM integrations.",
+  },
 ];
 
 export default function IndustriesSection() {
@@ -34,11 +51,11 @@ export default function IndustriesSection() {
               </div>
 
               <h3 className="relative font-semibold text-sm md:text-base group-hover:text-white transition">
-                {industry}
+                {industry.name}
               </h3>
 
-              <p className="relative text-xs text-[var(--text-secondary)] mt-1 opacity-70 group-hover:opacity-100 transition">
-                AI automation ready
+              <p className="relative text-xs text-[var(--text-secondary)] mt-1 opacity-70 group-hover:opacity-100 transition leading-relaxed">
+                {industry.description}
               </p>
             </div>
           ))}
@@ -47,20 +64,16 @@ export default function IndustriesSection() {
         {/* ================= RIGHT: SYSTEM PANEL ================= */}
         <div className="space-y-[clamp(1.5rem,3vw,2.5rem)]">
 
-          <span className="text-[var(--gold-400)] uppercase tracking-[0.3em] text-xs md:text-sm">
-            Industry Coverage
-          </span>
-
+     
           <h2
-            className="font-bold leading-tight"
+            className="font-bold mt-4 leading-tight text-transparent bg-clip-text bg-gradient-to-r from-[var(--gold-400)] to-yellow-200"
             style={{ fontSize: "clamp(2rem, 4vw, 3.5rem)" }}
           >
-            AI Systems Built for Every Industry
+            Industries We Support
           </h2>
 
           <p className="text-[var(--text-secondary)] text-sm md:text-lg leading-relaxed max-w-xl">
-            Our automation infrastructure adapts across multiple industries,
-            powering workflows, communication, and operational scaling.
+            Our AI automation systems are built to adapt across industries — engineered around how your sector actually operates.
           </p>
 
           {/* system stats panel */}
@@ -68,7 +81,7 @@ export default function IndustriesSection() {
 
             <div className="flex justify-between text-sm">
               <span>Industries Supported</span>
-              <span className="text-[var(--gold-500)] font-semibold">7+</span>
+              <span className="text-[var(--gold-500)] font-semibold">6+</span>
             </div>
 
             <div className="flex justify-between text-sm">

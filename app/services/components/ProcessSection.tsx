@@ -1,10 +1,28 @@
 const steps = [
-  "Discovery",
-  "Strategy",
-  "Development",
-  "Testing",
-  "Deployment",
-  "Optimization",
+  {
+    name: "Discovery",
+    description: "We analyze your operations, identify bottlenecks, and define where AI creates the highest ROI.",
+  },
+  {
+    name: "Strategy",
+    description: "Full system architecture — automation logic, integrations, data flows — mapped before development begins.",
+  },
+  {
+    name: "Development",
+    description: "Custom AI systems built using enterprise-grade frameworks. Voice agents, chatbots, workflows, integrations.",
+  },
+  {
+    name: "Testing",
+    description: "Rigorous testing across real-world scenarios, stress tests, and edge cases before launch.",
+  },
+  {
+    name: "Deployment",
+    description: "Live deployment, tool integration, team training, and full handover documentation.",
+  },
+  {
+    name: "Optimization",
+    description: "Ongoing monitoring, performance analysis, and continuous system improvement post-launch.",
+  },
 ];
 
 export default function ProcessSection() {
@@ -18,19 +36,16 @@ export default function ProcessSection() {
 
         {/* HEADER */}
         <div className="text-center mb-[clamp(2rem,5vw,4rem)]">
-          <span className="text-[var(--gold-400)] uppercase tracking-[0.3em] text-xs md:text-sm">
-            Process
-          </span>
 
           <h2
-            className="font-bold mt-4"
+            className="font-bold mt-4 leading-tight text-transparent bg-clip-text bg-gradient-to-r from-[var(--gold-400)] to-yellow-200"
             style={{ fontSize: "clamp(2rem, 4vw, 3.5rem)" }}
           >
             Our AI Implementation Process
           </h2>
 
           <p className="text-[var(--text-secondary)] mt-4 max-w-2xl mx-auto text-sm md:text-base">
-            A structured pipeline that transforms ideas into fully automated AI systems.
+            From first conversation to live deployment — a structured process that turns your workflows into intelligent, automated systems.
           </p>
         </div>
 
@@ -67,12 +82,11 @@ export default function ProcessSection() {
                   </div>
 
                   <h3 className="text-sm md:text-base font-semibold group-hover:text-white transition">
-                    {step}
+                    {step.name}
                   </h3>
 
-                  {/* subtle label */}
-                  <p className="text-xs text-[var(--text-secondary)] mt-2 opacity-70 group-hover:opacity-100 transition">
-                    AI execution stage
+                  <p className="text-xs text-[var(--text-secondary)] mt-2 opacity-70 group-hover:opacity-100 transition leading-relaxed">
+                    {step.description}
                   </p>
 
                 </div>
@@ -85,6 +99,13 @@ export default function ProcessSection() {
             ))}
 
           </div>
+        </div>
+
+        {/* TIMELINE NOTE */}
+        <div className="text-center mt-[clamp(2rem,4vw,3rem)]">
+          <p className="text-xs text-[var(--text-secondary)] opacity-70">
+            Most implementations complete within 2–8 weeks depending on scope.
+          </p>
         </div>
 
       </div>

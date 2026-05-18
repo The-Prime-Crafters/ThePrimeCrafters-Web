@@ -401,7 +401,7 @@ function ServicesHero() {
                         className: "absolute inset-0 opacity-[0.05] bg-[linear-gradient(to_right,#fff_1px,transparent_1px),linear-gradient(to_bottom,#fff_1px,transparent_1px)] bg-[size:5vw_5vw]"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                        lineNumber: 11,
+                        lineNumber: 10,
                         columnNumber: 9
                     }, this)
                 ]
@@ -416,78 +416,30 @@ function ServicesHero() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "space-y-[clamp(1.2rem,2vw,2rem)]",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[var(--border-subtle)] glass-card backdrop-blur-md",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "w-2 h-2 rounded-full bg-[var(--gold-500)] animate-ping"
-                                    }, void 0, false, {
-                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                        lineNumber: 21,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-[clamp(0.7rem,1vw,0.85rem)] uppercase tracking-[0.25em] text-[var(--gold-400)]",
-                                        children: "AI Automation Services"
-                                    }, void 0, false, {
-                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                        lineNumber: 22,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                lineNumber: 20,
-                                columnNumber: 11
-                            }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                 className: "font-bold leading-[1.05]",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "block text-transparent bg-clip-text bg-gradient-to-r from-[var(--gold-400)] to-yellow-200",
-                                        style: {
-                                            fontSize: "clamp(2.5rem, 5vw, 5.5rem)"
-                                        },
-                                        children: "AI Solutions"
-                                    }, void 0, false, {
-                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                        lineNumber: 29,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        style: {
-                                            fontSize: "clamp(2rem, 4vw, 4.5rem)"
-                                        },
-                                        className: "block text-white",
-                                        children: "Designed For"
-                                    }, void 0, false, {
-                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                        lineNumber: 34,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        style: {
-                                            fontSize: "clamp(1.8rem, 3.5vw, 4rem)"
-                                        },
-                                        className: "block text-white/80",
-                                        children: "Business Growth"
-                                    }, void 0, false, {
-                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                        lineNumber: 38,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "block text-transparent bg-clip-text bg-gradient-to-r from-[var(--gold-400)] to-yellow-200",
+                                    style: {
+                                        fontSize: "clamp(2.5rem, 5vw, 5.5rem)"
+                                    },
+                                    children: "AI Automation Services Designed for Business Growth"
+                                }, void 0, false, {
+                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
+                                    lineNumber: 22,
+                                    columnNumber: 13
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                lineNumber: 28,
+                                lineNumber: 21,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-[clamp(0.95rem,1.2vw,1.2rem)] text-[var(--text-secondary)] leading-relaxed max-w-xl",
-                                children: "We build AI systems that don’t just automate tasks — they evolve your business operations, improve decision-making, and scale revenue intelligently."
+                                children: "The Prime Crafters builds intelligent AI systems that go beyond simple task automation — we engineer the infrastructure that transforms how your business operates, scales, and grows. From AI voice agents that handle thousands of customer calls to workflow automation that eliminates manual bottlenecks — every system we build delivers measurable results from day one."
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                lineNumber: 44,
+                                lineNumber: 31,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -499,7 +451,7 @@ function ServicesHero() {
                                         children: "Schedule Consultation →"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                        lineNumber: 52,
+                                        lineNumber: 39,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -508,29 +460,33 @@ function ServicesHero() {
                                         children: "View Case Studies"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                        lineNumber: 59,
+                                        lineNumber: 45,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                lineNumber: 51,
+                                lineNumber: 38,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "grid grid-cols-3 gap-4 pt-4",
+                                className: "grid grid-cols-2 sm:grid-cols-4 gap-4 pt-4",
                                 children: [
                                     {
                                         value: "50+",
-                                        label: "Projects"
+                                        label: "Projects Delivered"
                                     },
                                     {
                                         value: "98%",
-                                        label: "Satisfaction"
+                                        label: "Client Satisfaction"
                                     },
                                     {
                                         value: "10x",
-                                        label: "Efficiency"
+                                        label: "Operational Efficiency"
+                                    },
+                                    {
+                                        value: "24/7",
+                                        label: "AI Automation"
                                     }
                                 ].map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "glass-card p-4 rounded-2xl border border-[var(--border-subtle)] transition hover:-translate-y-1 hover:border-[var(--gold-500)]/40",
@@ -540,32 +496,32 @@ function ServicesHero() {
                                                 children: item.value
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                                lineNumber: 78,
-                                                columnNumber: 17
+                                                lineNumber: 65,
+                                                columnNumber: 7
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "text-xs uppercase tracking-wider text-[var(--text-secondary)]",
                                                 children: item.label
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                                lineNumber: 81,
-                                                columnNumber: 17
+                                                lineNumber: 68,
+                                                columnNumber: 7
                                             }, this)
                                         ]
                                     }, i, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                        lineNumber: 74,
-                                        columnNumber: 15
+                                        lineNumber: 61,
+                                        columnNumber: 5
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                lineNumber: 68,
-                                columnNumber: 11
+                                lineNumber: 54,
+                                columnNumber: 1
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                        lineNumber: 17,
+                        lineNumber: 16,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -577,79 +533,145 @@ function ServicesHero() {
                                     className: "absolute inset-0 rounded-[3rem] border border-[var(--gold-500)]/20 animate-pulse"
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                    lineNumber: 95,
+                                    lineNumber: 81,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "absolute top-[5%] left-0 glass-card p-5 w-[55%] rounded-3xl backdrop-blur-xl transition hover:-translate-y-2",
+                                    className: "absolute top-[5%] left-0 glass-card p-4 w-[45%] rounded-3xl backdrop-blur-xl transition hover:-translate-y-2",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "text-[var(--gold-500)] text-2xl mb-2",
+                                            className: "text-[var(--gold-500)] text-xl mb-2",
                                             children: "✦"
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                            lineNumber: 99,
+                                            lineNumber: 85,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "text-lg font-semibold",
+                                            className: "text-sm font-semibold",
                                             children: "AI Voice Agents"
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                            lineNumber: 100,
+                                            lineNumber: 86,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-xs text-[var(--text-secondary)]",
+                                            className: "text-xs text-[var(--text-secondary)] mt-1",
                                             children: "Adaptive voice systems that learn from interactions."
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                            lineNumber: 101,
+                                            lineNumber: 87,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                    lineNumber: 98,
+                                    lineNumber: 84,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "absolute bottom-[5%] right-0 glass-card p-5 w-[58%] rounded-3xl backdrop-blur-xl transition hover:-translate-y-2",
+                                    className: "absolute top-[5%] right-0 glass-card p-4 w-[45%] rounded-3xl backdrop-blur-xl transition hover:-translate-y-2",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "text-[var(--gold-500)] text-2xl mb-2",
+                                            className: "text-[var(--gold-500)] text-xl mb-2",
                                             children: "⚡"
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                            lineNumber: 108,
+                                            lineNumber: 94,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "text-lg font-semibold",
+                                            className: "text-sm font-semibold",
                                             children: "Automation Engine"
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                            lineNumber: 109,
+                                            lineNumber: 95,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-xs text-[var(--text-secondary)]",
+                                            className: "text-xs text-[var(--text-secondary)] mt-1",
                                             children: "Self-optimizing workflows that improve over time."
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                            lineNumber: 110,
+                                            lineNumber: 96,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                    lineNumber: 107,
+                                    lineNumber: 93,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "absolute bottom-[5%] left-0 glass-card p-4 w-[45%] rounded-3xl backdrop-blur-xl transition hover:-translate-y-2",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "text-[var(--gold-500)] text-xl mb-2",
+                                            children: "🕐"
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
+                                            lineNumber: 103,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-sm font-semibold",
+                                            children: "24/7 AI Automation"
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
+                                            lineNumber: 104,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-xs text-[var(--text-secondary)] mt-1",
+                                            children: "Always-on systems that never sleep or slow down."
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
+                                            lineNumber: 105,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
+                                    lineNumber: 102,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "absolute bottom-[5%] right-0 glass-card p-4 w-[45%] rounded-3xl backdrop-blur-xl transition hover:-translate-y-2",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "text-[var(--gold-500)] text-xl mb-2",
+                                            children: "🤖"
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
+                                            lineNumber: 112,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-sm font-semibold",
+                                            children: "Smart Chatbots"
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
+                                            lineNumber: 113,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-xs text-[var(--text-secondary)] mt-1",
+                                            children: "Intelligent agents that handle support 24/7."
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
+                                            lineNumber: 114,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
+                                    lineNumber: 111,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "absolute inset-0 flex items-center justify-center",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "w-[40%] h-[40%] rounded-full bg-[var(--gold-500)]/10 border border-[var(--gold-500)]/20 flex items-center justify-center animate-[pulse_3s_ease-in-out_infinite]",
+                                        className: "w-[38%] h-[38%] rounded-full bg-[var(--gold-500)]/10 border border-[var(--gold-500)]/20 flex items-center justify-center animate-[pulse_3s_ease-in-out_infinite]",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "text-center",
                                             children: [
@@ -658,7 +680,7 @@ function ServicesHero() {
                                                     children: "AI"
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                                    lineNumber: 119,
+                                                    lineNumber: 123,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -666,61 +688,61 @@ function ServicesHero() {
                                                     children: "Systems"
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                                    lineNumber: 122,
+                                                    lineNumber: 126,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                            lineNumber: 118,
+                                            lineNumber: 122,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                        lineNumber: 117,
+                                        lineNumber: 121,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                    lineNumber: 116,
+                                    lineNumber: 120,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "absolute top-[20%] right-[10%] w-4 h-4 bg-[var(--gold-500)]/30 rounded-full animate-bounce"
+                                    className: "absolute top-[50%] left-[50%] -translate-x-[80px] -translate-y-[80px] w-4 h-4 bg-[var(--gold-500)]/30 rounded-full animate-bounce"
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                    lineNumber: 130,
+                                    lineNumber: 134,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "absolute bottom-[25%] left-[15%] w-5 h-5 bg-[var(--gold-500)]/20 rounded-full animate-pulse"
+                                    className: "absolute top-[50%] left-[50%] translate-x-[60px] translate-y-[60px] w-5 h-5 bg-[var(--gold-500)]/20 rounded-full animate-pulse"
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                    lineNumber: 131,
+                                    lineNumber: 135,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "absolute top-[50%] left-[5%] w-3 h-3 bg-[var(--gold-500)]/40 rounded-full animate-ping"
+                                    className: "absolute top-[50%] left-[50%] -translate-x-[40px] translate-y-[50px] w-3 h-3 bg-[var(--gold-500)]/40 rounded-full animate-ping"
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                                    lineNumber: 132,
+                                    lineNumber: 136,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                            lineNumber: 92,
+                            lineNumber: 78,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                        lineNumber: 90,
+                        lineNumber: 77,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesHero.tsx",
-                lineNumber: 14,
+                lineNumber: 13,
                 columnNumber: 7
             }, this)
         ]
@@ -743,19 +765,19 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d
 const services = [
     {
         title: "AI Voice Agents",
-        description: "AI-powered voice systems for customer support, sales, and lead qualification."
+        description: "AI-powered voice systems for customer support, sales, and lead qualification — running 24/7 without human intervention."
     },
     {
         title: "Workflow Automation",
-        description: "Automate repetitive operations and streamline business workflows."
+        description: "Automate repetitive operations and streamline business workflows with systems built around your exact processes."
     },
     {
         title: "AI Chatbots",
-        description: "Custom chatbot systems for lead generation and customer engagement."
+        description: "Custom chatbot systems for lead generation, customer engagement, and support — deployed anywhere your customers are."
     },
     {
         title: "Custom Integrations",
-        description: "Integrate AI systems with CRMs, APIs, and business platforms."
+        description: "Connect AI systems seamlessly with your CRMs, APIs, databases, and existing business infrastructure."
     }
 ];
 function ServicesGrid() {
@@ -791,31 +813,23 @@ function ServicesGrid() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "text-center mb-[clamp(2.5rem,5vw,5rem)]",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-[var(--gold-400)] uppercase tracking-[0.3em] text-xs md:text-sm",
-                                children: "What We Offer"
-                            }, void 0, false, {
-                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
-                                lineNumber: 38,
-                                columnNumber: 11
-                            }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "font-bold mt-4 leading-tight",
+                                className: "font-bold mt-4 leading-tight text-transparent bg-clip-text bg-gradient-to-r from-[var(--gold-400)] to-yellow-200",
                                 style: {
                                     fontSize: "clamp(2rem, 4vw, 3.5rem)"
                                 },
-                                children: "Premium AI Automation Services"
+                                children: "What We Offer"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
-                                lineNumber: 42,
+                                lineNumber: 40,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "mt-4 text-[var(--text-secondary)] max-w-2xl mx-auto text-sm md:text-base",
-                                children: "Intelligent systems designed to replace manual work with adaptive AI-driven automation."
+                                children: "We design and build custom AI systems across four core service areas — each engineered to eliminate manual work, reduce costs, and scale your operations intelligently."
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
-                                lineNumber: 51,
+                                lineNumber: 49,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -833,7 +847,7 @@ function ServicesGrid() {
                                         className: "absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-500 bg-[radial-gradient(circle_at_top,rgba(212,175,55,0.15),transparent_60%)]"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
-                                        lineNumber: 65,
+                                        lineNumber: 63,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -843,12 +857,12 @@ function ServicesGrid() {
                                             children: "✦"
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
-                                            lineNumber: 69,
+                                            lineNumber: 67,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
-                                        lineNumber: 68,
+                                        lineNumber: 66,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -856,7 +870,7 @@ function ServicesGrid() {
                                         children: service.title
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
-                                        lineNumber: 75,
+                                        lineNumber: 73,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -864,25 +878,25 @@ function ServicesGrid() {
                                         children: service.description
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
-                                        lineNumber: 80,
+                                        lineNumber: 78,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute top-4 right-4 w-2 h-2 rounded-full bg-[var(--gold-500)]/40 group-hover:scale-[2] transition"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
-                                        lineNumber: 87,
+                                        lineNumber: 85,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, index, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
-                                lineNumber: 60,
+                                lineNumber: 58,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
-                        lineNumber: 57,
+                        lineNumber: 55,
                         columnNumber: 9
                     }, this)
                 ]
@@ -941,49 +955,51 @@ function VoiceAgentsSection() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "space-y-[clamp(1.5rem,3vw,2.5rem)]",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "inline-block text-[var(--gold-400)] uppercase tracking-[0.3em] text-xs md:text-sm",
-                                children: "AI Voice Agents"
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                className: "font-bold leading-tight text-transparent bg-clip-text bg-gradient-to-r from-[var(--gold-400)] to-yellow-200",
+                                style: {
+                                    fontSize: "clamp(2.2rem, 4vw, 3.5rem)"
+                                },
+                                children: "AI Voice Agent Solutions"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/VoiceAgentsSection.tsx",
                                 lineNumber: 17,
                                 columnNumber: 11
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "font-bold leading-tight",
-                                style: {
-                                    fontSize: "clamp(2.2rem, 4vw, 3.5rem)"
-                                },
-                                children: "Intelligent Voice AI Solutions"
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-[var(--text-secondary)] text-sm md:text-lg leading-relaxed max-w-xl",
+                                children: "Replace manual call handling with intelligent AI voice agents that manage inbound and outbound interactions automatically — around the clock, at any scale."
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/VoiceAgentsSection.tsx",
-                                lineNumber: 22,
+                                lineNumber: 25,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-[var(--text-secondary)] text-sm md:text-lg leading-relaxed max-w-xl",
-                                children: "Automate inbound and outbound customer interactions using AI-powered voice agents designed for support, lead qualification, appointment booking, and customer engagement."
+                                children: "Our voice AI systems are trained on your business workflows and brand voice, delivering natural conversations that convert leads, resolve support queries, and book appointments without a human on the line."
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/VoiceAgentsSection.tsx",
-                                lineNumber: 30,
+                                lineNumber: 29,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "space-y-4",
                                 children: [
-                                    "Inbound & outbound calling",
-                                    "Lead qualification systems",
+                                    "Inbound & outbound calling automation",
+                                    "AI-powered lead qualification",
                                     "24/7 automated customer support",
-                                    "Appointment scheduling automation"
+                                    "Appointment scheduling & booking automation",
+                                    "Natural language processing",
+                                    "CRM-integrated call logging & follow-up"
                                 ].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "flex items-center gap-3 group",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-[var(--gold-500)] text-lg group-hover:scale-125 transition",
-                                                children: "✔"
+                                                children: "▸"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/VoiceAgentsSection.tsx",
-                                                lineNumber: 46,
+                                                lineNumber: 44,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -991,18 +1007,18 @@ function VoiceAgentsSection() {
                                                 children: item
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/VoiceAgentsSection.tsx",
-                                                lineNumber: 49,
+                                                lineNumber: 47,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/VoiceAgentsSection.tsx",
-                                        lineNumber: 42,
+                                        lineNumber: 43,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/VoiceAgentsSection.tsx",
-                                lineNumber: 35,
+                                lineNumber: 34,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -1021,7 +1037,7 @@ function VoiceAgentsSection() {
                                         className: "absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(212,175,55,0.12),transparent_60%)]"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/VoiceAgentsSection.tsx",
-                                        lineNumber: 63,
+                                        lineNumber: 61,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1035,34 +1051,38 @@ function VoiceAgentsSection() {
                                                         children: "Voice AI System"
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/VoiceAgentsSection.tsx",
-                                                        lineNumber: 69,
+                                                        lineNumber: 67,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "w-2 h-2 rounded-full bg-[var(--gold-500)] animate-pulse"
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/VoiceAgentsSection.tsx",
-                                                        lineNumber: 73,
+                                                        lineNumber: 70,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/VoiceAgentsSection.tsx",
-                                                lineNumber: 68,
+                                                lineNumber: 66,
                                                 columnNumber: 15
                                             }, this),
                                             [
                                                 {
                                                     title: "Customer Support AI",
-                                                    desc: "Handles real-time customer queries"
+                                                    desc: "24/7 automated customer support that resolves queries without a human on the line."
                                                 },
                                                 {
                                                     title: "Sales Voice Agents",
-                                                    desc: "Converts leads through natural conversation"
+                                                    desc: "AI-powered lead qualification that converts prospects through natural conversation."
                                                 },
                                                 {
                                                     title: "Call Automation Engine",
-                                                    desc: "Manages inbound/outbound workflows"
+                                                    desc: "Manages inbound & outbound calling with CRM-integrated call logging & follow-up."
+                                                },
+                                                {
+                                                    title: "Booking & Scheduling AI",
+                                                    desc: "Appointment scheduling & booking automation trained on your business workflows."
                                                 }
                                             ].map((card, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "group relative rounded-2xl border border-[var(--border-subtle)] p-5 hover:border-[var(--gold-500)]/40 transition-all duration-300 hover:-translate-y-1",
@@ -1071,7 +1091,7 @@ function VoiceAgentsSection() {
                                                             className: "absolute inset-0 opacity-0 group-hover:opacity-100 transition bg-[radial-gradient(circle_at_left,rgba(212,175,55,0.12),transparent_70%)]"
                                                         }, void 0, false, {
                                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/VoiceAgentsSection.tsx",
-                                                            lineNumber: 96,
+                                                            lineNumber: 97,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1082,7 +1102,7 @@ function VoiceAgentsSection() {
                                                                     children: card.title
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/VoiceAgentsSection.tsx",
-                                                                    lineNumber: 99,
+                                                                    lineNumber: 100,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1096,7 +1116,7 @@ function VoiceAgentsSection() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/VoiceAgentsSection.tsx",
-                                                            lineNumber: 98,
+                                                            lineNumber: 99,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1109,19 +1129,19 @@ function VoiceAgentsSection() {
                                                     ]
                                                 }, index, true, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/VoiceAgentsSection.tsx",
-                                                    lineNumber: 91,
+                                                    lineNumber: 92,
                                                     columnNumber: 17
                                                 }, this))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/VoiceAgentsSection.tsx",
-                                        lineNumber: 65,
+                                        lineNumber: 63,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/VoiceAgentsSection.tsx",
-                                lineNumber: 60,
+                                lineNumber: 58,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1141,7 +1161,7 @@ function VoiceAgentsSection() {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/VoiceAgentsSection.tsx",
-                        lineNumber: 58,
+                        lineNumber: 56,
                         columnNumber: 9
                     }, this)
                 ]
@@ -1169,10 +1189,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d
 ;
 function WorkflowSection() {
     const steps = [
-        "CRM Automation",
-        "Task Automation",
-        "Workflow Integrations",
-        "Business Process Systems"
+        "CRM Automation & Data Sync",
+        "Task Automation & Assignment Workflows",
+        "Multi-Step Business Process Automation",
+        "Cross-Platform Workflow Integrations",
+        "Automated Reporting & Notifications"
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "relative py-[clamp(4rem,8vw,7rem)] px-6 overflow-hidden",
@@ -1181,7 +1202,7 @@ function WorkflowSection() {
                 className: "absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(212,175,55,0.06),transparent_65%)]"
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
-                lineNumber: 13,
+                lineNumber: 14,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1196,12 +1217,12 @@ function WorkflowSection() {
                                     className: "absolute top-0 left-0 w-full h-1/2 bg-[linear-gradient(to_bottom,transparent,rgba(212,175,55,0.6),transparent)] animate-[pulse_2.5s_ease-in-out_infinite]"
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
-                                    lineNumber: 24,
+                                    lineNumber: 23,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
-                                lineNumber: 21,
+                                lineNumber: 22,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1218,25 +1239,25 @@ function WorkflowSection() {
                                                             className: "w-4 h-4 rounded-full bg-[var(--gold-500)]/20 group-hover:scale-150 transition"
                                                         }, void 0, false, {
                                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
-                                                            lineNumber: 38,
+                                                            lineNumber: 33,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "absolute inset-1 rounded-full bg-[var(--gold-500)] group-hover:scale-110 transition"
                                                         }, void 0, false, {
                                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
-                                                            lineNumber: 41,
+                                                            lineNumber: 34,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
-                                                    lineNumber: 35,
+                                                    lineNumber: 32,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
-                                                lineNumber: 34,
+                                                lineNumber: 31,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1246,7 +1267,7 @@ function WorkflowSection() {
                                                         className: "absolute inset-0 opacity-0 group-hover:opacity-100 transition bg-[radial-gradient(circle_at_left,rgba(212,175,55,0.1),transparent_70%)]"
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
-                                                        lineNumber: 49,
+                                                        lineNumber: 40,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1257,7 +1278,7 @@ function WorkflowSection() {
                                                                 children: item
                                                             }, void 0, false, {
                                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
-                                                                lineNumber: 52,
+                                                                lineNumber: 43,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1265,13 +1286,13 @@ function WorkflowSection() {
                                                                 children: String(index + 1).padStart(2, "0")
                                                             }, void 0, false, {
                                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
-                                                                lineNumber: 56,
+                                                                lineNumber: 46,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
-                                                        lineNumber: 51,
+                                                        lineNumber: 42,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1279,78 +1300,71 @@ function WorkflowSection() {
                                                         children: "Automated execution step"
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
-                                                        lineNumber: 62,
+                                                        lineNumber: 51,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
-                                                lineNumber: 46,
+                                                lineNumber: 39,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
-                                        lineNumber: 29,
+                                        lineNumber: 28,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
-                                lineNumber: 27,
+                                lineNumber: 26,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
-                        lineNumber: 18,
+                        lineNumber: 19,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "space-y-[clamp(1.5rem,3vw,2.5rem)]",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-[var(--gold-400)] uppercase tracking-[0.3em] text-xs md:text-sm",
-                                children: "Workflow Automation"
-                            }, void 0, false, {
-                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
-                                lineNumber: 74,
-                                columnNumber: 11
-                            }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "font-bold leading-tight",
+                                className: "font-bold leading-tight text-transparent bg-clip-text bg-gradient-to-r from-[var(--gold-400)] to-yellow-200",
                                 style: {
                                     fontSize: "clamp(2.2rem, 4vw, 3.5rem)"
                                 },
-                                children: "Automate Repetitive Business Operations"
+                                children: "Workflow Automation Services"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
-                                lineNumber: 78,
+                                lineNumber: 63,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-[var(--text-secondary)] text-sm md:text-lg leading-relaxed max-w-xl",
-                                children: "Streamline operations and reduce manual work with AI workflow automation systems tailored specifically for your business."
+                                children: "We build AI workflow automation systems that handle your business operations end-to-end — faster, more accurately, and without human error. From CRM automation to multi-step business processes, we map your workflows and replace manual steps with intelligent automation."
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
-                                lineNumber: 85,
+                                lineNumber: 70,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "space-y-4",
+                                className: "space-y-3",
                                 children: [
-                                    "Save operational time",
-                                    "Reduce manual processes",
-                                    "Improve efficiency",
-                                    "Scale operations faster"
+                                    "CRM automation & data sync",
+                                    "Task automation & assignment workflows",
+                                    "Multi-step business process automation",
+                                    "Cross-platform workflow integrations",
+                                    "Automated reporting & notifications"
                                 ].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "flex items-center gap-3 group",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-[var(--gold-500)] text-lg group-hover:scale-125 transition",
-                                                children: "✔"
+                                                children: "▸"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
-                                                lineNumber: 97,
+                                                lineNumber: 84,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1358,18 +1372,63 @@ function WorkflowSection() {
                                                 children: item
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
-                                                lineNumber: 100,
+                                                lineNumber: 87,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
-                                        lineNumber: 96,
+                                        lineNumber: 83,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
-                                lineNumber: 89,
+                                lineNumber: 75,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "grid grid-cols-3 gap-4 pt-2",
+                                children: [
+                                    {
+                                        value: "70%",
+                                        label: "Reduction in manual work"
+                                    },
+                                    {
+                                        value: "50+",
+                                        label: "Hours saved per month"
+                                    },
+                                    {
+                                        value: "60%",
+                                        label: "Improvement in operational efficiency"
+                                    }
+                                ].map((stat, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "glass-card p-4 rounded-2xl border border-[var(--border-subtle)] transition hover:-translate-y-1 hover:border-[var(--gold-500)]/40",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "text-[clamp(1.2rem,2vw,1.8rem)] font-bold text-[var(--gold-500)]",
+                                                children: stat.value
+                                            }, void 0, false, {
+                                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
+                                                lineNumber: 105,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "text-xs uppercase tracking-wider text-[var(--text-secondary)] mt-1",
+                                                children: stat.label
+                                            }, void 0, false, {
+                                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
+                                                lineNumber: 108,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, i, true, {
+                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
+                                        lineNumber: 101,
+                                        columnNumber: 15
+                                    }, this))
+                            }, void 0, false, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
+                                lineNumber: 95,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1377,25 +1436,25 @@ function WorkflowSection() {
                                 children: "Each step is executed automatically in sequence by AI agents"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
-                                lineNumber: 108,
+                                lineNumber: 116,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
-                        lineNumber: 72,
+                        lineNumber: 61,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
-                lineNumber: 15,
+                lineNumber: 16,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/WorkflowSection.tsx",
-        lineNumber: 10,
+        lineNumber: 11,
         columnNumber: 5
     }, this);
 }
@@ -1422,6 +1481,14 @@ function ChatbotSection() {
         {
             type: "bot",
             text: "Perfect — we can build an AI chatbot for that."
+        },
+        {
+            type: "user",
+            text: "Can it work on WhatsApp and our website?"
+        },
+        {
+            type: "bot",
+            text: "Absolutely — we deploy across website, WhatsApp, Slack, and more."
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1431,7 +1498,7 @@ function ChatbotSection() {
                 className: "absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(212,175,55,0.06),transparent_65%)]"
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ChatbotSection.tsx",
-                lineNumber: 21,
+                lineNumber: 29,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1440,49 +1507,42 @@ function ChatbotSection() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "space-y-[clamp(1.5rem,3vw,2.5rem)]",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-[var(--gold-400)] uppercase tracking-[0.3em] text-xs md:text-sm",
-                                children: "AI Chatbots"
-                            }, void 0, false, {
-                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ChatbotSection.tsx",
-                                lineNumber: 28,
-                                columnNumber: 11
-                            }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "font-bold leading-tight",
+                                className: "font-bold leading-tight text-transparent bg-clip-text bg-gradient-to-r from-[var(--gold-400)] to-yellow-200",
                                 style: {
                                     fontSize: "clamp(2.2rem, 4vw, 3.5rem)"
                                 },
-                                children: "AI Chatbot Development Solutions"
+                                children: "AI Chatbot Solutions"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ChatbotSection.tsx",
-                                lineNumber: 32,
+                                lineNumber: 38,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-[var(--text-secondary)] text-sm md:text-lg leading-relaxed max-w-xl",
-                                children: "Build intelligent chatbot systems that improve customer engagement, automate support, and generate qualified leads automatically."
+                                children: "Turn your website, CRM, or messaging platform into an intelligent sales and support engine with a custom AI chatbot built specifically for your business — trained on your products, services, and workflows."
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ChatbotSection.tsx",
-                                lineNumber: 39,
+                                lineNumber: 45,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "space-y-4",
                                 children: [
-                                    "Lead generation chatbots",
-                                    "Customer support systems",
+                                    "Lead generation & qualification chatbots",
+                                    "Customer support automation",
                                     "Website AI assistants",
-                                    "Custom AI conversations"
+                                    "Custom conversation flows & logic",
+                                    "Multi-platform deployment — website, WhatsApp, Slack, and more"
                                 ].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "flex items-center gap-3 group",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-[var(--gold-500)] text-lg group-hover:scale-125 transition",
-                                                children: "✔"
+                                                children: "▸"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ChatbotSection.tsx",
-                                                lineNumber: 52,
+                                                lineNumber: 58,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1490,24 +1550,24 @@ function ChatbotSection() {
                                                 children: item
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ChatbotSection.tsx",
-                                                lineNumber: 55,
+                                                lineNumber: 61,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ChatbotSection.tsx",
-                                        lineNumber: 51,
+                                        lineNumber: 57,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ChatbotSection.tsx",
-                                lineNumber: 44,
+                                lineNumber: 49,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ChatbotSection.tsx",
-                        lineNumber: 26,
+                        lineNumber: 34,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1517,7 +1577,7 @@ function ChatbotSection() {
                                 className: "absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(212,175,55,0.10),transparent_70%)]"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ChatbotSection.tsx",
-                                lineNumber: 67,
+                                lineNumber: 73,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1531,7 +1591,7 @@ function ChatbotSection() {
                                                 children: "AI Chat Interface"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ChatbotSection.tsx",
-                                                lineNumber: 73,
+                                                lineNumber: 79,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1541,7 +1601,7 @@ function ChatbotSection() {
                                                         className: "w-2 h-2 rounded-full bg-[var(--gold-500)] animate-pulse"
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ChatbotSection.tsx",
-                                                        lineNumber: 78,
+                                                        lineNumber: 83,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1549,19 +1609,19 @@ function ChatbotSection() {
                                                         children: "online"
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ChatbotSection.tsx",
-                                                        lineNumber: 79,
+                                                        lineNumber: 84,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ChatbotSection.tsx",
-                                                lineNumber: 77,
+                                                lineNumber: 82,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ChatbotSection.tsx",
-                                        lineNumber: 72,
+                                        lineNumber: 78,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1573,18 +1633,18 @@ function ChatbotSection() {
                                                         className: `
                       max-w-[80%] p-4 rounded-2xl text-sm md:text-base
                       transition-all duration-300
-                      ${msg.type === "bot" ? "bg-[var(--gold-500)]/10 border border-[var(--border-subtle)]" : "bg-white/5 border border-[var(--border-subtle)] mr-10"}
+                      ${msg.type === "bot" ? "bg-[var(--gold-500)]/10 border border-[var(--border-subtle)]" : "bg-white/5 border border-[var(--border-subtle)]"}
                       hover:scale-[1.02]
                     `,
                                                         children: msg.text
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ChatbotSection.tsx",
-                                                        lineNumber: 94,
+                                                        lineNumber: 95,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, index, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ChatbotSection.tsx",
-                                                    lineNumber: 88,
+                                                    lineNumber: 91,
                                                     columnNumber: 17
                                                 }, this)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1594,64 +1654,64 @@ function ChatbotSection() {
                                                         className: "w-2 h-2 bg-[var(--gold-500)] rounded-full animate-bounce"
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ChatbotSection.tsx",
-                                                        lineNumber: 113,
+                                                        lineNumber: 114,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         className: "w-2 h-2 bg-[var(--gold-500)] rounded-full animate-bounce [animation-delay:150ms]"
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ChatbotSection.tsx",
-                                                        lineNumber: 114,
+                                                        lineNumber: 115,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         className: "w-2 h-2 bg-[var(--gold-500)] rounded-full animate-bounce [animation-delay:300ms]"
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ChatbotSection.tsx",
-                                                        lineNumber: 115,
+                                                        lineNumber: 116,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: "AI is thinking..."
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ChatbotSection.tsx",
-                                                        lineNumber: 116,
+                                                        lineNumber: 117,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ChatbotSection.tsx",
-                                                lineNumber: 112,
+                                                lineNumber: 113,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ChatbotSection.tsx",
-                                        lineNumber: 86,
+                                        lineNumber: 89,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ChatbotSection.tsx",
-                                lineNumber: 69,
+                                lineNumber: 75,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ChatbotSection.tsx",
-                        lineNumber: 64,
+                        lineNumber: 70,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ChatbotSection.tsx",
-                lineNumber: 23,
+                lineNumber: 31,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ChatbotSection.tsx",
-        lineNumber: 18,
+        lineNumber: 26,
         columnNumber: 5
     }, this);
 }
@@ -1757,6 +1817,59 @@ function IntegrationsSection() {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IntegrationsSection.tsx",
                                     lineNumber: 45,
                                     columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "relative mt-6 pt-6 border-t border-[var(--border-subtle)]",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-xs text-[var(--text-secondary)] uppercase tracking-[0.2em] mb-3",
+                                            children: "Supported Platforms"
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IntegrationsSection.tsx",
+                                            lineNumber: 52,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "space-y-2",
+                                            children: [
+                                                "CRMs — HubSpot, Salesforce, GoHighLevel",
+                                                "Communication — Slack, WhatsApp, email",
+                                                "Tools — Zapier, Make, custom APIs"
+                                            ].map((platform, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "flex items-center gap-2",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "text-[var(--gold-500)] text-xs",
+                                                            children: "▸"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IntegrationsSection.tsx",
+                                                            lineNumber: 62,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "text-xs text-[var(--text-secondary)]",
+                                                            children: platform
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IntegrationsSection.tsx",
+                                                            lineNumber: 63,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, index, true, {
+                                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IntegrationsSection.tsx",
+                                                    lineNumber: 61,
+                                                    columnNumber: 19
+                                                }, this))
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IntegrationsSection.tsx",
+                                            lineNumber: 55,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IntegrationsSection.tsx",
+                                    lineNumber: 51,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
@@ -1772,49 +1885,42 @@ function IntegrationsSection() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "space-y-[clamp(1.5rem,3vw,2.5rem)]",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-[var(--gold-400)] uppercase tracking-[0.3em] text-xs md:text-sm",
-                                children: "AI Integrations"
-                            }, void 0, false, {
-                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IntegrationsSection.tsx",
-                                lineNumber: 55,
-                                columnNumber: 11
-                            }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "font-bold leading-tight",
                                 style: {
                                     fontSize: "clamp(2.2rem, 4vw, 3.5rem)"
                                 },
-                                children: "Custom AI Integrations For Your Systems"
+                                children: "Custom AI Integrations"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IntegrationsSection.tsx",
-                                lineNumber: 59,
+                                lineNumber: 76,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-[var(--text-secondary)] text-sm md:text-lg leading-relaxed max-w-xl",
-                                children: "Connect AI systems with CRMs, APIs, databases, and existing business infrastructure for seamless automation."
+                                children: "We make AI work with your existing tools — building custom integrations that connect your CRMs, APIs, databases, and business infrastructure into one seamless, automated ecosystem. No complicated migrations. Just intelligent connections."
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IntegrationsSection.tsx",
-                                lineNumber: 66,
+                                lineNumber: 83,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "space-y-4",
                                 children: [
                                     "Custom API integrations",
-                                    "CRM synchronization",
-                                    "Database automation",
-                                    "Cross-platform connectivity"
+                                    "CRM synchronization & automation",
+                                    "Database automation & management",
+                                    "Real-time data sync across systems",
+                                    "Secure AI connectors for business tools"
                                 ].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "flex items-center gap-3 group",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-[var(--gold-500)] text-lg group-hover:scale-125 transition",
-                                                children: "✔"
+                                                children: "▸"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IntegrationsSection.tsx",
-                                                lineNumber: 78,
+                                                lineNumber: 96,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1822,18 +1928,18 @@ function IntegrationsSection() {
                                                 children: item
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IntegrationsSection.tsx",
-                                                lineNumber: 81,
+                                                lineNumber: 99,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IntegrationsSection.tsx",
-                                        lineNumber: 77,
+                                        lineNumber: 95,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IntegrationsSection.tsx",
-                                lineNumber: 70,
+                                lineNumber: 87,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1841,13 +1947,13 @@ function IntegrationsSection() {
                                 children: "All systems are synchronized in real-time via secure AI connectors"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IntegrationsSection.tsx",
-                                lineNumber: 89,
+                                lineNumber: 107,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IntegrationsSection.tsx",
-                        lineNumber: 53,
+                        lineNumber: 72,
                         columnNumber: 9
                     }, this)
                 ]
@@ -1887,16 +1993,30 @@ const metrics = [
         label: "Faster Response Times"
     },
     {
-        value: "5x",
-        label: "Scalability in Support Systems"
-    },
-    {
         value: "2.8x",
         label: "Increase in Lead Conversions"
+    }
+];
+const benefits = [
+    {
+        title: "Dramatic Cost Reduction",
+        body: "Reduce overhead by up to 45% by replacing repetitive manual tasks with automated systems."
     },
     {
-        value: "60%",
-        label: "Efficiency Improvement"
+        title: "Scalability Without Headcount",
+        body: "Handle 10x the volume without adding staff. Scale customer interactions and workflows instantly."
+    },
+    {
+        title: "Faster Response Times",
+        body: "AI responds 3x faster than manual processes — improving customer satisfaction and conversion simultaneously."
+    },
+    {
+        title: "Higher Lead Conversion",
+        body: "Automated qualification and follow-up increases conversions by up to 2.8x. No lead goes cold."
+    },
+    {
+        title: "24/7 Operations",
+        body: "Support, lead generation, and workflows run continuously — even outside business hours."
     }
 ];
 function BenefitsSection() {
@@ -1907,7 +2027,7 @@ function BenefitsSection() {
                 className: "absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(212,175,55,0.07),transparent_70%)]"
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/BenefitsSection.tsx",
-                lineNumber: 33,
+                lineNumber: 48,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1916,41 +2036,88 @@ function BenefitsSection() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "text-center mb-[clamp(2rem,5vw,4rem)]",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-[var(--gold-400)] uppercase tracking-[0.3em] text-xs md:text-sm",
-                                children: "Business Impact"
-                            }, void 0, false, {
-                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/BenefitsSection.tsx",
-                                lineNumber: 39,
-                                columnNumber: 11
-                            }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "font-bold mt-4",
                                 style: {
                                     fontSize: "clamp(2rem, 4vw, 3.5rem)"
                                 },
-                                children: "AI Automation Performance Metrics"
+                                children: "Why Businesses Invest in AI Automation"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/BenefitsSection.tsx",
-                                lineNumber: 43,
+                                lineNumber: 56,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-[var(--text-secondary)] mt-4 max-w-2xl mx-auto text-sm md:text-base",
-                                children: "Real measurable improvements businesses achieve after implementing AI automation systems."
+                                children: "AI automation isn't just a technology upgrade — it's a business decision with measurable, compounding returns."
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/BenefitsSection.tsx",
-                                lineNumber: 50,
+                                lineNumber: 63,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/BenefitsSection.tsx",
-                        lineNumber: 38,
+                        lineNumber: 53,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "grid sm:grid-cols-2 lg:grid-cols-3 gap-[clamp(1rem,2vw,2rem)]",
+                        className: "grid sm:grid-cols-2 lg:grid-cols-3 gap-[clamp(1rem,2vw,2rem)] mb-[clamp(2rem,4vw,4rem)]",
+                        children: benefits.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "group relative rounded-2xl border border-[var(--border-subtle)] p-6 transition-all duration-300 hover:-translate-y-1 hover:border-[var(--gold-500)]/40",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "absolute inset-0 opacity-0 group-hover:opacity-100 transition bg-[radial-gradient(circle_at_top_left,rgba(212,175,55,0.12),transparent_70%)]"
+                                    }, void 0, false, {
+                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/BenefitsSection.tsx",
+                                        lineNumber: 76,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "relative space-y-2",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "text-sm font-semibold text-[var(--gold-400)] uppercase tracking-[0.15em]",
+                                                children: item.title
+                                            }, void 0, false, {
+                                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/BenefitsSection.tsx",
+                                                lineNumber: 79,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "text-sm md:text-base text-[var(--text-secondary)] group-hover:text-white transition leading-relaxed",
+                                                children: item.body
+                                            }, void 0, false, {
+                                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/BenefitsSection.tsx",
+                                                lineNumber: 82,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/BenefitsSection.tsx",
+                                        lineNumber: 78,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "absolute top-4 right-4 w-2 h-2 rounded-full bg-[var(--gold-500)]/30 group-hover:scale-150 transition"
+                                    }, void 0, false, {
+                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/BenefitsSection.tsx",
+                                        lineNumber: 88,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, index, true, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/BenefitsSection.tsx",
+                                lineNumber: 71,
+                                columnNumber: 13
+                            }, this))
+                    }, void 0, false, {
+                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/BenefitsSection.tsx",
+                        lineNumber: 69,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "grid grid-cols-2 lg:grid-cols-4 gap-[clamp(1rem,2vw,2rem)]",
                         children: metrics.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "group relative rounded-2xl border border-[var(--border-subtle)] p-6 transition-all duration-300 hover:-translate-y-1 hover:border-[var(--gold-500)]/40",
                                 children: [
@@ -1958,7 +2125,7 @@ function BenefitsSection() {
                                         className: "absolute inset-0 opacity-0 group-hover:opacity-100 transition bg-[radial-gradient(circle_at_top_left,rgba(212,175,55,0.12),transparent_70%)]"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/BenefitsSection.tsx",
-                                        lineNumber: 65,
+                                        lineNumber: 101,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1969,7 +2136,7 @@ function BenefitsSection() {
                                                 children: item.value
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/BenefitsSection.tsx",
-                                                lineNumber: 70,
+                                                lineNumber: 104,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1977,43 +2144,43 @@ function BenefitsSection() {
                                                 children: item.label
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/BenefitsSection.tsx",
-                                                lineNumber: 75,
+                                                lineNumber: 107,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/BenefitsSection.tsx",
-                                        lineNumber: 67,
+                                        lineNumber: 103,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute top-4 right-4 w-2 h-2 rounded-full bg-[var(--gold-500)]/30 group-hover:scale-150 transition"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/BenefitsSection.tsx",
-                                        lineNumber: 82,
+                                        lineNumber: 113,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, index, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/BenefitsSection.tsx",
-                                lineNumber: 59,
+                                lineNumber: 96,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/BenefitsSection.tsx",
-                        lineNumber: 56,
+                        lineNumber: 94,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/BenefitsSection.tsx",
-                lineNumber: 35,
+                lineNumber: 50,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/BenefitsSection.tsx",
-        lineNumber: 30,
+        lineNumber: 45,
         columnNumber: 5
     }, this);
 }
@@ -2028,13 +2195,30 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/prime/ThePrimeCrafters-Web/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 ;
 const industries = [
-    "Healthcare",
-    "Real Estate",
-    "E-commerce",
-    "SaaS",
-    "Local Businesses",
-    "Customer Support",
-    "Service Businesses"
+    {
+        name: "Healthcare",
+        description: "Patient intake automation, appointment scheduling, HIPAA-compliant voice agents, and clinic workflow systems."
+    },
+    {
+        name: "Real Estate",
+        description: "Lead qualification, AI-powered follow-ups, CRM integrations, and voice agents for property inquiries."
+    },
+    {
+        name: "E-commerce",
+        description: "Order automation, AI support, abandoned cart recovery, and chatbots that drive sales."
+    },
+    {
+        name: "SaaS",
+        description: "Onboarding automation, AI support agents, churn workflows, and CRM integrations."
+    },
+    {
+        name: "Local Businesses",
+        description: "Booking automation, phone handling, lead follow-up, and AI assistants for local operations."
+    },
+    {
+        name: "Service Businesses",
+        description: "Proposal automation, client onboarding, scheduling systems, and CRM integrations."
+    }
 ];
 function IndustriesSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2044,7 +2228,7 @@ function IndustriesSection() {
                 className: "absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(212,175,55,0.06),transparent_70%)]"
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
-                lineNumber: 15,
+                lineNumber: 32,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2059,14 +2243,14 @@ function IndustriesSection() {
                                         className: "absolute inset-0 opacity-0 group-hover:opacity-100 transition bg-[radial-gradient(circle_at_center,rgba(212,175,55,0.10),transparent_70%)]"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
-                                        lineNumber: 27,
+                                        lineNumber: 44,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute top-4 right-4 w-2 h-2 rounded-full bg-[var(--gold-500)]/40 group-hover:scale-150 transition"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
-                                        lineNumber: 30,
+                                        lineNumber: 47,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2074,64 +2258,56 @@ function IndustriesSection() {
                                         children: "✦"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
-                                        lineNumber: 32,
+                                        lineNumber: 49,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                         className: "relative font-semibold text-sm md:text-base group-hover:text-white transition",
-                                        children: industry
+                                        children: industry.name
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
-                                        lineNumber: 36,
+                                        lineNumber: 53,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "relative text-xs text-[var(--text-secondary)] mt-1 opacity-70 group-hover:opacity-100 transition",
-                                        children: "AI automation ready"
+                                        className: "relative text-xs text-[var(--text-secondary)] mt-1 opacity-70 group-hover:opacity-100 transition leading-relaxed",
+                                        children: industry.description
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
-                                        lineNumber: 40,
+                                        lineNumber: 57,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, index, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
-                                lineNumber: 22,
+                                lineNumber: 39,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
-                        lineNumber: 20,
+                        lineNumber: 37,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "space-y-[clamp(1.5rem,3vw,2.5rem)]",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-[var(--gold-400)] uppercase tracking-[0.3em] text-xs md:text-sm",
-                                children: "Industry Coverage"
-                            }, void 0, false, {
-                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
-                                lineNumber: 50,
-                                columnNumber: 11
-                            }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "font-bold leading-tight",
                                 style: {
                                     fontSize: "clamp(2rem, 4vw, 3.5rem)"
                                 },
-                                children: "AI Systems Built for Every Industry"
+                                children: "Industries We Support"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
-                                lineNumber: 54,
+                                lineNumber: 68,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-[var(--text-secondary)] text-sm md:text-lg leading-relaxed max-w-xl",
-                                children: "Our automation infrastructure adapts across multiple industries, powering workflows, communication, and operational scaling."
+                                children: "Our AI automation systems are built to adapt across industries — engineered around how your sector actually operates."
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
-                                lineNumber: 61,
+                                lineNumber: 75,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2144,21 +2320,21 @@ function IndustriesSection() {
                                                 children: "Industries Supported"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
-                                                lineNumber: 70,
+                                                lineNumber: 83,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-[var(--gold-500)] font-semibold",
-                                                children: "7+"
+                                                children: "6+"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
-                                                lineNumber: 71,
+                                                lineNumber: 84,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
-                                        lineNumber: 69,
+                                        lineNumber: 82,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2168,7 +2344,7 @@ function IndustriesSection() {
                                                 children: "Automation Coverage"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
-                                                lineNumber: 75,
+                                                lineNumber: 88,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2176,13 +2352,13 @@ function IndustriesSection() {
                                                 children: "Full Stack"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
-                                                lineNumber: 76,
+                                                lineNumber: 89,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
-                                        lineNumber: 74,
+                                        lineNumber: 87,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2192,7 +2368,7 @@ function IndustriesSection() {
                                                 children: "AI Integration Level"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
-                                                lineNumber: 80,
+                                                lineNumber: 93,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2200,19 +2376,19 @@ function IndustriesSection() {
                                                 children: "Advanced"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
-                                                lineNumber: 81,
+                                                lineNumber: 94,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
-                                        lineNumber: 79,
+                                        lineNumber: 92,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
-                                lineNumber: 67,
+                                lineNumber: 80,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2220,25 +2396,25 @@ function IndustriesSection() {
                                 children: "Every industry is mapped to a dedicated AI automation workflow"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
-                                lineNumber: 87,
+                                lineNumber: 100,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
-                        lineNumber: 48,
+                        lineNumber: 65,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
-                lineNumber: 17,
+                lineNumber: 34,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
-        lineNumber: 13,
+        lineNumber: 30,
         columnNumber: 5
     }, this);
 }
@@ -2253,12 +2429,30 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/prime/ThePrimeCrafters-Web/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 ;
 const steps = [
-    "Discovery",
-    "Strategy",
-    "Development",
-    "Testing",
-    "Deployment",
-    "Optimization"
+    {
+        name: "Discovery",
+        description: "We analyze your operations, identify bottlenecks, and define where AI creates the highest ROI."
+    },
+    {
+        name: "Strategy",
+        description: "Full system architecture — automation logic, integrations, data flows — mapped before development begins."
+    },
+    {
+        name: "Development",
+        description: "Custom AI systems built using enterprise-grade frameworks. Voice agents, chatbots, workflows, integrations."
+    },
+    {
+        name: "Testing",
+        description: "Rigorous testing across real-world scenarios, stress tests, and edge cases before launch."
+    },
+    {
+        name: "Deployment",
+        description: "Live deployment, tool integration, team training, and full handover documentation."
+    },
+    {
+        name: "Optimization",
+        description: "Ongoing monitoring, performance analysis, and continuous system improvement post-launch."
+    }
 ];
 function ProcessSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2268,7 +2462,7 @@ function ProcessSection() {
                 className: "absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(212,175,55,0.06),transparent_70%)]"
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ProcessSection.tsx",
-                lineNumber: 15,
+                lineNumber: 33,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2277,14 +2471,6 @@ function ProcessSection() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "text-center mb-[clamp(2rem,5vw,4rem)]",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-[var(--gold-400)] uppercase tracking-[0.3em] text-xs md:text-sm",
-                                children: "Process"
-                            }, void 0, false, {
-                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ProcessSection.tsx",
-                                lineNumber: 21,
-                                columnNumber: 11
-                            }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "font-bold mt-4",
                                 style: {
@@ -2293,21 +2479,21 @@ function ProcessSection() {
                                 children: "Our AI Implementation Process"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ProcessSection.tsx",
-                                lineNumber: 25,
+                                lineNumber: 40,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-[var(--text-secondary)] mt-4 max-w-2xl mx-auto text-sm md:text-base",
-                                children: "A structured pipeline that transforms ideas into fully automated AI systems."
+                                children: "From first conversation to live deployment — a structured process that turns your workflows into intelligent, automated systems."
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ProcessSection.tsx",
-                                lineNumber: 32,
+                                lineNumber: 47,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ProcessSection.tsx",
-                        lineNumber: 20,
+                        lineNumber: 38,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2317,7 +2503,7 @@ function ProcessSection() {
                                 className: "absolute top-1/2 left-0 w-full h-[2px] bg-[var(--border-subtle)] hidden md:block"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ProcessSection.tsx",
-                                lineNumber: 41,
+                                lineNumber: 56,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2332,20 +2518,20 @@ function ProcessSection() {
                                                         className: "w-5 h-5 rounded-full bg-[var(--gold-500)]/20 group-hover:scale-150 transition"
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ProcessSection.tsx",
-                                                        lineNumber: 55,
+                                                        lineNumber: 70,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "absolute inset-1 rounded-full bg-[var(--gold-500)] group-hover:scale-110 transition"
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ProcessSection.tsx",
-                                                        lineNumber: 58,
+                                                        lineNumber: 73,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ProcessSection.tsx",
-                                                lineNumber: 52,
+                                                lineNumber: 67,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2359,65 +2545,80 @@ function ProcessSection() {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ProcessSection.tsx",
-                                                        lineNumber: 65,
+                                                        lineNumber: 80,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                         className: "text-sm md:text-base font-semibold group-hover:text-white transition",
-                                                        children: step
+                                                        children: step.name
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ProcessSection.tsx",
-                                                        lineNumber: 69,
+                                                        lineNumber: 84,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "text-xs text-[var(--text-secondary)] mt-2 opacity-70 group-hover:opacity-100 transition",
-                                                        children: "AI execution stage"
+                                                        className: "text-xs text-[var(--text-secondary)] mt-2 opacity-70 group-hover:opacity-100 transition leading-relaxed",
+                                                        children: step.description
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ProcessSection.tsx",
-                                                        lineNumber: 74,
+                                                        lineNumber: 88,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ProcessSection.tsx",
-                                                lineNumber: 62,
+                                                lineNumber: 77,
                                                 columnNumber: 17
                                             }, this),
                                             index !== steps.length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "md:hidden w-[2px] h-10 bg-[var(--border-subtle)] mt-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ProcessSection.tsx",
-                                                lineNumber: 82,
+                                                lineNumber: 96,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ProcessSection.tsx",
-                                        lineNumber: 46,
+                                        lineNumber: 61,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ProcessSection.tsx",
-                                lineNumber: 43,
+                                lineNumber: 58,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ProcessSection.tsx",
-                        lineNumber: 38,
+                        lineNumber: 53,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "text-center mt-[clamp(2rem,4vw,3rem)]",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-xs text-[var(--text-secondary)] opacity-70",
+                            children: "Most implementations complete within 2–8 weeks depending on scope."
+                        }, void 0, false, {
+                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ProcessSection.tsx",
+                            lineNumber: 106,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ProcessSection.tsx",
+                        lineNumber: 105,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ProcessSection.tsx",
-                lineNumber: 17,
+                lineNumber: 35,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ProcessSection.tsx",
-        lineNumber: 12,
+        lineNumber: 30,
         columnNumber: 5
     }, this);
 }
@@ -2692,11 +2893,11 @@ function ServicesCTA() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "font-bold mt-6 mb-6",
+                                    className: "font-bold mt-4 leading-tight text-transparent bg-clip-text bg-gradient-to-r from-[var(--gold-400)] to-yellow-200",
                                     style: {
                                         fontSize: "clamp(2rem, 4vw, 3.5rem)"
                                     },
-                                    children: "Let’s Build Your AI Infrastructure"
+                                    children: "AI Voice Agent Solutions"
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesCTA.tsx",
                                     lineNumber: 24,
@@ -2704,10 +2905,10 @@ function ServicesCTA() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-[var(--text-secondary)] text-sm md:text-lg max-w-2xl mx-auto mb-10",
-                                    children: "Activate your automation layer, connect voice agents, workflows, integrations, and AI systems into one unified engine."
+                                    children: "Replace manual call handling with intelligent AI voice agents that manage inbound and outbound interactions automatically — around the clock, at any scale. Our voice AI systems are trained on your business workflows and brand voice, delivering natural conversations that convert leads, resolve support queries, and book appointments without a human on the line."
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesCTA.tsx",
-                                    lineNumber: 31,
+                                    lineNumber: 32,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -2718,7 +2919,7 @@ function ServicesCTA() {
                                             children: "Activate System"
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesCTA.tsx",
-                                            lineNumber: 40,
+                                            lineNumber: 45,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2726,13 +2927,13 @@ function ServicesCTA() {
                                             children: "→"
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesCTA.tsx",
-                                            lineNumber: 43,
+                                            lineNumber: 48,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesCTA.tsx",
-                                    lineNumber: 36,
+                                    lineNumber: 41,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2740,7 +2941,7 @@ function ServicesCTA() {
                                     children: "Deployment-ready AI infrastructure • 2–8 week implementation cycle"
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesCTA.tsx",
-                                    lineNumber: 49,
+                                    lineNumber: 54,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -2812,19 +3013,26 @@ const metadata = {
     keywords: [
         "AI Automation Services",
         "AI Solutions Company",
-        "AI Voice Agents",
         "Workflow Automation",
         "Business Process Automation",
-        "AI Chatbot Development",
-        "Custom AI Integrations",
-        "AI Automation Agency",
-        "Business Automation Services",
-        "AI Systems for Businesses",
         "CRM Automation",
+        "AI Development Services",
+        "Business Automation Services",
+        "AI Voice Agents",
         "Voice AI Solutions",
-        "AI Workflow Automation",
         "Customer Support Automation",
-        "AI Agency"
+        "AI Chatbot Development",
+        "Lead Generation Chatbot",
+        "Customer Support Automation",
+        "Custom AI Integrations",
+        "CRM Automation",
+        "AI API Integration",
+        "AI Systems for Businesses",
+        "Business Automation Benefits",
+        " AI Automation Agency",
+        "Industry AI Solutions",
+        "AI Workflow Automation",
+        "AI Implementation Process"
     ]
 };
 function ServicesPage() {
@@ -2833,73 +3041,73 @@ function ServicesPage() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$components$2f$Navbar$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Navbar$3e$__["Navbar"], {}, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/page.tsx",
-                lineNumber: 44,
+                lineNumber: 37,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$services$2f$components$2f$ServicesHero$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/page.tsx",
-                lineNumber: 45,
+                lineNumber: 38,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$services$2f$components$2f$ServicesGrid$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/page.tsx",
-                lineNumber: 46,
+                lineNumber: 39,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$services$2f$components$2f$VoiceAgentsSection$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/page.tsx",
-                lineNumber: 47,
+                lineNumber: 40,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$services$2f$components$2f$WorkflowSection$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/page.tsx",
-                lineNumber: 48,
+                lineNumber: 41,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$services$2f$components$2f$ChatbotSection$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/page.tsx",
-                lineNumber: 49,
+                lineNumber: 42,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$services$2f$components$2f$IntegrationsSection$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/page.tsx",
-                lineNumber: 50,
+                lineNumber: 43,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$services$2f$components$2f$BenefitsSection$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/page.tsx",
-                lineNumber: 51,
+                lineNumber: 44,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$services$2f$components$2f$IndustriesSection$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/page.tsx",
-                lineNumber: 52,
+                lineNumber: 45,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$services$2f$components$2f$ProcessSection$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/page.tsx",
-                lineNumber: 53,
+                lineNumber: 46,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$services$2f$components$2f$CaseStudiesPreview$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/page.tsx",
-                lineNumber: 54,
+                lineNumber: 47,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$services$2f$components$2f$FAQSection$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/page.tsx",
-                lineNumber: 55,
+                lineNumber: 48,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$services$2f$components$2f$ServicesCTA$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/page.tsx",
-                lineNumber: 56,
+                lineNumber: 49,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/page.tsx",
-        lineNumber: 43,
+        lineNumber: 36,
         columnNumber: 5
     }, this);
 }

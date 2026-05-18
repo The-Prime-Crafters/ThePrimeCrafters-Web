@@ -46,37 +46,55 @@ export default function IntegrationsSection() {
               <div className="absolute top-1/2 left-0 w-full h-[1px] bg-[var(--border-subtle)]" />
               <div className="absolute top-0 left-1/2 w-[1px] h-full bg-[var(--border-subtle)]" />
             </div>
+
+            {/* SUPPORTED PLATFORMS */}
+            <div className="relative mt-6 pt-6 border-t border-[var(--border-subtle)]">
+              <p className="text-xs text-[var(--text-secondary)] uppercase tracking-[0.2em] mb-3">
+                Supported Platforms
+              </p>
+              <div className="space-y-2">
+                {[
+                  "CRMs — HubSpot, Salesforce, GoHighLevel",
+                  "Communication — Slack, WhatsApp, email",
+                  "Tools — Zapier, Make, custom APIs",
+                ].map((platform, index) => (
+                  <div key={index} className="flex items-center gap-2">
+                    <span className="text-[var(--gold-500)] text-xs">▸</span>
+                    <span className="text-xs text-[var(--text-secondary)]">{platform}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
 
         {/* RIGHT - TEXT */}
         <div className="space-y-[clamp(1.5rem,3vw,2.5rem)]">
           
-          <span className="text-[var(--gold-400)] uppercase tracking-[0.3em] text-xs md:text-sm">
-            AI Integrations
-          </span>
+       
 
           <h2
-            className="font-bold leading-tight"
+            className="font-bold mt-4 leading-tight text-transparent bg-clip-text bg-gradient-to-r from-[var(--gold-400)] to-yellow-200"
             style={{ fontSize: "clamp(2.2rem, 4vw, 3.5rem)" }}
           >
-            Custom AI Integrations For Your Systems
+            Custom AI Integrations
           </h2>
 
           <p className="text-[var(--text-secondary)] text-sm md:text-lg leading-relaxed max-w-xl">
-            Connect AI systems with CRMs, APIs, databases, and existing business infrastructure for seamless automation.
+            We make AI work with your existing tools — building custom integrations that connect your CRMs, APIs, databases, and business infrastructure into one seamless, automated ecosystem. No complicated migrations. Just intelligent connections.
           </p>
 
           <div className="space-y-4">
             {[
               "Custom API integrations",
-              "CRM synchronization",
-              "Database automation",
-              "Cross-platform connectivity",
+              "CRM synchronization & automation",
+              "Database automation & management",
+              "Real-time data sync across systems",
+              "Secure AI connectors for business tools",
             ].map((item, index) => (
               <div key={index} className="flex items-center gap-3 group">
                 <span className="text-[var(--gold-500)] text-lg group-hover:scale-125 transition">
-                  ✔
+                  ▸
                 </span>
                 <span className="text-sm md:text-base group-hover:text-white transition">
                   {item}

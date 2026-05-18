@@ -15,14 +15,18 @@ import { Footer } from "@/components";
 
 export const metadata: Metadata = {
   title:
-    "About Us | The Prime Crafters | AI Automation Agency",
+    "AI Automation Services | The Prime Crafters",
 
   description:
-    "About us, The Prime Crafters is an AI automation agency helping businesses scale with AI voice agents, workflow automation, chatbots, and custom integrations",
+    "Explore AI automation services by The Prime Crafters — voice agents, workflow automation, chatbots, and custom AI integrations built for business growth.",
      alternates: {
     canonical: "https://www.theprimecrafters.com/about-us", // 👈 add this
   },
- 
+  robots: {
+    index: true,
+    follow: true,
+    
+  },
   openGraph: {
     title:
       "The Prime Crafters | AI Automation Agency",

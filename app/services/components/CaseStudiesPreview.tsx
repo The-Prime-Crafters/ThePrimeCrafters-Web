@@ -1,5 +1,22 @@
 import Link from "next/link";
-import { caseStudies } from "../data";
+
+const caseStudies = [
+  {
+    title: "AI Lead Qualification System",
+    result: "3x More Qualified Leads",
+    description: "Automated customer screening, scoring, and routing — tripling conversion-ready pipeline without adding headcount.",
+  },
+  {
+    title: "Voice Automation for Clinics",
+    result: "70% Fewer Manual Calls",
+    description: "AI voice agent handling appointment booking, patient intake, and support — cutting manual call volume by 70%.",
+  },
+  {
+    title: "CRM Workflow Automation",
+    result: "50+ Hours Saved Monthly",
+    description: "Full CRM automation eliminating manual data entry, follow-ups, and reporting — saving 50+ team hours every month.",
+  },
+];
 
 export default function CaseStudiesPreview() {
   return (
@@ -14,19 +31,16 @@ export default function CaseStudiesPreview() {
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-[clamp(2rem,5vw,4rem)]">
 
           <div>
-            <span className="text-[var(--gold-400)] uppercase tracking-[0.3em] text-xs md:text-sm">
-              Case Studies
-            </span>
-
+            
             <h2
-              className="font-bold mt-4"
+              className="font-bold mt-4 leading-tight text-transparent bg-clip-text bg-gradient-to-r from-[var(--gold-400)] to-yellow-200"
               style={{ fontSize: "clamp(2rem, 4vw, 3.5rem)" }}
             >
-              Real Results Through AI Automation
+              Featured Case Studies
             </h2>
 
             <p className="text-[var(--text-secondary)] mt-4 max-w-xl text-sm md:text-base">
-              Measurable impact delivered through intelligent automation systems.
+              Real businesses. Real results. Here's how our AI systems have transformed operations across industries.
             </p>
           </div>
 
@@ -34,7 +48,7 @@ export default function CaseStudiesPreview() {
             href="/#projects"
             className="text-[var(--gold-500)] hover:text-[var(--gold-400)] transition-all text-sm md:text-base"
           >
-            View All Projects →
+            ▸&nbsp; View All Projects →
           </Link>
         </div>
 
@@ -69,8 +83,6 @@ export default function CaseStudiesPreview() {
               <p className="relative text-sm md:text-base text-[var(--text-secondary)] leading-relaxed mb-6 group-hover:text-white/90 transition">
                 {study.description}
               </p>
-
-             
 
               {/* subtle corner indicator */}
               <div className="absolute top-4 right-4 w-2 h-2 rounded-full bg-[var(--gold-500)]/30 group-hover:scale-150 transition" />

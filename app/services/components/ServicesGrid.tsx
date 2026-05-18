@@ -2,22 +2,22 @@ const services = [
   {
     title: "AI Voice Agents",
     description:
-      "AI-powered voice systems for customer support, sales, and lead qualification.",
+      "AI-powered voice systems for customer support, sales, and lead qualification — running 24/7 without human intervention.",
   },
   {
     title: "Workflow Automation",
     description:
-      "Automate repetitive operations and streamline business workflows.",
+      "Automate repetitive operations and streamline business workflows with systems built around your exact processes.",
   },
   {
     title: "AI Chatbots",
     description:
-      "Custom chatbot systems for lead generation and customer engagement.",
+      "Custom chatbot systems for lead generation, customer engagement, and support — deployed anywhere your customers are.",
   },
   {
     title: "Custom Integrations",
     description:
-      "Integrate AI systems with CRMs, APIs, and business platforms.",
+      "Connect AI systems seamlessly with your CRMs, APIs, databases, and existing business infrastructure.",
   },
 ];
 
@@ -35,21 +35,19 @@ export default function ServicesGrid() {
         
         {/* Header */}
         <div className="text-center mb-[clamp(2.5rem,5vw,5rem)]">
-          <span className="text-[var(--gold-400)] uppercase tracking-[0.3em] text-xs md:text-sm">
-            What We Offer
-          </span>
+          
 
           <h2
-            className="font-bold mt-4 leading-tight"
+            className="font-bold mt-4 leading-tight text-transparent bg-clip-text bg-gradient-to-r from-[var(--gold-400)] to-yellow-200"
             style={{
               fontSize: "clamp(2rem, 4vw, 3.5rem)",
             }}
           >
-            Premium AI Automation Services
+            What We Offer
           </h2>
 
           <p className="mt-4 text-[var(--text-secondary)] max-w-2xl mx-auto text-sm md:text-base">
-            Intelligent systems designed to replace manual work with adaptive AI-driven automation.
+            We design and build custom AI systems across four core service areas — each engineered to eliminate manual work, reduce costs, and scale your operations intelligently.
           </p>
         </div>
 

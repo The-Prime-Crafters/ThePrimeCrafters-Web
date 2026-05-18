@@ -13,28 +13,21 @@ import ProcessSection from "../services/components/ProcessSection";
 import CaseStudiesPreview from "../services/components/CaseStudiesPreview";
 import FAQSection from "../services/components/FAQSection";
 import ServicesCTA from "../services/components/ServicesCTA";
-
+import { Footer } from "@/components";
 
 export const metadata: Metadata = {
   title: "AI Automation Services | The Prime Crafters",
   description:
     "AI automation services including voice agents, workflow automation, chatbot development, and custom AI integrations.",
  keywords: [
-    "AI Automation Services",
-    "AI Solutions Company",
-    "AI Voice Agents",
-    "Workflow Automation",
-    "Business Process Automation",
-    "AI Chatbot Development",
-    "Custom AI Integrations",
-    "AI Automation Agency",
-    "Business Automation Services",
-    "AI Systems for Businesses",
-    "CRM Automation",
-    "Voice AI Solutions",
-    "AI Workflow Automation",
-    "Customer Support Automation",
-    "AI Agency",
+    "AI Automation Services","AI Automation Agency USA",
+    "AI Solutions Company","Workflow Automation", "Business Process Automation", "CRM Automation",
+    "AI Development Services", "Business Automation Services",
+    "AI Voice Agents", "Voice AI Solutions", "Customer Support Automation",
+    "AI Chatbot Development", "Lead Generation Chatbot", "Customer Support Automation",
+    "Custom AI Integrations", "CRM Automation", "AI API Integration","AI Automation FAQs", "AI Chatbot Questions", "Voice Agent FAQ",
+    "AI Systems for Businesses", "Business Automation Benefits","AI Case Studies", "AI Automation Results",
+    " AI Automation Agency", "Industry AI Solutions","AI Workflow Automation", "AI Implementation Process",
   ],
 };
 
@@ -54,6 +47,7 @@ export default function ServicesPage() {
       <CaseStudiesPreview />
       <FAQSection />
       <ServicesCTA />
+      <Footer/>
     </main>
   );
 }

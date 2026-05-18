@@ -1,4 +1,4 @@
-:HL["/_next/static/chunks/b851ddecb11fd1d9.css","style"]
+:HL["/_next/static/chunks/5f1a95edc3c1bdce.css","style"]
 :HL["/logo.png","image"]
 :HL["/faithful-companion.png","image"]
-0:{"buildId":"n-bnZ0kkpljX6G26GMara","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"case-study","paramType":null,"paramKey":"case-study","hasRuntimePrefetch":false,"slots":{"children":{"name":"slug","paramType":"d","paramKey":"faithful-companion","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"3pbpa08NfX6YTD-ZWOLWY","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"case-study","paramType":null,"paramKey":"case-study","hasRuntimePrefetch":false,"slots":{"children":{"name":"slug","paramType":"d","paramKey":"faithful-companion","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

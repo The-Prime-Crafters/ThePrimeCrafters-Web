@@ -4163,19 +4163,35 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d
 const faqs = [
     {
         question: "What industries benefit from AI automation?",
-        answer: "Healthcare, SaaS, real estate, e-commerce, local businesses, and customer support industries benefit significantly from AI automation."
+        answer: "Healthcare, SaaS, real estate, e-commerce, local businesses, and any business with repetitive workflows or high customer interaction volume."
     },
     {
         question: "What is an AI voice agent?",
-        answer: "AI voice agents automate inbound and outbound calls for support, lead qualification, scheduling, and customer communication."
-    },
-    {
-        question: "Can AI integrate with our CRM?",
-        answer: "Yes, we build custom integrations with CRMs, APIs, and business systems."
+        answer: "An AI system that handles inbound and outbound calls automatically — qualifying leads, booking appointments, and managing customer interactions 24/7."
     },
     {
         question: "How long does implementation take?",
-        answer: "Project timelines depend on complexity, but most implementations take between 2–8 weeks."
+        answer: "Most projects complete in 2–8 weeks. Simple automations can go live in 2 weeks; complex multi-platform systems take 4–8 weeks."
+    },
+    {
+        question: "Can AI integrate with our existing CRM?",
+        answer: "Yes. We build custom integrations with HubSpot, Salesforce, GoHighLevel, and others — syncing data in real time without disrupting your current setup."
+    },
+    {
+        question: "Do you build custom AI solutions?",
+        answer: "Every system is built from scratch for your specific workflows — never off-the-shelf software."
+    },
+    {
+        question: "What business processes can be automated?",
+        answer: "Lead follow-up, appointment booking, customer support, CRM updates, onboarding, reporting, task assignment, and data sync across platforms."
+    },
+    {
+        question: "How much does AI automation cost?",
+        answer: "Pricing is based on project scope. We provide custom quotes after a free discovery call. Most clients see full ROI within 90 days."
+    },
+    {
+        question: "Are AI chatbots customizable?",
+        answer: "Fully. Trained on your data, brand voice, and conversation logic — deployable on any platform."
     }
 ];
 function FAQSection() {
@@ -4190,7 +4206,7 @@ function FAQSection() {
                 className: "absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(212,175,55,0.06),transparent_70%)]"
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/FAQSection.tsx",
-                lineNumber: 39,
+                lineNumber: 59,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4199,37 +4215,29 @@ function FAQSection() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "text-center mb-[clamp(2rem,5vw,4rem)]",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-[var(--gold-400)] uppercase tracking-[0.3em] text-xs md:text-sm",
-                                children: "Knowledge Base"
-                            }, void 0, false, {
-                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/FAQSection.tsx",
-                                lineNumber: 45,
-                                columnNumber: 11
-                            }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "font-bold mt-4",
+                                className: "font-bold mt-4 leading-tight text-transparent bg-clip-text bg-gradient-to-r from-[var(--gold-400)] to-yellow-200",
                                 style: {
                                     fontSize: "clamp(2rem, 4vw, 3.5rem)"
                                 },
                                 children: "Frequently Asked Questions"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/FAQSection.tsx",
-                                lineNumber: 49,
+                                lineNumber: 67,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-[var(--text-secondary)] mt-4 text-sm md:text-base max-w-2xl mx-auto",
-                                children: "Everything you need to know about AI automation systems and implementation."
+                                children: "Everything you need to know about AI automation, implementation, and working with The Prime Crafters."
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/FAQSection.tsx",
-                                lineNumber: 56,
+                                lineNumber: 74,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/FAQSection.tsx",
-                        lineNumber: 44,
+                        lineNumber: 64,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4245,7 +4253,7 @@ function FAQSection() {
                                         className: `absolute inset-0 transition opacity-0 group-hover:opacity-100 ${isOpen ? "opacity-100" : ""} bg-[radial-gradient(circle_at_top_left,rgba(212,175,55,0.10),transparent_70%)]`
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/FAQSection.tsx",
-                                        lineNumber: 79,
+                                        lineNumber: 97,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4256,7 +4264,7 @@ function FAQSection() {
                                                 children: faq.question
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/FAQSection.tsx",
-                                                lineNumber: 87,
+                                                lineNumber: 105,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4264,13 +4272,13 @@ function FAQSection() {
                                                 children: isOpen ? "−" : "+"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/FAQSection.tsx",
-                                                lineNumber: 95,
+                                                lineNumber: 113,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/FAQSection.tsx",
-                                        lineNumber: 86,
+                                        lineNumber: 104,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4278,31 +4286,31 @@ function FAQSection() {
                                         children: faq.answer
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/FAQSection.tsx",
-                                        lineNumber: 101,
+                                        lineNumber: 119,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, index, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/FAQSection.tsx",
-                                lineNumber: 68,
+                                lineNumber: 86,
                                 columnNumber: 15
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/FAQSection.tsx",
-                        lineNumber: 62,
+                        lineNumber: 80,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/FAQSection.tsx",
-                lineNumber: 41,
+                lineNumber: 61,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/FAQSection.tsx",
-        lineNumber: 36,
+        lineNumber: 56,
         columnNumber: 5
     }, this);
 }

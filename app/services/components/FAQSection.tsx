@@ -6,22 +6,42 @@ const faqs = [
   {
     question: "What industries benefit from AI automation?",
     answer:
-      "Healthcare, SaaS, real estate, e-commerce, local businesses, and customer support industries benefit significantly from AI automation.",
+      "Healthcare, SaaS, real estate, e-commerce, local businesses, and any business with repetitive workflows or high customer interaction volume.",
   },
   {
     question: "What is an AI voice agent?",
     answer:
-      "AI voice agents automate inbound and outbound calls for support, lead qualification, scheduling, and customer communication.",
-  },
-  {
-    question: "Can AI integrate with our CRM?",
-    answer:
-      "Yes, we build custom integrations with CRMs, APIs, and business systems.",
+      "An AI system that handles inbound and outbound calls automatically — qualifying leads, booking appointments, and managing customer interactions 24/7.",
   },
   {
     question: "How long does implementation take?",
     answer:
-      "Project timelines depend on complexity, but most implementations take between 2–8 weeks.",
+      "Most projects complete in 2–8 weeks. Simple automations can go live in 2 weeks; complex multi-platform systems take 4–8 weeks.",
+  },
+  {
+    question: "Can AI integrate with our existing CRM?",
+    answer:
+      "Yes. We build custom integrations with HubSpot, Salesforce, GoHighLevel, and others — syncing data in real time without disrupting your current setup.",
+  },
+  {
+    question: "Do you build custom AI solutions?",
+    answer:
+      "Every system is built from scratch for your specific workflows — never off-the-shelf software.",
+  },
+  {
+    question: "What business processes can be automated?",
+    answer:
+      "Lead follow-up, appointment booking, customer support, CRM updates, onboarding, reporting, task assignment, and data sync across platforms.",
+  },
+  {
+    question: "How much does AI automation cost?",
+    answer:
+      "Pricing is based on project scope. We provide custom quotes after a free discovery call. Most clients see full ROI within 90 days.",
+  },
+  {
+    question: "Are AI chatbots customizable?",
+    answer:
+      "Fully. Trained on your data, brand voice, and conversation logic — deployable on any platform.",
   },
 ];
 
@@ -42,19 +62,17 @@ export default function FAQSection() {
 
         {/* HEADER */}
         <div className="text-center mb-[clamp(2rem,5vw,4rem)]">
-          <span className="text-[var(--gold-400)] uppercase tracking-[0.3em] text-xs md:text-sm">
-            Knowledge Base
-          </span>
+        
 
           <h2
-            className="font-bold mt-4"
+            className="font-bold mt-4 leading-tight text-transparent bg-clip-text bg-gradient-to-r from-[var(--gold-400)] to-yellow-200"
             style={{ fontSize: "clamp(2rem, 4vw, 3.5rem)" }}
           >
             Frequently Asked Questions
           </h2>
 
           <p className="text-[var(--text-secondary)] mt-4 text-sm md:text-base max-w-2xl mx-auto">
-            Everything you need to know about AI automation systems and implementation.
+            Everything you need to know about AI automation, implementation, and working with The Prime Crafters.
           </p>
         </div>
 
