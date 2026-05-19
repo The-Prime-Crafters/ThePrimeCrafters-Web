@@ -21,7 +21,7 @@ export default function ServicesHero() {
           <h1 className="font-bold leading-[1.05]">
             <span
               className="block text-transparent bg-clip-text bg-gradient-to-r from-[var(--gold-400)] to-yellow-200"
-              style={{ fontSize: "clamp(2.5rem, 5vw, 5.5rem)" }}
+              style={{ fontSize: "clamp(2rem, 3.5vw, 4rem)" }}
             >
               AI Automation Services Designed for Business Growth
             </span>
