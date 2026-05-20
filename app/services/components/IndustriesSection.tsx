@@ -46,15 +46,15 @@ export default function IndustriesSection() {
               {/* accent dot */}
               <div className="absolute top-4 right-4 w-2 h-2 rounded-full bg-[var(--gold-500)]/40 group-hover:scale-150 transition" />
 
-              <div className="relative text-[var(--gold-500)] text-xl mb-3">
+              <div className="relative text-[var(--gold-500)] text-2xl mb-3">
                 ✦
               </div>
 
-              <h3 className="relative font-semibold text-sm md:text-base group-hover:text-white transition">
+              <h3 className="relative font-semibold text-base md:text-lg group-hover:text-white transition">
                 {industry.name}
               </h3>
 
-              <p className="relative text-xs text-[var(--text-secondary)] mt-1 opacity-70 group-hover:opacity-100 transition leading-relaxed">
+              <p className="relative text-sm text-[var(--text-secondary)] mt-1 opacity-70 group-hover:opacity-100 transition leading-relaxed">
                 {industry.description}
               </p>
             </div>
@@ -97,7 +97,7 @@ export default function IndustriesSection() {
           </div>
 
           {/* footer hint */}
-          <div className="text-xs text-[var(--text-secondary)] opacity-70">
+          <div className="text-sm text-[var(--text-secondary)] opacity-70">
             Every industry is mapped to a dedicated AI automation workflow
           </div>
         </div>

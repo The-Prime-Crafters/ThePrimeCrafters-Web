@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function ServicesHero() {
   return (
-    <section className="relative min-h-screen flex items-center px-6 overflow-hidden">
+    <section className="relative min-h-screen flex items-center px-6 pt-24 overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-[-20%] left-[-10%] w-[40vw] h-[40vw] bg-[var(--gold-500)]/10 blur-3xl rounded-full animate-pulse" />

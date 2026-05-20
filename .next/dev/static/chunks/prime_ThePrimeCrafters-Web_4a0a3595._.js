@@ -33,7 +33,7 @@ const navLinks = [
     },
     {
         name: "Contact",
-        href: "#contact"
+        href: "/contact"
     }
 ];
 function Navbar() {

@@ -3,6 +3,7 @@
   "/_not-found/page": "/_not-found",
   "/about-us/page": "/about-us",
   "/case-study/[slug]/page": "/case-study/[slug]",
+  "/contact/page": "/contact",
   "/page": "/",
   "/portfolio/page": "/portfolio",
   "/robots.txt/route": "/robots.txt",

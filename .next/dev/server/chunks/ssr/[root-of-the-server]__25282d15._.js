@@ -378,7 +378,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d
 ;
 function ServicesHero() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "relative min-h-screen flex items-center px-6 overflow-hidden",
+        className: "relative min-h-screen flex items-center px-6 pt-24 overflow-hidden",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute inset-0 overflow-hidden",
@@ -2254,7 +2254,7 @@ function IndustriesSection() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "relative text-[var(--gold-500)] text-xl mb-3",
+                                        className: "relative text-[var(--gold-500)] text-2xl mb-3",
                                         children: "✦"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
@@ -2262,7 +2262,7 @@ function IndustriesSection() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "relative font-semibold text-sm md:text-base group-hover:text-white transition",
+                                        className: "relative font-semibold text-base md:text-lg group-hover:text-white transition",
                                         children: industry.name
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
@@ -2270,7 +2270,7 @@ function IndustriesSection() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "relative text-xs text-[var(--text-secondary)] mt-1 opacity-70 group-hover:opacity-100 transition leading-relaxed",
+                                        className: "relative text-sm text-[var(--text-secondary)] mt-1 opacity-70 group-hover:opacity-100 transition leading-relaxed",
                                         children: industry.description
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
@@ -2392,7 +2392,7 @@ function IndustriesSection() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "text-xs text-[var(--text-secondary)] opacity-70",
+                                className: "text-sm text-[var(--text-secondary)] opacity-70",
                                 children: "Every industry is mapped to a dedicated AI automation workflow"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/IndustriesSection.tsx",
@@ -2535,7 +2535,7 @@ function ProcessSection() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "glass-card w-full rounded-2xl p-5 border border-[var(--border-subtle)] transition-all duration-300 hover:-translate-y-1 hover:border-[var(--gold-500)]/40",
+                                                className: "glass-card w-full rounded-2xl p-5 border border-[var(--border-subtle)] transition-all duration-300 hover:-translate-y-1 hover:border-[var(--gold-500)]/40 flex flex-col min-h-[230px]",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "text-[var(--gold-500)] font-bold text-2xl mb-2",
@@ -2557,7 +2557,7 @@ function ProcessSection() {
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "text-xs text-[var(--text-secondary)] mt-2 opacity-70 group-hover:opacity-100 transition leading-relaxed",
+                                                        className: "text-sm text-[var(--text-secondary)] mt-2 opacity-70 group-hover:opacity-100 transition leading-relaxed",
                                                         children: step.description
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ProcessSection.tsx",

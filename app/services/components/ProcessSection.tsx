@@ -74,7 +74,7 @@ export default function ProcessSection() {
                 </div>
 
                 {/* card */}
-                <div className="glass-card w-full rounded-2xl p-5 border border-[var(--border-subtle)] transition-all duration-300 hover:-translate-y-1 hover:border-[var(--gold-500)]/40">
+                <div className="glass-card w-full rounded-2xl p-5 border border-[var(--border-subtle)] transition-all duration-300 hover:-translate-y-1 hover:border-[var(--gold-500)]/40 flex flex-col min-h-[230px]">
 
                   {/* step number */}
                   <div className="text-[var(--gold-500)] font-bold text-2xl mb-2">
@@ -85,7 +85,7 @@ export default function ProcessSection() {
                     {step.name}
                   </h3>
 
-                  <p className="text-xs text-[var(--text-secondary)] mt-2 opacity-70 group-hover:opacity-100 transition leading-relaxed">
+                  <p className="text-sm text-[var(--text-secondary)] mt-2 opacity-70 group-hover:opacity-100 transition leading-relaxed">
                     {step.description}
                   </p>
 
