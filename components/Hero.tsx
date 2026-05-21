@@ -312,7 +312,10 @@ export default function Hero() {
   }, [activeOption]);
 
   return (
-    <div ref={heroRef} className="relative h-screen w-full overflow-hidden bg-black">
+    <div
+  ref={heroRef}
+  className="relative min-h-screen w-full overflow-hidden bg-black pt-28 lg:pt-32"
+>
       <canvas
         ref={canvasRef}
         className="absolute inset-0 z-0 h-full w-full"
@@ -322,7 +325,7 @@ export default function Hero() {
 
       <div className="absolute inset-0 z-[5] bg-gradient-to-b from-black/20 via-transparent to-black/40 pointer-events-none" />
 
-      <div className="relative z-10 flex h-full flex-col items-center justify-center px-4 text-center">
+      <div className="relative z-10 flex h-full flex-col items-center justify-center px-4 pt-10 text-center">
         <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-[#D4AF37]/30 bg-black/40 px-6 py-2 backdrop-blur-md opacity-0 animate-[fadeInDown_0.8s_ease-out_forwards]">
           <div className="h-2 w-2 animate-pulse rounded-full bg-[#D4AF37]" />
           <span className="text-sm font-medium tracking-wider text-[#D4AF37]">

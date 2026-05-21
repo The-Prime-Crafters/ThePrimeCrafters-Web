@@ -29,8 +29,8 @@ export default function Navbar() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         isScrolled
-          ? "glass border-b border-[rgba(212,175,55,0.1)] py-4"
-          : "bg-transparent py-6"
+          ? "backdrop-blur-xl bg-black/70 border-b border-[rgba(212,175,55,0.1)] py-2.5"
+          : "backdrop-blur-md bg-black/30 py-3.5"
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
@@ -39,23 +39,23 @@ export default function Navbar() {
           {/* LOGO */}
           <Link
             href="/"
-            className="flex items-center gap-3 group"
+            className="flex items-center gap-2.5 group"
             aria-label="PrimeCrafters Home"
           >
             <img
               src="/logo.png"
               alt="PrimeCrafters Logo"
-              className="h-10 w-auto"
+              className="h-8 w-auto"
             />
 
-            <span className="text-xl font-semibold tracking-wide font-[var(--font-cormorant)]">
+            <span className="text-lg font-semibold tracking-wide font-[var(--font-cormorant)]">
               <span className="text-[#f5f5f5]">Prime</span>
-              <span className="text-gradient-gold">Crafters</span>
+              <span className="text-[#D4AF37]">Crafters</span>
             </span>
           </Link>
 
-          {/* DESKTOP NAVIGATION */}
-          <div className="hidden lg:flex items-center gap-8">
+          {/* DESKTOP NAV */}
+          <div className="hidden lg:flex items-center gap-6">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
@@ -73,7 +73,7 @@ export default function Navbar() {
           <div className="hidden lg:block">
             <Link
               href="/contact"
-              className="btn-primary text-sm inline-flex items-center gap-2"
+              className="px-4 py-2.5 rounded-full bg-[#D4AF37] text-black font-medium text-sm inline-flex items-center gap-2 hover:scale-105 transition-transform duration-300"
             >
               Get Started
 
@@ -97,8 +97,7 @@ export default function Navbar() {
           <button
             className="lg:hidden relative w-10 h-10 flex items-center justify-center"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            aria-label="Toggle menu"
-            aria-expanded={isMobileMenuOpen}
+            aria-label="Toggle Menu"
           >
             <div className="flex flex-col gap-1.5">
               <span
@@ -125,11 +124,10 @@ export default function Navbar() {
         {/* MOBILE MENU */}
         <div
           className={`lg:hidden overflow-hidden transition-all duration-500 ${
-            isMobileMenuOpen ? "max-h-96 mt-6" : "max-h-0"
+            isMobileMenuOpen ? "max-h-96 mt-4" : "max-h-0"
           }`}
         >
-          <div className="flex flex-col gap-4 pb-6">
-
+          <div className="flex flex-col gap-3 pb-4">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
@@ -143,7 +141,7 @@ export default function Navbar() {
 
             <Link
               href="/contact"
-              className="btn-primary text-sm inline-flex items-center justify-center gap-2 mt-2"
+              className="px-4 py-2.5 rounded-full bg-[#D4AF37] text-black font-medium text-sm inline-flex items-center justify-center gap-2 mt-2"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Get Started
@@ -162,7 +160,6 @@ export default function Navbar() {
                 />
               </svg>
             </Link>
-
           </div>
         </div>
       </div>

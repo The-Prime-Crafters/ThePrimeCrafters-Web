@@ -1066,10 +1066,6 @@
     height: 1px;
   }
 
-  .h-screen {
-    height: 100vh;
-  }
-
   .max-h-0 {
     max-height: calc(var(--spacing) * 0);
   }
@@ -2022,12 +2018,18 @@
     }
   }
 
-  .bg-emerald-400 {
-    background-color: var(--color-emerald-400);
+  .bg-black\/70 {
+    background-color: #000000b3;
   }
 
-  .bg-transparent {
-    background-color: #0000;
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-black\/70 {
+      background-color: color-mix(in oklab, var(--color-black) 70%, transparent);
+    }
+  }
+
+  .bg-emerald-400 {
+    background-color: var(--color-emerald-400);
   }
 
   .bg-white\/5 {
@@ -2453,6 +2455,10 @@
     padding-block: calc(var(--spacing) * 2);
   }
 
+  .py-2\.5 {
+    padding-block: calc(var(--spacing) * 2.5);
+  }
+
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
   }
@@ -2509,8 +2515,16 @@
     padding-top: calc(var(--spacing) * 6);
   }
 
+  .pt-10 {
+    padding-top: calc(var(--spacing) * 10);
+  }
+
   .pt-24 {
     padding-top: calc(var(--spacing) * 24);
+  }
+
+  .pt-28 {
+    padding-top: calc(var(--spacing) * 28);
   }
 
   .pt-32 {
@@ -2519,6 +2533,10 @@
 
   .pt-\[clamp\(7rem\,12vw\,11rem\)\] {
     padding-top: clamp(7rem, 12vw, 11rem);
+  }
+
+  .pb-4 {
+    padding-bottom: calc(var(--spacing) * 4);
   }
 
   .pb-6 {
@@ -4210,6 +4228,12 @@
   @media (min-width: 64rem) {
     .lg\:py-16 {
       padding-block: calc(var(--spacing) * 16);
+    }
+  }
+
+  @media (min-width: 64rem) {
+    .lg\:pt-32 {
+      padding-top: calc(var(--spacing) * 32);
     }
   }
 

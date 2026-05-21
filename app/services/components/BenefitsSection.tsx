@@ -38,6 +38,10 @@ const benefits = [
     title: "24/7 Operations",
     body: "Support, lead generation, and workflows run continuously — even outside business hours.",
   },
+  {
+    title: "Data-Driven Decision Making",
+    body: "AI surfaces real-time insights from your operations — so every business decision is backed by accurate, up-to-date data.",
+  },
 ];
 
 export default function BenefitsSection() {
@@ -51,8 +55,6 @@ export default function BenefitsSection() {
 
         {/* HEADER */}
         <div className="text-center mb-[clamp(2rem,5vw,4rem)]">
-         
-
           <h2
             className="font-bold mt-4 leading-tight text-transparent bg-clip-text bg-gradient-to-r from-[var(--gold-400)] to-yellow-200"
             style={{ fontSize: "clamp(2rem, 4vw, 3.5rem)" }}
@@ -65,7 +67,7 @@ export default function BenefitsSection() {
           </p>
         </div>
 
-        {/* BENEFITS GRID */}
+        {/* BENEFITS GRID — 3×2 */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-[clamp(1rem,2vw,2rem)] mb-[clamp(2rem,4vw,4rem)]">
           {benefits.map((item, index) => (
             <div
@@ -90,7 +92,7 @@ export default function BenefitsSection() {
           ))}
         </div>
 
-        {/* KPI METRICS ROW */}
+        {/* KPI METRICS ROW — 4 across */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-[clamp(1rem,2vw,2rem)]">
           {metrics.map((item, index) => (
             <div
