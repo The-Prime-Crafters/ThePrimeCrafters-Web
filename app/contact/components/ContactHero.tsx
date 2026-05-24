@@ -121,14 +121,14 @@ export default function ContactHero() {
       {/* === CONTENT === */}
       <div className="relative z-10 mx-auto max-w-5xl text-center w-full">
 
-        {/* heading — mt-16 adds space below any navbar/header above */}
+        {/* heading */}
         <h1
           className="mt-16 font-bold leading-[1.05] text-transparent bg-clip-text bg-gradient-to-br from-white via-white to-white/60"
           style={{ fontSize: "clamp(2.4rem, 5vw, 5rem)" }}
         >
-          Let's Automate{" "}
+          Contact{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[var(--gold-400)] to-yellow-200">
-            Your Business
+            Us
           </span>
         </h1>
 
@@ -138,20 +138,20 @@ export default function ContactHero() {
           style={{ fontSize: "clamp(0.95rem, 1.3vw, 1.15rem)" }}
         >
           Tell us about your business, your bottlenecks, or your growth goals — and
-          we'll show you how AI can automate operations, reduce manual work, and
-          help you scale faster.
+          we will show you exactly how AI can automate your operations, eliminate
+          manual work, and help you scale faster.
         </p>
 
         {/* CTAs */}
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-          <button className="group relative inline-flex items-center gap-2 rounded-2xl bg-[var(--gold-500)] px-8 py-4 font-semibold text-black transition-all duration-300 hover:scale-105 hover:shadow-[0_0_40px_rgba(212,175,55,0.35)] text-sm md:text-base">
+          <a href="/contact#consultation" className="group relative inline-flex items-center gap-2 rounded-2xl bg-[var(--gold-500)] px-8 py-4 font-semibold text-black transition-all duration-300 hover:scale-105 hover:shadow-[0_0_40px_rgba(212,175,55,0.35)] text-sm md:text-base">
             Book Free Consultation
             <span className="transition-transform duration-300 group-hover:translate-x-1">→</span>
-          </button>
+          </a>
 
-          <button className="inline-flex items-center gap-2 rounded-2xl border border-[var(--border-subtle)] bg-white/5 px-8 py-4 font-semibold text-white backdrop-blur-xl transition-all duration-300 hover:border-[var(--gold-500)]/40 hover:bg-white/10 text-sm md:text-base">
+          <a href="/contact#team" className="inline-flex items-center gap-2 rounded-2xl border border-[var(--border-subtle)] bg-white/5 px-8 py-4 font-semibold text-white backdrop-blur-xl transition-all duration-300 hover:border-[var(--gold-500)]/40 hover:bg-white/10 text-sm md:text-base">
             Talk To Our Team
-          </button>
+          </a>
         </div>
 
         {/* feature pills */}

@@ -486,22 +486,22 @@ const features = [
     {
         icon: "⚡",
         title: "Fast AI Implementation",
-        description: "Deploy AI systems quickly without disrupting your existing workflows."
+        description: "Deploy production-ready AI systems in 2–8 weeks without disrupting existing operations."
     },
     {
         icon: "✦",
         title: "Custom Automation Systems",
-        description: "Every solution is tailored specifically to your business operations."
+        description: "Every solution is built specifically for your business — trained on your data, integrated with your tools, designed around your exact operational needs."
     },
     {
         icon: "◈",
         title: "Dedicated Support",
-        description: "Our team stays involved throughout implementation and scaling."
+        description: "Our team stays involved through implementation, post-launch, and as your business evolves. You never get handed off to a support queue."
     },
     {
         icon: "⟳",
         title: "Scalable Infrastructure",
-        description: "Systems built for long-term growth and operational efficiency."
+        description: "Systems are architected for long-term growth — whether you are automating one workflow today or building a full AI operations stack over time."
     }
 ];
 function WhyContactUs() {
@@ -521,14 +521,6 @@ function WhyContactUs() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "max-w-3xl",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-[var(--gold-400)] uppercase tracking-[0.3em] text-xs md:text-sm",
-                                children: "Why Choose Us"
-                            }, void 0, false, {
-                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/contact/components/WhyContactUs.tsx",
-                                lineNumber: 39,
-                                columnNumber: 11
-                            }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "font-bold mt-4 leading-tight",
                                 style: {
@@ -542,21 +534,21 @@ function WhyContactUs() {
                                         children: "The Prime Crafters"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/contact/components/WhyContactUs.tsx",
-                                        lineNumber: 48,
+                                        lineNumber: 46,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/contact/components/WhyContactUs.tsx",
-                                lineNumber: 43,
+                                lineNumber: 41,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "mt-4 text-[var(--text-secondary)] text-sm md:text-lg leading-relaxed max-w-2xl",
-                                children: "We help businesses implement scalable AI systems that reduce manual work, improve operations, and accelerate growth."
+                                children: "We help businesses implement scalable AI systems that reduce manual work, improve operations, and accelerate growth — without disrupting the workflows you already rely on."
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/contact/components/WhyContactUs.tsx",
-                                lineNumber: 53,
+                                lineNumber: 51,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -574,14 +566,14 @@ function WhyContactUs() {
                                         className: "absolute inset-0 opacity-0 group-hover:opacity-100 transition bg-[radial-gradient(circle_at_top_left,rgba(212,175,55,0.10),transparent_70%)]"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/contact/components/WhyContactUs.tsx",
-                                        lineNumber: 67,
+                                        lineNumber: 66,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute top-4 right-4 w-2 h-2 rounded-full bg-[var(--gold-500)]/30 group-hover:scale-150 transition"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/contact/components/WhyContactUs.tsx",
-                                        lineNumber: 70,
+                                        lineNumber: 69,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -594,12 +586,12 @@ function WhyContactUs() {
                                                     children: feature.icon
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/contact/components/WhyContactUs.tsx",
-                                                    lineNumber: 75,
+                                                    lineNumber: 74,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/contact/components/WhyContactUs.tsx",
-                                                lineNumber: 74,
+                                                lineNumber: 73,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -607,7 +599,7 @@ function WhyContactUs() {
                                                 children: feature.title
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/contact/components/WhyContactUs.tsx",
-                                                lineNumber: 78,
+                                                lineNumber: 77,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -615,24 +607,24 @@ function WhyContactUs() {
                                                 children: feature.description
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/contact/components/WhyContactUs.tsx",
-                                                lineNumber: 82,
+                                                lineNumber: 81,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/contact/components/WhyContactUs.tsx",
-                                        lineNumber: 72,
+                                        lineNumber: 71,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, feature.title, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/contact/components/WhyContactUs.tsx",
-                                lineNumber: 62,
+                                lineNumber: 61,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/contact/components/WhyContactUs.tsx",
-                        lineNumber: 60,
+                        lineNumber: 59,
                         columnNumber: 9
                     }, this)
                 ]

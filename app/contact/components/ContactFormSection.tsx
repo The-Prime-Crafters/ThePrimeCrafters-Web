@@ -96,10 +96,8 @@ export default function ContactFormSection() {
           {/* ── Left column ── */}
           <div className="flex flex-col justify-center">
             <div className="mb-5 flex items-center gap-2.5">
-              <div className="h-px w-8" style={{ background: "linear-gradient(90deg, #C9A84C, transparent)" }} />
-              <span className="text-xs font-semibold uppercase tracking-[0.18em]" style={{ color: "#C9A84C" }}>
-                Consultation
-              </span>
+          
+              
             </div>
 
             <h2 className="text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
@@ -116,8 +114,7 @@ export default function ContactFormSection() {
             </h2>
 
             <p className="mt-5 text-sm leading-relaxed text-neutral-400 sm:text-base lg:text-lg">
-              Fill out the form and our team will reach out within 24 hours to
-              discuss your automation goals and business needs.
+              Fill out the form below and our team will reach out within 24 hours to discuss your automation goals, understand your current workflows, and map out exactly how AI can move your business forward.
             </p>
 
             {/* Benefits */}
@@ -250,7 +247,7 @@ export default function ContactFormSection() {
                   <label className="mb-2 block text-xs font-medium text-neutral-400 sm:text-sm">Message</label>
                   <textarea
                     rows={4}
-                    placeholder="Tell us about your business goals and what you'd like to automate…"
+                    placeholder="Tell us about your business and what you want to automate…"
                     className={`${inputBase} resize-none`}
                     style={inputStyle("message")}
                     onFocus={() => setFocused("message")}

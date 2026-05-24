@@ -125,8 +125,7 @@ export default function FinalCTA() {
 
             {/* Body */}
             <p className="mx-auto mt-6 max-w-2xl text-sm leading-relaxed text-neutral-400 sm:text-base md:text-lg">
-              Stop wasting time on repetitive work and start building scalable
-              AI systems tailored specifically to your business.
+              Stop spending time on repetitive work that AI can handle for you. Let The Prime Crafters build scalable, custom AI systems that transform how your business operates — starting with a free, no-obligation strategy call.
             </p>
 
             {/* Stats row */}
@@ -166,85 +165,90 @@ export default function FinalCTA() {
               }}
             />
 
-            {/* Buttons */}
-            <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
-              <a
-                href="https://calendly.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group relative inline-flex items-center gap-2 overflow-hidden rounded-full px-8 py-4 text-sm font-semibold text-black transition-all duration-300 hover:scale-[1.03] sm:text-base"
-                style={{ background: "linear-gradient(135deg, #D4AF61, #A87C3E)" }}
-              >
-                {/* Shimmer */}
-                <span
-                  className="pointer-events-none absolute inset-0 -translate-x-full skew-x-[-20deg] bg-white/20 transition-transform duration-700 group-hover:translate-x-full"
-                />
-                <svg
-                  className="h-4 w-4"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"
-                  />
-                </svg>
-                Schedule Consultation
-              </a>
+      {/* Buttons */}
+<div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
+  <a
+    href="https://calendly.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="group relative inline-flex items-center gap-2 overflow-hidden rounded-full px-8 py-4 text-sm font-semibold text-black transition-all duration-300 hover:scale-[1.03] sm:text-base"
+    style={{
+      background: "linear-gradient(135deg, #D4AF61, #A87C3E)",
+    }}
+  >
+    {/* Shimmer */}
+    <span
+      className="pointer-events-none absolute inset-0 -translate-x-full skew-x-[-20deg] bg-white/20 transition-transform duration-700 group-hover:translate-x-full"
+    />
 
-              <a
-                href="mailto:hello@theprimecrafters.com"
-                className="group inline-flex items-center gap-2 rounded-full px-8 py-4 text-sm font-medium text-white transition-all duration-300 sm:text-base"
-                style={{
-                  border: "1px solid rgba(201,168,76,0.3)",
-                  background: "rgba(201,168,76,0.06)",
-                }}
-                onMouseEnter={(e) => {
-                  (e.currentTarget as HTMLAnchorElement).style.background =
-                    "rgba(201,168,76,0.12)";
-                  (e.currentTarget as HTMLAnchorElement).style.borderColor =
-                    "rgba(201,168,76,0.55)";
-                }}
-                onMouseLeave={(e) => {
-                  (e.currentTarget as HTMLAnchorElement).style.background =
-                    "rgba(201,168,76,0.06)";
-                  (e.currentTarget as HTMLAnchorElement).style.borderColor =
-                    "rgba(201,168,76,0.3)";
-                }}
-              >
-                <svg
-                  className="h-4 w-4"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={1.5}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
-                  />
-                </svg>
-                Contact Our Team
-                <svg
-                  className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
-                  />
-                </svg>
-              </a>
-            </div>
+    <svg
+      className="h-4 w-4"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      strokeWidth={2}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"
+      />
+    </svg>
 
+    Schedule Consultation
+  </a>
+
+  <a
+    href="mailto:hello@theprimecrafters.com"
+    className="group inline-flex items-center gap-2 rounded-full px-8 py-4 text-sm font-medium text-white transition-all duration-300 sm:text-base"
+    style={{
+      border: "1px solid rgba(201,168,76,0.3)",
+      background: "rgba(201,168,76,0.06)",
+    }}
+    onMouseEnter={(e) => {
+      (e.currentTarget as HTMLAnchorElement).style.background =
+        "rgba(201,168,76,0.12)";
+      (e.currentTarget as HTMLAnchorElement).style.borderColor =
+        "rgba(201,168,76,0.55)";
+    }}
+    onMouseLeave={(e) => {
+      (e.currentTarget as HTMLAnchorElement).style.background =
+        "rgba(201,168,76,0.06)";
+      (e.currentTarget as HTMLAnchorElement).style.borderColor =
+        "rgba(201,168,76,0.3)";
+    }}
+  >
+    <svg
+      className="h-4 w-4"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      strokeWidth={1.5}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+      />
+    </svg>
+
+    Contact Our Team
+
+    <svg
+      className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      strokeWidth={2}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+      />
+    </svg>
+  </a>
+</div>
             {/* Trust note */}
             <p
               className="mt-8 text-xs text-neutral-600"
@@ -253,7 +257,7 @@ export default function FinalCTA() {
                 transition: "opacity 0.7s ease 0.45s",
               }}
             >
-              No commitment required · Free 30-min strategy call · Response within 24h
+              No commitment required · Free 30-minute strategy call · Response within 24 hours
             </p>
           </div>
         </div>

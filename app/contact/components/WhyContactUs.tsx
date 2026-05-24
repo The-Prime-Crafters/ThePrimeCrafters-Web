@@ -3,25 +3,25 @@ const features = [
     icon: "⚡",
     title: "Fast AI Implementation",
     description:
-      "Deploy AI systems quickly without disrupting your existing workflows.",
+      "Deploy production-ready AI systems in 2–8 weeks without disrupting existing operations.",
   },
   {
     icon: "✦",
     title: "Custom Automation Systems",
     description:
-      "Every solution is tailored specifically to your business operations.",
+      "Every solution is built specifically for your business — trained on your data, integrated with your tools, designed around your exact operational needs.",
   },
   {
     icon: "◈",
     title: "Dedicated Support",
     description:
-      "Our team stays involved throughout implementation and scaling.",
+      "Our team stays involved through implementation, post-launch, and as your business evolves. You never get handed off to a support queue.",
   },
   {
     icon: "⟳",
     title: "Scalable Infrastructure",
     description:
-      "Systems built for long-term growth and operational efficiency.",
+      "Systems are architected for long-term growth — whether you are automating one workflow today or building a full AI operations stack over time.",
   },
 ];
 
@@ -36,9 +36,7 @@ export default function WhyContactUs() {
 
         {/* HEADER */}
         <div className="max-w-3xl">
-          <span className="text-[var(--gold-400)] uppercase tracking-[0.3em] text-xs md:text-sm">
-            Why Choose Us
-          </span>
+         
 
           <h2
             className="font-bold mt-4 leading-tight"
@@ -52,7 +50,8 @@ export default function WhyContactUs() {
 
           <p className="mt-4 text-[var(--text-secondary)] text-sm md:text-lg leading-relaxed max-w-2xl">
             We help businesses implement scalable AI systems that reduce manual
-            work, improve operations, and accelerate growth.
+            work, improve operations, and accelerate growth — without disrupting
+            the workflows you already rely on.
           </p>
         </div>
 

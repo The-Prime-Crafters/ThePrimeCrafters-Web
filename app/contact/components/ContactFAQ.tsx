@@ -4,34 +4,39 @@ import { useEffect, useRef, useState } from "react";
 
 const faqs = [
   {
-    question: "How does the consultation process work?",
+    question: "What happens after I submit the contact form?",
     answer:
-      "We start with a free 30-minute discovery call to understand your business workflows and pain points. From there, we map out automation opportunities, present a custom AI strategy, and walk you through exactly what we'd build — before any commitment is made.",
+      "Once you submit the form, a member of our team reviews your inquiry and reaches out within 24 hours to schedule a free 30-minute discovery call. On that call, we learn about your business workflows, identify your biggest automation opportunities, and walk you through what we would build — before any commitment is made. You will leave with a clear picture of what AI can do for your operation, regardless of whether you move forward with us.",
   },
   {
-    question: "How long does implementation take?",
+    question: "How quickly will The Prime Crafters respond?",
     answer:
-      "Most projects are delivered in 2–6 weeks depending on scope and integrations. Simple chatbot or voice agent deployments can go live in under 2 weeks, while complex multi-system workflows or custom AI builds take longer. We'll give you a precise timeline after the discovery call.",
+      "We respond to all form submissions within 24 business hours. For faster communication, WhatsApp is typically answered within one hour during business hours, and Calendly lets you book a call instantly without waiting for a reply. If your inquiry is urgent, WhatsApp or Calendly is the fastest path to a conversation with our team.",
   },
   {
-    question: "Do you build custom AI systems?",
+    question: "Can I book a free consultation before choosing a service?",
     answer:
-      "Yes — every solution is built specifically for your business. We don't use off-the-shelf templates. Your AI is trained on your data, integrated with your tools, and designed around your exact operational workflows.",
+      "Absolutely — the free consultation is specifically designed for this. You do not need to have a service in mind before reaching out. Most clients come to us with a business problem, not a specific AI solution. On the discovery call, we map your workflows, identify where automation would have the highest impact, and recommend the right approach. There is no obligation and no pressure to commit.",
   },
   {
-    question: "What industries do you specialize in?",
+    question: "What details should I include in my message?",
     answer:
-      "We work across Healthcare, SaaS, E-Commerce, Real Estate, Agencies, and Local Businesses. Each industry gets solutions tailored to its specific compliance requirements, customer journeys, and operational challenges.",
+      "The more context you share, the more useful our first conversation will be. We recommend including: a brief description of your business, the specific workflow or process you want to improve, the tools you currently use (CRM, helpdesk, scheduling platforms), your approximate team size, and what success looks like for you — whether that is time saved, leads generated, or costs reduced. Do not worry about a perfect brief — we will ask the right questions on the call.",
   },
   {
-    question: "What does ongoing support look like?",
+    question: "Which AI automation services can I ask about?",
     answer:
-      "After launch, we provide dedicated support to monitor performance, retrain models as your business evolves, and roll out improvements. Think of us as a long-term AI partner, not a one-time vendor.",
+      "You can ask about any of our services: AI Voice Agents (automated call handling and lead qualification), Workflow Automation (eliminating repetitive manual processes), AI Chatbots (24/7 website engagement and lead conversion), CRM Integrations (connecting your AI tools with Salesforce, HubSpot, or Pipedrive), Custom AI Systems (purpose-built AI trained on your own data), and AI Assistants (internal tools that improve team productivity). If your need does not fit neatly into one category, bring it to the call — we scope custom solutions regularly.",
   },
   {
-    question: "How much does it cost?",
+    question: "Do you work with businesses outside the USA?",
     answer:
-      "Pricing depends on the scope of the project. We offer flexible engagement models — from one-time builds to monthly retainers. Book a free consultation and we'll walk you through options that fit your budget and goals.",
+      "Yes. While The Prime Crafters is based in the USA, we work with businesses across North America, Europe, the Middle East, and beyond. All discovery calls and project management are conducted remotely. Our AI systems are built to operate in any timezone, language, or regional market context. If you have specific compliance or data residency requirements, mention them in your inquiry and we will address them directly.",
+  },
+  {
+    question: "Can you help me choose the right AI solution for my business?",
+    answer:
+      "That is exactly what the free consultation is for. Many businesses come to us knowing they want to automate something but unsure of the best approach. Our team asks structured questions about your workflows, pain points, team size, and growth goals — then recommends a solution that fits your operational reality and budget. We do not push a particular service; we find the approach that delivers the fastest, most measurable impact for your specific situation.",
   },
 ];
 
@@ -149,11 +154,7 @@ export default function ContactFAQ() {
           }}
         >
           <div className="mb-4 flex items-center justify-center gap-3">
-            <div className="h-px w-8" style={{ background: "linear-gradient(90deg, transparent, #C9A84C)" }} />
-            <span className="text-xs font-semibold uppercase tracking-[0.18em]" style={{ color: "#C9A84C" }}>
-              FAQ
-            </span>
-            <div className="h-px w-8" style={{ background: "linear-gradient(90deg, #C9A84C, transparent)" }} />
+           
           </div>
 
           <h2 className="text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
@@ -170,7 +171,7 @@ export default function ContactFAQ() {
           </h2>
 
           <p className="mx-auto mt-4 max-w-lg text-sm leading-relaxed text-neutral-400 sm:text-base">
-            Everything you need to know before booking your free consultation.
+            Everything you need to know before booking your free consultation with The Prime Crafters.
           </p>
         </div>
 
@@ -181,27 +182,32 @@ export default function ContactFAQ() {
           ))}
         </div>
 
-        {/* Bottom CTA */}
-        <div
-          className="mt-12 text-center"
-          style={{
-            opacity: visible ? 1 : 0,
-            transition: "opacity 0.6s ease 0.55s",
-          }}
-        >
-          <p className="text-sm text-neutral-500">
-            Still have questions?{" "}
-            <a
-              href="mailto:hello@theprimecrafters.com"
-              className="font-medium transition-colors duration-200"
-              style={{ color: "#C9A84C" }}
-              onMouseEnter={(e) => ((e.target as HTMLAnchorElement).style.color = "#D4AF61")}
-              onMouseLeave={(e) => ((e.target as HTMLAnchorElement).style.color = "#C9A84C")}
-            >
-              Email us directly →
-            </a>
-          </p>
-        </div>
+       {/* Bottom CTA */}
+<div
+  className="mt-12 text-center"
+  style={{
+    opacity: visible ? 1 : 0,
+    transition: "opacity 0.6s ease 0.55s",
+  }}
+>
+  <p className="text-sm text-neutral-500">
+    Still have questions?{" "}
+
+    <a
+      href="mailto:hello@theprimecrafters.com"
+      className="font-medium transition-colors duration-200"
+      style={{ color: "#C9A84C" }}
+      onMouseEnter={(e) => {
+        e.currentTarget.style.color = "#D4AF61";
+      }}
+      onMouseLeave={(e) => {
+        e.currentTarget.style.color = "#C9A84C";
+      }}
+    >
+      Email us directly →
+    </a>
+  </p>
+</div>
       </div>
     </section>
   );

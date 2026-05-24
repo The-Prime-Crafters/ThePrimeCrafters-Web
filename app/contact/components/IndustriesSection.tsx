@@ -6,7 +6,7 @@ const industries = [
   {
     title: "Healthcare",
     description:
-      "Automate patient intake, appointment scheduling, and follow-ups — so your staff focuses on care, not admin.",
+      "Patient intake, appointment scheduling, follow-up reminders — so staff focuses on care, not administration.",
     accent: "#6EE7B7",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" className="h-6 w-6" stroke="currentColor" strokeWidth={1.5}>
@@ -18,7 +18,7 @@ const industries = [
   {
     title: "SaaS",
     description:
-      "Boost activation, reduce churn, and handle support at scale with AI assistants trained on your product.",
+      "Onboarding sequences, churn-reduction workflows, AI support agents trained on your product documentation.",
     accent: "#C9A84C",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" className="h-6 w-6" stroke="currentColor" strokeWidth={1.5}>
@@ -30,19 +30,19 @@ const industries = [
   {
     title: "E-Commerce",
     description:
-      "Recover abandoned carts, personalize recommendations, and automate order updates with intelligent workflows.",
+      "Abandoned cart recovery, personalised recommendations, automated order updates and returns management.",
     accent: "#F87171",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" className="h-6 w-6" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
       </svg>
     ),
-    stat: "25% more revenue",
+    stat: "25% revenue increase",
   },
   {
     title: "Real Estate",
     description:
-      "Qualify leads, schedule viewings, and follow up automatically — so agents close more deals with less effort.",
+      "Lead qualification, viewing scheduling, automated follow-ups — so agents close more deals with less manual effort.",
     accent: "#A78BFA",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" className="h-6 w-6" stroke="currentColor" strokeWidth={1.5}>
@@ -54,7 +54,7 @@ const industries = [
   {
     title: "Agencies",
     description:
-      "Deliver faster client results, automate reporting, and scale operations without scaling headcount.",
+      "Client reporting, content approvals, project update notifications, and internal task routing.",
     accent: "#38BDF8",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" className="h-6 w-6" stroke="currentColor" strokeWidth={1.5}>
@@ -66,7 +66,7 @@ const industries = [
   {
     title: "Local Businesses",
     description:
-      "Handle inbound calls, bookings, and customer queries 24/7 — even when your doors are closed.",
+      "Inbound call handling, booking automation, customer query responses — active around the clock, even after hours.",
     accent: "#C9A84C",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" className="h-6 w-6" stroke="currentColor" strokeWidth={1.5}>
@@ -176,21 +176,8 @@ function IndustryCard({
         {item.description}
       </p>
 
-      {/* Learn more */}
-      <div
-        style={{
-          color: item.accent,
-          opacity: hovered ? 1 : 0,
-          transform: hovered ? "translateX(0)" : "translateX(-6px)",
-          transition: "opacity 0.3s ease, transform 0.3s ease",
-        }}
-        className="mt-6 flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider"
-      >
-        See use cases
-        <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-          <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-        </svg>
-      </div>
+  
+      
     </div>
   );
 }
@@ -244,22 +231,7 @@ export default function IndustriesSection() {
             transition: "opacity 0.6s ease, transform 0.6s ease",
           }}
         >
-          <div className="mb-4 flex items-center justify-center gap-3">
-            <div
-              className="h-px w-8"
-              style={{ background: "linear-gradient(90deg, transparent, #C9A84C)" }}
-            />
-            <span
-              className="text-xs font-semibold uppercase tracking-[0.18em]"
-              style={{ color: "#C9A84C" }}
-            >
-              Who we serve
-            </span>
-            <div
-              className="h-px w-8"
-              style={{ background: "linear-gradient(90deg, #C9A84C, transparent)" }}
-            />
-          </div>
+         
 
           <h2 className="text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
             Industries We{" "}
@@ -275,8 +247,7 @@ export default function IndustriesSection() {
           </h2>
 
           <p className="mx-auto mt-4 max-w-xl text-sm leading-relaxed text-neutral-400 sm:text-base md:mt-5">
-            AI solutions tailored for modern businesses across multiple
-            industries — from startups to enterprise.
+            AI automation is not one-size-fits-all. We build solutions tailored to the compliance requirements, customer journeys, and operational challenges specific to each industry — from solo practices to enterprise-scale operations.
           </p>
         </div>
 
