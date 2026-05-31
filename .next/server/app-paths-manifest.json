@@ -9,5 +9,6 @@
   "/privacy/page": "app/privacy/page.js",
   "/robots.txt/route": "app/robots.txt/route.js",
   "/services/page": "app/services/page.js",
-  "/sitemap.xml/route": "app/sitemap.xml/route.js"
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/terms-and-conditions/page": "app/terms-and-conditions/page.js"
 }

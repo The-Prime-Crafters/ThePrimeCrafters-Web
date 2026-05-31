@@ -9,5 +9,6 @@
   "/privacy/page": "/privacy",
   "/robots.txt/route": "/robots.txt",
   "/services/page": "/services",
-  "/sitemap.xml/route": "/sitemap.xml"
+  "/sitemap.xml/route": "/sitemap.xml",
+  "/terms-and-conditions/page": "/terms-and-conditions"
 }

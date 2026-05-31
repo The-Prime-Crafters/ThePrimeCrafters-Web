@@ -74,6 +74,7 @@
     --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --color-red-400: #ff6568;
     --color-yellow-200: #fff085;
     --color-emerald-400: #00d294;
     --color-gray-300: #d1d5dc;
@@ -152,6 +153,7 @@
 
   @supports (color: lab(0% 0 0)) {
     :root, :host {
+      --color-red-400: lab(63.7053% 60.745 31.3109);
       --color-yellow-200: lab(94.3433% -5.00429 52.9663);
       --color-emerald-400: lab(75.0771% -60.7313 19.4147);
       --color-gray-300: lab(85.1236% -.612259 -3.7138);
@@ -1545,6 +1547,10 @@
     resize: none;
   }
 
+  .scroll-mt-24 {
+    scroll-margin-top: calc(var(--spacing) * 24);
+  }
+
   .grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
@@ -1697,6 +1703,12 @@
     --tw-space-y-reverse: 0;
     margin-block-start: calc(calc(var(--spacing) * 8) * var(--tw-space-y-reverse));
     margin-block-end: calc(calc(var(--spacing) * 8) * calc(1 - var(--tw-space-y-reverse)));
+  }
+
+  :where(.space-y-12 > :not(:last-child)) {
+    --tw-space-y-reverse: 0;
+    margin-block-start: calc(calc(var(--spacing) * 12) * var(--tw-space-y-reverse));
+    margin-block-end: calc(calc(var(--spacing) * 12) * calc(1 - var(--tw-space-y-reverse)));
   }
 
   :where(.space-y-16 > :not(:last-child)) {
@@ -2579,6 +2591,10 @@
     padding-top: calc(var(--spacing) * 10);
   }
 
+  .pt-12 {
+    padding-top: calc(var(--spacing) * 12);
+  }
+
   .pt-24 {
     padding-top: calc(var(--spacing) * 24);
   }
@@ -2609,6 +2625,10 @@
 
   .pb-\[clamp\(4rem\,8vw\,8rem\)\] {
     padding-bottom: clamp(4rem, 8vw, 8rem);
+  }
+
+  .pl-10 {
+    padding-left: calc(var(--spacing) * 10);
   }
 
   .pl-12 {
@@ -2911,6 +2931,10 @@
 
   .text-neutral-600 {
     color: var(--color-neutral-600);
+  }
+
+  .text-red-400 {
+    color: var(--color-red-400);
   }
 
   .text-transparent {
@@ -3408,6 +3432,15 @@
     color: var(--color-neutral-600);
   }
 
+  .first\:border-t-0:first-child {
+    border-top-style: var(--tw-border-style);
+    border-top-width: 0;
+  }
+
+  .first\:pt-0:first-child {
+    padding-top: calc(var(--spacing) * 0);
+  }
+
   @media (hover: hover) {
     .hover\:-translate-y-1:hover {
       --tw-translate-y: calc(var(--spacing) * -1);
@@ -3478,6 +3511,12 @@
   }
 
   @media (hover: hover) {
+    .hover\:border-\[var\(--gold-500\)\]:hover {
+      border-color: var(--gold-500);
+    }
+  }
+
+  @media (hover: hover) {
     .hover\:border-\[var\(--gold-500\)\]\/30:hover {
       border-color: var(--gold-500);
     }
@@ -3529,6 +3568,12 @@
     .hover\:bg-\[\#D4AF37\]\/10:hover {
       background-color: #d4af371a;
       background-color: lab(73.2932% 5.13339 62.8195 / .1);
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:bg-\[var\(--gold-400\)\]:hover {
+      background-color: var(--gold-400);
     }
   }
 

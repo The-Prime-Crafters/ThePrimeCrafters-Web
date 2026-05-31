@@ -132,7 +132,7 @@ export default function Footer() {
                 Privacy Policy
               </a>
               <a
-                href="#"
+                href="/terms-and-conditions"
                 className="text-[#525252] hover:text-[#a3a3a3] text-sm transition-colors"
               >
                 Terms of Service

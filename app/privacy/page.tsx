@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Navbar } from "@/components";
 import PrivacyHero from "../privacy/components/Privacyhero";
 import PrivacyCommitment from "../privacy/components/PrivacyCommitment";
@@ -11,6 +12,14 @@ import Dataretention from "../privacy/components/Dataretention";
 import Thirdparty from "../privacy/components/Thirdparty";
 import Privacyupdate from "../privacy/components/Privacyupdate";
 import { Footer } from "@/components";
+
+export const metadata: Metadata = {
+  
+  alternates: {
+    canonical: "https://www.theprimecrafters.com/privacy",
+  },
+ 
+};
 export default function PrivacyPage() {
   return (
     <main>
