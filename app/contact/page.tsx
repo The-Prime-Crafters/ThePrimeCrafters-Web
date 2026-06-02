@@ -18,6 +18,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.theprimecrafters.com/contact",
   },
+
+    robots: {
+      index: true,
+      follow: true,
+    },
 };
 
 export default function ContactPage() {
