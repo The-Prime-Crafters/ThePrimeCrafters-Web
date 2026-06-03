@@ -21,6 +21,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.theprimecrafters.com/privacy-policy",
   },
+   robots: {
+    index: true,
+    follow: true,
+  },
 };
 export default function PrivacyPage() {
   return (
