@@ -302,7 +302,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/privacy": {
+    "/privacy-policy": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -315,8 +315,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/privacy",
-      "dataRoute": "/privacy.rsc",
+      "srcRoute": "/privacy-policy",
+      "dataRoute": "/privacy-policy.rsc",
       "prefetchDataRoute": null,
       "allowHeader": [
         "host",

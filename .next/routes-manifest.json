@@ -79,10 +79,10 @@
       "namedRegex": "^/portfolio(?:/)?$"
     },
     {
-      "page": "/privacy",
-      "regex": "^/privacy(?:/)?$",
+      "page": "/privacy-policy",
+      "regex": "^/privacy\\-policy(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/privacy(?:/)?$"
+      "namedRegex": "^/privacy\\-policy(?:/)?$"
     },
     {
       "page": "/robots.txt",
