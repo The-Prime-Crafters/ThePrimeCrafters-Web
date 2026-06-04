@@ -722,6 +722,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d
 ;
 ;
 const metadata = {
+    title: "Terms and Conditions | The Prime Crafters AI Automation Agency",
+    description: "Read The Prime Crafters’ Terms and Conditions before using our website or engaging our AI automation services. Clear, plain-language terms for clients and visitors.",
+    keywords: [
+        "The Prime Crafters terms and conditions",
+        "AI automation agency terms of service",
+        "AI chatbot development terms",
+        "website terms of use",
+        "client responsibilities AI agency",
+        "limitation of liability AI services"
+    ],
     alternates: {
         canonical: "https://www.theprimecrafters.com/terms-and-conditions"
     }
@@ -732,17 +742,17 @@ function TermsAndConditionsPage() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$components$2f$Navbar$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Navbar$3e$__["Navbar"], {}, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/page.tsx",
-                lineNumber: 36,
+                lineNumber: 45,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$terms$2d$and$2d$conditions$2f$components$2f$terms$2f$__TermsHero$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/page.tsx",
-                lineNumber: 38,
+                lineNumber: 47,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$terms$2d$and$2d$conditions$2f$components$2f$terms$2f$TermsTableOfContents$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/page.tsx",
-                lineNumber: 41,
+                lineNumber: 50,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -752,89 +762,89 @@ function TermsAndConditionsPage() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$terms$2d$and$2d$conditions$2f$components$2f$terms$2f$TermsSections$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TermsAgreement"], {}, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/page.tsx",
-                            lineNumber: 46,
+                            lineNumber: 55,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$terms$2d$and$2d$conditions$2f$components$2f$terms$2f$TermsSections$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TermsAbout"], {}, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/page.tsx",
-                            lineNumber: 47,
+                            lineNumber: 56,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$terms$2d$and$2d$conditions$2f$components$2f$terms$2f$TermsSections$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TermsWebsiteUse"], {}, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/page.tsx",
-                            lineNumber: 48,
+                            lineNumber: 57,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$terms$2d$and$2d$conditions$2f$components$2f$terms$2f$TermsSections$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TermsConsultations"], {}, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/page.tsx",
-                            lineNumber: 49,
+                            lineNumber: 58,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$terms$2d$and$2d$conditions$2f$components$2f$terms$2f$TermsSections$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TermsClientResponsibilities"], {}, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/page.tsx",
-                            lineNumber: 50,
+                            lineNumber: 59,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$terms$2d$and$2d$conditions$2f$components$2f$terms$2f$TermsSections$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TermsAIServices"], {}, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/page.tsx",
-                            lineNumber: 51,
+                            lineNumber: 60,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$terms$2d$and$2d$conditions$2f$components$2f$terms$2f$TermsSections$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TermsPayments"], {}, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/page.tsx",
-                            lineNumber: 52,
+                            lineNumber: 61,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$terms$2d$and$2d$conditions$2f$components$2f$terms$2f$TermsSections$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TermsIP"], {}, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/page.tsx",
-                            lineNumber: 53,
+                            lineNumber: 62,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$terms$2d$and$2d$conditions$2f$components$2f$terms$2f$TermsSections$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TermsThirdParty"], {}, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/page.tsx",
-                            lineNumber: 54,
+                            lineNumber: 63,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$terms$2d$and$2d$conditions$2f$components$2f$terms$2f$TermsSections$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TermsNoGuarantee"], {}, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/page.tsx",
-                            lineNumber: 55,
+                            lineNumber: 64,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$terms$2d$and$2d$conditions$2f$components$2f$terms$2f$TermsSections$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TermsLiability"], {}, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/page.tsx",
-                            lineNumber: 56,
+                            lineNumber: 65,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$terms$2d$and$2d$conditions$2f$components$2f$terms$2f$TermsSections$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TermsUpdates"], {}, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/page.tsx",
-                            lineNumber: 57,
+                            lineNumber: 66,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$terms$2d$and$2d$conditions$2f$components$2f$terms$2f$TermsSections$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TermsContact"], {}, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/page.tsx",
-                            lineNumber: 58,
+                            lineNumber: 67,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/page.tsx",
-                    lineNumber: 45,
+                    lineNumber: 54,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/page.tsx",
-                lineNumber: 44,
+                lineNumber: 53,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$components$2f$Footer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Footer$3e$__["Footer"], {}, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/page.tsx",
-                lineNumber: 61,
+                lineNumber: 70,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/page.tsx",
-        lineNumber: 33,
+        lineNumber: 42,
         columnNumber: 5
     }, this);
 }

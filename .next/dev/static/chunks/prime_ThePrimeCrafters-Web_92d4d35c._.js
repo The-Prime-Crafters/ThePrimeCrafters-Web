@@ -4278,7 +4278,7 @@ function Footer() {
                                     className: "flex items-center gap-6",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: "/privacy",
+                                            href: "/privacy-policy",
                                             className: "text-[#525252] hover:text-[#a3a3a3] text-sm transition-colors",
                                             children: "Privacy Policy"
                                         }, void 0, false, {
@@ -4371,39 +4371,39 @@ function TermsHero() {
                         children: "Legal"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/ TermsHero.tsx",
-                        lineNumber: 7,
+                        lineNumber: 8,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/ TermsHero.tsx",
-                    lineNumber: 6,
+                    lineNumber: 7,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                    className: "text-5xl md:text-7xl font-bold mb-6 text-gradient-gold",
+                    className: "text-5xl md:text-7xl font-bold mb-6 text-[#f5e6b8]",
                     children: "Terms and Conditions"
                 }, void 0, false, {
                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/ TermsHero.tsx",
-                    lineNumber: 11,
+                    lineNumber: 13,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     className: "text-xl text-[var(--text-secondary)] max-w-2xl",
-                    children: "Please read these terms carefully before using The Prime Crafters website or engaging our services. By continuing to browse this site, you agree to the terms outlined below."
+                    children: "These Terms and Conditions govern your use of The Prime Crafters website and your engagement with our AI automation services. Please read them carefully. By using this website or contacting our team, you confirm that you have read, understood, and agreed to these terms."
                 }, void 0, false, {
                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/ TermsHero.tsx",
-                    lineNumber: 14,
+                    lineNumber: 17,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/ TermsHero.tsx",
-            lineNumber: 5,
+            lineNumber: 6,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/ TermsHero.tsx",
-        lineNumber: 4,
+        lineNumber: 5,
         columnNumber: 5
     }, this);
 }
@@ -4505,7 +4505,7 @@ function TermsAgreement() {
         heading: "Agreement to These Terms",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             className: "text-[var(--text-secondary)] leading-relaxed",
-            children: "By accessing or using The Prime Crafters website, submitting inquiries, or contacting our team in any capacity, you agree to be bound by these Terms and Conditions. These terms constitute a legally binding agreement between you (the visitor or prospective client) and The Prime Crafters. If you do not agree with any part of these terms, please discontinue use of this website immediately. These website terms, terms of use, and any related policies govern your interaction with all content and services made available through this site."
+            children: "By visiting, browsing, or using any part of theprimecrafters.com — including submitting contact forms, requesting consultations, or engaging our team through any channel — you agree to be legally bound by these Terms and Conditions. These terms constitute a binding agreement between you (the visitor, prospect, or client) and The Prime Crafters, an AI automation agency registered and operating internationally. If you do not agree with any part of these terms, you must stop using this website immediately. Accessing any page of this website, sending us an enquiry, or entering into a service engagement will be treated as confirmation of your acceptance. These terms apply regardless of the device or channel through which you interact with us."
         }, void 0, false, {
             fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
             lineNumber: 32,
@@ -4519,39 +4519,87 @@ function TermsAgreement() {
 }
 _c1 = TermsAgreement;
 function TermsAbout() {
+    const coreServices = [
+        "AI Automation — end-to-end automation of business processes using artificial intelligence",
+        "AI Voice Agents — custom voice AI systems for sales, support, and customer engagement",
+        "Workflow Automation — intelligent workflow design, integration, and optimisation",
+        "AI Chatbot Development — conversational AI built for lead capture, support, and operations",
+        "Custom AI Integrations — connecting AI capabilities with your existing CRM, ERP, and business tools"
+    ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(TermsSection, {
         id: "about",
         index: 2,
         heading: "About The Prime Crafters Services",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-            className: "text-[var(--text-secondary)] leading-relaxed",
-            children: "The Prime Crafters is a technology services company specialising in AI automation services, AI voice agents, workflow automation, AI chatbot development, and intelligent system integrations for businesses of all sizes. Our work is designed to streamline operations, enhance customer engagement, and drive measurable results through modern AI-powered solutions. These Terms apply to all interactions related to our services, whether initiated via this website, email, discovery calls, or any other communication channel."
-        }, void 0, false, {
-            fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-            lineNumber: 47,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-[var(--text-secondary)] leading-relaxed mb-4",
+                children: "The Prime Crafters is a specialist AI automation agency delivering intelligent systems and workflow solutions for businesses across industries. Our core services include:"
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 59,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                className: "space-y-2 text-[var(--text-secondary)] mb-6",
+                children: coreServices.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                        className: "flex items-start gap-3",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-[var(--gold-500)] mt-1",
+                                children: "✦"
+                            }, void 0, false, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                                lineNumber: 66,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                children: item
+                            }, void 0, false, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                                lineNumber: 67,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, i, true, {
+                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                        lineNumber: 65,
+                        columnNumber: 11
+                    }, this))
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 63,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-[var(--text-secondary)] leading-relaxed",
+                children: "These Terms and Conditions apply to all interactions with The Prime Crafters related to the above services, whether initiated via this website, email, phone, social media, or any other communication channel."
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 71,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-        lineNumber: 46,
+        lineNumber: 58,
         columnNumber: 5
     }, this);
 }
 _c2 = TermsAbout;
 function TermsWebsiteUse() {
     const allowed = [
-        "Browsing our content, case studies, and service offerings",
-        "Submitting genuine inquiries through our contact forms",
-        "Requesting consultations or discovery sessions",
-        "Learning about our AI automation and workflow services"
+        "Browsing our service pages, case studies, and project portfolio",
+        "Submitting genuine enquiries through our contact forms",
+        "Requesting discovery calls or consultations",
+        "Reviewing our published content, resources, and legal policies"
     ];
     const prohibited = [
-        "Hacking, exploiting vulnerabilities, or unauthorized access attempts",
-        "Submitting spam, fake, or fraudulent inquiries",
-        "Automated scraping or data harvesting without written consent",
-        "Uploading or distributing malware, viruses, or malicious code",
-        "Any activity that disrupts or interferes with website functionality",
-        "Impersonating another person or entity"
+        "Unauthorised access — attempting to hack, exploit vulnerabilities, bypass authentication, or access any part of the website or its backend without permission",
+        "Spam and fake submissions — submitting false, misleading, or automated enquiries through any form on this website",
+        "Automated scraping — using bots, crawlers, or scripts to extract website content, data, or contact information without prior written consent from The Prime Crafters",
+        "Malware and malicious code — uploading, transmitting, or distributing any software designed to damage, disrupt, or gain unauthorised access to systems",
+        "Impersonation — misrepresenting your identity, company affiliation, or authority in any communication with us",
+        "Interference — taking any action that overloads, disrupts, or impairs the performance of this website or its underlying infrastructure"
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(TermsSection, {
         id: "website-use",
@@ -4560,10 +4608,10 @@ function TermsWebsiteUse() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "text-[var(--text-secondary)] leading-relaxed mb-4",
-                children: "You are permitted to use this website for lawful purposes only. Acceptable uses include:"
+                children: "theprimecrafters.com is made available for lawful, good-faith use by businesses and individuals seeking information about our services or wishing to engage with us. Permitted uses include:"
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-                lineNumber: 78,
+                lineNumber: 99,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -4576,25 +4624,25 @@ function TermsWebsiteUse() {
                                 children: "✦"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-                                lineNumber: 84,
+                                lineNumber: 107,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 children: item
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-                                lineNumber: 85,
+                                lineNumber: 108,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, i, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-                        lineNumber: 83,
+                        lineNumber: 106,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-                lineNumber: 81,
+                lineNumber: 104,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -4603,15 +4651,15 @@ function TermsWebsiteUse() {
                 children: "Prohibited Website Activity"
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-                lineNumber: 90,
+                lineNumber: 113,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "text-[var(--text-secondary)] leading-relaxed mb-4",
-                children: "The following activities are strictly prohibited on this website:"
+                children: "The following activities are strictly prohibited and may result in restricted access, account termination, and legal action where applicable:"
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-                lineNumber: 93,
+                lineNumber: 116,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -4624,67 +4672,169 @@ function TermsWebsiteUse() {
                                 children: "✕"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-                                lineNumber: 99,
+                                lineNumber: 123,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 children: item
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-                                lineNumber: 100,
+                                lineNumber: 124,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, i, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-                        lineNumber: 98,
+                        lineNumber: 122,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-                lineNumber: 96,
+                lineNumber: 120,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-        lineNumber: 77,
+        lineNumber: 98,
         columnNumber: 5
     }, this);
 }
 _c3 = TermsWebsiteUse;
 function TermsConsultations() {
+    const contractItems = [
+        "Scope of work and deliverables",
+        "Project timeline and milestones",
+        "Pricing and payment schedule",
+        "Revision allowances and change request process",
+        "Any confidentiality or data handling provisions"
+    ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(TermsSection, {
         id: "consultations",
         index: 4,
         heading: "Consultations, Proposals, and Project Requests",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-            className: "text-[var(--text-secondary)] leading-relaxed",
-            children: "Completing a contact form, scheduling a discovery call, or participating in any consultation session does not constitute a binding client relationship. No formal engagement exists until both parties have executed a written agreement, signed proposal, or project contract outlining the scope, deliverables, and commercial terms. AI consultation terms and project proposal terms are governed exclusively by those written agreements. Any verbal or informal discussions prior to contract execution are non-binding."
-        }, void 0, false, {
-            fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-            lineNumber: 115,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-[var(--text-secondary)] leading-relaxed mb-4",
+                children: "Submitting a contact form, booking a discovery call, or attending a consultation with The Prime Crafters does not establish a formal client relationship or create any binding obligation on either party."
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 147,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-[var(--text-secondary)] leading-relaxed mb-4",
+                children: "No engagement exists until both The Prime Crafters and the client have reviewed and executed a written agreement, signed proposal, or project contract that clearly defines:"
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 152,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                className: "space-y-2 text-[var(--text-secondary)] mb-6",
+                children: contractItems.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                        className: "flex items-start gap-3",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-[var(--gold-500)] mt-1",
+                                children: "✦"
+                            }, void 0, false, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                                lineNumber: 159,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                children: item
+                            }, void 0, false, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                                lineNumber: 160,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, i, true, {
+                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                        lineNumber: 158,
+                        columnNumber: 11
+                    }, this))
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 156,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-[var(--text-secondary)] leading-relaxed",
+                children: "All verbal discussions, informal conversations, and pre-proposal communications are exploratory only and are not legally binding. The Prime Crafters reserves the right to decline any project or engagement at any stage prior to contract execution."
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 164,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-        lineNumber: 110,
+        lineNumber: 142,
         columnNumber: 5
     }, this);
 }
 _c4 = TermsConsultations;
 function TermsClientResponsibilities() {
+    const responsibilities = [
+        "Provide accurate, complete, and current business, technical, and operational information required for the project",
+        "Grant timely access to the systems, platforms, credentials, and tools needed for delivery",
+        "Review and provide feedback on work-in-progress deliverables, prototypes, and workflows within agreed timeframes",
+        "Ensure that all content, data, and assets provided are owned by the client or properly licensed for use",
+        "Communicate openly about changes in business requirements that may affect the project scope or direction"
+    ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(TermsSection, {
         id: "client-responsibilities",
         index: 5,
         heading: "Client Responsibilities",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "text-[var(--text-secondary)] leading-relaxed mb-6",
-                children: "Successful delivery of AI automation and workflow projects depends on active client collaboration. Clients are expected to provide accurate information, necessary system access, timely approvals, required content and data, and constructive feedback throughout the project lifecycle. Delays caused by a lack of client input may affect timelines and outcomes."
+                className: "text-[var(--text-secondary)] leading-relaxed mb-4",
+                children: "The quality and timeliness of AI automation, workflow builds, and integration projects are directly dependent on the client's active participation throughout the engagement. Clients who engage The Prime Crafters agree to the following responsibilities:"
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-                lineNumber: 130,
+                lineNumber: 184,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                className: "space-y-2 text-[var(--text-secondary)] mb-6",
+                children: responsibilities.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                        className: "flex items-start gap-3",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-[var(--gold-500)] mt-1",
+                                children: "✦"
+                            }, void 0, false, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                                lineNumber: 192,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                children: item
+                            }, void 0, false, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                                lineNumber: 193,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, i, true, {
+                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                        lineNumber: 191,
+                        columnNumber: 11
+                    }, this))
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 189,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-[var(--text-secondary)] leading-relaxed mb-6",
+                children: "Failure to meet these responsibilities may result in project delays, revised timelines, or additional costs. The Prime Crafters will not be held liable for outcomes affected by insufficient or late client input."
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 197,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -4693,37 +4843,86 @@ function TermsClientResponsibilities() {
                 children: "Accuracy of Information Provided"
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-                lineNumber: 138,
+                lineNumber: 203,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "text-[var(--text-secondary)] leading-relaxed",
-                children: "Project timelines, system recommendations, and anticipated outcomes are dependent on the accuracy of business, technical, and workflow information provided by the client. The Prime Crafters cannot be held responsible for delays, suboptimal results, or additional costs arising from inaccurate or incomplete information supplied during the project engagement. Clients are encouraged to verify all data shared with our team prior to project kick-off."
+                children: "AI automation systems, voice agents, chatbot logic, and workflow designs are built on the information clients provide during discovery and project scoping. The Prime Crafters develops recommendations, architectures, and delivery plans based on the accuracy of that input. If information provided is found to be inaccurate, incomplete, or materially misleading — whether intentionally or otherwise — The Prime Crafters cannot be held responsible for resulting delays, rework, additional costs, or underperformance. Clients are strongly encouraged to verify all data, credentials, and process documentation before sharing it with our team."
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-                lineNumber: 141,
+                lineNumber: 206,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-        lineNumber: 129,
+        lineNumber: 183,
         columnNumber: 5
     }, this);
 }
 _c5 = TermsClientResponsibilities;
 function TermsAIServices() {
+    const endeavours = [
+        "Select reliable, enterprise-grade platforms for client deployments",
+        "Notify clients promptly of any material changes to tools used in their project",
+        "Document third-party dependencies clearly within project agreements"
+    ];
+    const clientResponsibilities = [
+        "Conducting adequate testing in a staging or test environment before go-live",
+        "Applying human oversight to AI-generated outputs before they affect operational, financial, or customer-facing processes",
+        "Signing off on all automations and workflows as fit for purpose prior to live deployment"
+    ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(TermsSection, {
         id: "ai-services",
         index: 6,
         heading: "AI Automation and Integration Services",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "text-[var(--text-secondary)] leading-relaxed mb-6",
-                children: "Our AI systems, voice agents, chatbots, automated workflows, and third-party integrations may rely on external platforms, APIs, and services that are beyond The Prime Crafters' direct control. Service availability, performance, and data handling of those third-party systems are governed by their respective providers. We will always endeavour to select reliable, enterprise-grade platforms and to notify clients of any material changes to the tools in use."
+                className: "text-[var(--text-secondary)] leading-relaxed mb-4",
+                children: "AI systems built by The Prime Crafters — including voice agents, automated workflows, AI chatbots, and custom integrations — may utilise or connect to third-party platforms, APIs, and cloud-based services that operate independently of The Prime Crafters. The availability, performance, data practices, and pricing of those third-party platforms are controlled by their respective providers and are subject to change. The Prime Crafters will always endeavour to:"
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-                lineNumber: 156,
+                lineNumber: 236,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                className: "space-y-2 text-[var(--text-secondary)] mb-4",
+                children: endeavours.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                        className: "flex items-start gap-3",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-[var(--gold-500)] mt-1",
+                                children: "✦"
+                            }, void 0, false, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                                lineNumber: 247,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                children: item
+                            }, void 0, false, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                                lineNumber: 248,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, i, true, {
+                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                        lineNumber: 246,
+                        columnNumber: 11
+                    }, this))
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 244,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-[var(--text-secondary)] leading-relaxed mb-6",
+                children: "However, The Prime Crafters cannot guarantee the uninterrupted availability or performance of any third-party service and accepts no liability for disruptions caused by external platform changes or outages."
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 252,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -4732,41 +4931,135 @@ function TermsAIServices() {
                 children: "Testing and Human Review"
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-                lineNumber: 165,
+                lineNumber: 258,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-[var(--text-secondary)] leading-relaxed mb-4",
+                children: "Before any AI automation, voice agent, chatbot, or workflow is deployed into a live business environment, it must be thoroughly tested and reviewed by the client. This is not optional — it is an essential part of responsible AI deployment. Clients are solely responsible for:"
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 261,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                className: "space-y-2 text-[var(--text-secondary)] mb-4",
+                children: clientResponsibilities.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                        className: "flex items-start gap-3",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-[var(--gold-500)] mt-1",
+                                children: "✦"
+                            }, void 0, false, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                                lineNumber: 270,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                children: item
+                            }, void 0, false, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                                lineNumber: 271,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, i, true, {
+                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                        lineNumber: 269,
+                        columnNumber: 11
+                    }, this))
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 267,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "text-[var(--text-secondary)] leading-relaxed",
-                children: "All AI automations, voice agents, and chatbot systems should be thoroughly tested and reviewed by the client prior to deployment in any business-critical environment. Clients are responsible for applying appropriate human oversight and quality assurance processes before relying on AI-driven outputs for operational, financial, or customer-facing decisions. AI testing and human review are essential steps that The Prime Crafters strongly recommends as part of every go-live process."
+                children: "The Prime Crafters strongly recommends a structured user acceptance testing (UAT) phase for every project. Deploying AI systems without adequate testing, against our recommendation, releases The Prime Crafters from liability for any resulting issues."
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-                lineNumber: 168,
+                lineNumber: 275,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-        lineNumber: 155,
+        lineNumber: 235,
         columnNumber: 5
     }, this);
 }
 _c6 = TermsAIServices;
 function TermsPayments() {
+    const keyPrinciples = [
+        "Payment obligations become binding upon written acceptance or signing of a proposal or contract",
+        "Scope creep — any request to expand deliverables, add features, or adjust the project direction beyond the agreed scope will be handled via a formal change request and may result in revised fees and timelines",
+        "Refunds — refund eligibility, if any, is defined within the individual project agreement",
+        "Disputes — any disagreement relating to invoicing, deliverables, or scope is governed exclusively by the terms of the written agreement for that engagement"
+    ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(TermsSection, {
         id: "payments",
         index: 7,
         heading: "Payments, Scope, and Project Changes",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-            className: "text-[var(--text-secondary)] leading-relaxed",
-            children: "All pricing, payment schedules, deliverables, project timelines, revision allowances, refund conditions, and change request procedures are defined within the written project agreement or signed proposal for each engagement. Payment terms are binding upon execution of that agreement. Any requests to expand project scope, alter deliverables, or adjust timelines will be handled through a formal change request process and may result in revised pricing or scheduling. Disputes relating to payment terms, project scope, or deliverables are subject to the terms of the applicable written agreement."
-        }, void 0, false, {
-            fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-            lineNumber: 183,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-[var(--text-secondary)] leading-relaxed mb-4",
+                children: "All commercial terms — including pricing, payment milestones, deliverable definitions, project timelines, revision inclusions, refund eligibility, and change request procedures — are established within the signed project agreement or proposal for each engagement."
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 294,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-[var(--text-secondary)] leading-relaxed mb-4",
+                children: "Key principles:"
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 299,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                className: "space-y-2 text-[var(--text-secondary)] mb-4",
+                children: keyPrinciples.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                        className: "flex items-start gap-3",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-[var(--gold-500)] mt-1",
+                                children: "✦"
+                            }, void 0, false, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                                lineNumber: 305,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                children: item
+                            }, void 0, false, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                                lineNumber: 306,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, i, true, {
+                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                        lineNumber: 304,
+                        columnNumber: 11
+                    }, this))
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 302,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-[var(--text-secondary)] leading-relaxed",
+                children: "The Prime Crafters does not honour informal scope changes requested verbally or outside of the agreed change management process."
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 310,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-        lineNumber: 182,
+        lineNumber: 293,
         columnNumber: 5
     }, this);
 }
@@ -4776,109 +5069,384 @@ function TermsIP() {
         id: "ip",
         index: 8,
         heading: "Intellectual Property",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-            className: "text-[var(--text-secondary)] leading-relaxed",
-            children: "All website content, branding, design assets, copy, graphics, code, and materials published by The Prime Crafters are the exclusive intellectual property of The Prime Crafters unless otherwise stated in a written agreement. Reproduction, redistribution, or use of any such materials without prior written consent is strictly prohibited. Client-owned assets, data, and materials provided to us during a project remain the property of the client. Any intellectual property created as a project deliverable will be addressed in the relevant project agreement, which governs ownership transfer upon completion and payment."
-        }, void 0, false, {
-            fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-            lineNumber: 199,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-[var(--text-secondary)] leading-relaxed mb-4",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                    className: "text-[var(--foreground)]",
+                    children: "The Prime Crafters' Intellectual Property"
+                }, void 0, false, {
+                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                    lineNumber: 322,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 321,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-[var(--text-secondary)] leading-relaxed mb-4",
+                children: "All content published on theprimecrafters.com — including but not limited to written copy, branding, logos, design assets, graphics, images, code, and structural layouts — is the exclusive intellectual property of The Prime Crafters. Unauthorised reproduction, redistribution, modification, or commercial use of any website content is strictly prohibited without prior written consent."
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 324,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-[var(--text-secondary)] leading-relaxed mb-4",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                    className: "text-[var(--foreground)]",
+                    children: "Client-Owned Assets"
+                }, void 0, false, {
+                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                    lineNumber: 332,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 331,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-[var(--text-secondary)] leading-relaxed mb-4",
+                children: "Any materials, data, content, branding, or systems provided to The Prime Crafters by the client during a project engagement remain the exclusive property of the client. The Prime Crafters will not use client-owned assets for any purpose beyond delivering the contracted services."
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 334,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-[var(--text-secondary)] leading-relaxed mb-4",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                    className: "text-[var(--foreground)]",
+                    children: "Custom Deliverables"
+                }, void 0, false, {
+                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                    lineNumber: 341,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 340,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-[var(--text-secondary)] leading-relaxed",
+                children: "Ownership of custom-built AI systems, automations, chatbots, voice agents, workflow logic, and other project deliverables is determined by the terms of the signed project agreement. As a general principle, full intellectual property ownership of bespoke deliverables transfers to the client upon completion and full payment of all outstanding fees."
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 343,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-        lineNumber: 198,
+        lineNumber: 320,
         columnNumber: 5
     }, this);
 }
 _c8 = TermsIP;
 function TermsThirdParty() {
+    const platformCategories = [
+        "CRM and customer management platforms",
+        "AI voice and conversational AI providers",
+        "Cloud hosting and infrastructure services",
+        "Analytics and data reporting tools",
+        "Email marketing and communication platforms",
+        "Scheduling and calendar integrations",
+        "Payment gateways and invoicing systems",
+        "Workflow and automation platforms (e.g. Make, Zapier, n8n)"
+    ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(TermsSection, {
         id: "third-party",
         index: 9,
         heading: "Third-Party Tools and Platforms",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-            className: "text-[var(--text-secondary)] leading-relaxed",
-            children: "AI automation projects and integrations delivered by The Prime Crafters may utilise third-party tools and platforms including but not limited to CRMs, analytics software, hosting providers, AI voice platforms, API services, email marketing systems, scheduling tools, and payment processors. The use of such third-party tools is subject to those providers' own terms of service, privacy policies, and data handling agreements. The Prime Crafters is not liable for the performance, security, or availability of any third-party platform. Clients are encouraged to review the terms of any tools used within their project environment."
-        }, void 0, false, {
-            fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-            lineNumber: 216,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-[var(--text-secondary)] leading-relaxed mb-4",
+                children: "Delivering modern AI automation requires the use of best-in-class third-party tools and platforms. Project engagements with The Prime Crafters may involve tools from the following categories:"
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 368,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                className: "space-y-2 text-[var(--text-secondary)] mb-6",
+                children: platformCategories.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                        className: "flex items-start gap-3",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-[var(--gold-500)] mt-1",
+                                children: "✦"
+                            }, void 0, false, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                                lineNumber: 376,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                children: item
+                            }, void 0, false, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                                lineNumber: 377,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, i, true, {
+                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                        lineNumber: 375,
+                        columnNumber: 11
+                    }, this))
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 373,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-[var(--text-secondary)] leading-relaxed",
+                children: "Important: Each third-party platform operates under its own terms of service, privacy policy, and data processing agreement. The Prime Crafters is not liable for the performance, security, data practices, pricing changes, or service interruptions of any third-party platform used within a client project. Clients are encouraged to review and accept the terms of any tools incorporated into their project environment."
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 381,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-        lineNumber: 215,
+        lineNumber: 367,
         columnNumber: 5
     }, this);
 }
 _c9 = TermsThirdParty;
 function TermsNoGuarantee() {
+    const noGuarantees = [
+        "Revenue growth or sales increases attributed to delivered systems",
+        "Volume of leads, enquiries, bookings, or conversions generated",
+        "Search engine rankings or organic traffic improvements",
+        "Automation cost savings or efficiency metrics",
+        "AI system accuracy, response quality, or uptime beyond agreed SLAs in a signed contract",
+        "Third-party platform performance or availability"
+    ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(TermsSection, {
         id: "no-guarantee",
         index: 10,
         heading: "No Guaranteed Results",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-            className: "text-[var(--text-secondary)] leading-relaxed",
-            children: "The Prime Crafters is committed to delivering high-quality AI automation solutions and strives to meet agreed project objectives. However, we do not guarantee specific revenue outcomes, lead volumes, search engine rankings, conversion rates, or any other business performance metric. Results from AI automation, workflow optimisation, and chatbot deployments are influenced by numerous external factors including market conditions, business operations, and platform performance that are beyond our control. All projections or estimates shared during consultations are indicative only and do not constitute a guarantee of results."
-        }, void 0, false, {
-            fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-            lineNumber: 233,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-[var(--text-secondary)] leading-relaxed mb-4",
+                children: "The Prime Crafters is committed to delivering excellent work and building AI automation solutions that create real, measurable value for clients. However, we do not and cannot guarantee specific business outcomes."
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 405,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-[var(--text-secondary)] leading-relaxed mb-4",
+                children: "We make no guarantees regarding:"
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 410,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                className: "space-y-2 text-[var(--text-secondary)] mb-6",
+                children: noGuarantees.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                        className: "flex items-start gap-3",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-[var(--gold-500)] mt-1",
+                                children: "✦"
+                            }, void 0, false, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                                lineNumber: 416,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                children: item
+                            }, void 0, false, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                                lineNumber: 417,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, i, true, {
+                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                        lineNumber: 415,
+                        columnNumber: 11
+                    }, this))
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 413,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-[var(--text-secondary)] leading-relaxed",
+                children: "Results from AI automation deployments are influenced by a wide range of external factors including market conditions, business operations, data quality, human decisions, and third-party technology performance — none of which are within The Prime Crafters' control. Any projections, benchmarks, or outcome estimates shared during discovery or proposals are indicative only. They represent reasonable expectations based on available information and do not constitute contractual guarantees."
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 421,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-        lineNumber: 232,
+        lineNumber: 404,
         columnNumber: 5
     }, this);
 }
 _c10 = TermsNoGuarantee;
 function TermsLiability() {
+    const liabilityItems = [
+        "Your use of or inability to use this website",
+        "Reliance on any content, advice, or information published on this site",
+        "The performance, delay, or non-performance of any contracted services",
+        "Third-party platform failures, outages, or data issues",
+        "Errors in AI-generated outputs used without adequate human review",
+        "Loss of business, revenue, data, goodwill, or opportunity"
+    ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(TermsSection, {
         id: "liability",
         index: 11,
         heading: "Limitation of Liability",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-            className: "text-[var(--text-secondary)] leading-relaxed",
-            children: "To the fullest extent permitted by applicable law, The Prime Crafters shall not be liable for any indirect, incidental, consequential, special, or punitive damages arising from the use of this website, reliance on our content, or the performance or non-performance of any services. Our total liability in connection with any project or engagement shall not exceed the fees paid by the client for the specific service giving rise to the claim. We recommend that clients with complex legal requirements have these terms reviewed by qualified legal counsel before entering into any engagement."
-        }, void 0, false, {
-            fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-            lineNumber: 250,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-[var(--text-secondary)] leading-relaxed mb-4",
+                children: "To the fullest extent permitted by applicable law, The Prime Crafters shall not be held liable for any indirect, incidental, special, consequential, or punitive damages arising from:"
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 446,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                className: "space-y-2 text-[var(--text-secondary)] mb-6",
+                children: liabilityItems.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                        className: "flex items-start gap-3",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-[var(--gold-500)] mt-1",
+                                children: "✦"
+                            }, void 0, false, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                                lineNumber: 454,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                children: item
+                            }, void 0, false, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                                lineNumber: 455,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, i, true, {
+                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                        lineNumber: 453,
+                        columnNumber: 11
+                    }, this))
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 451,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-[var(--text-secondary)] leading-relaxed",
+                children: "Cap on liability: In all cases, The Prime Crafters' total financial liability in connection with any single engagement shall not exceed the total fees paid by the client for the specific service or project giving rise to the claim. Nothing in these terms limits liability for death or personal injury caused by negligence, fraud, or any other matter that cannot be excluded under applicable law. We recommend that clients with significant legal, financial, or regulatory exposure seek independent legal advice before entering into any engagement."
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 459,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-        lineNumber: 249,
+        lineNumber: 445,
         columnNumber: 5
     }, this);
 }
 _c11 = TermsLiability;
 function TermsUpdates() {
+    const updateItems = [
+        "The revised terms are published on this page immediately",
+        "The \"Last Updated\" date is changed to reflect the revision",
+        "Continued use of this website after publication of updated terms constitutes your acceptance",
+        "For material changes affecting active client engagements, we will endeavour to notify affected clients directly"
+    ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(TermsSection, {
         id: "updates",
         index: 12,
         heading: "Updates to These Terms",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-            className: "text-[var(--text-secondary)] leading-relaxed",
-            children: [
-                "These Terms and Conditions were last updated on",
-                " ",
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                    className: "text-[var(--foreground)]",
-                    children: "1 June 2025"
-                }, void 0, false, {
-                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-                    lineNumber: 268,
-                    columnNumber: 9
-                }, this),
-                ". The Prime Crafters reserves the right to update, modify, or replace these terms at any time at our sole discretion. Continued use of this website following the publication of any revised terms constitutes your acceptance of those changes. We encourage you to review this page periodically to stay informed of any updates to our terms of use and website policy."
-            ]
-        }, void 0, true, {
-            fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-            lineNumber: 266,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-[var(--text-secondary)] leading-relaxed mb-4",
+                children: [
+                    "These Terms and Conditions were last updated on",
+                    " ",
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                        className: "text-[var(--foreground)]",
+                        children: "June 2, 2026"
+                    }, void 0, false, {
+                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                        lineNumber: 484,
+                        columnNumber: 9
+                    }, this),
+                    ". The Prime Crafters reserves the right to revise, update, or replace any part of these terms at any time and at our sole discretion."
+                ]
+            }, void 0, true, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 482,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-[var(--text-secondary)] leading-relaxed mb-4",
+                children: "When updates are made:"
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 488,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                className: "space-y-2 text-[var(--text-secondary)] mb-6",
+                children: updateItems.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                        className: "flex items-start gap-3",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-[var(--gold-500)] mt-1",
+                                children: "✦"
+                            }, void 0, false, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                                lineNumber: 494,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                children: item
+                            }, void 0, false, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                                lineNumber: 495,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, i, true, {
+                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                        lineNumber: 493,
+                        columnNumber: 11
+                    }, this))
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 491,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-[var(--text-secondary)] leading-relaxed",
+                children: "We recommend bookmarking this page and reviewing it periodically. The current version of these Terms and Conditions is always available at theprimecrafters.com/terms-and-conditions."
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 499,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-        lineNumber: 265,
+        lineNumber: 481,
         columnNumber: 5
     }, this);
 }
@@ -4891,14 +5459,14 @@ function TermsContact() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "text-[var(--text-secondary)] leading-relaxed mb-6",
-                children: "If you have any questions, concerns, or requests relating to these Terms and Conditions, please do not hesitate to reach out to us. Our team is happy to clarify any aspect of our legal or service terms."
+                children: "If you have questions, concerns, or require clarification about any aspect of these Terms and Conditions — or about engaging The Prime Crafters for an AI automation project — our team is ready to help."
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-                lineNumber: 281,
+                lineNumber: 510,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex flex-col sm:flex-row gap-4",
+                className: "flex flex-col sm:flex-row gap-4 mb-8",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         href: "/contact",
@@ -4906,7 +5474,7 @@ function TermsContact() {
                         children: "Contact Us"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-                        lineNumber: 287,
+                        lineNumber: 516,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -4915,19 +5483,37 @@ function TermsContact() {
                         children: "hello@theprimecrafters.com"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-                        lineNumber: 293,
+                        lineNumber: 522,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-                lineNumber: 286,
+                lineNumber: 515,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "text-[var(--text-secondary)] text-sm",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                        className: "text-[var(--foreground)]",
+                        children: "Last Updated:"
+                    }, void 0, false, {
+                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                        lineNumber: 530,
+                        columnNumber: 9
+                    }, this),
+                    " June 2, 2026"
+                ]
+            }, void 0, true, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
+                lineNumber: 529,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/terms-and-conditions/components/terms/TermsSections.tsx",
-        lineNumber: 280,
+        lineNumber: 509,
         columnNumber: 5
     }, this);
 }
