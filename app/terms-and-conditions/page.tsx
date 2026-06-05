@@ -25,16 +25,14 @@ export const metadata: Metadata = {
     "Terms and Conditions | The Prime Crafters AI Automation Agency",
   description:
     "Read The Prime Crafters’ Terms and Conditions before using our website or engaging our AI automation services. Clear, plain-language terms for clients and visitors.",
-  keywords: [
-    "The Prime Crafters terms and conditions",
-    "AI automation agency terms of service",
-    "AI chatbot development terms",
-    "website terms of use",
-    "client responsibilities AI agency",
-    "limitation of liability AI services",
-  ],
+  
+    
   alternates: {
     canonical: "https://www.theprimecrafters.com/terms-and-conditions",
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 export default function TermsAndConditionsPage() {
