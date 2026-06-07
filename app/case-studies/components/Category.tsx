@@ -114,6 +114,11 @@ const CategoryFilterSection: React.FC = () => {
             Browse Case Studies by Automation Type
           </h2>
 
+          {/* Subtitle */}
+          <p style={{ fontSize: "15px", color: "rgba(240,237,230,0.55)", marginBottom: "16px", fontWeight: 400, lineHeight: 1.7, maxWidth: "680px" }}>
+            Use the filters below to explore PrimeCrafters projects by the type of AI automation they demonstrate. All case studies remain present in the page for search engines regardless of which filter is active.
+          </p>
+
           {/* H3 */}
           <p style={{ fontSize: "14px", color: "rgba(240,237,230,0.4)", marginBottom: "44px", fontStyle: "italic", fontWeight: 400 }}>
             Voice AI · Healthcare AI · Sales AI · Lead Generation · Mobile Apps · Domain Automation

@@ -1,4 +1,5 @@
-"use client"
+"use client";
+
 import React, { useState } from "react";
 
 interface DetailStep {
@@ -95,37 +96,37 @@ const featuredCaseStudies: FeaturedCaseStudy[] = [
   {
     title: "3vltn Domain AI Platform",
     category: "Domain Investment",
-    href: "https://www.theprimecrafters.com/case-study/3vltn",
+    href: "/case-study/3vltn",
     color: "#7C6AC4",
   },
   {
     title: "lmn8 Ketamine Therapy",
     category: "Healthcare AI",
-    href: "https://www.theprimecrafters.com/case-study/lmn8-ketamine-therapy",
+    href: "/case-study/lmn8-ketamine-therapy",
     color: "#4CA88A",
-  },
-  {
-    title: "Spectrum Voice Agent",
-    category: "Enterprise Sales AI",
-    href: "https://www.theprimecrafters.com/case-study/spectrum-voice-agent",
-    color: "#C94C6A",
-  },
-  {
-    title: "RV Park Voice Agent",
-    category: "Voice AI",
-    href: "https://www.theprimecrafters.com/case-study/rv-park-voice-agent",
-    color: "#4C8EC9",
   },
   {
     title: "Faithful Companion App",
     category: "Mobile App",
-    href: "https://www.theprimecrafters.com/case-study/faithful-companion",
+    href: "/case-study/faithful-companion",
     color: "#C97A4C",
+  },
+  {
+    title: "RV Park AI Voice Agent",
+    category: "Voice AI",
+    href: "/case-study/rv-park-voice-agent",
+    color: "#4C8EC9",
+  },
+  {
+    title: "Spectrum AI Voice Agent",
+    category: "Enterprise Sales AI",
+    href: "/case-study/spectrum-voice-agent",
+    color: "#C94C6A",
   },
   {
     title: "AI Lead Generation Tools",
     category: "Marketing Automation",
-    href: "https://www.theprimecrafters.com/case-study/lead-generation-tools",
+    href: "/case-study/lead-generation-tools",
     color: "#C9A84C",
   },
 ];
@@ -284,6 +285,18 @@ const CaseStudyDetailPattern: React.FC = () => {
           >
             What Each Case Study Shows
           </h2>
+
+          {/* Subtitle */}
+          <p style={{
+            fontSize: "15px",
+            color: "rgba(240,237,230,0.55)",
+            marginBottom: "16px",
+            fontWeight: 400,
+            lineHeight: 1.75,
+            maxWidth: "640px",
+          }}>
+            Click into any case study and you will find the same structured format — designed to give you a complete picture of the problem, the solution, and the results without any filler.
+          </p>
 
           {/* H3 */}
           <p style={{

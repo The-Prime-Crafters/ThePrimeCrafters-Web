@@ -28,10 +28,10 @@ const caseStudies: CaseStudy[] = [
     icon: "🌐",
     href: "https://www.theprimecrafters.com/case-study/3vltn",
     description:
-      "An AI-powered email agent and domain investment platform that automated deal flow, outreach, and revenue operations end-to-end.",
+      "The 3vltn team was managing hundreds of domain acquisition and outreach conversations manually — a process that was slow, inconsistent, and impossible to scale. The Prime Crafters built a fully automated AI platform that handled outbound email campaigns, inbound lead qualification, deal negotiations, and revenue tracking end-to-end.",
     metrics: [
       { value: "+250%", label: "Deal Closure Rate" },
-      { value: "40 hrs", label: "Saved Per Week" },
+      { value: "40 hrs", label: "Manual Hours Saved Per Week" },
       { value: "+180%", label: "Revenue Growth" },
     ],
   },
@@ -43,11 +43,11 @@ const caseStudies: CaseStudy[] = [
     icon: "⚕️",
     href: "https://www.theprimecrafters.com/case-study/lmn8-ketamine-therapy",
     description:
-      "A HIPAA-compliant AI platform for ketamine therapy clinics that automated patient intake, matching, and scheduling workflows.",
+      "lmn8 was struggling to match patients with the right ketamine therapy clinics quickly and compliantly. The Prime Crafters built a HIPAA-compliant AI platform that automated patient intake, AI-powered treatment matching, and appointment scheduling — reducing the time from enquiry to confirmed booking by 65%.",
     metrics: [
-      { value: "94%", label: "Matching Accuracy" },
-      { value: "65%", label: "Faster Intake" },
-      { value: "+45%", label: "Clinic Capacity" },
+      { value: "94%", label: "AI Matching Accuracy" },
+      { value: "65%", label: "Faster Patient Intake" },
+      { value: "+45%", label: "Clinic Capacity Increase" },
     ],
   },
   {
@@ -58,11 +58,11 @@ const caseStudies: CaseStudy[] = [
     icon: "✝️",
     href: "https://www.theprimecrafters.com/case-study/faithful-companion",
     description:
-      "A faith-based community mobile app with daily prayer, content feeds, and community engagement features built for scale.",
+      "The Faithful Companion app needed to serve a large and growing faith community with daily devotionals, prayer requests, and community engagement — at scale, reliably, and with an experience people would return to every day. The Prime Crafters built the full application with content feeds, community prayer features, and engagement mechanics that drove 50,000+ daily active users within its first growth phase.",
     metrics: [
-      { value: "50K+", label: "Daily Users" },
-      { value: "200K+", label: "Prayer Requests" },
-      { value: "4.8/5", label: "App Rating" },
+      { value: "50K+", label: "Daily Active Users" },
+      { value: "200K+", label: "Community Prayer Requests" },
+      { value: "4.8 / 5", label: "App Store Rating" },
     ],
   },
   {
@@ -73,11 +73,11 @@ const caseStudies: CaseStudy[] = [
     icon: "🚐",
     href: "https://www.theprimecrafters.com/case-study/rv-park-voice-agent",
     description:
-      "A 24/7 AI voice agent for a local RV park business that answered calls, handled bookings, and eliminated manual phone management.",
+      "A local RV park business was losing bookings because calls went unanswered outside business hours. The Prime Crafters deployed a custom 24/7 AI voice agent that handled every inbound call, answered questions, and completed bookings without any human involvement — recovering lost revenue and freeing staff from phone management entirely.",
     metrics: [
       { value: "100%", label: "Call Answer Rate" },
-      { value: "+85%", label: "Booking Conversion" },
-      { value: "30 hrs", label: "Saved Per Week" },
+      { value: "+85%", label: "Booking Conversion Increase" },
+      { value: "30 hrs", label: "Staff Hours Saved Per Week" },
     ],
   },
   {
@@ -88,11 +88,11 @@ const caseStudies: CaseStudy[] = [
     icon: "📞",
     href: "https://www.theprimecrafters.com/case-study/spectrum-voice-agent",
     description:
-      "An enterprise-grade AI sales voice agent that handled outbound and inbound calls at scale, boosting conversion while slashing costs.",
+      "Spectrum's sales team was stretched across thousands of monthly calls with inconsistent qualification and high operational costs. The Prime Crafters built an enterprise-grade AI voice agent that managed outbound and inbound sales calls at scale — qualifying leads, handling objections, and routing hot prospects to human agents — while cutting cost per call by 70%.",
     metrics: [
-      { value: "10K+", label: "Calls Per Month" },
-      { value: "+45%", label: "Conversion Rate" },
-      { value: "70%", label: "Cost Reduction" },
+      { value: "10K+", label: "AI-Handled Calls Per Month" },
+      { value: "+45%", label: "Conversion Rate Increase" },
+      { value: "70%", label: "Operational Cost Reduction" },
     ],
   },
   {
@@ -103,11 +103,11 @@ const caseStudies: CaseStudy[] = [
     icon: "🎯",
     href: "https://www.theprimecrafters.com/case-study/lead-generation-tools",
     description:
-      "A suite of AI-powered marketing automation tools that generated qualified leads at scale and integrated directly with CRM pipelines.",
+      "A sales-driven business needed a scalable, automated way to identify, enrich, and deliver qualified leads directly into its CRM pipeline — without a large manual research team. The Prime Crafters built a multi-channel AI lead generation system that sourced, scored, and pushed 50,000+ qualified leads per month directly into Salesforce and HubSpot.",
     metrics: [
-      { value: "50K+", label: "Leads Per Month" },
-      { value: "90%", label: "Time Saved" },
-      { value: "+120%", label: "Qualified Lead Rate" },
+      { value: "50K+", label: "Qualified Leads Per Month" },
+      { value: "90%", label: "Manual Prospecting Time Saved" },
+      { value: "+120%", label: "Qualified Lead Rate Increase" },
     ],
   },
 ];
@@ -202,11 +202,11 @@ const styles: Record<string, React.CSSProperties> = {
     letterSpacing: "0.01em",
   },
   grid: {
-  display: "grid",
-  gridTemplateColumns: "repeat(3, 1fr)",
-  gap: "20px",
-  alignItems: "stretch",
-},
+    display: "grid",
+    gridTemplateColumns: "repeat(3, 1fr)",
+    gap: "20px",
+    alignItems: "stretch",
+  },
   card: {
     background: "rgba(255,255,255,0.03)",
     border: "1px solid rgba(255,255,255,0.07)",
@@ -219,7 +219,7 @@ const styles: Record<string, React.CSSProperties> = {
     cursor: "pointer",
     textDecoration: "none",
     color: "inherit",
-     height: "100%",
+    height: "100%",
   },
   cardHovered: {
     background: "rgba(255,255,255,0.055)",
@@ -234,7 +234,6 @@ const styles: Record<string, React.CSSProperties> = {
     textDecoration: "none",
     color: "inherit",
     transform: "translateY(-3px)",
-
   },
   cardHeader: {
     display: "flex",
@@ -412,6 +411,19 @@ const CaseStudyGrid: React.FC = () => {
           <h2 id="case-study-grid-heading" style={styles.h2}>
             Explore PrimeCrafters Case Studies
           </h2>
+
+          {/* Subtitle paragraph */}
+          <p
+            style={{
+              fontSize: "14px",
+              color: "rgba(240,237,230,0.5)",
+              marginBottom: "32px",
+              lineHeight: 1.75,
+              maxWidth: "580px",
+            }}
+          >
+            Six production AI systems. Six distinct industries. All built from scratch to solve real business problems and deliver measurable results.
+          </p>
 
           {/* Filter Chips */}
           <div

@@ -1,10 +1,11 @@
 "use client";
-import { useRouter } from "next/navigation";
+
 import React from "react";
 
 interface ProofBadge {
   value: string;
   label: string;
+  source: string;
 }
 
 interface HeroSectionProps {
@@ -13,25 +14,24 @@ interface HeroSectionProps {
 }
 
 const proofBadges: ProofBadge[] = [
-  { value: "+250%", label: "Deal Closure Rate" },
-  { value: "10K+", label: "Calls Per Month" },
-  { value: "50K+", label: "Leads Per Month" },
-  { value: "94%", label: "AI Matching Accuracy" },
+  { value: "+250%", label: "Deal Closure Rate", source: "3vltn Domain AI Platform" },
+  { value: "10K+", label: "Calls Per Month", source: "Spectrum AI Voice Agent" },
+  { value: "50K+", label: "Leads Per Month", source: "AI Lead Generation Tools" },
+  { value: "94%", label: "AI Matching Accuracy", source: "lmn8 Ketamine Therapy" },
 ];
 
-const categoryPills: string[] = [
-  "Voice AI",
-  "Workflow Automation",
-  "Lead Generation",
-  "Healthcare AI",
-  "Mobile Apps",
+const categoryPills: { label: string; anchor: string }[] = [
+  { label: "Voice AI", anchor: "#browse-by-type" },
+  { label: "Workflow Automation", anchor: "#browse-by-type" },
+  { label: "Lead Generation", anchor: "#browse-by-type" },
+  { label: "Healthcare AI", anchor: "#browse-by-type" },
+  { label: "Mobile Apps", anchor: "#browse-by-type" },
 ];
 
 const HeroSection: React.FC<HeroSectionProps> = ({
   onViewCaseStudies,
   onBookConsultation,
 }) => {
-const router = useRouter();
   return (
     <>
       <link
@@ -94,6 +94,7 @@ const router = useRouter();
               <span style={{ fontSize: "11px", letterSpacing: "0.22em", textTransform: "uppercase" as const, color: "#C9A84C", fontWeight: 500 }}>
                 ThePrimeCrafters
               </span>
+
             </div>
 
             {/* H1 */}
@@ -102,38 +103,45 @@ const router = useRouter();
               <span style={{ color: "#C9A84C" }}>Case Studies</span>
             </h1>
 
+
             {/* H2 */}
-            <h2 style={{ fontSize: "18px", fontWeight: 400, color: "rgba(240,237,230,0.65)", lineHeight: 1.65, marginBottom: "32px", maxWidth: "480px" }}>
-              Real AI Projects With Measurable Business Outcomes — built for companies that demand results, not promises.
+            <h2 style={{ fontSize: "18px", fontWeight: 400, color: "rgba(240,237,230,0.65)", lineHeight: 1.65, marginBottom: "8px", maxWidth: "520px" }}>
+              Real AI Projects With Measurable Business Outcomes
             </h2>
+            <p style={{ fontSize: "15px", fontWeight: 400, color: "rgba(240,237,230,0.5)", lineHeight: 1.7, marginBottom: "32px", maxWidth: "520px" }}>
+              Built for companies that demand results, not promises. Every case study below documents a real engagement — the problem, the system we built, the technology used, and the specific outcomes delivered.
+            </p>
 
             {/* Pills */}
             <div style={{ display: "flex", flexWrap: "wrap" as const, gap: "8px", marginBottom: "40px" }} role="list" aria-label="Project categories">
               {categoryPills.map((pill) => (
-                <span key={pill} role="listitem" style={{ fontSize: "12px", padding: "6px 14px", border: "1px solid rgba(201,168,76,0.3)", borderRadius: "999px", color: "rgba(201,168,76,0.85)", background: "rgba(201,168,76,0.07)", fontWeight: 400 }}>
-                  {pill}
-                </span>
+                <a
+                  key={pill.label}
+                  href={pill.anchor}
+                  role="listitem"
+                  style={{ fontSize: "12px", padding: "6px 14px", border: "1px solid rgba(201,168,76,0.3)", borderRadius: "999px", color: "rgba(201,168,76,0.85)", background: "rgba(201,168,76,0.07)", fontWeight: 400, textDecoration: "none", display: "inline-block" }}
+                >
+                  {pill.label}
+                </a>
               ))}
             </div>
 
             {/* CTAs */}
             <div style={{ display: "flex", gap: "14px", flexWrap: "wrap" as const }}>
-              <button
-                style={{ background: "#C9A84C", color: "#08090f", border: "none", padding: "15px 30px", fontFamily: "'DM Sans', sans-serif", fontSize: "15px", fontWeight: 600, borderRadius: "4px", cursor: "pointer", letterSpacing: "0.02em" }}
-                onClick={() => {
-  document
-    .getElementById("case-studies")
-    ?.scrollIntoView({ behavior: "smooth" });
-}}
+              <a
+                href="#case-study-grid"
+                style={{ background: "#C9A84C", color: "#08090f", border: "none", padding: "15px 30px", fontFamily: "'DM Sans', sans-serif", fontSize: "15px", fontWeight: 600, borderRadius: "4px", cursor: "pointer", letterSpacing: "0.02em", textDecoration: "none", display: "inline-block" }}
+                onClick={onViewCaseStudies}
               >
                 View Case Studies
-              </button>
-              <button
-                style={{ background: "transparent", color: "#f0ede6", border: "1px solid rgba(240,237,230,0.25)", padding: "15px 30px", fontFamily: "'DM Sans', sans-serif", fontSize: "15px", fontWeight: 400, borderRadius: "4px", cursor: "pointer", letterSpacing: "0.02em" }}
-                onClick={() => router.push("/contact")}
+              </a>
+              <a
+                href="/contact"
+                style={{ background: "transparent", color: "#f0ede6", border: "1px solid rgba(240,237,230,0.25)", padding: "15px 30px", fontFamily: "'DM Sans', sans-serif", fontSize: "15px", fontWeight: 400, borderRadius: "4px", cursor: "pointer", letterSpacing: "0.02em", textDecoration: "none", display: "inline-block" }}
+                onClick={onBookConsultation}
               >
                 Book a Consultation
-              </button>
+              </a>
             </div>
           </div>
 
@@ -150,16 +158,19 @@ const router = useRouter();
                   padding: "32px 28px",
                   display: "flex",
                   flexDirection: "column" as const,
-                  gap: "10px",
+                  gap: "8px",
                 }}
               >
                 <span style={{ fontFamily: "'Playfair Display', serif", fontSize: "48px", fontWeight: 900, color: "#C9A84C", lineHeight: 1 }}>
                   {badge.value}
                 </span>
-                <span style={{ fontSize: "14px", color: "rgba(240,237,230,0.5)", lineHeight: 1.4 }}>
+                <span style={{ fontSize: "14px", color: "rgba(240,237,230,0.6)", lineHeight: 1.4, fontWeight: 500 }}>
                   {badge.label}
                 </span>
                 <div style={{ width: "32px", height: "2px", background: "#C9A84C", borderRadius: "999px", opacity: 0.5 }} />
+                <span style={{ fontSize: "11px", color: "rgba(240,237,230,0.3)", lineHeight: 1.3 }}>
+                  {badge.source}
+                </span>
               </div>
             ))}
           </div>

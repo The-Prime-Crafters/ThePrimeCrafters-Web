@@ -15,7 +15,7 @@ const faqItems: FAQItem[] = [
     question: "What types of AI automation projects has PrimeCrafters built?",
     accentColor: "#C9A84C",
     answer:
-      "PrimeCrafters has built AI automation systems across six distinct verticals: voice AI agents for sales and local business, a HIPAA-compliant healthcare AI platform for ketamine therapy clinics, an AI-powered domain investment platform with automated email outreach, a suite of AI lead generation tools integrated with CRM pipelines, a faith-based mobile community application, and an enterprise sales voice agent handling over 10,000 calls per month.",
+      "The Prime Crafters has built production AI automation systems across six distinct verticals: an AI-powered domain investment platform with automated email outreach and deal flow management (3vltn), a HIPAA-compliant healthcare AI platform for ketamine therapy patient matching (lmn8), a 24/7 AI voice agent for local business booking automation (RV Park), an enterprise-grade AI sales voice agent handling 10,000+ calls per month (Spectrum), a suite of AI lead generation tools integrated with Salesforce and HubSpot (AI Lead Generation Tools), and a full-featured faith-based mobile community app with 50,000+ daily active users (Faithful Companion). Every project was built to production standards with measurable, tracked outcomes.",
     links: [{ label: "View All Services", href: "/services" }],
   },
   {
@@ -23,10 +23,10 @@ const faqItems: FAQItem[] = [
     question: "Does PrimeCrafters build AI voice agents for sales and customer calls?",
     accentColor: "#4C8EC9",
     answer:
-      "Yes. PrimeCrafters has built two production voice AI systems: the Spectrum AI Voice Agent, an enterprise-grade solution handling 10,000+ outbound and inbound calls per month with a 45% conversion rate improvement and 70% cost reduction; and the RV Park Voice Agent, a 24/7 local business agent that achieved 100% call answer rate and an 85% increase in booking conversions.",
+      "Yes. The Prime Crafters has designed and deployed two production AI voice agent systems. The Spectrum AI Voice Agent is an enterprise-grade solution that handles over 10,000 outbound and inbound sales calls per month, delivering a 45% improvement in conversion rate and a 70% reduction in per-call operational costs. The RV Park AI Voice Agent is a 24/7 local business system that achieved a 100% call answer rate and an 85% increase in booking conversions by eliminating missed calls outside business hours. Both agents were built with custom conversation logic, CRM integration, and structured escalation pathways for calls that require human involvement.",
     links: [
-      { label: "RV Park Case Study", href: "https://www.theprimecrafters.com/case-study/rv-park-voice-agent" },
-      { label: "Spectrum Case Study", href: "https://www.theprimecrafters.com/case-study/spectrum-voice-agent" },
+      { label: "RV Park Case Study", href: "/case-study/rv-park-voice-agent" },
+      { label: "Spectrum Case Study", href: "/case-study/spectrum-voice-agent" },
     ],
   },
   {
@@ -34,9 +34,9 @@ const faqItems: FAQItem[] = [
     question: "Can PrimeCrafters build HIPAA-compliant healthcare AI platforms?",
     accentColor: "#4CA88A",
     answer:
-      "Yes. The lmn8 Ketamine Therapy platform is a HIPAA-compliant AI system built for mental health clinics. It automates patient intake, AI-powered treatment matching, and scheduling workflows. The platform achieved 94% patient matching accuracy, reduced intake time by 65%, and increased clinic capacity by 45%.",
+      "Yes. The lmn8 Ketamine Therapy platform demonstrates The Prime Crafters' capability in regulated healthcare environments. The system was built to HIPAA compliance standards and automates three core workflows: patient intake, AI-powered treatment matching between patients and clinics, and appointment scheduling. The platform achieved 94% patient-to-clinic matching accuracy, reduced the time from initial patient enquiry to confirmed booking by 65%, and increased overall clinic capacity by 45%. Healthcare clients with compliance requirements are encouraged to discuss their specific regulatory context during the discovery phase.",
     links: [
-      { label: "lmn8 Case Study", href: "https://www.theprimecrafters.com/case-study/lmn8-ketamine-therapy" },
+      { label: "lmn8 Case Study", href: "/case-study/lmn8-ketamine-therapy" },
     ],
   },
   {
@@ -44,7 +44,7 @@ const faqItems: FAQItem[] = [
     question: "What results has PrimeCrafters delivered in its AI automation case studies?",
     accentColor: "#7C6AC4",
     answer:
-      "Across all projects, PrimeCrafters has delivered a 250% increase in deal closure rate, 10,000+ AI-handled calls per month, 50,000+ qualified leads generated monthly, 94% AI matching accuracy in healthcare, 100% call answer rate for a local voice agent, 70% reduction in operational costs for an enterprise sales team, and a 4.8/5 app rating for a mobile community platform with 50,000+ daily users.",
+      "Across all six delivered projects, The Prime Crafters has documented the following outcomes: 250% increase in deal closure rate (3vltn), 10,000+ AI-handled calls per month (Spectrum), 50,000+ qualified leads generated monthly (AI Lead Generation Tools), 94% AI matching accuracy in healthcare patient routing (lmn8), 100% inbound call answer rate for a local business (RV Park), 70% reduction in per-call operational costs (Spectrum), 65% faster patient intake processing (lmn8), 90% reduction in manual lead prospecting time (AI Lead Generation Tools), 50,000+ daily active users on a mobile community platform with a 4.8/5 app store rating (Faithful Companion). All figures are sourced from post-deployment performance tracking.",
     links: [{ label: "See All Case Studies", href: "#case-study-grid" }],
   },
   {
@@ -52,9 +52,9 @@ const faqItems: FAQItem[] = [
     question: "Does PrimeCrafters build AI lead generation tools that integrate with CRMs?",
     accentColor: "#C94C6A",
     answer:
-      "Yes. The AI Lead Generation Tools project generated 50,000+ qualified leads per month, saved 90% of manual lead research time, and increased the qualified lead rate by 120%. The system integrates directly with CRM platforms to push enriched, scored leads into existing sales pipelines without manual data entry.",
+      "Yes. The AI Lead Generation Tools project is a multi-channel AI system built to source, enrich, score, and deliver qualified leads directly into CRM pipelines without manual data entry. The system generated 50,000+ qualified leads per month, saved 90% of the time previously spent on manual prospecting, and increased the qualified lead rate by 120%. It integrates natively with Salesforce and HubSpot, and can be configured to push enriched lead data to any CRM with a standard API. Lead scoring logic is trained on the client's historical conversion data for accuracy.",
     links: [
-      { label: "Lead Gen Case Study", href: "https://www.theprimecrafters.com/case-study/lead-generation-tools" },
+      { label: "Lead Gen Case Study", href: "/case-study/lead-generation-tools" },
     ],
   },
   {
@@ -62,9 +62,9 @@ const faqItems: FAQItem[] = [
     question: "Can PrimeCrafters create mobile apps with content, community, and engagement features?",
     accentColor: "#C97A4C",
     answer:
-      "Yes. The Faithful Companion app is a full-featured mobile application built with daily content feeds, community prayer request features, and engagement mechanics designed for scale. It reached 50,000+ daily active users, accumulated over 200,000 prayer requests, and holds a 4.8/5 app store rating.",
+      "Yes. The Faithful Companion app is a full-featured mobile application built for a large faith community, covering daily devotional content feeds, community prayer request submissions and responses, push notification engagement mechanics, and moderation tools for community management. The app was engineered for scale from day one, reaching 50,000+ daily active users and accumulating over 200,000 prayer requests while maintaining a 4.8 out of 5 app store rating. The Prime Crafters handled full product development from architecture to launch.",
     links: [
-      { label: "Faithful Companion Case Study", href: "https://www.theprimecrafters.com/case-study/faithful-companion" },
+      { label: "Faithful Companion Case Study", href: "/case-study/faithful-companion" },
     ],
   },
   {
@@ -72,7 +72,7 @@ const faqItems: FAQItem[] = [
     question: "How does PrimeCrafters approach custom AI platform development?",
     accentColor: "#4C8EC9",
     answer:
-      "Every project follows a six-step process: Discovery (workflow audit and ROI mapping), AI Architecture (model selection and integration design), Development (agile sprints with weekly demos), Integration (connecting to existing tech stack), Testing (QA, load testing, and UAT), and Launch (phased rollout with monitoring). No off-the-shelf templates are used — every system is built specifically for the client's business.",
+      "Every project begins with a structured discovery phase — a workflow audit and ROI mapping session that identifies the highest-value automation opportunities before any development begins. From there, The Prime Crafters designs the full AI architecture, including model selection, data flow, integration points, and human oversight requirements. Development is delivered in agile sprints with weekly client demos. Integration connects the AI system to the client's existing tech stack. Every project goes through QA, load testing, and client-approved user acceptance testing before any live deployment. No off-the-shelf templates are used — every system is designed and built specifically for the client's business context and operational requirements.",
     links: [{ label: "Our Services", href: "/services" }],
   },
   {
@@ -80,7 +80,7 @@ const faqItems: FAQItem[] = [
     question: "Why should businesses choose PrimeCrafters for AI automation and workflow optimisation?",
     accentColor: "#C9A84C",
     answer:
-      "PrimeCrafters delivers measurable outcomes across diverse industries — from healthcare and enterprise sales to local business and mobile apps. Every engagement starts with a discovery process to identify the highest-ROI automation opportunities, and every project is built to production standards with full integration into existing workflows. Results are tracked and reported with specific, numeric KPIs.",
+      "The Prime Crafters combines deep technical expertise in AI system architecture with a practical focus on real business outcomes. Every engagement begins with understanding the client's specific operation — not applying a generic template. Projects span healthcare, enterprise sales, local business, lead generation, and mobile applications, demonstrating breadth of delivery capability. All results in these case studies are documented with specific, numeric KPIs verified post-deployment. The six-phase delivery process — Discovery, Architecture, Development, Integration, Testing, and Launch — ensures every system is built to production standards with client oversight at each stage.",
     links: [{ label: "Book a Consultation", href: "/contact" }],
   },
 ];
@@ -346,7 +346,7 @@ const FAQSection: React.FC = () => {
                 Still have questions?
               </p>
               <p style={{ fontSize: "13px", color: "rgba(240,237,230,0.5)", lineHeight: 1.5 }}>
-                Book a free consultation and we'll walk you through exactly what's possible for your business.
+                Book a free consultation and we will walk you through exactly what is possible for your business.
               </p>
             </div>
             <a
