@@ -218,22 +218,41 @@ export default function Projects() {
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10 w-full px-4 sm:px-6">
-        {/* Section Header */}
-        <div
-          className={`text-center mb-6 lg:mb-8 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-            }`}
-        >
-          <span className="inline-block text-[#D4AF37] text-[10px] font-semibold tracking-widest uppercase mb-1.5">
-            Our Portfolio
-          </span>
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold font-[var(--font-cormorant)] mb-2">
-            <span className="text-[#f5f5f5]">Delivered </span>
-            <span className="text-gradient-gold">Projects</span>
-          </h2>
-          <p className="text-[#a3a3a3] text-sm lg:text-base max-w-2xl mx-auto">
-            Explore our track record of successful AI automation implementations.
-          </p>
-        </div>
+        <div className="flex flex-col items-center mb-6 lg:mb-8">
+  <span className="inline-block text-[#D4AF37] text-[10px] font-semibold tracking-widest uppercase mb-1.5">
+    Our Portfolio
+  </span>
+
+  <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold font-[var(--font-cormorant)] mb-2">
+    <span className="text-[#f5f5f5]">Delivered </span>
+    <span className="text-gradient-gold">Projects</span>
+  </h2>
+
+  <p className="text-[#a3a3a3] text-sm lg:text-base max-w-2xl text-center mb-3">
+    Explore our track record of successful AI automation implementations.
+  </p>
+
+  {/* CTA */}
+  <Link
+    href="/case-studies"
+    className="inline-flex items-center gap-2 text-[#D4AF37] text-sm font-medium hover:text-[#FFD700] transition-colors"
+  >
+    View Case Studies
+    <svg
+      className="w-4 h-4"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M17 8l4 4m0 0l-4 4m4-4H3"
+      />
+    </svg>
+  </Link>
+</div>
 
         {/* Projects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-4">
@@ -359,7 +378,9 @@ export default function Projects() {
               />
             </svg>
           </a>
+          
         </div>
+        
       </div>
     </section>
   );

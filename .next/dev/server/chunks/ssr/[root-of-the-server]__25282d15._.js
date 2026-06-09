@@ -761,6 +761,8 @@ __turbopack_context__.s([
     ()=>ServicesGrid
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/prime/ThePrimeCrafters-Web/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/prime/ThePrimeCrafters-Web/node_modules/next/dist/client/app-dir/link.react-server.js [app-rsc] (ecmascript)");
+;
 ;
 const services = [
     {
@@ -791,20 +793,20 @@ function ServicesGrid() {
                         className: "absolute top-[-10%] left-[-10%] w-[30vw] h-[30vw] bg-[var(--gold-500)]/10 blur-3xl rounded-full animate-pulse"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
-                        lineNumber: 30,
+                        lineNumber: 32,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute bottom-[-10%] right-[-10%] w-[25vw] h-[25vw] bg-[var(--gold-500)]/10 blur-3xl rounded-full animate-pulse"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
-                        lineNumber: 31,
+                        lineNumber: 33,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
-                lineNumber: 29,
+                lineNumber: 31,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -821,7 +823,7 @@ function ServicesGrid() {
                                 children: "What We Offer"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
-                                lineNumber: 40,
+                                lineNumber: 42,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -829,86 +831,136 @@ function ServicesGrid() {
                                 children: "We design and build custom AI systems across four core service areas — each engineered to eliminate manual work, reduce costs, and scale your operations intelligently."
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
-                                lineNumber: 49,
+                                lineNumber: 51,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
-                        lineNumber: 37,
+                        lineNumber: 39,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "grid sm:grid-cols-2 lg:grid-cols-4 gap-[clamp(1rem,2vw,2rem)]",
-                        children: services.map((service, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "group relative rounded-3xl border border-[var(--border-subtle)] glass-card p-6 md:p-8 overflow-hidden transition-all duration-500 hover:-translate-y-2",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-500 bg-[radial-gradient(circle_at_top,rgba(212,175,55,0.15),transparent_60%)]"
-                                    }, void 0, false, {
-                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
-                                        lineNumber: 63,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "relative w-12 h-12 md:w-14 md:h-14 rounded-2xl bg-[var(--gold-500)]/10 flex items-center justify-center mb-6 group-hover:scale-110 transition",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "text-[var(--gold-500)] text-xl md:text-2xl",
-                                            children: "✦"
+                        className: "grid sm:grid-cols-2 lg:grid-cols-5 gap-[clamp(1rem,2vw,2rem)]",
+                        children: [
+                            services.map((service, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "group relative rounded-3xl border border-[var(--border-subtle)] glass-card p-6 md:p-8 overflow-hidden transition-all duration-500 hover:-translate-y-2",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-500 bg-[radial-gradient(circle_at_top,rgba(212,175,55,0.15),transparent_60%)]"
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
+                                            lineNumber: 65,
+                                            columnNumber: 5
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "relative w-12 h-12 md:w-14 md:h-14 rounded-2xl bg-[var(--gold-500)]/10 flex items-center justify-center mb-6 group-hover:scale-110 transition",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "text-[var(--gold-500)] text-xl md:text-2xl",
+                                                children: "✦"
+                                            }, void 0, false, {
+                                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
+                                                lineNumber: 68,
+                                                columnNumber: 7
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
                                             lineNumber: 67,
-                                            columnNumber: 17
+                                            columnNumber: 5
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "relative text-lg md:text-xl font-semibold mb-3 group-hover:text-[var(--gold-400)] transition",
+                                            children: service.title
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
+                                            lineNumber: 71,
+                                            columnNumber: 5
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "relative text-sm md:text-base text-[var(--text-secondary)] leading-relaxed mb-6",
+                                            children: service.description
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
+                                            lineNumber: 75,
+                                            columnNumber: 5
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "absolute top-4 right-4 w-2 h-2 rounded-full bg-[var(--gold-500)]/40 group-hover:scale-[2] transition"
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
+                                            lineNumber: 79,
+                                            columnNumber: 5
                                         }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
-                                        lineNumber: 66,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "relative text-lg md:text-xl font-semibold mb-3 group-hover:text-[var(--gold-400)] transition",
-                                        children: service.title
-                                    }, void 0, false, {
-                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
-                                        lineNumber: 73,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "relative text-sm md:text-base text-[var(--text-secondary)] leading-relaxed mb-6",
-                                        children: service.description
-                                    }, void 0, false, {
-                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
-                                        lineNumber: 78,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "absolute top-4 right-4 w-2 h-2 rounded-full bg-[var(--gold-500)]/40 group-hover:scale-[2] transition"
-                                    }, void 0, false, {
-                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
-                                        lineNumber: 85,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, index, true, {
+                                    ]
+                                }, index, true, {
+                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
+                                    lineNumber: 61,
+                                    columnNumber: 3
+                                }, this)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/services/custom-ai-solutions",
+                                className: "group",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "relative rounded-3xl border border-[var(--gold-500)]/40 glass-card p-6 md:p-8 overflow-hidden transition-all duration-500 hover:-translate-y-2 h-full flex flex-col justify-center items-center text-center",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-500 bg-[radial-gradient(circle_at_top,rgba(212,175,55,0.2),transparent_60%)]"
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
+                                            lineNumber: 84,
+                                            columnNumber: 5
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "relative text-lg md:text-xl font-semibold mb-3 text-[var(--gold-400)]",
+                                            children: "Custom AI Solutions"
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
+                                            lineNumber: 86,
+                                            columnNumber: 5
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "relative text-sm md:text-base text-[var(--text-secondary)] mb-6",
+                                            children: "Explore tailored AI systems built specifically for your business needs."
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
+                                            lineNumber: 90,
+                                            columnNumber: 5
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "relative text-[var(--gold-400)] font-medium",
+                                            children: "View Solutions →"
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
+                                            lineNumber: 94,
+                                            columnNumber: 5
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
+                                    lineNumber: 82,
+                                    columnNumber: 3
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
-                                lineNumber: 58,
-                                columnNumber: 13
-                            }, this))
-                    }, void 0, false, {
+                                lineNumber: 81,
+                                columnNumber: 4
+                            }, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
-                        lineNumber: 55,
-                        columnNumber: 9
+                        lineNumber: 57,
+                        columnNumber: 1
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
-                lineNumber: 34,
+                lineNumber: 36,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/components/ServicesGrid.tsx",
-        lineNumber: 26,
+        lineNumber: 28,
         columnNumber: 5
     }, this);
 }
