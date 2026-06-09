@@ -103,6 +103,12 @@
       "namedRegex": "^/services(?:/)?$"
     },
     {
+      "page": "/services/custom-ai-solutions",
+      "regex": "^/services/custom\\-ai\\-solutions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/custom\\-ai\\-solutions(?:/)?$"
+    },
+    {
       "page": "/sitemap.xml",
       "regex": "^/sitemap\\.xml(?:/)?$",
       "routeKeys": {},
