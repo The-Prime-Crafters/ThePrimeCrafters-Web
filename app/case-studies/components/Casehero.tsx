@@ -38,6 +38,73 @@ const HeroSection: React.FC<HeroSectionProps> = ({
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap"
         rel="stylesheet"
       />
+      <style>{`
+        @media (max-width: 900px) {
+          .hero-inner {
+            grid-template-columns: 1fr !important;
+            gap: 48px !important;
+            padding: 80px 40px !important;
+          }
+          .hero-h1 {
+            font-size: 52px !important;
+          }
+          .hero-h2 {
+            max-width: 100% !important;
+          }
+          .hero-body {
+            max-width: 100% !important;
+          }
+        }
+        @media (max-width: 768px) {
+          .hero-inner {
+            padding: 64px 24px !important;
+          }
+          .hero-h1 {
+            font-size: 42px !important;
+          }
+          .hero-badges {
+            grid-template-columns: 1fr 1fr !important;
+          }
+          .hero-badge {
+            padding: 24px 20px !important;
+          }
+          .hero-badge-value {
+            font-size: 38px !important;
+          }
+        }
+        @media (max-width: 480px) {
+          .hero-inner {
+            padding: 56px 16px !important;
+            gap: 36px !important;
+          }
+          .hero-h1 {
+            font-size: 34px !important;
+          }
+          .hero-h2 {
+            font-size: 16px !important;
+          }
+          .hero-body {
+            font-size: 14px !important;
+          }
+          .hero-ctas {
+            flex-direction: column !important;
+          }
+          .hero-ctas a {
+            text-align: center !important;
+            width: 100% !important;
+          }
+          .hero-badges {
+            grid-template-columns: 1fr !important;
+            gap: 10px !important;
+          }
+          .hero-badge {
+            padding: 18px 14px !important;
+          }
+          .hero-badge-value {
+            font-size: 30px !important;
+          }
+        }
+      `}</style>
       <section
         style={{
           fontFamily: "'DM Sans', sans-serif",
@@ -84,7 +151,21 @@ const HeroSection: React.FC<HeroSectionProps> = ({
         <div aria-hidden="true" style={{ position: "absolute", bottom: 0, left: 0, right: 0, height: "1px", background: "linear-gradient(90deg, transparent, rgba(201,168,76,0.4), transparent)" }} />
 
         {/* Inner — two column: left content, right visual */}
-        <div style={{ maxWidth: "1300px", width: "100%", margin: "0 auto", padding: "80px 64px", display: "grid", gridTemplateColumns: "1fr 1fr", gap: "80px", alignItems: "center", position: "relative", boxSizing: "border-box" }}>
+        <div
+          className="hero-inner"
+          style={{
+            maxWidth: "1300px",
+            width: "100%",
+            margin: "0 auto",
+            padding: "80px 64px",
+            display: "grid",
+            gridTemplateColumns: "1fr 1fr",
+            gap: "80px",
+            alignItems: "center",
+            position: "relative",
+            boxSizing: "border-box",
+          }}
+        >
 
           {/* LEFT: text content */}
           <div>
@@ -94,21 +175,49 @@ const HeroSection: React.FC<HeroSectionProps> = ({
               <span style={{ fontSize: "11px", letterSpacing: "0.22em", textTransform: "uppercase" as const, color: "#C9A84C", fontWeight: 500 }}>
                 ThePrimeCrafters
               </span>
-
             </div>
 
             {/* H1 */}
-            <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: "64px", fontWeight: 900, lineHeight: 1.05, color: "#f5f1e8", marginBottom: "20px" }}>
+            <h1
+              className="hero-h1"
+              style={{
+                fontFamily: "'Playfair Display', serif",
+                fontSize: "64px",
+                fontWeight: 900,
+                lineHeight: 1.05,
+                color: "#f5f1e8",
+                marginBottom: "20px",
+              }}
+            >
               AI Automation<br />
               <span style={{ color: "#C9A84C" }}>Case Studies</span>
             </h1>
 
-
             {/* H2 */}
-            <h2 style={{ fontSize: "18px", fontWeight: 400, color: "rgba(240,237,230,0.65)", lineHeight: 1.65, marginBottom: "8px", maxWidth: "520px" }}>
+            <h2
+              className="hero-h2"
+              style={{
+                fontSize: "18px",
+                fontWeight: 400,
+                color: "rgba(240,237,230,0.65)",
+                lineHeight: 1.65,
+                marginBottom: "8px",
+                maxWidth: "520px",
+              }}
+            >
               Real AI Projects With Measurable Business Outcomes
             </h2>
-            <p style={{ fontSize: "15px", fontWeight: 400, color: "rgba(240,237,230,0.5)", lineHeight: 1.7, marginBottom: "32px", maxWidth: "520px" }}>
+            <p
+              className="hero-body"
+              style={{
+                fontSize: "15px",
+                fontWeight: 400,
+                color: "rgba(240,237,230,0.5)",
+                lineHeight: 1.7,
+                marginBottom: "32px",
+                maxWidth: "520px",
+              }}
+            >
               Built for companies that demand results, not promises. Every case study below documents a real engagement — the problem, the system we built, the technology used, and the specific outcomes delivered.
             </p>
 
@@ -119,7 +228,17 @@ const HeroSection: React.FC<HeroSectionProps> = ({
                   key={pill.label}
                   href={pill.anchor}
                   role="listitem"
-                  style={{ fontSize: "12px", padding: "6px 14px", border: "1px solid rgba(201,168,76,0.3)", borderRadius: "999px", color: "rgba(201,168,76,0.85)", background: "rgba(201,168,76,0.07)", fontWeight: 400, textDecoration: "none", display: "inline-block" }}
+                  style={{
+                    fontSize: "12px",
+                    padding: "6px 14px",
+                    border: "1px solid rgba(201,168,76,0.3)",
+                    borderRadius: "999px",
+                    color: "rgba(201,168,76,0.85)",
+                    background: "rgba(201,168,76,0.07)",
+                    fontWeight: 400,
+                    textDecoration: "none",
+                    display: "inline-block",
+                  }}
                 >
                   {pill.label}
                 </a>
@@ -127,17 +246,46 @@ const HeroSection: React.FC<HeroSectionProps> = ({
             </div>
 
             {/* CTAs */}
-            <div style={{ display: "flex", gap: "14px", flexWrap: "wrap" as const }}>
+            <div
+              className="hero-ctas"
+              style={{ display: "flex", gap: "14px", flexWrap: "wrap" as const }}
+            >
               <a
-                href="#case-study-grid"
-                style={{ background: "#C9A84C", color: "#08090f", border: "none", padding: "15px 30px", fontFamily: "'DM Sans', sans-serif", fontSize: "15px", fontWeight: 600, borderRadius: "4px", cursor: "pointer", letterSpacing: "0.02em", textDecoration: "none", display: "inline-block" }}
+                href="#case-studies"
+                style={{
+                  background: "#C9A84C",
+                  color: "#08090f",
+                  border: "none",
+                  padding: "15px 30px",
+                  fontFamily: "'DM Sans', sans-serif",
+                  fontSize: "15px",
+                  fontWeight: 600,
+                  borderRadius: "4px",
+                  cursor: "pointer",
+                  letterSpacing: "0.02em",
+                  textDecoration: "none",
+                  display: "inline-block",
+                }}
                 onClick={onViewCaseStudies}
               >
                 View Case Studies
               </a>
               <a
                 href="/contact"
-                style={{ background: "transparent", color: "#f0ede6", border: "1px solid rgba(240,237,230,0.25)", padding: "15px 30px", fontFamily: "'DM Sans', sans-serif", fontSize: "15px", fontWeight: 400, borderRadius: "4px", cursor: "pointer", letterSpacing: "0.02em", textDecoration: "none", display: "inline-block" }}
+                style={{
+                  background: "transparent",
+                  color: "#f0ede6",
+                  border: "1px solid rgba(240,237,230,0.25)",
+                  padding: "15px 30px",
+                  fontFamily: "'DM Sans', sans-serif",
+                  fontSize: "15px",
+                  fontWeight: 400,
+                  borderRadius: "4px",
+                  cursor: "pointer",
+                  letterSpacing: "0.02em",
+                  textDecoration: "none",
+                  display: "inline-block",
+                }}
                 onClick={onBookConsultation}
               >
                 Book a Consultation
@@ -146,11 +294,17 @@ const HeroSection: React.FC<HeroSectionProps> = ({
           </div>
 
           {/* RIGHT: proof badges as a 2x2 grid */}
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px" }} role="list" aria-label="Key metrics">
+          <div
+            className="hero-badges"
+            style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px" }}
+            role="list"
+            aria-label="Key metrics"
+          >
             {proofBadges.map((badge) => (
               <div
                 key={badge.label}
                 role="listitem"
+                className="hero-badge"
                 style={{
                   background: "rgba(255,255,255,0.03)",
                   border: "1px solid rgba(255,255,255,0.08)",
@@ -161,7 +315,16 @@ const HeroSection: React.FC<HeroSectionProps> = ({
                   gap: "8px",
                 }}
               >
-                <span style={{ fontFamily: "'Playfair Display', serif", fontSize: "48px", fontWeight: 900, color: "#C9A84C", lineHeight: 1 }}>
+                <span
+                  className="hero-badge-value"
+                  style={{
+                    fontFamily: "'Playfair Display', serif",
+                    fontSize: "48px",
+                    fontWeight: 900,
+                    color: "#C9A84C",
+                    lineHeight: 1,
+                  }}
+                >
                   {badge.value}
                 </span>
                 <span style={{ fontSize: "14px", color: "rgba(240,237,230,0.6)", lineHeight: 1.4, fontWeight: 500 }}>

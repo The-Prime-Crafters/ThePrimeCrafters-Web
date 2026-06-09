@@ -228,7 +228,24 @@ const CaseStudyDetailPattern: React.FC = () => {
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap"
         rel="stylesheet"
       />
+      <style>{`
+        @media (max-width: 768px) {
+          .csdp-section { padding: 56px 20px !important; }
+          .csdp-heading { font-size: 26px !important; }
+          .csdp-subtitle { max-width: 100% !important; }
+          .csdp-explorer { grid-template-columns: 1fr !important; gap: 16px !important; margin-bottom: 44px !important; }
+          .csdp-detail-panel { padding: 24px 20px !important; }
+          .csdp-case-grid { grid-template-columns: 1fr !important; }
+        }
+        @media (max-width: 480px) {
+          .csdp-section { padding: 44px 16px !important; }
+          .csdp-heading { font-size: 22px !important; }
+          .csdp-detail-panel { padding: 20px 16px !important; }
+          .csdp-detail-title { font-size: 20px !important; }
+        }
+      `}</style>
       <section
+        className="csdp-section"
         style={{
           fontFamily: "'DM Sans', sans-serif",
           background: "#0c0d15",
@@ -274,6 +291,7 @@ const CaseStudyDetailPattern: React.FC = () => {
           {/* H2 */}
           <h2
             id="detail-pattern-heading"
+            className="csdp-heading"
             style={{
               fontFamily: "'Playfair Display', serif",
               fontSize: "36px",
@@ -287,7 +305,7 @@ const CaseStudyDetailPattern: React.FC = () => {
           </h2>
 
           {/* Subtitle */}
-          <p style={{
+          <p className="csdp-subtitle" style={{
             fontSize: "15px",
             color: "rgba(240,237,230,0.55)",
             marginBottom: "16px",
@@ -311,7 +329,7 @@ const CaseStudyDetailPattern: React.FC = () => {
           </p>
 
           {/* Interactive Step Explorer */}
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1.4fr", gap: "24px", marginBottom: "64px" }}>
+          <div className="csdp-explorer" style={{ display: "grid", gridTemplateColumns: "1fr 1.4fr", gap: "24px", marginBottom: "64px" }}>
 
             {/* Left: Step Cards */}
             <div style={{ display: "flex", flexDirection: "column", gap: "10px" }} role="tablist" aria-label="Case study sections">
@@ -328,6 +346,7 @@ const CaseStudyDetailPattern: React.FC = () => {
             {/* Right: Detail Panel */}
             <div
               id={`step-detail-${active.id}`}
+              className="csdp-detail-panel"
               role="tabpanel"
               aria-label={`${active.title} details`}
               style={{
@@ -357,7 +376,7 @@ const CaseStudyDetailPattern: React.FC = () => {
                   <p style={{ fontSize: "10px", letterSpacing: "0.15em", textTransform: "uppercase", color: active.accentColor, fontWeight: 600, marginBottom: "4px" }}>
                     Section {active.number}
                   </p>
-                  <h3 style={{
+                  <h3 className="csdp-detail-title" style={{
                     fontFamily: "'Playfair Display', serif",
                     fontSize: "24px", fontWeight: 700,
                     color: "#f5f1e8", lineHeight: 1.2,
@@ -425,7 +444,7 @@ const CaseStudyDetailPattern: React.FC = () => {
             <p style={{ fontSize: "11px", letterSpacing: "0.15em", textTransform: "uppercase", color: "rgba(240,237,230,0.3)", marginBottom: "16px", fontWeight: 500 }}>
               Explore All Case Studies
             </p>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "12px" }}>
+            <div className="csdp-case-grid" style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "12px" }}>
               {featuredCaseStudies.map((cs) => (
                 <a
                   key={cs.href}

@@ -92,7 +92,25 @@ const CategoryFilterSection: React.FC = () => {
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap"
         rel="stylesheet"
       />
+      <style>{`
+        @media (max-width: 900px) {
+          .cat-section { padding: 64px 24px !important; }
+          .cat-panel { grid-template-columns: 1fr !important; gap: 32px !important; padding: 32px 28px !important; min-height: auto !important; }
+          .cat-h2 { font-size: 30px !important; }
+        }
+        @media (max-width: 640px) {
+          .cat-section { padding: 56px 16px !important; }
+          .cat-h2 { font-size: 26px !important; }
+          .cat-panel { padding: 24px 20px !important; }
+          .cat-panel h3 { font-size: 24px !important; }
+        }
+        @media (max-width: 480px) {
+          .cat-h2 { font-size: 22px !important; }
+          .cat-filter-btn { font-size: 13px !important; padding: 8px 14px !important; }
+        }
+      `}</style>
       <section
+        className="cat-section"
         style={{ fontFamily: "'DM Sans', sans-serif", background: "#0c0d15", padding: "96px 64px", position: "relative", overflow: "hidden", boxSizing: "border-box" }}
         aria-labelledby="filter-category-heading"
         id="browse-by-type"
@@ -110,7 +128,7 @@ const CategoryFilterSection: React.FC = () => {
           </div>
 
           {/* H2 */}
-          <h2 id="filter-category-heading" style={{ fontFamily: "'Playfair Display', serif", fontSize: "40px", fontWeight: 700, color: "#f5f1e8", marginBottom: "10px", lineHeight: 1.15 }}>
+          <h2 id="filter-category-heading" className="cat-h2" style={{ fontFamily: "'Playfair Display', serif", fontSize: "40px", fontWeight: 700, color: "#f5f1e8", marginBottom: "10px", lineHeight: 1.15 }}>
             Browse Case Studies by Automation Type
           </h2>
 
@@ -131,6 +149,7 @@ const CategoryFilterSection: React.FC = () => {
               return (
                 <button
                   key={cat.id}
+                  className="cat-filter-btn"
                   onClick={() => setActiveId(cat.id)}
                   aria-pressed={isActive}
                   style={{
@@ -158,6 +177,7 @@ const CategoryFilterSection: React.FC = () => {
           {/* Detail panel — full width, two column */}
           <div
             key={active.id}
+            className="cat-panel"
             role="region"
             aria-label={`${active.label} details`}
             style={{

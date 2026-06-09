@@ -80,10 +80,27 @@ const BuildProcessSection: React.FC = () => {
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap"
         rel="stylesheet"
       />
+      <style>{`
+        @media (max-width: 900px) {
+          .hwb-section { padding: 64px 24px !important; }
+          .hwb-layout { grid-template-columns: 1fr !important; gap: 20px !important; }
+          .hwb-h2 { font-size: 30px !important; max-width: 100% !important; }
+        }
+        @media (max-width: 640px) {
+          .hwb-section { padding: 56px 16px !important; }
+          .hwb-h2 { font-size: 26px !important; }
+          .hwb-detail-panel { padding: 24px 20px !important; min-height: auto !important; }
+        }
+        @media (max-width: 480px) {
+          .hwb-h2 { font-size: 22px !important; }
+          .hwb-detail-panel { padding: 20px 16px !important; }
+        }
+      `}</style>
       <section
         id="build-process"
         aria-labelledby="build-process-heading"
         ref={ref}
+        className="hwb-section"
         style={{
           fontFamily: "'DM Sans', sans-serif",
           background: "#08090f",
@@ -159,6 +176,7 @@ const BuildProcessSection: React.FC = () => {
           {/* H2 */}
           <h2
             id="build-process-heading"
+            className="hwb-h2"
             style={{
               fontFamily: "'Playfair Display', serif",
               fontSize: "36px",
@@ -220,6 +238,7 @@ const BuildProcessSection: React.FC = () => {
 
           {/* Main content: phase selector left + detail panel right */}
           <div
+            className="hwb-layout"
             style={{
               display: "grid",
               gridTemplateColumns: "300px 1fr",
@@ -327,6 +346,7 @@ const BuildProcessSection: React.FC = () => {
             {/* Right: detail panel */}
             <div
               id={`phase-panel-${active.number}`}
+              className="hwb-detail-panel"
               role="tabpanel"
               aria-labelledby={`phase-tab-${active.number}`}
               style={{

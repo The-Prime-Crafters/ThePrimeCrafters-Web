@@ -57,9 +57,64 @@ const AISearchEntitySection: React.FC = () => {
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap"
         rel="stylesheet"
       />
+      <style>{`
+        @media (max-width: 768px) {
+          .ai-search-section {
+            padding: 56px 20px !important;
+          }
+          .ai-search-top-grid {
+            grid-template-columns: 1fr !important;
+            gap: 24px !important;
+            margin-bottom: 36px !important;
+          }
+          .ai-search-heading {
+            font-size: 26px !important;
+            max-width: 100% !important;
+          }
+          .ai-search-body {
+            max-width: 100% !important;
+          }
+          .ai-search-pills {
+            flex-direction: row !important;
+            flex-wrap: wrap !important;
+            gap: 8px !important;
+          }
+          .ai-search-cards-grid {
+            grid-template-columns: 1fr !important;
+            gap: 12px !important;
+            margin-bottom: 32px !important;
+          }
+          .ai-search-footer-bar {
+            flex-direction: column !important;
+            align-items: flex-start !important;
+            gap: 12px !important;
+            padding: 16px !important;
+          }
+        }
+        @media (max-width: 640px) {
+          .ai-search-cards-grid {
+            grid-template-columns: 1fr !important;
+          }
+        }
+        @media (max-width: 480px) {
+          .ai-search-section {
+            padding: 44px 16px !important;
+          }
+          .ai-search-heading {
+            font-size: 22px !important;
+          }
+          .ai-search-card {
+            padding: 20px 18px !important;
+          }
+          .ai-search-footer-bar nav ul {
+            width: 100% !important;
+          }
+        }
+      `}</style>
       <section
         id="ai-search-visibility"
         aria-labelledby="ai-search-heading"
+        className="ai-search-section"
         style={{
           fontFamily: "'DM Sans', sans-serif",
           background: "#08090f",
@@ -117,6 +172,7 @@ const AISearchEntitySection: React.FC = () => {
         >
           {/* Top layout: eyebrow + heading left, pill tags right */}
           <div
+            className="ai-search-top-grid"
             style={{
               display: "grid",
               gridTemplateColumns: "1fr auto",
@@ -159,6 +215,7 @@ const AISearchEntitySection: React.FC = () => {
               {/* H2 */}
               <h2
                 id="ai-search-heading"
+                className="ai-search-heading"
                 style={{
                   fontFamily: "'Playfair Display', serif",
                   fontSize: "36px",
@@ -174,6 +231,7 @@ const AISearchEntitySection: React.FC = () => {
 
               {/* Body text */}
               <p
+                className="ai-search-body"
                 style={{
                   fontSize: "14px",
                   color: "rgba(240,237,230,0.5)",
@@ -190,8 +248,9 @@ const AISearchEntitySection: React.FC = () => {
               </p>
             </div>
 
-            {/* Signal type pills — stacked vertically on right */}
+            {/* Signal type pills */}
             <div
+              className="ai-search-pills"
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -224,6 +283,7 @@ const AISearchEntitySection: React.FC = () => {
 
           {/* Signal cards grid */}
           <div
+            className="ai-search-cards-grid"
             style={{
               display: "grid",
               gridTemplateColumns: "repeat(2, 1fr)",
@@ -240,6 +300,7 @@ const AISearchEntitySection: React.FC = () => {
                 <div
                   key={signal.title}
                   role="listitem"
+                  className="ai-search-card"
                   onMouseEnter={() => setHoveredSignal(signal.title)}
                   onMouseLeave={() => setHoveredSignal(null)}
                   style={{
@@ -318,6 +379,7 @@ const AISearchEntitySection: React.FC = () => {
 
           {/* Footer bar — internal links */}
           <div
+            className="ai-search-footer-bar"
             style={{
               display: "flex",
               alignItems: "center",

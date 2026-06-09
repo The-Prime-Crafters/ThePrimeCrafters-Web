@@ -109,6 +109,7 @@ const FAQItemComponent: React.FC<{ item: FAQItem; isOpen: boolean; onToggle: () 
         aria-expanded={isOpen}
         aria-controls={`${item.id}-answer`}
         id={`${item.id}-button`}
+        className="faq-question-btn"
         style={{
           width: "100%",
           display: "flex",
@@ -257,6 +258,20 @@ const FAQSection: React.FC = () => {
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap"
         rel="stylesheet"
       />
+      <style>{`
+        @media (max-width: 768px) {
+          .faq-section { padding: 56px 20px !important; }
+          .faq-h2 { font-size: 26px !important; }
+          .faq-cta-bar { flex-direction: column !important; align-items: flex-start !important; padding: 20px !important; }
+          .faq-cta-bar a { width: 100% !important; justify-content: center !important; }
+        }
+        @media (max-width: 480px) {
+          .faq-section { padding: 44px 16px !important; }
+          .faq-h2 { font-size: 22px !important; }
+          .faq-question-btn { padding: 18px 16px !important; gap: 12px !important; }
+          .faq-question-btn h3 { font-size: 14px !important; }
+        }
+      `}</style>
       {/* FAQ Schema */}
       <script
         type="application/ld+json"
@@ -264,6 +279,7 @@ const FAQSection: React.FC = () => {
       />
 
       <section
+        className="faq-section"
         style={{
           fontFamily: "'DM Sans', sans-serif",
           background: "#08090f",
@@ -295,6 +311,7 @@ const FAQSection: React.FC = () => {
           {/* H2 */}
           <h2
             id="faq-heading"
+            className="faq-h2"
             style={{
               fontFamily: "'Playfair Display', serif",
               fontSize: "36px",
@@ -329,7 +346,7 @@ const FAQSection: React.FC = () => {
           </div>
 
           {/* Bottom CTA nudge */}
-          <div style={{
+          <div className="faq-cta-bar" style={{
             marginTop: "48px",
             padding: "28px 32px",
             background: "rgba(201,168,76,0.05)",

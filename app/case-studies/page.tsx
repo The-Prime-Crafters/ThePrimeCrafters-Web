@@ -19,8 +19,12 @@ export const metadata: Metadata = {
 "Explore The Prime Crafters' AI automation case studies — real projects delivering 250% higher deal closure, 10K+ calls/month, and 50K+ leads/month across voice AI, healthcare, sales, and more.",  
   alternates: {
     canonical: "https://www.theprimecrafters.com/case-studies",
+    
   },
-   
+   robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function CaseStudiesPage() {

@@ -196,25 +196,32 @@ const styles: Record<string, React.CSSProperties> = {
   },
 };
 
-const MetricCard: React.FC<{ metric: ProofMetric; visible: boolean }> = ({
+const MetricCard: React.FC<{ metric: ProofMetric; visible: boolean; delay: number }> = ({
   metric,
   visible,
+  delay,
 }) => {
   const [hovered, setHovered] = useState(false);
 
+  const handleClick = () => {
+    window.location.href = metric.anchorHref;
+  };
+
   return (
-    <a
-      href={metric.anchorHref}
+    <div
+      role="link"
+      tabIndex={0}
+      onClick={handleClick}
+      onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") handleClick(); }}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+      aria-label={`${metric.value} ${metric.label} — ${metric.sourceProject}`}
       style={{
         ...(hovered ? styles.cardHovered : styles.card),
         opacity: visible ? 1 : 0,
         transform: visible ? "translateY(0)" : "translateY(20px)",
-        transition:
-          "opacity 0.5s ease, transform 0.5s ease, border-color 0.25s, background 0.25s",
+        transition: `opacity 0.5s ease ${delay}ms, transform 0.5s ease ${delay}ms, border-color 0.25s, background 0.25s`,
       }}
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
-      aria-label={`${metric.value} ${metric.label} — ${metric.sourceProject}`}
     >
       <div style={styles.metricValue}>{metric.value}</div>
       <div style={styles.metricLabel}>{metric.label}</div>
@@ -231,7 +238,7 @@ const MetricCard: React.FC<{ metric: ProofMetric; visible: boolean }> = ({
           →
         </span>
       </div>
-    </a>
+    </div>
   );
 };
 
@@ -247,7 +254,7 @@ const ProofStrip: React.FC = () => {
           observer.disconnect();
         }
       },
-      { threshold: 0.15 }
+      { threshold: 0.05, rootMargin: "0px 0px -40px 0px" }
     );
     if (ref.current) observer.observe(ref.current);
     return () => observer.disconnect();
@@ -259,8 +266,28 @@ const ProofStrip: React.FC = () => {
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap"
         rel="stylesheet"
       />
+      <style>{`
+        @media (max-width: 900px) {
+          .proof-strip-section { padding: 56px 24px !important; }
+          .proof-strip-grid { grid-template-columns: repeat(2, 1fr) !important; }
+          .proof-strip-h2 { font-size: 30px !important; }
+        }
+        @media (max-width: 640px) {
+          .proof-strip-grid { grid-template-columns: repeat(2, 1fr) !important; }
+          .proof-strip-h2 { font-size: 26px !important; }
+          .proof-strip-subtitle { margin-bottom: 36px !important; }
+        }
+        @media (max-width: 480px) {
+          .proof-strip-section { padding: 44px 16px !important; }
+          .proof-strip-h2 { font-size: 22px !important; }
+          .proof-strip-grid { grid-template-columns: 1fr 1fr !important; gap: 10px !important; }
+          .proof-strip-card { padding: 20px 16px !important; }
+          .proof-strip-value { font-size: 34px !important; }
+        }
+      `}</style>
       <section
         ref={ref}
+        className="proof-strip-section"
         style={styles.section}
         aria-labelledby="proof-strip-heading"
       >
@@ -269,43 +296,34 @@ const ProofStrip: React.FC = () => {
         <div style={styles.bgPattern} aria-hidden="true" />
 
         <div style={styles.inner}>
-          {/* Eyebrow */}
           <div style={styles.eyebrow}>
             <span style={styles.eyebrowLine} />
             <span style={styles.eyebrowText}>Proven Results</span>
           </div>
 
-          {/* H2 */}
-          <h2 id="proof-strip-heading" style={styles.h2}>
+          <h2 id="proof-strip-heading" className="proof-strip-h2" style={styles.h2}>
             Delivered Projects Across High-Impact AI Use Cases
           </h2>
 
-          {/* H3 — outcome highlights */}
           <p style={styles.h3Hidden}>
             250% Deal Closure Rate &nbsp;·&nbsp; 10K+ Calls Per Month
             &nbsp;·&nbsp; 50K+ Leads Per Month
           </p>
 
-          <p style={styles.subtitle}>
+          <p className="proof-strip-subtitle" style={styles.subtitle}>
             Every number below comes from a real project. Click any metric to
             explore the full case study behind it.
           </p>
 
-          {/* Metrics Grid */}
           <div
+            className="proof-strip-grid"
             style={styles.grid}
             role="list"
             aria-label="Project outcome metrics"
           >
             {proofMetrics.map((metric, i) => (
-              <div
-                key={metric.label}
-                role="listitem"
-                style={{
-                  transitionDelay: `${i * 80}ms`,
-                }}
-              >
-                <MetricCard metric={metric} visible={visible} />
+              <div key={metric.label} role="listitem">
+                <MetricCard metric={metric} visible={visible} delay={i * 80} />
               </div>
             ))}
           </div>

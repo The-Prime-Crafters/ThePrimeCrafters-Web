@@ -335,8 +335,24 @@ const OutcomeSection: React.FC = () => {
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap"
         rel="stylesheet"
       />
+      <style>{`
+        @media (max-width: 1024px) {
+          .outcome-section { padding: 64px 24px !important; }
+          .outcome-grid { grid-template-columns: repeat(2, 1fr) !important; }
+          .outcome-h2 { font-size: 30px !important; }
+        }
+        @media (max-width: 640px) {
+          .outcome-section { padding: 56px 16px !important; }
+          .outcome-grid { grid-template-columns: 1fr !important; }
+          .outcome-h2 { font-size: 26px !important; }
+        }
+        @media (max-width: 480px) {
+          .outcome-h2 { font-size: 22px !important; }
+        }
+      `}</style>
       <section
         ref={ref}
+        className="outcome-section"
         style={{
           fontFamily: "'DM Sans', sans-serif",
           background: "#08090f",
@@ -391,6 +407,7 @@ const OutcomeSection: React.FC = () => {
           {/* H2 */}
           <h2
             id="outcome-heading"
+            className="outcome-h2"
             style={{
               fontFamily: "'Playfair Display', serif",
               fontSize: "36px",
@@ -462,6 +479,7 @@ const OutcomeSection: React.FC = () => {
 
           {/* 4×2 Grid — 4 columns, 2 rows = 8 cards perfectly */}
           <div
+            className="outcome-grid"
             style={{
               display: "grid",
               gridTemplateColumns: "repeat(4, 1fr)",

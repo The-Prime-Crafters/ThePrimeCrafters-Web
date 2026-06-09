@@ -10,9 +10,23 @@ const FinalCTASection: React.FC = () => {
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap"
         rel="stylesheet"
       />
+      <style>{`
+        @media (max-width: 768px) {
+          .cta-case-section { padding: 56px 20px !important; }
+          .cta-case-banner { padding: 32px 24px !important; }
+          .cta-case-h2 { font-size: 26px !important; }
+        }
+        @media (max-width: 480px) {
+          .cta-case-section { padding: 44px 16px !important; }
+          .cta-case-banner { padding: 24px 18px !important; }
+          .cta-case-h2 { font-size: 22px !important; }
+          .cta-case-body { font-size: 14px !important; }
+        }
+      `}</style>
       <section
         id="final-cta"
         aria-labelledby="final-cta-heading"
+        className="cta-case-section"
         style={{
           fontFamily: "'DM Sans', sans-serif",
           background: "#08090f",
@@ -43,6 +57,7 @@ const FinalCTASection: React.FC = () => {
         >
           {/* CTA Banner */}
           <div
+            className="cta-case-banner"
             style={{
               background: "#0d0e17",
               border: `1px solid ${hovered ? "#C9A84C" : "rgba(201,168,76,0.55)"}`,
@@ -102,6 +117,7 @@ const FinalCTASection: React.FC = () => {
             {/* H2 */}
             <h2
               id="final-cta-heading"
+              className="cta-case-h2"
               style={{
                 fontFamily: "'Playfair Display', serif",
                 fontSize: "32px",
@@ -117,6 +133,7 @@ const FinalCTASection: React.FC = () => {
 
             {/* Body */}
             <p
+              className="cta-case-body"
               style={{
                 fontSize: "15px",
                 color: "rgba(240,237,230,0.6)",

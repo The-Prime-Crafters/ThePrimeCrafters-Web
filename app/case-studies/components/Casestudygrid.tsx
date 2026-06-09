@@ -335,7 +335,7 @@ const CaseStudyCard: React.FC<{ study: CaseStudy }> = ({ study }) => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      <div style={styles.cardHeader}>
+      <div className="csg-card-header" style={styles.cardHeader}>
         <div style={styles.iconBox} aria-hidden="true">
           {study.icon}
         </div>
@@ -354,7 +354,7 @@ const CaseStudyCard: React.FC<{ study: CaseStudy }> = ({ study }) => {
       <h3 style={styles.cardTitle}>{study.title}</h3>
       <p style={styles.cardDescription}>{study.description}</p>
 
-      <div style={styles.metricsRow} role="list" aria-label="Key metrics">
+      <div className="csg-metrics" style={styles.metricsRow} role="list" aria-label="Key metrics">
         {study.metrics.map((m) => (
           <div key={m.label} style={styles.metricItem} role="listitem">
             <div style={styles.metricValue}>{m.value}</div>
@@ -394,8 +394,26 @@ const CaseStudyGrid: React.FC = () => {
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap"
         rel="stylesheet"
       />
+      <style>{`
+        @media (max-width: 1024px) {
+          .csg-section { padding: 64px 24px !important; }
+          .csg-grid { grid-template-columns: repeat(2, 1fr) !important; }
+          .csg-h2 { font-size: 30px !important; }
+        }
+        @media (max-width: 640px) {
+          .csg-section { padding: 56px 16px !important; }
+          .csg-grid { grid-template-columns: 1fr !important; }
+          .csg-h2 { font-size: 26px !important; }
+          .csg-metrics { grid-template-columns: 1fr !important; }
+        }
+        @media (max-width: 480px) {
+          .csg-h2 { font-size: 22px !important; }
+          .csg-card-header { flex-direction: column !important; align-items: flex-start !important; gap: 10px !important; }
+        }
+      `}</style>
       <section
         id="case-studies"
+        className="csg-section"
         style={styles.section}
         aria-labelledby="case-study-grid-heading"
       >
@@ -408,7 +426,7 @@ const CaseStudyGrid: React.FC = () => {
           </div>
 
           {/* H2 */}
-          <h2 id="case-study-grid-heading" style={styles.h2}>
+          <h2 id="case-study-grid-heading" className="csg-h2" style={styles.h2}>
             Explore PrimeCrafters Case Studies
           </h2>
 
@@ -449,6 +467,7 @@ const CaseStudyGrid: React.FC = () => {
 
           {/* Grid — all cards present in DOM for SEO, filtered via CSS display */}
           <div
+            className="csg-grid"
             style={styles.grid}
             role="list"
             aria-label="Case study cards"
