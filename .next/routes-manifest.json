@@ -109,6 +109,12 @@
       "namedRegex": "^/services/custom\\-ai\\-solutions(?:/)?$"
     },
     {
+      "page": "/services/process-automation",
+      "regex": "^/services/process\\-automation(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/process\\-automation(?:/)?$"
+    },
+    {
       "page": "/sitemap.xml",
       "regex": "^/sitemap\\.xml(?:/)?$",
       "routeKeys": {},

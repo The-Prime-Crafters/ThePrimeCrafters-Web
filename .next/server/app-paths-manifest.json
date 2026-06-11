@@ -11,6 +11,7 @@
   "/robots.txt/route": "app/robots.txt/route.js",
   "/services/custom-ai-solutions/page": "app/services/custom-ai-solutions/page.js",
   "/services/page": "app/services/page.js",
+  "/services/process-automation/page": "app/services/process-automation/page.js",
   "/sitemap.xml/route": "app/sitemap.xml/route.js",
   "/terms-and-conditions/page": "app/terms-and-conditions/page.js"
 }

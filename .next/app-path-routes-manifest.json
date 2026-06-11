@@ -11,6 +11,7 @@
   "/robots.txt/route": "/robots.txt",
   "/services/custom-ai-solutions/page": "/services/custom-ai-solutions",
   "/services/page": "/services",
+  "/services/process-automation/page": "/services/process-automation",
   "/sitemap.xml/route": "/sitemap.xml",
   "/terms-and-conditions/page": "/terms-and-conditions"
 }
