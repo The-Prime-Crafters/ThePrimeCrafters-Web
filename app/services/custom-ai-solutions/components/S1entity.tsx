@@ -4,22 +4,16 @@ import React from "react";
 const serviceEntities = [
   "AI Automation",
   "AI Integration",
-  "AI Voice Agents",
+  "Voice Agents",
   "Custom AI Development",
-  "Workflow Automation",
-  "Lead Generation AI",
-  "CRM Automation",
-  "AI Knowledge Assistants",
 ];
 
 const useCaseEntities = [
-  "AI for Sales",
-  "AI for Operations",
-  "AI for Customer Support",
+  "Built for Sales",
+  "Operations",
+  "Support",
   "Lead Generation",
   "Workflow Optimisation",
-  "Healthcare AI",
-  "Service Business Automation",
 ];
 
 const EntitySection: React.FC = () => {
@@ -50,9 +44,12 @@ const EntitySection: React.FC = () => {
             ThePrimeCrafters Builds Practical AI Systems for Business Operations
           </h2>
 
-          {/* Body paragraph — natural, entity-rich, not stuffed */}
+          {/* Body paragraphs */}
+          <p style={{ fontSize: "14px", color: "rgba(240,237,230,0.55)", lineHeight: 1.85, marginBottom: "20px", maxWidth: "720px" }}>
+            The Prime Crafters is a custom AI solutions agency that designs, builds, and deploys AI automation systems for businesses across healthcare, enterprise sales, local services, lead generation, and mobile applications. Work spans AI voice agents, workflow automation, AI chatbots and assistants, CRM and sales automation, AI lead generation systems, and custom AI integrations — all built to production standards and connected directly to the client's existing technology stack.
+          </p>
           <p style={{ fontSize: "14px", color: "rgba(240,237,230,0.55)", lineHeight: 1.85, marginBottom: "40px", maxWidth: "720px" }}>
-            ThePrimeCrafters is a custom AI solutions agency that designs, builds, and deploys AI automation systems for businesses across healthcare, enterprise sales, local operations, lead generation, and mobile applications. Every system is built to production standards — integrating AI voice agents, workflow automation, CRM connections, and custom AI tools directly into how a business already runs. The work is practical: defined by real workflows, measured by real KPIs, and built to deliver results that show up in the numbers.
+            Every engagement is grounded in real business process analysis, not generic AI application. Systems are measured against specific, numeric KPIs tracked post-deployment. The Prime Crafters does not offer off-the-shelf tools — every system is designed for the client's specific operation.
           </p>
 
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "20px" }}>
@@ -60,7 +57,7 @@ const EntitySection: React.FC = () => {
             {/* Service entities */}
             <div style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.06)", borderRadius: "12px", padding: "24px" }}>
               <h3 style={{ fontFamily: "'DM Sans', sans-serif", fontSize: "11px", letterSpacing: "0.18em", textTransform: "uppercase" as const, color: "#C9A84C", fontWeight: 600, opacity: 0.8, marginBottom: "16px" }}>
-                AI Automation, AI Integration, Voice Agents, and Custom AI Development
+                AI Automation · AI Integration · Voice Agents · Custom AI Development
               </h3>
               <div style={{ display: "flex", flexWrap: "wrap" as const, gap: "7px" }}>
                 {serviceEntities.map((e) => (
@@ -80,7 +77,7 @@ const EntitySection: React.FC = () => {
             {/* Use-case entities */}
             <div style={{ background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.06)", borderRadius: "12px", padding: "24px" }}>
               <h3 style={{ fontFamily: "'DM Sans', sans-serif", fontSize: "11px", letterSpacing: "0.18em", textTransform: "uppercase" as const, color: "#4C8EC9", fontWeight: 600, opacity: 0.8, marginBottom: "16px" }}>
-                Built for Sales, Operations, Support, Lead Generation, and Workflow Optimisation
+                Built for Sales · Operations · Support · Lead Generation · Workflow Optimisation
               </h3>
               <div style={{ display: "flex", flexWrap: "wrap" as const, gap: "7px" }}>
                 {useCaseEntities.map((e) => (

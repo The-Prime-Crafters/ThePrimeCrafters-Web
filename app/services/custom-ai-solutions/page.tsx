@@ -11,12 +11,13 @@ import S1benefits from "../custom-ai-solutions/components/S1benefits";
 import S1casestudiesproof from "../custom-ai-solutions/components/S1casestudiesproof";
 import S1whychooseus from "../custom-ai-solutions/components/S1whychooseus";
 import S1entity from "../custom-ai-solutions/components/S1entity";
-import ServicesCTA from "../components/ServicesCTA";
-import S1faq from "../custom-ai-solutions/components/S1faq";
+import S1faq from "../custom-ai-solutions/components/S1CTA";
+import S1CTA from "../custom-ai-solutions/components/S1faq";
 import { Footer } from "@/components";
 
 export const metadata: Metadata = {
-  
+  title: "Custom AI Solutions Agency for Business Automation | The Prime Crafters",
+  description:"The Prime Crafters is a custom AI solutions agency that builds AI automation systems, voice agents, workflow automation, and AI integrations tailored to your business — not off-the-shelf tools.",
   alternates: {
     canonical: "https://www.theprimecrafters.com/custom-ai-solutions",
   },
@@ -37,8 +38,8 @@ export default function CustomAiSolutionsPage() {
       <S1casestudiesproof/>
       <S1whychooseus/>
       <S1entity/>
+      <S1CTA/>
       <S1faq/>
-      <ServicesCTA/>
       <Footer/>
     </main>
   );

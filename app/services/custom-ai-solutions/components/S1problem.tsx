@@ -5,7 +5,7 @@ const painPoints = [
   {
     number: "01",
     title: "Manual Work Still Slows Down Teams",
-    description: "Teams repeat admin, sales, reporting, and support tasks daily that can be fully automated — stealing time from high-value work.",
+    description: "Sales reps still copy notes into CRMs by hand. Operations teams still chase approvals over email. Support agents still manually search knowledge bases to answer the same questions. Reporting still gets pulled from spreadsheets every Monday morning. These are not small inefficiencies — they compound across every team member, every day, into significant productivity losses that AI can eliminate.",
     icon: "⏱",
     color: "#C9A84C",
     href: "/services/process-automation",
@@ -13,7 +13,7 @@ const painPoints = [
   {
     number: "02",
     title: "Data Is Scattered Across Tools",
-    description: "CRMs, forms, spreadsheets, databases, websites, inboxes, and internal docs hold valuable data that never talks to each other.",
+    description: "The average business uses a CRM, a form builder, a spreadsheet, a project management tool, an inbox, a database, and a handful of internal documents — none of which talk to each other by default. Valuable customer data, lead intelligence, and operational insights sit siloed across platforms. Connecting those systems is where AI delivers compounding value: a single source of truth that all automated workflows can draw from.",
     icon: "🔀",
     color: "#4C8EC9",
     href: "/services/ai-integration",
@@ -21,7 +21,7 @@ const painPoints = [
   {
     number: "03",
     title: "Repetitive Customer and Sales Tasks Drain Time",
-    description: "Follow-ups, call handling, lead qualification, FAQs, routing, and booking workflows eat hours every week that AI can handle.",
+    description: "Follow-up emails, inbound call handling, lead qualification, FAQ responses, appointment routing, and booking workflows are all high-volume, low-complexity tasks that consume significant hours every week. These are also the tasks that AI handles best — handling them faster, more consistently, and at a fraction of the cost of doing them manually.",
     icon: "📞",
     color: "#C94C6A",
     href: "/case-studies",
@@ -29,7 +29,7 @@ const painPoints = [
   {
     number: "04",
     title: "AI Without Integration Creates More Work",
-    description: "Generic AI tools that don't connect to your stack become another isolated tool to manage — adding friction instead of removing it.",
+    description: "A standalone AI tool that isn't connected to your CRM, data, and workflows doesn't reduce work — it adds a new layer of it. Teams end up copy-pasting outputs, manually logging AI-generated content, and maintaining two parallel processes. Custom AI built for integration eliminates this entirely: the AI writes to your CRM, updates your pipeline, logs the call, and routes the lead — automatically, inside your existing stack.",
     icon: "⚠️",
     color: "#4CA88A",
     href: "/services/workflow-optimization",
@@ -77,7 +77,7 @@ const ProblemSection: React.FC = () => {
                 Generic AI Tools Don't Fit Real Business Operations
               </h2>
               <p style={{ fontSize: "14px", color: "rgba(240,237,230,0.5)", lineHeight: 1.75, margin: 0 }}>
-                Off-the-shelf AI tools are built for everyone — which means they're optimised for no one. Manual work continues, tools stay disconnected, and teams are left managing yet another platform that doesn't follow how their business actually runs.
+                Off-the-shelf AI platforms are designed for the average business — which means they fit no business particularly well. They produce outputs that ignore your workflows, live outside your systems, and require your team to manually bridge the gap between what the tool does and what your operation actually needs. The result is more time spent managing another platform rather than less time spent on the work itself.
               </p>
             </div>
 
@@ -146,7 +146,13 @@ const ProblemSection: React.FC = () => {
           <div style={{ marginTop: "32px", display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0", borderRadius: "14px", overflow: "hidden", border: "1px solid rgba(255,255,255,0.07)" }}>
             <div style={{ padding: "28px 32px", background: "rgba(255,255,255,0.02)", borderRight: "1px solid rgba(255,255,255,0.07)" }}>
               <div style={{ fontSize: "10px", letterSpacing: "0.15em", color: "rgba(240,237,230,0.35)", fontWeight: 600, textTransform: "uppercase" as const, marginBottom: "16px" }}>Generic AI Tools</div>
-              {["One-size-fits-all outputs", "No workflow awareness", "Disconnected from your stack", "Requires manual copy-paste", "Adds another tool to manage"].map((item) => (
+              {[
+                "One-size-fits-all outputs",
+                "No awareness of your business rules",
+                "Disconnected from your tech stack",
+                "Requires manual copy-paste to be useful",
+                "Creates another isolated tool to manage",
+              ].map((item) => (
                 <div key={item} style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "10px" }}>
                   <span style={{ color: "rgba(201,76,106,0.6)", fontSize: "14px" }}>✕</span>
                   <span style={{ fontSize: "13px", color: "rgba(240,237,230,0.4)" }}>{item}</span>
@@ -155,7 +161,13 @@ const ProblemSection: React.FC = () => {
             </div>
             <div style={{ padding: "28px 32px", background: "rgba(201,168,76,0.04)" }}>
               <div style={{ fontSize: "10px", letterSpacing: "0.15em", color: "#C9A84C", fontWeight: 600, textTransform: "uppercase" as const, marginBottom: "16px" }}>Custom AI Solutions</div>
-              {["Built around your workflows", "Follows your business rules", "Integrated with your existing tools", "Automates end-to-end", "Part of your operation, not apart from it"].map((item) => (
+              {[
+                "Built around your specific workflows",
+                "Follows your logic, tone, and approval paths",
+                "Integrated with your existing tools and data",
+                "Automates end-to-end without intervention",
+                "Becomes a native part of your operation",
+              ].map((item) => (
                 <div key={item} style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "10px" }}>
                   <span style={{ color: "#C9A84C", fontSize: "14px" }}>✓</span>
                   <span style={{ fontSize: "13px", color: "rgba(240,237,230,0.65)" }}>{item}</span>

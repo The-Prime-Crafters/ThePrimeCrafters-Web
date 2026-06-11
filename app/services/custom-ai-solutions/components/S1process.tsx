@@ -5,38 +5,38 @@ const steps = [
   {
     number: "1",
     title: "Business Process Review",
-    description: "We audit the workflow, tools, data sources, bottlenecks, users, and outcome goals before anything is designed. This gives us a clear map of where AI can deliver the most value in your specific operation.",
+    description: "We begin by auditing what your business actually does — not what you think it does. We map your current workflows, identify the tools your team uses, locate data sources, document manual bottlenecks, understand who touches each process, and establish what a successful outcome looks like. This gives us a factual foundation for every decision that follows.",
     color: "#C9A84C",
   },
   {
     number: "2",
     title: "AI Opportunity Mapping",
-    description: "We identify the specific tasks AI can automate, assist, classify, summarise, route, or improve — focusing only on useful AI that solves real problems, not AI for its own sake.",
+    description: "With a clear picture of your operation, we identify every task, decision point, or data flow where AI can add measurable value — whether that means automating a repetitive task, classifying incoming data, summarising outputs, routing requests, or improving the speed and consistency of a response. We prioritise opportunities by impact and feasibility, not by what is technically impressive.",
     color: "#4CA88A",
   },
   {
     number: "3",
     title: "Solution Architecture",
-    description: "We define user flows, data inputs, prompts, logic, permissions, integrations, and success metrics. You approve the system blueprint before a single line of code is written.",
+    description: "We design the full technical blueprint for the system: user flows, data input sources, AI model selection, prompt architecture, business logic, integration specifications, permission structures, handoff conditions, and the KPIs we will measure success against. You review and approve the architecture before a single line of code is written.",
     color: "#4C8EC9",
   },
   {
     number: "4",
     title: "Prototype and Build",
-    description: "We create a working version of the system, test it against real use cases, and adjust workflows, logic, and outputs before moving to full production development.",
+    description: "Development happens in structured sprints with weekly client demos so you can see the system taking shape in real time. We build a working prototype, test it against real use cases from your operation, and refine the workflows and logic before moving to full build. Every component is developed to production standards — not throwaway prototypes that have to be rebuilt later.",
     color: "#7C6AC4",
   },
   {
     number: "5",
     title: "Integration and Testing",
-    description: "We connect all tools and test accuracy, response quality, handoffs, security basics, edge cases, and speed. Nothing touches your live environment without passing structured QA.",
+    description: "We connect the AI system to your existing technology stack and run structured testing across four dimensions: accuracy of AI outputs, response time under load, handoff reliability between AI and human workflows, and edge case handling. All integrations are tested in a staging environment before they touch your live data or systems. Security considerations are reviewed at this stage.",
     color: "#C94C6A",
     href: "/services/ai-integration",
   },
   {
     number: "6",
     title: "Launch and Optimisation",
-    description: "We deploy the solution, monitor usage in real conditions, improve prompts and logic, and tune the system based on real business feedback — so it keeps getting better after launch.",
+    description: "We manage a phased rollout that minimises disruption to your live operation and monitor system performance closely in the days and weeks following launch. Prompts, logic, and workflows are refined based on real operational data. We provide full handover documentation and team training, and remain available for ongoing optimisation as your business evolves.",
     color: "#C97A4C",
     href: "/contact",
   },
@@ -71,7 +71,7 @@ const ProcessSection: React.FC = () => {
             Our Custom AI Solution Development Process
           </h2>
           <p style={{ fontSize: "14px", color: "rgba(240,237,230,0.5)", lineHeight: 1.75, marginBottom: "16px", maxWidth: "560px" }}>
-            Six structured phases from discovery to launch and optimisation — with full client visibility at every step.
+            Every system The Prime Crafters builds follows six structured phases — from the first workflow audit through to a live, monitored, optimised deployment. No phase is skipped. No system ships without passing structured testing and client sign-off. Here is exactly what the process looks like.
           </p>
 
           {/* Phase pills */}

@@ -5,30 +5,20 @@ const caseStudies = [
   {
     id: "spectrum",
     title: "Spectrum AI Voice Agent",
-    category: "Voice AI",
+    category: "Enterprise Sales AI",
     icon: "📞",
     color: "#C94C6A",
     href: "/case-study/spectrum-voice-agent",
-    description: "Enterprise-grade AI sales voice agent handling outbound and inbound calls at scale — qualifying leads, handling objections, and routing hot prospects to human agents.",
-    metrics: [
-      { value: "10K+", label: "AI-Handled Calls Per Month" },
-      { value: "+45%", label: "Conversion Rate Increase" },
-      { value: "70%", label: "Operational Cost Reduction" },
-    ],
+    description: "An enterprise-grade AI sales voice agent built to handle outbound and inbound calls at scale. The system qualifies leads through natural conversation, handles common objections, logs every interaction to the CRM, and routes high-intent prospects to human sales reps — operating at a volume no human team could match.",
   },
   {
     id: "lead-gen",
     title: "AI Lead Generation Tools",
-    category: "Lead Generation",
+    category: "Marketing Automation",
     icon: "🎯",
     color: "#C9A84C",
     href: "/case-study/lead-generation-tools",
-    description: "Multi-channel AI lead generation system that sourced, scored, and pushed 50,000+ qualified leads per month directly into Salesforce and HubSpot.",
-    metrics: [
-      { value: "50K+", label: "Qualified Leads Per Month" },
-      { value: "90%", label: "Manual Prospecting Time Saved" },
-      { value: "+120%", label: "Qualified Lead Rate Increase" },
-    ],
+    description: "A multi-channel AI lead generation system that identifies target prospects, enriches contact and company data, scores leads against the client's ideal customer profile, and pushes qualified, actionable leads directly into Salesforce and HubSpot — eliminating the manual prospecting process entirely.",
   },
   {
     id: "lmn8",
@@ -37,54 +27,34 @@ const caseStudies = [
     icon: "⚕️",
     color: "#4CA88A",
     href: "/case-study/lmn8-ketamine-therapy",
-    description: "HIPAA-compliant AI platform automating patient intake, AI-powered treatment matching, and appointment scheduling for ketamine therapy clinics.",
-    metrics: [
-      { value: "94%", label: "AI Matching Accuracy" },
-      { value: "65%", label: "Faster Patient Intake" },
-      { value: "+45%", label: "Clinic Capacity Increase" },
-    ],
+    description: "A HIPAA-compliant AI platform built for ketamine therapy clinics that automates the full patient journey from initial enquiry to confirmed appointment — matching patients to the right clinic based on treatment needs, automating intake documentation, and scheduling without manual coordination.",
   },
   {
     id: "rv-park",
     title: "RV Park AI Voice Agent",
-    category: "Voice AI",
+    category: "Local Service Business",
     icon: "🚐",
     color: "#4C8EC9",
     href: "/case-study/rv-park-voice-agent",
-    description: "24/7 AI voice agent for a local RV park business handling every inbound call, answering questions, and completing bookings without any human involvement.",
-    metrics: [
-      { value: "100%", label: "Call Answer Rate" },
-      { value: "+85%", label: "Booking Conversion Increase" },
-      { value: "30 hrs", label: "Staff Hours Saved Per Week" },
-    ],
+    description: "A 24/7 AI voice agent deployed for a local RV park that answers every inbound call, provides accurate availability and pricing information, handles bookings end-to-end, and manages FAQs — without any human involvement. Eliminated missed calls entirely and recovered lost bookings from after-hours enquiries.",
   },
   {
     id: "3vltn",
     title: "3vltn Domain AI Platform",
-    category: "Custom Platform",
+    category: "Custom AI Platform",
     icon: "🌐",
     color: "#7C6AC4",
     href: "/case-study/3vltn",
-    description: "Fully automated AI platform handling outbound email campaigns, inbound lead qualification, deal negotiations, and revenue tracking end-to-end.",
-    metrics: [
-      { value: "+250%", label: "Deal Closure Rate" },
-      { value: "40 hrs", label: "Manual Hours Saved Per Week" },
-      { value: "+180%", label: "Revenue Growth" },
-    ],
+    description: "A fully automated AI platform for a domain investment business that managed outbound email campaigns, qualified inbound domain enquiries, supported deal negotiations with pricing logic, and tracked revenue operations end-to-end — replacing a manual process that could not scale.",
   },
   {
     id: "faithful",
     title: "Faithful Companion App",
-    category: "Mobile App",
+    category: "Mobile Application",
     icon: "✝️",
     color: "#C97A4C",
     href: "/case-study/faithful-companion",
-    description: "Full-featured faith-based mobile application with daily devotionals, prayer requests, and community engagement mechanics engineered for scale from day one.",
-    metrics: [
-      { value: "50K+", label: "Daily Active Users" },
-      { value: "200K+", label: "Community Prayer Requests" },
-      { value: "4.8/5", label: "App Store Rating" },
-    ],
+    description: "A full-featured faith-based mobile community application built with daily content feeds, community prayer request workflows, push notification engagement mechanics, and moderation tools — engineered from the ground up to support a large and rapidly growing user base.",
   },
 ];
 
@@ -106,8 +76,8 @@ const CaseStudiesProofSection: React.FC = () => {
           <h2 id="proof-heading" style={{ fontFamily: "'Playfair Display', serif", fontSize: "36px", fontWeight: 700, color: "#f5f1e8", lineHeight: 1.15, marginBottom: "12px", maxWidth: "580px" }}>
             Custom AI Solutions We've Built
           </h2>
-          <p style={{ fontSize: "14px", color: "rgba(240,237,230,0.5)", lineHeight: 1.75, marginBottom: "48px", maxWidth: "560px" }}>
-            Six production AI systems across six distinct industries. Every metric below is sourced from post-deployment performance tracking.
+          <p style={{ fontSize: "14px", color: "rgba(240,237,230,0.5)", lineHeight: 1.75, marginBottom: "48px", maxWidth: "600px" }}>
+            Six production AI systems delivered across six different industries. Every metric below comes from post-deployment performance tracking — not projections or estimates.
           </p>
 
           {/* 3×2 grid */}
@@ -140,16 +110,6 @@ const CaseStudiesProofSection: React.FC = () => {
                   <p style={{ fontSize: "12px", color: isHov ? "rgba(240,237,230,0.55)" : "rgba(240,237,230,0.38)", lineHeight: 1.7, marginBottom: "18px", transition: "color 0.2s", flexGrow: 1 }}>
                     {cs.description}
                   </p>
-
-                  {/* Metrics */}
-                  <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "6px", marginBottom: "16px" }}>
-                    {cs.metrics.map((m) => (
-                      <div key={m.label} style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.06)", borderRadius: "8px", padding: "10px 6px", textAlign: "center" as const }}>
-                        <div style={{ fontFamily: "'Playfair Display', serif", fontSize: "16px", fontWeight: 700, color: cs.color, lineHeight: 1, marginBottom: "4px" }}>{m.value}</div>
-                        <div style={{ fontSize: "9px", color: "rgba(240,237,230,0.4)", lineHeight: 1.3, letterSpacing: "0.01em" }}>{m.label}</div>
-                      </div>
-                    ))}
-                  </div>
 
                   {/* Footer */}
                   <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", paddingTop: "12px", borderTop: "1px solid rgba(255,255,255,0.06)" }}>

@@ -2,21 +2,22 @@
 import React, { useState } from "react";
 
 const checklist = [
-  "You have repeatable workflows that eat team hours every week",
-  "Your team is growing and manual processes can't scale with it",
-  "You have manual bottlenecks slowing sales, support, or operations",
-  "You handle significant sales volume or inbound customer load",
-  "Your data is spread across disconnected platforms and tools",
-  "You've tried generic AI tools and found they don't fit your operation",
+  "You have repeatable workflows that consume significant team hours every week",
+  "Your team is growing and your manual processes cannot scale alongside it",
+  "You have clear bottlenecks in sales, support, or operations that slow response and output",
+  "You handle significant inbound volume — leads, calls, tickets, bookings, or data requests",
+  "Your business data is spread across disconnected tools with no centralised flow",
+  "You have tested generic AI tools and found they do not fit how your operation works",
+  "You want AI built to production standards that integrates with your existing technology stack",
 ];
 
 const scope = [
-  { number: "01", label: "Strategy & Workflow Mapping" },
-  { number: "02", label: "AI Architecture Design" },
-  { number: "03", label: "Integrations & Data Connections" },
-  { number: "04", label: "Development & Build" },
-  { number: "05", label: "Testing & Optimisation" },
-  { number: "06", label: "Launch & Ongoing Support" },
+  { number: "01", label: "Strategy & Workflow Mapping", desc: "Audit your current processes, identify automation opportunities, and map the highest-ROI use cases before anything is designed." },
+  { number: "02", label: "AI Architecture Design", desc: "Define the full system: data inputs, AI model selection, workflow logic, integration points, user permissions, and success metrics." },
+  { number: "03", label: "Integrations & Data Connections", desc: "Connect the AI system to your CRM, databases, forms, documents, calendars, email, and any other tool in your stack." },
+  { number: "04", label: "Development & Build", desc: "Build the system in structured sprints with weekly client demos. Every component built to production standards." },
+  { number: "05", label: "Testing & Optimisation", desc: "QA, load testing, and client-approved user acceptance testing before any live deployment. No shortcuts." },
+  { number: "06", label: "Launch & Ongoing Support", desc: "Phased rollout, post-launch monitoring, prompt refinement, and optimisation based on real operational feedback." },
 ];
 
 const ServiceDefinitionSection: React.FC = () => {
@@ -50,7 +51,7 @@ const ServiceDefinitionSection: React.FC = () => {
             Custom AI Solutions Built for How Your Business Works
           </h2>
           <p style={{ fontSize: "14px", color: "rgba(240,237,230,0.5)", lineHeight: 1.75, marginBottom: "52px", maxWidth: "600px" }}>
-            ThePrimeCrafters plans, builds, integrates, and optimises AI systems shaped entirely around your operation — not the other way around.
+            The Prime Crafters is a custom AI solutions agency that plans, designs, builds, integrates, and optimises AI systems shaped entirely around your operation. We do not apply generic playbooks. We start by understanding exactly how your business runs — your workflows, your data, your tools, your team, and your goals — and then design an AI system that fits into that context precisely.
           </p>
 
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "24px", alignItems: "start" }}>
@@ -74,7 +75,7 @@ const ServiceDefinitionSection: React.FC = () => {
                   <div style={{ padding: "0 24px 24px" }}>
                     <div style={{ height: "1px", background: "rgba(201,168,76,0.15)", marginBottom: "16px" }} />
                     <p style={{ fontSize: "13px", color: "rgba(240,237,230,0.6)", lineHeight: 1.8, margin: 0 }}>
-                      A custom AI solution is an AI system built specifically around a company's workflows, data, business rules, tools, and users. Unlike generic AI tools, these systems are designed to fit into real operations — automating the exact tasks, processes, and handoffs that matter most to that business.
+                      A custom AI solution is an AI system designed and built around a specific company's workflows, data, business rules, tools, and users — rather than adapted from a generic platform. Where off-the-shelf AI tools produce outputs that a human must then manually apply to their work, a custom AI solution is embedded directly into the workflow: it receives the right inputs, applies the right logic, and delivers outputs directly into the right systems — without manual intervention at each step.
                     </p>
                   </div>
                 )}
@@ -112,13 +113,16 @@ const ServiceDefinitionSection: React.FC = () => {
                 What ThePrimeCrafters Handles
               </h3>
               <p style={{ fontSize: "13px", color: "rgba(240,237,230,0.4)", lineHeight: 1.6, marginBottom: "24px" }}>
-                From first conversation to live system — we handle every phase.
+                From the first discovery conversation through to a live, stable, optimised system — every phase is covered:
               </p>
               <div style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
                 {scope.map((step) => (
-                  <div key={step.number} style={{ display: "flex", alignItems: "center", gap: "16px", padding: "14px 16px", borderRadius: "10px", background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.05)" }}>
+                  <div key={step.number} style={{ display: "flex", alignItems: "flex-start", gap: "16px", padding: "14px 16px", borderRadius: "10px", background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.05)" }}>
                     <span style={{ fontFamily: "'Playfair Display', serif", fontSize: "13px", fontWeight: 700, color: "rgba(201,168,76,0.5)", letterSpacing: "0.05em", flexShrink: 0 }}>{step.number}</span>
-                    <span style={{ fontSize: "13px", fontWeight: 500, color: "rgba(240,237,230,0.7)" }}>{step.label}</span>
+                    <div>
+                      <span style={{ fontSize: "13px", fontWeight: 500, color: "rgba(240,237,230,0.7)", display: "block", marginBottom: "4px" }}>{step.label}</span>
+                      <span style={{ fontSize: "12px", color: "rgba(240,237,230,0.4)", lineHeight: 1.6 }}>{step.desc}</span>
+                    </div>
                   </div>
                 ))}
               </div>

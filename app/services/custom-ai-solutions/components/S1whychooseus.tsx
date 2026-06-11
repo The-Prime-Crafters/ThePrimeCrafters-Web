@@ -5,28 +5,28 @@ const trustSignals = [
   {
     icon: "🧭",
     title: "Business-First AI Planning",
-    description: "We start with your business goals, workflows, and user needs before choosing any tools or models. Strategy comes first — technology follows.",
+    description: "We start with your business goals, team workflows, and operational constraints before selecting any tools or AI models. Strategy and process design come first — technology choices follow from that foundation. This prevents the common failure mode of impressive AI that doesn't fit how anyone actually works.",
     color: "#C9A84C",
     href: "/about-us",
   },
   {
     icon: "📐",
     title: "Custom Workflows, Not Generic Templates",
-    description: "Every solution is shaped around your specific process, data, and business rules. No copy-paste templates — no generic outputs that don't fit how you work.",
+    description: "We do not apply generic automation patterns to new clients and rename them. Every solution is designed around your specific workflow logic, data structure, business rules, and team behaviour. The output is a system that behaves the way your operation requires — not the way a template assumes.",
     color: "#4C8EC9",
     href: "/services/workflow-optimization",
   },
   {
     icon: "🔗",
     title: "AI Systems Connected to Existing Tools",
-    description: "We connect AI to your CRMs, websites, forms, databases, docs, email, calendars, and internal platforms — so it works inside your operation, not alongside it.",
+    description: "We build integrations — not isolated tools. Every system The Prime Crafters delivers is designed to connect to your CRM, website, forms, databases, documents, email, calendars, and internal platforms. AI becomes a functional layer inside your existing stack, not a new silo your team has to manage.",
     color: "#4CA88A",
     href: "/services/ai-integration",
   },
   {
     icon: "🚀",
     title: "Support From Strategy to Launch",
-    description: "Planning, build, integration, testing, launch, monitoring, and optimisation — we handle every phase and stay with you through to a live, stable system.",
+    description: "Our involvement does not end at handover. From the first discovery call through planning, build, integration, testing, launch, monitoring, and post-launch optimisation — The Prime Crafters is involved at every stage until the system is stable, performing, and adopted by your team.",
     color: "#7C6AC4",
     href: "/contact",
   },
@@ -50,11 +50,11 @@ const WhyChooseSection: React.FC = () => {
             <span style={{ width: "28px", height: "1px", background: "#C9A84C", display: "block" }} />
             <span style={{ fontSize: "11px", letterSpacing: "0.2em", textTransform: "uppercase" as const, color: "#C9A84C", fontWeight: 500 }}>Why Us</span>
           </div>
-          <h2 id="why-choose-heading" style={{ fontFamily: "'Playfair Display', serif", fontSize: "36px", fontWeight: 700, color: "#f5f1e8", lineHeight: 1.15, marginBottom: "12px", maxWidth: "580px" }}>
+          <h2 id="why-choose-heading" style={{ fontFamily: "'Playfair Display', serif", fontSize: "36px", fontWeight: 700, color: "#f5f1e8", lineHeight: 1.15, marginBottom: "12px", maxWidth: "620px" }}>
             Why Choose ThePrimeCrafters for Custom AI Solutions?
           </h2>
-          <p style={{ fontSize: "14px", color: "rgba(240,237,230,0.5)", lineHeight: 1.75, marginBottom: "48px", maxWidth: "560px" }}>
-            ThePrimeCrafters is a custom AI solutions agency that combines technical depth with a practical focus on real business outcomes. Every project begins with your operation — not a generic playbook.
+          <p style={{ fontSize: "14px", color: "rgba(240,237,230,0.5)", lineHeight: 1.75, marginBottom: "48px", maxWidth: "600px" }}>
+            The Prime Crafters is a custom AI solutions agency built on a single principle: AI should serve your operation, not the other way around. Every engagement starts with your business context — not a generic framework — and every system is measured against real outcomes.
           </p>
 
           {/* 2×2 trust cards */}
@@ -107,10 +107,10 @@ const WhyChooseSection: React.FC = () => {
 
           <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" as const, marginTop: "40px", justifyContent: "center" }}>
             <a
-              href="/about-us"
+              href="/case-studies"
               style={{ display: "inline-flex", alignItems: "center", gap: "8px", fontSize: "14px", fontWeight: 500, color: "#C9A84C", border: "1px solid rgba(201,168,76,0.35)", background: "rgba(201,168,76,0.08)", borderRadius: "999px", padding: "12px 28px", textDecoration: "none", letterSpacing: "0.02em" }}
             >
-              About ThePrimeCrafters →
+              See Results From Live Projects →
             </a>
             <a
               href="/contact"

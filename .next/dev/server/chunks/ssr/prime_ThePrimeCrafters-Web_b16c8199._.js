@@ -4186,8 +4186,10 @@ __turbopack_context__.s([
     ()=>__TURBOPACK__default__export__
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/prime/ThePrimeCrafters-Web/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/prime/ThePrimeCrafters-Web/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/prime/ThePrimeCrafters-Web/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
 "use client";
+;
 ;
 ;
 const HeroSection = ()=>{
@@ -4205,7 +4207,7 @@ const HeroSection = ()=>{
                 rel: "stylesheet"
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                lineNumber: 16,
+                lineNumber: 17,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -4233,7 +4235,7 @@ const HeroSection = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                        lineNumber: 36,
+                        lineNumber: 37,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4247,7 +4249,7 @@ const HeroSection = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                        lineNumber: 38,
+                        lineNumber: 48,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4262,7 +4264,7 @@ const HeroSection = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                        lineNumber: 40,
+                        lineNumber: 60,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4295,7 +4297,7 @@ const HeroSection = ()=>{
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                                lineNumber: 48,
+                                                lineNumber: 95,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4309,13 +4311,13 @@ const HeroSection = ()=>{
                                                 children: "ThePrimeCrafters"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                                lineNumber: 49,
+                                                lineNumber: 103,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                        lineNumber: 47,
+                                        lineNumber: 87,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -4332,7 +4334,7 @@ const HeroSection = ()=>{
                                         children: "Custom AI Solutions Agency for Business Automation"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                        lineNumber: 55,
+                                        lineNumber: 117,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -4342,12 +4344,28 @@ const HeroSection = ()=>{
                                             fontWeight: 400,
                                             color: "rgba(240,237,230,0.6)",
                                             lineHeight: 1.7,
-                                            marginBottom: "28px"
+                                            marginBottom: "16px"
                                         },
                                         children: "AI Systems Built Around Your Workflows, Data, and Tools"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                        lineNumber: 71,
+                                        lineNumber: 133,
+                                        columnNumber: 13
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        style: {
+                                            fontFamily: "'DM Sans', sans-serif",
+                                            fontSize: "15px",
+                                            fontWeight: 300,
+                                            color: "rgba(240,237,230,0.55)",
+                                            lineHeight: 1.8,
+                                            marginBottom: "28px",
+                                            maxWidth: "520px"
+                                        },
+                                        children: "Most businesses run on a unique combination of tools, processes, and team habits built up over years. Generic AI platforms ignore all of that. The Prime Crafters builds AI systems that fit directly into the way your business already operates — automating the workflows, data pipelines, and task flows that matter most, without forcing you to change how you work."
+                                    }, void 0, false, {
+                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
+                                        lineNumber: 147,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -4361,7 +4379,7 @@ const HeroSection = ()=>{
                                         children: "Custom AI Platforms, AI Agents, Workflow Automation, and Business AI Tools"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                        lineNumber: 85,
+                                        lineNumber: 167,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4386,76 +4404,12 @@ const HeroSection = ()=>{
                                                 children: b
                                             }, b, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                                lineNumber: 98,
+                                                lineNumber: 191,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)))
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                        lineNumber: 96,
-                                        columnNumber: 13
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        style: {
-                                            display: "grid",
-                                            gridTemplateColumns: "repeat(3, 1fr)",
-                                            gap: "12px",
-                                            marginBottom: "40px"
-                                        },
-                                        children: [
-                                            {
-                                                label: "Workflow Automation",
-                                                icon: "⚙️"
-                                            },
-                                            {
-                                                label: "AI Integrations",
-                                                icon: "🔗"
-                                            },
-                                            {
-                                                label: "Custom AI Tools",
-                                                icon: "🛠️"
-                                            }
-                                        ].map((card)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                style: {
-                                                    background: "rgba(255,255,255,0.03)",
-                                                    border: "1px solid rgba(255,255,255,0.07)",
-                                                    borderRadius: "10px",
-                                                    padding: "14px 12px",
-                                                    textAlign: "center"
-                                                },
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        style: {
-                                                            fontSize: "20px",
-                                                            marginBottom: "6px"
-                                                        },
-                                                        children: card.icon
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                                        lineNumber: 112,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        style: {
-                                                            fontSize: "11px",
-                                                            color: "rgba(240,237,230,0.55)",
-                                                            fontWeight: 500,
-                                                            lineHeight: 1.3
-                                                        },
-                                                        children: card.label
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                                        lineNumber: 113,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, card.label, true, {
-                                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                                lineNumber: 111,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0)))
-                                    }, void 0, false, {
-                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                        lineNumber: 105,
+                                        lineNumber: 181,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4465,7 +4419,7 @@ const HeroSection = ()=>{
                                             flexWrap: "wrap"
                                         },
                                         children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                 href: "/contact",
                                                 onMouseEnter: ()=>setHoveredCTA("primary"),
                                                 onMouseLeave: ()=>setHoveredCTA(null),
@@ -4487,10 +4441,10 @@ const HeroSection = ()=>{
                                                 children: "Book a Free AI Strategy Call →"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                                lineNumber: 120,
+                                                lineNumber: 213,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                 href: "/case-studies",
                                                 onMouseEnter: ()=>setHoveredCTA("secondary"),
                                                 onMouseLeave: ()=>setHoveredCTA(null),
@@ -4498,38 +4452,34 @@ const HeroSection = ()=>{
                                                     display: "inline-flex",
                                                     alignItems: "center",
                                                     gap: "8px",
-                                                    background: "transparent",
+                                                    background: hoveredCTA === "secondary" ? "rgba(201,168,76,0.08)" : "transparent",
                                                     color: "#C9A84C",
                                                     padding: "14px 28px",
                                                     borderRadius: "4px",
-                                                    border: "1px solid rgba(201,168,76,0.35)",
+                                                    border: hoveredCTA === "secondary" ? "1px solid rgba(201,168,76,0.6)" : "1px solid rgba(201,168,76,0.35)",
                                                     fontFamily: "'DM Sans', sans-serif",
                                                     fontSize: "14px",
                                                     fontWeight: 500,
                                                     textDecoration: "none",
                                                     letterSpacing: "0.02em",
-                                                    transition: "background 0.2s, border-color 0.2s",
-                                                    ...hoveredCTA === "secondary" ? {
-                                                        background: "rgba(201,168,76,0.08)",
-                                                        borderColor: "rgba(201,168,76,0.6)"
-                                                    } : {}
+                                                    transition: "background 0.2s, border-color 0.2s"
                                                 },
                                                 children: "View Case Studies"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                                lineNumber: 135,
+                                                lineNumber: 237,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                        lineNumber: 119,
+                                        lineNumber: 210,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                lineNumber: 45,
+                                lineNumber: 85,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4556,7 +4506,7 @@ const HeroSection = ()=>{
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                            lineNumber: 159,
+                                            lineNumber: 287,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4568,7 +4518,7 @@ const HeroSection = ()=>{
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                            lineNumber: 160,
+                                            lineNumber: 295,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4580,7 +4530,7 @@ const HeroSection = ()=>{
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                            lineNumber: 161,
+                                            lineNumber: 303,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4605,12 +4555,12 @@ const HeroSection = ()=>{
                                                 children: "✦"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                                lineNumber: 165,
+                                                lineNumber: 329,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                            lineNumber: 164,
+                                            lineNumber: 313,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         [
@@ -4678,7 +4628,7 @@ const HeroSection = ()=>{
                                                 children: node.label
                                             }, node.label, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                                lineNumber: 177,
+                                                lineNumber: 370,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -4701,7 +4651,7 @@ const HeroSection = ()=>{
                                                     strokeDasharray: "4 4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                                    lineNumber: 206,
+                                                    lineNumber: 408,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
@@ -4714,7 +4664,7 @@ const HeroSection = ()=>{
                                                     strokeDasharray: "4 4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                                    lineNumber: 207,
+                                                    lineNumber: 409,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
@@ -4727,7 +4677,7 @@ const HeroSection = ()=>{
                                                     strokeDasharray: "4 4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                                    lineNumber: 208,
+                                                    lineNumber: 410,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
@@ -4740,7 +4690,7 @@ const HeroSection = ()=>{
                                                     strokeDasharray: "4 4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                                    lineNumber: 209,
+                                                    lineNumber: 411,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
@@ -4753,7 +4703,7 @@ const HeroSection = ()=>{
                                                     strokeDasharray: "4 4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                                    lineNumber: 210,
+                                                    lineNumber: 412,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
@@ -4766,36 +4716,36 @@ const HeroSection = ()=>{
                                                     strokeDasharray: "4 4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                                    lineNumber: 211,
+                                                    lineNumber: 413,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                            lineNumber: 205,
+                                            lineNumber: 398,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                    lineNumber: 157,
+                                    lineNumber: 278,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                                lineNumber: 156,
+                                lineNumber: 270,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                        lineNumber: 42,
+                        lineNumber: 73,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1hero.tsx",
-                lineNumber: 20,
+                lineNumber: 21,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
@@ -4819,7 +4769,7 @@ const painPoints = [
     {
         number: "01",
         title: "Manual Work Still Slows Down Teams",
-        description: "Teams repeat admin, sales, reporting, and support tasks daily that can be fully automated — stealing time from high-value work.",
+        description: "Sales reps still copy notes into CRMs by hand. Operations teams still chase approvals over email. Support agents still manually search knowledge bases to answer the same questions. Reporting still gets pulled from spreadsheets every Monday morning. These are not small inefficiencies — they compound across every team member, every day, into significant productivity losses that AI can eliminate.",
         icon: "⏱",
         color: "#C9A84C",
         href: "/services/process-automation"
@@ -4827,7 +4777,7 @@ const painPoints = [
     {
         number: "02",
         title: "Data Is Scattered Across Tools",
-        description: "CRMs, forms, spreadsheets, databases, websites, inboxes, and internal docs hold valuable data that never talks to each other.",
+        description: "The average business uses a CRM, a form builder, a spreadsheet, a project management tool, an inbox, a database, and a handful of internal documents — none of which talk to each other by default. Valuable customer data, lead intelligence, and operational insights sit siloed across platforms. Connecting those systems is where AI delivers compounding value: a single source of truth that all automated workflows can draw from.",
         icon: "🔀",
         color: "#4C8EC9",
         href: "/services/ai-integration"
@@ -4835,7 +4785,7 @@ const painPoints = [
     {
         number: "03",
         title: "Repetitive Customer and Sales Tasks Drain Time",
-        description: "Follow-ups, call handling, lead qualification, FAQs, routing, and booking workflows eat hours every week that AI can handle.",
+        description: "Follow-up emails, inbound call handling, lead qualification, FAQ responses, appointment routing, and booking workflows are all high-volume, low-complexity tasks that consume significant hours every week. These are also the tasks that AI handles best — handling them faster, more consistently, and at a fraction of the cost of doing them manually.",
         icon: "📞",
         color: "#C94C6A",
         href: "/case-studies"
@@ -4843,7 +4793,7 @@ const painPoints = [
     {
         number: "04",
         title: "AI Without Integration Creates More Work",
-        description: "Generic AI tools that don't connect to your stack become another isolated tool to manage — adding friction instead of removing it.",
+        description: "A standalone AI tool that isn't connected to your CRM, data, and workflows doesn't reduce work — it adds a new layer of it. Teams end up copy-pasting outputs, manually logging AI-generated content, and maintaining two parallel processes. Custom AI built for integration eliminates this entirely: the AI writes to your CRM, updates your pipeline, logs the call, and routes the lead — automatically, inside your existing stack.",
         icon: "⚠️",
         color: "#4CA88A",
         href: "/services/workflow-optimization"
@@ -4987,7 +4937,7 @@ const ProblemSection = ()=>{
                                                     lineHeight: 1.75,
                                                     margin: 0
                                                 },
-                                                children: "Off-the-shelf AI tools are built for everyone — which means they're optimised for no one. Manual work continues, tools stay disconnected, and teams are left managing yet another platform that doesn't follow how their business actually runs."
+                                                children: "Off-the-shelf AI platforms are designed for the average business — which means they fit no business particularly well. They produce outputs that ignore your workflows, live outside your systems, and require your team to manually bridge the gap between what the tool does and what your operation actually needs. The result is more time spent managing another platform rather than less time spent on the work itself."
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1problem.tsx",
                                                 lineNumber: 79,
@@ -5195,10 +5145,10 @@ const ProblemSection = ()=>{
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             [
                                                 "One-size-fits-all outputs",
-                                                "No workflow awareness",
-                                                "Disconnected from your stack",
-                                                "Requires manual copy-paste",
-                                                "Adds another tool to manage"
+                                                "No awareness of your business rules",
+                                                "Disconnected from your tech stack",
+                                                "Requires manual copy-paste to be useful",
+                                                "Creates another isolated tool to manage"
                                             ].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     style: {
                                                         display: "flex",
@@ -5215,7 +5165,7 @@ const ProblemSection = ()=>{
                                                             children: "✕"
                                                         }, void 0, false, {
                                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1problem.tsx",
-                                                            lineNumber: 151,
+                                                            lineNumber: 157,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5226,13 +5176,13 @@ const ProblemSection = ()=>{
                                                             children: item
                                                         }, void 0, false, {
                                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1problem.tsx",
-                                                            lineNumber: 152,
+                                                            lineNumber: 158,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, item, true, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1problem.tsx",
-                                                    lineNumber: 150,
+                                                    lineNumber: 156,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0)))
                                         ]
@@ -5259,15 +5209,15 @@ const ProblemSection = ()=>{
                                                 children: "Custom AI Solutions"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1problem.tsx",
-                                                lineNumber: 157,
+                                                lineNumber: 163,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             [
-                                                "Built around your workflows",
-                                                "Follows your business rules",
-                                                "Integrated with your existing tools",
-                                                "Automates end-to-end",
-                                                "Part of your operation, not apart from it"
+                                                "Built around your specific workflows",
+                                                "Follows your logic, tone, and approval paths",
+                                                "Integrated with your existing tools and data",
+                                                "Automates end-to-end without intervention",
+                                                "Becomes a native part of your operation"
                                             ].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     style: {
                                                         display: "flex",
@@ -5284,7 +5234,7 @@ const ProblemSection = ()=>{
                                                             children: "✓"
                                                         }, void 0, false, {
                                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1problem.tsx",
-                                                            lineNumber: 160,
+                                                            lineNumber: 172,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5295,19 +5245,19 @@ const ProblemSection = ()=>{
                                                             children: item
                                                         }, void 0, false, {
                                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1problem.tsx",
-                                                            lineNumber: 161,
+                                                            lineNumber: 173,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, item, true, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1problem.tsx",
-                                                    lineNumber: 159,
+                                                    lineNumber: 171,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0)))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1problem.tsx",
-                                        lineNumber: 156,
+                                        lineNumber: 162,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
@@ -5346,37 +5296,44 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d
 ;
 ;
 const checklist = [
-    "You have repeatable workflows that eat team hours every week",
-    "Your team is growing and manual processes can't scale with it",
-    "You have manual bottlenecks slowing sales, support, or operations",
-    "You handle significant sales volume or inbound customer load",
-    "Your data is spread across disconnected platforms and tools",
-    "You've tried generic AI tools and found they don't fit your operation"
+    "You have repeatable workflows that consume significant team hours every week",
+    "Your team is growing and your manual processes cannot scale alongside it",
+    "You have clear bottlenecks in sales, support, or operations that slow response and output",
+    "You handle significant inbound volume — leads, calls, tickets, bookings, or data requests",
+    "Your business data is spread across disconnected tools with no centralised flow",
+    "You have tested generic AI tools and found they do not fit how your operation works",
+    "You want AI built to production standards that integrates with your existing technology stack"
 ];
 const scope = [
     {
         number: "01",
-        label: "Strategy & Workflow Mapping"
+        label: "Strategy & Workflow Mapping",
+        desc: "Audit your current processes, identify automation opportunities, and map the highest-ROI use cases before anything is designed."
     },
     {
         number: "02",
-        label: "AI Architecture Design"
+        label: "AI Architecture Design",
+        desc: "Define the full system: data inputs, AI model selection, workflow logic, integration points, user permissions, and success metrics."
     },
     {
         number: "03",
-        label: "Integrations & Data Connections"
+        label: "Integrations & Data Connections",
+        desc: "Connect the AI system to your CRM, databases, forms, documents, calendars, email, and any other tool in your stack."
     },
     {
         number: "04",
-        label: "Development & Build"
+        label: "Development & Build",
+        desc: "Build the system in structured sprints with weekly client demos. Every component built to production standards."
     },
     {
         number: "05",
-        label: "Testing & Optimisation"
+        label: "Testing & Optimisation",
+        desc: "QA, load testing, and client-approved user acceptance testing before any live deployment. No shortcuts."
     },
     {
         number: "06",
-        label: "Launch & Ongoing Support"
+        label: "Launch & Ongoing Support",
+        desc: "Phased rollout, post-launch monitoring, prompt refinement, and optimisation based on real operational feedback."
     }
 ];
 const ServiceDefinitionSection = ()=>{
@@ -5389,7 +5346,7 @@ const ServiceDefinitionSection = ()=>{
                 rel: "stylesheet"
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                lineNumber: 28,
+                lineNumber: 29,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -5416,7 +5373,7 @@ const ServiceDefinitionSection = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                        lineNumber: 37,
+                        lineNumber: 38,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5429,7 +5386,7 @@ const ServiceDefinitionSection = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                        lineNumber: 38,
+                        lineNumber: 39,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5456,7 +5413,7 @@ const ServiceDefinitionSection = ()=>{
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                        lineNumber: 43,
+                                        lineNumber: 44,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5470,13 +5427,13 @@ const ServiceDefinitionSection = ()=>{
                                         children: "Our Service"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                        lineNumber: 44,
+                                        lineNumber: 45,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                lineNumber: 42,
+                                lineNumber: 43,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -5493,7 +5450,7 @@ const ServiceDefinitionSection = ()=>{
                                 children: "Custom AI Solutions Built for How Your Business Works"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                lineNumber: 46,
+                                lineNumber: 47,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5504,10 +5461,10 @@ const ServiceDefinitionSection = ()=>{
                                     marginBottom: "52px",
                                     maxWidth: "600px"
                                 },
-                                children: "ThePrimeCrafters plans, builds, integrates, and optimises AI systems shaped entirely around your operation — not the other way around."
+                                children: "The Prime Crafters is a custom AI solutions agency that plans, designs, builds, integrates, and optimises AI systems shaped entirely around your operation. We do not apply generic playbooks. We start by understanding exactly how your business runs — your workflows, your data, your tools, your team, and your goals — and then design an AI system that fits into that context precisely."
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                lineNumber: 52,
+                                lineNumber: 53,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5561,7 +5518,7 @@ const ServiceDefinitionSection = ()=>{
                                                                 children: "What Is a Custom AI Solution?"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                                                lineNumber: 68,
+                                                                lineNumber: 69,
                                                                 columnNumber: 19
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5577,13 +5534,13 @@ const ServiceDefinitionSection = ()=>{
                                                                 children: "+"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                                                lineNumber: 71,
+                                                                lineNumber: 72,
                                                                 columnNumber: 19
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                                        lineNumber: 63,
+                                                        lineNumber: 64,
                                                         columnNumber: 17
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     defExpanded && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5599,7 +5556,7 @@ const ServiceDefinitionSection = ()=>{
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                                                lineNumber: 75,
+                                                                lineNumber: 76,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5609,22 +5566,22 @@ const ServiceDefinitionSection = ()=>{
                                                                     lineHeight: 1.8,
                                                                     margin: 0
                                                                 },
-                                                                children: "A custom AI solution is an AI system built specifically around a company's workflows, data, business rules, tools, and users. Unlike generic AI tools, these systems are designed to fit into real operations — automating the exact tasks, processes, and handoffs that matter most to that business."
+                                                                children: "A custom AI solution is an AI system designed and built around a specific company's workflows, data, business rules, tools, and users — rather than adapted from a generic platform. Where off-the-shelf AI tools produce outputs that a human must then manually apply to their work, a custom AI solution is embedded directly into the workflow: it receives the right inputs, applies the right logic, and delivers outputs directly into the right systems — without manual intervention at each step."
                                                             }, void 0, false, {
                                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                                                lineNumber: 76,
+                                                                lineNumber: 77,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                                        lineNumber: 74,
+                                                        lineNumber: 75,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                                lineNumber: 62,
+                                                lineNumber: 63,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5646,7 +5603,7 @@ const ServiceDefinitionSection = ()=>{
                                                         children: "Who Needs a Custom AI Solutions Agency?"
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                                        lineNumber: 85,
+                                                        lineNumber: 86,
                                                         columnNumber: 17
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5672,7 +5629,7 @@ const ServiceDefinitionSection = ()=>{
                                                                         children: "✓"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                                                        lineNumber: 91,
+                                                                        lineNumber: 92,
                                                                         columnNumber: 23
                                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5684,18 +5641,18 @@ const ServiceDefinitionSection = ()=>{
                                                                         children: item
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                                                        lineNumber: 92,
+                                                                        lineNumber: 93,
                                                                         columnNumber: 23
                                                                     }, ("TURBOPACK compile-time value", void 0))
                                                                 ]
                                                             }, item, true, {
                                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                                                lineNumber: 90,
+                                                                lineNumber: 91,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0)))
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                                        lineNumber: 88,
+                                                        lineNumber: 89,
                                                         columnNumber: 17
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5720,24 +5677,24 @@ const ServiceDefinitionSection = ()=>{
                                                             children: "Talk to us about your use case →"
                                                         }, void 0, false, {
                                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                                            lineNumber: 97,
+                                                            lineNumber: 98,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                                        lineNumber: 96,
+                                                        lineNumber: 97,
                                                         columnNumber: 17
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                                lineNumber: 84,
+                                                lineNumber: 85,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                        lineNumber: 59,
+                                        lineNumber: 60,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5759,7 +5716,7 @@ const ServiceDefinitionSection = ()=>{
                                                 children: "What ThePrimeCrafters Handles"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                                lineNumber: 111,
+                                                lineNumber: 112,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5769,10 +5726,10 @@ const ServiceDefinitionSection = ()=>{
                                                     lineHeight: 1.6,
                                                     marginBottom: "24px"
                                                 },
-                                                children: "From first conversation to live system — we handle every phase."
+                                                children: "From the first discovery conversation through to a live, stable, optimised system — every phase is covered:"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                                lineNumber: 114,
+                                                lineNumber: 115,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5784,7 +5741,7 @@ const ServiceDefinitionSection = ()=>{
                                                 children: scope.map((step)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         style: {
                                                             display: "flex",
-                                                            alignItems: "center",
+                                                            alignItems: "flex-start",
                                                             gap: "16px",
                                                             padding: "14px 16px",
                                                             borderRadius: "10px",
@@ -5804,30 +5761,52 @@ const ServiceDefinitionSection = ()=>{
                                                                 children: step.number
                                                             }, void 0, false, {
                                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                                                lineNumber: 120,
+                                                                lineNumber: 121,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0)),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                style: {
-                                                                    fontSize: "13px",
-                                                                    fontWeight: 500,
-                                                                    color: "rgba(240,237,230,0.7)"
-                                                                },
-                                                                children: step.label
-                                                            }, void 0, false, {
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                        style: {
+                                                                            fontSize: "13px",
+                                                                            fontWeight: 500,
+                                                                            color: "rgba(240,237,230,0.7)",
+                                                                            display: "block",
+                                                                            marginBottom: "4px"
+                                                                        },
+                                                                        children: step.label
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
+                                                                        lineNumber: 123,
+                                                                        columnNumber: 23
+                                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                        style: {
+                                                                            fontSize: "12px",
+                                                                            color: "rgba(240,237,230,0.4)",
+                                                                            lineHeight: 1.6
+                                                                        },
+                                                                        children: step.desc
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
+                                                                        lineNumber: 124,
+                                                                        columnNumber: 23
+                                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                                ]
+                                                            }, void 0, true, {
                                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                                                lineNumber: 121,
+                                                                lineNumber: 122,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, step.number, true, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                                        lineNumber: 119,
+                                                        lineNumber: 120,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)))
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                                lineNumber: 117,
+                                                lineNumber: 118,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5845,36 +5824,36 @@ const ServiceDefinitionSection = ()=>{
                                                     children: "About ThePrimeCrafters →"
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                                    lineNumber: 126,
+                                                    lineNumber: 130,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                                lineNumber: 125,
+                                                lineNumber: 129,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                        lineNumber: 110,
+                                        lineNumber: 111,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                                lineNumber: 56,
+                                lineNumber: 57,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                        lineNumber: 40,
+                        lineNumber: 41,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1servicedefinition.tsx",
-                lineNumber: 32,
+                lineNumber: 33,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
@@ -5898,7 +5877,7 @@ const deliverables = [
     {
         icon: "⚙️",
         title: "AI Workflow Automation",
-        description: "Automate tasks across sales, operations, support, admin, approvals, reporting, and internal teams. Replace repetitive manual steps with intelligent, rules-based automation that fits your process.",
+        description: "Replace manual, repetitive steps across sales, operations, support, admin, approvals, and reporting with intelligent automated workflows that follow your exact business logic. AI workflow automation removes the human from every step that doesn't require human judgment — from data entry and task routing to notification sending and report generation.",
         chips: [
             "Sales",
             "Operations",
@@ -5912,7 +5891,7 @@ const deliverables = [
     {
         icon: "💬",
         title: "Custom AI Assistants and Chatbots",
-        description: "Build AI assistants for customer questions, internal support, lead capture, document search, and guided workflows — deployed on your website, internal tools, or customer-facing platforms.",
+        description: "Build conversational AI systems that handle customer questions, qualify inbound leads, guide users through complex workflows, and search internal knowledge bases — deployed on your website, inside your internal tools, or across customer-facing platforms. Unlike generic chatbot builders, these assistants are trained on your data, follow your brand voice, and connect to your back-end systems.",
         chips: [
             "Website",
             "Internal",
@@ -5924,12 +5903,13 @@ const deliverables = [
     {
         icon: "📞",
         title: "AI Voice Agents",
-        description: "Create AI agents for sales calls, bookings, FAQs, lead qualification, follow-ups, and customer conversations — handling calls 24/7 without human involvement.",
+        description: "Deploy AI voice agents that handle inbound and outbound calls 24 hours a day, 7 days a week — managing sales conversations, answering booking requests, qualifying leads, handling FAQs, completing follow-up calls, and routing enquiries without human involvement. Voice agents are configured with your scripts, your escalation logic, and your CRM integration so every call is logged and actionable.",
         chips: [
             "24/7 Call Handling",
             "Sales",
             "Bookings",
-            "Lead Qualification"
+            "Lead Qualification",
+            "Follow-Ups"
         ],
         color: "#7C6AC4",
         href: "/case-study/spectrum-voice-agent",
@@ -5938,12 +5918,13 @@ const deliverables = [
     {
         icon: "🎯",
         title: "AI Lead Generation Systems",
-        description: "Build systems for scraping, enrichment, scoring, outreach, CRM updates, and pipeline support — pushing qualified leads directly into HubSpot, Salesforce, or any CRM.",
+        description: "Build automated lead generation pipelines that identify target prospects, enrich contact and company data, score leads against your ideal customer profile, run outreach sequences, and push qualified leads directly into your CRM — with zero manual prospecting. Systems integrate natively with HubSpot, Salesforce, and any CRM with a standard API.",
         chips: [
+            "Enrichment",
+            "Scoring",
             "HubSpot",
             "Salesforce",
-            "Enrichment",
-            "Scoring"
+            "Outreach"
         ],
         color: "#C94C6A",
         href: "/case-study/lead-generation-tools"
@@ -5951,7 +5932,7 @@ const deliverables = [
     {
         icon: "📊",
         title: "AI Reporting and Data Tools",
-        description: "Turn business data into summaries, dashboards, alerts, performance reports, and decision support outputs — making your data actionable without manual analysis.",
+        description: "Turn raw business data into structured summaries, performance dashboards, automated alerts, and decision-support reports — without manual analysis. AI reporting tools connect to your data sources, apply your reporting logic, and deliver the right information to the right people on the right schedule. Useful for operations, sales performance, marketing, and executive reporting.",
         chips: [
             "Dashboards",
             "Alerts",
@@ -5964,12 +5945,12 @@ const deliverables = [
     {
         icon: "🔒",
         title: "Internal AI Knowledge Assistants",
-        description: "Build private AI tools that help teams search SOPs, documents, policies, client notes, and internal knowledge bases — securely, without exposing data externally.",
+        description: "Give your team a private AI assistant that can instantly search and surface information from SOPs, policy documents, client notes, technical documentation, and internal knowledge bases — without exposing any data to external systems. Particularly useful for onboarding new staff, supporting customer-facing teams, and reducing the time spent searching for internal information.",
         chips: [
             "SOPs",
             "Policies",
             "Documents",
-            "Private"
+            "Private & Secure"
         ],
         color: "#C97A4C",
         href: "/services"
@@ -5977,7 +5958,7 @@ const deliverables = [
     {
         icon: "🔁",
         title: "CRM and Sales AI Automation",
-        description: "Automate lead routing, follow-ups, pipeline updates, sales notes, reminders, and customer communication — keeping your CRM accurate without manual data entry.",
+        description: "Automate the manual work that slows down sales teams — lead routing, follow-up sequences, pipeline stage updates, call summary logging, reminder scheduling, and customer communication — so your CRM stays accurate and your sales reps stay focused on selling. Integrates with HubSpot, Salesforce, Pipedrive, and other major CRM platforms.",
         chips: [
             "Lead Routing",
             "Follow-Ups",
@@ -5990,13 +5971,14 @@ const deliverables = [
     {
         icon: "🔗",
         title: "Custom AI Integrations",
-        description: "Connect AI with CRMs, forms, databases, websites, calendars, email, chat tools, and business software — making AI a native part of your existing technology stack.",
+        description: "Connect AI capabilities to your entire technology stack — CRMs, web forms, internal databases, websites, email platforms, chat tools, calendars, document systems, and business software. Custom AI integrations ensure that AI isn't an isolated tool your team has to manage separately, but a connected layer that flows data through your existing systems automatically.",
         chips: [
             "CRM",
             "Email",
             "Forms",
             "Calendars",
-            "Databases"
+            "Databases",
+            "Docs"
         ],
         color: "#4C8EC9",
         href: "/services/ai-integration"
@@ -6126,7 +6108,7 @@ const DeliverablesSection = ()=>{
                                     marginBottom: "48px",
                                     maxWidth: "560px"
                                 },
-                                children: "Every deliverable is designed as a production-ready system — built to integrate with your tools, follow your business rules, and produce measurable outcomes from day one."
+                                children: "Every deliverable is designed as a production-ready system — built to integrate with your tools, follow your business rules, and produce measurable outcomes from day one. All eight service types below are available as standalone builds or as components of a larger custom AI architecture."
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1deliverables.tsx",
                                 lineNumber: 100,
@@ -6200,13 +6182,13 @@ const DeliverablesSection = ()=>{
                                                                 children: item.badge
                                                             }, void 0, false, {
                                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1deliverables.tsx",
-                                                                lineNumber: 134,
+                                                                lineNumber: 133,
                                                                 columnNumber: 25
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1deliverables.tsx",
-                                                        lineNumber: 131,
+                                                        lineNumber: 130,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -6222,13 +6204,13 @@ const DeliverablesSection = ()=>{
                                                         children: item.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1deliverables.tsx",
-                                                        lineNumber: 139,
+                                                        lineNumber: 138,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1deliverables.tsx",
-                                                lineNumber: 130,
+                                                lineNumber: 129,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6242,7 +6224,7 @@ const DeliverablesSection = ()=>{
                                                 children: item.description
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1deliverables.tsx",
-                                                lineNumber: 145,
+                                                lineNumber: 144,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6265,12 +6247,12 @@ const DeliverablesSection = ()=>{
                                                         children: chip
                                                     }, chip, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1deliverables.tsx",
-                                                        lineNumber: 152,
+                                                        lineNumber: 151,
                                                         columnNumber: 23
                                                     }, ("TURBOPACK compile-time value", void 0)))
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1deliverables.tsx",
-                                                lineNumber: 150,
+                                                lineNumber: 149,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6291,24 +6273,24 @@ const DeliverablesSection = ()=>{
                                                     children: "→"
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1deliverables.tsx",
-                                                    lineNumber: 160,
+                                                    lineNumber: 159,
                                                     columnNumber: 21
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1deliverables.tsx",
-                                                lineNumber: 159,
+                                                lineNumber: 158,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, item.title, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1deliverables.tsx",
-                                        lineNumber: 113,
+                                        lineNumber: 112,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0));
                                 })
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1deliverables.tsx",
-                                lineNumber: 105,
+                                lineNumber: 104,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6335,12 +6317,12 @@ const DeliverablesSection = ()=>{
                                     children: "View All Services →"
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1deliverables.tsx",
-                                    lineNumber: 168,
+                                    lineNumber: 167,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1deliverables.tsx",
-                                lineNumber: 167,
+                                lineNumber: 166,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
@@ -6376,38 +6358,38 @@ const steps = [
     {
         number: "1",
         title: "Business Process Review",
-        description: "We audit the workflow, tools, data sources, bottlenecks, users, and outcome goals before anything is designed. This gives us a clear map of where AI can deliver the most value in your specific operation.",
+        description: "We begin by auditing what your business actually does — not what you think it does. We map your current workflows, identify the tools your team uses, locate data sources, document manual bottlenecks, understand who touches each process, and establish what a successful outcome looks like. This gives us a factual foundation for every decision that follows.",
         color: "#C9A84C"
     },
     {
         number: "2",
         title: "AI Opportunity Mapping",
-        description: "We identify the specific tasks AI can automate, assist, classify, summarise, route, or improve — focusing only on useful AI that solves real problems, not AI for its own sake.",
+        description: "With a clear picture of your operation, we identify every task, decision point, or data flow where AI can add measurable value — whether that means automating a repetitive task, classifying incoming data, summarising outputs, routing requests, or improving the speed and consistency of a response. We prioritise opportunities by impact and feasibility, not by what is technically impressive.",
         color: "#4CA88A"
     },
     {
         number: "3",
         title: "Solution Architecture",
-        description: "We define user flows, data inputs, prompts, logic, permissions, integrations, and success metrics. You approve the system blueprint before a single line of code is written.",
+        description: "We design the full technical blueprint for the system: user flows, data input sources, AI model selection, prompt architecture, business logic, integration specifications, permission structures, handoff conditions, and the KPIs we will measure success against. You review and approve the architecture before a single line of code is written.",
         color: "#4C8EC9"
     },
     {
         number: "4",
         title: "Prototype and Build",
-        description: "We create a working version of the system, test it against real use cases, and adjust workflows, logic, and outputs before moving to full production development.",
+        description: "Development happens in structured sprints with weekly client demos so you can see the system taking shape in real time. We build a working prototype, test it against real use cases from your operation, and refine the workflows and logic before moving to full build. Every component is developed to production standards — not throwaway prototypes that have to be rebuilt later.",
         color: "#7C6AC4"
     },
     {
         number: "5",
         title: "Integration and Testing",
-        description: "We connect all tools and test accuracy, response quality, handoffs, security basics, edge cases, and speed. Nothing touches your live environment without passing structured QA.",
+        description: "We connect the AI system to your existing technology stack and run structured testing across four dimensions: accuracy of AI outputs, response time under load, handoff reliability between AI and human workflows, and edge case handling. All integrations are tested in a staging environment before they touch your live data or systems. Security considerations are reviewed at this stage.",
         color: "#C94C6A",
         href: "/services/ai-integration"
     },
     {
         number: "6",
         title: "Launch and Optimisation",
-        description: "We deploy the solution, monitor usage in real conditions, improve prompts and logic, and tune the system based on real business feedback — so it keeps getting better after launch.",
+        description: "We manage a phased rollout that minimises disruption to your live operation and monitor system performance closely in the days and weeks following launch. Prompts, logic, and workflows are refined based on real operational data. We provide full handover documentation and team training, and remain available for ongoing optimisation as your business evolves.",
         color: "#C97A4C",
         href: "/contact"
     }
@@ -6552,7 +6534,7 @@ const ProcessSection = ()=>{
                                     marginBottom: "16px",
                                     maxWidth: "560px"
                                 },
-                                children: "Six structured phases from discovery to launch and optimisation — with full client visibility at every step."
+                                children: "Every system The Prime Crafters builds follows six structured phases — from the first workflow audit through to a live, monitored, optimised deployment. No phase is skipped. No system ships without passing structured testing and client sign-off. Here is exactly what the process looks like."
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1process.tsx",
                                 lineNumber: 73,
@@ -6888,14 +6870,14 @@ const useCases = [
         color: "#C9A84C",
         href: "/case-study/spectrum-voice-agent",
         useCases: [
-            "Lead qualification",
-            "Follow-up automation",
-            "Proposal support",
-            "CRM updates",
-            "Call summaries",
-            "Pipeline tracking"
+            "Lead Qualification",
+            "Follow-Up Automation",
+            "Proposal Support",
+            "CRM Updates",
+            "Call Summaries",
+            "Pipeline Tracking"
         ],
-        description: "AI that keeps your pipeline moving — qualifying leads, writing follow-ups, updating the CRM, and summarising calls without adding admin to your sales reps."
+        description: "Sales teams waste significant time on tasks that have nothing to do with selling — logging call notes, updating pipeline stages, writing follow-up emails, and manually qualifying leads that could have been scored automatically. The Prime Crafters builds AI systems that handle every repeatable sales task, so reps spend their time on conversations that close deals."
     },
     {
         icon: "💬",
@@ -6903,14 +6885,14 @@ const useCases = [
         color: "#4C8EC9",
         href: "/services",
         useCases: [
-            "FAQ answers",
-            "Ticket summaries",
-            "Response drafts",
+            "FAQ Answers",
+            "Ticket Summaries",
+            "Response Drafts",
             "Routing",
-            "Knowledge base search",
-            "Customer updates"
+            "Knowledge Base Search",
+            "Customer Updates"
         ],
-        description: "AI that handles the volume — answering common questions, routing tickets, drafting responses, and searching your knowledge base so agents can focus on complex cases."
+        description: "High-volume support environments are where AI delivers some of its most immediate returns. AI systems can answer the top 80% of recurring customer questions instantly, route tickets to the right agent based on intent and urgency, draft responses for complex cases, and search the knowledge base in seconds — so agents focus on the cases that genuinely need human judgment."
     },
     {
         icon: "⚙️",
@@ -6918,14 +6900,14 @@ const useCases = [
         color: "#4CA88A",
         href: "/services/workflow-optimization",
         useCases: [
-            "Task routing",
-            "Approval workflows",
+            "Task Routing",
+            "Approval Workflows",
             "Reporting",
-            "SOP support",
+            "SOP Support",
             "Alerts",
-            "Internal process automation"
+            "Internal Process Automation"
         ],
-        description: "AI that runs the back office — routing tasks, triggering approvals, generating reports, answering SOP questions, and keeping operations moving without constant manual oversight."
+        description: "Operations efficiency lives and dies on how smoothly tasks, approvals, reports, and information flow across a business. AI automation removes the manual coordination that slows operations down — routing tasks to the right owner, triggering approvals automatically, generating operational reports on schedule, and giving teams instant access to SOP and process information without searching through documents."
     },
     {
         icon: "🎯",
@@ -6933,14 +6915,14 @@ const useCases = [
         color: "#C94C6A",
         href: "/case-study/lead-generation-tools",
         useCases: [
-            "Lead research",
+            "Lead Research",
             "Enrichment",
             "Scoring",
-            "Campaign workflows",
-            "Outreach support",
-            "Performance summaries"
+            "Campaign Workflows",
+            "Outreach Support",
+            "Performance Summaries"
         ],
-        description: "AI that fills your pipeline — researching and enriching leads, scoring prospects, supporting outreach campaigns, and summarising performance without manual data work."
+        description: "Marketing and lead generation teams face two compounding challenges: finding enough qualified prospects and delivering personalised outreach at the scale needed to hit pipeline targets. AI systems solve both — sourcing and enriching prospect data automatically, scoring leads against conversion criteria, supporting outreach campaigns, and summarising campaign performance without manual reporting pulls."
     },
     {
         icon: "⚕️",
@@ -6948,13 +6930,13 @@ const useCases = [
         color: "#7C6AC4",
         href: "/case-study/lmn8-ketamine-therapy",
         useCases: [
-            "Patient intake support",
-            "Matching workflows",
-            "Scheduling help",
-            "Admin automation",
-            "Clinic operations"
+            "Patient Intake Support",
+            "Matching Workflows",
+            "Scheduling Help",
+            "Admin Automation",
+            "Clinic Operations"
         ],
-        description: "AI built for clinical environments — supporting patient intake, matching workflows, scheduling, and admin tasks while keeping data handling compliant and careful.",
+        description: "Healthcare operations involve a high volume of intake, scheduling, and administrative work that is time-sensitive and highly repetitive. The Prime Crafters builds AI systems for clinical environments that support patient intake workflows, match patients to the right service or provider, assist with appointment scheduling, and automate clinic administration — all scoped carefully against the specific regulatory and data handling requirements of the client's environment.",
         note: "Healthcare implementations are scoped carefully against your specific regulatory context."
     },
     {
@@ -6963,14 +6945,14 @@ const useCases = [
         color: "#C97A4C",
         href: "/case-study/rv-park-voice-agent",
         useCases: [
-            "Booking automation",
-            "Call answering",
-            "Quote requests",
+            "Booking Automation",
+            "Call Answering",
+            "Quote Requests",
             "Reminders",
             "FAQs",
-            "Customer updates"
+            "Customer Updates"
         ],
-        description: "AI that runs your front line — answering calls 24/7, handling booking requests, sending reminders, and managing customer FAQs without tying up your team."
+        description: "For local and service businesses, the most valuable automation is the one that handles the customer before a competitor does. AI voice agents answer every call — day or night — handle booking requests, provide accurate availability and FAQ responses, and send confirmation messages without anyone picking up the phone. This removes the single biggest revenue leak for service businesses: missed calls."
     }
 ];
 const UseCasesSection = ()=>{
@@ -7097,7 +7079,7 @@ const UseCasesSection = ()=>{
                                     marginBottom: "48px",
                                     maxWidth: "560px"
                                 },
-                                children: "Every team and industry has different workflows, bottlenecks, and priorities. Find your context below."
+                                children: "AI automation delivers different value in different parts of a business. Find your team or industry context below to see the specific workflows, tasks, and outcomes that The Prime Crafters builds systems for."
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1usecases.tsx",
                                 lineNumber: 74,
@@ -7675,48 +7657,20 @@ const caseStudies = [
     {
         id: "spectrum",
         title: "Spectrum AI Voice Agent",
-        category: "Voice AI",
+        category: "Enterprise Sales AI",
         icon: "📞",
         color: "#C94C6A",
         href: "/case-study/spectrum-voice-agent",
-        description: "Enterprise-grade AI sales voice agent handling outbound and inbound calls at scale — qualifying leads, handling objections, and routing hot prospects to human agents.",
-        metrics: [
-            {
-                value: "10K+",
-                label: "AI-Handled Calls Per Month"
-            },
-            {
-                value: "+45%",
-                label: "Conversion Rate Increase"
-            },
-            {
-                value: "70%",
-                label: "Operational Cost Reduction"
-            }
-        ]
+        description: "An enterprise-grade AI sales voice agent built to handle outbound and inbound calls at scale. The system qualifies leads through natural conversation, handles common objections, logs every interaction to the CRM, and routes high-intent prospects to human sales reps — operating at a volume no human team could match."
     },
     {
         id: "lead-gen",
         title: "AI Lead Generation Tools",
-        category: "Lead Generation",
+        category: "Marketing Automation",
         icon: "🎯",
         color: "#C9A84C",
         href: "/case-study/lead-generation-tools",
-        description: "Multi-channel AI lead generation system that sourced, scored, and pushed 50,000+ qualified leads per month directly into Salesforce and HubSpot.",
-        metrics: [
-            {
-                value: "50K+",
-                label: "Qualified Leads Per Month"
-            },
-            {
-                value: "90%",
-                label: "Manual Prospecting Time Saved"
-            },
-            {
-                value: "+120%",
-                label: "Qualified Lead Rate Increase"
-            }
-        ]
+        description: "A multi-channel AI lead generation system that identifies target prospects, enriches contact and company data, scores leads against the client's ideal customer profile, and pushes qualified, actionable leads directly into Salesforce and HubSpot — eliminating the manual prospecting process entirely."
     },
     {
         id: "lmn8",
@@ -7725,90 +7679,34 @@ const caseStudies = [
         icon: "⚕️",
         color: "#4CA88A",
         href: "/case-study/lmn8-ketamine-therapy",
-        description: "HIPAA-compliant AI platform automating patient intake, AI-powered treatment matching, and appointment scheduling for ketamine therapy clinics.",
-        metrics: [
-            {
-                value: "94%",
-                label: "AI Matching Accuracy"
-            },
-            {
-                value: "65%",
-                label: "Faster Patient Intake"
-            },
-            {
-                value: "+45%",
-                label: "Clinic Capacity Increase"
-            }
-        ]
+        description: "A HIPAA-compliant AI platform built for ketamine therapy clinics that automates the full patient journey from initial enquiry to confirmed appointment — matching patients to the right clinic based on treatment needs, automating intake documentation, and scheduling without manual coordination."
     },
     {
         id: "rv-park",
         title: "RV Park AI Voice Agent",
-        category: "Voice AI",
+        category: "Local Service Business",
         icon: "🚐",
         color: "#4C8EC9",
         href: "/case-study/rv-park-voice-agent",
-        description: "24/7 AI voice agent for a local RV park business handling every inbound call, answering questions, and completing bookings without any human involvement.",
-        metrics: [
-            {
-                value: "100%",
-                label: "Call Answer Rate"
-            },
-            {
-                value: "+85%",
-                label: "Booking Conversion Increase"
-            },
-            {
-                value: "30 hrs",
-                label: "Staff Hours Saved Per Week"
-            }
-        ]
+        description: "A 24/7 AI voice agent deployed for a local RV park that answers every inbound call, provides accurate availability and pricing information, handles bookings end-to-end, and manages FAQs — without any human involvement. Eliminated missed calls entirely and recovered lost bookings from after-hours enquiries."
     },
     {
         id: "3vltn",
         title: "3vltn Domain AI Platform",
-        category: "Custom Platform",
+        category: "Custom AI Platform",
         icon: "🌐",
         color: "#7C6AC4",
         href: "/case-study/3vltn",
-        description: "Fully automated AI platform handling outbound email campaigns, inbound lead qualification, deal negotiations, and revenue tracking end-to-end.",
-        metrics: [
-            {
-                value: "+250%",
-                label: "Deal Closure Rate"
-            },
-            {
-                value: "40 hrs",
-                label: "Manual Hours Saved Per Week"
-            },
-            {
-                value: "+180%",
-                label: "Revenue Growth"
-            }
-        ]
+        description: "A fully automated AI platform for a domain investment business that managed outbound email campaigns, qualified inbound domain enquiries, supported deal negotiations with pricing logic, and tracked revenue operations end-to-end — replacing a manual process that could not scale."
     },
     {
         id: "faithful",
         title: "Faithful Companion App",
-        category: "Mobile App",
+        category: "Mobile Application",
         icon: "✝️",
         color: "#C97A4C",
         href: "/case-study/faithful-companion",
-        description: "Full-featured faith-based mobile application with daily devotionals, prayer requests, and community engagement mechanics engineered for scale from day one.",
-        metrics: [
-            {
-                value: "50K+",
-                label: "Daily Active Users"
-            },
-            {
-                value: "200K+",
-                label: "Community Prayer Requests"
-            },
-            {
-                value: "4.8/5",
-                label: "App Store Rating"
-            }
-        ]
+        description: "A full-featured faith-based mobile community application built with daily content feeds, community prayer request workflows, push notification engagement mechanics, and moderation tools — engineered from the ground up to support a large and rapidly growing user base."
     }
 ];
 const CaseStudiesProofSection = ()=>{
@@ -7820,7 +7718,7 @@ const CaseStudiesProofSection = ()=>{
                 rel: "stylesheet"
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1casestudiesproof.tsx",
-                lineNumber: 96,
+                lineNumber: 66,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -7847,7 +7745,7 @@ const CaseStudiesProofSection = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1casestudiesproof.tsx",
-                        lineNumber: 98,
+                        lineNumber: 68,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7860,7 +7758,7 @@ const CaseStudiesProofSection = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1casestudiesproof.tsx",
-                        lineNumber: 99,
+                        lineNumber: 69,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7887,7 +7785,7 @@ const CaseStudiesProofSection = ()=>{
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1casestudiesproof.tsx",
-                                        lineNumber: 103,
+                                        lineNumber: 73,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -7901,13 +7799,13 @@ const CaseStudiesProofSection = ()=>{
                                         children: "Proof of Work"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1casestudiesproof.tsx",
-                                        lineNumber: 104,
+                                        lineNumber: 74,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1casestudiesproof.tsx",
-                                lineNumber: 102,
+                                lineNumber: 72,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -7924,7 +7822,7 @@ const CaseStudiesProofSection = ()=>{
                                 children: "Custom AI Solutions We've Built"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1casestudiesproof.tsx",
-                                lineNumber: 106,
+                                lineNumber: 76,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -7933,12 +7831,12 @@ const CaseStudiesProofSection = ()=>{
                                     color: "rgba(240,237,230,0.5)",
                                     lineHeight: 1.75,
                                     marginBottom: "48px",
-                                    maxWidth: "560px"
+                                    maxWidth: "600px"
                                 },
-                                children: "Six production AI systems across six distinct industries. Every metric below is sourced from post-deployment performance tracking."
+                                children: "Six production AI systems delivered across six different industries. Every metric below comes from post-deployment performance tracking — not projections or estimates."
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1casestudiesproof.tsx",
-                                lineNumber: 109,
+                                lineNumber: 79,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7994,7 +7892,7 @@ const CaseStudiesProofSection = ()=>{
                                                         children: cs.icon
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1casestudiesproof.tsx",
-                                                        lineNumber: 129,
+                                                        lineNumber: 99,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -8011,13 +7909,13 @@ const CaseStudiesProofSection = ()=>{
                                                         children: cs.category
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1casestudiesproof.tsx",
-                                                        lineNumber: 132,
+                                                        lineNumber: 102,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1casestudiesproof.tsx",
-                                                lineNumber: 128,
+                                                lineNumber: 98,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -8033,7 +7931,7 @@ const CaseStudiesProofSection = ()=>{
                                                 children: cs.title
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1casestudiesproof.tsx",
-                                                lineNumber: 137,
+                                                lineNumber: 107,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -8048,62 +7946,7 @@ const CaseStudiesProofSection = ()=>{
                                                 children: cs.description
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1casestudiesproof.tsx",
-                                                lineNumber: 140,
-                                                columnNumber: 19
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                style: {
-                                                    display: "grid",
-                                                    gridTemplateColumns: "repeat(3, 1fr)",
-                                                    gap: "6px",
-                                                    marginBottom: "16px"
-                                                },
-                                                children: cs.metrics.map((m)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        style: {
-                                                            background: "rgba(255,255,255,0.04)",
-                                                            border: "1px solid rgba(255,255,255,0.06)",
-                                                            borderRadius: "8px",
-                                                            padding: "10px 6px",
-                                                            textAlign: "center"
-                                                        },
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                style: {
-                                                                    fontFamily: "'Playfair Display', serif",
-                                                                    fontSize: "16px",
-                                                                    fontWeight: 700,
-                                                                    color: cs.color,
-                                                                    lineHeight: 1,
-                                                                    marginBottom: "4px"
-                                                                },
-                                                                children: m.value
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1casestudiesproof.tsx",
-                                                                lineNumber: 148,
-                                                                columnNumber: 25
-                                                            }, ("TURBOPACK compile-time value", void 0)),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                style: {
-                                                                    fontSize: "9px",
-                                                                    color: "rgba(240,237,230,0.4)",
-                                                                    lineHeight: 1.3,
-                                                                    letterSpacing: "0.01em"
-                                                                },
-                                                                children: m.label
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1casestudiesproof.tsx",
-                                                                lineNumber: 149,
-                                                                columnNumber: 25
-                                                            }, ("TURBOPACK compile-time value", void 0))
-                                                        ]
-                                                    }, m.label, true, {
-                                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1casestudiesproof.tsx",
-                                                        lineNumber: 147,
-                                                        columnNumber: 23
-                                                    }, ("TURBOPACK compile-time value", void 0)))
-                                            }, void 0, false, {
-                                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1casestudiesproof.tsx",
-                                                lineNumber: 145,
+                                                lineNumber: 110,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8124,7 +7967,7 @@ const CaseStudiesProofSection = ()=>{
                                                         children: "View Case Study"
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1casestudiesproof.tsx",
-                                                        lineNumber: 156,
+                                                        lineNumber: 116,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -8138,25 +7981,25 @@ const CaseStudiesProofSection = ()=>{
                                                         children: "→"
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1casestudiesproof.tsx",
-                                                        lineNumber: 157,
+                                                        lineNumber: 117,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1casestudiesproof.tsx",
-                                                lineNumber: 155,
+                                                lineNumber: 115,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, cs.id, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1casestudiesproof.tsx",
-                                        lineNumber: 118,
+                                        lineNumber: 88,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0));
                                 })
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1casestudiesproof.tsx",
-                                lineNumber: 114,
+                                lineNumber: 84,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8183,24 +8026,24 @@ const CaseStudiesProofSection = ()=>{
                                     children: "View All Case Studies →"
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1casestudiesproof.tsx",
-                                    lineNumber: 165,
+                                    lineNumber: 125,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1casestudiesproof.tsx",
-                                lineNumber: 164,
+                                lineNumber: 124,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1casestudiesproof.tsx",
-                        lineNumber: 101,
+                        lineNumber: 71,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1casestudiesproof.tsx",
-                lineNumber: 97,
+                lineNumber: 67,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
@@ -8224,28 +8067,28 @@ const trustSignals = [
     {
         icon: "🧭",
         title: "Business-First AI Planning",
-        description: "We start with your business goals, workflows, and user needs before choosing any tools or models. Strategy comes first — technology follows.",
+        description: "We start with your business goals, team workflows, and operational constraints before selecting any tools or AI models. Strategy and process design come first — technology choices follow from that foundation. This prevents the common failure mode of impressive AI that doesn't fit how anyone actually works.",
         color: "#C9A84C",
         href: "/about-us"
     },
     {
         icon: "📐",
         title: "Custom Workflows, Not Generic Templates",
-        description: "Every solution is shaped around your specific process, data, and business rules. No copy-paste templates — no generic outputs that don't fit how you work.",
+        description: "We do not apply generic automation patterns to new clients and rename them. Every solution is designed around your specific workflow logic, data structure, business rules, and team behaviour. The output is a system that behaves the way your operation requires — not the way a template assumes.",
         color: "#4C8EC9",
         href: "/services/workflow-optimization"
     },
     {
         icon: "🔗",
         title: "AI Systems Connected to Existing Tools",
-        description: "We connect AI to your CRMs, websites, forms, databases, docs, email, calendars, and internal platforms — so it works inside your operation, not alongside it.",
+        description: "We build integrations — not isolated tools. Every system The Prime Crafters delivers is designed to connect to your CRM, website, forms, databases, documents, email, calendars, and internal platforms. AI becomes a functional layer inside your existing stack, not a new silo your team has to manage.",
         color: "#4CA88A",
         href: "/services/ai-integration"
     },
     {
         icon: "🚀",
         title: "Support From Strategy to Launch",
-        description: "Planning, build, integration, testing, launch, monitoring, and optimisation — we handle every phase and stay with you through to a live, stable system.",
+        description: "Our involvement does not end at handover. From the first discovery call through planning, build, integration, testing, launch, monitoring, and post-launch optimisation — The Prime Crafters is involved at every stage until the system is stable, performing, and adopted by your team.",
         color: "#7C6AC4",
         href: "/contact"
     }
@@ -8367,7 +8210,7 @@ const WhyChooseSection = ()=>{
                                     color: "#f5f1e8",
                                     lineHeight: 1.15,
                                     marginBottom: "12px",
-                                    maxWidth: "580px"
+                                    maxWidth: "620px"
                                 },
                                 children: "Why Choose ThePrimeCrafters for Custom AI Solutions?"
                             }, void 0, false, {
@@ -8381,9 +8224,9 @@ const WhyChooseSection = ()=>{
                                     color: "rgba(240,237,230,0.5)",
                                     lineHeight: 1.75,
                                     marginBottom: "48px",
-                                    maxWidth: "560px"
+                                    maxWidth: "600px"
                                 },
-                                children: "ThePrimeCrafters is a custom AI solutions agency that combines technical depth with a practical focus on real business outcomes. Every project begins with your operation — not a generic playbook."
+                                children: "The Prime Crafters is a custom AI solutions agency built on a single principle: AI should serve your operation, not the other way around. Every engagement starts with your business context — not a generic framework — and every system is measured against real outcomes."
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1whychooseus.tsx",
                                 lineNumber: 56,
@@ -8599,7 +8442,7 @@ const WhyChooseSection = ()=>{
                                 },
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        href: "/about-us",
+                                        href: "/case-studies",
                                         style: {
                                             display: "inline-flex",
                                             alignItems: "center",
@@ -8614,7 +8457,7 @@ const WhyChooseSection = ()=>{
                                             textDecoration: "none",
                                             letterSpacing: "0.02em"
                                         },
-                                        children: "About ThePrimeCrafters →"
+                                        children: "See Results From Live Projects →"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1whychooseus.tsx",
                                         lineNumber: 109,
@@ -8682,21 +8525,15 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d
 const serviceEntities = [
     "AI Automation",
     "AI Integration",
-    "AI Voice Agents",
-    "Custom AI Development",
-    "Workflow Automation",
-    "Lead Generation AI",
-    "CRM Automation",
-    "AI Knowledge Assistants"
+    "Voice Agents",
+    "Custom AI Development"
 ];
 const useCaseEntities = [
-    "AI for Sales",
-    "AI for Operations",
-    "AI for Customer Support",
+    "Built for Sales",
+    "Operations",
+    "Support",
     "Lead Generation",
-    "Workflow Optimisation",
-    "Healthcare AI",
-    "Service Business Automation"
+    "Workflow Optimisation"
 ];
 const EntitySection = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -8706,7 +8543,7 @@ const EntitySection = ()=>{
                 rel: "stylesheet"
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1entity.tsx",
-                lineNumber: 28,
+                lineNumber: 22,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -8733,7 +8570,7 @@ const EntitySection = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1entity.tsx",
-                        lineNumber: 34,
+                        lineNumber: 28,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8748,7 +8585,7 @@ const EntitySection = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1entity.tsx",
-                        lineNumber: 35,
+                        lineNumber: 29,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8761,7 +8598,7 @@ const EntitySection = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1entity.tsx",
-                        lineNumber: 36,
+                        lineNumber: 30,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8788,7 +8625,7 @@ const EntitySection = ()=>{
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1entity.tsx",
-                                        lineNumber: 41,
+                                        lineNumber: 35,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -8802,13 +8639,13 @@ const EntitySection = ()=>{
                                         children: "About ThePrimeCrafters"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1entity.tsx",
-                                        lineNumber: 42,
+                                        lineNumber: 36,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1entity.tsx",
-                                lineNumber: 40,
+                                lineNumber: 34,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -8825,7 +8662,21 @@ const EntitySection = ()=>{
                                 children: "ThePrimeCrafters Builds Practical AI Systems for Business Operations"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1entity.tsx",
-                                lineNumber: 46,
+                                lineNumber: 40,
+                                columnNumber: 11
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                style: {
+                                    fontSize: "14px",
+                                    color: "rgba(240,237,230,0.55)",
+                                    lineHeight: 1.85,
+                                    marginBottom: "20px",
+                                    maxWidth: "720px"
+                                },
+                                children: "The Prime Crafters is a custom AI solutions agency that designs, builds, and deploys AI automation systems for businesses across healthcare, enterprise sales, local services, lead generation, and mobile applications. Work spans AI voice agents, workflow automation, AI chatbots and assistants, CRM and sales automation, AI lead generation systems, and custom AI integrations — all built to production standards and connected directly to the client's existing technology stack."
+                            }, void 0, false, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1entity.tsx",
+                                lineNumber: 48,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -8836,10 +8687,10 @@ const EntitySection = ()=>{
                                     marginBottom: "40px",
                                     maxWidth: "720px"
                                 },
-                                children: "ThePrimeCrafters is a custom AI solutions agency that designs, builds, and deploys AI automation systems for businesses across healthcare, enterprise sales, local operations, lead generation, and mobile applications. Every system is built to production standards — integrating AI voice agents, workflow automation, CRM connections, and custom AI tools directly into how a business already runs. The work is practical: defined by real workflows, measured by real KPIs, and built to deliver results that show up in the numbers."
+                                children: "Every engagement is grounded in real business process analysis, not generic AI application. Systems are measured against specific, numeric KPIs tracked post-deployment. The Prime Crafters does not offer off-the-shelf tools — every system is designed for the client's specific operation."
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1entity.tsx",
-                                lineNumber: 54,
+                                lineNumber: 51,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8868,10 +8719,10 @@ const EntitySection = ()=>{
                                                     opacity: 0.8,
                                                     marginBottom: "16px"
                                                 },
-                                                children: "AI Automation, AI Integration, Voice Agents, and Custom AI Development"
+                                                children: "AI Automation · AI Integration · Voice Agents · Custom AI Development"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1entity.tsx",
-                                                lineNumber: 62,
+                                                lineNumber: 59,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8903,18 +8754,18 @@ const EntitySection = ()=>{
                                                         children: e
                                                     }, e, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1entity.tsx",
-                                                        lineNumber: 67,
+                                                        lineNumber: 64,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)))
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1entity.tsx",
-                                                lineNumber: 65,
+                                                lineNumber: 62,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1entity.tsx",
-                                        lineNumber: 61,
+                                        lineNumber: 58,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8936,10 +8787,10 @@ const EntitySection = ()=>{
                                                     opacity: 0.8,
                                                     marginBottom: "16px"
                                                 },
-                                                children: "Built for Sales, Operations, Support, Lead Generation, and Workflow Optimisation"
+                                                children: "Built for Sales · Operations · Support · Lead Generation · Workflow Optimisation"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1entity.tsx",
-                                                lineNumber: 82,
+                                                lineNumber: 79,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8971,24 +8822,24 @@ const EntitySection = ()=>{
                                                         children: e
                                                     }, e, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1entity.tsx",
-                                                        lineNumber: 87,
+                                                        lineNumber: 84,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)))
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1entity.tsx",
-                                                lineNumber: 85,
+                                                lineNumber: 82,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1entity.tsx",
-                                        lineNumber: 81,
+                                        lineNumber: 78,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1entity.tsx",
-                                lineNumber: 58,
+                                lineNumber: 55,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9009,7 +8860,7 @@ const EntitySection = ()=>{
                                         children: "Explore further:"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1entity.tsx",
-                                        lineNumber: 103,
+                                        lineNumber: 100,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     [
@@ -9041,7 +8892,7 @@ const EntitySection = ()=>{
                                                     children: link.label
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1entity.tsx",
-                                                    lineNumber: 106,
+                                                    lineNumber: 103,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 i < arr.length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -9052,31 +8903,31 @@ const EntitySection = ()=>{
                                                     children: "|"
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1entity.tsx",
-                                                    lineNumber: 109,
+                                                    lineNumber: 106,
                                                     columnNumber: 40
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, link.href, true, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1entity.tsx",
-                                            lineNumber: 105,
+                                            lineNumber: 102,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1entity.tsx",
-                                lineNumber: 102,
+                                lineNumber: 99,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1entity.tsx",
-                        lineNumber: 38,
+                        lineNumber: 32,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/custom-ai-solutions/components/S1entity.tsx",
-                lineNumber: 29,
+                lineNumber: 23,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
@@ -9101,7 +8952,7 @@ const faqItems = [
         id: "faq-1",
         question: "What does a custom AI solutions agency do?",
         accentColor: "#C9A84C",
-        answer: "A custom AI solutions agency plans, builds, integrates, and optimises AI systems for businesses. This includes strategy and workflow mapping, AI architecture design, development, integration with existing tools, testing, launch, and ongoing optimisation. The focus is on building systems that fit how a specific business operates — not generic tools applied without context.",
+        answer: "A custom AI solutions agency plans, builds, integrates, and optimises AI systems for businesses. The Prime Crafters covers strategy, workflow mapping, AI architecture, development, integration with existing tools, testing, launch, and ongoing optimisation — all built around the client's specific operation.",
         links: [
             {
                 label: "Our Services",
@@ -9113,13 +8964,13 @@ const faqItems = [
         id: "faq-2",
         question: "How are custom AI solutions different from regular AI tools?",
         accentColor: "#4C8EC9",
-        answer: "Generic AI tools are built for a broad audience — they produce outputs that don't follow your workflows, business rules, or data structure. Custom AI solutions are designed around your specific operation: your processes, your integrations, your logic, and your team. The result is a system that automates actual tasks rather than creating another isolated tool to manage."
+        answer: "Generic AI tools produce general outputs that humans must manually apply to their work. Custom AI solutions are built around your specific workflows, connected to your existing tools, and follow your business rules — automating end-to-end tasks rather than creating another isolated tool to manage."
     },
     {
         id: "faq-3",
         question: "What custom AI solutions can ThePrimeCrafters build?",
         accentColor: "#4CA88A",
-        answer: "ThePrimeCrafters builds AI workflow automation, AI voice agents, custom AI chatbots and assistants, AI lead generation systems, CRM and sales automation, AI reporting and data tools, internal AI knowledge assistants, and custom AI integrations. Every system is built to production standards and integrated with the client's existing technology stack.",
+        answer: "The Prime Crafters builds: AI workflow automation, AI voice agents, custom chatbots and assistants, AI lead generation systems, CRM and sales automation, AI reporting tools, internal knowledge assistants, and custom AI integrations. Every system is built to production standards and connected to the client's existing stack.",
         links: [
             {
                 label: "View Case Studies",
@@ -9131,7 +8982,7 @@ const faqItems = [
         id: "faq-4",
         question: "Can custom AI solutions connect with existing software?",
         accentColor: "#7C6AC4",
-        answer: "Yes. Every system ThePrimeCrafters builds is designed to integrate with the client's existing tools — CRMs, websites, forms, spreadsheets, databases, email platforms, chat tools, calendars, and internal business software. Integrations are tested in staging before they touch any live environment.",
+        answer: "Yes. Every system The Prime Crafters builds is integrated with the client's existing tools — CRMs like HubSpot and Salesforce, websites, forms, databases, email, calendars, and any software with a standard API. All integrations are tested in staging before going live.",
         links: [
             {
                 label: "AI Integration Services",
@@ -9143,19 +8994,19 @@ const faqItems = [
         id: "faq-5",
         question: "How does ThePrimeCrafters develop a custom AI solution?",
         accentColor: "#C94C6A",
-        answer: "The development process follows six structured phases: Business Process Review, AI Opportunity Mapping, Solution Architecture, Prototype and Build, Integration and Testing, and Launch and Optimisation. Each phase includes client review and sign-off before the next begins. No phase is skipped and no system is released to production without passing structured QA and client-approved user acceptance testing."
+        answer: "Six phases: (1) Business Process Review, (2) AI Opportunity Mapping, (3) Solution Architecture, (4) Prototype and Build, (5) Integration and Testing, (6) Launch and Optimisation. No phase is skipped and no system goes live without client sign-off."
     },
     {
         id: "faq-6",
         question: "What business teams benefit most from custom AI solutions?",
         accentColor: "#C97A4C",
-        answer: "Sales teams benefit from lead qualification, follow-up automation, CRM updates, and call summaries. Customer support teams benefit from FAQ handling, ticket routing, and response drafting. Operations teams benefit from task routing, approval workflows, and reporting automation. Marketing and lead generation teams benefit from lead research, enrichment, scoring, and outreach support. Healthcare and clinic teams benefit from patient intake support, matching workflows, and scheduling automation. Service businesses benefit from 24/7 call answering, booking automation, and customer update systems."
+        answer: "Sales teams (lead qualification, follow-ups, CRM updates), customer support teams (FAQ handling, ticket routing, response drafts), operations teams (task routing, approvals, reporting), marketing teams (lead research, enrichment, scoring), healthcare teams (intake, matching, scheduling), and service businesses (24/7 call answering, booking automation)."
     },
     {
         id: "faq-7",
         question: "How long does it take to build a custom AI solution?",
         accentColor: "#C9A84C",
-        answer: "Timeline depends on the complexity of the system, the number of integrations required, and the scope of automation. Simpler automation workflows can be live in a few weeks. Larger systems with multiple integrations, custom AI logic, and structured testing phases take longer. Every project scope and timeline is confirmed during the discovery phase based on your specific requirements.",
+        answer: "Simple automations can be live within a few weeks. Larger systems with multiple integrations and custom AI logic take longer. Every timeline is confirmed during the discovery phase based on the specific project scope.",
         links: [
             {
                 label: "Discuss Your Project",
@@ -9167,7 +9018,7 @@ const faqItems = [
         id: "faq-8",
         question: "Why choose ThePrimeCrafters as a custom AI solutions agency?",
         accentColor: "#4CA88A",
-        answer: "ThePrimeCrafters combines technical expertise in AI system architecture with a practical focus on business outcomes. Every project begins with a discovery process to understand your specific operation before any solution is designed. All case study results are documented with specific, numeric KPIs verified post-deployment. The six-phase delivery process — Discovery, Architecture, Development, Integration, Testing, and Launch — ensures every system is built to production standards with client oversight at every step.",
+        answer: "The Prime Crafters builds AI systems to production standards, integrates them with existing tools, and measures results against real KPIs. All six case studies document specific, verified outcomes. The six-phase process ensures full client visibility at every stage across healthcare, sales, operations, lead generation, and service businesses.",
         links: [
             {
                 label: "About ThePrimeCrafters",

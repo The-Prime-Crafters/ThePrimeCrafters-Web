@@ -7,40 +7,40 @@ const useCases = [
     title: "Sales Teams",
     color: "#C9A84C",
     href: "/case-study/spectrum-voice-agent",
-    useCases: ["Lead qualification", "Follow-up automation", "Proposal support", "CRM updates", "Call summaries", "Pipeline tracking"],
-    description: "AI that keeps your pipeline moving — qualifying leads, writing follow-ups, updating the CRM, and summarising calls without adding admin to your sales reps.",
+    useCases: ["Lead Qualification", "Follow-Up Automation", "Proposal Support", "CRM Updates", "Call Summaries", "Pipeline Tracking"],
+    description: "Sales teams waste significant time on tasks that have nothing to do with selling — logging call notes, updating pipeline stages, writing follow-up emails, and manually qualifying leads that could have been scored automatically. The Prime Crafters builds AI systems that handle every repeatable sales task, so reps spend their time on conversations that close deals.",
   },
   {
     icon: "💬",
     title: "Customer Support Teams",
     color: "#4C8EC9",
     href: "/services",
-    useCases: ["FAQ answers", "Ticket summaries", "Response drafts", "Routing", "Knowledge base search", "Customer updates"],
-    description: "AI that handles the volume — answering common questions, routing tickets, drafting responses, and searching your knowledge base so agents can focus on complex cases.",
+    useCases: ["FAQ Answers", "Ticket Summaries", "Response Drafts", "Routing", "Knowledge Base Search", "Customer Updates"],
+    description: "High-volume support environments are where AI delivers some of its most immediate returns. AI systems can answer the top 80% of recurring customer questions instantly, route tickets to the right agent based on intent and urgency, draft responses for complex cases, and search the knowledge base in seconds — so agents focus on the cases that genuinely need human judgment.",
   },
   {
     icon: "⚙️",
     title: "Operations Teams",
     color: "#4CA88A",
     href: "/services/workflow-optimization",
-    useCases: ["Task routing", "Approval workflows", "Reporting", "SOP support", "Alerts", "Internal process automation"],
-    description: "AI that runs the back office — routing tasks, triggering approvals, generating reports, answering SOP questions, and keeping operations moving without constant manual oversight.",
+    useCases: ["Task Routing", "Approval Workflows", "Reporting", "SOP Support", "Alerts", "Internal Process Automation"],
+    description: "Operations efficiency lives and dies on how smoothly tasks, approvals, reports, and information flow across a business. AI automation removes the manual coordination that slows operations down — routing tasks to the right owner, triggering approvals automatically, generating operational reports on schedule, and giving teams instant access to SOP and process information without searching through documents.",
   },
   {
     icon: "🎯",
     title: "Marketing and Lead Generation Teams",
     color: "#C94C6A",
     href: "/case-study/lead-generation-tools",
-    useCases: ["Lead research", "Enrichment", "Scoring", "Campaign workflows", "Outreach support", "Performance summaries"],
-    description: "AI that fills your pipeline — researching and enriching leads, scoring prospects, supporting outreach campaigns, and summarising performance without manual data work.",
+    useCases: ["Lead Research", "Enrichment", "Scoring", "Campaign Workflows", "Outreach Support", "Performance Summaries"],
+    description: "Marketing and lead generation teams face two compounding challenges: finding enough qualified prospects and delivering personalised outreach at the scale needed to hit pipeline targets. AI systems solve both — sourcing and enriching prospect data automatically, scoring leads against conversion criteria, supporting outreach campaigns, and summarising campaign performance without manual reporting pulls.",
   },
   {
     icon: "⚕️",
     title: "Healthcare and Clinic Workflows",
     color: "#7C6AC4",
     href: "/case-study/lmn8-ketamine-therapy",
-    useCases: ["Patient intake support", "Matching workflows", "Scheduling help", "Admin automation", "Clinic operations"],
-    description: "AI built for clinical environments — supporting patient intake, matching workflows, scheduling, and admin tasks while keeping data handling compliant and careful.",
+    useCases: ["Patient Intake Support", "Matching Workflows", "Scheduling Help", "Admin Automation", "Clinic Operations"],
+    description: "Healthcare operations involve a high volume of intake, scheduling, and administrative work that is time-sensitive and highly repetitive. The Prime Crafters builds AI systems for clinical environments that support patient intake workflows, match patients to the right service or provider, assist with appointment scheduling, and automate clinic administration — all scoped carefully against the specific regulatory and data handling requirements of the client's environment.",
     note: "Healthcare implementations are scoped carefully against your specific regulatory context.",
   },
   {
@@ -48,8 +48,8 @@ const useCases = [
     title: "Service Businesses",
     color: "#C97A4C",
     href: "/case-study/rv-park-voice-agent",
-    useCases: ["Booking automation", "Call answering", "Quote requests", "Reminders", "FAQs", "Customer updates"],
-    description: "AI that runs your front line — answering calls 24/7, handling booking requests, sending reminders, and managing customer FAQs without tying up your team.",
+    useCases: ["Booking Automation", "Call Answering", "Quote Requests", "Reminders", "FAQs", "Customer Updates"],
+    description: "For local and service businesses, the most valuable automation is the one that handles the customer before a competitor does. AI voice agents answer every call — day or night — handle booking requests, provide accurate availability and FAQ responses, and send confirmation messages without anyone picking up the phone. This removes the single biggest revenue leak for service businesses: missed calls.",
   },
 ];
 
@@ -72,7 +72,7 @@ const UseCasesSection: React.FC = () => {
             Custom AI Solutions for Real Business Use Cases
           </h2>
           <p style={{ fontSize: "14px", color: "rgba(240,237,230,0.5)", lineHeight: 1.75, marginBottom: "48px", maxWidth: "560px" }}>
-            Every team and industry has different workflows, bottlenecks, and priorities. Find your context below.
+            AI automation delivers different value in different parts of a business. Find your team or industry context below to see the specific workflows, tasks, and outcomes that The Prime Crafters builds systems for.
           </p>
 
           <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "16px" }} role="list" aria-label="Business use cases by team">
@@ -137,4 +137,4 @@ const UseCasesSection: React.FC = () => {
   );
 };
 
-export default UseCasesSection;
+export default UseCasesSection; 

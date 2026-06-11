@@ -1,6 +1,6 @@
 var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/services/custom-ai-solutions/page.js")
-R.c("server/chunks/ssr/5c776_9fdbb5ee._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__8614dfc2._.js")
+R.c("server/chunks/ssr/5c776_next_dist_ff45f1d7._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__61af95b8._.js")
 R.c("server/chunks/ssr/5c776_next_dist_9711e7d3._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__7f148858._.js")
 R.c("server/chunks/ssr/5c776_next_dist_client_components_builtin_global-error_2543ef11.js")

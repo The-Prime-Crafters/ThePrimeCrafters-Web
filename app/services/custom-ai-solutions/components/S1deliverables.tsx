@@ -5,7 +5,7 @@ const deliverables = [
   {
     icon: "⚙️",
     title: "AI Workflow Automation",
-    description: "Automate tasks across sales, operations, support, admin, approvals, reporting, and internal teams. Replace repetitive manual steps with intelligent, rules-based automation that fits your process.",
+    description: "Replace manual, repetitive steps across sales, operations, support, admin, approvals, and reporting with intelligent automated workflows that follow your exact business logic. AI workflow automation removes the human from every step that doesn't require human judgment — from data entry and task routing to notification sending and report generation.",
     chips: ["Sales", "Operations", "Support", "Admin", "Reporting"],
     color: "#C9A84C",
     href: "/services/process-automation",
@@ -13,7 +13,7 @@ const deliverables = [
   {
     icon: "💬",
     title: "Custom AI Assistants and Chatbots",
-    description: "Build AI assistants for customer questions, internal support, lead capture, document search, and guided workflows — deployed on your website, internal tools, or customer-facing platforms.",
+    description: "Build conversational AI systems that handle customer questions, qualify inbound leads, guide users through complex workflows, and search internal knowledge bases — deployed on your website, inside your internal tools, or across customer-facing platforms. Unlike generic chatbot builders, these assistants are trained on your data, follow your brand voice, and connect to your back-end systems.",
     chips: ["Website", "Internal", "Customer-Facing"],
     color: "#4C8EC9",
     href: "/case-studies",
@@ -21,8 +21,8 @@ const deliverables = [
   {
     icon: "📞",
     title: "AI Voice Agents",
-    description: "Create AI agents for sales calls, bookings, FAQs, lead qualification, follow-ups, and customer conversations — handling calls 24/7 without human involvement.",
-    chips: ["24/7 Call Handling", "Sales", "Bookings", "Lead Qualification"],
+    description: "Deploy AI voice agents that handle inbound and outbound calls 24 hours a day, 7 days a week — managing sales conversations, answering booking requests, qualifying leads, handling FAQs, completing follow-up calls, and routing enquiries without human involvement. Voice agents are configured with your scripts, your escalation logic, and your CRM integration so every call is logged and actionable.",
+    chips: ["24/7 Call Handling", "Sales", "Bookings", "Lead Qualification", "Follow-Ups"],
     color: "#7C6AC4",
     href: "/case-study/spectrum-voice-agent",
     badge: "24/7",
@@ -30,15 +30,15 @@ const deliverables = [
   {
     icon: "🎯",
     title: "AI Lead Generation Systems",
-    description: "Build systems for scraping, enrichment, scoring, outreach, CRM updates, and pipeline support — pushing qualified leads directly into HubSpot, Salesforce, or any CRM.",
-    chips: ["HubSpot", "Salesforce", "Enrichment", "Scoring"],
+    description: "Build automated lead generation pipelines that identify target prospects, enrich contact and company data, score leads against your ideal customer profile, run outreach sequences, and push qualified leads directly into your CRM — with zero manual prospecting. Systems integrate natively with HubSpot, Salesforce, and any CRM with a standard API.",
+    chips: ["Enrichment", "Scoring", "HubSpot", "Salesforce", "Outreach"],
     color: "#C94C6A",
     href: "/case-study/lead-generation-tools",
   },
   {
     icon: "📊",
     title: "AI Reporting and Data Tools",
-    description: "Turn business data into summaries, dashboards, alerts, performance reports, and decision support outputs — making your data actionable without manual analysis.",
+    description: "Turn raw business data into structured summaries, performance dashboards, automated alerts, and decision-support reports — without manual analysis. AI reporting tools connect to your data sources, apply your reporting logic, and deliver the right information to the right people on the right schedule. Useful for operations, sales performance, marketing, and executive reporting.",
     chips: ["Dashboards", "Alerts", "Reports", "Summaries"],
     color: "#4CA88A",
     href: "/services",
@@ -46,15 +46,15 @@ const deliverables = [
   {
     icon: "🔒",
     title: "Internal AI Knowledge Assistants",
-    description: "Build private AI tools that help teams search SOPs, documents, policies, client notes, and internal knowledge bases — securely, without exposing data externally.",
-    chips: ["SOPs", "Policies", "Documents", "Private"],
+    description: "Give your team a private AI assistant that can instantly search and surface information from SOPs, policy documents, client notes, technical documentation, and internal knowledge bases — without exposing any data to external systems. Particularly useful for onboarding new staff, supporting customer-facing teams, and reducing the time spent searching for internal information.",
+    chips: ["SOPs", "Policies", "Documents", "Private & Secure"],
     color: "#C97A4C",
     href: "/services",
   },
   {
     icon: "🔁",
     title: "CRM and Sales AI Automation",
-    description: "Automate lead routing, follow-ups, pipeline updates, sales notes, reminders, and customer communication — keeping your CRM accurate without manual data entry.",
+    description: "Automate the manual work that slows down sales teams — lead routing, follow-up sequences, pipeline stage updates, call summary logging, reminder scheduling, and customer communication — so your CRM stays accurate and your sales reps stay focused on selling. Integrates with HubSpot, Salesforce, Pipedrive, and other major CRM platforms.",
     chips: ["Lead Routing", "Follow-Ups", "Pipeline", "Notes"],
     color: "#C9A84C",
     href: "/services/ai-integration",
@@ -62,8 +62,8 @@ const deliverables = [
   {
     icon: "🔗",
     title: "Custom AI Integrations",
-    description: "Connect AI with CRMs, forms, databases, websites, calendars, email, chat tools, and business software — making AI a native part of your existing technology stack.",
-    chips: ["CRM", "Email", "Forms", "Calendars", "Databases"],
+    description: "Connect AI capabilities to your entire technology stack — CRMs, web forms, internal databases, websites, email platforms, chat tools, calendars, document systems, and business software. Custom AI integrations ensure that AI isn't an isolated tool your team has to manage separately, but a connected layer that flows data through your existing systems automatically.",
+    chips: ["CRM", "Email", "Forms", "Calendars", "Databases", "Docs"],
     color: "#4C8EC9",
     href: "/services/ai-integration",
   },
@@ -98,10 +98,9 @@ const DeliverablesSection: React.FC = () => {
             What We Build as a Custom AI Solutions Agency
           </h2>
           <p style={{ fontSize: "14px", color: "rgba(240,237,230,0.5)", lineHeight: 1.75, marginBottom: "48px", maxWidth: "560px" }}>
-            Every deliverable is designed as a production-ready system — built to integrate with your tools, follow your business rules, and produce measurable outcomes from day one.
+            Every deliverable is designed as a production-ready system — built to integrate with your tools, follow your business rules, and produce measurable outcomes from day one. All eight service types below are available as standalone builds or as components of a larger custom AI architecture.
           </p>
 
-          {/* 2×4 grid — all cards visible in HTML */}
           <div
             style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "16px" }}
             role="list"
