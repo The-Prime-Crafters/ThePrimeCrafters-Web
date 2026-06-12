@@ -4,10 +4,10 @@ import React, { useState } from "react";
 import { PA_FONTS_LINK, PA_RESPONSIVE_STYLES } from "./shared";
 
 const painPoints = [
-  { number: "01", title: "Teams Repeat the Same Tasks Every Day", description: "Manual data entry, follow-ups, routing, and status updates consume hours every week across sales, support, and operations — work that AI process automation can handle consistently.", icon: "🔁", color: "#C9A84C", href: "/services/process-automation" },
-  { number: "02", title: "Leads and Customer Requests Fall Through the Cracks", description: "When intake, routing, and follow-up depend on people remembering the next step, revenue and customer experience suffer. Automated lead routing and response workflows close that gap.", icon: "📉", color: "#C94C6A", href: "/case-study/lead-generation-tools" },
-  { number: "03", title: "Business Data Gets Stuck in Separate Tools", description: "CRMs, forms, inboxes, spreadsheets, and internal systems rarely stay in sync. Connected workflow automation keeps data moving where teams need it.", icon: "🔀", color: "#4C8EC9", href: "/services/ai-integration" },
-  { number: "04", title: "Basic Automation Breaks When Workflows Get Complex", description: "Simple triggers fail when decisions, exceptions, approvals, and multi-step logic matter. AI process automation handles routing, classification, and governance at scale.", icon: "⚠️", color: "#4CA88A", href: "/services/workflow-optimization" },
+  { number: "01", title: "Teams Repeat the Same Tasks Every Day", description: "Data entry, manual follow ups, status updates, and task routing consume hours every week across sales, support, and operations. These are not complex decisions. They are repetitive steps that happen the same way every time and are exactly the work that AI process automation was built to eliminate. When teams spend less time on admin, they spend more time on the work that moves the business forward.", icon: "🔁", color: "#C9A84C", href: "/services/process-automation" },
+  { number: "02", title: "Leads and Customer Requests Fall Through the Cracks", description: "When intake, routing, and follow up depend entirely on someone remembering the next step, things get missed. A lead submits a form on a Friday afternoon and hears nothing until Tuesday. A support ticket sits unrouted because the right person was out. Automated workflows close these gaps by handling the handoff the moment it needs to happen, regardless of what time it is or how busy the team is.", icon: "📉", color: "#C94C6A", href: "/case-study/lead-generation-tools" },
+  { number: "03", title: "Business Data Gets Stuck in Separate Tools", description: "CRM records that do not reflect the latest call. Spreadsheets nobody has updated this week. Form submissions that never reached the database. Inbox threads that should have been logged. When data lives in separate tools with no automatic connection between them, teams work from incomplete information and trust erodes across the business. Connected workflow automation keeps data current across every system without manual intervention.", icon: "🔀", color: "#4C8EC9", href: "/services/ai-integration" },
+  { number: "04", title: "Basic Automation Breaks When Workflows Get Complex", description: "Simple if or then triggers work for basic tasks. They fall apart the moment a workflow involves exceptions, conditional logic, multi step approvals, or decisions that depend on data classification. AI process automation handles the situations that basic automation cannot. It reads a form submission, classifies the intent, scores the urgency, routes it to the right team, drafts a response, and logs the action in the CRM without a human touching any step.", icon: "⚠️", color: "#4CA88A", href: "/services/workflow-optimization" },
 ];
 
 const ProblemSection: React.FC = () => {
@@ -32,7 +32,7 @@ const ProblemSection: React.FC = () => {
                 Manual Processes Slow Teams Down and Create Costly Handoffs
               </h2>
               <p style={{ fontSize: "14px", color: "rgba(240,237,230,0.5)", lineHeight: 1.75, margin: 0 }}>
-                Most businesses do not need more tools. They need workflows that move information, decisions, and actions automatically — without losing control at sensitive steps.
+                The issue is rarely a shortage of tools. Most businesses already have a CRM, an inbox, a calendar, and a form builder. The issue is that none of these talk to each other by default. Work moves manually between them, people fill the gaps with copy and paste, and when someone forgets a step, leads go cold, tickets go unanswered, and data goes out of date.
               </p>
             </div>
             <a href="/contact" onMouseEnter={() => setCtaHovered(true)} onMouseLeave={() => setCtaHovered(false)} style={{ display: "inline-flex", alignItems: "center", gap: "8px", fontSize: "13px", fontWeight: 500, color: "#C9A84C", border: `1px solid ${ctaHovered ? "rgba(201,168,76,0.6)" : "rgba(201,168,76,0.3)"}`, background: ctaHovered ? "rgba(201,168,76,0.1)" : "rgba(201,168,76,0.05)", borderRadius: "999px", padding: "11px 22px", textDecoration: "none", whiteSpace: "nowrap" as const }}>
@@ -61,7 +61,7 @@ const ProblemSection: React.FC = () => {
           <div className="pa-grid-2" style={{ marginTop: "32px", display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0", borderRadius: "14px", overflow: "hidden", border: "1px solid rgba(255,255,255,0.07)" }}>
             <div style={{ padding: "28px 32px", background: "rgba(255,255,255,0.02)", borderRight: "1px solid rgba(255,255,255,0.07)" }}>
               <div style={{ fontSize: "10px", letterSpacing: "0.15em", color: "rgba(240,237,230,0.35)", fontWeight: 600, textTransform: "uppercase" as const, marginBottom: "16px" }}>Basic Automation</div>
-              {["Simple if/then triggers", "Breaks with exceptions", "No AI decision logic", "Limited integration depth"].map((item) => (
+              {["Simple triggers only", "Breaks on exceptions", "No AI decision making", "Limited integration depth", "Cannot support approvals"].map((item) => (
                 <div key={item} style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "10px" }}>
                   <span style={{ color: "rgba(201,76,106,0.6)" }}>✕</span>
                   <span style={{ fontSize: "13px", color: "rgba(240,237,230,0.4)" }}>{item}</span>
@@ -70,7 +70,7 @@ const ProblemSection: React.FC = () => {
             </div>
             <div style={{ padding: "28px 32px", background: "rgba(201,168,76,0.04)" }}>
               <div style={{ fontSize: "10px", letterSpacing: "0.15em", color: "#C9A84C", fontWeight: 600, textTransform: "uppercase" as const, marginBottom: "16px" }}>AI Process Automation</div>
-              {["Maps real business workflows", "Classifies, routes, and drafts with AI", "Connects CRMs, forms, and internal tools", "Supports human approvals where needed"].map((item) => (
+              {["Maps real multi step business workflows", "Handles conditional logic and edge cases", "Classifies, scores, routes, and drafts with AI", "Connects across CRMs, forms, email, and databases", "Keeps humans in control for sensitive decisions"].map((item) => (
                 <div key={item} style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "10px" }}>
                   <span style={{ color: "#C9A84C" }}>✓</span>
                   <span style={{ fontSize: "13px", color: "rgba(240,237,230,0.65)" }}>{item}</span>

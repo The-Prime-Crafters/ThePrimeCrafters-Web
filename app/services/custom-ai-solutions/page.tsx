@@ -21,6 +21,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.theprimecrafters.com/custom-ai-solutions",
   },
+   robots: {
+    index: true,
+    follow: true,
+  },
   
 };
 

@@ -3,8 +3,8 @@
 import React from "react";
 import { PA_FONTS_LINK, PA_RESPONSIVE_STYLES } from "./shared";
 
-const serviceEntities = ["Process Automation", "Workflow Optimization", "AI Integrations", "Custom AI Systems"];
-const teamEntities = ["Sales", "Operations", "Support", "Lead Generation", "Admin", "Customer Workflows"];
+const serviceEntities = ["Process Automation", "Workflow Optimization", "AI Integrations", "Custom AI Systems", "CRM Automation", "Lead Generation Automation", "Booking Workflow Automation"];
+const teamEntities = ["Sales Workflow Automation", "Operations Automation", "Customer Support Automation", "Lead Generation Automation", "Admin Workflow Automation", "Healthcare Admin Automation", "Service Business Automation"];
 
 const EntitySection: React.FC = () => {
   return (
@@ -23,7 +23,7 @@ const EntitySection: React.FC = () => {
           </h2>
 
           <p style={{ fontSize: "14px", color: "rgba(240,237,230,0.55)", lineHeight: 1.85, marginBottom: "32px", maxWidth: "760px" }}>
-            The Prime Crafters is a process automation agency that designs connected AI workflows for sales, support, operations, lead generation, and admin teams. Work spans workflow mapping, automation architecture, system integrations, launch, monitoring, and optimization — all built around how your business actually operates.
+            The Prime Crafters is a process automation agency that designs and deploys AI workflow automation systems for sales teams, customer support teams, operations teams, marketing and lead generation teams, healthcare admin environments, and service businesses. Work covers workflow discovery, automation architecture, system integrations, build, testing, launch, monitoring, and optimisation. Every system is built around the specific workflows of the client operation, connected to existing tools, and measured against real performance KPIs after deployment.
           </p>
 
           <div className="pa-grid-2" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "20px" }}>

@@ -4433,9 +4433,18 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 const proofBadges = [
-    "Process Mapping",
-    "AI Automation",
-    "System Integration"
+    {
+        label: "We map before we build",
+        description: "Full workflow audit before any automation is designed"
+    },
+    {
+        label: "Intelligent workflow logic",
+        description: "Classification, routing, scoring, and drafting built in"
+    },
+    {
+        label: "Connects your existing stack",
+        description: "Works with CRMs, forms, email, calendars, and databases"
+    }
 ];
 const categoryPills = [
     "AI Workflows",
@@ -4454,14 +4463,14 @@ const HeroSection = ()=>{
                 rel: "stylesheet"
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pahero.tsx",
-                lineNumber: 22,
+                lineNumber: 35,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("style", {
                 children: __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$services$2f$process$2d$automation$2f$components$2f$shared$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PA_RESPONSIVE_STYLES"]
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pahero.tsx",
-                lineNumber: 23,
+                lineNumber: 36,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -4490,7 +4499,7 @@ const HeroSection = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pahero.tsx",
-                        lineNumber: 40,
+                        lineNumber: 53,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4505,7 +4514,7 @@ const HeroSection = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pahero.tsx",
-                        lineNumber: 41,
+                        lineNumber: 54,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4540,7 +4549,7 @@ const HeroSection = ()=>{
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pahero.tsx",
-                                                lineNumber: 46,
+                                                lineNumber: 59,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4554,13 +4563,13 @@ const HeroSection = ()=>{
                                                 children: "ThePrimeCrafters"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pahero.tsx",
-                                                lineNumber: 47,
+                                                lineNumber: 60,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pahero.tsx",
-                                        lineNumber: 45,
+                                        lineNumber: 58,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -4568,7 +4577,7 @@ const HeroSection = ()=>{
                                         className: "pa-h1",
                                         style: {
                                             fontFamily: "'Playfair Display', serif",
-                                            fontSize: "52px",
+                                            fontSize: "48.6px",
                                             fontWeight: 900,
                                             color: "#f5f1e8",
                                             lineHeight: 1.1,
@@ -4577,7 +4586,7 @@ const HeroSection = ()=>{
                                         children: "AI Process Automation Services for Business Workflows"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pahero.tsx",
-                                        lineNumber: 50,
+                                        lineNumber: 63,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -4592,7 +4601,7 @@ const HeroSection = ()=>{
                                         children: "Automate Repetitive Work Across Sales, Support, Operations, and Admin"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pahero.tsx",
-                                        lineNumber: 54,
+                                        lineNumber: 67,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4604,24 +4613,10 @@ const HeroSection = ()=>{
                                             marginBottom: "28px",
                                             maxWidth: "520px"
                                         },
-                                        children: "The Prime Crafters designs AI process automation systems that map your real workflows, connect your existing tools, and remove manual handoffs — so teams move faster without rebuilding how the business runs."
+                                        children: "Most businesses lose significant time every week to the same manual steps: copying data between tools, following up on leads, routing tickets, and chasing approvals. The Prime Crafters builds AI process automation systems that handle these workflows automatically, connecting the tools your team already uses and removing the manual handoffs that slow everything down."
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pahero.tsx",
-                                        lineNumber: 58,
-                                        columnNumber: 13
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        style: {
-                                            fontSize: "12px",
-                                            fontWeight: 500,
-                                            color: "rgba(240,237,230,0.45)",
-                                            marginBottom: "20px",
-                                            lineHeight: 1.6
-                                        },
-                                        children: "AI Workflows, CRM Automation, Data Sync, Notifications, and Human Approvals"
-                                    }, void 0, false, {
-                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pahero.tsx",
-                                        lineNumber: 62,
+                                        lineNumber: 71,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4644,12 +4639,12 @@ const HeroSection = ()=>{
                                                 children: pill
                                             }, pill, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pahero.tsx",
-                                                lineNumber: 68,
+                                                lineNumber: 79,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)))
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pahero.tsx",
-                                        lineNumber: 66,
+                                        lineNumber: 77,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4658,7 +4653,7 @@ const HeroSection = ()=>{
                                             display: "flex",
                                             gap: "12px",
                                             flexWrap: "wrap",
-                                            marginBottom: "32px"
+                                            marginBottom: "28px"
                                         },
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -4673,7 +4668,7 @@ const HeroSection = ()=>{
                                                     color: "#08090f",
                                                     padding: "14px 28px",
                                                     borderRadius: "4px",
-                                                    fontSize: "14px",
+                                                    fontSize: "13px",
                                                     fontWeight: 600,
                                                     textDecoration: "none",
                                                     transition: "background 0.2s"
@@ -4681,7 +4676,7 @@ const HeroSection = ()=>{
                                                 children: "Book a Free Automation Strategy Call →"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pahero.tsx",
-                                                lineNumber: 73,
+                                                lineNumber: 84,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -4697,7 +4692,7 @@ const HeroSection = ()=>{
                                                     padding: "14px 28px",
                                                     borderRadius: "4px",
                                                     border: "1px solid rgba(201,168,76,0.35)",
-                                                    fontSize: "14px",
+                                                    fontSize: "13px",
                                                     fontWeight: 500,
                                                     textDecoration: "none",
                                                     transition: "background 0.2s"
@@ -4705,46 +4700,70 @@ const HeroSection = ()=>{
                                                 children: "View Case Studies"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pahero.tsx",
-                                                lineNumber: 76,
+                                                lineNumber: 87,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pahero.tsx",
-                                        lineNumber: 72,
+                                        lineNumber: 83,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         style: {
                                             display: "flex",
-                                            flexWrap: "wrap",
-                                            gap: "10px"
+                                            gap: "10px",
+                                            flexWrap: "nowrap"
                                         },
-                                        children: proofBadges.map((badge)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        children: proofBadges.map((badge)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 style: {
+                                                    flex: 1,
                                                     fontSize: "11px",
-                                                    padding: "6px 12px",
+                                                    padding: "8px 12px",
                                                     borderRadius: "8px",
                                                     border: "1px solid rgba(255,255,255,0.1)",
                                                     background: "rgba(255,255,255,0.03)",
-                                                    color: "rgba(240,237,230,0.65)",
-                                                    fontWeight: 500
+                                                    color: "rgba(240,237,230,0.65)"
                                                 },
-                                                children: badge
-                                            }, badge, false, {
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        style: {
+                                                            fontWeight: 600,
+                                                            marginBottom: "2px"
+                                                        },
+                                                        children: badge.label
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pahero.tsx",
+                                                        lineNumber: 112,
+                                                        columnNumber: 7
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        style: {
+                                                            fontWeight: 300,
+                                                            color: "rgba(240,237,230,0.45)",
+                                                            lineHeight: 1.5
+                                                        },
+                                                        children: badge.description
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pahero.tsx",
+                                                        lineNumber: 115,
+                                                        columnNumber: 7
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, badge.label, true, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pahero.tsx",
-                                                lineNumber: 83,
-                                                columnNumber: 17
+                                                lineNumber: 100,
+                                                columnNumber: 5
                                             }, ("TURBOPACK compile-time value", void 0)))
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pahero.tsx",
-                                        lineNumber: 81,
-                                        columnNumber: 13
+                                        lineNumber: 92,
+                                        columnNumber: 12
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pahero.tsx",
-                                lineNumber: 44,
+                                lineNumber: 57,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4758,28 +4777,28 @@ const HeroSection = ()=>{
                                     style: {
                                         width: "100%",
                                         aspectRatio: "1",
-                                        maxWidth: "520px",
+                                        maxWidth: "480px",
                                         position: "relative",
                                         background: "rgba(255,255,255,0.02)",
                                         border: "1px solid rgba(255,255,255,0.08)",
-                                        borderRadius: "20px",
-                                        padding: "32px"
+                                        borderRadius: "16px",
+                                        padding: "28px"
                                     },
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             style: {
-                                                fontSize: "11px",
+                                                fontSize: "10px",
                                                 letterSpacing: "0.15em",
                                                 textTransform: "uppercase",
                                                 color: "#C9A84C",
                                                 fontWeight: 600,
-                                                marginBottom: "20px"
+                                                marginBottom: "16px"
                                             },
                                             children: "Workflow Automation Diagram"
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pahero.tsx",
-                                            lineNumber: 90,
-                                            columnNumber: 15
+                                            lineNumber: 142,
+                                            columnNumber: 5
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         [
                                             {
@@ -4813,23 +4832,23 @@ const HeroSection = ()=>{
                                                     left: node.left,
                                                     right: node.right,
                                                     bottom: node.bottom,
-                                                    width: "88px",
-                                                    height: "56px",
-                                                    borderRadius: "10px",
+                                                    width: "80px",
+                                                    height: "50px",
+                                                    borderRadius: "8px",
                                                     background: `${node.color}14`,
                                                     border: `1px solid ${node.color}40`,
                                                     display: "flex",
                                                     alignItems: "center",
                                                     justifyContent: "center",
-                                                    fontSize: "11px",
+                                                    fontSize: "10px",
                                                     fontWeight: 600,
                                                     color: node.color
                                                 },
                                                 children: node.label
                                             }, node.label, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pahero.tsx",
-                                                lineNumber: 97,
-                                                columnNumber: 17
+                                                lineNumber: 161,
+                                                columnNumber: 7
                                             }, ("TURBOPACK compile-time value", void 0))),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             style: {
@@ -4845,37 +4864,37 @@ const HeroSection = ()=>{
                                                 alignItems: "center",
                                                 justifyContent: "center",
                                                 color: "#C9A84C",
-                                                fontSize: "12px",
+                                                fontSize: "16px",
                                                 fontWeight: 600,
                                                 textAlign: "center"
                                             },
                                             children: "Process Flow"
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pahero.tsx",
-                                            lineNumber: 99,
-                                            columnNumber: 15
+                                            lineNumber: 186,
+                                            columnNumber: 5
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pahero.tsx",
-                                    lineNumber: 89,
-                                    columnNumber: 13
+                                    lineNumber: 130,
+                                    columnNumber: 3
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pahero.tsx",
-                                lineNumber: 88,
-                                columnNumber: 11
+                                lineNumber: 129,
+                                columnNumber: 10
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pahero.tsx",
-                        lineNumber: 43,
+                        lineNumber: 56,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pahero.tsx",
-                lineNumber: 24,
+                lineNumber: 37,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
@@ -4909,7 +4928,7 @@ const painPoints = [
     {
         number: "01",
         title: "Teams Repeat the Same Tasks Every Day",
-        description: "Manual data entry, follow-ups, routing, and status updates consume hours every week across sales, support, and operations — work that AI process automation can handle consistently.",
+        description: "Data entry, manual follow ups, status updates, and task routing consume hours every week across sales, support, and operations. These are not complex decisions. They are repetitive steps that happen the same way every time and are exactly the work that AI process automation was built to eliminate. When teams spend less time on admin, they spend more time on the work that moves the business forward.",
         icon: "🔁",
         color: "#C9A84C",
         href: "/services/process-automation"
@@ -4917,7 +4936,7 @@ const painPoints = [
     {
         number: "02",
         title: "Leads and Customer Requests Fall Through the Cracks",
-        description: "When intake, routing, and follow-up depend on people remembering the next step, revenue and customer experience suffer. Automated lead routing and response workflows close that gap.",
+        description: "When intake, routing, and follow up depend entirely on someone remembering the next step, things get missed. A lead submits a form on a Friday afternoon and hears nothing until Tuesday. A support ticket sits unrouted because the right person was out. Automated workflows close these gaps by handling the handoff the moment it needs to happen, regardless of what time it is or how busy the team is.",
         icon: "📉",
         color: "#C94C6A",
         href: "/case-study/lead-generation-tools"
@@ -4925,7 +4944,7 @@ const painPoints = [
     {
         number: "03",
         title: "Business Data Gets Stuck in Separate Tools",
-        description: "CRMs, forms, inboxes, spreadsheets, and internal systems rarely stay in sync. Connected workflow automation keeps data moving where teams need it.",
+        description: "CRM records that do not reflect the latest call. Spreadsheets nobody has updated this week. Form submissions that never reached the database. Inbox threads that should have been logged. When data lives in separate tools with no automatic connection between them, teams work from incomplete information and trust erodes across the business. Connected workflow automation keeps data current across every system without manual intervention.",
         icon: "🔀",
         color: "#4C8EC9",
         href: "/services/ai-integration"
@@ -4933,7 +4952,7 @@ const painPoints = [
     {
         number: "04",
         title: "Basic Automation Breaks When Workflows Get Complex",
-        description: "Simple triggers fail when decisions, exceptions, approvals, and multi-step logic matter. AI process automation handles routing, classification, and governance at scale.",
+        description: "Simple if or then triggers work for basic tasks. They fall apart the moment a workflow involves exceptions, conditional logic, multi step approvals, or decisions that depend on data classification. AI process automation handles the situations that basic automation cannot. It reads a form submission, classifies the intent, scores the urgency, routes it to the right team, drafts a response, and logs the action in the CRM without a human touching any step.",
         icon: "⚠️",
         color: "#4CA88A",
         href: "/services/workflow-optimization"
@@ -5074,7 +5093,7 @@ const ProblemSection = ()=>{
                                                     lineHeight: 1.75,
                                                     margin: 0
                                                 },
-                                                children: "Most businesses do not need more tools. They need workflows that move information, decisions, and actions automatically — without losing control at sensitive steps."
+                                                children: "The issue is rarely a shortage of tools. Most businesses already have a CRM, an inbox, a calendar, and a form builder. The issue is that none of these talk to each other by default. Work moves manually between them, people fill the gaps with copy and paste, and when someone forgets a step, leads go cold, tickets go unanswered, and data goes out of date."
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paproblem.tsx",
                                                 lineNumber: 34,
@@ -5266,10 +5285,11 @@ const ProblemSection = ()=>{
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             [
-                                                "Simple if/then triggers",
-                                                "Breaks with exceptions",
-                                                "No AI decision logic",
-                                                "Limited integration depth"
+                                                "Simple triggers only",
+                                                "Breaks on exceptions",
+                                                "No AI decision making",
+                                                "Limited integration depth",
+                                                "Cannot support approvals"
                                             ].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     style: {
                                                         display: "flex",
@@ -5333,10 +5353,11 @@ const ProblemSection = ()=>{
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             [
-                                                "Maps real business workflows",
-                                                "Classifies, routes, and drafts with AI",
-                                                "Connects CRMs, forms, and internal tools",
-                                                "Supports human approvals where needed"
+                                                "Maps real multi step business workflows",
+                                                "Handles conditional logic and edge cases",
+                                                "Classifies, scores, routes, and drafts with AI",
+                                                "Connects across CRMs, forms, email, and databases",
+                                                "Keeps humans in control for sensitive decisions"
                                             ].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     style: {
                                                         display: "flex",
@@ -5424,42 +5445,43 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 const checklist = [
-    "Your team repeats the same operational tasks every day",
-    "Leads, tickets, or requests need faster routing and follow-up",
-    "Data lives across disconnected CRMs, forms, and internal tools",
-    "Basic automation cannot handle exceptions or approvals",
-    "You want measurable workflow improvements, not another isolated tool"
+    "Your team spends significant hours each week on the same operational tasks",
+    "Leads, tickets, or requests move slowly because routing depends on a person",
+    "Your data sits across disconnected CRMs, forms, inboxes, and spreadsheets",
+    "Basic automation tools cannot handle your workflow exceptions or approval steps",
+    "You want measurable workflow improvements with clear KPIs, not another isolated tool",
+    "You are ready to build automation that works inside your existing technology stack"
 ];
 const scope = [
     {
         number: "01",
         label: "Workflow Discovery",
-        desc: "Audit current processes and identify the highest-impact automation opportunities."
+        desc: "Audit current processes, map data flows, document handoffs, and identify the highest value automation opportunities before designing anything."
     },
     {
         number: "02",
         label: "Automation Opportunity Mapping",
-        desc: "Prioritise bottlenecks by business value, feasibility, and speed to ROI."
+        desc: "Prioritise bottlenecks by business impact, feasibility, and speed to ROI. Focus on the workflows that will move the needle first."
     },
     {
         number: "03",
         label: "Workflow Architecture Design",
-        desc: "Define triggers, logic, integrations, permissions, and approval paths."
+        desc: "Define triggers, AI logic, integration points, approval paths, and success metrics. Client reviews and approves before build begins."
     },
     {
         number: "04",
-        label: "Build, Integrate, and Test",
-        desc: "Develop production-ready automations and validate them against real scenarios."
+        label: "Build Integrate and Test",
+        desc: "Develop production ready automations and validate them against real workflow scenarios including edge cases and exceptions."
     },
     {
         number: "05",
         label: "Launch With Monitoring",
-        desc: "Roll out with controlled deployment and post-launch visibility."
+        desc: "Roll out in a controlled phased deployment with post launch visibility into workflow performance and error handling."
     },
     {
         number: "06",
         label: "Optimize Based on Real Usage",
-        desc: "Refine workflows using live operational data and team feedback."
+        desc: "Refine logic, improve routing, and tune automation performance using real operational data and team feedback after launch."
     }
 ];
 const ServiceDefinitionSection = ()=>{
@@ -5472,14 +5494,14 @@ const ServiceDefinitionSection = ()=>{
                 rel: "stylesheet"
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                lineNumber: 28,
+                lineNumber: 29,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("style", {
                 children: __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$services$2f$process$2d$automation$2f$components$2f$shared$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PA_RESPONSIVE_STYLES"]
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                lineNumber: 29,
+                lineNumber: 30,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -5518,7 +5540,7 @@ const ServiceDefinitionSection = ()=>{
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                                    lineNumber: 33,
+                                    lineNumber: 34,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5532,13 +5554,13 @@ const ServiceDefinitionSection = ()=>{
                                     children: "Our Service"
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                                    lineNumber: 34,
+                                    lineNumber: 35,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                            lineNumber: 32,
+                            lineNumber: 33,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -5556,7 +5578,7 @@ const ServiceDefinitionSection = ()=>{
                             children: "Process Automation Built Around How Your Business Actually Works"
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                            lineNumber: 36,
+                            lineNumber: 37,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5567,10 +5589,10 @@ const ServiceDefinitionSection = ()=>{
                                 marginBottom: "52px",
                                 maxWidth: "640px"
                             },
-                            children: "The Prime Crafters delivers process automation services that fit your real workflows — not generic templates. We map how work moves today, design the automation architecture, connect your tools, and launch systems your team can trust."
+                            children: "The Prime Crafters delivers process automation services shaped around your real workflows. We start by mapping how work moves through your business today, find where it slows down and breaks, and design the automation around that reality rather than a generic template."
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                            lineNumber: 39,
+                            lineNumber: 40,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5625,7 +5647,7 @@ const ServiceDefinitionSection = ()=>{
                                                             children: "What Is AI Process Automation?"
                                                         }, void 0, false, {
                                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                                                            lineNumber: 47,
+                                                            lineNumber: 48,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5638,13 +5660,13 @@ const ServiceDefinitionSection = ()=>{
                                                             children: "+"
                                                         }, void 0, false, {
                                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                                                            lineNumber: 48,
+                                                            lineNumber: 49,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                                                    lineNumber: 46,
+                                                    lineNumber: 47,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 defExpanded && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5658,21 +5680,21 @@ const ServiceDefinitionSection = ()=>{
                                                             lineHeight: 1.8,
                                                             margin: 0
                                                         },
-                                                        children: "AI process automation uses intelligent workflows to handle repetitive business tasks — receiving inputs, applying logic, updating systems, notifying teams, and routing work automatically. Unlike basic automation, it can classify, summarise, score, and draft within connected business processes."
+                                                        children: "AI process automation uses intelligent connected workflows to handle repetitive business tasks automatically. It receives inputs from your existing tools, applies AI logic to classify, score, summarise, or route the information, and delivers the right output to the right system or team member without manual coordination. Unlike basic automation, it can handle conditional decisions, multi step processes, and tasks that require reading and understanding the content of a submission or message."
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                                                        lineNumber: 52,
+                                                        lineNumber: 53,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                                                    lineNumber: 51,
+                                                    lineNumber: 52,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                                            lineNumber: 45,
+                                            lineNumber: 46,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5694,7 +5716,7 @@ const ServiceDefinitionSection = ()=>{
                                                     children: "Who Needs Process Automation Services?"
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                                                    lineNumber: 60,
+                                                    lineNumber: 61,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 checklist.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5713,7 +5735,7 @@ const ServiceDefinitionSection = ()=>{
                                                                 children: "✓"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                                                                lineNumber: 63,
+                                                                lineNumber: 64,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5725,13 +5747,13 @@ const ServiceDefinitionSection = ()=>{
                                                                 children: item
                                                             }, void 0, false, {
                                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                                                                lineNumber: 64,
+                                                                lineNumber: 65,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, item, true, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                                                        lineNumber: 62,
+                                                        lineNumber: 63,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0))),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -5747,19 +5769,19 @@ const ServiceDefinitionSection = ()=>{
                                                     children: "Talk to us about your workflow →"
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                                                    lineNumber: 67,
+                                                    lineNumber: 68,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                                            lineNumber: 59,
+                                            lineNumber: 60,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                                    lineNumber: 44,
+                                    lineNumber: 45,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5781,7 +5803,7 @@ const ServiceDefinitionSection = ()=>{
                                             children: "What ThePrimeCrafters Handles"
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                                            lineNumber: 72,
+                                            lineNumber: 73,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         scope.map((step)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5807,7 +5829,7 @@ const ServiceDefinitionSection = ()=>{
                                                         children: step.number
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                                                        lineNumber: 75,
+                                                        lineNumber: 76,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5823,7 +5845,7 @@ const ServiceDefinitionSection = ()=>{
                                                                 children: step.label
                                                             }, void 0, false, {
                                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                                                                lineNumber: 77,
+                                                                lineNumber: 78,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5835,19 +5857,19 @@ const ServiceDefinitionSection = ()=>{
                                                                 children: step.desc
                                                             }, void 0, false, {
                                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                                                                lineNumber: 78,
+                                                                lineNumber: 79,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                                                        lineNumber: 76,
+                                                        lineNumber: 77,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, step.number, true, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                                                lineNumber: 74,
+                                                lineNumber: 75,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -5862,30 +5884,30 @@ const ServiceDefinitionSection = ()=>{
                                             children: "About ThePrimeCrafters →"
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                                            lineNumber: 82,
+                                            lineNumber: 83,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                                    lineNumber: 71,
+                                    lineNumber: 72,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                            lineNumber: 43,
+                            lineNumber: 44,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                    lineNumber: 31,
+                    lineNumber: 32,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paservicedefinition.tsx",
-                lineNumber: 30,
+                lineNumber: 31,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
@@ -5919,56 +5941,56 @@ const deliverables = [
     {
         icon: "🎯",
         title: "Lead Intake and Lead Routing Automation",
-        description: "Capture inbound leads, enrich data, score intent, and route prospects to the right owner or CRM stage automatically.",
+        description: "Inbound leads arrive from multiple sources: web forms, ad platforms, phone calls, email, and social. Without automation, someone manually checks each channel, qualifies the lead, assigns it to the right rep, and enters the data into the CRM. The Prime Crafters builds lead intake systems that capture every submission, enrich the contact and company data, score the lead against the ideal customer profile, and route it directly to the right CRM stage and team member within seconds of submission.",
         color: "#C9A84C",
         href: "/case-study/lead-generation-tools"
     },
     {
         icon: "📊",
         title: "CRM Updates and Data Sync",
-        description: "Keep CRM records, pipeline stages, notes, and contact data updated without manual entry across connected systems.",
+        description: "CRM data degrades quickly when updates depend on people manually logging calls, updating stages, and entering notes. The Prime Crafters automates the connection between the CRM and the systems that generate that data: call logs, booking platforms, email threads, form submissions, and payment records. Every interaction is recorded, every stage is updated, and every contact record stays current without a rep touching the keyboard.",
         color: "#4C8EC9",
         href: "/services/ai-integration"
     },
     {
         icon: "📅",
-        title: "Appointment Booking and Follow-Up Workflows",
-        description: "Automate booking requests, confirmations, reminders, and post-appointment follow-up sequences.",
+        title: "Appointment Booking and Follow Up Workflows",
+        description: "Booking workflows involve more moving parts than they appear to. A customer requests a time, the system checks availability, a confirmation goes out, a reminder fires 24 hours before, and a follow up sequence starts after the appointment. When any of these steps depends on a person, delays creep in and customers notice. The Prime Crafters automates the full booking and follow up sequence so every customer gets the right communication at the right time without staff involvement.",
         color: "#4CA88A",
         href: "/case-study/rv-park-voice-agent"
     },
     {
         icon: "💬",
         title: "Customer Support and Ticket Routing",
-        description: "Classify support requests, draft responses, route tickets, and notify teams based on urgency and topic.",
+        description: "Support volume is predictable in one way: the same questions keep coming. AI process automation handles the high volume repetitive tier of support requests by reading the incoming message, classifying the topic and urgency, routing to the right team or agent, drafting a response for review, and logging the interaction. Agents spend their time on the complex cases that need real expertise, not on the questions a well designed automation can answer in seconds.",
         color: "#7C6AC4",
         href: "/services/custom-ai-solutions"
     },
     {
         icon: "📈",
-        title: "Sales Follow-Up and Pipeline Workflows",
-        description: "Automate follow-ups, call summaries, pipeline updates, and handoffs between AI and human sales reps.",
+        title: "Sales Follow Up and Pipeline Workflows",
+        description: "Sales teams lose deals to slow follow up more often than they lose them to price or competition. When a prospect books a call, views a proposal, or goes quiet after a demo, the timing of the next touch matters. The Prime Crafters automates the triggers: the follow up email after the call, the CRM stage update when the proposal is opened, the reminder to the rep when a deal has been inactive for five days. Every step happens on time every time.",
         color: "#C94C6A",
         href: "/case-study/spectrum-voice-agent"
     },
     {
         icon: "📋",
-        title: "Reporting, Alerts, and Performance Summaries",
-        description: "Generate scheduled reports, operational alerts, and workflow performance summaries for teams and leadership.",
+        title: "Reporting Alerts and Performance Summaries",
+        description: "Leadership and operations teams need visibility into how workflows are performing without spending hours pulling data from multiple systems each week. The Prime Crafters builds automated reporting systems that generate scheduled performance summaries, fire alerts when a KPI drops below threshold, and push relevant metrics to the right person in the right format on a defined schedule. Decisions get made on current data, not last week's spreadsheet.",
         color: "#C97A4C",
         href: "/services"
     },
     {
         icon: "📄",
         title: "Document and Admin Workflows",
-        description: "Automate document routing, admin approvals, internal requests, and repetitive back-office operations.",
+        description: "Back office operations are full of document heavy tasks that follow a predictable path: a request comes in, it gets reviewed, approved or rejected, routed to the next step, and logged. Contracts waiting for signatures, invoices needing approval, onboarding documents requiring completion. The Prime Crafters automates these admin workflows so documents move through the process automatically, the right people are notified at each step, and nothing waits on a manual handoff.",
         color: "#C9A84C",
         href: "/services/process-automation"
     },
     {
         icon: "✅",
-        title: "Human-in-the-Loop Approval Workflows",
-        description: "Keep sensitive decisions under human control while automating everything before and after the approval step.",
+        title: "Human in the Loop Approval Workflows",
+        description: "Not every step should be fully automated. Some decisions require human judgment: a high value discount, an exception to a standard policy, a refund above a certain threshold. The Prime Crafters designs approval workflows that automate everything before and after the human step while keeping the sensitive decision itself under human control. The automation handles intake, enrichment, routing, and notification. The human reviews and approves. The automation handles everything after.",
         color: "#4CA88A",
         href: "/contact"
     }
@@ -6078,7 +6100,7 @@ const DeliverablesSection = ()=>{
                                 marginBottom: "48px",
                                 maxWidth: "560px"
                             },
-                            children: "From lead intake to reporting and approvals, we automate the workflows that slow teams down — with systems connected to the tools you already use."
+                            children: "From lead intake to approvals and reporting, The Prime Crafters automates the workflows that slow teams down most. Every automation is built to production standards and connected to the tools your team already uses."
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Padeliverables.tsx",
                             lineNumber: 33,
@@ -6174,6 +6196,37 @@ const DeliverablesSection = ()=>{
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Padeliverables.tsx",
                             lineNumber: 37,
                             columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            style: {
+                                marginTop: "40px",
+                                textAlign: "center"
+                            },
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                href: "/services",
+                                style: {
+                                    display: "inline-flex",
+                                    alignItems: "center",
+                                    gap: "8px",
+                                    fontSize: "13px",
+                                    fontWeight: 500,
+                                    color: "#C9A84C",
+                                    border: "1px solid rgba(201,168,76,0.3)",
+                                    background: "rgba(201,168,76,0.05)",
+                                    borderRadius: "999px",
+                                    padding: "11px 22px",
+                                    textDecoration: "none"
+                                },
+                                children: "View All Services →"
+                            }, void 0, false, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Padeliverables.tsx",
+                                lineNumber: 53,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0))
+                        }, void 0, false, {
+                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Padeliverables.tsx",
+                            lineNumber: 52,
+                            columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
@@ -6217,14 +6270,18 @@ const integrations = [
     "Databases",
     "Email",
     "Calendars",
-    "Spreadsheets"
+    "Spreadsheets",
+    "Internal Tools"
 ];
 const aiCapabilities = [
     "Classify",
     "Summarize",
     "Score",
     "Route",
-    "Draft"
+    "Draft",
+    "Notify",
+    "Update",
+    "Extract"
 ];
 const IntegrationSection = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -6291,7 +6348,7 @@ const IntegrationSection = ()=>{
                                         color: "#C9A84C",
                                         fontWeight: 500
                                     },
-                                    children: "AI + Integration Layer"
+                                    children: "AI and Integration Layer"
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paintegration.tsx",
                                     lineNumber: 18,
@@ -6329,7 +6386,7 @@ const IntegrationSection = ()=>{
                                 marginBottom: "40px",
                                 maxWidth: "640px"
                             },
-                            children: "Process automation delivers the most value when inputs, AI logic, integrations, and outputs work as one connected system — not as disconnected steps your team has to manage manually."
+                            children: "The full value of process automation appears when inputs, AI logic, integrations, and outputs function as one connected system. When automation is built in isolation from the existing stack, teams end up managing two parallel processes instead of one. The Prime Crafters designs automation architecture that sits inside the operation, not alongside it."
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paintegration.tsx",
                             lineNumber: 23,
@@ -6366,6 +6423,19 @@ const IntegrationSection = ()=>{
                                             lineNumber: 29,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            style: {
+                                                fontSize: "13px",
+                                                color: "rgba(240,237,230,0.5)",
+                                                lineHeight: 1.75,
+                                                marginBottom: "14px"
+                                            },
+                                            children: "Every source of business data that feeds workflows is a potential integration point. The Prime Crafters connects the tools teams already use so data flows automatically between them without manual export, import, or copy and paste. The result is a live system where every record is current and every workflow has the information it needs to function correctly."
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paintegration.tsx",
+                                            lineNumber: 30,
+                                            columnNumber: 15
+                                        }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             style: {
                                                 display: "flex",
@@ -6385,12 +6455,12 @@ const IntegrationSection = ()=>{
                                                     children: chip
                                                 }, chip, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paintegration.tsx",
-                                                    lineNumber: 32,
+                                                    lineNumber: 35,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0)))
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paintegration.tsx",
-                                            lineNumber: 30,
+                                            lineNumber: 33,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -6406,7 +6476,7 @@ const IntegrationSection = ()=>{
                                             children: "Explore AI Integration Services →"
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paintegration.tsx",
-                                            lineNumber: 35,
+                                            lineNumber: 38,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
@@ -6434,7 +6504,20 @@ const IntegrationSection = ()=>{
                                             children: "Use AI to Classify, Summarize, Score, Route, and Draft"
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paintegration.tsx",
-                                            lineNumber: 39,
+                                            lineNumber: 42,
+                                            columnNumber: 15
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            style: {
+                                                fontSize: "13px",
+                                                color: "rgba(240,237,230,0.5)",
+                                                lineHeight: 1.75,
+                                                marginBottom: "14px"
+                                            },
+                                            children: "AI adds the decision making layer that basic automation cannot provide. When a form submission arrives, AI reads it, classifies the intent, scores the priority, routes it to the right owner, and drafts the first response. When a call ends, AI summarises the conversation, extracts the key actions, updates the CRM, and schedules the follow up. These are practical AI functions The Prime Crafters builds into production workflows today."
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paintegration.tsx",
+                                            lineNumber: 43,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6456,12 +6539,12 @@ const IntegrationSection = ()=>{
                                                     children: chip
                                                 }, chip, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paintegration.tsx",
-                                                    lineNumber: 42,
+                                                    lineNumber: 48,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0)))
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paintegration.tsx",
-                                            lineNumber: 40,
+                                            lineNumber: 46,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -6477,13 +6560,13 @@ const IntegrationSection = ()=>{
                                             children: "Explore Custom AI Solutions →"
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paintegration.tsx",
-                                            lineNumber: 45,
+                                            lineNumber: 51,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paintegration.tsx",
-                                    lineNumber: 38,
+                                    lineNumber: 41,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
@@ -6511,7 +6594,7 @@ const IntegrationSection = ()=>{
                                     children: "Keep Humans in Control for Sensitive Steps"
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paintegration.tsx",
-                                    lineNumber: 50,
+                                    lineNumber: 56,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6522,10 +6605,10 @@ const IntegrationSection = ()=>{
                                         margin: 0,
                                         maxWidth: "760px"
                                     },
-                                    children: "Not every step should be fully automated. The Prime Crafters designs human-in-the-loop approval paths for sensitive decisions, escalations, and exceptions — so automation stays practical, auditable, and safe for real business operations."
+                                    children: "Good automation design is not about removing humans from every step. It is about putting humans in the right place. The Prime Crafters builds workflows where AI handles the volume, speed, and consistency of repetitive steps, and humans handle the decisions that require judgment, accountability, or oversight. This keeps automation practical, auditable, and safe for real business operations without creating risk at sensitive points."
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paintegration.tsx",
-                                    lineNumber: 51,
+                                    lineNumber: 57,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -6541,13 +6624,13 @@ const IntegrationSection = ()=>{
                                     children: "Discuss approval workflows →"
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paintegration.tsx",
-                                    lineNumber: 54,
+                                    lineNumber: 60,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paintegration.tsx",
-                            lineNumber: 49,
+                            lineNumber: 55,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6584,7 +6667,7 @@ const IntegrationSection = ()=>{
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paintegration.tsx",
-                                            lineNumber: 60,
+                                            lineNumber: 66,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6596,18 +6679,18 @@ const IntegrationSection = ()=>{
                                             children: step
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paintegration.tsx",
-                                            lineNumber: 61,
+                                            lineNumber: 67,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, step, true, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paintegration.tsx",
-                                    lineNumber: 59,
+                                    lineNumber: 65,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)))
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paintegration.tsx",
-                            lineNumber: 57,
+                            lineNumber: 63,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
@@ -6651,39 +6734,39 @@ const steps = [
     {
         number: "1",
         title: "Workflow Discovery",
-        description: "We start with your real business context — mapping current workflows, tools, handoffs, bottlenecks, and success criteria before designing anything.",
+        description: "We start with the actual operation. We map the workflows as they run today including the tools involved, the data flowing through each step, the people touching each handoff, and the points where work slows down or gets lost. This gives us a factual foundation for every automation decision that follows and prevents building solutions to the wrong problem.",
         color: "#C9A84C"
     },
     {
         number: "2",
         title: "Automation Opportunity Mapping",
-        description: "We identify the highest-impact tasks to automate first, focusing on bottlenecks that create the strongest ROI and fastest operational wins.",
+        description: "With a clear map of the current state, we identify the workflows where automation will deliver the most business value. We rank opportunities by impact, feasibility, and time to ROI so the highest priority bottlenecks get addressed first. The focus is always on automating work that matters to the business, not automating for its own sake. Automate high value bottlenecks first.",
         color: "#4CA88A"
     },
     {
         number: "3",
         title: "Workflow Architecture and Logic Design",
-        description: "We design the full automation flow: triggers, business rules, AI logic, integrations, permissions, and approval paths.",
+        description: "We design the full technical blueprint for each automation: the trigger conditions, the AI logic applied at each step, the integration points, the approval paths, the exception handling, and the success metrics. The client reviews and approves the architecture before any development begins. This is where most automation projects succeed or fail, and we do not rush it.",
         color: "#4C8EC9"
     },
     {
         number: "4",
         title: "Build, Integrate, and Test",
-        description: "We build the workflow, connect your systems, and test accuracy, handoffs, edge cases, and reliability before launch.",
+        description: "Development happens in structured sprints. We build each automation component, integrate it with existing tools in a staging environment, and test it against real workflow scenarios including edge cases, exceptions, and high volume conditions. Nothing moves to production until it has been validated against the real inputs the operation generates.",
         color: "#7C6AC4",
         href: "/services/ai-integration"
     },
     {
         number: "5",
         title: "Launch With Monitoring",
-        description: "We deploy with controlled rollout and monitor workflow performance so issues are caught early and teams stay confident.",
+        description: "We manage a phased rollout that limits risk to the live operation. Post launch monitoring tracks workflow performance, error rates, and processing times so issues are caught and resolved before they become operational problems. Every launch includes clear visibility into what the automation is doing and how it is performing in the real environment.",
         color: "#C94C6A",
         href: "/contact"
     },
     {
         number: "6",
         title: "Optimize Based on Real Usage",
-        description: "We refine automations using live usage data, team feedback, and performance metrics to improve speed, accuracy, and outcomes over time.",
+        description: "Real world usage always reveals improvement opportunities that testing does not. We monitor automation performance after launch, collect feedback from the teams using the system, and make refinements to routing logic, AI prompts, and workflow conditions based on what the live data shows. The automation improves the longer it runs.",
         color: "#C97A4C",
         href: "/services/workflow-optimization"
     }
@@ -6815,7 +6898,7 @@ const ProcessSection = ()=>{
                                 marginBottom: "40px",
                                 maxWidth: "620px"
                             },
-                            children: "Every automation project follows a structured six-step process — from workflow discovery through launch, monitoring, and optimization."
+                            children: "Every automation project follows six structured steps from workflow discovery through launch and optimisation. No step is skipped. No automation is released to production without structured testing and client approval."
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paprocess.tsx",
                             lineNumber: 41,
@@ -6956,6 +7039,23 @@ const ProcessSection = ()=>{
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paprocess.tsx",
                                             lineNumber: 59,
                                             columnNumber: 17
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        activeStep.number === "6" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                            href: "/contact",
+                                            style: {
+                                                display: "inline-block",
+                                                marginLeft: "18px",
+                                                marginTop: "18px",
+                                                fontSize: "13px",
+                                                color: activeStep.color,
+                                                textDecoration: "none",
+                                                fontWeight: 500
+                                            },
+                                            children: "Start the Process →"
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paprocess.tsx",
+                                            lineNumber: 62,
+                                            columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
@@ -7007,52 +7107,95 @@ var _s = __turbopack_context__.k.signature();
 "use client";
 ;
 ;
-const useCases = [
+const teams = [
     {
         icon: "📈",
         title: "Sales Teams",
-        description: "Lead routing, follow-up automation, CRM updates, pipeline workflows, and call summary logging.",
+        description: "Sales teams carry two kinds of work: the conversations that close deals and the admin that supports them. The admin does not need a human. Lead routing, follow up sequences, CRM stage updates, call summary generation, proposal tracking, and pipeline reporting are all automatable. When sales reps stop managing admin tasks, they handle more conversations and close more deals with the same headcount.",
+        chips: [
+            "Lead Routing",
+            "Follow Up Automation",
+            "CRM Updates",
+            "Pipeline Tracking",
+            "Call Summaries"
+        ],
         color: "#C9A84C",
         href: "/case-study/spectrum-voice-agent"
     },
     {
         icon: "💬",
         title: "Customer Support Teams",
-        description: "Ticket routing, FAQ handling, response drafts, escalation paths, and support workflow visibility.",
+        description: "Support volume scales faster than headcount. AI process automation handles the first layer of incoming requests by reading and classifying the message, routing it to the right team or agent, drafting a response for common questions, and escalating edge cases for human review. Agents spend their time on the complex issues that need real expertise. Response times improve. Ticket backlogs shrink.",
+        chips: [
+            "Ticket Routing",
+            "FAQ Handling",
+            "Response Drafts",
+            "Escalation Paths",
+            "Workflow Visibility"
+        ],
         color: "#4C8EC9",
         href: "/services/custom-ai-solutions"
     },
     {
         icon: "⚙️",
         title: "Operations Teams",
-        description: "Task routing, approvals, reporting, alerts, and internal process automation across departments.",
+        description: "Operations teams often manually bridge the gaps between systems that do not connect. Task routing, approval chasing, report compilation, alert management, and internal process coordination all depend on someone moving information from one place to another. Process automation removes that coordination overhead and keeps operations moving without constant manual oversight.",
+        chips: [
+            "Task Routing",
+            "Approval Workflows",
+            "Scheduled Reporting",
+            "Alerts",
+            "Internal Coordination"
+        ],
         color: "#4CA88A",
         href: "/services/workflow-optimization"
     },
     {
-        icon: "⚕️",
+        icon: "🩺",
         title: "Healthcare and Clinic Admin Teams",
-        description: "Patient intake support, scheduling workflows, admin automation, and clinic operations assistance.",
-        color: "#7C6AC4",
+        description: "Healthcare admin involves high volumes of intake forms, scheduling requests, and coordination tasks that follow predictable paths but take significant staff time to manage manually. The Prime Crafters builds automation for patient intake support, appointment scheduling workflows, clinic admin tasks, and team notifications. All healthcare projects are scoped carefully against the specific regulatory and data handling context of the client.",
+        chips: [
+            "Patient Intake Support",
+            "Scheduling Workflows",
+            "Admin Automation",
+            "Team Notifications"
+        ],
+        color: "#C94C6A",
         href: "/case-study/lmn8-ketamine-therapy",
-        note: "Scoped carefully against your regulatory context."
+        disclaimer: "Scoped to each client's specific regulatory and data handling requirements."
     },
     {
         icon: "🏪",
         title: "Service Businesses",
-        description: "Booking automation, call answering workflows, reminders, quote requests, and customer follow-up.",
-        color: "#C97A4C",
+        description: "For local and service businesses, the most valuable automation is the one that handles a customer request when no one is available to do it manually. Booking requests at 10pm. Calls that go unanswered on Saturday morning. Quote requests that sit in an inbox until Monday. Automated booking workflows, call handling systems, and follow up sequences ensure every customer request gets a response immediately regardless of business hours.",
+        chips: [
+            "Booking Automation",
+            "Call Answering",
+            "Quote Requests",
+            "Reminders",
+            "FAQs",
+            "Customer Updates"
+        ],
+        color: "#7C6AC4",
         href: "/case-study/rv-park-voice-agent"
     },
     {
         icon: "🎯",
         title: "Marketing and Lead Generation Teams",
-        description: "Lead research, enrichment, scoring, campaign workflows, and qualified lead delivery into CRM pipelines.",
-        color: "#C94C6A",
+        description: "Lead generation at scale requires a system, not a spreadsheet. The Prime Crafters builds automated pipelines that identify and enrich target prospects, score them against conversion criteria, support outreach sequences, and push qualified leads directly into the CRM pipeline. Marketing teams spend their effort on strategy and creative, not on manual prospect research and data entry.",
+        chips: [
+            "Lead Research",
+            "Enrichment",
+            "Scoring",
+            "Outreach Support",
+            "CRM Delivery",
+            "Performance Reports"
+        ],
+        color: "#C97A4C",
         href: "/case-study/lead-generation-tools"
     }
 ];
-const UseCasesSection = ()=>{
+const UseCasesByTeamSection = ()=>{
     _s();
     const [hovered, setHovered] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -7062,23 +7205,23 @@ const UseCasesSection = ()=>{
                 rel: "stylesheet"
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pausecases.tsx",
-                lineNumber: 20,
+                lineNumber: 63,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("style", {
                 children: __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$services$2f$process$2d$automation$2f$components$2f$shared$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PA_RESPONSIVE_STYLES"]
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pausecases.tsx",
-                lineNumber: 21,
+                lineNumber: 64,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                id: "use-cases",
+                id: "who-we-serve",
                 "aria-labelledby": "use-cases-heading",
                 className: "pa-section",
                 style: {
                     fontFamily: "'DM Sans', sans-serif",
-                    background: "#0b0c14",
+                    background: "#08090f",
                     padding: "80px 40px",
                     position: "relative",
                     overflow: "hidden",
@@ -7086,7 +7229,7 @@ const UseCasesSection = ()=>{
                 },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     style: {
-                        maxWidth: "1100px",
+                        maxWidth: "1180px",
                         margin: "0 auto",
                         position: "relative"
                     },
@@ -7108,7 +7251,7 @@ const UseCasesSection = ()=>{
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pausecases.tsx",
-                                    lineNumber: 25,
+                                    lineNumber: 68,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -7119,16 +7262,16 @@ const UseCasesSection = ()=>{
                                         color: "#C9A84C",
                                         fontWeight: 500
                                     },
-                                    children: "Use Cases"
+                                    children: "Who We Serve"
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pausecases.tsx",
-                                    lineNumber: 26,
+                                    lineNumber: 69,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pausecases.tsx",
-                            lineNumber: 24,
+                            lineNumber: 67,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -7141,12 +7284,12 @@ const UseCasesSection = ()=>{
                                 color: "#f5f1e8",
                                 lineHeight: 1.15,
                                 marginBottom: "12px",
-                                maxWidth: "620px"
+                                maxWidth: "700px"
                             },
                             children: "AI Process Automation Use Cases by Team"
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pausecases.tsx",
-                            lineNumber: 28,
+                            lineNumber: 71,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -7154,13 +7297,13 @@ const UseCasesSection = ()=>{
                                 fontSize: "14px",
                                 color: "rgba(240,237,230,0.5)",
                                 lineHeight: 1.75,
-                                marginBottom: "40px",
-                                maxWidth: "560px"
+                                marginBottom: "48px",
+                                maxWidth: "620px"
                             },
-                            children: "Find the workflows most relevant to your team and see how process automation can remove manual work while keeping control where it matters."
+                            children: "Process automation delivers different returns in different parts of a business. Find the team context most relevant to your operation and see the specific workflows The Prime Crafters builds automation for."
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pausecases.tsx",
-                            lineNumber: 31,
+                            lineNumber: 74,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7168,24 +7311,25 @@ const UseCasesSection = ()=>{
                             style: {
                                 display: "grid",
                                 gridTemplateColumns: "repeat(3, 1fr)",
-                                gap: "16px"
+                                gap: "20px",
+                                alignItems: "stretch"
                             },
                             role: "list",
-                            children: useCases.map((uc)=>{
-                                const isHov = hovered === uc.title;
+                            children: teams.map((team)=>{
+                                const isHov = hovered === team.title;
                                 return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                    href: uc.href,
+                                    href: team.href,
                                     role: "listitem",
-                                    onMouseEnter: ()=>setHovered(uc.title),
+                                    onMouseEnter: ()=>setHovered(team.title),
                                     onMouseLeave: ()=>setHovered(null),
                                     style: {
                                         display: "flex",
                                         flexDirection: "column",
-                                        gap: "12px",
-                                        background: isHov ? `${uc.color}08` : "rgba(255,255,255,0.025)",
-                                        border: `1px solid ${isHov ? uc.color + "35" : "rgba(255,255,255,0.07)"}`,
-                                        borderRadius: "14px",
-                                        padding: "24px",
+                                        gap: "14px",
+                                        background: isHov ? `${team.color}08` : "rgba(255,255,255,0.025)",
+                                        border: `1px solid ${isHov ? team.color + "35" : "rgba(255,255,255,0.07)"}`,
+                                        borderRadius: "16px",
+                                        padding: "28px",
                                         textDecoration: "none",
                                         color: "inherit",
                                         transition: "all 0.25s"
@@ -7193,110 +7337,180 @@ const UseCasesSection = ()=>{
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             style: {
-                                                fontSize: "24px"
+                                                display: "flex",
+                                                alignItems: "center",
+                                                gap: "12px"
                                             },
-                                            children: uc.icon
-                                        }, void 0, false, {
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    style: {
+                                                        width: "44px",
+                                                        height: "44px",
+                                                        borderRadius: "10px",
+                                                        background: `${team.color}14`,
+                                                        border: `1px solid ${team.color}30`,
+                                                        display: "flex",
+                                                        alignItems: "center",
+                                                        justifyContent: "center",
+                                                        fontSize: "20px",
+                                                        flexShrink: 0
+                                                    },
+                                                    children: team.icon
+                                                }, void 0, false, {
+                                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pausecases.tsx",
+                                                    lineNumber: 111,
+                                                    columnNumber: 21
+                                                }, ("TURBOPACK compile-time value", void 0)),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                    style: {
+                                                        fontFamily: "'Playfair Display', serif",
+                                                        fontSize: "17px",
+                                                        fontWeight: 700,
+                                                        color: "#f5f1e8",
+                                                        margin: 0,
+                                                        lineHeight: 1.3
+                                                    },
+                                                    children: team.title
+                                                }, void 0, false, {
+                                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pausecases.tsx",
+                                                    lineNumber: 112,
+                                                    columnNumber: 21
+                                                }, ("TURBOPACK compile-time value", void 0))
+                                            ]
+                                        }, void 0, true, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pausecases.tsx",
-                                            lineNumber: 40,
-                                            columnNumber: 19
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            style: {
-                                                fontFamily: "'Playfair Display', serif",
-                                                fontSize: "16px",
-                                                fontWeight: 700,
-                                                color: "#f5f1e8",
-                                                margin: 0
-                                            },
-                                            children: uc.title
-                                        }, void 0, false, {
-                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pausecases.tsx",
-                                            lineNumber: 41,
+                                            lineNumber: 110,
                                             columnNumber: 19
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             style: {
                                                 fontSize: "13px",
                                                 color: "rgba(240,237,230,0.5)",
-                                                lineHeight: 1.7,
-                                                margin: 0,
-                                                flexGrow: 1
+                                                lineHeight: 1.75,
+                                                margin: 0
                                             },
-                                            children: uc.description
+                                            children: team.description
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pausecases.tsx",
-                                            lineNumber: 42,
+                                            lineNumber: 114,
                                             columnNumber: 19
                                         }, ("TURBOPACK compile-time value", void 0)),
-                                        uc.note && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            style: {
+                                                display: "flex",
+                                                flexWrap: "wrap",
+                                                gap: "6px",
+                                                marginTop: "auto"
+                                            },
+                                            children: team.chips.map((chip)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    style: {
+                                                        fontSize: "11px",
+                                                        padding: "5px 10px",
+                                                        borderRadius: "999px",
+                                                        border: `1px solid ${team.color}30`,
+                                                        background: `${team.color}0c`,
+                                                        color: team.color,
+                                                        fontWeight: 500
+                                                    },
+                                                    children: chip
+                                                }, chip, false, {
+                                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pausecases.tsx",
+                                                    lineNumber: 117,
+                                                    columnNumber: 23
+                                                }, ("TURBOPACK compile-time value", void 0)))
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pausecases.tsx",
+                                            lineNumber: 115,
+                                            columnNumber: 19
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        team.disclaimer && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             style: {
                                                 fontSize: "11px",
                                                 color: "rgba(240,237,230,0.35)",
+                                                lineHeight: 1.6,
                                                 margin: 0,
                                                 fontStyle: "italic"
                                             },
-                                            children: uc.note
+                                            children: team.disclaimer
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pausecases.tsx",
-                                            lineNumber: 43,
-                                            columnNumber: 31
+                                            lineNumber: 121,
+                                            columnNumber: 21
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            style: {
+                                                fontSize: "12px",
+                                                color: team.color,
+                                                fontWeight: 500
+                                            },
+                                            children: "Learn more →"
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pausecases.tsx",
+                                            lineNumber: 123,
+                                            columnNumber: 19
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
-                                }, uc.title, true, {
+                                }, team.title, true, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pausecases.tsx",
-                                    lineNumber: 39,
+                                    lineNumber: 91,
                                     columnNumber: 17
                                 }, ("TURBOPACK compile-time value", void 0));
                             })
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pausecases.tsx",
-                            lineNumber: 35,
+                            lineNumber: 78,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             style: {
-                                marginTop: "32px",
+                                marginTop: "40px",
                                 textAlign: "center"
                             },
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 href: "/case-studies",
                                 style: {
+                                    display: "inline-flex",
+                                    alignItems: "center",
+                                    gap: "8px",
                                     fontSize: "13px",
+                                    fontWeight: 500,
                                     color: "#C9A84C",
-                                    textDecoration: "none",
-                                    fontWeight: 500
+                                    border: "1px solid rgba(201,168,76,0.3)",
+                                    background: "rgba(201,168,76,0.05)",
+                                    borderRadius: "999px",
+                                    padding: "11px 22px",
+                                    textDecoration: "none"
                                 },
-                                children: "View all case studies →"
+                                children: "View All Case Studies →"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pausecases.tsx",
-                                lineNumber: 50,
+                                lineNumber: 130,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pausecases.tsx",
-                            lineNumber: 49,
+                            lineNumber: 129,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pausecases.tsx",
-                    lineNumber: 23,
+                    lineNumber: 66,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pausecases.tsx",
-                lineNumber: 22,
+                lineNumber: 65,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true);
 };
-_s(UseCasesSection, "mEhKvegbaT+HE5gyL2KiZdVDWeQ=");
-_c = UseCasesSection;
-const __TURBOPACK__default__export__ = UseCasesSection;
+_s(UseCasesByTeamSection, "mEhKvegbaT+HE5gyL2KiZdVDWeQ=");
+_c = UseCasesByTeamSection;
+const __TURBOPACK__default__export__ = UseCasesByTeamSection;
 var _c;
-__turbopack_context__.k.register(_c, "UseCasesSection");
+__turbopack_context__.k.register(_c, "UseCasesByTeamSection");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
@@ -7320,38 +7534,38 @@ const benefits = [
     {
         icon: "⏱",
         title: "Reduce Manual Work and Data Entry",
-        description: "Automate repetitive steps so teams spend less time copying information and more time on high-value work.",
+        description: "Every hour a team member spends copying data between tools, manually updating records, and routing requests is an hour not spent on customers, strategy, or high value work. Process automation removes these steps permanently. The work gets done faster, more accurately, and without tying up a team member to make it happen.",
         color: "#C9A84C"
     },
     {
         icon: "⚡",
         title: "Respond to Leads and Customers Faster",
-        description: "Route requests, trigger follow-ups, and update systems instantly instead of waiting on manual handoffs.",
+        description: "Speed is a competitive advantage in sales and support. The business that responds to a lead in two minutes will outperform the one that responds in two hours. Automated workflows route requests, trigger follow ups, and update records the moment an action occurs, so no lead waits for a business day to start before hearing back.",
         color: "#4C8EC9"
     },
     {
         icon: "🔗",
         title: "Keep Business Systems Updated",
-        description: "Sync CRMs, forms, inboxes, and internal tools so records stay accurate across your stack.",
+        description: "Stale CRM data, outdated records, and missing information make every downstream workflow less effective. Process automation keeps systems in sync by automatically writing to the CRM, database, and internal tools whenever a relevant action takes place. Every system has the current information it needs without anyone manually maintaining it.",
         color: "#4CA88A",
         href: "/services/ai-integration"
     },
     {
         icon: "✓",
         title: "Reduce Human Error in Repetitive Steps",
-        description: "Standardise workflow logic so the same task is handled consistently every time.",
+        description: "Manual processes are consistent right up until the moment they are not. Someone forgets a step, misroutes a ticket, enters the wrong data, or skips a follow up. Automated workflows execute the same logic the same way every single time. No skipped steps, no misrouted requests, no data entered incorrectly because someone was in a rush.",
         color: "#7C6AC4"
     },
     {
         icon: "📊",
         title: "Improve Visibility Into Workflows",
-        description: "Track process performance, bottlenecks, and outcomes with reporting and alerts built into the automation.",
+        description: "When work moves manually between people and systems, leadership has limited visibility into what is happening, how long things take, and where delays are building up. Automated workflows generate data as they run. Reporting, alerts, and performance summaries give operations and leadership teams a real time picture of workflow health without anyone compiling a report manually.",
         color: "#C94C6A"
     },
     {
         icon: "📈",
         title: "Scale Operations Without Adding More Manual Work",
-        description: "Handle more volume without proportionally increasing admin overhead or operational drag.",
+        description: "Manual operations scale linearly: more volume means more staff. Automated operations scale differently. The Prime Crafters builds systems that handle significantly more leads, tickets, bookings, and data requests than a manual team could manage, without requiring a proportional increase in headcount or overhead. The business grows. The manual work does not.",
         color: "#C97A4C",
         href: "/contact"
     }
@@ -7423,7 +7637,7 @@ const BenefitsSection = ()=>{
                                         color: "#C9A84C",
                                         fontWeight: 500
                                     },
-                                    children: "Benefits"
+                                    children: "Why Invest"
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pabenefits.tsx",
                                     lineNumber: 26,
@@ -7461,7 +7675,7 @@ const BenefitsSection = ()=>{
                                 marginBottom: "40px",
                                 maxWidth: "560px"
                             },
-                            children: "Process automation is not just about saving time. It improves speed, accuracy, visibility, and scalability across the workflows that drive revenue and operations."
+                            children: "Process automation is not only about saving time. It improves response speed, data accuracy, workflow visibility, and operational capacity across the processes that drive revenue and day to day performance."
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pabenefits.tsx",
                             lineNumber: 31,
@@ -7532,6 +7746,19 @@ const BenefitsSection = ()=>{
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pabenefits.tsx",
                                             lineNumber: 43,
                                             columnNumber: 19
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        item.href && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            style: {
+                                                fontSize: "12px",
+                                                color: item.color,
+                                                fontWeight: 500,
+                                                marginTop: "auto"
+                                            },
+                                            children: "Learn More →"
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pabenefits.tsx",
+                                            lineNumber: 45,
+                                            columnNumber: 21
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, item.title, true, {
@@ -7558,15 +7785,15 @@ const BenefitsSection = ()=>{
                                     textDecoration: "none",
                                     fontWeight: 500
                                 },
-                                children: "See automation results in our case studies →"
+                                children: "See Results From Live Projects →"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pabenefits.tsx",
-                                lineNumber: 50,
+                                lineNumber: 53,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pabenefits.tsx",
-                            lineNumber: 49,
+                            lineNumber: 52,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
@@ -7611,35 +7838,105 @@ const caseStudies = [
     {
         title: "AI Lead Generation Tools",
         category: "Lead Generation Automation",
-        result: "50K+ qualified leads per month",
+        description: "A multi channel AI lead generation system that sources, enriches, scores, and delivers qualified leads directly into CRM pipelines without manual prospecting.",
+        metrics: [
+            {
+                label: "Qualified Leads Per Month",
+                value: "50,000+"
+            },
+            {
+                label: "Manual Prospecting Time Saved",
+                value: "90%"
+            },
+            {
+                label: "Qualified Lead Rate Increase",
+                value: "+120%"
+            }
+        ],
         href: "/case-study/lead-generation-tools",
         color: "#C9A84C"
     },
     {
         title: "Spectrum AI Voice Agent",
         category: "Sales Workflow Automation",
-        result: "10K+ AI-handled calls per month",
+        description: "An enterprise grade AI voice agent that handles outbound and inbound sales calls at scale.",
+        metrics: [
+            {
+                label: "AI Handled Calls Per Month",
+                value: "10,000+"
+            },
+            {
+                label: "Conversion Rate Increase",
+                value: "+45%"
+            },
+            {
+                label: "Operational Cost Reduction",
+                value: "70%"
+            }
+        ],
         href: "/case-study/spectrum-voice-agent",
         color: "#C94C6A"
     },
     {
         title: "RV Park AI Voice Agent",
-        category: "Booking Automation",
-        result: "100% call answer rate",
+        category: "Booking and Service Automation",
+        description: "A 24 hour AI voice agent deployed for a local service business that answers every inbound call.",
+        metrics: [
+            {
+                label: "Inbound Call Answer Rate",
+                value: "100%"
+            },
+            {
+                label: "Booking Conversion Increase",
+                value: "+85%"
+            },
+            {
+                label: "Staff Hours Saved Per Week",
+                value: "30 hrs"
+            }
+        ],
         href: "/case-study/rv-park-voice-agent",
         color: "#4C8EC9"
     },
     {
         title: "lmn8 Ketamine Therapy AI Platform",
         category: "Healthcare Admin Workflows",
-        result: "65% faster patient intake",
+        description: "A HIPAA compliant AI platform that automates the patient journey from enquiry through booking.",
+        metrics: [
+            {
+                label: "Intake Time Reduction",
+                value: "65%"
+            },
+            {
+                label: "AI Matching Accuracy",
+                value: "94%"
+            },
+            {
+                label: "Clinic Capacity Increase",
+                value: "+45%"
+            }
+        ],
         href: "/case-study/lmn8-ketamine-therapy",
         color: "#4CA88A"
     },
     {
         title: "3vltn Domain AI Platform",
-        category: "Custom Workflow Platform",
-        result: "+250% deal closure rate",
+        category: "Custom Workflow Automation",
+        description: "A fully automated business operations platform for a domain investment company.",
+        metrics: [
+            {
+                label: "Deal Closure Rate Increase",
+                value: "+250%"
+            },
+            {
+                label: "Manual Hours Saved Per Week",
+                value: "40 hrs"
+            },
+            {
+                label: "Revenue Growth",
+                value: "+180%"
+            }
+        ],
         href: "/case-study/3vltn",
         color: "#7C6AC4"
     }
@@ -7647,6 +7944,153 @@ const caseStudies = [
 const CaseStudiesSection = ()=>{
     _s();
     const [hovered, setHovered] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    const renderCard = (study, gridColumn)=>{
+        const isHov = hovered === study.title;
+        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+            href: study.href,
+            role: "listitem",
+            onMouseEnter: ()=>setHovered(study.title),
+            onMouseLeave: ()=>setHovered(null),
+            className: "pa-case-card",
+            style: {
+                gridColumn,
+                display: "flex",
+                flexDirection: "column",
+                gap: "16px",
+                background: isHov ? `${study.color}08` : "rgba(255,255,255,0.025)",
+                border: `1px solid ${isHov ? study.color + "35" : "rgba(255,255,255,0.07)"}`,
+                borderRadius: "14px",
+                padding: "28px",
+                textDecoration: "none",
+                color: "inherit",
+                transition: "all 0.25s",
+                minHeight: "360px"
+            },
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    style: {
+                        display: "flex",
+                        flexDirection: "column",
+                        gap: "8px"
+                    },
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            style: {
+                                fontSize: "11px",
+                                color: study.color,
+                                fontWeight: 600,
+                                letterSpacing: "0.04em"
+                            },
+                            children: study.category
+                        }, void 0, false, {
+                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pacasestudies.tsx",
+                            lineNumber: 103,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                            style: {
+                                fontFamily: "'Playfair Display', serif",
+                                fontSize: "18px",
+                                fontWeight: 700,
+                                color: "#f5f1e8",
+                                margin: 0,
+                                lineHeight: 1.3
+                            },
+                            children: study.title
+                        }, void 0, false, {
+                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pacasestudies.tsx",
+                            lineNumber: 104,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pacasestudies.tsx",
+                    lineNumber: 102,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    style: {
+                        fontSize: "13px",
+                        color: "rgba(240,237,230,0.5)",
+                        lineHeight: 1.75,
+                        margin: 0,
+                        flexGrow: 1
+                    },
+                    children: study.description
+                }, void 0, false, {
+                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pacasestudies.tsx",
+                    lineNumber: 107,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    style: {
+                        display: "flex",
+                        flexDirection: "column",
+                        gap: "10px",
+                        padding: "12px 0",
+                        borderTop: "1px solid rgba(255,255,255,0.05)"
+                    },
+                    children: study.metrics.map((metric, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            style: {
+                                display: "flex",
+                                justifyContent: "space-between",
+                                alignItems: "center"
+                            },
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    style: {
+                                        fontSize: "11px",
+                                        color: "rgba(240,237,230,0.4)",
+                                        fontWeight: 500
+                                    },
+                                    children: metric.label
+                                }, void 0, false, {
+                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pacasestudies.tsx",
+                                    lineNumber: 113,
+                                    columnNumber: 15
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    style: {
+                                        fontSize: "12px",
+                                        color: study.color,
+                                        fontWeight: 700
+                                    },
+                                    children: metric.value
+                                }, void 0, false, {
+                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pacasestudies.tsx",
+                                    lineNumber: 114,
+                                    columnNumber: 15
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, idx, true, {
+                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pacasestudies.tsx",
+                            lineNumber: 112,
+                            columnNumber: 13
+                        }, ("TURBOPACK compile-time value", void 0)))
+                }, void 0, false, {
+                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pacasestudies.tsx",
+                    lineNumber: 110,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                    style: {
+                        fontSize: "12px",
+                        color: study.color,
+                        fontWeight: 500
+                    },
+                    children: "View Case Study →"
+                }, void 0, false, {
+                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pacasestudies.tsx",
+                    lineNumber: 119,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0))
+            ]
+        }, study.title, true, {
+            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pacasestudies.tsx",
+            lineNumber: 80,
+            columnNumber: 7
+        }, ("TURBOPACK compile-time value", void 0));
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
@@ -7654,14 +8098,26 @@ const CaseStudiesSection = ()=>{
                 rel: "stylesheet"
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pacasestudies.tsx",
-                lineNumber: 19,
+                lineNumber: 126,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("style", {
                 children: __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$app$2f$services$2f$process$2d$automation$2f$components$2f$shared$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PA_RESPONSIVE_STYLES"]
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pacasestudies.tsx",
-                lineNumber: 20,
+                lineNumber: 127,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("style", {
+                children: `
+        @media (max-width: 900px) {
+          .pa-case-grid { grid-template-columns: 1fr !important; }
+          .pa-case-card { grid-column: auto !important; }
+        }
+      `
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pacasestudies.tsx",
+                lineNumber: 128,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -7700,7 +8156,7 @@ const CaseStudiesSection = ()=>{
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pacasestudies.tsx",
-                                    lineNumber: 24,
+                                    lineNumber: 137,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -7711,16 +8167,16 @@ const CaseStudiesSection = ()=>{
                                         color: "#C9A84C",
                                         fontWeight: 500
                                     },
-                                    children: "Proof"
+                                    children: "Proof of Work"
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pacasestudies.tsx",
-                                    lineNumber: 25,
+                                    lineNumber: 138,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pacasestudies.tsx",
-                            lineNumber: 23,
+                            lineNumber: 136,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -7738,7 +8194,7 @@ const CaseStudiesSection = ()=>{
                             children: "Automation and AI Systems We've Built"
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pacasestudies.tsx",
-                            lineNumber: 27,
+                            lineNumber: 140,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -7749,104 +8205,31 @@ const CaseStudiesSection = ()=>{
                                 marginBottom: "40px",
                                 maxWidth: "560px"
                             },
-                            children: "Real projects with measurable outcomes across lead generation, sales workflows, booking automation, healthcare admin, and custom platform automation."
+                            children: "Real production systems across lead generation, sales workflows, booking automation, healthcare admin, and custom platform builds. Every result comes from post deployment performance tracking on a live system."
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pacasestudies.tsx",
-                            lineNumber: 30,
+                            lineNumber: 143,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "pa-grid-3",
+                            className: "pa-case-grid",
                             style: {
                                 display: "grid",
-                                gridTemplateColumns: "repeat(auto-fit, minmax(310px, 1fr))",
-                                gap: "22px",
-                                alignItems: "stretch"
+                                gridTemplateColumns: "repeat(6, 1fr)",
+                                gridAutoRows: "1fr",
+                                gap: "22px"
                             },
                             role: "list",
-                            children: caseStudies.map((study)=>{
-                                const isHov = hovered === study.title;
-                                return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                    href: study.href,
-                                    role: "listitem",
-                                    onMouseEnter: ()=>setHovered(study.title),
-                                    onMouseLeave: ()=>setHovered(null),
-                                    style: {
-                                        display: "flex",
-                                        flexDirection: "column",
-                                        gap: "10px",
-                                        background: isHov ? `${study.color}08` : "rgba(255,255,255,0.025)",
-                                        border: `1px solid ${isHov ? study.color + "35" : "rgba(255,255,255,0.07)"}`,
-                                        borderRadius: "14px",
-                                        padding: "24px",
-                                        textDecoration: "none",
-                                        color: "inherit",
-                                        transition: "all 0.25s"
-                                    },
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            style: {
-                                                fontSize: "11px",
-                                                color: study.color,
-                                                fontWeight: 600,
-                                                letterSpacing: "0.04em"
-                                            },
-                                            children: study.category
-                                        }, void 0, false, {
-                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pacasestudies.tsx",
-                                            lineNumber: 48,
-                                            columnNumber: 19
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            style: {
-                                                fontFamily: "'Playfair Display', serif",
-                                                fontSize: "16px",
-                                                fontWeight: 700,
-                                                color: "#f5f1e8",
-                                                margin: 0,
-                                                lineHeight: 1.3
-                                            },
-                                            children: study.title
-                                        }, void 0, false, {
-                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pacasestudies.tsx",
-                                            lineNumber: 49,
-                                            columnNumber: 19
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            style: {
-                                                fontSize: "13px",
-                                                color: "#C9A84C",
-                                                fontWeight: 500,
-                                                margin: 0
-                                            },
-                                            children: study.result
-                                        }, void 0, false, {
-                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pacasestudies.tsx",
-                                            lineNumber: 50,
-                                            columnNumber: 19
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            style: {
-                                                fontSize: "12px",
-                                                color: study.color,
-                                                marginTop: "auto"
-                                            },
-                                            children: "View case study →"
-                                        }, void 0, false, {
-                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pacasestudies.tsx",
-                                            lineNumber: 51,
-                                            columnNumber: 19
-                                        }, ("TURBOPACK compile-time value", void 0))
-                                    ]
-                                }, study.title, true, {
-                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pacasestudies.tsx",
-                                    lineNumber: 47,
-                                    columnNumber: 17
-                                }, ("TURBOPACK compile-time value", void 0));
-                            })
-                        }, void 0, false, {
+                            children: [
+                                renderCard(caseStudies[0], "1 / span 2"),
+                                renderCard(caseStudies[1], "3 / span 2"),
+                                renderCard(caseStudies[2], "5 / span 2"),
+                                renderCard(caseStudies[3], "2 / span 2"),
+                                renderCard(caseStudies[4], "4 / span 2")
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pacasestudies.tsx",
-                            lineNumber: 34,
+                            lineNumber: 147,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7865,23 +8248,23 @@ const CaseStudiesSection = ()=>{
                                 children: "Explore all case studies →"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pacasestudies.tsx",
-                                lineNumber: 58,
+                                lineNumber: 165,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pacasestudies.tsx",
-                            lineNumber: 57,
+                            lineNumber: 164,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pacasestudies.tsx",
-                    lineNumber: 22,
+                    lineNumber: 135,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pacasestudies.tsx",
-                lineNumber: 21,
+                lineNumber: 134,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
@@ -7915,28 +8298,28 @@ const reasons = [
     {
         icon: "🗺",
         title: "We Map the Process Before Building the Automation",
-        description: "Every project starts with workflow discovery and opportunity mapping — not a generic automation template.",
+        description: "Every engagement starts with a workflow discovery and opportunity mapping session before any design or development work begins. We audit the real process as it runs today, identify where the highest impact automation opportunities are, and build a clear picture of what needs to be built and why. This prevents the most common automation failure mode: building the right system for the wrong problem.",
         color: "#C9A84C",
         href: "/about-us"
     },
     {
         icon: "🔗",
         title: "We Build Around Existing Tools",
-        description: "Automations connect to your CRM, website, forms, email, calendars, and internal systems instead of replacing them.",
+        description: "Businesses have already invested in their technology stack. The Prime Crafters builds automation that works inside that stack rather than requiring teams to adopt new platforms they do not need. Automations connect to CRMs, websites, forms, email, calendars, databases, and internal systems through integrations and APIs so AI becomes a functional layer in the existing operation.",
         color: "#4C8EC9",
         href: "/services/ai-integration"
     },
     {
         icon: "📊",
         title: "We Keep Automation Practical and Measurable",
-        description: "Workflows are designed with clear KPIs so you can see whether automation is improving speed, accuracy, and outcomes.",
+        description: "Every automation is designed with clear success metrics defined before build begins. After launch, we track workflow performance against those metrics and make refinements based on real results. Clients see exactly what the automation is doing, how fast it is running, and what improvement it is delivering compared to the manual process it replaced.",
         color: "#4CA88A",
         href: "/case-studies"
     },
     {
         icon: "🔄",
         title: "We Support Strategy, Build, Launch, and Optimization",
-        description: "From discovery through post-launch refinement, The Prime Crafters stays involved across the full automation lifecycle.",
+        description: "The Prime Crafters stays involved across the full automation lifecycle. Discovery, architecture, development, integration, testing, launch, monitoring, and post launch optimisation are all part of the engagement. Clients receive an operational system with the support needed to keep it running and improving.",
         color: "#C97A4C",
         href: "/contact"
     }
@@ -8008,7 +8391,7 @@ const WhyChooseUsSection = ()=>{
                                         color: "#C9A84C",
                                         fontWeight: 500
                                     },
-                                    children: "Why Choose Us"
+                                    children: "Why Us"
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pawhychooseus.tsx",
                                     lineNumber: 24,
@@ -8029,13 +8412,27 @@ const WhyChooseUsSection = ()=>{
                                 fontWeight: 700,
                                 color: "#f5f1e8",
                                 lineHeight: 1.15,
-                                marginBottom: "40px",
+                                marginBottom: "16px",
                                 maxWidth: "700px"
                             },
                             children: "Why Choose ThePrimeCrafters for AI Process Automation?"
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pawhychooseus.tsx",
                             lineNumber: 26,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            style: {
+                                fontSize: "14px",
+                                color: "rgba(240,237,230,0.5)",
+                                lineHeight: 1.75,
+                                marginBottom: "40px",
+                                maxWidth: "640px"
+                            },
+                            children: "The Prime Crafters builds process automation that fits real operations, not demonstration environments. Every project starts with a process audit. Every system integrates with the tools the client already uses. Every automation is measured against clear KPIs from day one."
+                        }, void 0, false, {
+                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pawhychooseus.tsx",
+                            lineNumber: 29,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8073,7 +8470,7 @@ const WhyChooseUsSection = ()=>{
                                             children: item.icon
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pawhychooseus.tsx",
-                                            lineNumber: 35,
+                                            lineNumber: 38,
                                             columnNumber: 19
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8090,7 +8487,7 @@ const WhyChooseUsSection = ()=>{
                                                     children: item.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pawhychooseus.tsx",
-                                                    lineNumber: 37,
+                                                    lineNumber: 40,
                                                     columnNumber: 21
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -8103,25 +8500,25 @@ const WhyChooseUsSection = ()=>{
                                                     children: item.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pawhychooseus.tsx",
-                                                    lineNumber: 38,
+                                                    lineNumber: 41,
                                                     columnNumber: 21
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pawhychooseus.tsx",
-                                            lineNumber: 36,
+                                            lineNumber: 39,
                                             columnNumber: 19
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, item.title, true, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pawhychooseus.tsx",
-                                    lineNumber: 34,
+                                    lineNumber: 37,
                                     columnNumber: 17
                                 }, ("TURBOPACK compile-time value", void 0));
                             })
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pawhychooseus.tsx",
-                            lineNumber: 30,
+                            lineNumber: 33,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
@@ -8163,15 +8560,19 @@ const serviceEntities = [
     "Process Automation",
     "Workflow Optimization",
     "AI Integrations",
-    "Custom AI Systems"
+    "Custom AI Systems",
+    "CRM Automation",
+    "Lead Generation Automation",
+    "Booking Workflow Automation"
 ];
 const teamEntities = [
-    "Sales",
-    "Operations",
-    "Support",
-    "Lead Generation",
-    "Admin",
-    "Customer Workflows"
+    "Sales Workflow Automation",
+    "Operations Automation",
+    "Customer Support Automation",
+    "Lead Generation Automation",
+    "Admin Workflow Automation",
+    "Healthcare Admin Automation",
+    "Service Business Automation"
 ];
 const EntitySection = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -8276,7 +8677,7 @@ const EntitySection = ()=>{
                                 marginBottom: "32px",
                                 maxWidth: "760px"
                             },
-                            children: "The Prime Crafters is a process automation agency that designs connected AI workflows for sales, support, operations, lead generation, and admin teams. Work spans workflow mapping, automation architecture, system integrations, launch, monitoring, and optimization — all built around how your business actually operates."
+                            children: "The Prime Crafters is a process automation agency that designs and deploys AI workflow automation systems for sales teams, customer support teams, operations teams, marketing and lead generation teams, healthcare admin environments, and service businesses. Work covers workflow discovery, automation architecture, system integrations, build, testing, launch, monitoring, and optimisation. Every system is built around the specific workflows of the client operation, connected to existing tools, and measured against real performance KPIs after deployment."
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Paentity.tsx",
                             lineNumber: 25,
@@ -8451,9 +8852,9 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
-const CTASection = ()=>{
+const FinalCTASection = ()=>{
     _s();
-    const [btnHov, setBtnHov] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [hoveredCTA, setHoveredCTA] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
@@ -8472,164 +8873,107 @@ const CTASection = ()=>{
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                id: "cta",
-                "aria-labelledby": "cta-heading",
+                id: "final-cta",
+                "aria-labelledby": "final-cta-heading",
                 className: "pa-section",
                 style: {
                     fontFamily: "'DM Sans', sans-serif",
                     background: "#08090f",
-                    padding: "100px 40px",
+                    padding: "80px 40px",
                     position: "relative",
                     overflow: "hidden",
-                    boxSizing: "border-box",
-                    borderTop: "1px solid rgba(201,168,76,0.3)",
-                    borderBottom: "1px solid rgba(201,168,76,0.3)"
+                    boxSizing: "border-box"
                 },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     style: {
-                        maxWidth: "680px",
+                        maxWidth: "1100px",
                         margin: "0 auto",
                         position: "relative",
-                        textAlign: "center"
+                        textAlign: "center",
+                        border: "1px solid rgba(201,168,76,0.3)",
+                        borderRadius: "20px",
+                        padding: "64px 40px",
+                        background: "rgba(201,168,76,0.04)"
                     },
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            "aria-hidden": "true",
                             style: {
-                                display: "flex",
-                                alignItems: "center",
-                                justifyContent: "center",
-                                gap: "10px",
-                                marginBottom: "24px"
-                            },
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    style: {
-                                        width: "28px",
-                                        height: "1px",
-                                        background: "#C9A84C",
-                                        display: "block"
-                                    }
-                                }, void 0, false, {
-                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/PaCTA.tsx",
-                                    lineNumber: 17,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    style: {
-                                        fontSize: "11px",
-                                        letterSpacing: "0.2em",
-                                        textTransform: "uppercase",
-                                        color: "#C9A84C",
-                                        fontWeight: 500
-                                    },
-                                    children: "ThePrimeCrafters"
-                                }, void 0, false, {
-                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/PaCTA.tsx",
-                                    lineNumber: 18,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    style: {
-                                        width: "28px",
-                                        height: "1px",
-                                        background: "#C9A84C",
-                                        display: "block"
-                                    }
-                                }, void 0, false, {
-                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/PaCTA.tsx",
-                                    lineNumber: 19,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0))
-                            ]
-                        }, void 0, true, {
+                                position: "absolute",
+                                inset: 0,
+                                backgroundImage: "radial-gradient(ellipse at 50% 0%, rgba(201,168,76,0.08) 0%, transparent 60%)",
+                                pointerEvents: "none",
+                                borderRadius: "20px"
+                            }
+                        }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/PaCTA.tsx",
                             lineNumber: 16,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            id: "cta-heading",
+                            id: "final-cta-heading",
                             className: "pa-h2",
                             style: {
                                 fontFamily: "'Playfair Display', serif",
-                                fontSize: "42px",
-                                fontWeight: 900,
+                                fontSize: "36px",
+                                fontWeight: 700,
                                 color: "#f5f1e8",
-                                lineHeight: 1.15,
-                                marginBottom: "16px"
+                                lineHeight: 1.2,
+                                marginBottom: "28px",
+                                position: "relative"
                             },
                             children: "Ready to Automate a Business Process?"
+                        }, void 0, false, {
+                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/PaCTA.tsx",
+                            lineNumber: 18,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            href: "/contact",
+                            onMouseEnter: ()=>setHoveredCTA(true),
+                            onMouseLeave: ()=>setHoveredCTA(false),
+                            style: {
+                                display: "inline-flex",
+                                alignItems: "center",
+                                gap: "8px",
+                                background: hoveredCTA ? "#b8923e" : "#C9A84C",
+                                color: "#08090f",
+                                padding: "16px 36px",
+                                borderRadius: "4px",
+                                fontSize: "15px",
+                                fontWeight: 600,
+                                textDecoration: "none",
+                                transition: "background 0.2s",
+                                position: "relative"
+                            },
+                            children: "Book a Free Automation Strategy Call →"
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/PaCTA.tsx",
                             lineNumber: 22,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             style: {
-                                fontFamily: "'Playfair Display', serif",
-                                fontSize: "20px",
-                                fontWeight: 700,
-                                color: "#C9A84C",
-                                marginBottom: "32px"
+                                marginTop: "20px",
+                                position: "relative"
                             },
-                            children: "Book a Free Automation Strategy Call"
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/contact",
+                                style: {
+                                    fontSize: "14px",
+                                    color: "rgba(240,237,230,0.55)",
+                                    textDecoration: "none",
+                                    fontWeight: 400
+                                },
+                                children: "Tell Us the Workflow You Want to Automate. We will review your operation and show you exactly what is possible in a free 20 minute strategy call with no commitment required."
+                            }, void 0, false, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/PaCTA.tsx",
+                                lineNumber: 27,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/PaCTA.tsx",
                             lineNumber: 26,
-                            columnNumber: 11
-                        }, ("TURBOPACK compile-time value", void 0)),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                            href: "/contact",
-                            onMouseEnter: ()=>setBtnHov(true),
-                            onMouseLeave: ()=>setBtnHov(false),
-                            style: {
-                                display: "inline-flex",
-                                alignItems: "center",
-                                gap: "8px",
-                                background: btnHov ? "#b8923e" : "#C9A84C",
-                                color: "#08090f",
-                                padding: "16px 36px",
-                                borderRadius: "4px",
-                                fontSize: "15px",
-                                fontWeight: 700,
-                                textDecoration: "none",
-                                transition: "background 0.2s",
-                                marginBottom: "20px"
-                            },
-                            children: "Book a Free Automation Strategy Call →"
-                        }, void 0, false, {
-                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/PaCTA.tsx",
-                            lineNumber: 30,
-                            columnNumber: 11
-                        }, ("TURBOPACK compile-time value", void 0)),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            style: {
-                                fontSize: "14px",
-                                color: "rgba(240,237,230,0.5)",
-                                lineHeight: 1.75,
-                                margin: 0
-                            },
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                    style: {
-                                        color: "rgba(240,237,230,0.7)",
-                                        fontWeight: 600
-                                    },
-                                    children: "Tell Us the Workflow You Want to Automate"
-                                }, void 0, false, {
-                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/PaCTA.tsx",
-                                    lineNumber: 35,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/PaCTA.tsx",
-                                    lineNumber: 36,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                "Share the process, tools, and outcome you need. We will review your workflow and show you what is possible in a free strategy call."
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/PaCTA.tsx",
-                            lineNumber: 34,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
@@ -8646,11 +8990,11 @@ const CTASection = ()=>{
         ]
     }, void 0, true);
 };
-_s(CTASection, "DulJKjCKTYn7y0qaoipP1amcehs=");
-_c = CTASection;
-const __TURBOPACK__default__export__ = CTASection;
+_s(FinalCTASection, "GY+N2JJcPe9TQQiyiZgSH5Q2Cns=");
+_c = FinalCTASection;
+const __TURBOPACK__default__export__ = FinalCTASection;
 var _c;
-__turbopack_context__.k.register(_c, "CTASection");
+__turbopack_context__.k.register(_c, "FinalCTASection");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
@@ -8675,31 +9019,31 @@ const faqItems = [
         id: "faq-1",
         question: "What are AI process automation services?",
         accentColor: "#C9A84C",
-        answer: "AI process automation services design and implement intelligent workflows that automate repetitive business tasks — such as lead routing, CRM updates, support ticket handling, reporting, and approval steps — using connected systems and AI logic tailored to your operation."
-    },
-    {
-        id: "faq-2",
-        question: "What business processes can ThePrimeCrafters automate?",
-        accentColor: "#4C8EC9",
-        answer: "The Prime Crafters automates lead intake, CRM sync, appointment booking, customer support routing, sales follow-up, reporting, document workflows, admin tasks, and human-in-the-loop approval processes across sales, support, operations, and admin teams.",
+        answer: "AI process automation services design and build intelligent workflow systems that handle repetitive business tasks automatically. This includes lead routing, CRM updates, support ticket handling, appointment booking, reporting, approval workflows, and data sync across business tools. The Prime Crafters builds these systems around the specific workflows of each client operation.",
         links: [
             {
-                label: "View Services",
+                label: "Our Services",
                 href: "/services"
             }
         ]
     },
     {
+        id: "faq-2",
+        question: "What business processes can ThePrimeCrafters automate?",
+        accentColor: "#4C8EC9",
+        answer: "Lead intake and routing, CRM updates and data sync, appointment booking and follow up sequences, customer support and ticket routing, sales follow up and pipeline workflows, reporting and performance summaries, document and admin workflows, and human in the loop approval processes across sales, support, operations, and admin teams."
+    },
+    {
         id: "faq-3",
         question: "How is AI process automation different from basic workflow automation?",
         accentColor: "#4CA88A",
-        answer: "Basic workflow automation follows simple triggers and fixed rules. AI process automation adds intelligent steps such as classification, summarisation, scoring, routing, and drafting — while still connecting to your CRM, forms, email, and internal tools."
+        answer: "Basic workflow automation follows fixed triggers and simple rules. It breaks when workflows involve conditional logic, exceptions, or multi step decisions. AI process automation adds classification, scoring, summarisation, routing, and drafting capabilities so the system can handle complex real world workflows, not just predictable linear ones."
     },
     {
         id: "faq-4",
         question: "Can ThePrimeCrafters connect automation with my CRM, website, email, and internal tools?",
         accentColor: "#7C6AC4",
-        answer: "Yes. Process automations are built to connect with CRMs, websites, forms, databases, email platforms, calendars, spreadsheets, and other business systems through integrations and APIs.",
+        answer: "Yes. Every automation system The Prime Crafters builds is integrated with the client's existing technology stack including CRMs, websites, web forms, databases, email platforms, calendars, spreadsheets, and any business software with a standard API. All integrations are tested in staging before going live.",
         links: [
             {
                 label: "AI Integration Services",
@@ -8711,31 +9055,37 @@ const faqItems = [
         id: "faq-5",
         question: "What is the process for building an AI process automation system?",
         accentColor: "#C94C6A",
-        answer: "The process includes workflow discovery, automation opportunity mapping, workflow architecture design, build and integration, testing, launch with monitoring, and optimization based on real usage."
+        answer: "Six steps: workflow discovery, automation opportunity mapping, workflow architecture and logic design, build and integration, launch with monitoring, and optimisation based on real usage. No step is skipped and no system goes live without client approval."
     },
     {
         id: "faq-6",
         question: "Which teams benefit most from AI process automation?",
         accentColor: "#C97A4C",
-        answer: "Sales, customer support, operations, marketing and lead generation, healthcare admin, and service businesses benefit most when they have repeatable workflows, disconnected tools, or high manual volume."
+        answer: "Sales teams, customer support teams, operations teams, marketing and lead generation teams, healthcare admin teams, and service businesses all benefit when they have repeatable workflows, disconnected tools, or high volumes of manual coordination tasks."
     },
     {
         id: "faq-7",
         question: "Is process automation only for large companies?",
         accentColor: "#C9A84C",
-        answer: "No. Service businesses, growing teams, and mid-size operations often see fast wins from automating lead response, booking workflows, CRM updates, and support routing without needing enterprise-scale infrastructure."
+        answer: "No. Service businesses, growing teams, and mid size operations often see the fastest returns from automation because their manual processes are clear and their volume is high enough to justify the build. Lead response, booking workflows, CRM updates, and support routing all deliver quick wins without requiring enterprise scale infrastructure."
     },
     {
         id: "faq-8",
         question: "How long does AI process automation take to set up?",
         accentColor: "#4C8EC9",
-        answer: "Smaller focused workflows can launch in a few weeks. Larger multi-step automations with several integrations take longer. Timeline is confirmed during discovery based on workflow complexity and system connections."
+        answer: "Simpler focused automations with one or two integrations can go live within a few weeks. Larger multi step systems with several integrations and complex logic take longer. Every timeline is confirmed during the discovery and architecture phases based on the specific scope of the project.",
+        links: [
+            {
+                label: "Discuss Your Project",
+                href: "/contact"
+            }
+        ]
     },
     {
         id: "faq-9",
         question: "How much do AI process automation services cost?",
         accentColor: "#4CA88A",
-        answer: "Cost depends on workflow complexity, number of integrations, AI logic required, and rollout scope. The Prime Crafters provides a scoped proposal after reviewing your process during a strategy call.",
+        answer: "Cost depends on workflow complexity, number of integrations, AI logic required, and rollout scope. The Prime Crafters provides a fully scoped proposal after reviewing the specific workflow and requirements during a free strategy call.",
         links: [
             {
                 label: "Book a Consultation",
@@ -8747,19 +9097,19 @@ const faqItems = [
         id: "faq-10",
         question: "Can AI process automation include human approvals?",
         accentColor: "#7C6AC4",
-        answer: "Yes. Human-in-the-loop approval workflows are commonly built for sensitive decisions, exceptions, escalations, and compliance-sensitive steps so automation stays practical and controlled."
+        answer: "Yes. Human in the loop approval workflows are a standard part of what The Prime Crafters builds. Sensitive decisions, exceptions, high value transactions, and escalations are routed to a human for review and approval. The automation handles everything before and after the approval step."
     },
     {
         id: "faq-11",
         question: "How do you measure whether process automation is working?",
         accentColor: "#C94C6A",
-        answer: "Success is measured against workflow KPIs such as response time, manual hours saved, error reduction, conversion rate, ticket resolution speed, and system update accuracy — tracked after launch and refined over time."
+        answer: "Success is measured against workflow KPIs defined before build begins. Common metrics include response time, manual hours saved, error rate reduction, conversion rate, ticket resolution speed, and CRM data accuracy. These are tracked after launch and used to refine the automation over time."
     },
     {
         id: "faq-12",
         question: "Why choose ThePrimeCrafters for AI process automation services?",
         accentColor: "#C97A4C",
-        answer: "The Prime Crafters maps processes before building, integrates with existing tools, keeps automation measurable, and supports the full lifecycle from strategy through launch and optimization.",
+        answer: "The Prime Crafters maps processes before building, integrates with existing tools rather than replacing them, keeps automation measurable from day one, and supports every stage from strategy through post launch optimisation. All case studies document specific numeric results from live production systems.",
         links: [
             {
                 label: "About Us",
@@ -9072,6 +9422,55 @@ const FAQSection = ()=>{
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pafaq.tsx",
                             lineNumber: 78,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            style: {
+                                marginTop: "40px",
+                                textAlign: "center",
+                                padding: "28px",
+                                borderRadius: "14px",
+                                border: "1px solid rgba(201,168,76,0.2)",
+                                background: "rgba(201,168,76,0.04)"
+                            },
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    style: {
+                                        fontSize: "14px",
+                                        color: "rgba(240,237,230,0.65)",
+                                        lineHeight: 1.75,
+                                        margin: "0 0 14px 0"
+                                    },
+                                    children: "Still have questions? Book a free automation strategy call and we will walk you through what is possible for your operation."
+                                }, void 0, false, {
+                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pafaq.tsx",
+                                    lineNumber: 87,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                    href: "/contact",
+                                    style: {
+                                        display: "inline-flex",
+                                        alignItems: "center",
+                                        gap: "8px",
+                                        fontSize: "13px",
+                                        fontWeight: 600,
+                                        color: "#08090f",
+                                        background: "#C9A84C",
+                                        padding: "12px 26px",
+                                        borderRadius: "4px",
+                                        textDecoration: "none"
+                                    },
+                                    children: "Book a Free Strategy Call →"
+                                }, void 0, false, {
+                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pafaq.tsx",
+                                    lineNumber: 90,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/process-automation/components/Pafaq.tsx",
+                            lineNumber: 86,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]

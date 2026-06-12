@@ -16,7 +16,8 @@ import PaCTA from "./components/PaCTA";
 import Pafaq from "./components/Pafaq";
 
 export const metadata: Metadata = {
-  
+  title:"AI Process Automation Services for Business Workflows | The Prime Crafters",
+  description:"The Prime Crafters designs AI process automation systems for sales, support, operations, and admin teams. Automate repetitive workflows, connect your tools, and remove manual handoffs.",
   alternates: {
     canonical: "https://www.theprimecrafters.com/services/process-automation",
   },

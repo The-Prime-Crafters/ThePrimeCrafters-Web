@@ -4,20 +4,21 @@ import React, { useState } from "react";
 import { PA_FONTS_LINK, PA_RESPONSIVE_STYLES } from "./shared";
 
 const checklist = [
-  "Your team repeats the same operational tasks every day",
-  "Leads, tickets, or requests need faster routing and follow-up",
-  "Data lives across disconnected CRMs, forms, and internal tools",
-  "Basic automation cannot handle exceptions or approvals",
-  "You want measurable workflow improvements, not another isolated tool",
+  "Your team spends significant hours each week on the same operational tasks",
+  "Leads, tickets, or requests move slowly because routing depends on a person",
+  "Your data sits across disconnected CRMs, forms, inboxes, and spreadsheets",
+  "Basic automation tools cannot handle your workflow exceptions or approval steps",
+  "You want measurable workflow improvements with clear KPIs, not another isolated tool",
+  "You are ready to build automation that works inside your existing technology stack",
 ];
 
 const scope = [
-  { number: "01", label: "Workflow Discovery", desc: "Audit current processes and identify the highest-impact automation opportunities." },
-  { number: "02", label: "Automation Opportunity Mapping", desc: "Prioritise bottlenecks by business value, feasibility, and speed to ROI." },
-  { number: "03", label: "Workflow Architecture Design", desc: "Define triggers, logic, integrations, permissions, and approval paths." },
-  { number: "04", label: "Build, Integrate, and Test", desc: "Develop production-ready automations and validate them against real scenarios." },
-  { number: "05", label: "Launch With Monitoring", desc: "Roll out with controlled deployment and post-launch visibility." },
-  { number: "06", label: "Optimize Based on Real Usage", desc: "Refine workflows using live operational data and team feedback." },
+  { number: "01", label: "Workflow Discovery", desc: "Audit current processes, map data flows, document handoffs, and identify the highest value automation opportunities before designing anything." },
+  { number: "02", label: "Automation Opportunity Mapping", desc: "Prioritise bottlenecks by business impact, feasibility, and speed to ROI. Focus on the workflows that will move the needle first." },
+  { number: "03", label: "Workflow Architecture Design", desc: "Define triggers, AI logic, integration points, approval paths, and success metrics. Client reviews and approves before build begins." },
+  { number: "04", label: "Build Integrate and Test", desc: "Develop production ready automations and validate them against real workflow scenarios including edge cases and exceptions." },
+  { number: "05", label: "Launch With Monitoring", desc: "Roll out in a controlled phased deployment with post launch visibility into workflow performance and error handling." },
+  { number: "06", label: "Optimize Based on Real Usage", desc: "Refine logic, improve routing, and tune automation performance using real operational data and team feedback after launch." },
 ];
 
 const ServiceDefinitionSection: React.FC = () => {
@@ -37,7 +38,7 @@ const ServiceDefinitionSection: React.FC = () => {
             Process Automation Built Around How Your Business Actually Works
           </h2>
           <p style={{ fontSize: "14px", color: "rgba(240,237,230,0.5)", lineHeight: 1.75, marginBottom: "52px", maxWidth: "640px" }}>
-            The Prime Crafters delivers process automation services that fit your real workflows — not generic templates. We map how work moves today, design the automation architecture, connect your tools, and launch systems your team can trust.
+            The Prime Crafters delivers process automation services shaped around your real workflows. We start by mapping how work moves through your business today, find where it slows down and breaks, and design the automation around that reality rather than a generic template.
           </p>
 
           <div className="pa-grid-2" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "24px", alignItems: "start" }}>
@@ -50,7 +51,7 @@ const ServiceDefinitionSection: React.FC = () => {
                 {defExpanded && (
                   <div style={{ padding: "0 24px 24px" }}>
                     <p style={{ fontSize: "13px", color: "rgba(240,237,230,0.6)", lineHeight: 1.8, margin: 0 }}>
-                      AI process automation uses intelligent workflows to handle repetitive business tasks — receiving inputs, applying logic, updating systems, notifying teams, and routing work automatically. Unlike basic automation, it can classify, summarise, score, and draft within connected business processes.
+                      AI process automation uses intelligent connected workflows to handle repetitive business tasks automatically. It receives inputs from your existing tools, applies AI logic to classify, score, summarise, or route the information, and delivers the right output to the right system or team member without manual coordination. Unlike basic automation, it can handle conditional decisions, multi step processes, and tasks that require reading and understanding the content of a submission or message.
                     </p>
                   </div>
                 )}
