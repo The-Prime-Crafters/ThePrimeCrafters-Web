@@ -1,5 +1,6 @@
 var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/services/ai-integration/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__8e1517b9._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__971ee77a._.js")
+R.c("server/chunks/ssr/prime_ThePrimeCrafters-Web_app_services_ai-integration_6f752f70._.js")
 R.c("server/chunks/ssr/5c776_next_dist_bdc349e2._.js")
 R.c("server/chunks/ssr/prime_ThePrimeCrafters-Web_7c8885ec._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__213f515f._.js")
