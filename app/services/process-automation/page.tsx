@@ -21,6 +21,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.theprimecrafters.com/services/process-automation",
   },
+  robots: {
+    index: true,
+    follow: true,
+  },
  
 };
 

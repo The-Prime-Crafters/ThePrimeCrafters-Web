@@ -16,8 +16,15 @@ import AIIntegrationWhyUs from "../ai-integration/components/AIIntegrationWhyUs"
 import { Footer } from "@/components";
 
 export const metadata: Metadata = {
+    title:'AI Integration Services for Connected Business Systems',
+ description: 'ThePrimeCrafters provides AI integration services that connect AI with CRMs, websites, databases, APIs, and business tools so workflows stay synced.',
+
   alternates: {
     canonical: "https://www.theprimecrafters.com/services/ai-integration",
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
