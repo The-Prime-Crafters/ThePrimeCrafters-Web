@@ -6,18 +6,18 @@ import Link from 'next/link';
 const layers = [
   {
     step: 'Step 1',
-    label: 'Inputs',
+    label: 'Ingestion Layer (Inputs)',
     h3: 'Forms, Calls, Chats, Files, Databases, and CRM Events',
-    body: 'Every integration starts with a trigger — a form submission, CRM event, incoming call, uploaded file, database change, or scheduled data pull that initiates the workflow.',
+    body: 'Workflows kick off instantly based on real business actions or real-time webhooks. These entry nodes process user submission forms, inbound phone requests, live chat messaging, document uploads, backend data mutations, or automated pipeline updates within your customer relationship manager.',
     chips: ['Web Forms', 'CRM Events', 'Inbound Calls', 'Chat Messages', 'File Uploads', 'Database Changes', 'Scheduled Pulls'],
     color: '#C9A84C',
     icon: '⚡',
   },
   {
     step: 'Step 2',
-    label: 'AI Logic',
+    label: 'Cognitive Layer (AI Logic)',
     h3: 'Classify, Summarise, Score, Route, and Draft',
-    body: 'AI acts as the decision and assistance layer — classifying requests, summarising conversations, scoring leads, routing to the right owner, and drafting replies or records before passing output to connected systems.',
+    body: 'The system passes the incoming information through a tailored intelligence hub. Rather than simply copying raw values, the AI runs deep text classification, extracts underlying sentiment markers, creates contextual data summaries, calculates internal routing values, and prepares production-ready responses according to set company guidelines.',
     chips: ['Classify', 'Summarise', 'Score', 'Route', 'Draft', 'Extract', 'Prioritise'],
     color: '#E8C97A',
     icon: '🧠',
@@ -25,9 +25,9 @@ const layers = [
   },
   {
     step: 'Step 3',
-    label: 'Integrations',
+    label: 'Execution Layer (Outputs)',
     h3: 'CRM Updates, Notifications, Reports, Tasks, and Approvals',
-    body: 'AI output moves directly into the systems your team uses — updating CRM records, creating tasks, routing tickets, generating reports, sending alerts, and requesting approvals where human review is required.',
+    body: 'Once processed, the system formats the AI-generated insights and maps them into your underlying tools. This layer updates user records, creates follow-up calendar blocks, dispatches internal team alerts, updates financial spreadsheets, and generates operational project tickets across separate platforms.',
     chips: ['CRM Updated', 'Task Created', 'Ticket Routed', 'Report Generated', 'Alert Sent', 'Approval Requested'],
     color: '#C9A84C',
     icon: '🔗',
@@ -35,13 +35,13 @@ const layers = [
   },
   {
     step: 'Step 4',
-    label: 'Human Review',
+    label: 'Verification Layer (Human Review)',
     h3: 'Human Review for Sensitive Actions',
-    body: 'Not every step should be fully automated. Approval gates, review queues, escalation rules, permissions, and audit-friendly logs keep sensitive decisions under human control while automating everything before and after.',
+    body: 'To ensure high quality and absolute trust, higher-risk actions pass through human-in-the-loop review queues. Communication drafts, financial calculations, or external adjustments pause within a secure management dashboard for one-click approval, ensuring absolute human control over critical business decisions.',
     chips: ['Approval Gates', 'Review Queues', 'Escalation Rules', 'Permission Controls', 'Audit Logs'],
     color: '#E8C97A',
     icon: '✅',
-    href: '/contact',
+    href: '/services/process-automation',
     trust: true,
   },
 ];
@@ -111,11 +111,11 @@ export default function AIIntegrationArchitecture() {
             color: '#888888',
             lineHeight: 1.75,
             textAlign: 'center',
-            maxWidth: '600px',
+            maxWidth: '640px',
             margin: '0 auto 72px',
           }}
         >
-          Inputs trigger AI logic. AI logic drives integrations. Integrations produce outputs. Sensitive steps route to human review. Each layer connects to the next as one continuous workflow.
+          We architect data networks where every system communicates in perfect alignment. Here is how information safely moves through our multi-layered architectural approach:
         </p>
 
         {/* Architecture flow */}

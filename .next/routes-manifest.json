@@ -121,6 +121,12 @@
       "namedRegex": "^/services/process\\-automation(?:/)?$"
     },
     {
+      "page": "/services/workflow-optimization",
+      "regex": "^/services/workflow\\-optimization(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/workflow\\-optimization(?:/)?$"
+    },
+    {
       "page": "/sitemap.xml",
       "regex": "^/sitemap\\.xml(?:/)?$",
       "routeKeys": {},

@@ -8,7 +8,7 @@ const useCases = [
     icon: '📈',
     label: 'Sales Teams',
     h3: 'Sales Teams',
-    body: 'Lead capture to CRM, AI lead scoring, call summaries, pipeline updates, follow-up reminders, and sales notifications — all connected without manual entry between tools.',
+    body: 'Automate your sales pipeline from initial contact to closed deal. Our tools capture incoming leads, run instant background research, append contextual evaluation records to your CRM profiles, log transcripts from voice assistant calls, update deal tracking stages, and flag top-tier opportunities for immediate human follow-up.',
     keywords: ['Sales CRM Integration', 'AI Sales Automation'],
     href: '/case-study/spectrum-voice-agent',
   },
@@ -16,7 +16,7 @@ const useCases = [
     icon: '💬',
     label: 'Customer Support Teams',
     h3: 'Customer Support Teams',
-    body: 'AI chatbot to ticket creation, support summaries, escalation alerts, status updates, and knowledge base lookup — so support teams spend less time on admin and more time resolving issues.',
+    body: 'Provide immediate resolutions without putting extra pressure on your help desk agents. We connect front-facing AI chat interfaces directly to internal support ticketing setups, allowing our systems to instantly log incidents, generate draft resolutions from standard operating manuals, alert specific support leads, and modify account statuses based on real-time client interactions.',
     keywords: ['Support AI Integration', 'Ticket Routing Automation'],
     href: '/services/custom-ai-solutions',
   },
@@ -24,7 +24,7 @@ const useCases = [
     icon: '⚙️',
     label: 'Operations Teams',
     h3: 'Operations Teams',
-    body: 'Task routing, approvals, internal requests, data sync, reporting, alerts, and SOP support across systems — keeping operations moving without bottlenecks between departments.',
+    body: 'Keep your cross-platform workflows moving perfectly without manual human intervention. Our custom setups automatically pass critical project tasks between internal platforms, manage manager approval chains for financial balances, track inventory changes across distribution tools, and generate comprehensive end-of-day administrative summaries.',
     keywords: ['Operations Integration', 'Workflow Automation'],
     href: '/services/workflow-optimization',
   },
@@ -32,7 +32,7 @@ const useCases = [
     icon: '🎯',
     label: 'Marketing and Lead Generation',
     h3: 'Marketing and Lead Generation Teams',
-    body: 'Lead enrichment, campaign handoffs, source tracking, segmentation, scoring, outreach support, and CRM updates — connecting marketing output directly into sales workflows.',
+    body: 'Maximize campaign efficiency with automated dataset enrichment. We connect scrapers and capture channels to internal scoring engines, allowing the system to instantly segment marketing contacts, update core CRM audiences, and build targeted content recommendations tailored to real-time client browsing behavior.',
     keywords: ['Lead Generation Integration', 'Marketing Automation AI'],
     href: '/case-study/lead-generation-tools',
   },
@@ -40,7 +40,7 @@ const useCases = [
     icon: '⚕️',
     label: 'Healthcare and Clinic Admin',
     h3: 'Healthcare and Clinic Admin Teams',
-    body: 'Intake support, scheduling workflows, admin routing, status updates, and internal documentation support — scoped carefully to your clinic environment and operational context.',
+    body: 'Streamline complex patient onboarding while maintaining strict clinical protocols within your specific environment. Our integrations connect front-end questionnaire fields to backend scheduling applications, mapping pre-screening responses, summarizing historical chart intake details, and updating clinical schedules to optimize administrative workflows.',
     keywords: ['Clinic Workflow Integration', 'Healthcare Admin Automation'],
     href: '/case-study/lmn8-ketamine-therapy',
     note: 'Healthcare integrations are scoped carefully against your specific environment.',
@@ -49,7 +49,7 @@ const useCases = [
     icon: '🏪',
     label: 'Service Businesses',
     h3: 'Service Businesses',
-    body: 'Call handling to booking tools, quote requests, reminders, customer notes, CRM updates, and review follow-ups — keeping service operations connected from first contact to job completion.',
+    body: 'Capture every client booking opportunity around the clock. We connect AI voice agents directly to scheduling engines, allowing systems to instantly answer inbound calls, verify calendar availability, create service appointments, process client notes, and send instant confirmation messages without manual office overhead.',
     keywords: ['Service Business AI Integration', 'Booking Automation'],
     href: '/case-study/rv-park-voice-agent',
   },
@@ -119,11 +119,11 @@ export default function AIIntegrationUseCases() {
             color: '#888888',
             lineHeight: 1.75,
             textAlign: 'center',
-            maxWidth: '560px',
+            maxWidth: '620px',
             margin: '0 auto 56px',
           }}
         >
-          Find the integration workflows most relevant to your team and see how connected AI removes manual work while keeping control where it matters.
+          Discover how separate operational departments maximize productivity, eliminate structural data silos, and scale operations through custom AI integrations:
         </p>
 
         {/* Cards grid */}

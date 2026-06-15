@@ -1,4 +1,3 @@
-// components/services/ai-integration/AIIntegrationAbout.tsx
 'use client';
 
 import Link from 'next/link';
@@ -8,24 +7,6 @@ const serviceEntities = [
   { label: 'CRM Automation', href: '/services' },
   { label: 'Process Automation', href: '/services/process-automation' },
   { label: 'Custom AI Systems', href: '/services/custom-ai-solutions' },
-];
-
-const systemEntities = [
-  { label: 'CRM Integration', href: '/services' },
-  { label: 'API Integration', href: '/services' },
-  { label: 'Website Integration', href: '/services' },
-  { label: 'Database Integration', href: '/services' },
-  { label: 'Email & Calendar', href: '/services' },
-  { label: 'Spreadsheet Automation', href: '/services' },
-];
-
-const teamEntities = [
-  { label: 'Sales Automation', href: '/services/workflow-optimization' },
-  { label: 'Support Automation', href: '/services/workflow-optimization' },
-  { label: 'Operations', href: '/services/workflow-optimization' },
-  { label: 'Lead Generation', href: '/services/workflow-optimization' },
-  { label: 'Admin Workflows', href: '/services/workflow-optimization' },
-  { label: 'Customer Workflows', href: '/services/workflow-optimization' },
 ];
 
 export default function AIIntegrationAbout() {
@@ -112,202 +93,75 @@ export default function AIIntegrationAbout() {
             margin: '0 auto 56px',
           }}
         >
-          ThePrimeCrafters is an AI integration agency that connects AI systems with CRMs, APIs, databases, websites, communication tools, and internal software — so AI can act inside real business workflows. Work spans integration strategy, data flow design, API architecture, connector builds, AI logic, testing, deployment, and post-launch optimization. Every integration is built around the tech stack and operations your business already runs on, not a generic template or tool replacement.
+          As a dedicated technology implementation partner, ThePrimeCrafters engineered a comprehensive suite of AI integration services designed to unlock the true value of modern artificial intelligence for enterprise operations. By bridging the critical technical gaps between generative models, custom APIs, structured databases, web capture tools, and core customer relationship managers, we turn isolated tools into unified automated ecosystems. Our workflows ensure your business systems communicate clearly, transfer data securely, and execute tasks without manual friction.
         </p>
 
-        {/* Two entity rows */}
+        {/* Single card: service pills + target environments */}
         <div
           style={{
-            display: 'grid',
-            gridTemplateColumns: '1fr 1fr',
-            gap: '24px',
+            background: 'rgba(255,255,255,0.03)',
+            border: '1px solid rgba(255,255,255,0.07)',
+            borderRadius: '16px',
+            padding: '32px 28px',
             marginBottom: '48px',
           }}
         >
-          {/* Service entities */}
+          {/* Service pills */}
           <div
             style={{
-              background: 'rgba(255,255,255,0.03)',
-              border: '1px solid rgba(255,255,255,0.07)',
-              borderRadius: '16px',
-              padding: '32px 28px',
-            }}
-          >
-            <h3
-              style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontSize: '11px',
-                fontWeight: 600,
-                letterSpacing: '2px',
-                textTransform: 'uppercase',
-                color: '#C9A84C',
-                margin: '0 0 20px',
-              }}
-            >
-              AI Integrations, CRM Automation, Process Automation, and Custom AI Systems
-            </h3>
-            <div
-              style={{
-                display: 'flex',
-                flexWrap: 'wrap',
-                gap: '10px',
-              }}
-            >
-              {serviceEntities.map((e) => (
-                <Link
-                  key={e.label}
-                  href={e.href}
-                  style={{
-                    fontFamily: 'DM Sans, sans-serif',
-                    fontSize: '13px',
-                    fontWeight: 500,
-                    color: '#C9A84C',
-                    background: 'rgba(201,168,76,0.07)',
-                    border: '1px solid rgba(201,168,76,0.2)',
-                    borderRadius: '999px',
-                    padding: '7px 16px',
-                    textDecoration: 'none',
-                    transition: 'background 0.2s, border-color 0.2s',
-                  }}
-                  onMouseEnter={(e) => {
-                    const el = e.currentTarget as HTMLAnchorElement;
-                    el.style.background = 'rgba(201,168,76,0.14)';
-                    el.style.borderColor = 'rgba(201,168,76,0.4)';
-                  }}
-                  onMouseLeave={(e) => {
-                    const el = e.currentTarget as HTMLAnchorElement;
-                    el.style.background = 'rgba(201,168,76,0.07)';
-                    el.style.borderColor = 'rgba(201,168,76,0.2)';
-                  }}
-                >
-                  {e.label}
-                </Link>
-              ))}
-            </div>
-          </div>
-
-          {/* System + team entities */}
-          <div
-            style={{
-              background: 'rgba(255,255,255,0.03)',
-              border: '1px solid rgba(255,255,255,0.07)',
-              borderRadius: '16px',
-              padding: '32px 28px',
               display: 'flex',
-              flexDirection: 'column',
-              gap: '24px',
+              flexWrap: 'wrap',
+              gap: '10px',
+              marginBottom: '24px',
             }}
           >
-            {/* Systems row */}
-            <div>
-              <h3
+            {serviceEntities.map((e) => (
+              <Link
+                key={e.label}
+                href={e.href}
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '11px',
-                  fontWeight: 600,
-                  letterSpacing: '2px',
-                  textTransform: 'uppercase',
+                  fontSize: '13px',
+                  fontWeight: 500,
                   color: '#C9A84C',
-                  margin: '0 0 14px',
+                  background: 'rgba(201,168,76,0.07)',
+                  border: '1px solid rgba(201,168,76,0.2)',
+                  borderRadius: '999px',
+                  padding: '7px 16px',
+                  textDecoration: 'none',
+                  transition: 'background 0.2s, border-color 0.2s',
+                }}
+                onMouseEnter={(e) => {
+                  const el = e.currentTarget as HTMLAnchorElement;
+                  el.style.background = 'rgba(201,168,76,0.14)';
+                  el.style.borderColor = 'rgba(201,168,76,0.4)';
+                }}
+                onMouseLeave={(e) => {
+                  const el = e.currentTarget as HTMLAnchorElement;
+                  el.style.background = 'rgba(201,168,76,0.07)';
+                  el.style.borderColor = 'rgba(201,168,76,0.2)';
                 }}
               >
-                Built for CRMs, Websites, APIs, Databases, and Communication Tools
-              </h3>
-              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-                {systemEntities.map((e) => (
-                  <Link
-                    key={e.label}
-                    href={e.href}
-                    style={{
-                      fontFamily: 'DM Sans, sans-serif',
-                      fontSize: '12px',
-                      fontWeight: 500,
-                      color: '#A0A0A0',
-                      background: 'rgba(255,255,255,0.04)',
-                      border: '1px solid rgba(255,255,255,0.08)',
-                      borderRadius: '999px',
-                      padding: '5px 14px',
-                      textDecoration: 'none',
-                      transition: 'color 0.2s, border-color 0.2s, background 0.2s',
-                    }}
-                    onMouseEnter={(e) => {
-                      const el = e.currentTarget as HTMLAnchorElement;
-                      el.style.color = '#C9A84C';
-                      el.style.borderColor = 'rgba(201,168,76,0.3)';
-                      el.style.background = 'rgba(201,168,76,0.06)';
-                    }}
-                    onMouseLeave={(e) => {
-                      const el = e.currentTarget as HTMLAnchorElement;
-                      el.style.color = '#A0A0A0';
-                      el.style.borderColor = 'rgba(255,255,255,0.08)';
-                      el.style.background = 'rgba(255,255,255,0.04)';
-                    }}
-                  >
-                    {e.label}
-                  </Link>
-                ))}
-              </div>
-            </div>
-
-            {/* Divider */}
-            <div
-              style={{
-                height: '1px',
-                background: 'rgba(255,255,255,0.06)',
-              }}
-            />
-
-            {/* Teams row */}
-            <div>
-              <h3
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '11px',
-                  fontWeight: 600,
-                  letterSpacing: '2px',
-                  textTransform: 'uppercase',
-                  color: '#C9A84C',
-                  margin: '0 0 14px',
-                }}
-              >
-                Built for Sales, Operations, Support, Lead Generation, Admin, and Customer Workflows
-              </h3>
-              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-                {teamEntities.map((e) => (
-                  <Link
-                    key={e.label}
-                    href={e.href}
-                    style={{
-                      fontFamily: 'DM Sans, sans-serif',
-                      fontSize: '12px',
-                      fontWeight: 500,
-                      color: '#A0A0A0',
-                      background: 'rgba(255,255,255,0.04)',
-                      border: '1px solid rgba(255,255,255,0.08)',
-                      borderRadius: '999px',
-                      padding: '5px 14px',
-                      textDecoration: 'none',
-                      transition: 'color 0.2s, border-color 0.2s, background 0.2s',
-                    }}
-                    onMouseEnter={(e) => {
-                      const el = e.currentTarget as HTMLAnchorElement;
-                      el.style.color = '#C9A84C';
-                      el.style.borderColor = 'rgba(201,168,76,0.3)';
-                      el.style.background = 'rgba(201,168,76,0.06)';
-                    }}
-                    onMouseLeave={(e) => {
-                      const el = e.currentTarget as HTMLAnchorElement;
-                      el.style.color = '#A0A0A0';
-                      el.style.borderColor = 'rgba(255,255,255,0.08)';
-                      el.style.background = 'rgba(255,255,255,0.04)';
-                    }}
-                  >
-                    {e.label}
-                  </Link>
-                ))}
-              </div>
-            </div>
+                {e.label}
+              </Link>
+            ))}
           </div>
+
+          {/* Target environments line */}
+          <p
+            style={{
+              fontFamily: 'DM Sans, sans-serif',
+              fontSize: '14px',
+              color: '#909090',
+              lineHeight: 1.8,
+              margin: 0,
+            }}
+          >
+            <span style={{ fontWeight: 700, color: '#FFFFFF' }}>
+              Target Environments Deployed:
+            </span>{' '}
+            Salesforce, HubSpot, GoHighLevel, SQL/PostgreSQL Clusters, Custom Internal Form Webhooks, RESTful API Node Infrastructures, Enterprise Communication Channels (Slack, Teams), Active Client Support Frameworks.
+          </p>
         </div>
 
         {/* Bottom links */}

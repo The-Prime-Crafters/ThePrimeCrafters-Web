@@ -1,4 +1,3 @@
-// components/services/ai-integration/AIIntegrationCTA.tsx
 'use client';
 
 import Link from 'next/link';
@@ -145,7 +144,7 @@ export default function AIIntegrationCTA() {
             marginBottom: '48px',
           }}
         >
-          Share the systems you need to connect and the workflow outcome you want. We will review your integration and show you what is possible in a free strategy call.
+          Stop wasting valuable team hours copy-pasting data between disconnected screens. Let's design a high-performance, secure AI integration framework customized for your operational tech stack.
         </p>
 
         {/* Primary CTA button */}
@@ -176,7 +175,6 @@ export default function AIIntegrationCTA() {
             el.style.boxShadow = '0 8px 32px rgba(201,168,76,0.25)';
           }}
         >
-          {/* H3: Primary CTA label */}
           Book a Free AI Integration Strategy Call →
         </Link>
 
@@ -189,7 +187,7 @@ export default function AIIntegrationCTA() {
             marginBottom: '40px',
           }}
         >
-          Tell Us the Tools You Want to Connect
+          Tell Us the Tools You Want to Connect – Tell us about your current software setups, operational bottlenecks, and goals, and our engineering architects will map out your custom implementation plan.
         </p>
 
         {/* Trust row */}

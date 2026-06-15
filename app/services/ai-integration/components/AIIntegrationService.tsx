@@ -5,20 +5,19 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 const whoNeedsChecklist = [
-  'Businesses with disconnected tools and manual data transfer',
-  'Teams with CRM gaps or growing lead volume',
-  'Operations dealing with support queues and routing delays',
-  'Companies with AI tools that do not connect to daily workflows',
-  'Anyone facing reporting issues caused by scattered system data',
+  'Operations that rely on manual extraction, cleaning, and inputting of data across multiple software environments',
+  'Critical business databases and customer pipelines that fall out of sync, leading to delayed outreach or mismatched status dashboards',
+  'Scaling lead pipelines, incoming user queries, or support systems that overwhelm standard administrative staffing capabilities',
+  'Recently adopted generative AI solutions or voice agents that operate in isolation from main records and internal tools',
 ];
 
 const scopeSteps = [
-  { num: '01', title: 'System Audit', body: 'Review current tools, data sources, users, permissions, bottlenecks, and goals.' },
-  { num: '02', title: 'Workflow Mapping', body: 'Map how work and data move across your stack today before designing anything.' },
-  { num: '03', title: 'API Planning', body: 'Define which APIs, endpoints, auth methods, and data fields the integration requires.' },
-  { num: '04', title: 'Data Mapping', body: 'Align field names, formats, sync direction, and transformation logic between systems.' },
-  { num: '05', title: 'Connector Build', body: 'Build production-ready connectors with AI logic, error handling, and notifications.' },
-  { num: '06', title: 'Testing and Optimization', body: 'Validate against real data, fix edge cases, deploy, monitor, and refine post-launch.' },
+  { num: '01', title: 'Comprehensive System Audits & Technical Discovery', body: 'Deep mapping of your operational platforms, current code bases, and API configurations.' },
+  { num: '02', title: 'Data Flow Optimization & Logic Architecture', body: 'Designing the structural blueprints for how data, triggers, and intelligence interact securely.' },
+  { num: '03', title: 'Bespoke API Engineering & Connector Development', body: 'Writing clean, high-performance middleware and configuring secure webhook relays.' },
+  { num: '04', title: 'Model Optimization & Content Safeguarding', body: 'Tuning prompt instructions, data processing rules, and token management frameworks.' },
+  { num: '05', title: 'End-to-End Functional & Boundary Quality Testing', body: 'Simulating data drops, API limits, validation errors, and multi-tenant performance metrics.' },
+  { num: '06', title: 'Deployment, Native Logging, & Iterative Tuning', body: 'Launching live production environments alongside performance tracking dashboards for post-launch enhancement.' },
 ];
 
 export default function AIIntegrationService() {
@@ -153,7 +152,7 @@ export default function AIIntegrationService() {
                       margin: 0,
                     }}
                   >
-                    AI integration services connect AI systems with CRMs, websites, APIs, databases, communication tools, and internal software — so AI can act inside real workflows. Instead of producing output in a separate chat or tool, integrated AI updates records, routes tasks, triggers notifications, and supports decisions within the systems your team already uses.
+                    AI integration services comprise the technical strategy, software development, data mapping, and API engineering required to embed intelligent models and automated logic directly inside an organization's existing software stack. Rather than forcing teams to adopt completely new platforms, it updates native systems (such as CRMs, web infrastructures, database servers, and internal tools) so that AI logic functions natively inside current operational channels.
                   </p>
                 </div>
               )}
@@ -209,6 +208,17 @@ export default function AIIntegrationService() {
               </button>
               {whoOpen && (
                 <div style={{ padding: '0 24px 24px' }}>
+                  <p
+                    style={{
+                      fontFamily: 'DM Sans, sans-serif',
+                      fontSize: '14px',
+                      color: '#A0A0A0',
+                      lineHeight: 1.7,
+                      margin: '0 0 14px',
+                    }}
+                  >
+                    Our tailored systems are built precisely for expanding corporations, agile mid-market organizations, and high-volume enterprises experiencing the following operational bottlenecks:
+                  </p>
                   {whoNeedsChecklist.map((item) => (
                     <div
                       key={item}
@@ -290,10 +300,21 @@ export default function AIIntegrationService() {
                 letterSpacing: '2px',
                 textTransform: 'uppercase',
                 color: '#C9A84C',
-                marginBottom: '24px',
+                marginBottom: '8px',
               }}
             >
               What ThePrimeCrafters Handles
+            </p>
+            <p
+              style={{
+                fontFamily: 'DM Sans, sans-serif',
+                fontSize: '13px',
+                color: '#777777',
+                lineHeight: 1.7,
+                marginBottom: '24px',
+              }}
+            >
+              We take complete technical ownership of your infrastructure's evolution through a comprehensive service scope:
             </p>
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
@@ -355,6 +376,28 @@ export default function AIIntegrationService() {
               ))}
             </div>
           </div>
+        </div>
+
+        {/* Learn More */}
+        <div style={{ textAlign: 'center' }}>
+          <p
+            style={{
+              fontFamily: 'DM Sans, sans-serif',
+              fontSize: '14px',
+              color: '#A0A0A0',
+              margin: 0,
+            }}
+          >
+            Learn More: Explore{' '}
+            <Link href="/about-us" style={{ color: '#C9A84C', textDecoration: 'none' }}>
+              About Us
+            </Link>{' '}
+            or submit an inquiry directly via our{' '}
+            <Link href="/contact" style={{ color: '#C9A84C', textDecoration: 'none' }}>
+              Contact Page
+            </Link>
+            .
+          </p>
         </div>
       </div>
     </section>

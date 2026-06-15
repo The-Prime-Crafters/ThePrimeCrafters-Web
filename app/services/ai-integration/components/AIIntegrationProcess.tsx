@@ -9,14 +9,14 @@ const steps = [
     num: '1',
     title: 'System and Workflow Audit',
     h3: '1. System and Workflow Audit',
-    body: 'We start with your real business context — reviewing current tools, workflows, data sources, users, bottlenecks, permissions, and goals before designing anything. This ensures integrations are built around how your business actually operates, not a generic template.',
+    body: 'We review your current software stack, analyze data handling challenges, track active communication tools, map security profiles, and pinpoint the specific operational bottlenecks dragging down team productivity.',
     tags: ['System Audit', 'Workflow Review', 'Integration Discovery'],
   },
   {
     num: '2',
     title: 'Integration Opportunity Mapping',
     h3: '2. Integration Opportunity Mapping',
-    body: 'We identify which systems should connect first based on business value, manual effort, risk, and workflow volume — then prioritise the highest-impact handoffs to build a clear integration roadmap before any development begins.',
+    body: 'Our architects isolate your highest-value automation paths, defining clear project milestones based on manual effort reduction, execution accuracy, and immediate returns on your technology investment.',
     tags: ['Integration Roadmap', 'AI Automation Roadmap', 'Priority Mapping'],
     note: 'We connect high-impact handoffs first.',
   },
@@ -24,14 +24,14 @@ const steps = [
     num: '3',
     title: 'Data Flow and API Architecture',
     h3: '3. Data Flow and API Architecture',
-    body: 'We define triggers, APIs, fields, sync direction, permissions, security requirements, exception handling, and human approval paths. Every data flow is planned before a single line of integration code is written.',
+    body: 'Before writing code, we diagram complete structural pathways—detailing field definitions, API webhooks, validation rules, token limits, and secure approval steps to ensure safe data handling.',
     tags: ['API Architecture', 'Data Flow Mapping', 'Integration Design'],
   },
   {
     num: '4',
     title: 'Build Connectors and Automation Logic',
     h3: '4. Build Connectors and Automation Logic',
-    body: 'We connect tools, build API workflows, add AI logic, create notifications, map data fields, and handle exceptions. Every connector is built for production with real error handling, retry logic, and testing checkpoints throughout the build phase.',
+    body: 'Our team writes high-performance integration code, deploys secure endpoints, maps your custom data objects, embeds defensive error handling, and builds intuitive user interfaces for human verification steps.',
     tags: ['AI Connector Build', 'API Workflow Automation', 'Custom Integrations'],
     href: '/services/custom-ai-solutions',
   },
@@ -39,7 +39,7 @@ const steps = [
     num: '5',
     title: 'Test Data Quality, Permissions, and Edge Cases',
     h3: '5. Test Data Quality, Permissions, and Edge Cases',
-    body: 'We test with sample data, failed syncs, duplicate records, missing fields, permission mismatches, latency, and user handoffs before any integration goes live. QA covers the edge cases that break basic connectors in production.',
+    body: 'We run exhaustive quality checks under heavy processing loads—testing data schema mismatches, failed API sync responses, duplicate records, access boundary constraints, and network latency anomalies.',
     tags: ['Integration Testing', 'Data Sync Testing', 'API Testing'],
     checklist: [
       'Sample data validation',
@@ -54,7 +54,7 @@ const steps = [
     num: '6',
     title: 'Launch, Monitor, and Improve Sync',
     h3: '6. Launch, Monitor, and Improve Sync',
-    body: 'We deploy integrations, monitor errors, review data quality, improve prompts and rules, and adjust the workflow based on real usage. Post-launch optimization is built into the process — not an afterthought.',
+    body: 'We push your integrations live with complete monitoring setups, tracking real-world processing metrics and fine-tuning prompts to optimize system efficiency as your operations expand.',
     tags: ['Integration Monitoring', 'Workflow Optimization', 'Post-Launch Support'],
     href: '/services/workflow-optimization',
     isFinal: true,
@@ -129,11 +129,11 @@ export default function AIIntegrationProcess() {
             color: '#888888',
             lineHeight: 1.75,
             textAlign: 'center',
-            maxWidth: '580px',
+            maxWidth: '640px',
             margin: '0 auto 64px',
           }}
         >
-          Every integration project follows a structured six-step process — from system audit through launch, monitoring, and optimization.
+          ThePrimeCrafters delivers rapid development backed by exhaustive quality assurance. Our six-step implementation framework moves projects safely from initial audit to continuous post-launch optimization:
         </p>
 
         {/* Two-column layout: step nav left, detail right */}

@@ -7,56 +7,56 @@ const systems = [
   {
     icon: '🎯',
     h3: 'CRM and Sales Platform Integration',
-    body: 'Connect AI with your CRM to create records, update pipeline stages, sync notes, route leads, score prospects, and trigger follow-ups automatically.',
+    body: 'Inject deep operational logic into platforms like Salesforce, HubSpot, and GoHighLevel. Our systems empower AI models to automatically instantiate records, modify deal pipelines based on chat interactions, append deep meeting transcripts, track lead scores, and initiate automated client follow-ups without manual staff updates.',
     keywords: 'CRM AI Integration · AI Sales Integration · CRM Automation',
     href: '/case-study/lead-generation-tools',
   },
   {
     icon: '🌐',
     h3: 'Website Forms and Lead Capture Integration',
-    body: 'Connect web forms, landing pages, chat flows, and lead capture tools with AI qualification, routing, CRM updates, and instant team notifications.',
+    body: 'Turn standard website touchpoints into conversational qualification layers. We link online contact modules, specific capture pages, and web portals to underlying AI evaluation engines, running instantaneous screening, route-mapping, immediate notification pings, and live dataset population.',
     keywords: 'Website AI Integration · Form Automation · Lead Capture Automation',
     href: '/services/process-automation',
   },
   {
     icon: '🗄️',
     h3: 'Database and Spreadsheet Automation',
-    body: 'Connect AI to databases, spreadsheets, tables, data exports, and internal records for syncing, summaries, status updates, and automated reporting.',
+    body: 'Bridge the gap between raw data storage and accessible business insights. We build real-time monitoring workflows over SQL databases, PostgreSQL clusters, and enterprise spreadsheet structures to handle automated data parsing, instant text summaries, records modification, and automated administrative performance checks.',
     keywords: 'Database AI Integration · Spreadsheet Automation · Data Sync',
     href: null,
   },
   {
     icon: '📧',
     h3: 'Email, Calendar, and Communication Tool Integration',
-    body: 'Use AI to draft updates, summarise conversations, schedule follow-ups, create tasks, send alerts, and keep teams informed across email, Slack, and WhatsApp.',
+    body: "Maximize your team's day-to-day coordination within tools like Slack, Microsoft Teams, Outlook, and Google Workspace. Our tools enable AI assistants to create highly targeted follow-up context, extract calendar availabilities, generate instant summary updates on complex channels, and route action alerts directly to specific human stakeholders.",
     keywords: 'Email Automation · Calendar Automation · Slack & WhatsApp AI Integration',
     href: null,
   },
   {
     icon: '🔌',
     h3: 'API and Custom Software Integration',
-    body: 'Build custom API connections where off-the-shelf connectors are not enough — including authentication, data mapping, error handling, and full workflow logic.',
+    body: 'When pre-configured automation links fall short, our development team writes bespoke code. We architect scalable API pathways featuring advanced web token security, precise field conversions, complex logic flows, and custom error containment to manage enterprise-level legacy software suites.',
     keywords: 'Custom API Integrations · AI API Integration · Custom Software Integration',
     href: '/services/custom-ai-solutions',
   },
   {
     icon: '🎙️',
     h3: 'AI Voice Agent and Chatbot Integration',
-    body: 'Connect AI voice agents and chatbots with CRMs, calendars, ticket systems, lead records, call summaries, and support workflows for end-to-end automation.',
+    body: 'Bind telephone systems and chat frameworks directly to underlying data architectures. We configure voice assistants and contextual chatbots to check available scheduling blocks, create support incidents, update client files, and pass off contextual summaries directly to operational departments during call transfers.',
     keywords: 'AI Voice Agent Integration · Chatbot CRM Integration',
     href: '/case-study/spectrum-voice-agent',
   },
   {
     icon: '📊',
     h3: 'Reporting and Dashboard Integration',
-    body: 'Turn connected workflow data into summaries, dashboards, alerts, reports, and performance visibility for teams and leadership without manual compilation.',
+    body: 'Convert disconnected process metrics into unified visual intelligence. We pull data from interconnected automation sequences to feed executive reports, trend notifications, and live operational analytics dashboards, providing management with real-time insight into processing costs and system latency.',
     keywords: 'AI Reporting Integration · Dashboard Automation · Workflow Reporting',
     href: '/case-studies',
   },
   {
     icon: '📚',
     h3: 'Internal Knowledge Base and Document Integration',
-    body: 'Connect AI to SOPs, knowledge bases, internal documents, policies, project notes, and service information so teams can search and act faster.',
+    body: 'Transform scattered documents into searchable knowledge repositories. We safely connect document management storage and internal standard operating procedures (SOPs) to private AI search components, helping your workforce instantly look up company guidelines, product manuals, and service files without risking public data disclosure.',
     keywords: 'AI Knowledge Base Integration · Document AI Integration · Internal AI Assistant',
     href: '/services/custom-ai-solutions',
   },
@@ -126,11 +126,11 @@ export default function AIIntegrationSystems() {
             color: '#888888',
             lineHeight: 1.75,
             textAlign: 'center',
-            maxWidth: '580px',
+            maxWidth: '620px',
             margin: '0 auto 56px',
           }}
         >
-          From lead intake to internal knowledge — we build integrations that connect AI to the tools your team already depends on.
+          Our engineers build secure pipelines connecting modern intelligence across your entire technical landscape. Below are the functional hubs we optimize:
         </p>
 
         {/* Cards grid */}

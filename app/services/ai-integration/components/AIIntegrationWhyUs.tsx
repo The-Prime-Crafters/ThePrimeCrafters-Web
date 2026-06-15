@@ -1,4 +1,3 @@
-// components/services/ai-integration/AIIntegrationWhyUs.tsx
 'use client';
 
 import Link from 'next/link';
@@ -7,35 +6,35 @@ const trustCards = [
   {
     icon: '🔗',
     h3: 'We Build Around Your Existing Tools',
-    body: 'Integrations connect to the CRMs, websites, forms, databases, email platforms, calendars, chat tools, and internal systems your team already uses — not replacements for them.',
+    body: `We don't disrupt your business operations by demanding expensive system migrations. Our developers write secure middleware that connects modern AI models straight into the CRMs, communication tools, and databases your business already relies on daily.`,
     href: '/services',
     linkLabel: 'View All Services →',
   },
   {
     icon: '⚙️',
     h3: 'We Connect AI to Real Business Workflows',
-    body: 'AI should update records, route leads, create tasks, draft replies, and support team actions inside the workflows your business runs on — not sit in a separate tool your team has to check.',
+    body: 'We focus entirely on building functional, high-value connections. Our integrations make sure AI models actively update pipeline fields, generate calendar events, assign tasks, and route information across tools to streamline your day-to-day operations.',
     href: '/services/process-automation',
     linkLabel: 'Explore Process Automation →',
   },
   {
     icon: '🗺️',
     h3: 'We Design Data Flows Before Building',
-    body: 'Every integration starts with systems, fields, sync direction, permissions, exceptions, and business goals clearly mapped — before a single connector is built or API is called.',
+    body: 'We map out every step of your project before writing a single line of code. Our engineers carefully diagram data pathways, fields, webhook structures, access controls, and error handling steps to ensure your project aligns perfectly with your goals.',
     href: '/about-us',
     linkLabel: 'About ThePrimeCrafters →',
   },
   {
     icon: '🔍',
     h3: 'We Test Sync, Permissions, and Edge Cases',
-    body: 'Data quality, permissions, duplicate records, failed syncs, user handoffs, latency, and error handling are all tested before launch — not discovered in production by your team.',
+    body: 'We never push unverified code to live production environments. We perform extensive quality testing to check data format adjustments, network connection drops, duplicate entries, access limits, and system recovery behaviors under heavy use.',
     href: '/contact',
     linkLabel: 'Discuss Your Integration →',
   },
   {
     icon: '🔄',
     h3: 'We Support Strategy, Build, Launch, and Optimization',
-    body: 'From planning and integration build through AI logic, testing, rollout, monitoring, and post-launch improvement — ThePrimeCrafters stays involved across the full integration lifecycle.',
+    body: 'We partner with you through every phase of your automation journey. From our initial system audit and custom development down to live deployment monitoring and post-launch prompt refinement, our team ensures long-term operational success.',
     href: '/contact',
     linkLabel: 'Start Your Integration Project →',
     featured: true,
@@ -135,7 +134,7 @@ export default function AIIntegrationWhyUs() {
             margin: '0 auto 56px',
           }}
         >
-          Practical, business-first, API-aware, and workflow-aware — built around your existing stack and focused on connected AI systems that deliver measurable results.
+          We stand apart from generic tech consultants by delivering business-first solutions, rigorous API engineering, and secure data workflows built for real-world growth.
         </p>
 
         {/* Top row: 2 cards */}

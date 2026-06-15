@@ -1,20 +1,14 @@
-// components/services/ai-integration/AIIntegrationHero.tsx
 'use client';
 
 import Link from 'next/link';
 
 const badges = [
-  'CRM Integration',
+  'CRM AI Integration',
   'API Connections',
   'Data Sync',
+  'Automation',
   'Automation Triggers',
   'Secure Workflows',
-];
-
-const proofBadges = [
-  { label: 'CRM Integration' },
-  { label: 'API Connections' },
-  { label: 'Data Sync' },
 ];
 
 export default function AIIntegrationHero() {
@@ -22,7 +16,7 @@ export default function AIIntegrationHero() {
     <section
       style={{
         background: '#0A0A0A',
-        padding: '100px 24px 80px',
+        padding: '100px 24px 40px',
         position: 'relative',
         overflow: 'hidden',
       }}
@@ -49,7 +43,7 @@ export default function AIIntegrationHero() {
           display: 'grid',
           gridTemplateColumns: '1fr 1fr',
           gap: '64px',
-          alignItems: 'center',
+          alignItems: 'start',
         }}
       >
         {/* Left: Copy */}
@@ -73,7 +67,7 @@ export default function AIIntegrationHero() {
           <h1
             style={{
               fontFamily: 'Playfair Display, serif',
-              fontSize: 'clamp(36px, 4.5vw, 58px)',
+              fontSize: 'clamp(36px, 4.5vw, 50px)',
               fontWeight: 700,
               color: '#FFFFFF',
               lineHeight: 1.15,
@@ -91,7 +85,7 @@ export default function AIIntegrationHero() {
               fontWeight: 400,
               color: '#A0A0A0',
               lineHeight: 1.7,
-              marginBottom: '32px',
+              marginBottom: '20px',
             }}
           >
             Connect AI With Your CRM, Website, Databases, APIs, and Internal Tools
@@ -106,16 +100,101 @@ export default function AIIntegrationHero() {
               marginBottom: '36px',
             }}
           >
-            ThePrimeCrafters helps businesses connect AI into the systems they already use — so data, tasks, and decisions move automatically without rebuilding how the business runs.
+            Is your business leveraging AI tools in isolation, or are your systems working intelligently as one cohesive ecosystem? At ThePrimeCrafters, we design, build, and deploy enterprise-grade custom AI integrations that seamlessly inject artificial intelligence directly into your existing infrastructure.
           </p>
 
-          {/* H3 Badge row */}
+          <p
+            style={{
+              fontFamily: 'DM Sans, sans-serif',
+              fontSize: '16px',
+              color: '#B0B0B0',
+              lineHeight: 1.8,
+              marginBottom: '36px',
+            }}
+          >
+            Instead of manually logging into disparate chat windows or third-party web apps, our AI integration services empower your workflows by bridging the gaps between your core software stacks. We securely connect high-performing large language models and cognitive computing pipelines to your native CRMs, internal databases, customer-facing websites, legacy software architectures, and active communication layers. The result is automated data synchronization, cross-system operational execution, and contextual business decisions moving perfectly across your organization around the clock.
+          </p>
+        </div>
+
+        {/* Right: Diagram + Badges + CTAs */}
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '20px',
+          }}
+        >
+          {/* Diagram */}
+          <div
+            style={{
+              background: 'rgba(255,255,255,0.03)',
+              border: '1px solid rgba(201,168,76,0.15)',
+              borderRadius: '20px',
+              padding: '40px 32px',
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+            }}
+          >
+            {[
+              { label: 'Trigger', sub: 'Form · CRM Event · API Call', color: '#C9A84C' },
+              { label: 'AI Logic', sub: 'Classify · Score · Route · Draft', color: '#E8C97A' },
+              { label: 'Integrations', sub: 'CRM · Database · Email · Calendar', color: '#C9A84C' },
+              { label: 'Output', sub: 'Record Updated · Task Created · Alert Sent', color: '#E8C97A' },
+            ].map((node, i) => (
+              <div key={node.label} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
+                <div
+                  style={{
+                    width: '100%',
+                    background: 'rgba(201,168,76,0.07)',
+                    border: '1px solid rgba(201,168,76,0.2)',
+                    borderRadius: '12px',
+                    padding: '16px 20px',
+                    textAlign: 'center',
+                  }}
+                >
+                  <p
+                    style={{
+                      fontFamily: 'DM Sans, sans-serif',
+                      fontSize: '13px',
+                      fontWeight: 600,
+                      letterSpacing: '1.5px',
+                      textTransform: 'uppercase',
+                      color: node.color,
+                      marginBottom: '4px',
+                    }}
+                  >
+                    {node.label}
+                  </p>
+                  <p
+                    style={{
+                      fontFamily: 'DM Sans, sans-serif',
+                      fontSize: '12px',
+                      color: '#808080',
+                    }}
+                  >
+                    {node.sub}
+                  </p>
+                </div>
+                {i < 3 && (
+                  <div
+                    style={{
+                      width: '2px',
+                      height: '28px',
+                      background: 'linear-gradient(to bottom, rgba(201,168,76,0.5), rgba(201,168,76,0.1))',
+                    }}
+                  />
+                )}
+              </div>
+            ))}
+          </div>
+
+          {/* Badges — below diagram */}
           <div
             style={{
               display: 'flex',
               flexWrap: 'wrap',
               gap: '10px',
-              marginBottom: '40px',
             }}
           >
             {badges.map((b) => (
@@ -137,7 +216,7 @@ export default function AIIntegrationHero() {
             ))}
           </div>
 
-          {/* CTAs */}
+          {/* CTAs — below badges */}
           <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
             <Link
               href="/contact"
@@ -174,73 +253,6 @@ export default function AIIntegrationHero() {
             </Link>
           </div>
         </div>
-
-        {/* Right: Connected tools diagram */}
-        <div
-          style={{
-            background: 'rgba(255,255,255,0.03)',
-            border: '1px solid rgba(201,168,76,0.15)',
-            borderRadius: '20px',
-            padding: '48px 36px',
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            gap: '0',
-          }}
-        >
-          {/* Diagram nodes */}
-          {[
-            { label: 'Trigger', sub: 'Form · CRM Event · API Call', color: '#C9A84C' },
-            { label: 'AI Logic', sub: 'Classify · Score · Route · Draft', color: '#E8C97A' },
-            { label: 'Integrations', sub: 'CRM · Database · Email · Calendar', color: '#C9A84C' },
-            { label: 'Output', sub: 'Record Updated · Task Created · Alert Sent', color: '#E8C97A' },
-          ].map((node, i) => (
-            <div key={node.label} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
-              <div
-                style={{
-                  width: '100%',
-                  background: 'rgba(201,168,76,0.07)',
-                  border: `1px solid rgba(201,168,76,0.2)`,
-                  borderRadius: '12px',
-                  padding: '16px 20px',
-                  textAlign: 'center',
-                }}
-              >
-                <p
-                  style={{
-                    fontFamily: 'DM Sans, sans-serif',
-                    fontSize: '13px',
-                    fontWeight: 600,
-                    letterSpacing: '1.5px',
-                    textTransform: 'uppercase',
-                    color: node.color,
-                    marginBottom: '4px',
-                  }}
-                >
-                  {node.label}
-                </p>
-                <p
-                  style={{
-                    fontFamily: 'DM Sans, sans-serif',
-                    fontSize: '12px',
-                    color: '#808080',
-                  }}
-                >
-                  {node.sub}
-                </p>
-              </div>
-              {i < 3 && (
-                <div
-                  style={{
-                    width: '2px',
-                    height: '28px',
-                    background: 'linear-gradient(to bottom, rgba(201,168,76,0.5), rgba(201,168,76,0.1))',
-                  }}
-                />
-              )}
-            </div>
-          ))}
-        </div>
       </div>
 
       {/* Proof badges below hero */}
@@ -253,25 +265,7 @@ export default function AIIntegrationHero() {
           justifyContent: 'flex-start',
           flexWrap: 'wrap',
         }}
-      >
-        {proofBadges.map((b) => (
-          <div
-            key={b.label}
-            style={{
-              fontFamily: 'DM Sans, sans-serif',
-              fontSize: '13px',
-              fontWeight: 500,
-              color: '#C9A84C',
-              background: 'rgba(201,168,76,0.08)',
-              border: '1px solid rgba(201,168,76,0.25)',
-              borderRadius: '8px',
-              padding: '10px 20px',
-            }}
-          >
-            ✓ {b.label}
-          </div>
-        ))}
-      </div>
+      />
     </section>
   );
 }

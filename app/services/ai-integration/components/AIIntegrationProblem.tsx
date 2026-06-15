@@ -7,25 +7,25 @@ const problems = [
   {
     icon: '🔌',
     h3: 'AI Tools Sit Outside Daily Workflows',
-    body: 'AI output loses value when it stays in chat windows, PDFs, or separate tools instead of updating the business systems your team works in every day.',
+    body: 'When intelligence stays locked behind separate web interfaces, chat frames, or standalone applications, it fails to optimize your business operations. True value is squandered when employees spend hours manually copy-pasting data out of isolated AI windows, downloading raw text files, or transferring AI-generated insights into corporate platforms instead of completing revenue-generating work.',
     href: '/services/custom-ai-solutions',
   },
   {
     icon: '📋',
     h3: 'Teams Still Copy Data Between Systems',
-    body: 'Moving leads from forms to CRM, copying call notes, updating spreadsheets, sending reminders, and creating tickets — all done manually, every day.',
+    body: 'Without architectural integration, manual data handling spikes dramatically. Personnel find themselves transcribing raw data from consumer forms into CRM frameworks, manually pasting automated phone and meeting records, reconciling spreadsheets, setting calendar markers, and creating support tickets from scratch—reverting high-tech tools back into tedious manual jobs.',
     href: '/services/process-automation',
   },
   {
     icon: '🔄',
     h3: 'Customer and Lead Data Gets Out of Sync',
-    body: 'Duplicate records, missed follow-ups, outdated pipeline status, and support teams working from incomplete information all trace back to disconnected systems.',
+    body: 'Disconnected communication links result in fragmented databases and duplicate CRM logs. Prospects who show deep engagement are frequently lost due to delayed notifications, sales pipelines display obsolete deal categories, and client-facing accounts are left unoptimized, meaning marketing and client support personnel operate with conflicting and incomplete datasets.',
     href: '/case-study/lead-generation-tools',
   },
   {
     icon: '⚠️',
     h3: 'Basic Connectors Break When Logic Gets Complex',
-    body: 'Real AI integrations need data mapping, API logic, error handling, permissions, testing, and sometimes human approval — far beyond what simple no-code connectors can handle.',
+    body: 'Simple out-of-the-box automation bridges fail when hit with intricate real-world business dependencies. True business-level AI execution requires sophisticated multi-step field mapping, custom API webhooks, condition checking, smart exception management, role-based authorization, multi-layered data validation, and clean manual oversight checkpoints.',
     href: '/services/workflow-optimization',
   },
 ];
@@ -94,11 +94,11 @@ export default function AIIntegrationProblem() {
             color: '#888888',
             lineHeight: 1.75,
             textAlign: 'center',
-            maxWidth: '580px',
+            maxWidth: '640px',
             margin: '0 auto 56px',
           }}
         >
-          Isolated AI tools, manual copying, broken handoffs, stale CRM records, and scattered data all share one root cause — the systems are not connected.
+          Deploying cutting-edge AI technologies inside a silo creates operational dead ends. When artificial intelligence remains isolated from your functional infrastructure, your business handles costly workflow integration gaps, manual data entry, and fragmented operations.
         </p>
 
         {/* Pain-point cards */}

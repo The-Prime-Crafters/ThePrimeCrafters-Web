@@ -1,4 +1,3 @@
-// components/services/ai-integration/AIIntegrationFAQ.tsx
 'use client';
 
 import { useState } from 'react';
@@ -7,59 +6,59 @@ import Link from 'next/link';
 const faqs = [
   {
     q: 'What are AI integration services?',
-    a: 'AI integration services design and implement connections between AI systems and the business tools your team already uses — CRMs, websites, APIs, databases, email platforms, calendars, and internal software. Instead of AI output sitting in a separate tool, integrated AI updates records, routes tasks, triggers notifications, and supports decisions directly inside your real workflows.',
+    a: 'AI integration services involve the custom software engineering, data structure alignment, and API link configuration required to connect modern artificial intelligence engines straight into an enterprise\'s current software stack. This enables smart models to read information, evaluate files, make decisions, and update records natively inside daily operational tools without requiring manual data transfer.',
   },
   {
     q: 'What systems can ThePrimeCrafters connect with AI?',
-    a: 'ThePrimeCrafters connects AI with CRMs and sales platforms, website forms and lead capture tools, databases and spreadsheets, email and calendar platforms, communication tools like Slack and WhatsApp, custom APIs and internal software, AI voice agents and chatbots, reporting and dashboard systems, and internal knowledge bases and document libraries.',
+    a: 'Our developers design custom connectors across your entire technological stack, including prominent CRMs (Salesforce, HubSpot, GoHighLevel), cloud database clusters (SQL, PostgreSQL, MongoDB), customer portals, communication layers (Slack, Outlook, Teams), and custom internal legacy software through secure API integrations.',
     href: '/services',
     linkLabel: 'View All Services →',
   },
   {
     q: 'Can AI integration connect with my CRM?',
-    a: 'Yes. CRM integration is one of the most common and highest-impact connections ThePrimeCrafters builds. Integrations can create and update records, sync pipeline stages, log call summaries, score leads, route prospects, and trigger follow-up sequences — all automatically as data flows through connected workflows.',
+    a: 'Yes. We specialize in deep CRM connections that empower AI models to automatically create prospect files, adjust active pipeline categories based on phone summaries, record meeting transcripts, compute custom lead values, and prompt timely team follow-up sequences.',
     href: '/case-study/lead-generation-tools',
     linkLabel: 'See CRM Integration Case Study →',
   },
   {
     q: 'How is AI integration different from basic automation connectors?',
-    a: 'Basic connectors follow simple if/then triggers and break when logic gets complex. AI integration adds intelligent layers — classification, summarisation, scoring, routing, and drafting — while handling data mapping, API authentication, error handling, permissions, edge cases, and human approval steps. It is built for real business workflows, not just simple data transfers between two tools.',
+    a: 'Basic out-of-the-box automation bridges simply move raw data fields from point A to point B. Our custom AI integrations embed a smart cognitive layer directly into your workflows — enabling the system to clean text, analyze sentiment, summarize files, check complex conditions, handle errors, and include human validation checkpoints for higher-risk tasks.',
   },
   {
     q: 'Can ThePrimeCrafters integrate AI voice agents and chatbots with business tools?',
-    a: 'Yes. AI voice agents and chatbots can be connected with CRMs, calendars, ticket systems, lead records, call summary workflows, and support platforms. Every call or chat interaction can automatically update records, route leads, create tasks, and trigger the right follow-up — without manual entry after the conversation ends.',
+    a: 'Absolutely. We bridge front-facing voice agents and conversational chatbots directly to your backend calendars, ticket desks, and client databases. This allows the AI to book appointments, look up support tickets, and update consumer profiles in real time during a call or chat session.',
     href: '/case-study/spectrum-voice-agent',
     linkLabel: 'See Voice Agent Integration Case Study →',
   },
   {
     q: 'What is the process for building an AI integration?',
-    a: 'The process includes six structured steps: a system and workflow audit, integration opportunity mapping, data flow and API architecture design, building connectors and automation logic, testing data quality and edge cases, and post-launch monitoring and optimization. Every step is completed before moving to the next — integrations are not deployed until they are validated against real data and scenarios.',
+    a: 'We follow a structured six-step implementation framework: we start with an intensive workflow and systems audit, map out clear integration opportunities, plan data flows and API architecture, write custom integration code, perform exhaustive edge-case testing, and provide ongoing post-launch monitoring and adjustments.',
   },
   {
     q: 'Do AI integrations require replacing our existing software?',
-    a: 'No. AI integrations are built to connect with the CRMs, websites, databases, communication tools, and internal systems your team already uses. The goal is to add AI capability into your current tech stack — not to force a software migration or replace the tools your business depends on.',
+    a: 'No. Our core philosophy is to build around the systems you already use. We write secure middleware and link APIs to introduce modern intelligence into your existing platform setup, preserving your software investments and avoiding painful staff retraining.',
   },
   {
     q: 'How long does an AI integration project take?',
-    a: 'Timeline depends on the number of systems involved, the complexity of the data flows, and the AI logic required. Focused single-system integrations can launch in a few weeks. Multi-system integrations with custom API work, error handling, and human approval paths take longer. A confirmed timeline is provided after the system audit and workflow mapping stage.',
+    a: 'Project timelines depend entirely on the complexity of your workflow and the open accessibility of your software stack. Simple connections using standard API links can go live in 2 to 4 weeks, while complex enterprise systems featuring legacy software adjustments typically span 6 to 12 weeks. We outline definitive timelines during our initial planning phase.',
   },
   {
     q: 'How much do AI integration services cost?',
-    a: 'Cost is scoped based on workflow complexity, number of integrations, AI logic required, and rollout scope. ThePrimeCrafters provides a detailed proposal after reviewing your systems and goals during a free strategy call — not a generic price list.',
+    a: 'Every implementation project is customized to reflect the number of software tools involved, data synchronization speeds, and custom logic requirements. We deliver transparent, fixed-price project blueprints after completing your initial system and workflow audit.',
     href: '/contact',
     linkLabel: 'Book a Free Strategy Call →',
   },
   {
     q: 'Are AI integrations safe for sensitive business workflows?',
-    a: 'Yes. Integration design includes permission controls, access scoping, error handling, audit-friendly logs, and human-in-the-loop approval paths for sensitive decisions. Integrations are tested for data quality, duplicate records, failed syncs, and permission mismatches before going live. Healthcare and compliance-sensitive workflows are scoped carefully against the specific environment and requirements.',
+    a: 'Yes, data security is our top priority. We implement enterprise-grade encryption layers, use secure OAuth authentication, restrict access based on user roles, and insert human approval gates for sensitive actions like financial updates or external communications.',
   },
   {
     q: 'How do you measure whether an AI integration is working?',
-    a: 'Success is measured against workflow KPIs agreed before launch — such as records synced accurately, manual hours reduced, lead response time, error rate, CRM update accuracy, and task completion speed. Post-launch monitoring tracks integration health, data quality, and workflow performance so improvements can be made based on real usage data.',
+    a: 'We embed native tracking tools directly into your automated workflows. This allows you to monitor key metrics like manual data handling hours saved, drop-offs in process execution delays, synchronization accuracy rates, and overall workflow performance improvements through clear management dashboards.',
   },
   {
     q: 'Why choose ThePrimeCrafters for AI integration services?',
-    a: 'ThePrimeCrafters maps systems and data flows before building, integrates with your existing tools rather than replacing them, designs for real workflow logic including exceptions and approvals, tests thoroughly before launch, and supports the full project lifecycle from strategy through optimization. Every integration is built around how your business actually operates.',
+    a: 'We stand apart by combining deep business workflow mapping with rigorous software and API engineering. We focus on building secure, robust, and highly scalable solutions designed to solve real operational bottlenecks and drive measurable business growth.',
     href: '/about-us',
     linkLabel: 'About ThePrimeCrafters →',
     href2: '/case-studies',
@@ -175,7 +174,7 @@ export default function AIIntegrationFAQ() {
             margin: '0 auto 56px',
           }}
         >
-          Common questions about AI integration services, how ThePrimeCrafters works, and what to expect from an integration project.
+          Find precise technical answers to common questions about our AI integration engineering, architectural security protocols, and implementation processes.
         </p>
 
         {/* FAQ Accordion */}
