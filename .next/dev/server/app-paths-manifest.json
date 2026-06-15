@@ -1,1 +1,3 @@
-{}
+{
+  "/services/workflow-optimization/page": "app/services/workflow-optimization/page.js"
+}
