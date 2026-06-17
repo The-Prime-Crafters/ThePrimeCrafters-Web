@@ -9,6 +9,7 @@
   "/portfolio/page": "app/portfolio/page.js",
   "/privacy-policy/page": "app/privacy-policy/page.js",
   "/robots.txt/route": "app/robots.txt/route.js",
+  "/services/ai-agents/page": "app/services/ai-agents/page.js",
   "/services/ai-integration/page": "app/services/ai-integration/page.js",
   "/services/custom-ai-solutions/page": "app/services/custom-ai-solutions/page.js",
   "/services/page": "app/services/page.js",

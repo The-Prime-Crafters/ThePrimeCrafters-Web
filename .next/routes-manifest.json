@@ -103,6 +103,12 @@
       "namedRegex": "^/services(?:/)?$"
     },
     {
+      "page": "/services/ai-agents",
+      "regex": "^/services/ai\\-agents(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/ai\\-agents(?:/)?$"
+    },
+    {
       "page": "/services/ai-integration",
       "regex": "^/services/ai\\-integration(?:/)?$",
       "routeKeys": {},

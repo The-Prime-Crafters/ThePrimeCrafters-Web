@@ -1,0 +1,352 @@
+// components/services/ai-agents/AIAgentsBenefits.tsx
+'use client';
+
+import Link from 'next/link';
+
+const benefits = [
+  {
+    icon: '🌙',
+    h3: 'Respond to Leads and Customers Around the Clock',
+    body: 'AI agents answer, qualify, collect details, and trigger next steps when staff are unavailable — so no lead goes unresponded and no customer waits until business hours to get help.',
+    keywords: '24/7 AI Agents · Automated Customer Response',
+    href: '/contact',
+    featured: false,
+  },
+  {
+    icon: '⏱️',
+    h3: 'Reduce Repetitive Admin and Support Work',
+    body: 'Move common questions, logging, summaries, follow-ups, and routing away from human teams when judgment is not required — freeing staff to focus on complex work that actually needs them.',
+    keywords: 'Reduce Manual Support Work · Admin Automation',
+    href: null,
+    featured: false,
+  },
+  {
+    icon: '⚡',
+    h3: 'Improve Lead Qualification and Follow-Up Speed',
+    body: 'Qualify prospects, score intent, notify the right team member, and start follow-up without waiting on manual review — so the fastest response wins more business.',
+    keywords: 'Lead Qualification AI Agent · Lead Follow-Up Automation',
+    href: '/case-study/lead-generation-tools',
+    featured: true,
+  },
+  {
+    icon: '🔗',
+    h3: 'Keep Conversation Data Useful Inside Your Tools',
+    body: 'Log call and chat summaries, update CRM fields, create tasks, and keep customer records current after every interaction — without manual entry by the team member who handled it.',
+    keywords: 'AI Agent CRM Integration · Conversation Logging',
+    href: '/services/ai-integration',
+    featured: false,
+  },
+  {
+    icon: '📈',
+    h3: 'Scale Customer Interactions Without Adding Headcount',
+    body: 'Handle higher call, chat, support, and booking volume while keeping human teams focused on complex work — so growth does not automatically mean more hiring.',
+    keywords: 'Scale Customer Support With AI · AI Agents for Operations',
+    href: '/services/process-automation',
+    featured: false,
+  },
+  {
+    icon: '🛡️',
+    h3: 'Control Risk With Clear Rules, Escalation, and Review',
+    body: 'Keep humans in control for sensitive decisions with guardrails, review queues, fallback flows, and escalation rules — so agents operate within approved boundaries at all times.',
+    keywords: 'Safe AI Agents · Human Review AI Agent',
+    href: '/contact',
+    featured: false,
+    isFinal: true,
+  },
+];
+
+export default function AIAgentsBenefits() {
+  return (
+    <section
+      style={{
+        background: '#0F0F0F',
+        padding: '96px 24px',
+        position: 'relative',
+        overflow: 'hidden',
+      }}
+    >
+      {/* Top border accent */}
+      <div
+        style={{
+          position: 'absolute',
+          top: 0,
+          left: '50%',
+          transform: 'translateX(-50%)',
+          width: '600px',
+          height: '1px',
+          background:
+            'linear-gradient(to right, transparent, rgba(201,168,76,0.4), transparent)',
+        }}
+      />
+
+      {/* Bottom glow */}
+      <div
+        style={{
+          position: 'absolute',
+          bottom: '-100px',
+          left: '50%',
+          transform: 'translateX(-50%)',
+          width: '700px',
+          height: '400px',
+          background:
+            'radial-gradient(ellipse at center, rgba(201,168,76,0.06) 0%, transparent 70%)',
+          pointerEvents: 'none',
+        }}
+      />
+
+      <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+        {/* Section label */}
+        <p
+          style={{
+            fontFamily: 'DM Sans, sans-serif',
+            fontSize: '12px',
+            fontWeight: 600,
+            letterSpacing: '2.5px',
+            textTransform: 'uppercase',
+            color: '#C9A84C',
+            marginBottom: '16px',
+            textAlign: 'center',
+          }}
+        >
+          Benefits
+        </p>
+
+        {/* H2 */}
+        <h2
+          style={{
+            fontFamily: 'Playfair Display, serif',
+            fontSize: 'clamp(28px, 3.5vw, 44px)',
+            fontWeight: 700,
+            color: '#FFFFFF',
+            lineHeight: 1.2,
+            textAlign: 'center',
+            maxWidth: '720px',
+            margin: '0 auto 16px',
+          }}
+        >
+          Why Businesses Invest in Custom AI Agents
+        </h2>
+
+        <p
+          style={{
+            fontFamily: 'DM Sans, sans-serif',
+            fontSize: '16px',
+            color: '#888888',
+            lineHeight: 1.75,
+            textAlign: 'center',
+            maxWidth: '560px',
+            margin: '0 auto 56px',
+          }}
+        >
+          Faster response, less manual work, 24/7 coverage, cleaner records, better handoffs, and scalable customer operations — without proportionally growing the team.
+        </p>
+
+        {/* Benefits grid — strict 3-col for equal height rows */}
+        <div
+          style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(3, 1fr)',
+            gap: '20px',
+            marginBottom: '56px',
+          }}
+        >
+          {benefits.map((b) => (
+            <div
+              key={b.h3}
+              style={{
+                background: b.featured
+                  ? 'rgba(201,168,76,0.06)'
+                  : 'rgba(255,255,255,0.03)',
+                border: b.featured
+                  ? '1px solid rgba(201,168,76,0.3)'
+                  : '1px solid rgba(255,255,255,0.07)',
+                borderRadius: '16px',
+                padding: '28px',
+                display: 'flex',
+                flexDirection: 'column',
+                position: 'relative',
+                transition: 'border-color 0.25s, background 0.25s',
+              }}
+              onMouseEnter={(e) => {
+                const el = e.currentTarget as HTMLDivElement;
+                if (!b.featured) {
+                  el.style.borderColor = 'rgba(201,168,76,0.25)';
+                  el.style.background = 'rgba(201,168,76,0.03)';
+                }
+              }}
+              onMouseLeave={(e) => {
+                const el = e.currentTarget as HTMLDivElement;
+                if (!b.featured) {
+                  el.style.borderColor = 'rgba(255,255,255,0.07)';
+                  el.style.background = 'rgba(255,255,255,0.03)';
+                }
+              }}
+            >
+              {/* Featured badge */}
+              {b.featured && (
+                <div
+                  style={{
+                    position: 'absolute',
+                    top: '20px',
+                    right: '20px',
+                    background: 'linear-gradient(135deg, #C9A84C, #E8C97A)',
+                    borderRadius: '999px',
+                    padding: '3px 12px',
+                  }}
+                >
+                  <span
+                    style={{
+                      fontFamily: 'DM Sans, sans-serif',
+                      fontSize: '10px',
+                      fontWeight: 700,
+                      letterSpacing: '1.5px',
+                      textTransform: 'uppercase',
+                      color: '#0A0A0A',
+                    }}
+                  >
+                    Key Benefit
+                  </span>
+                </div>
+              )}
+
+              {/* Icon box */}
+              <div
+                style={{
+                  width: '52px',
+                  height: '52px',
+                  borderRadius: '12px',
+                  background: b.featured
+                    ? 'rgba(201,168,76,0.15)'
+                    : 'rgba(201,168,76,0.08)',
+                  border: '1px solid rgba(201,168,76,0.2)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  fontSize: '24px',
+                  flexShrink: 0,
+                  marginBottom: '20px',
+                }}
+              >
+                {b.icon}
+              </div>
+
+              {/* H3 — min-height keeps titles aligned across columns */}
+              <h3
+                style={{
+                  fontFamily: 'Playfair Display, serif',
+                  fontSize: '18px',
+                  fontWeight: 700,
+                  color: '#FFFFFF',
+                  lineHeight: 1.3,
+                  margin: '0 0 12px',
+                  minHeight: '48px',
+                  display: 'flex',
+                  alignItems: 'flex-start',
+                }}
+              >
+                {b.h3}
+              </h3>
+
+              {/* Body — flexGrow pushes footer to bottom */}
+              <p
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontSize: '14px',
+                  color: '#888888',
+                  lineHeight: 1.75,
+                  margin: '0 0 20px',
+                  flexGrow: 1,
+                }}
+              >
+                {b.body}
+              </p>
+
+              {/* Divider */}
+              <div
+                style={{
+                  height: '1px',
+                  background: b.featured
+                    ? 'rgba(201,168,76,0.15)'
+                    : 'rgba(255,255,255,0.06)',
+                  marginBottom: '16px',
+                }}
+              />
+
+              {/* Keywords */}
+              <div
+                style={{
+                  display: 'flex',
+                  flexWrap: 'wrap',
+                  gap: '6px',
+                  marginBottom: b.href ? '14px' : '0',
+                }}
+              >
+                {b.keywords.split(' · ').map((kw) => (
+                  <span
+                    key={kw}
+                    style={{
+                      fontFamily: 'DM Sans, sans-serif',
+                      fontSize: '11px',
+                      fontWeight: 500,
+                      color: 'rgba(201,168,76,0.6)',
+                      background: 'rgba(201,168,76,0.05)',
+                      border: '1px solid rgba(201,168,76,0.12)',
+                      borderRadius: '999px',
+                      padding: '3px 10px',
+                    }}
+                  >
+                    {kw}
+                  </span>
+                ))}
+              </div>
+
+              {/* Link — always at the bottom */}
+              {b.href ? (
+                <Link
+                  href={b.href}
+                  style={{
+                    fontFamily: 'DM Sans, sans-serif',
+                    fontSize: '13px',
+                    fontWeight: 500,
+                    color: '#C9A84C',
+                    textDecoration: 'none',
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '4px',
+                    marginTop: 'auto',
+                  }}
+                >
+                  {b.isFinal
+                    ? 'Discuss guardrails and safety →'
+                    : 'Learn more →'}
+                </Link>
+              ) : (
+                <div style={{ height: '20px' }} />
+              )}
+            </div>
+          ))}
+        </div>
+
+        {/* Bottom CTA */}
+        <div style={{ textAlign: 'center' }}>
+          <Link
+            href="/case-studies"
+            style={{
+              fontFamily: 'DM Sans, sans-serif',
+              fontSize: '14px',
+              fontWeight: 500,
+              color: '#C9A84C',
+              border: '1px solid rgba(201,168,76,0.35)',
+              padding: '13px 28px',
+              borderRadius: '8px',
+              textDecoration: 'none',
+              display: 'inline-block',
+            }}
+          >
+            See AI Agent Results in Our Case Studies →
+          </Link>
+        </div>
+      </div>
+    </section>
+  );
+}
