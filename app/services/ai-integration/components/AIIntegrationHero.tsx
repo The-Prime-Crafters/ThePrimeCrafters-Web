@@ -3,12 +3,12 @@
 import Link from 'next/link';
 
 const badges = [
-  'CRM AI Integration',
-  'API Connections',
-  'Data Sync',
-  'Automation',
-  'Automation Triggers',
-  'Secure Workflows',
+  'AI Voice Agents',
+  'AI Chat Agents',
+  'CRM AI Agents',
+  'Lead Qualification',
+  'Workflow Automation',
+  'Custom AI Agents',
 ];
 
 export default function AIIntegrationHero() {
@@ -67,14 +67,14 @@ export default function AIIntegrationHero() {
           <h1
             style={{
               fontFamily: 'Playfair Display, serif',
-              fontSize: 'clamp(36px, 4.5vw, 50px)',
+              fontSize: 'clamp(36px, 4.5vw, 56px)',
               fontWeight: 700,
               color: '#FFFFFF',
               lineHeight: 1.15,
               marginBottom: '24px',
             }}
           >
-            AI Integration Services for Connected Business Systems
+            AI Agent Development Services for Sales, Support, and Operations
           </h1>
 
           {/* H2 */}
@@ -88,7 +88,7 @@ export default function AIIntegrationHero() {
               marginBottom: '20px',
             }}
           >
-            Connect AI With Your CRM, Website, Databases, APIs, and Internal Tools
+            Custom AI Agents Built to Work Inside Real Business Workflows
           </h2>
 
           <p
@@ -100,19 +100,7 @@ export default function AIIntegrationHero() {
               marginBottom: '36px',
             }}
           >
-            Is your business leveraging AI tools in isolation, or are your systems working intelligently as one cohesive ecosystem? At ThePrimeCrafters, we design, build, and deploy enterprise-grade custom AI integrations that seamlessly inject artificial intelligence directly into your existing infrastructure.
-          </p>
-
-          <p
-            style={{
-              fontFamily: 'DM Sans, sans-serif',
-              fontSize: '16px',
-              color: '#B0B0B0',
-              lineHeight: 1.8,
-              marginBottom: '36px',
-            }}
-          >
-            Instead of manually logging into disparate chat windows or third-party web apps, our AI integration services empower your workflows by bridging the gaps between your core software stacks. We securely connect high-performing large language models and cognitive computing pipelines to your native CRMs, internal databases, customer-facing websites, legacy software architectures, and active communication layers. The result is automated data synchronization, cross-system operational execution, and contextual business decisions moving perfectly across your organization around the clock.
+            ThePrimeCrafters builds custom AI agents that work inside real business workflows instead of sitting as isolated demo tools. Our agents answer calls, qualify leads, support customers, book appointments, update CRMs, and handle internal tasks automatically.
           </p>
         </div>
 
@@ -190,13 +178,7 @@ export default function AIIntegrationHero() {
           </div>
 
           {/* Badges — below diagram */}
-          <div
-            style={{
-              display: 'flex',
-              flexWrap: 'wrap',
-              gap: '10px',
-            }}
-          >
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
             {badges.map((b) => (
               <span
                 key={b}
@@ -232,7 +214,7 @@ export default function AIIntegrationHero() {
                 whiteSpace: 'nowrap',
               }}
             >
-              Book a Free AI Integration Strategy Call →
+              Book a Free AI Agent Strategy Call →
             </Link>
             <Link
               href="/case-studies"

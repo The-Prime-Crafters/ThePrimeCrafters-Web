@@ -144,7 +144,8 @@ export default function AIIntegrationCTA() {
             marginBottom: '48px',
           }}
         >
-          Stop wasting valuable team hours copy-pasting data between disconnected screens. Let's design a high-performance, secure AI integration framework customized for your operational tech stack.
+         Bring your current call, chat, CRM, booking, or support workflow. We will review the process, identify the best agent use case, and recommend a clear build path in a free strategy call.
+
         </p>
 
         {/* Primary CTA button */}
@@ -187,7 +188,8 @@ export default function AIIntegrationCTA() {
             marginBottom: '40px',
           }}
         >
-          Tell Us the Tools You Want to Connect – Tell us about your current software setups, operational bottlenecks, and goals, and our engineering architects will map out your custom implementation plan.
+          Share these details and we will review your current process, identify the best agent use case, and recommend a build path:
+
         </p>
 
         {/* Trust row */}
@@ -201,9 +203,10 @@ export default function AIIntegrationCTA() {
           }}
         >
           {[
-            { icon: '✓', label: 'No commitment required' },
-            { icon: '✓', label: 'Free strategy call' },
-            { icon: '✓', label: 'Built around your existing stack' },
+            { icon: '✓', label: 'Current workflow or process' },
+            { icon: '✓', label: 'Tools and systems in use' },
+            { icon: '✓', label: 'Data sources and CRM setup' },
+            { icon: '✓', label: 'Goals and success metrics' },
           ].map((t) => (
             <div
               key={t.label}

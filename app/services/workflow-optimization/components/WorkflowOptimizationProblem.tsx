@@ -7,26 +7,45 @@ const problems = [
   {
     icon: '🔁',
     h3: 'Manual Handoffs Slow Everything Down',
-    body: 'Teams lose time when leads, tasks, approvals, notes, and updates move manually between people and tools. Every manual handoff is a delay, a potential error, and a step that should not require human effort.',
+    body: 'Every time a lead, task, approval, note, or update has to move manually from one person or tool to another, there is a delay built into the process. Someone has to remember to do it, find the time to do it, and do it correctly. Multiply that across dozens of handoffs a day and the lost time becomes significant, even though no single handoff feels like a big deal on its own.',
     href: '/services/process-automation',
   },
   {
     icon: '🔀',
     h3: 'Teams Use Too Many Disconnected Tools',
-    body: 'CRMs, spreadsheets, inboxes, calendars, forms, chats, dashboards, and internal systems that do not share context create friction, duplication, and visibility gaps that slow every team down.',
+    body: 'CRMs, spreadsheets, inboxes, calendars, forms, chat tools, dashboards, and internal systems rarely share context with each other automatically. A customer update lives in the inbox. The task lives in a project tool. The record lives in the CRM. None of them know what the others are doing. The result is duplicated work, conflicting information, and a constant manual effort to keep everything aligned.',
     href: '/services/ai-integration',
   },
   {
     icon: '⏳',
     h3: 'Bottlenecks Hide Inside Approvals and Status Updates',
-    body: 'Stalled approvals, unclear owners, delayed responses, missing status updates, and repeated follow-ups are symptoms of workflows that were never properly mapped or optimised.',
+    body: 'The slowest parts of a workflow are often invisible until someone goes looking for them. A stalled approval sitting in someone\'s inbox. An unclear owner who assumes someone else is handling it. A status update that never went out because no one was responsible for sending it. These small gaps compound into real delays that affect revenue, customer experience, and team morale.',
     href: '/case-studies',
   },
   {
     icon: '⚠️',
     h3: 'Automation Fails When the Workflow Is Not Mapped First',
-    body: 'Effective automation needs clear process steps, triggers, rules, ownership, exceptions, and success metrics defined before any tool is built. Automating a broken workflow just breaks it faster.',
+    body: 'The most common reason automation projects fail is that they were built on top of a process that was never clearly defined. Effective automation needs clear steps, defined triggers, explicit ownership, documented exceptions, and success metrics established before any tool gets built. Automating a workflow that was never mapped does not fix the workflow. It just makes the same confusion happen faster and with less visibility into what went wrong.',
     href: '/services/process-automation',
+  },
+];
+
+const comparisonRows = [
+  {
+    left: 'Build tools before mapping the process',
+    right: 'Map the workflow before selecting any tool',
+  },
+  {
+    left: 'Automation breaks at every exception',
+    right: 'Automation handles exceptions by design',
+  },
+  {
+    left: 'Unclear ownership causes repeated failures',
+    right: 'Ownership and routing defined from the start',
+  },
+  {
+    left: 'More tools, more complexity, same problems',
+    right: 'AI and tools added into a clear process',
   },
 ];
 
@@ -94,11 +113,11 @@ export default function WorkflowOptimizationProblem() {
             color: '#888888',
             lineHeight: 1.75,
             textAlign: 'center',
-            maxWidth: '580px',
+            maxWidth: '640px',
             margin: '0 auto 56px',
           }}
         >
-          Manual handoffs, repeated updates, scattered tools, unclear ownership, hidden bottlenecks, missed follow-ups, and automation that fails because the process was never mapped first.
+          A team can be fully occupied every single day and still not be making real progress. Manual handoffs, repeated status updates, scattered tools, unclear ownership, hidden bottlenecks, and missed follow ups all create the feeling of constant activity without actual forward motion. Automation rarely fixes this on its own. When a workflow is never mapped before tools get added, the automation just speeds up the confusion instead of removing it.
         </p>
 
         {/* Pain-point cards */}
@@ -181,122 +200,95 @@ export default function WorkflowOptimizationProblem() {
           ))}
         </div>
 
-        {/* Contrast block: Automate Chaos vs Optimize First */}
+        {/* Comparison block — table */}
         <div
           style={{
-            display: 'grid',
-            gridTemplateColumns: '1fr 1fr',
-            gap: '2px',
-            borderRadius: '16px',
+            border: '1px solid rgba(201,168,76,0.3)',
+            borderRadius: '12px',
             overflow: 'hidden',
-            border: '1px solid rgba(201,168,76,0.15)',
             marginBottom: '56px',
           }}
         >
-          {/* Automate Chaos */}
-          <div
+          <p
             style={{
-              background: 'rgba(255,255,255,0.02)',
-              padding: '36px 32px',
+              fontFamily: 'DM Sans, sans-serif',
+              fontSize: '13px',
+              fontWeight: 700,
+              color: '#FFFFFF',
+              margin: '0 0 16px',
+              padding: '24px 24px 0',
             }}
           >
-            <p
-              style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontSize: '12px',
-                fontWeight: 600,
-                letterSpacing: '2px',
-                textTransform: 'uppercase',
-                color: '#555555',
-                marginBottom: '20px',
-              }}
-            >
-              Automate Chaos
-            </p>
-            {[
-              'Build tools before mapping the process',
-              'Automation breaks at every exception',
-              'Unclear ownership causes repeated failures',
-              'More tools, more complexity, same problems',
-            ].map((item) => (
-              <div
-                key={item}
-                style={{
-                  display: 'flex',
-                  alignItems: 'flex-start',
-                  gap: '10px',
-                  marginBottom: '12px',
-                }}
-              >
-                <span style={{ color: '#555555', fontSize: '14px', marginTop: '2px', flexShrink: 0 }}>
-                  ✕
-                </span>
-                <span
-                  style={{
-                    fontFamily: 'DM Sans, sans-serif',
-                    fontSize: '14px',
-                    color: '#666666',
-                    lineHeight: 1.5,
-                  }}
-                >
-                  {item}
-                </span>
-              </div>
-            ))}
-          </div>
-
-          {/* Optimize First */}
-          <div
+            Comparison block:
+          </p>
+          <table
             style={{
-              background: 'rgba(201,168,76,0.05)',
-              padding: '36px 32px',
-              borderLeft: '1px solid rgba(201,168,76,0.2)',
+              width: '100%',
+              borderCollapse: 'collapse',
+              fontFamily: 'DM Sans, sans-serif',
             }}
           >
-            <p
-              style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontSize: '12px',
-                fontWeight: 600,
-                letterSpacing: '2px',
-                textTransform: 'uppercase',
-                color: '#C9A84C',
-                marginBottom: '20px',
-              }}
-            >
-              Optimize First
-            </p>
-            {[
-              'Map the workflow before selecting any tool',
-              'Automation handles exceptions by design',
-              'Ownership and routing defined from the start',
-              'AI and tools added into a clear process',
-            ].map((item) => (
-              <div
-                key={item}
-                style={{
-                  display: 'flex',
-                  alignItems: 'flex-start',
-                  gap: '10px',
-                  marginBottom: '12px',
-                }}
-              >
-                <span style={{ color: '#C9A84C', fontSize: '14px', marginTop: '2px', flexShrink: 0 }}>
-                  ✓
-                </span>
-                <span
+            <thead>
+              <tr style={{ background: '#1a1a1a' }}>
+                {['Automate Chaos', 'Optimize First'].map((h) => (
+                  <th
+                    key={h}
+                    style={{
+                      padding: '14px 24px',
+                      textAlign: 'left',
+                      fontSize: '13px',
+                      fontWeight: 700,
+                      color: '#FFFFFF',
+                      letterSpacing: '0.02em',
+                      borderBottom: '1px solid rgba(201,168,76,0.2)',
+                      width: '50%',
+                    }}
+                  >
+                    {h}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {comparisonRows.map((row, i) => (
+                <tr
+                  key={row.left}
                   style={{
-                    fontFamily: 'DM Sans, sans-serif',
-                    fontSize: '14px',
-                    color: '#CCCCCC',
-                    lineHeight: 1.5,
+                    background:
+                      i % 2 === 0
+                        ? 'rgba(255,255,255,0.02)'
+                        : 'rgba(255,255,255,0.04)',
+                    borderBottom:
+                      i < comparisonRows.length - 1
+                        ? '1px solid rgba(255,255,255,0.05)'
+                        : 'none',
                   }}
                 >
-                  {item}
-                </span>
-              </div>
-            ))}
-          </div>
+                  <td
+                    style={{
+                      padding: '16px 24px',
+                      fontSize: '14px',
+                      color: '#A0A0A0',
+                      lineHeight: 1.6,
+                      borderRight: '1px solid rgba(255,255,255,0.06)',
+                    }}
+                  >
+                    {row.left}
+                  </td>
+                  <td
+                    style={{
+                      padding: '16px 24px',
+                      fontSize: '14px',
+                      color: '#A0A0A0',
+                      lineHeight: 1.6,
+                    }}
+                  >
+                    {row.right}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
 
         {/* CTA anchor */}

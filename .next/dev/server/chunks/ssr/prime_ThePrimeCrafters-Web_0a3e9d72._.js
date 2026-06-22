@@ -4198,15 +4198,21 @@ const badges = [
     'KPI Tracking',
     'AI Optimization'
 ];
-const proofBadges = [
+const proofRows = [
     {
-        label: 'Workflow Audit'
+        badge: 'Workflow Audit',
+        means: 'Full review of current process',
+        outcome: 'Clear picture of where work stalls'
     },
     {
-        label: 'Automation Roadmap'
+        badge: 'Automation Roadmap',
+        means: 'Plan for where AI and tools fit',
+        outcome: 'Automation built on a mapped process'
     },
     {
-        label: 'KPI Tracking'
+        badge: 'KPI Tracking',
+        means: 'Defined success metrics',
+        outcome: 'Measurable proof the change worked'
     }
 ];
 const diagramNodes = [
@@ -4253,7 +4259,7 @@ function WorkflowOptimizationHero() {
                 }
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
-                lineNumber: 38,
+                lineNumber: 50,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4281,13 +4287,13 @@ function WorkflowOptimizationHero() {
                                 children: "ThePrimeCrafters"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
-                                lineNumber: 65,
+                                lineNumber: 77,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                 style: {
                                     fontFamily: 'Playfair Display, serif',
-                                    fontSize: 'clamp(36px, 4.5vw, 54px)',
+                                    fontSize: 'clamp(36px, 4.5vw, 50px)',
                                     fontWeight: 700,
                                     color: '#FFFFFF',
                                     lineHeight: 1.15,
@@ -4296,7 +4302,7 @@ function WorkflowOptimizationHero() {
                                 children: "AI Workflow Optimization Services for Faster, Smarter Business Operations"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
-                                lineNumber: 80,
+                                lineNumber: 92,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -4311,7 +4317,7 @@ function WorkflowOptimizationHero() {
                                 children: "Find Bottlenecks, Improve Handoffs, and Build AI-Ready Workflows"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
-                                lineNumber: 94,
+                                lineNumber: 106,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4322,10 +4328,10 @@ function WorkflowOptimizationHero() {
                                     lineHeight: 1.8,
                                     marginBottom: '36px'
                                 },
-                                children: "ThePrimeCrafters helps businesses map current workflows, remove friction, improve ownership, and prepare processes for automation and AI systems — so teams move work faster with fewer manual steps."
+                                children: "Most operational slowdowns are not caused by a lack of tools. They are caused by workflows that were never properly mapped, handoffs that depend on memory, and ownership that was never made clear. The Prime Crafters helps businesses map their current workflows, remove friction at every handoff, clarify ownership, and prepare the process for automation and AI so teams can move work faster with fewer manual steps."
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
-                                lineNumber: 107,
+                                lineNumber: 119,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4349,12 +4355,12 @@ function WorkflowOptimizationHero() {
                                         children: b
                                     }, b, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
-                                        lineNumber: 129,
+                                        lineNumber: 141,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
-                                lineNumber: 120,
+                                lineNumber: 132,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4380,7 +4386,7 @@ function WorkflowOptimizationHero() {
                                         children: "Book a Free Workflow Optimization Strategy Call →"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
-                                        lineNumber: 149,
+                                        lineNumber: 161,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -4400,19 +4406,19 @@ function WorkflowOptimizationHero() {
                                         children: "View Case Studies"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
-                                        lineNumber: 165,
+                                        lineNumber: 177,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
-                                lineNumber: 148,
+                                lineNumber: 160,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
-                        lineNumber: 63,
+                        lineNumber: 75,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4457,7 +4463,7 @@ function WorkflowOptimizationHero() {
                                                     children: node.label
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
-                                                    lineNumber: 217,
+                                                    lineNumber: 229,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4470,13 +4476,13 @@ function WorkflowOptimizationHero() {
                                                     children: node.sub
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
-                                                    lineNumber: 230,
+                                                    lineNumber: 242,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
-                                            lineNumber: 207,
+                                            lineNumber: 219,
                                             columnNumber: 15
                                         }, this),
                                         i < diagramNodes.length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4487,13 +4493,13 @@ function WorkflowOptimizationHero() {
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
-                                            lineNumber: 242,
+                                            lineNumber: 254,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, node.label, true, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
-                                    lineNumber: 198,
+                                    lineNumber: 210,
                                     columnNumber: 13
                                 }, this)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4519,64 +4525,146 @@ function WorkflowOptimizationHero() {
                                     children: "↺ Continuous Improvement Loop"
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
-                                    lineNumber: 266,
+                                    lineNumber: 278,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
-                                lineNumber: 255,
+                                lineNumber: 267,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
-                        lineNumber: 186,
+                        lineNumber: 198,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
-                lineNumber: 52,
+                lineNumber: 64,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 style: {
                     maxWidth: '1200px',
                     margin: '56px auto 0',
-                    display: 'flex',
-                    gap: '20px',
-                    justifyContent: 'flex-start',
-                    flexWrap: 'wrap'
+                    border: '1px solid rgba(201,168,76,0.3)',
+                    borderRadius: '12px',
+                    overflow: 'hidden'
                 },
-                children: proofBadges.map((b)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            fontFamily: 'DM Sans, sans-serif',
-                            fontSize: '13px',
-                            fontWeight: 500,
-                            color: '#C9A84C',
-                            background: 'rgba(201,168,76,0.08)',
-                            border: '1px solid rgba(201,168,76,0.25)',
-                            borderRadius: '8px',
-                            padding: '10px 20px'
-                        },
-                        children: [
-                            "✓ ",
-                            b.label
-                        ]
-                    }, b.label, true, {
-                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
-                        lineNumber: 295,
-                        columnNumber: 11
-                    }, this))
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("table", {
+                    style: {
+                        width: '100%',
+                        borderCollapse: 'collapse',
+                        fontFamily: 'DM Sans, sans-serif'
+                    },
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("thead", {
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+                                style: {
+                                    background: '#1a1a1a'
+                                },
+                                children: [
+                                    'Badge',
+                                    'What It Means',
+                                    'Outcome'
+                                ].map((h)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                        style: {
+                                            padding: '14px 20px',
+                                            textAlign: 'left',
+                                            fontSize: '13px',
+                                            fontWeight: 700,
+                                            color: '#FFFFFF',
+                                            letterSpacing: '0.02em',
+                                            borderBottom: '1px solid rgba(201,168,76,0.2)'
+                                        },
+                                        children: h
+                                    }, h, false, {
+                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
+                                        lineNumber: 315,
+                                        columnNumber: 17
+                                    }, this))
+                            }, void 0, false, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
+                                lineNumber: 313,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
+                            lineNumber: 312,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
+                            children: proofRows.map((row, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+                                    style: {
+                                        background: i % 2 === 0 ? 'rgba(255,255,255,0.02)' : 'rgba(255,255,255,0.04)',
+                                        borderBottom: i < proofRows.length - 1 ? '1px solid rgba(255,255,255,0.05)' : 'none'
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                            style: {
+                                                padding: '16px 20px',
+                                                fontSize: '14px',
+                                                fontWeight: 500,
+                                                color: '#C9A84C'
+                                            },
+                                            children: row.badge
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
+                                            lineNumber: 344,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                            style: {
+                                                padding: '16px 20px',
+                                                fontSize: '14px',
+                                                color: '#A0A0A0'
+                                            },
+                                            children: row.means
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
+                                            lineNumber: 354,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                            style: {
+                                                padding: '16px 20px',
+                                                fontSize: '14px',
+                                                color: '#A0A0A0'
+                                            },
+                                            children: row.outcome
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
+                                            lineNumber: 363,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, row.badge, true, {
+                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
+                                    lineNumber: 334,
+                                    columnNumber: 15
+                                }, this))
+                        }, void 0, false, {
+                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
+                            lineNumber: 332,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
+                    lineNumber: 305,
+                    columnNumber: 9
+                }, this)
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
-                lineNumber: 284,
+                lineNumber: 296,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationHero.tsx",
-        lineNumber: 29,
+        lineNumber: 41,
         columnNumber: 5
     }, this);
 }
@@ -4598,26 +4686,44 @@ const problems = [
     {
         icon: '🔁',
         h3: 'Manual Handoffs Slow Everything Down',
-        body: 'Teams lose time when leads, tasks, approvals, notes, and updates move manually between people and tools. Every manual handoff is a delay, a potential error, and a step that should not require human effort.',
+        body: 'Every time a lead, task, approval, note, or update has to move manually from one person or tool to another, there is a delay built into the process. Someone has to remember to do it, find the time to do it, and do it correctly. Multiply that across dozens of handoffs a day and the lost time becomes significant, even though no single handoff feels like a big deal on its own.',
         href: '/services/process-automation'
     },
     {
         icon: '🔀',
         h3: 'Teams Use Too Many Disconnected Tools',
-        body: 'CRMs, spreadsheets, inboxes, calendars, forms, chats, dashboards, and internal systems that do not share context create friction, duplication, and visibility gaps that slow every team down.',
+        body: 'CRMs, spreadsheets, inboxes, calendars, forms, chat tools, dashboards, and internal systems rarely share context with each other automatically. A customer update lives in the inbox. The task lives in a project tool. The record lives in the CRM. None of them know what the others are doing. The result is duplicated work, conflicting information, and a constant manual effort to keep everything aligned.',
         href: '/services/ai-integration'
     },
     {
         icon: '⏳',
         h3: 'Bottlenecks Hide Inside Approvals and Status Updates',
-        body: 'Stalled approvals, unclear owners, delayed responses, missing status updates, and repeated follow-ups are symptoms of workflows that were never properly mapped or optimised.',
+        body: 'The slowest parts of a workflow are often invisible until someone goes looking for them. A stalled approval sitting in someone\'s inbox. An unclear owner who assumes someone else is handling it. A status update that never went out because no one was responsible for sending it. These small gaps compound into real delays that affect revenue, customer experience, and team morale.',
         href: '/case-studies'
     },
     {
         icon: '⚠️',
         h3: 'Automation Fails When the Workflow Is Not Mapped First',
-        body: 'Effective automation needs clear process steps, triggers, rules, ownership, exceptions, and success metrics defined before any tool is built. Automating a broken workflow just breaks it faster.',
+        body: 'The most common reason automation projects fail is that they were built on top of a process that was never clearly defined. Effective automation needs clear steps, defined triggers, explicit ownership, documented exceptions, and success metrics established before any tool gets built. Automating a workflow that was never mapped does not fix the workflow. It just makes the same confusion happen faster and with less visibility into what went wrong.',
         href: '/services/process-automation'
+    }
+];
+const comparisonRows = [
+    {
+        left: 'Build tools before mapping the process',
+        right: 'Map the workflow before selecting any tool'
+    },
+    {
+        left: 'Automation breaks at every exception',
+        right: 'Automation handles exceptions by design'
+    },
+    {
+        left: 'Unclear ownership causes repeated failures',
+        right: 'Ownership and routing defined from the start'
+    },
+    {
+        left: 'More tools, more complexity, same problems',
+        right: 'AI and tools added into a clear process'
     }
 ];
 function WorkflowOptimizationProblem() {
@@ -4641,7 +4747,7 @@ function WorkflowOptimizationProblem() {
                 }
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
-                lineNumber: 44,
+                lineNumber: 63,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4664,7 +4770,7 @@ function WorkflowOptimizationProblem() {
                         children: "The Problem"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
-                        lineNumber: 59,
+                        lineNumber: 78,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -4681,7 +4787,7 @@ function WorkflowOptimizationProblem() {
                         children: "Messy Workflows Keep Teams Busy Without Moving Work Forward"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
-                        lineNumber: 75,
+                        lineNumber: 94,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4691,13 +4797,13 @@ function WorkflowOptimizationProblem() {
                             color: '#888888',
                             lineHeight: 1.75,
                             textAlign: 'center',
-                            maxWidth: '580px',
+                            maxWidth: '640px',
                             margin: '0 auto 56px'
                         },
-                        children: "Manual handoffs, repeated updates, scattered tools, unclear ownership, hidden bottlenecks, missed follow-ups, and automation that fails because the process was never mapped first."
+                        children: "A team can be fully occupied every single day and still not be making real progress. Manual handoffs, repeated status updates, scattered tools, unclear ownership, hidden bottlenecks, and missed follow ups all create the feeling of constant activity without actual forward motion. Automation rarely fixes this on its own. When a workflow is never mapped before tools get added, the automation just speeds up the confusion instead of removing it."
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
-                        lineNumber: 90,
+                        lineNumber: 109,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4736,7 +4842,7 @@ function WorkflowOptimizationProblem() {
                                         children: p.icon
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
-                                        lineNumber: 137,
+                                        lineNumber: 156,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -4751,7 +4857,7 @@ function WorkflowOptimizationProblem() {
                                         children: p.h3
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
-                                        lineNumber: 139,
+                                        lineNumber: 158,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4766,7 +4872,7 @@ function WorkflowOptimizationProblem() {
                                         children: p.body
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
-                                        lineNumber: 152,
+                                        lineNumber: 171,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -4784,182 +4890,140 @@ function WorkflowOptimizationProblem() {
                                         children: "Learn more →"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
-                                        lineNumber: 165,
+                                        lineNumber: 184,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, p.h3, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
-                                lineNumber: 114,
+                                lineNumber: 133,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
-                        lineNumber: 105,
+                        lineNumber: 124,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         style: {
-                            display: 'grid',
-                            gridTemplateColumns: '1fr 1fr',
-                            gap: '2px',
-                            borderRadius: '16px',
+                            border: '1px solid rgba(201,168,76,0.3)',
+                            borderRadius: '12px',
                             overflow: 'hidden',
-                            border: '1px solid rgba(201,168,76,0.15)',
                             marginBottom: '56px'
                         },
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 style: {
-                                    background: 'rgba(255,255,255,0.02)',
-                                    padding: '36px 32px'
+                                    fontFamily: 'DM Sans, sans-serif',
+                                    fontSize: '13px',
+                                    fontWeight: 700,
+                                    color: '#FFFFFF',
+                                    margin: '0 0 16px',
+                                    padding: '24px 24px 0'
                                 },
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        style: {
-                                            fontFamily: 'DM Sans, sans-serif',
-                                            fontSize: '12px',
-                                            fontWeight: 600,
-                                            letterSpacing: '2px',
-                                            textTransform: 'uppercase',
-                                            color: '#555555',
-                                            marginBottom: '20px'
-                                        },
-                                        children: "Automate Chaos"
-                                    }, void 0, false, {
-                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
-                                        lineNumber: 203,
-                                        columnNumber: 13
-                                    }, this),
-                                    [
-                                        'Build tools before mapping the process',
-                                        'Automation breaks at every exception',
-                                        'Unclear ownership causes repeated failures',
-                                        'More tools, more complexity, same problems'
-                                    ].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                display: 'flex',
-                                                alignItems: 'flex-start',
-                                                gap: '10px',
-                                                marginBottom: '12px'
-                                            },
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    style: {
-                                                        color: '#555555',
-                                                        fontSize: '14px',
-                                                        marginTop: '2px',
-                                                        flexShrink: 0
-                                                    },
-                                                    children: "✕"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
-                                                    lineNumber: 231,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    style: {
-                                                        fontFamily: 'DM Sans, sans-serif',
-                                                        fontSize: '14px',
-                                                        color: '#666666',
-                                                        lineHeight: 1.5
-                                                    },
-                                                    children: item
-                                                }, void 0, false, {
-                                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
-                                                    lineNumber: 234,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, item, true, {
-                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
-                                            lineNumber: 222,
-                                            columnNumber: 15
-                                        }, this))
-                                ]
-                            }, void 0, true, {
+                                children: "Comparison block:"
+                            }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
-                                lineNumber: 197,
+                                lineNumber: 212,
                                 columnNumber: 11
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("table", {
                                 style: {
-                                    background: 'rgba(201,168,76,0.05)',
-                                    padding: '36px 32px',
-                                    borderLeft: '1px solid rgba(201,168,76,0.2)'
+                                    width: '100%',
+                                    borderCollapse: 'collapse',
+                                    fontFamily: 'DM Sans, sans-serif'
                                 },
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        style: {
-                                            fontFamily: 'DM Sans, sans-serif',
-                                            fontSize: '12px',
-                                            fontWeight: 600,
-                                            letterSpacing: '2px',
-                                            textTransform: 'uppercase',
-                                            color: '#C9A84C',
-                                            marginBottom: '20px'
-                                        },
-                                        children: "Optimize First"
-                                    }, void 0, false, {
-                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
-                                        lineNumber: 256,
-                                        columnNumber: 13
-                                    }, this),
-                                    [
-                                        'Map the workflow before selecting any tool',
-                                        'Automation handles exceptions by design',
-                                        'Ownership and routing defined from the start',
-                                        'AI and tools added into a clear process'
-                                    ].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("thead", {
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
                                             style: {
-                                                display: 'flex',
-                                                alignItems: 'flex-start',
-                                                gap: '10px',
-                                                marginBottom: '12px'
+                                                background: '#1a1a1a'
                                             },
                                             children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                'Automate Chaos',
+                                                'Optimize First'
+                                            ].map((h)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                                                     style: {
-                                                        color: '#C9A84C',
-                                                        fontSize: '14px',
-                                                        marginTop: '2px',
-                                                        flexShrink: 0
+                                                        padding: '14px 24px',
+                                                        textAlign: 'left',
+                                                        fontSize: '13px',
+                                                        fontWeight: 700,
+                                                        color: '#FFFFFF',
+                                                        letterSpacing: '0.02em',
+                                                        borderBottom: '1px solid rgba(201,168,76,0.2)',
+                                                        width: '50%'
                                                     },
-                                                    children: "✓"
-                                                }, void 0, false, {
+                                                    children: h
+                                                }, h, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
-                                                    lineNumber: 284,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    style: {
-                                                        fontFamily: 'DM Sans, sans-serif',
-                                                        fontSize: '14px',
-                                                        color: '#CCCCCC',
-                                                        lineHeight: 1.5
-                                                    },
-                                                    children: item
-                                                }, void 0, false, {
-                                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
-                                                    lineNumber: 287,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, item, true, {
+                                                    lineNumber: 234,
+                                                    columnNumber: 19
+                                                }, this))
+                                        }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
-                                            lineNumber: 275,
+                                            lineNumber: 232,
                                             columnNumber: 15
-                                        }, this))
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
+                                        lineNumber: 231,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
+                                        children: comparisonRows.map((row, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+                                                style: {
+                                                    background: i % 2 === 0 ? 'rgba(255,255,255,0.02)' : 'rgba(255,255,255,0.04)',
+                                                    borderBottom: i < comparisonRows.length - 1 ? '1px solid rgba(255,255,255,0.05)' : 'none'
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                        style: {
+                                                            padding: '16px 24px',
+                                                            fontSize: '14px',
+                                                            color: '#A0A0A0',
+                                                            lineHeight: 1.6,
+                                                            borderRight: '1px solid rgba(255,255,255,0.06)'
+                                                        },
+                                                        children: row.left
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
+                                                        lineNumber: 267,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                        style: {
+                                                            padding: '16px 24px',
+                                                            fontSize: '14px',
+                                                            color: '#A0A0A0',
+                                                            lineHeight: 1.6
+                                                        },
+                                                        children: row.right
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
+                                                        lineNumber: 278,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, row.left, true, {
+                                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
+                                                lineNumber: 254,
+                                                columnNumber: 17
+                                            }, this))
+                                    }, void 0, false, {
+                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
+                                        lineNumber: 252,
+                                        columnNumber: 13
+                                    }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
-                                lineNumber: 249,
+                                lineNumber: 224,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
-                        lineNumber: 185,
+                        lineNumber: 204,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4982,24 +5046,24 @@ function WorkflowOptimizationProblem() {
                             children: "Talk to a Workflow Optimization Expert →"
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
-                            lineNumber: 304,
+                            lineNumber: 296,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
-                        lineNumber: 303,
+                        lineNumber: 295,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
-                lineNumber: 57,
+                lineNumber: 76,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProblem.tsx",
-        lineNumber: 35,
+        lineNumber: 54,
         columnNumber: 5
     }, this);
 }
@@ -5020,12 +5084,13 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d
 ;
 ;
 const whoNeedsChecklist = [
-    'Teams with repeated manual tasks and unclear ownership',
-    'Businesses with slow approvals and messy handoffs between people',
-    'Operations dealing with tool overload and missed follow-ups',
-    'Companies with automation ideas but no clear process to build on',
-    'Anyone with reporting gaps or visibility issues across workflows',
-    'Businesses that want AI but need their processes mapped first'
+    'Your team repeats the same manual tasks every day with no clear plan to remove them',
+    'Ownership of tasks, leads, or tickets is unclear and work falls through the cracks',
+    'Approvals stall because no one is sure who is supposed to act next',
+    'Your tools do not talk to each other and data has to be copied manually between them',
+    'Follow ups get missed because nothing reminds anyone to send them',
+    'You have automation or AI ideas but no clear process to plug them into',
+    'Leadership has limited visibility into where work is actually stuck'
 ];
 const scopeSteps = [
     {
@@ -5036,27 +5101,27 @@ const scopeSteps = [
     {
         num: '02',
         title: 'Process Mapping',
-        body: 'Document every step, owner, system, status, and decision point across your key workflows.'
+        body: 'Document every step, owner, system, status, and decision point across the key workflows being optimised.'
     },
     {
         num: '03',
         title: 'Bottleneck Analysis',
-        body: 'Identify where work stalls, ownership breaks down, data gets lost, and manual effort is highest.'
+        body: 'Identify exactly where work stalls, where ownership breaks down, where data gets lost, and where manual effort is highest.'
     },
     {
         num: '04',
         title: 'Automation Roadmap',
-        body: 'Plan which steps to automate, which need AI support, which stay human-reviewed, and in what order.'
+        body: 'Plan which steps should be automated, which need AI support, which stay human reviewed, and in what order to build them.'
     },
     {
         num: '05',
         title: 'AI Opportunity Mapping',
-        body: 'Identify where AI can classify, summarise, score, route, or draft within the optimised workflow.'
+        body: 'Identify where AI can classify, summarise, score, route, or draft within the optimised workflow without removing human oversight where it matters.'
     },
     {
         num: '06',
         title: 'KPI Tracking and Improvement',
-        body: 'Define success metrics, track post-launch performance, and refine workflows based on real usage data.'
+        body: 'Define success metrics before launch, track post launch performance against them, and refine the workflow based on real usage data.'
     }
 ];
 function WorkflowOptimizationService() {
@@ -5082,7 +5147,7 @@ function WorkflowOptimizationService() {
                 }
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                lineNumber: 63,
+                lineNumber: 64,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5105,7 +5170,7 @@ function WorkflowOptimizationService() {
                         children: "Our Service"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                        lineNumber: 78,
+                        lineNumber: 79,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -5117,12 +5182,28 @@ function WorkflowOptimizationService() {
                             lineHeight: 1.2,
                             textAlign: 'center',
                             maxWidth: '760px',
-                            margin: '0 auto 56px'
+                            margin: '0 auto 20px'
                         },
                         children: "Workflow Optimization Built Around How Your Team Actually Works"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                        lineNumber: 94,
+                        lineNumber: 95,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        style: {
+                            fontFamily: 'DM Sans, sans-serif',
+                            fontSize: '16px',
+                            color: '#888888',
+                            lineHeight: 1.75,
+                            textAlign: 'center',
+                            maxWidth: '680px',
+                            margin: '0 auto 56px'
+                        },
+                        children: "The Prime Crafters audits how work actually moves through your business, maps every handoff and decision point, identifies where bottlenecks are hiding, and designs a workflow that is ready for automation and AI before any tool gets built. The goal is not a process diagram that sits in a folder. It is a working operating system your team actually uses."
+                    }, void 0, false, {
+                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
+                        lineNumber: 110,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5175,7 +5256,7 @@ function WorkflowOptimizationService() {
                                                         children: "What Is AI Workflow Optimization?"
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                                                        lineNumber: 145,
+                                                        lineNumber: 160,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5190,13 +5271,13 @@ function WorkflowOptimizationService() {
                                                         children: "+"
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                                                        lineNumber: 157,
+                                                        lineNumber: 172,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                                                lineNumber: 131,
+                                                lineNumber: 146,
                                                 columnNumber: 15
                                             }, this),
                                             definitionOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5211,21 +5292,21 @@ function WorkflowOptimizationService() {
                                                         lineHeight: 1.8,
                                                         margin: 0
                                                     },
-                                                    children: "AI workflow optimization improves business processes through workflow mapping, automation planning, AI support, data visibility, and continuous measurement — so teams move work faster with fewer manual steps. It starts with how work actually moves today, identifies friction and bottlenecks, and designs a clear operating process before any automation or AI tool is added."
+                                                    children: "AI workflow optimization is the practice of improving how work moves through a business by mapping current processes, identifying bottlenecks, designing clear ownership and routing logic, and introducing AI support where it adds real value. It combines workflow mapping, automation planning, AI assisted steps such as summarising and routing, and continuous measurement so teams complete the same work with fewer manual steps and less wasted time. Unlike simply buying new software, workflow optimization starts with the process itself and only adds tools once the logic is clear."
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                                                    lineNumber: 172,
+                                                    lineNumber: 187,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                                                lineNumber: 171,
+                                                lineNumber: 186,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                                        lineNumber: 123,
+                                        lineNumber: 138,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5262,7 +5343,7 @@ function WorkflowOptimizationService() {
                                                         children: "Who Needs Workflow Optimization Services?"
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                                                        lineNumber: 210,
+                                                        lineNumber: 225,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5277,13 +5358,13 @@ function WorkflowOptimizationService() {
                                                         children: "+"
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                                                        lineNumber: 222,
+                                                        lineNumber: 237,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                                                lineNumber: 196,
+                                                lineNumber: 211,
                                                 columnNumber: 15
                                             }, this),
                                             whoOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5309,7 +5390,7 @@ function WorkflowOptimizationService() {
                                                                     children: "✓"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                                                                    lineNumber: 247,
+                                                                    lineNumber: 262,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5322,13 +5403,13 @@ function WorkflowOptimizationService() {
                                                                     children: item
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                                                                    lineNumber: 257,
+                                                                    lineNumber: 272,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, item, true, {
                                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                                                            lineNumber: 238,
+                                                            lineNumber: 253,
                                                             columnNumber: 21
                                                         }, this)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -5345,19 +5426,19 @@ function WorkflowOptimizationService() {
                                                         children: "Talk to us about your workflow →"
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                                                        lineNumber: 269,
+                                                        lineNumber: 284,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                                                lineNumber: 236,
+                                                lineNumber: 251,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                                        lineNumber: 188,
+                                        lineNumber: 203,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -5378,133 +5459,177 @@ function WorkflowOptimizationService() {
                                         children: "About ThePrimeCrafters →"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                                        lineNumber: 288,
+                                        lineNumber: 303,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                                lineNumber: 120,
+                                lineNumber: 135,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                         style: {
-                                            fontFamily: 'DM Sans, sans-serif',
-                                            fontSize: '12px',
-                                            fontWeight: 600,
-                                            letterSpacing: '2px',
-                                            textTransform: 'uppercase',
-                                            color: '#C9A84C',
-                                            marginBottom: '24px'
+                                            fontFamily: 'Playfair Display, serif',
+                                            fontSize: '20px',
+                                            fontWeight: 700,
+                                            color: '#FFFFFF',
+                                            marginBottom: '12px'
                                         },
                                         children: "What ThePrimeCrafters Handles"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                                        lineNumber: 310,
+                                        lineNumber: 325,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        style: {
+                                            fontFamily: 'DM Sans, sans-serif',
+                                            fontSize: '14px',
+                                            color: '#777777',
+                                            lineHeight: 1.7,
+                                            marginBottom: '24px'
+                                        },
+                                        children: "Every engagement covers the full path from audit to ongoing improvement:"
+                                    }, void 0, false, {
+                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
+                                        lineNumber: 336,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         style: {
-                                            display: 'flex',
-                                            flexDirection: 'column',
-                                            gap: '4px'
+                                            border: '1px solid rgba(201,168,76,0.2)',
+                                            borderRadius: '10px',
+                                            overflow: 'hidden'
                                         },
-                                        children: scopeSteps.map((step, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                style: {
-                                                    display: 'flex',
-                                                    gap: '20px',
-                                                    alignItems: 'flex-start',
-                                                    padding: '20px 0',
-                                                    borderBottom: i < scopeSteps.length - 1 ? '1px solid rgba(255,255,255,0.06)' : 'none'
-                                                },
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("table", {
+                                            style: {
+                                                width: '100%',
+                                                borderCollapse: 'collapse',
+                                                fontFamily: 'DM Sans, sans-serif'
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("thead", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
                                                         style: {
-                                                            fontFamily: 'DM Sans, sans-serif',
-                                                            fontSize: '12px',
-                                                            fontWeight: 700,
-                                                            color: 'rgba(201,168,76,0.5)',
-                                                            letterSpacing: '1px',
-                                                            minWidth: '24px',
-                                                            paddingTop: '2px'
+                                                            background: '#1a1a1a'
                                                         },
-                                                        children: step.num
+                                                        children: [
+                                                            'Phase',
+                                                            'What We Do'
+                                                        ].map((h)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                                style: {
+                                                                    padding: '13px 18px',
+                                                                    textAlign: 'left',
+                                                                    fontSize: '13px',
+                                                                    fontWeight: 700,
+                                                                    color: '#FFFFFF',
+                                                                    letterSpacing: '0.02em',
+                                                                    borderBottom: '1px solid rgba(201,168,76,0.2)'
+                                                                },
+                                                                children: h
+                                                            }, h, false, {
+                                                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
+                                                                lineNumber: 365,
+                                                                columnNumber: 23
+                                                            }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                                                        lineNumber: 339,
-                                                        columnNumber: 19
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                style: {
-                                                                    fontFamily: 'DM Sans, sans-serif',
-                                                                    fontSize: '15px',
-                                                                    fontWeight: 600,
-                                                                    color: '#FFFFFF',
-                                                                    margin: '0 0 6px'
-                                                                },
-                                                                children: step.title
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                                                                lineNumber: 353,
-                                                                columnNumber: 21
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                style: {
-                                                                    fontFamily: 'DM Sans, sans-serif',
-                                                                    fontSize: '13px',
-                                                                    color: '#777777',
-                                                                    lineHeight: 1.7,
-                                                                    margin: 0
-                                                                },
-                                                                children: step.body
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                                                                lineNumber: 364,
-                                                                columnNumber: 21
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                                                        lineNumber: 352,
+                                                        lineNumber: 363,
                                                         columnNumber: 19
                                                     }, this)
-                                                ]
-                                            }, step.num, true, {
-                                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                                                lineNumber: 326,
-                                                columnNumber: 17
-                                            }, this))
+                                                }, void 0, false, {
+                                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
+                                                    lineNumber: 362,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
+                                                    children: scopeSteps.map((step, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+                                                            style: {
+                                                                background: i % 2 === 0 ? 'rgba(255,255,255,0.02)' : 'rgba(255,255,255,0.04)',
+                                                                borderBottom: i < scopeSteps.length - 1 ? '1px solid rgba(255,255,255,0.05)' : 'none'
+                                                            },
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                                    style: {
+                                                                        padding: '14px 18px',
+                                                                        fontSize: '13px',
+                                                                        fontWeight: 500,
+                                                                        color: '#C9A84C',
+                                                                        whiteSpace: 'nowrap',
+                                                                        verticalAlign: 'top',
+                                                                        borderRight: '1px solid rgba(255,255,255,0.06)'
+                                                                    },
+                                                                    children: [
+                                                                        step.num,
+                                                                        "  ",
+                                                                        step.title
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
+                                                                    lineNumber: 397,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                                    style: {
+                                                                        padding: '14px 18px',
+                                                                        fontSize: '13px',
+                                                                        color: '#A0A0A0',
+                                                                        lineHeight: 1.65,
+                                                                        verticalAlign: 'top'
+                                                                    },
+                                                                    children: step.body
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
+                                                                    lineNumber: 410,
+                                                                    columnNumber: 23
+                                                                }, this)
+                                                            ]
+                                                        }, step.num, true, {
+                                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
+                                                            lineNumber: 384,
+                                                            columnNumber: 21
+                                                        }, this))
+                                                }, void 0, false, {
+                                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
+                                                    lineNumber: 382,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
+                                            lineNumber: 355,
+                                            columnNumber: 15
+                                        }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                                        lineNumber: 324,
+                                        lineNumber: 348,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                                lineNumber: 309,
+                                lineNumber: 324,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                        lineNumber: 110,
+                        lineNumber: 125,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-                lineNumber: 76,
+                lineNumber: 77,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationService.tsx",
-        lineNumber: 54,
+        lineNumber: 55,
         columnNumber: 5
     }, this);
 }
@@ -5526,7 +5651,7 @@ const deliverables = [
     {
         icon: '📈',
         h3: 'Sales and Lead Handoff Workflows',
-        body: 'Improve lead capture, qualification, CRM updates, ownership, reminders, follow-up timing, and sales pipeline movement so leads never stall between capture and close.',
+        body: 'Leads stall when capture, qualification, and ownership are not clearly defined. The Prime Crafters improves how leads are captured, qualified, assigned an owner, updated in the CRM, and followed up on so that no lead sits untouched between the moment it arrives and the moment a rep engages with it. The pipeline keeps moving instead of accumulating gaps.',
         keywords: [
             'Sales Workflow Optimization',
             'Lead Handoff Automation',
@@ -5537,7 +5662,7 @@ const deliverables = [
     {
         icon: '💬',
         h3: 'Customer Support and Ticket Workflows',
-        body: 'Map support requests from chat, email, forms, voice agents, and tickets into clear routing, escalation paths, AI summaries, and status updates that keep teams and customers informed.',
+        body: 'Support requests arrive from chat, email, forms, voice agents, and ticketing systems, often with no consistent routing logic between channels. The Prime Crafters maps these requests into clear routing rules, escalation paths, AI generated summaries, and status updates so customers get faster answers and support teams are not manually triaging every incoming message.',
         keywords: [
             'Support Workflow Optimization',
             'Ticket Routing Automation'
@@ -5547,7 +5672,7 @@ const deliverables = [
     {
         icon: '⚙️',
         h3: 'Operations and Admin Workflows',
-        body: 'Improve task routing, internal requests, approvals, reminders, scheduling, document handoffs, and operational reporting across departments without adding more tool complexity.',
+        body: 'Internal operations often rely on informal coordination that breaks down as teams grow. The Prime Crafters improves task routing, internal requests, approval chains, reminders, scheduling, document handoffs, and operational reporting so departments stay coordinated without anyone manually chasing the next step.',
         keywords: [
             'Operations Workflow Optimization',
             'Admin Workflow Automation'
@@ -5557,7 +5682,7 @@ const deliverables = [
     {
         icon: '✅',
         h3: 'Approval and Review Workflows',
-        body: 'Clarify approval owners, review stages, thresholds, reminders, escalation paths, and human-in-the-loop steps for sensitive actions — so decisions get made without chasing people.',
+        body: 'Approvals stall most often because ownership is unclear or because there is no reminder system to push a pending decision forward. The Prime Crafters clarifies approval owners, defines review stages and thresholds, builds in reminders and escalation paths, and keeps human in the loop steps in place for sensitive decisions while removing the manual chasing around them.',
         keywords: [
             'Approval Workflow Optimization',
             'Human In The Loop Automation'
@@ -5567,7 +5692,7 @@ const deliverables = [
     {
         icon: '📊',
         h3: 'Reporting and Dashboard Workflows',
-        body: 'Turn scattered updates and system activity into useful summaries, dashboards, alerts, and recurring performance reports that give teams and leadership real visibility.',
+        body: 'When system activity and status updates are scattered across tools, building a useful report becomes a manual research project every time. The Prime Crafters turns that scattered activity into automated summaries, live dashboards, threshold based alerts, and recurring performance reports so leadership and teams see what is happening without anyone compiling it by hand.',
         keywords: [
             'Workflow Reporting',
             'Dashboard Automation',
@@ -5578,7 +5703,7 @@ const deliverables = [
     {
         icon: '🔄',
         h3: 'CRM and Data Sync Workflows',
-        body: 'Improve how records, notes, stages, tasks, contacts, call summaries, and follow-ups move between tools — keeping CRM data accurate without manual entry at every step.',
+        body: 'CRM accuracy depends entirely on how reliably records, notes, stages, tasks, contacts, call summaries, and follow ups move between systems. The Prime Crafters improves these data flows so the CRM stays accurate without requiring manual entry at every step, giving sales and support teams a single source of truth they can actually trust.',
         keywords: [
             'CRM Workflow Optimization',
             'Data Sync Automation',
@@ -5589,7 +5714,7 @@ const deliverables = [
     {
         icon: '🎙️',
         h3: 'AI Agent and Chatbot Workflows',
-        body: 'Design workflows that connect AI voice agents and chatbots to lead records, tickets, summaries, scheduling, and team follow-ups so every conversation drives a clear next action.',
+        body: 'Voice agents and chatbots only deliver real value when their output connects cleanly into the rest of the business. The Prime Crafters designs the workflow around these AI agents, connecting call and chat outcomes to lead records, ticket systems, summaries, scheduling tools, and team follow up tasks so every conversation produces a clear next action instead of disappearing into a transcript no one reviews.',
         keywords: [
             'AI Agent Workflow',
             'Chatbot Workflow Automation',
@@ -5600,7 +5725,7 @@ const deliverables = [
     {
         icon: '📚',
         h3: 'Internal Knowledge and SOP Workflows',
-        body: 'Make SOPs, documents, policies, project notes, and service information easier to find, update, and use inside daily workflows — so teams spend less time searching and more time acting.',
+        body: 'Teams waste real time searching for the right document, policy, or set of instructions buried somewhere in shared drives or old messages. The Prime Crafters improves how SOPs, documents, policies, project notes, and service information are organised, updated, and surfaced inside daily workflows, scoped carefully to what each team actually needs access to.',
         keywords: [
             'SOP Workflow Optimization',
             'Knowledge Base Workflow',
@@ -5680,10 +5805,10 @@ function WorkflowOptimizationDeliverables() {
                             color: '#888888',
                             lineHeight: 1.75,
                             textAlign: 'center',
-                            maxWidth: '580px',
+                            maxWidth: '620px',
                             margin: '0 auto 56px'
                         },
-                        children: "From lead handoffs to internal approvals — we map, redesign, and improve the workflows that slow teams down, with AI and automation added where they create the most value."
+                        children: "From lead handoffs to internal approvals, The Prime Crafters maps, redesigns, and improves the workflows that slow teams down most, adding AI and automation only where they create real value."
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationDeliverables.tsx",
                         lineNumber: 122,
@@ -5875,7 +6000,7 @@ const layers = [
         step: 'Step 1',
         label: 'Inputs',
         h3: 'Requests, Leads, Calls, Forms, Tickets, and Internal Tasks',
-        body: 'Every optimised workflow starts with a clear input layer — defining where work comes from, what triggers the process, and how each source is captured and routed into the right workflow path from the start.',
+        body: 'Every optimised workflow starts with a clearly defined input layer. This means knowing exactly where work originates, what triggers the process to begin, and how each source gets captured and routed into the correct workflow path from the very first moment it appears, rather than waiting for someone to notice it and act.',
         chips: [
             'Web Forms',
             'Inbound Leads',
@@ -5892,7 +6017,7 @@ const layers = [
         step: 'Step 2',
         label: 'Workflow Logic',
         h3: 'Rules, Ownership, Priority, Timing, and Exceptions',
-        body: 'Optimised workflows define who owns each step, what happens next, what gets escalated, when reminders fire, and how exceptions are handled — so work moves without waiting on someone to remember the next step.',
+        body: 'This is the layer that decides what happens to each input. Optimised workflows define who owns each step, what action follows next, what gets escalated and to whom, when reminders fire, and how exceptions are handled when something does not fit the standard path. Without this layer clearly defined, even the best tools cannot produce consistent results.',
         chips: [
             'Ownership Rules',
             'Priority Scoring',
@@ -5910,7 +6035,7 @@ const layers = [
         step: 'Step 3',
         label: 'AI Support',
         h3: 'Summaries, Routing, Drafts, Scores, and Recommendations',
-        body: 'AI acts as a support layer inside the optimised workflow — summarising conversations, classifying requests, scoring leads, drafting responses, recommending actions, and routing work based on the clear logic designed in the previous layer.',
+        body: 'AI operates as a support layer inside the workflow rather than as a replacement for the logic that governs it. It summarises conversations, classifies incoming requests, scores leads, drafts initial responses, recommends next actions, and routes work according to the rules defined in the logic layer above it. AI becomes useful precisely because the workflow logic around it is already clear.',
         chips: [
             'AI Summaries',
             'Smart Routing',
@@ -5928,7 +6053,7 @@ const layers = [
         step: 'Step 4',
         label: 'Outputs',
         h3: 'Tasks, Updates, Alerts, Approvals, and Reports',
-        body: 'Every optimised workflow produces clear, useful outputs — tasks created in the right system, records updated accurately, alerts sent to the right people, approvals requested where needed, dashboards refreshed, and reports generated without manual compilation.',
+        body: 'The final layer is what the workflow actually produces. A well designed workflow generates tasks created in the right system, records updated accurately without manual entry, alerts sent to the right people at the right time, approvals requested exactly when needed, dashboards refreshed automatically, and reports generated without anyone compiling them by hand.',
         chips: [
             'Tasks Created',
             'CRM Updated',
@@ -5984,7 +6109,7 @@ function WorkflowOptimizationFramework() {
                             marginBottom: '16px',
                             textAlign: 'center'
                         },
-                        children: "Optimization Framework"
+                        children: "The Framework"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationFramework.tsx",
                         lineNumber: 106,
@@ -6014,10 +6139,10 @@ function WorkflowOptimizationFramework() {
                             color: '#888888',
                             lineHeight: 1.75,
                             textAlign: 'center',
-                            maxWidth: '600px',
+                            maxWidth: '680px',
                             margin: '0 auto 72px'
                         },
-                        children: "Inputs trigger workflow logic. Logic directs AI support. AI support drives outputs. Outputs feed back into continuous improvement. Each layer connects to the next as one clear operating system."
+                        children: "A well optimised workflow behaves like a system rather than a series of disconnected steps. Inputs trigger clear workflow logic, that logic directs where AI support is applied, AI support drives outputs, and those outputs feed directly into a continuous improvement loop. Each layer connects to the next so daily work runs predictably instead of depending on memory and good intentions."
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationFramework.tsx",
                         lineNumber: 137,
@@ -6415,7 +6540,7 @@ const steps = [
         num: '1',
         title: 'Workflow Discovery and Bottleneck Audit',
         h3: '1. Workflow Discovery and Bottleneck Audit',
-        body: 'We start with your real business context — reviewing current workflows, tools, users, handoffs, repeated tasks, delays, exceptions, and business goals before recommending any change. Discovery gives us a complete picture of how work actually moves today, not how it is supposed to move on paper.',
+        body: 'We start with the real business context, reviewing current workflows, tools, users, handoffs, repeated tasks, delays, exceptions, and business goals before recommending any change. This gives us a complete picture of how work actually moves today rather than how it is supposed to move on paper.',
         tags: [
             'Workflow Audit',
             'Bottleneck Audit',
@@ -6426,7 +6551,7 @@ const steps = [
         num: '2',
         title: 'Process Mapping and Priority Scoring',
         h3: '2. Process Mapping and Priority Scoring',
-        body: 'We map current steps, owners, systems, delays, and risk points across your key workflows — then score each improvement opportunity by effort, business value, and workflow volume to build a clear priority order before any redesign begins.',
+        body: 'We document every step, owner, system, status, and decision point across the key workflows being optimised. Improvement opportunities are then scored by effort, business value, and workflow volume so the highest friction handoffs get addressed first.',
         tags: [
             'Process Mapping',
             'Workflow Prioritisation',
@@ -6438,7 +6563,7 @@ const steps = [
         num: '3',
         title: 'Automation and AI Opportunity Roadmap',
         h3: '3. Automation and AI Opportunity Roadmap',
-        body: 'We identify which tasks should be automated, which benefit from AI support, which need to stay human-reviewed, and which need to be redesigned entirely before any tool is built. The roadmap gives a clear sequence so automation is added into a clean process — not a broken one.',
+        body: 'With the current state mapped, we identify which tasks should be automated outright, which should be supported by AI while staying human reviewed, and which need to be redesigned entirely before any tool gets built. This roadmap prevents the common mistake of automating a step that should have been removed or restructured instead.',
         tags: [
             'AI Automation Roadmap',
             'Workflow Automation Roadmap',
@@ -6450,7 +6575,7 @@ const steps = [
         num: '4',
         title: 'Workflow Redesign and Tool Alignment',
         h3: '4. Workflow Redesign and Tool Alignment',
-        body: 'We define triggers, owners, statuses, data fields, tool handoffs, approval steps, exception paths, and reporting needs — then align these with your existing tools or identify where tool changes are needed. Every redesign is documented before build begins.',
+        body: 'We define the new triggers, owners, statuses, data fields, tool handoffs, approval steps, exception paths, and reporting requirements for the optimised workflow. The client reviews and approves the redesign before development begins.',
         tags: [
             'Workflow Redesign',
             'Tool Alignment',
@@ -6469,7 +6594,7 @@ const steps = [
         num: '5',
         title: 'Build, Test, and Document Improvements',
         h3: '5. Build, Test, and Document Improvements',
-        body: 'We build or configure the required workflows, test edge cases, confirm data quality, validate handoffs, train users, and document the new process so teams can operate it confidently after launch. Testing covers the scenarios that break most workflow implementations.',
+        body: 'We build or configure the workflows required, test them against real edge cases, confirm data quality across every connected tool, train the users who will run the new process daily, and document the workflow clearly so it does not depend on institutional memory.',
         tags: [
             'Workflow Implementation',
             'Automation Testing',
@@ -6481,7 +6606,7 @@ const steps = [
         num: '6',
         title: 'Launch, Monitor, and Improve',
         h3: '6. Launch, Monitor, and Improve',
-        body: 'We deploy the optimised workflow, monitor bottlenecks, review user feedback, improve rules and routing, and track performance against the KPIs agreed before launch. Post-launch improvement is built into the process — continuous refinement is how workflows stay effective as the business evolves.',
+        body: 'We deploy the optimised workflow, monitor for new bottlenecks, gather feedback from the team using it daily, refine routing and ownership rules as needed, and track performance against the KPIs defined at the start of the project.',
         tags: [
             'Workflow Monitoring',
             'Workflow Optimization KPIs',
@@ -6564,10 +6689,10 @@ function WorkflowOptimizationProcess() {
                             color: '#888888',
                             lineHeight: 1.75,
                             textAlign: 'center',
-                            maxWidth: '580px',
+                            maxWidth: '640px',
                             margin: '0 auto 64px'
                         },
-                        children: "Every workflow optimization project follows a structured six-step process — from discovery and bottleneck audit through launch, monitoring, and continuous improvement."
+                        children: "Every optimization project follows six structured steps from discovery through launch, monitoring, and continuous improvement. No step is skipped and no workflow goes live without testing and client review."
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProcess.tsx",
                         lineNumber: 125,
@@ -6802,7 +6927,7 @@ function WorkflowOptimizationProcess() {
                                                         children: "✓"
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProcess.tsx",
-                                                        lineNumber: 350,
+                                                        lineNumber: 346,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -6815,7 +6940,7 @@ function WorkflowOptimizationProcess() {
                                                         children: item
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProcess.tsx",
-                                                        lineNumber: 351,
+                                                        lineNumber: 347,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
@@ -6850,12 +6975,12 @@ function WorkflowOptimizationProcess() {
                                                 children: tag
                                             }, tag, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProcess.tsx",
-                                                lineNumber: 376,
+                                                lineNumber: 372,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProcess.tsx",
-                                        lineNumber: 367,
+                                        lineNumber: 363,
                                         columnNumber: 13
                                     }, this),
                                     active.href && !active.isFinal && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -6871,7 +6996,7 @@ function WorkflowOptimizationProcess() {
                                         children: "Learn more →"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProcess.tsx",
-                                        lineNumber: 396,
+                                        lineNumber: 392,
                                         columnNumber: 15
                                     }, this),
                                     active.isFinal && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6891,15 +7016,15 @@ function WorkflowOptimizationProcess() {
                                                 textDecoration: 'none',
                                                 display: 'inline-block'
                                             },
-                                            children: "Book a Free Workflow Optimization Strategy Call →"
+                                            children: "Start the Process →"
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProcess.tsx",
-                                            lineNumber: 414,
+                                            lineNumber: 410,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProcess.tsx",
-                                        lineNumber: 413,
+                                        lineNumber: 409,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6929,7 +7054,7 @@ function WorkflowOptimizationProcess() {
                                                 children: "← Previous"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProcess.tsx",
-                                                lineNumber: 443,
+                                                lineNumber: 439,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -6950,13 +7075,13 @@ function WorkflowOptimizationProcess() {
                                                 children: "Next →"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProcess.tsx",
-                                                lineNumber: 461,
+                                                lineNumber: 457,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationProcess.tsx",
-                                        lineNumber: 434,
+                                        lineNumber: 430,
                                         columnNumber: 13
                                     }, this)
                                 ]
@@ -7003,7 +7128,7 @@ const useCases = [
         icon: '📈',
         label: 'Sales Teams',
         h3: 'Sales Teams',
-        body: 'Lead intake, qualification, CRM updates, call summaries, pipeline ownership, follow-up reminders, and sales handoffs — all mapped into a clear workflow so leads move from capture to close without manual chasing.',
+        body: 'Lead intake, qualification, CRM updates, call summaries, pipeline ownership, follow up reminders, and sales handoffs are all mapped into a single clear workflow so leads move from capture to close without manual chasing at every stage.',
         keywords: [
             'Sales Workflow Optimization',
             'AI Sales Workflow'
@@ -7014,7 +7139,7 @@ const useCases = [
         icon: '💬',
         label: 'Customer Support Teams',
         h3: 'Customer Support Teams',
-        body: 'Ticket intake, AI summaries, routing, escalation alerts, customer status updates, knowledge lookup, and follow-up tasks — designed so support teams spend less time on admin and more time resolving issues.',
+        body: 'Ticket intake, AI summaries, routing, escalation alerts, customer status updates, knowledge lookup, and follow up tasks are designed so support teams spend less time on admin and more time actually resolving customer issues.',
         keywords: [
             'Support Workflow Optimization',
             'AI Support Workflow'
@@ -7025,7 +7150,7 @@ const useCases = [
         icon: '⚙️',
         label: 'Operations Teams',
         h3: 'Operations Teams',
-        body: 'Internal requests, admin tasks, approvals, resource handoffs, status updates, SOPs, reports, and recurring operations workflows — connected across departments without adding tool complexity.',
+        body: 'Internal requests, admin tasks, approvals, resource handoffs, status updates, SOPs, reports, and recurring operations workflows are connected across departments without adding more tool complexity to manage.',
         keywords: [
             'Operations Workflow Optimization',
             'Workflow Automation'
@@ -7036,7 +7161,7 @@ const useCases = [
         icon: '🎯',
         label: 'Marketing and Lead Generation',
         h3: 'Marketing and Lead Generation Teams',
-        body: 'Campaign handoffs, source tracking, lead enrichment, segmentation, scoring, outreach support, and CRM follow-up workflows — connecting marketing output directly into sales pipeline workflows.',
+        body: 'Campaign handoffs, source tracking, lead enrichment, segmentation, scoring, outreach support, and CRM follow up workflows are connected so marketing output flows directly into sales pipeline workflows without manual reconciliation.',
         keywords: [
             'Marketing Workflow Optimization',
             'Lead Generation Workflow'
@@ -7047,7 +7172,7 @@ const useCases = [
         icon: '⚕️',
         label: 'Healthcare and Clinic Admin',
         h3: 'Healthcare and Clinic Admin Teams',
-        body: 'Intake routing, scheduling support, admin status updates, internal documentation workflows, and follow-up coordination — scoped carefully to your clinic environment and operational context.',
+        body: 'Intake routing, scheduling support, admin status updates, internal documentation workflows, and follow up coordination are scoped carefully against the specific clinic environment and operational context of each client.',
         keywords: [
             'Clinic Workflow Optimization',
             'Healthcare Admin Workflow'
@@ -7059,7 +7184,7 @@ const useCases = [
         icon: '🏪',
         label: 'Service Businesses',
         h3: 'Service Businesses',
-        body: 'Call handling, booking workflows, quote requests, customer notes, reminders, follow-ups, and review request workflows — keeping service operations connected from first contact through job completion.',
+        body: 'Call handling, booking workflows, quote requests, customer notes, reminders, follow ups, and review request workflows are connected so service operations stay coordinated from first contact through job completion.',
         keywords: [
             'Service Business Workflow Optimization',
             'Booking Workflow Automation'
@@ -7108,7 +7233,7 @@ function WorkflowOptimizationUseCases() {
                             marginBottom: '16px',
                             textAlign: 'center'
                         },
-                        children: "Use Cases"
+                        children: "Who We Serve"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationUseCases.tsx",
                         lineNumber: 84,
@@ -7138,10 +7263,10 @@ function WorkflowOptimizationUseCases() {
                             color: '#888888',
                             lineHeight: 1.75,
                             textAlign: 'center',
-                            maxWidth: '560px',
+                            maxWidth: '620px',
                             margin: '0 auto 56px'
                         },
-                        children: "Find the workflow improvements most relevant to your team and see how optimization removes manual work while keeping control where it matters."
+                        children: "Workflow optimization delivers different value depending on where it is applied. Find the team context most relevant to your operation and see the specific improvements The Prime Crafters builds for it."
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationUseCases.tsx",
                         lineNumber: 115,
@@ -7199,7 +7324,7 @@ function WorkflowOptimizationUseCases() {
                                                 children: uc.icon
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationUseCases.tsx",
-                                                lineNumber: 170,
+                                                lineNumber: 164,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -7214,7 +7339,7 @@ function WorkflowOptimizationUseCases() {
                                                 children: uc.label
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationUseCases.tsx",
-                                                lineNumber: 186,
+                                                lineNumber: 180,
                                                 columnNumber: 17
                                             }, this)
                                         ]
@@ -7235,7 +7360,7 @@ function WorkflowOptimizationUseCases() {
                                         children: uc.h3
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationUseCases.tsx",
-                                        lineNumber: 201,
+                                        lineNumber: 195,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -7250,7 +7375,7 @@ function WorkflowOptimizationUseCases() {
                                         children: uc.body
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationUseCases.tsx",
-                                        lineNumber: 215,
+                                        lineNumber: 209,
                                         columnNumber: 15
                                     }, this),
                                     uc.note && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7272,12 +7397,12 @@ function WorkflowOptimizationUseCases() {
                                             children: uc.note
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationUseCases.tsx",
-                                            lineNumber: 239,
+                                            lineNumber: 233,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationUseCases.tsx",
-                                        lineNumber: 230,
+                                        lineNumber: 224,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7300,12 +7425,12 @@ function WorkflowOptimizationUseCases() {
                                                 children: kw
                                             }, kw, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationUseCases.tsx",
-                                                lineNumber: 256,
+                                                lineNumber: 250,
                                                 columnNumber: 19
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationUseCases.tsx",
-                                        lineNumber: 254,
+                                        lineNumber: 248,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -7323,7 +7448,7 @@ function WorkflowOptimizationUseCases() {
                                         children: "View case study →"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationUseCases.tsx",
-                                        lineNumber: 275,
+                                        lineNumber: 269,
                                         columnNumber: 15
                                     }, this)
                                 ]
@@ -7357,12 +7482,12 @@ function WorkflowOptimizationUseCases() {
                             children: "View All Case Studies →"
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationUseCases.tsx",
-                            lineNumber: 296,
+                            lineNumber: 290,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationUseCases.tsx",
-                        lineNumber: 295,
+                        lineNumber: 289,
                         columnNumber: 9
                     }, this)
                 ]
@@ -7396,7 +7521,7 @@ const benefits = [
     {
         icon: '⏱️',
         h3: 'Reduce Manual Work and Rework',
-        body: 'Cut repeated copying, duplicate updates, manual reminders, and avoidable corrections across daily work — so teams spend more time on high-value tasks and less time acting as a bridge between disconnected steps.',
+        body: 'Cutting repeated copying, duplicate updates, manual reminders, and avoidable corrections frees up real time for teams to spend on higher value work instead of acting as a bridge between disconnected steps.',
         keywords: 'Reduce Manual Work · Workflow Efficiency · Process Optimization',
         href: '/services/process-automation',
         featured: false
@@ -7404,7 +7529,7 @@ const benefits = [
     {
         icon: '⚡',
         h3: 'Speed Up Handoffs and Response Time',
-        body: 'Clarify ownership, routing, reminders, and escalation paths so work does not stall between teams. Faster handoffs mean faster lead response, faster support resolution, and faster operational decisions.',
+        body: 'Clarifying ownership, routing, reminders, and escalation paths means work does not stall between teams. Faster handoffs translate directly into faster lead response, faster support resolution, and faster operational decisions.',
         keywords: 'Handoff Optimization · Response Time Improvement',
         href: '/case-study/lead-generation-tools',
         featured: false
@@ -7412,7 +7537,7 @@ const benefits = [
     {
         icon: '📊',
         h3: 'Improve Visibility Across Teams',
-        body: 'Create clearer status updates, dashboards, logs, and reports so teams know what is moving, what is stuck, and where the bottleneck is — without chasing updates across tools and inboxes.',
+        body: 'Clearer status updates, dashboards, logs, and reports give teams a real time picture of what is moving, what is stuck, and where the actual bottleneck is, without anyone needing to chase updates across tools and inboxes.',
         keywords: 'Workflow Visibility · Operational Reporting · Dashboard Automation',
         href: '/case-studies',
         featured: true
@@ -7420,7 +7545,7 @@ const benefits = [
     {
         icon: '🧠',
         h3: 'Make AI Automation Easier to Implement',
-        body: 'Turn messy processes into clear workflow logic so AI tools and automations can be added with less confusion, fewer failures, and more predictable outcomes. Clean processes make AI work better.',
+        body: 'Turning messy processes into clear workflow logic means AI tools and automations can be added with far less confusion, fewer failures, and more predictable outcomes. Clean processes are what make AI actually work well in practice.',
         keywords: 'AI-Ready Workflow · Workflow Automation Strategy',
         href: '/services/ai-integration',
         featured: false
@@ -7428,7 +7553,7 @@ const benefits = [
     {
         icon: '✅',
         h3: 'Standardize Repeatable Processes',
-        body: 'Create consistent steps, statuses, owners, rules, and SOPs for common workflows so the same task is handled the same way every time — regardless of who is doing it or which tool they are in.',
+        body: 'Creating consistent steps, statuses, owners, rules, and SOPs for common workflows means the same task gets handled the same way every time, regardless of who is doing it or which tool they happen to be working in.',
         keywords: 'SOP Optimization · Process Standardization · Workflow Documentation',
         href: null,
         featured: false
@@ -7436,7 +7561,7 @@ const benefits = [
     {
         icon: '📈',
         h3: 'Scale Operations Without Adding More Tool Chaos',
-        body: 'Improve how current tools and teams work together before adding more software or rebuilding the stack. Better workflows let you handle more volume without proportionally increasing admin overhead.',
+        body: 'Improving how current tools and teams work together before adding more software lets a business handle more volume without proportionally increasing admin overhead or rebuilding its entire technology stack.',
         keywords: 'Scale Operations · Tool Consolidation · Workflow Improvement',
         href: '/contact',
         featured: false,
@@ -7500,7 +7625,7 @@ function WorkflowOptimizationBenefits() {
                             marginBottom: '16px',
                             textAlign: 'center'
                         },
-                        children: "Benefits"
+                        children: "Why Invest"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationBenefits.tsx",
                         lineNumber: 99,
@@ -7530,10 +7655,10 @@ function WorkflowOptimizationBenefits() {
                             color: '#888888',
                             lineHeight: 1.75,
                             textAlign: 'center',
-                            maxWidth: '560px',
+                            maxWidth: '620px',
                             margin: '0 auto 56px'
                         },
-                        children: "Less manual work, faster handoffs, clearer ownership, better visibility, easier automation, and measurable improvement across the workflows that drive revenue and operations."
+                        children: "Workflow optimization is not only about saving time. It improves response speed, ownership clarity, visibility, automation readiness, and consistency across the processes that drive revenue and operations."
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationBenefits.tsx",
                         lineNumber: 130,
@@ -7593,12 +7718,12 @@ function WorkflowOptimizationBenefits() {
                                             children: "Key Benefit"
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationBenefits.tsx",
-                                            lineNumber: 198,
+                                            lineNumber: 197,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationBenefits.tsx",
-                                        lineNumber: 188,
+                                        lineNumber: 187,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7618,7 +7743,7 @@ function WorkflowOptimizationBenefits() {
                                         children: b.icon
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationBenefits.tsx",
-                                        lineNumber: 214,
+                                        lineNumber: 213,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -7636,7 +7761,7 @@ function WorkflowOptimizationBenefits() {
                                         children: b.h3
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationBenefits.tsx",
-                                        lineNumber: 235,
+                                        lineNumber: 234,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -7651,7 +7776,7 @@ function WorkflowOptimizationBenefits() {
                                         children: b.body
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationBenefits.tsx",
-                                        lineNumber: 252,
+                                        lineNumber: 251,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7662,7 +7787,7 @@ function WorkflowOptimizationBenefits() {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationBenefits.tsx",
-                                        lineNumber: 266,
+                                        lineNumber: 265,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7686,12 +7811,12 @@ function WorkflowOptimizationBenefits() {
                                                 children: kw
                                             }, kw, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationBenefits.tsx",
-                                                lineNumber: 286,
+                                                lineNumber: 285,
                                                 columnNumber: 19
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationBenefits.tsx",
-                                        lineNumber: 277,
+                                        lineNumber: 276,
                                         columnNumber: 15
                                     }, this),
                                     b.href ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -7710,16 +7835,15 @@ function WorkflowOptimizationBenefits() {
                                         children: b.isFinal ? 'Talk to us about scaling your workflows →' : 'Learn more →'
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationBenefits.tsx",
-                                        lineNumber: 306,
+                                        lineNumber: 305,
                                         columnNumber: 17
-                                    }, this) : // Empty spacer so cards without links still align to same bottom
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         style: {
                                             height: '20px'
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationBenefits.tsx",
-                                        lineNumber: 326,
+                                        lineNumber: 324,
                                         columnNumber: 17
                                     }, this)
                                 ]
@@ -7753,12 +7877,12 @@ function WorkflowOptimizationBenefits() {
                             children: "See Workflow Optimization Results in Our Case Studies →"
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationBenefits.tsx",
-                            lineNumber: 334,
+                            lineNumber: 332,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationBenefits.tsx",
-                        lineNumber: 333,
+                        lineNumber: 331,
                         columnNumber: 9
                     }, this)
                 ]
@@ -7792,9 +7916,21 @@ const caseStudies = [
     {
         category: 'Lead Generation Workflow',
         h3: 'AI Lead Generation Tools',
-        body: 'Lead scraping, enrichment, scoring, outreach automation, CRM handoffs, and sales workflow support — a complete lead generation workflow optimised from first capture to qualified sales handoff.',
-        metric: '50K+',
-        metricLabel: 'qualified leads per month',
+        body: 'A complete lead generation workflow optimised from first capture to qualified sales handoff, covering lead scraping, enrichment, scoring, outreach automation, and CRM handoffs.',
+        metrics: [
+            {
+                label: 'Qualified Leads Per Month',
+                value: '50,000+'
+            },
+            {
+                label: 'Manual Prospecting Time Saved',
+                value: '90%'
+            },
+            {
+                label: 'Qualified Lead Rate Increase',
+                value: '+120%'
+            }
+        ],
         keywords: [
             'Lead Generation Workflow Optimization',
             'CRM Workflow Case Study'
@@ -7804,9 +7940,21 @@ const caseStudies = [
     {
         category: 'Sales and Call Workflow',
         h3: 'Spectrum AI Voice Agent',
-        body: 'Call handling, lead qualification, AI summaries, routing, and sales team follow-up workflows — every call outcome connected into the sales pipeline automatically without manual entry.',
-        metric: '10K+',
-        metricLabel: 'AI-handled calls per month',
+        body: 'Every call outcome connected automatically into the sales pipeline, covering call handling, lead qualification, AI summaries, routing, and sales team follow up workflows without manual entry.',
+        metrics: [
+            {
+                label: 'AI Handled Calls Per Month',
+                value: '10,000+'
+            },
+            {
+                label: 'Conversion Rate Increase',
+                value: '+45%'
+            },
+            {
+                label: 'Operational Cost Reduction',
+                value: '70%'
+            }
+        ],
         keywords: [
             'AI Voice Agent Workflow',
             'Sales Workflow Optimization'
@@ -7816,9 +7964,21 @@ const caseStudies = [
     {
         category: 'Booking and Service Workflow',
         h3: 'RV Park AI Voice Agent',
-        body: 'Call answering, booking support, FAQ handling, customer reminders, and service workflow improvement — keeping a service business connected from first call through confirmed booking.',
-        metric: '100%',
-        metricLabel: 'call answer rate',
+        body: 'A service business kept connected from first call through confirmed booking, covering call answering, booking support, FAQ handling, and customer reminder workflows.',
+        metrics: [
+            {
+                label: 'Inbound Call Answer Rate',
+                value: '100%'
+            },
+            {
+                label: 'Booking Conversion Increase',
+                value: '+85%'
+            },
+            {
+                label: 'Staff Hours Saved Per Week',
+                value: '30 hrs'
+            }
+        ],
         keywords: [
             'Booking Workflow Automation',
             'Service Business Workflow Case Study'
@@ -7828,9 +7988,21 @@ const caseStudies = [
     {
         category: 'Healthcare Admin Workflow',
         h3: 'lmn8 Ketamine Therapy AI Platform',
-        body: 'Intake support, patient matching workflows, scheduling support, and admin workflow connection — scoped carefully to the clinic environment with measurable improvements to intake speed.',
-        metric: '65%',
-        metricLabel: 'faster patient intake',
+        body: 'Intake support, patient matching workflows, and scheduling support scoped carefully to the clinic environment, with measurable improvements to intake speed and clinic capacity.',
+        metrics: [
+            {
+                label: 'AI Matching Accuracy',
+                value: '94%'
+            },
+            {
+                label: 'Intake Time Reduction',
+                value: '65%'
+            },
+            {
+                label: 'Clinic Capacity Increase',
+                value: '+45%'
+            }
+        ],
         keywords: [
             'Healthcare Admin Workflow Case Study',
             'Clinic Workflow Optimization'
@@ -7841,9 +8013,21 @@ const caseStudies = [
     {
         category: 'Custom Platform Workflow',
         h3: '3vltn Domain AI Platform',
-        body: 'Email agent workflows, automated campaigns, pricing recommendations, deal workflow optimization, and connected system logic — a fully custom AI platform built around complex business operations.',
-        metric: '+250%',
-        metricLabel: 'deal closure rate',
+        body: 'A fully custom AI platform built around complex business operations, covering email agent workflows, automated campaigns, pricing recommendations, and connected system logic.',
+        metrics: [
+            {
+                label: 'Deal Closure Rate Increase',
+                value: '+250%'
+            },
+            {
+                label: 'Manual Hours Saved Per Week',
+                value: '40 hrs'
+            },
+            {
+                label: 'Revenue Growth',
+                value: '+180%'
+            }
+        ],
         keywords: [
             'Custom AI Workflow Platform',
             'Custom Workflow Case Study'
@@ -7851,6 +8035,110 @@ const caseStudies = [
         href: '/case-study/3vltn'
     }
 ];
+function MetricsTable({ metrics }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        style: {
+            border: '1px solid rgba(201,168,76,0.2)',
+            borderRadius: '10px',
+            overflow: 'hidden'
+        },
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("table", {
+            style: {
+                width: '100%',
+                borderCollapse: 'collapse',
+                fontFamily: 'DM Sans, sans-serif'
+            },
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("thead", {
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+                        style: {
+                            background: '#1a1a1a'
+                        },
+                        children: [
+                            'Metric',
+                            'Result'
+                        ].map((h)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                style: {
+                                    padding: '11px 16px',
+                                    textAlign: 'left',
+                                    fontSize: '12px',
+                                    fontWeight: 700,
+                                    color: '#FFFFFF',
+                                    letterSpacing: '0.02em',
+                                    borderBottom: '1px solid rgba(201,168,76,0.2)'
+                                },
+                                children: h
+                            }, h, false, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
+                                lineNumber: 83,
+                                columnNumber: 15
+                            }, this))
+                    }, void 0, false, {
+                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
+                        lineNumber: 81,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
+                    lineNumber: 80,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
+                    children: metrics.map((row, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+                            style: {
+                                background: i % 2 === 0 ? 'rgba(255,255,255,0.02)' : 'rgba(255,255,255,0.04)',
+                                borderBottom: i < metrics.length - 1 ? '1px solid rgba(255,255,255,0.05)' : 'none'
+                            },
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                    style: {
+                                        padding: '12px 16px',
+                                        fontSize: '13px',
+                                        color: '#A0A0A0',
+                                        borderRight: '1px solid rgba(255,255,255,0.05)'
+                                    },
+                                    children: row.label
+                                }, void 0, false, {
+                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
+                                    lineNumber: 109,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                    style: {
+                                        padding: '12px 16px',
+                                        fontSize: '13px',
+                                        color: '#C9A84C',
+                                        fontWeight: 600
+                                    },
+                                    children: row.value
+                                }, void 0, false, {
+                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
+                                    lineNumber: 112,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, row.label, true, {
+                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
+                            lineNumber: 102,
+                            columnNumber: 13
+                        }, this))
+                }, void 0, false, {
+                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
+                    lineNumber: 100,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
+            lineNumber: 79,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
+        lineNumber: 72,
+        columnNumber: 5
+    }, this);
+}
 function CaseStudyCard({ cs }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         style: {
@@ -7888,7 +8176,7 @@ function CaseStudyCard({ cs }) {
                 children: cs.category
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
-                lineNumber: 81,
+                lineNumber: 149,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -7903,7 +8191,7 @@ function CaseStudyCard({ cs }) {
                 children: cs.h3
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
-                lineNumber: 96,
+                lineNumber: 164,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -7918,7 +8206,7 @@ function CaseStudyCard({ cs }) {
                 children: cs.body
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
-                lineNumber: 110,
+                lineNumber: 178,
                 columnNumber: 7
             }, this),
             cs.note && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7940,55 +8228,19 @@ function CaseStudyCard({ cs }) {
                     children: cs.note
                 }, void 0, false, {
                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
-                    lineNumber: 134,
+                    lineNumber: 202,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
-                lineNumber: 125,
+                lineNumber: 193,
                 columnNumber: 9
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                style: {
-                    display: 'flex',
-                    alignItems: 'baseline',
-                    gap: '8px',
-                    padding: '16px 20px',
-                    background: 'rgba(201,168,76,0.06)',
-                    border: '1px solid rgba(201,168,76,0.15)',
-                    borderRadius: '10px'
-                },
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        style: {
-                            fontFamily: 'Playfair Display, serif',
-                            fontSize: '28px',
-                            fontWeight: 700,
-                            color: '#C9A84C',
-                            lineHeight: 1
-                        },
-                        children: cs.metric
-                    }, void 0, false, {
-                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
-                        lineNumber: 160,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        style: {
-                            fontFamily: 'DM Sans, sans-serif',
-                            fontSize: '13px',
-                            color: '#888888'
-                        },
-                        children: cs.metricLabel
-                    }, void 0, false, {
-                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
-                        lineNumber: 171,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(MetricsTable, {
+                metrics: cs.metrics
+            }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
-                lineNumber: 149,
+                lineNumber: 217,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8011,12 +8263,12 @@ function CaseStudyCard({ cs }) {
                         children: kw
                     }, kw, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
-                        lineNumber: 185,
+                        lineNumber: 222,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
-                lineNumber: 183,
+                lineNumber: 220,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -8034,13 +8286,13 @@ function CaseStudyCard({ cs }) {
                 children: "View case study →"
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
-                lineNumber: 204,
+                lineNumber: 241,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
-        lineNumber: 57,
+        lineNumber: 125,
         columnNumber: 5
     }, this);
 }
@@ -8065,7 +8317,7 @@ function WorkflowOptimizationCaseStudies() {
                 }
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
-                lineNumber: 234,
+                lineNumber: 271,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8081,7 +8333,7 @@ function WorkflowOptimizationCaseStudies() {
                 }
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
-                lineNumber: 248,
+                lineNumber: 285,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8104,7 +8356,7 @@ function WorkflowOptimizationCaseStudies() {
                         children: "Proof"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
-                        lineNumber: 264,
+                        lineNumber: 301,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -8121,7 +8373,7 @@ function WorkflowOptimizationCaseStudies() {
                         children: "Workflow Optimization and Automation Systems We've Built"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
-                        lineNumber: 280,
+                        lineNumber: 317,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -8137,7 +8389,7 @@ function WorkflowOptimizationCaseStudies() {
                         children: "Real workflow optimization projects with measurable outcomes across lead generation, sales, booking automation, healthcare admin, and custom platform builds."
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
-                        lineNumber: 295,
+                        lineNumber: 332,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8151,12 +8403,12 @@ function WorkflowOptimizationCaseStudies() {
                                 cs: cs
                             }, cs.h3, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
-                                lineNumber: 319,
+                                lineNumber: 356,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
-                        lineNumber: 310,
+                        lineNumber: 347,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8171,12 +8423,12 @@ function WorkflowOptimizationCaseStudies() {
                                 cs: cs
                             }, cs.h3, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
-                                lineNumber: 334,
+                                lineNumber: 371,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
-                        lineNumber: 324,
+                        lineNumber: 361,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8199,24 +8451,24 @@ function WorkflowOptimizationCaseStudies() {
                             children: "Explore All Case Studies →"
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
-                            lineNumber: 340,
+                            lineNumber: 377,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
-                        lineNumber: 339,
+                        lineNumber: 376,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
-                lineNumber: 262,
+                lineNumber: 299,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCaseStudies.tsx",
-        lineNumber: 225,
+        lineNumber: 262,
         columnNumber: 5
     }, this);
 }
@@ -8238,7 +8490,7 @@ const trustCards = [
     {
         icon: '🗺️',
         h3: 'We Start With the Workflow Before the Tool',
-        body: 'ThePrimeCrafters maps how work actually moves — steps, owners, handoffs, delays, exceptions, and bottlenecks — before recommending any automation, AI, or system change. The process comes first.',
+        body: 'The Prime Crafters maps how work actually moves, including every step, owner, handoff, delay, and exception, before recommending any automation, AI, or system change. The process comes first, every time.',
         href: '/services/process-automation',
         linkLabel: 'Explore Process Automation →',
         featured: false
@@ -8246,7 +8498,7 @@ const trustCards = [
     {
         icon: '🤖',
         h3: 'We Design Processes That Are Ready for AI and Automation',
-        body: 'Every optimised workflow defines triggers, owners, rules, data fields, exceptions, approval steps, and reporting requirements — so AI tools and automations can be added into a clean, predictable process.',
+        body: 'Every optimised workflow defines triggers, owners, rules, data fields, exceptions, approval steps, and reporting requirements so AI tools and automations can be added into a clean, predictable process rather than a confusing one.',
         href: '/services/ai-integration',
         linkLabel: 'Explore AI Integration →',
         featured: false
@@ -8254,7 +8506,7 @@ const trustCards = [
     {
         icon: '📊',
         h3: 'We Connect Optimization to Real Business Outcomes',
-        body: 'Workflow improvements are measured against response speed, fewer manual steps, better follow-up, clearer reporting, and smoother team handoffs — not just process diagrams that never get implemented.',
+        body: 'Workflow improvements are measured against response speed, fewer manual steps, better follow up, clearer reporting, and smoother team handoffs, not just process diagrams that get filed away and never implemented.',
         href: '/case-studies',
         linkLabel: 'View Case Studies →',
         featured: false
@@ -8262,7 +8514,7 @@ const trustCards = [
     {
         icon: '🔍',
         h3: 'We Test Handoffs, Data Quality, and Edge Cases',
-        body: 'Duplicate work, missing fields, delayed handoffs, permission issues, failed triggers, and user adoption are all tested before launch — not discovered by your team after the workflow goes live.',
+        body: 'Duplicate work, missing fields, delayed handoffs, permission issues, failed triggers, and user adoption are all tested before launch, not discovered by the client team after the workflow has already gone live.',
         href: '/contact',
         linkLabel: 'Discuss Your Workflow →',
         featured: false
@@ -8270,7 +8522,7 @@ const trustCards = [
     {
         icon: '🔄',
         h3: 'We Support Strategy, Build, Launch, and Ongoing Improvement',
-        body: 'From workflow audit and roadmap through automation support, AI integration, documentation, rollout, monitoring, and improvement — ThePrimeCrafters stays involved across the full optimization lifecycle.',
+        body: 'From workflow audit and roadmap through automation support, AI integration, documentation, rollout, monitoring, and improvement, The Prime Crafters stays involved across the full optimization lifecycle.',
         href: '/contact',
         linkLabel: 'Start Your Workflow Project →',
         featured: true
@@ -8342,7 +8594,7 @@ function WorkflowOptimizationWhyUs() {
                             marginBottom: '16px',
                             textAlign: 'center'
                         },
-                        children: "Why Choose Us"
+                        children: "Why Us"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationWhyUs.tsx",
                         lineNumber: 100,
@@ -8372,10 +8624,10 @@ function WorkflowOptimizationWhyUs() {
                             color: '#888888',
                             lineHeight: 1.75,
                             textAlign: 'center',
-                            maxWidth: '580px',
+                            maxWidth: '640px',
                             margin: '0 auto 56px'
                         },
-                        children: "Practical, business-first, workflow-aware, and AI-aware — focused on measurable process improvement that connects to real business outcomes, not just process documentation."
+                        children: "The Prime Crafters is practical, business first, workflow aware, and AI aware, focused on measurable process improvement that connects to real business outcomes rather than process documentation that never gets implemented."
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationWhyUs.tsx",
                         lineNumber: 131,
@@ -8663,7 +8915,7 @@ function TrustCard({ card, fullWidth = false, lifecycleBadges }) {
                                         children: badge
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationWhyUs.tsx",
-                                        lineNumber: 384,
+                                        lineNumber: 371,
                                         columnNumber: 17
                                     }, this),
                                     i < lifecycleBadges.length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -8674,13 +8926,13 @@ function TrustCard({ card, fullWidth = false, lifecycleBadges }) {
                                         children: "→"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationWhyUs.tsx",
-                                        lineNumber: 400,
+                                        lineNumber: 387,
                                         columnNumber: 19
                                     }, this)
                                 ]
                             }, badge, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationWhyUs.tsx",
-                                lineNumber: 376,
+                                lineNumber: 370,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
@@ -8731,6 +8983,10 @@ const serviceEntities = [
     {
         label: 'Custom AI Systems',
         href: '/services/custom-ai-solutions'
+    },
+    {
+        label: 'CRM Workflows',
+        href: '/services/ai-integration'
     }
 ];
 const workflowEntities = [
@@ -8757,6 +9013,10 @@ const workflowEntities = [
     {
         label: 'CRM Workflows',
         href: '/services/ai-integration'
+    },
+    {
+        label: 'Service Business Workflows',
+        href: '/services/workflow-optimization'
     }
 ];
 const teamEntities = [
@@ -8806,7 +9066,7 @@ function WorkflowOptimizationAbout() {
                 }
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationAbout.tsx",
-                lineNumber: 42,
+                lineNumber: 44,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8822,7 +9082,7 @@ function WorkflowOptimizationAbout() {
                 }
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationAbout.tsx",
-                lineNumber: 56,
+                lineNumber: 58,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8845,7 +9105,7 @@ function WorkflowOptimizationAbout() {
                         children: "About ThePrimeCrafters"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationAbout.tsx",
-                        lineNumber: 72,
+                        lineNumber: 74,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -8862,7 +9122,7 @@ function WorkflowOptimizationAbout() {
                         children: "ThePrimeCrafters Provides AI Workflow Optimization for Business Automation"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationAbout.tsx",
-                        lineNumber: 88,
+                        lineNumber: 90,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -8875,10 +9135,10 @@ function WorkflowOptimizationAbout() {
                             maxWidth: '760px',
                             margin: '0 auto 56px'
                         },
-                        children: "ThePrimeCrafters is a workflow optimization agency that maps, redesigns, and improves business processes across sales, support, operations, lead generation, admin, CRM, approval, and reporting workflows. Work spans workflow audits, process mapping, bottleneck analysis, automation roadmaps, AI opportunity mapping, tool alignment, documentation, KPI tracking, and post-launch improvement — all built around how your business actually operates, not a generic template."
+                        children: "ThePrimeCrafters is a workflow optimization agency that maps, redesigns, and improves business processes across sales, support, operations, lead generation, admin, CRM, approval, and reporting workflows. Work spans workflow audits, process mapping, bottleneck analysis, automation roadmaps, AI opportunity mapping, tool alignment, documentation, KPI tracking, and post launch improvement, all built around how a business actually operates rather than a generic template."
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationAbout.tsx",
-                        lineNumber: 104,
+                        lineNumber: 106,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8910,7 +9170,7 @@ function WorkflowOptimizationAbout() {
                                         children: "Workflow Optimization, Process Automation, AI Integration, and Custom AI Systems"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationAbout.tsx",
-                                        lineNumber: 136,
+                                        lineNumber: 138,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8946,18 +9206,18 @@ function WorkflowOptimizationAbout() {
                                                 children: e.label
                                             }, e.label, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationAbout.tsx",
-                                                lineNumber: 151,
+                                                lineNumber: 153,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationAbout.tsx",
-                                        lineNumber: 149,
+                                        lineNumber: 151,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationAbout.tsx",
-                                lineNumber: 128,
+                                lineNumber: 130,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8986,7 +9246,7 @@ function WorkflowOptimizationAbout() {
                                                 children: "Built for Sales, Support, Operations, Admin, Reporting, CRM, and Service Workflows"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationAbout.tsx",
-                                                lineNumber: 197,
+                                                lineNumber: 199,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9024,18 +9284,18 @@ function WorkflowOptimizationAbout() {
                                                         children: e.label
                                                     }, e.label, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationAbout.tsx",
-                                                        lineNumber: 212,
+                                                        lineNumber: 214,
                                                         columnNumber: 19
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationAbout.tsx",
-                                                lineNumber: 210,
+                                                lineNumber: 212,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationAbout.tsx",
-                                        lineNumber: 196,
+                                        lineNumber: 198,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9045,7 +9305,7 @@ function WorkflowOptimizationAbout() {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationAbout.tsx",
-                                        lineNumber: 247,
+                                        lineNumber: 249,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9063,7 +9323,7 @@ function WorkflowOptimizationAbout() {
                                                 children: "Built for Sales, Support, Operations, Admin, Marketing, and Service Business Teams"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationAbout.tsx",
-                                                lineNumber: 256,
+                                                lineNumber: 253,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9101,30 +9361,30 @@ function WorkflowOptimizationAbout() {
                                                         children: e.label
                                                     }, e.label, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationAbout.tsx",
-                                                        lineNumber: 271,
+                                                        lineNumber: 268,
                                                         columnNumber: 19
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationAbout.tsx",
-                                                lineNumber: 269,
+                                                lineNumber: 266,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationAbout.tsx",
-                                        lineNumber: 255,
+                                        lineNumber: 252,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationAbout.tsx",
-                                lineNumber: 184,
+                                lineNumber: 186,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationAbout.tsx",
-                        lineNumber: 119,
+                        lineNumber: 121,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9151,7 +9411,7 @@ function WorkflowOptimizationAbout() {
                                 children: "All Services →"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationAbout.tsx",
-                                lineNumber: 316,
+                                lineNumber: 313,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -9170,25 +9430,25 @@ function WorkflowOptimizationAbout() {
                                 children: "Case Studies →"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationAbout.tsx",
-                                lineNumber: 332,
+                                lineNumber: 329,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationAbout.tsx",
-                        lineNumber: 308,
+                        lineNumber: 305,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationAbout.tsx",
-                lineNumber: 70,
+                lineNumber: 72,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationAbout.tsx",
-        lineNumber: 33,
+        lineNumber: 35,
         columnNumber: 5
     }, this);
 }
@@ -9246,310 +9506,129 @@ function WorkflowOptimizationCTA() {
                 lineNumber: 31,
                 columnNumber: 7
             }, this),
-            [
-                {
-                    top: '32px',
-                    left: '32px',
-                    borderTop: true,
-                    borderLeft: true
-                },
-                {
-                    top: '32px',
-                    right: '32px',
-                    borderTop: true,
-                    borderRight: true
-                },
-                {
-                    bottom: '32px',
-                    left: '32px',
-                    borderBottom: true,
-                    borderLeft: true
-                },
-                {
-                    bottom: '32px',
-                    right: '32px',
-                    borderBottom: true,
-                    borderRight: true
-                }
-            ].map((corner, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    style: {
-                        position: 'absolute',
-                        width: '60px',
-                        height: '60px',
-                        top: corner.top,
-                        left: corner.left,
-                        right: corner.right,
-                        bottom: corner.bottom,
-                        borderTop: corner.borderTop ? '1px solid rgba(201,168,76,0.2)' : undefined,
-                        borderLeft: corner.borderLeft ? '1px solid rgba(201,168,76,0.2)' : undefined,
-                        borderRight: corner.borderRight ? '1px solid rgba(201,168,76,0.2)' : undefined,
-                        borderBottom: corner.borderBottom ? '1px solid rgba(201,168,76,0.2)' : undefined,
-                        borderRadius: i === 0 ? '2px 0 0 0' : i === 1 ? '0 2px 0 0' : i === 2 ? '0 0 0 2px' : '0 0 2px 0'
-                    }
-                }, i, false, {
-                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCTA.tsx",
-                    lineNumber: 52,
-                    columnNumber: 9
-                }, this)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 style: {
-                    maxWidth: '760px',
+                    maxWidth: '1200px',
                     margin: '0 auto',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    alignItems: 'center',
                     position: 'relative',
-                    zIndex: 1,
-                    textAlign: 'center'
+                    zIndex: 1
                 },
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            fontFamily: 'DM Sans, sans-serif',
-                            fontSize: '12px',
-                            fontWeight: 600,
-                            letterSpacing: '2.5px',
-                            textTransform: 'uppercase',
-                            color: '#C9A84C',
-                            marginBottom: '20px'
-                        },
-                        children: "ThePrimeCrafters"
-                    }, void 0, false, {
-                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCTA.tsx",
-                        lineNumber: 98,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        style: {
-                            fontFamily: 'Playfair Display, serif',
-                            fontSize: 'clamp(32px, 4.5vw, 56px)',
-                            fontWeight: 700,
-                            color: '#FFFFFF',
-                            lineHeight: 1.15,
-                            marginBottom: '20px'
-                        },
-                        children: "Ready to Improve the Workflows Slowing Your Team Down?"
-                    }, void 0, false, {
-                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCTA.tsx",
-                        lineNumber: 113,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            fontFamily: 'DM Sans, sans-serif',
-                            fontSize: '17px',
-                            color: '#888888',
-                            lineHeight: 1.8,
-                            maxWidth: '560px',
-                            marginBottom: '48px'
-                        },
-                        children: "Share the workflow you want to improve and the outcome you want to reach. We will review your process and show you what is possible in a free strategy call."
-                    }, void 0, false, {
-                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCTA.tsx",
-                        lineNumber: 127,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        href: "/contact",
-                        style: {
-                            fontFamily: 'DM Sans, sans-serif',
-                            fontSize: '16px',
-                            fontWeight: 700,
-                            color: '#0A0A0A',
-                            background: 'linear-gradient(135deg, #C9A84C, #E8C97A)',
-                            padding: '18px 40px',
-                            borderRadius: '10px',
-                            textDecoration: 'none',
-                            display: 'inline-block',
-                            marginBottom: '20px',
-                            boxShadow: '0 8px 32px rgba(201,168,76,0.25)',
-                            transition: 'transform 0.2s, box-shadow 0.2s'
-                        },
-                        onMouseEnter: (e)=>{
-                            const el = e.currentTarget;
-                            el.style.transform = 'translateY(-2px)';
-                            el.style.boxShadow = '0 12px 40px rgba(201,168,76,0.35)';
-                        },
-                        onMouseLeave: (e)=>{
-                            const el = e.currentTarget;
-                            el.style.transform = 'translateY(0)';
-                            el.style.boxShadow = '0 8px 32px rgba(201,168,76,0.25)';
-                        },
-                        children: "Book a Free Workflow Optimization Strategy Call →"
-                    }, void 0, false, {
-                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCTA.tsx",
-                        lineNumber: 141,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            fontFamily: 'DM Sans, sans-serif',
-                            fontSize: '14px',
-                            color: '#666666',
-                            marginBottom: '40px'
-                        },
-                        children: "Tell Us the Workflow You Want to Fix First"
-                    }, void 0, false, {
-                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCTA.tsx",
-                        lineNumber: 173,
-                        columnNumber: 9
-                    }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         style: {
-                            display: 'flex',
-                            gap: '32px',
-                            flexWrap: 'wrap',
-                            justifyContent: 'center',
-                            alignItems: 'center'
+                            background: '#0d0d0d',
+                            border: '1px solid rgba(201,168,76,0.4)',
+                            borderRadius: '12px',
+                            padding: '48px 56px'
                         },
                         children: [
-                            {
-                                icon: '✓',
-                                label: 'No commitment required'
-                            },
-                            {
-                                icon: '✓',
-                                label: 'Free strategy call'
-                            },
-                            {
-                                icon: '✓',
-                                label: 'Workflow-first approach'
-                            }
-                        ].map((t)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 style: {
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    gap: '8px'
+                                    fontFamily: 'Playfair Display, serif',
+                                    fontSize: 'clamp(28px, 4vw, 48px)',
+                                    fontWeight: 700,
+                                    color: '#FFFFFF',
+                                    lineHeight: 1.15,
+                                    marginBottom: '16px'
                                 },
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        style: {
-                                            fontFamily: 'DM Sans, sans-serif',
-                                            fontSize: '13px',
-                                            color: '#C9A84C',
-                                            fontWeight: 600
-                                        },
-                                        children: t.icon
-                                    }, void 0, false, {
-                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCTA.tsx",
-                                        lineNumber: 207,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        style: {
-                                            fontFamily: 'DM Sans, sans-serif',
-                                            fontSize: '13px',
-                                            color: '#666666'
-                                        },
-                                        children: t.label
-                                    }, void 0, false, {
-                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCTA.tsx",
-                                        lineNumber: 217,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, t.label, true, {
+                                children: "Ready to Improve the Workflows Slowing Your Team Down?"
+                            }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCTA.tsx",
-                                lineNumber: 199,
-                                columnNumber: 13
-                            }, this))
-                    }, void 0, false, {
-                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCTA.tsx",
-                        lineNumber: 185,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            width: '100%',
-                            height: '1px',
-                            background: 'linear-gradient(to right, transparent, rgba(201,168,76,0.2), transparent)',
-                            margin: '40px 0'
-                        }
-                    }, void 0, false, {
-                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCTA.tsx",
-                        lineNumber: 231,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            display: 'flex',
-                            gap: '24px',
-                            flexWrap: 'wrap',
-                            justifyContent: 'center'
-                        },
-                        children: [
-                            {
-                                label: 'View Case Studies',
-                                href: '/case-studies'
-                            },
-                            {
-                                label: 'All Services',
-                                href: '/services'
-                            },
-                            {
-                                label: 'About Us',
-                                href: '/about-us'
-                            }
-                        ].map((link, i, arr)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                lineNumber: 56,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 style: {
-                                    display: 'flex',
+                                    fontFamily: 'DM Sans, sans-serif',
+                                    fontSize: '16px',
+                                    color: '#888888',
+                                    lineHeight: 1.75,
+                                    maxWidth: '680px',
+                                    marginBottom: '28px'
+                                },
+                                children: "Tell us the workflow you want to fix first. We will review your process and show you exactly what is possible in a free strategy call with no commitment required."
+                            }, void 0, false, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCTA.tsx",
+                                lineNumber: 70,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/contact",
+                                style: {
+                                    fontFamily: 'DM Sans, sans-serif',
+                                    fontSize: '15px',
+                                    fontWeight: 700,
+                                    color: '#C9A84C',
+                                    textDecoration: 'none',
+                                    display: 'inline-flex',
                                     alignItems: 'center',
                                     gap: '24px'
                                 },
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        href: link.href,
-                                        style: {
-                                            fontFamily: 'DM Sans, sans-serif',
-                                            fontSize: '14px',
-                                            fontWeight: 500,
-                                            color: '#C9A84C',
-                                            textDecoration: 'none',
-                                            opacity: 0.8,
-                                            transition: 'opacity 0.2s'
-                                        },
-                                        onMouseEnter: (e)=>{
-                                            e.currentTarget.style.opacity = '1';
-                                        },
-                                        onMouseLeave: (e)=>{
-                                            e.currentTarget.style.opacity = '0.8';
-                                        },
-                                        children: [
-                                            link.label,
-                                            " →"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCTA.tsx",
-                                        lineNumber: 263,
-                                        columnNumber: 15
-                                    }, this),
-                                    i < arr.length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        style: {
-                                            color: 'rgba(201,168,76,0.2)',
-                                            fontSize: '14px',
-                                            userSelect: 'none'
-                                        },
-                                        children: "|"
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        children: "Book a Free Workflow Optimization Strategy Call"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCTA.tsx",
-                                        lineNumber: 284,
-                                        columnNumber: 17
+                                        lineNumber: 97,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        style: {
+                                            opacity: 0.6,
+                                            fontWeight: 400
+                                        },
+                                        children: "theprimecrafters.com/contact"
+                                    }, void 0, false, {
+                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCTA.tsx",
+                                        lineNumber: 98,
+                                        columnNumber: 13
                                     }, this)
                                 ]
-                            }, link.label, true, {
+                            }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCTA.tsx",
-                                lineNumber: 255,
-                                columnNumber: 13
-                            }, this))
+                                lineNumber: 84,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCTA.tsx",
+                        lineNumber: 47,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                        style: {
+                            position: 'absolute',
+                            width: '1px',
+                            height: '1px',
+                            overflow: 'hidden',
+                            clip: 'rect(0,0,0,0)',
+                            whiteSpace: 'nowrap'
+                        },
+                        children: "Book a Free Workflow Optimization Strategy Call"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCTA.tsx",
-                        lineNumber: 242,
+                        lineNumber: 103,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                        style: {
+                            position: 'absolute',
+                            width: '1px',
+                            height: '1px',
+                            overflow: 'hidden',
+                            clip: 'rect(0,0,0,0)',
+                            whiteSpace: 'nowrap'
+                        },
+                        children: "Tell Us the Workflow You Want to Fix First"
+                    }, void 0, false, {
+                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCTA.tsx",
+                        lineNumber: 115,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationCTA.tsx",
-                lineNumber: 85,
+                lineNumber: 45,
                 columnNumber: 7
             }, this)
         ]
@@ -9578,63 +9657,63 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d
 const faqs = [
     {
         q: 'What are AI workflow optimization services?',
-        a: 'AI workflow optimization services map, redesign, and improve business processes using workflow audits, bottleneck analysis, automation planning, AI support integration, and KPI tracking. The goal is to help teams move work faster with fewer manual steps — by fixing the process before adding tools or automation on top of it.'
+        a: 'AI workflow optimization services map how work currently moves through a business, identify bottlenecks and unclear ownership, and redesign the process so it runs smoothly with AI support added where it creates real value. This includes workflow audits, process mapping, automation roadmaps, and post launch performance tracking.',
+        href: '/services',
+        linkLabel: 'Our Services →'
     },
     {
         q: 'What is the difference between workflow optimization and process automation?',
-        a: 'Workflow optimization maps and redesigns how work moves — clarifying steps, owners, handoffs, rules, and exceptions. Process automation then builds the tools and triggers that execute the optimised workflow automatically. Optimization comes first. Automating a broken workflow just breaks it faster and at greater scale.',
+        a: 'Workflow optimization comes first. It maps the process, clarifies ownership, and defines the logic a workflow should follow. Process automation comes after, building the actual triggers, integrations, and automated steps on top of that mapped logic. Automating a workflow before it has been optimised usually just speeds up a broken process.',
         href: '/services/process-automation',
-        linkLabel: 'Explore Process Automation →'
+        linkLabel: 'Process Automation →'
     },
     {
         q: 'What business workflows can ThePrimeCrafters optimize?',
-        a: 'ThePrimeCrafters optimises sales and lead handoff workflows, customer support and ticket workflows, operations and admin workflows, approval and review workflows, reporting and dashboard workflows, CRM and data sync workflows, AI agent and chatbot workflows, and internal knowledge and SOP workflows.',
-        href: '/services',
-        linkLabel: 'View All Services →'
+        a: 'Sales and lead handoff workflows, customer support and ticket workflows, operations and admin workflows, approval and review workflows, reporting and dashboard workflows, CRM and data sync workflows, AI agent and chatbot workflows, and internal knowledge and SOP workflows.'
     },
     {
         q: 'How do I know if my business needs workflow optimization?',
-        a: 'Common signals include teams repeating the same manual tasks daily, leads or requests falling through the cracks, approvals that stall without a clear owner, data living across disconnected tools, automation that keeps breaking, missed follow-ups, and reporting that requires manual compilation. If any of these match, workflow optimization is likely the right starting point.',
-        href: '/contact',
-        linkLabel: 'Talk to a Workflow Expert →'
+        a: 'If your team repeats the same manual tasks daily, ownership of tasks or leads is unclear, approvals regularly stall, your tools do not share data automatically, follow ups get missed, or you have automation ideas with no clear process to plug them into, workflow optimization will likely deliver measurable improvement.'
     },
     {
         q: 'What does the workflow optimization process look like?',
-        a: 'The process includes six steps: workflow discovery and bottleneck audit, process mapping and priority scoring, automation and AI opportunity roadmap, workflow redesign and tool alignment, build and test improvements, and post-launch monitoring and optimization. Each step is completed before moving to the next — workflows are not deployed until validated against real usage scenarios.'
+        a: 'Six steps: workflow discovery and bottleneck audit, process mapping and priority scoring, automation and AI opportunity roadmap, workflow redesign and tool alignment, build test and document improvements, and launch monitor and improve. No step is skipped.'
     },
     {
         q: 'Can ThePrimeCrafters connect workflow optimization with AI and automation tools?',
-        a: 'Yes. Once a workflow is mapped and optimised, ThePrimeCrafters identifies where AI support, automation triggers, and system integrations add the most value — then builds or configures those connections. Workflow optimization and AI integration work together as part of the same project or in sequence.',
+        a: 'Yes. Every optimised workflow is designed to support AI tools for summarising, routing, scoring, and drafting, and connects to automation platforms and existing business software such as CRMs, forms, email, and calendars.',
         href: '/services/ai-integration',
-        linkLabel: 'Explore AI Integration Services →'
+        linkLabel: 'AI Integration →'
     },
     {
         q: 'Does workflow optimization require replacing our existing tools?',
-        a: 'Not usually. Most workflow optimization projects work within the tools your team already uses — aligning them better, removing unnecessary steps, and connecting handoffs between them. Tool changes are only recommended when an existing tool is genuinely blocking the workflow from working effectively.'
+        a: 'No. The Prime Crafters improves how current tools and teams work together first. New tools are only recommended where a genuine gap exists, not as a default starting point.'
     },
     {
         q: 'How long does a workflow optimization project take?',
-        a: 'Timeline depends on the number of workflows involved, their complexity, and whether automation or AI integration is included. A focused single-workflow audit and redesign can be completed in a few weeks. Larger multi-workflow projects with automation and AI integration take longer. A confirmed timeline is provided after the discovery and audit stage.'
+        a: 'Smaller focused workflows can be mapped, redesigned, and launched within a few weeks. Larger multi team workflows with several tool integrations take longer. Timeline is confirmed during discovery based on the specific scope.',
+        href: '/contact',
+        linkLabel: 'Discuss Your Project →'
     },
     {
         q: 'How much do workflow optimization services cost?',
-        a: 'Cost is scoped based on the number of workflows, complexity of the bottlenecks, automation requirements, and AI integration scope. ThePrimeCrafters provides a detailed proposal after reviewing your workflows and goals during a free strategy call.',
+        a: 'Cost depends on the number of workflows involved, the complexity of the bottlenecks, the integrations required, and the scope of the automation roadmap. The Prime Crafters provides a scoped proposal after reviewing the workflow during a free strategy call.',
         href: '/contact',
-        linkLabel: 'Book a Free Strategy Call →'
+        linkLabel: 'Book a Consultation →'
     },
     {
         q: 'Which teams benefit most from AI workflow optimization?',
-        a: 'Sales teams, customer support teams, operations teams, marketing and lead generation teams, healthcare and clinic admin teams, and service businesses all benefit when they have repeatable workflows with manual handoffs, unclear ownership, disconnected tools, or high administrative overhead that slows response time and team output.'
+        a: 'Sales, customer support, operations, marketing and lead generation, healthcare admin teams, and service businesses all see measurable improvement when they have repeatable workflows, unclear ownership, or high volumes of manual coordination.'
     },
     {
         q: 'How do you measure whether workflow optimization is working?',
-        a: 'Success is measured against workflow KPIs agreed before launch — such as manual hours reduced, handoff speed, lead response time, approval cycle time, error rate, CRM update accuracy, and team output volume. Post-launch monitoring tracks these metrics so improvements can be made based on real operational data.'
+        a: 'Success is measured against KPIs defined before the project starts, such as response time, manual hours saved, handoff delay reduction, error rate, and ticket or approval resolution speed, tracked after launch and refined over time.'
     },
     {
         q: 'Why choose ThePrimeCrafters for AI workflow optimization services?',
-        a: 'ThePrimeCrafters maps the workflow before recommending any tool, designs processes that are ready for AI and automation, connects optimization to measurable business outcomes, tests handoffs and edge cases before launch, and supports the full lifecycle from strategy through monitoring and improvement.',
+        a: 'The Prime Crafters starts with the workflow before the tool, designs processes that are ready for AI and automation, connects optimization to measurable business outcomes, tests handoffs and edge cases before launch, and supports the full lifecycle from strategy through ongoing improvement.',
         href: '/about-us',
-        linkLabel: 'About ThePrimeCrafters →',
+        linkLabel: 'About Us →',
         href2: '/case-studies',
         linkLabel2: 'View Case Studies →'
     }
@@ -9952,7 +10031,7 @@ function WorkflowOptimizationFAQ() {
                                     color: '#888888',
                                     margin: 0
                                 },
-                                children: "Have a question not covered here?"
+                                children: "Have a question not covered here? Book a free workflow optimization strategy call and we will walk you through what is possible for your operation."
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/workflow-optimization/components/WorkflowOptimizationFAQ.tsx",
                                 lineNumber: 353,

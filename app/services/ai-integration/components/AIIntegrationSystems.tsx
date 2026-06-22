@@ -1,64 +1,63 @@
-// components/services/ai-integration/AIIntegrationSystems.tsx
 'use client';
 
 import Link from 'next/link';
 
 const systems = [
   {
-    icon: '🎯',
-    h3: 'CRM and Sales Platform Integration',
-    body: 'Inject deep operational logic into platforms like Salesforce, HubSpot, and GoHighLevel. Our systems empower AI models to automatically instantiate records, modify deal pipelines based on chat interactions, append deep meeting transcripts, track lead scores, and initiate automated client follow-ups without manual staff updates.',
-    keywords: 'CRM AI Integration · AI Sales Integration · CRM Automation',
-    href: '/case-study/lead-generation-tools',
-  },
-  {
-    icon: '🌐',
-    h3: 'Website Forms and Lead Capture Integration',
-    body: 'Turn standard website touchpoints into conversational qualification layers. We link online contact modules, specific capture pages, and web portals to underlying AI evaluation engines, running instantaneous screening, route-mapping, immediate notification pings, and live dataset population.',
-    keywords: 'Website AI Integration · Form Automation · Lead Capture Automation',
-    href: '/services/process-automation',
-  },
-  {
-    icon: '🗄️',
-    h3: 'Database and Spreadsheet Automation',
-    body: 'Bridge the gap between raw data storage and accessible business insights. We build real-time monitoring workflows over SQL databases, PostgreSQL clusters, and enterprise spreadsheet structures to handle automated data parsing, instant text summaries, records modification, and automated administrative performance checks.',
-    keywords: 'Database AI Integration · Spreadsheet Automation · Data Sync',
-    href: null,
-  },
-  {
-    icon: '📧',
-    h3: 'Email, Calendar, and Communication Tool Integration',
-    body: "Maximize your team's day-to-day coordination within tools like Slack, Microsoft Teams, Outlook, and Google Workspace. Our tools enable AI assistants to create highly targeted follow-up context, extract calendar availabilities, generate instant summary updates on complex channels, and route action alerts directly to specific human stakeholders.",
-    keywords: 'Email Automation · Calendar Automation · Slack & WhatsApp AI Integration',
-    href: null,
-  },
-  {
-    icon: '🔌',
-    h3: 'API and Custom Software Integration',
-    body: 'When pre-configured automation links fall short, our development team writes bespoke code. We architect scalable API pathways featuring advanced web token security, precise field conversions, complex logic flows, and custom error containment to manage enterprise-level legacy software suites.',
-    keywords: 'Custom API Integrations · AI API Integration · Custom Software Integration',
-    href: '/services/custom-ai-solutions',
-  },
-  {
     icon: '🎙️',
-    h3: 'AI Voice Agent and Chatbot Integration',
-    body: 'Bind telephone systems and chat frameworks directly to underlying data architectures. We configure voice assistants and contextual chatbots to check available scheduling blocks, create support incidents, update client files, and pass off contextual summaries directly to operational departments during call transfers.',
-    keywords: 'AI Voice Agent Integration · Chatbot CRM Integration',
+    h3: 'AI Voice Agent',
+    body: 'Handle calls, answer FAQs, qualify leads, book appointments, collect details, log summaries, and route urgent cases to humans, available around the clock without adding headcount.',
+    keywords: 'AI Voice Agents · Voice Agent Development · Call Automation',
     href: '/case-study/spectrum-voice-agent',
   },
   {
-    icon: '📊',
-    h3: 'Reporting and Dashboard Integration',
-    body: 'Convert disconnected process metrics into unified visual intelligence. We pull data from interconnected automation sequences to feed executive reports, trend notifications, and live operational analytics dashboards, providing management with real-time insight into processing costs and system latency.',
-    keywords: 'AI Reporting Integration · Dashboard Automation · Workflow Reporting',
-    href: '/case-studies',
+    icon: '💬',
+    h3: 'AI Chat Agent',
+    body: 'Build chat agents trained on business information, brand voice, FAQs, products, services, and routing rules for customer facing or internal team use across any channel.',
+    keywords: 'AI Chat Agents · AI Chatbot Development · Website AI Assistant',
+    href: '/services/custom-ai-solutions',
+  },
+  {
+    icon: '🎯',
+    h3: 'AI Sales Agent',
+    body: 'Qualify inbound leads, ask screening questions, score intent, enrich records, send alerts, and push qualified prospects directly into the CRM without manual review.',
+    keywords: 'AI Sales Agent · Lead Qualification AI Agent · CRM Lead Agent',
+    href: '/case-study/lead-generation-tools',
+  },
+  {
+    icon: '📅',
+    h3: 'AI Booking Agent',
+    body: 'Check availability, collect booking details, create appointments, send confirmations, update calendars, and route complex requests to staff, without a human in the middle.',
+    keywords: 'AI Booking Agent · Appointment Scheduling AI · Calendar Automation',
+    href: '/case-study/rv-park-voice-agent',
+  },
+  {
+    icon: '🎧',
+    h3: 'Customer Support AI Agent',
+    body: 'Answer common questions, search knowledge bases, create tickets, summarise requests, tag urgency, and escalate issues to the right human when the conversation needs it.',
+    keywords: 'Customer Support AI Agent · Ticket Routing Automation',
+    href: '/services/process-automation',
+  },
+  {
+    icon: '🔄',
+    h3: 'CRM AI Agent',
+    body: 'Update records, log calls and chats, create tasks, trigger follow ups, assign owners, and keep sales or support pipelines current without manual entry after every interaction.',
+    keywords: 'CRM AI Agent · Follow Up Automation · CRM Automation',
+    href: '/services/ai-integration',
   },
   {
     icon: '📚',
-    h3: 'Internal Knowledge Base and Document Integration',
-    body: 'Transform scattered documents into searchable knowledge repositories. We safely connect document management storage and internal standard operating procedures (SOPs) to private AI search components, helping your workforce instantly look up company guidelines, product manuals, and service files without risking public data disclosure.',
-    keywords: 'AI Knowledge Base Integration · Document AI Integration · Internal AI Assistant',
+    h3: 'Internal AI Assistant',
+    body: 'Give teams a private assistant for SOPs, policies, project notes, task handoffs, reporting summaries, and internal questions, scoped carefully to approved knowledge sources.',
+    keywords: 'Internal AI Assistant · Knowledge Base AI Agent · Operations AI Agent',
     href: '/services/custom-ai-solutions',
+  },
+  {
+    icon: '📊',
+    h3: 'AI Reporting Agent',
+    body: 'Turn activity data into summaries, alerts, daily reports, lead insights, customer trends, and manager ready updates, without manual compilation across disconnected tools.',
+    keywords: 'AI Reporting Agent · Business Intelligence AI Agent · Automated Reports',
+    href: '/case-studies',
   },
 ];
 
@@ -100,7 +99,7 @@ export default function AIIntegrationSystems() {
             textAlign: 'center',
           }}
         >
-          What We Connect
+          What We Build
         </p>
 
         {/* H2 */}
@@ -116,7 +115,7 @@ export default function AIIntegrationSystems() {
             margin: '0 auto 16px',
           }}
         >
-          Business Systems ThePrimeCrafters Can Connect With AI
+          Agent Catalogue
         </h2>
 
         <p
@@ -130,7 +129,7 @@ export default function AIIntegrationSystems() {
             margin: '0 auto 56px',
           }}
         >
-          Our engineers build secure pipelines connecting modern intelligence across your entire technical landscape. Below are the functional hubs we optimize:
+          From inbound call handling to internal knowledge assistants, every agent is built around real workflows, connected to your tools, and designed to take approved actions automatically.
         </p>
 
         {/* Cards grid */}

@@ -5,38 +5,38 @@ import Link from 'next/link';
 const trustCards = [
   {
     icon: '🔗',
-    h3: 'We Build Around Your Existing Tools',
-    body: `We don't disrupt your business operations by demanding expensive system migrations. Our developers write secure middleware that connects modern AI models straight into the CRMs, communication tools, and databases your business already relies on daily.`,
-    href: '/services',
-    linkLabel: 'View All Services →',
-  },
-  {
-    icon: '⚙️',
-    h3: 'We Connect AI to Real Business Workflows',
-    body: 'We focus entirely on building functional, high-value connections. Our integrations make sure AI models actively update pipeline fields, generate calendar events, assign tasks, and route information across tools to streamline your day-to-day operations.',
+    h3: 'We Build Agents Around Real Workflows, Not Demos',
+    body: 'Every agent is designed around actual calls, chats, forms, CRMs, booking flows, and support processes, not a generic demo script. If it does not work in your real workflow, it does not ship.',
     href: '/services/process-automation',
     linkLabel: 'Explore Process Automation →',
   },
   {
+    icon: '⚙️',
+    h3: 'We Connect Agents to the Tools Your Team Already Uses',
+    body: 'CRMs, websites, forms, calendars, ticket systems, databases, email, Slack, WhatsApp, and custom APIs, agents are integrated into your existing stack, not isolated tools that create more manual work.',
+    href: '/services/ai-integration',
+    linkLabel: 'Explore AI Integration →',
+  },
+  {
     icon: '🗺️',
-    h3: 'We Design Data Flows Before Building',
-    body: 'We map out every step of your project before writing a single line of code. Our engineers carefully diagram data pathways, fields, webhook structures, access controls, and error handling steps to ensure your project aligns perfectly with your goals.',
-    href: '/about-us',
-    linkLabel: 'About ThePrimeCrafters →',
+    h3: 'We Design Guardrails Before Launch',
+    body: 'Approved knowledge, scripts, fallback rules, permissions, escalation paths, and human review gates are defined before build begins, so agents operate within clear, tested boundaries from day one.',
+    href: '/contact',
+    linkLabel: 'Discuss Your Project →',
   },
   {
     icon: '🔍',
-    h3: 'We Test Sync, Permissions, and Edge Cases',
-    body: 'We never push unverified code to live production environments. We perform extensive quality testing to check data format adjustments, network connection drops, duplicate entries, access limits, and system recovery behaviors under heavy use.',
+    h3: 'We Test Real Conversations and Edge Cases',
+    body: 'QA covers voice and chat behavior, wrong inputs, unavailable tools, duplicate records, failed escalations, and edge cases, not just the happy path that works in a controlled demo environment.',
     href: '/contact',
-    linkLabel: 'Discuss Your Integration →',
+    linkLabel: 'Talk to Us →',
   },
   {
     icon: '🔄',
     h3: 'We Support Strategy, Build, Launch, and Optimization',
-    body: 'We partner with you through every phase of your automation journey. From our initial system audit and custom development down to live deployment monitoring and post-launch prompt refinement, our team ensures long-term operational success.',
-    href: '/contact',
-    linkLabel: 'Start Your Integration Project →',
+    body: 'From planning and conversation design through build, integration, rollout, transcript review, monitoring, and improvement, ThePrimeCrafters stays involved across the full agent lifecycle.',
+    href: '/about-us',
+    linkLabel: 'About ThePrimeCrafters →',
     featured: true,
   },
 ];
@@ -120,7 +120,7 @@ export default function AIIntegrationWhyUs() {
             margin: '0 auto 16px',
           }}
         >
-          Why Choose ThePrimeCrafters for AI Integration Services?
+          Why Choose ThePrimeCrafters for AI Agent Development Services?
         </h2>
 
         <p
@@ -134,7 +134,7 @@ export default function AIIntegrationWhyUs() {
             margin: '0 auto 56px',
           }}
         >
-          We stand apart from generic tech consultants by delivering business-first solutions, rigorous API engineering, and secure data workflows built for real-world growth.
+          Practical, business first, integration aware, and workflow aware, focused on production ready AI agents that work inside real operations, not polished demos.
         </p>
 
         {/* Top row: 2 cards */}

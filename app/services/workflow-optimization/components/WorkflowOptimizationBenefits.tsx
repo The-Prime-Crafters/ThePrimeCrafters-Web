@@ -7,7 +7,7 @@ const benefits = [
   {
     icon: '⏱️',
     h3: 'Reduce Manual Work and Rework',
-    body: 'Cut repeated copying, duplicate updates, manual reminders, and avoidable corrections across daily work — so teams spend more time on high-value tasks and less time acting as a bridge between disconnected steps.',
+    body: 'Cutting repeated copying, duplicate updates, manual reminders, and avoidable corrections frees up real time for teams to spend on higher value work instead of acting as a bridge between disconnected steps.',
     keywords: 'Reduce Manual Work · Workflow Efficiency · Process Optimization',
     href: '/services/process-automation',
     featured: false,
@@ -15,7 +15,7 @@ const benefits = [
   {
     icon: '⚡',
     h3: 'Speed Up Handoffs and Response Time',
-    body: 'Clarify ownership, routing, reminders, and escalation paths so work does not stall between teams. Faster handoffs mean faster lead response, faster support resolution, and faster operational decisions.',
+    body: 'Clarifying ownership, routing, reminders, and escalation paths means work does not stall between teams. Faster handoffs translate directly into faster lead response, faster support resolution, and faster operational decisions.',
     keywords: 'Handoff Optimization · Response Time Improvement',
     href: '/case-study/lead-generation-tools',
     featured: false,
@@ -23,7 +23,7 @@ const benefits = [
   {
     icon: '📊',
     h3: 'Improve Visibility Across Teams',
-    body: 'Create clearer status updates, dashboards, logs, and reports so teams know what is moving, what is stuck, and where the bottleneck is — without chasing updates across tools and inboxes.',
+    body: 'Clearer status updates, dashboards, logs, and reports give teams a real time picture of what is moving, what is stuck, and where the actual bottleneck is, without anyone needing to chase updates across tools and inboxes.',
     keywords: 'Workflow Visibility · Operational Reporting · Dashboard Automation',
     href: '/case-studies',
     featured: true,
@@ -31,7 +31,7 @@ const benefits = [
   {
     icon: '🧠',
     h3: 'Make AI Automation Easier to Implement',
-    body: 'Turn messy processes into clear workflow logic so AI tools and automations can be added with less confusion, fewer failures, and more predictable outcomes. Clean processes make AI work better.',
+    body: 'Turning messy processes into clear workflow logic means AI tools and automations can be added with far less confusion, fewer failures, and more predictable outcomes. Clean processes are what make AI actually work well in practice.',
     keywords: 'AI-Ready Workflow · Workflow Automation Strategy',
     href: '/services/ai-integration',
     featured: false,
@@ -39,7 +39,7 @@ const benefits = [
   {
     icon: '✅',
     h3: 'Standardize Repeatable Processes',
-    body: 'Create consistent steps, statuses, owners, rules, and SOPs for common workflows so the same task is handled the same way every time — regardless of who is doing it or which tool they are in.',
+    body: 'Creating consistent steps, statuses, owners, rules, and SOPs for common workflows means the same task gets handled the same way every time, regardless of who is doing it or which tool they happen to be working in.',
     keywords: 'SOP Optimization · Process Standardization · Workflow Documentation',
     href: null,
     featured: false,
@@ -47,7 +47,7 @@ const benefits = [
   {
     icon: '📈',
     h3: 'Scale Operations Without Adding More Tool Chaos',
-    body: 'Improve how current tools and teams work together before adding more software or rebuilding the stack. Better workflows let you handle more volume without proportionally increasing admin overhead.',
+    body: 'Improving how current tools and teams work together before adding more software lets a business handle more volume without proportionally increasing admin overhead or rebuilding its entire technology stack.',
     keywords: 'Scale Operations · Tool Consolidation · Workflow Improvement',
     href: '/contact',
     featured: false,
@@ -108,7 +108,7 @@ export default function WorkflowOptimizationBenefits() {
             textAlign: 'center',
           }}
         >
-          Benefits
+          Why Invest
         </p>
 
         {/* H2 */}
@@ -134,14 +134,14 @@ export default function WorkflowOptimizationBenefits() {
             color: '#888888',
             lineHeight: 1.75,
             textAlign: 'center',
-            maxWidth: '560px',
+            maxWidth: '620px',
             margin: '0 auto 56px',
           }}
         >
-          Less manual work, faster handoffs, clearer ownership, better visibility, easier automation, and measurable improvement across the workflows that drive revenue and operations.
+          Workflow optimization is not only about saving time. It improves response speed, ownership clarity, visibility, automation readiness, and consistency across the processes that drive revenue and operations.
         </p>
 
-        {/* Benefits grid — CSS grid with align-items stretch for equal height */}
+        {/* Benefits grid */}
         <div
           style={{
             display: 'grid',
@@ -166,7 +166,6 @@ export default function WorkflowOptimizationBenefits() {
                 flexDirection: 'column',
                 position: 'relative',
                 transition: 'border-color 0.25s, background 0.25s',
-                // Equal height: grid stretches all cards in the same row
               }}
               onMouseEnter={(e) => {
                 const el = e.currentTarget as HTMLDivElement;
@@ -210,7 +209,7 @@ export default function WorkflowOptimizationBenefits() {
                 </div>
               )}
 
-              {/* Icon box — fixed size, no emoji scaling issues */}
+              {/* Icon box */}
               <div
                 style={{
                   width: '52px',
@@ -231,7 +230,7 @@ export default function WorkflowOptimizationBenefits() {
                 {b.icon}
               </div>
 
-              {/* H3 — fixed min-height so titles align across columns */}
+              {/* H3 */}
               <h3
                 style={{
                   fontFamily: 'Playfair Display, serif',
@@ -248,7 +247,7 @@ export default function WorkflowOptimizationBenefits() {
                 {b.h3}
               </h3>
 
-              {/* Body — flexGrow pushes footer to bottom */}
+              {/* Body */}
               <p
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
@@ -301,7 +300,7 @@ export default function WorkflowOptimizationBenefits() {
                 ))}
               </div>
 
-              {/* Link — always at the bottom */}
+              {/* Link */}
               {b.href ? (
                 <Link
                   href={b.href}
@@ -322,7 +321,6 @@ export default function WorkflowOptimizationBenefits() {
                     : 'Learn more →'}
                 </Link>
               ) : (
-                // Empty spacer so cards without links still align to same bottom
                 <div style={{ height: '20px' }} />
               )}
             </div>

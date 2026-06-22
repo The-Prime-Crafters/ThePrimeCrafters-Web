@@ -7,7 +7,7 @@ const trustCards = [
   {
     icon: '🗺️',
     h3: 'We Start With the Workflow Before the Tool',
-    body: 'ThePrimeCrafters maps how work actually moves — steps, owners, handoffs, delays, exceptions, and bottlenecks — before recommending any automation, AI, or system change. The process comes first.',
+    body: 'The Prime Crafters maps how work actually moves, including every step, owner, handoff, delay, and exception, before recommending any automation, AI, or system change. The process comes first, every time.',
     href: '/services/process-automation',
     linkLabel: 'Explore Process Automation →',
     featured: false,
@@ -15,7 +15,7 @@ const trustCards = [
   {
     icon: '🤖',
     h3: 'We Design Processes That Are Ready for AI and Automation',
-    body: 'Every optimised workflow defines triggers, owners, rules, data fields, exceptions, approval steps, and reporting requirements — so AI tools and automations can be added into a clean, predictable process.',
+    body: 'Every optimised workflow defines triggers, owners, rules, data fields, exceptions, approval steps, and reporting requirements so AI tools and automations can be added into a clean, predictable process rather than a confusing one.',
     href: '/services/ai-integration',
     linkLabel: 'Explore AI Integration →',
     featured: false,
@@ -23,7 +23,7 @@ const trustCards = [
   {
     icon: '📊',
     h3: 'We Connect Optimization to Real Business Outcomes',
-    body: 'Workflow improvements are measured against response speed, fewer manual steps, better follow-up, clearer reporting, and smoother team handoffs — not just process diagrams that never get implemented.',
+    body: 'Workflow improvements are measured against response speed, fewer manual steps, better follow up, clearer reporting, and smoother team handoffs, not just process diagrams that get filed away and never implemented.',
     href: '/case-studies',
     linkLabel: 'View Case Studies →',
     featured: false,
@@ -31,7 +31,7 @@ const trustCards = [
   {
     icon: '🔍',
     h3: 'We Test Handoffs, Data Quality, and Edge Cases',
-    body: 'Duplicate work, missing fields, delayed handoffs, permission issues, failed triggers, and user adoption are all tested before launch — not discovered by your team after the workflow goes live.',
+    body: 'Duplicate work, missing fields, delayed handoffs, permission issues, failed triggers, and user adoption are all tested before launch, not discovered by the client team after the workflow has already gone live.',
     href: '/contact',
     linkLabel: 'Discuss Your Workflow →',
     featured: false,
@@ -39,7 +39,7 @@ const trustCards = [
   {
     icon: '🔄',
     h3: 'We Support Strategy, Build, Launch, and Ongoing Improvement',
-    body: 'From workflow audit and roadmap through automation support, AI integration, documentation, rollout, monitoring, and improvement — ThePrimeCrafters stays involved across the full optimization lifecycle.',
+    body: 'From workflow audit and roadmap through automation support, AI integration, documentation, rollout, monitoring, and improvement, The Prime Crafters stays involved across the full optimization lifecycle.',
     href: '/contact',
     linkLabel: 'Start Your Workflow Project →',
     featured: true,
@@ -109,7 +109,7 @@ export default function WorkflowOptimizationWhyUs() {
             textAlign: 'center',
           }}
         >
-          Why Choose Us
+          Why Us
         </p>
 
         {/* H2 */}
@@ -135,11 +135,11 @@ export default function WorkflowOptimizationWhyUs() {
             color: '#888888',
             lineHeight: 1.75,
             textAlign: 'center',
-            maxWidth: '580px',
+            maxWidth: '640px',
             margin: '0 auto 56px',
           }}
         >
-          Practical, business-first, workflow-aware, and AI-aware — focused on measurable process improvement that connects to real business outcomes, not just process documentation.
+          The Prime Crafters is practical, business first, workflow aware, and AI aware, focused on measurable process improvement that connects to real business outcomes rather than process documentation that never gets implemented.
         </p>
 
         {/* Top row: 2 cards */}
@@ -365,22 +365,9 @@ function TrustCard({
           >
             Full Lifecycle Coverage
           </p>
-          <div
-            style={{
-              display: 'flex',
-              flexWrap: 'wrap',
-              gap: '8px',
-            }}
-          >
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
             {lifecycleBadges.map((badge, i) => (
-              <div
-                key={badge}
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '6px',
-                }}
-              >
+              <div key={badge} style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
                 <span
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
@@ -397,14 +384,7 @@ function TrustCard({
                   {badge}
                 </span>
                 {i < lifecycleBadges.length - 1 && (
-                  <span
-                    style={{
-                      color: 'rgba(201,168,76,0.3)',
-                      fontSize: '12px',
-                    }}
-                  >
-                    →
-                  </span>
+                  <span style={{ color: 'rgba(201,168,76,0.3)', fontSize: '12px' }}>→</span>
                 )}
               </div>
             ))}

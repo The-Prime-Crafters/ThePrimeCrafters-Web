@@ -7,63 +7,63 @@ import Link from 'next/link';
 const faqs = [
   {
     q: 'What are AI workflow optimization services?',
-    a: 'AI workflow optimization services map, redesign, and improve business processes using workflow audits, bottleneck analysis, automation planning, AI support integration, and KPI tracking. The goal is to help teams move work faster with fewer manual steps — by fixing the process before adding tools or automation on top of it.',
+    a: 'AI workflow optimization services map how work currently moves through a business, identify bottlenecks and unclear ownership, and redesign the process so it runs smoothly with AI support added where it creates real value. This includes workflow audits, process mapping, automation roadmaps, and post launch performance tracking.',
+    href: '/services',
+    linkLabel: 'Our Services →',
   },
   {
     q: 'What is the difference between workflow optimization and process automation?',
-    a: 'Workflow optimization maps and redesigns how work moves — clarifying steps, owners, handoffs, rules, and exceptions. Process automation then builds the tools and triggers that execute the optimised workflow automatically. Optimization comes first. Automating a broken workflow just breaks it faster and at greater scale.',
+    a: 'Workflow optimization comes first. It maps the process, clarifies ownership, and defines the logic a workflow should follow. Process automation comes after, building the actual triggers, integrations, and automated steps on top of that mapped logic. Automating a workflow before it has been optimised usually just speeds up a broken process.',
     href: '/services/process-automation',
-    linkLabel: 'Explore Process Automation →',
+    linkLabel: 'Process Automation →',
   },
   {
     q: 'What business workflows can ThePrimeCrafters optimize?',
-    a: 'ThePrimeCrafters optimises sales and lead handoff workflows, customer support and ticket workflows, operations and admin workflows, approval and review workflows, reporting and dashboard workflows, CRM and data sync workflows, AI agent and chatbot workflows, and internal knowledge and SOP workflows.',
-    href: '/services',
-    linkLabel: 'View All Services →',
+    a: 'Sales and lead handoff workflows, customer support and ticket workflows, operations and admin workflows, approval and review workflows, reporting and dashboard workflows, CRM and data sync workflows, AI agent and chatbot workflows, and internal knowledge and SOP workflows.',
   },
   {
     q: 'How do I know if my business needs workflow optimization?',
-    a: 'Common signals include teams repeating the same manual tasks daily, leads or requests falling through the cracks, approvals that stall without a clear owner, data living across disconnected tools, automation that keeps breaking, missed follow-ups, and reporting that requires manual compilation. If any of these match, workflow optimization is likely the right starting point.',
-    href: '/contact',
-    linkLabel: 'Talk to a Workflow Expert →',
+    a: 'If your team repeats the same manual tasks daily, ownership of tasks or leads is unclear, approvals regularly stall, your tools do not share data automatically, follow ups get missed, or you have automation ideas with no clear process to plug them into, workflow optimization will likely deliver measurable improvement.',
   },
   {
     q: 'What does the workflow optimization process look like?',
-    a: 'The process includes six steps: workflow discovery and bottleneck audit, process mapping and priority scoring, automation and AI opportunity roadmap, workflow redesign and tool alignment, build and test improvements, and post-launch monitoring and optimization. Each step is completed before moving to the next — workflows are not deployed until validated against real usage scenarios.',
+    a: 'Six steps: workflow discovery and bottleneck audit, process mapping and priority scoring, automation and AI opportunity roadmap, workflow redesign and tool alignment, build test and document improvements, and launch monitor and improve. No step is skipped.',
   },
   {
     q: 'Can ThePrimeCrafters connect workflow optimization with AI and automation tools?',
-    a: 'Yes. Once a workflow is mapped and optimised, ThePrimeCrafters identifies where AI support, automation triggers, and system integrations add the most value — then builds or configures those connections. Workflow optimization and AI integration work together as part of the same project or in sequence.',
+    a: 'Yes. Every optimised workflow is designed to support AI tools for summarising, routing, scoring, and drafting, and connects to automation platforms and existing business software such as CRMs, forms, email, and calendars.',
     href: '/services/ai-integration',
-    linkLabel: 'Explore AI Integration Services →',
+    linkLabel: 'AI Integration →',
   },
   {
     q: 'Does workflow optimization require replacing our existing tools?',
-    a: 'Not usually. Most workflow optimization projects work within the tools your team already uses — aligning them better, removing unnecessary steps, and connecting handoffs between them. Tool changes are only recommended when an existing tool is genuinely blocking the workflow from working effectively.',
+    a: 'No. The Prime Crafters improves how current tools and teams work together first. New tools are only recommended where a genuine gap exists, not as a default starting point.',
   },
   {
     q: 'How long does a workflow optimization project take?',
-    a: 'Timeline depends on the number of workflows involved, their complexity, and whether automation or AI integration is included. A focused single-workflow audit and redesign can be completed in a few weeks. Larger multi-workflow projects with automation and AI integration take longer. A confirmed timeline is provided after the discovery and audit stage.',
+    a: 'Smaller focused workflows can be mapped, redesigned, and launched within a few weeks. Larger multi team workflows with several tool integrations take longer. Timeline is confirmed during discovery based on the specific scope.',
+    href: '/contact',
+    linkLabel: 'Discuss Your Project →',
   },
   {
     q: 'How much do workflow optimization services cost?',
-    a: 'Cost is scoped based on the number of workflows, complexity of the bottlenecks, automation requirements, and AI integration scope. ThePrimeCrafters provides a detailed proposal after reviewing your workflows and goals during a free strategy call.',
+    a: 'Cost depends on the number of workflows involved, the complexity of the bottlenecks, the integrations required, and the scope of the automation roadmap. The Prime Crafters provides a scoped proposal after reviewing the workflow during a free strategy call.',
     href: '/contact',
-    linkLabel: 'Book a Free Strategy Call →',
+    linkLabel: 'Book a Consultation →',
   },
   {
     q: 'Which teams benefit most from AI workflow optimization?',
-    a: 'Sales teams, customer support teams, operations teams, marketing and lead generation teams, healthcare and clinic admin teams, and service businesses all benefit when they have repeatable workflows with manual handoffs, unclear ownership, disconnected tools, or high administrative overhead that slows response time and team output.',
+    a: 'Sales, customer support, operations, marketing and lead generation, healthcare admin teams, and service businesses all see measurable improvement when they have repeatable workflows, unclear ownership, or high volumes of manual coordination.',
   },
   {
     q: 'How do you measure whether workflow optimization is working?',
-    a: 'Success is measured against workflow KPIs agreed before launch — such as manual hours reduced, handoff speed, lead response time, approval cycle time, error rate, CRM update accuracy, and team output volume. Post-launch monitoring tracks these metrics so improvements can be made based on real operational data.',
+    a: 'Success is measured against KPIs defined before the project starts, such as response time, manual hours saved, handoff delay reduction, error rate, and ticket or approval resolution speed, tracked after launch and refined over time.',
   },
   {
     q: 'Why choose ThePrimeCrafters for AI workflow optimization services?',
-    a: 'ThePrimeCrafters maps the workflow before recommending any tool, designs processes that are ready for AI and automation, connects optimization to measurable business outcomes, tests handoffs and edge cases before launch, and supports the full lifecycle from strategy through monitoring and improvement.',
+    a: 'The Prime Crafters starts with the workflow before the tool, designs processes that are ready for AI and automation, connects optimization to measurable business outcomes, tests handoffs and edge cases before launch, and supports the full lifecycle from strategy through ongoing improvement.',
     href: '/about-us',
-    linkLabel: 'About ThePrimeCrafters →',
+    linkLabel: 'About Us →',
     href2: '/case-studies',
     linkLabel2: 'View Case Studies →',
   },
@@ -358,7 +358,7 @@ export default function WorkflowOptimizationFAQ() {
               margin: 0,
             }}
           >
-            Have a question not covered here?
+            Have a question not covered here? Book a free workflow optimization strategy call and we will walk you through what is possible for your operation.
           </p>
           <Link
             href="/contact"

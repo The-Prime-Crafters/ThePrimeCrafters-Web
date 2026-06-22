@@ -11,10 +11,22 @@ const badges = [
   'AI Optimization',
 ];
 
-const proofBadges = [
-  { label: 'Workflow Audit' },
-  { label: 'Automation Roadmap' },
-  { label: 'KPI Tracking' },
+const proofRows = [
+  {
+    badge: 'Workflow Audit',
+    means: 'Full review of current process',
+    outcome: 'Clear picture of where work stalls',
+  },
+  {
+    badge: 'Automation Roadmap',
+    means: 'Plan for where AI and tools fit',
+    outcome: 'Automation built on a mapped process',
+  },
+  {
+    badge: 'KPI Tracking',
+    means: 'Defined success metrics',
+    outcome: 'Measurable proof the change worked',
+  },
 ];
 
 const diagramNodes = [
@@ -80,7 +92,7 @@ export default function WorkflowOptimizationHero() {
           <h1
             style={{
               fontFamily: 'Playfair Display, serif',
-              fontSize: 'clamp(36px, 4.5vw, 54px)',
+              fontSize: 'clamp(36px, 4.5vw, 50px)',
               fontWeight: 700,
               color: '#FFFFFF',
               lineHeight: 1.15,
@@ -113,10 +125,10 @@ export default function WorkflowOptimizationHero() {
               marginBottom: '36px',
             }}
           >
-            ThePrimeCrafters helps businesses map current workflows, remove friction, improve ownership, and prepare processes for automation and AI systems — so teams move work faster with fewer manual steps.
+            Most operational slowdowns are not caused by a lack of tools. They are caused by workflows that were never properly mapped, handoffs that depend on memory, and ownership that was never made clear. The Prime Crafters helps businesses map their current workflows, remove friction at every handoff, clarify ownership, and prepare the process for automation and AI so teams can move work faster with fewer manual steps.
           </p>
 
-          {/* H3 Badge row */}
+          {/* Badge row */}
           <div
             style={{
               display: 'flex',
@@ -280,34 +292,87 @@ export default function WorkflowOptimizationHero() {
         </div>
       </div>
 
-      {/* Proof badges below hero */}
+      {/* Proof table below hero */}
       <div
         style={{
           maxWidth: '1200px',
           margin: '56px auto 0',
-          display: 'flex',
-          gap: '20px',
-          justifyContent: 'flex-start',
-          flexWrap: 'wrap',
+          border: '1px solid rgba(201,168,76,0.3)',
+          borderRadius: '12px',
+          overflow: 'hidden',
         }}
       >
-        {proofBadges.map((b) => (
-          <div
-            key={b.label}
-            style={{
-              fontFamily: 'DM Sans, sans-serif',
-              fontSize: '13px',
-              fontWeight: 500,
-              color: '#C9A84C',
-              background: 'rgba(201,168,76,0.08)',
-              border: '1px solid rgba(201,168,76,0.25)',
-              borderRadius: '8px',
-              padding: '10px 20px',
-            }}
-          >
-            ✓ {b.label}
-          </div>
-        ))}
+        <table
+          style={{
+            width: '100%',
+            borderCollapse: 'collapse',
+            fontFamily: 'DM Sans, sans-serif',
+          }}
+        >
+          <thead>
+            <tr style={{ background: '#1a1a1a' }}>
+              {['Badge', 'What It Means', 'Outcome'].map((h) => (
+                <th
+                  key={h}
+                  style={{
+                    padding: '14px 20px',
+                    textAlign: 'left',
+                    fontSize: '13px',
+                    fontWeight: 700,
+                    color: '#FFFFFF',
+                    letterSpacing: '0.02em',
+                    borderBottom: '1px solid rgba(201,168,76,0.2)',
+                  }}
+                >
+                  {h}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {proofRows.map((row, i) => (
+              <tr
+                key={row.badge}
+                style={{
+                  background: i % 2 === 0 ? 'rgba(255,255,255,0.02)' : 'rgba(255,255,255,0.04)',
+                  borderBottom:
+                    i < proofRows.length - 1
+                      ? '1px solid rgba(255,255,255,0.05)'
+                      : 'none',
+                }}
+              >
+                <td
+                  style={{
+                    padding: '16px 20px',
+                    fontSize: '14px',
+                    fontWeight: 500,
+                    color: '#C9A84C',
+                  }}
+                >
+                  {row.badge}
+                </td>
+                <td
+                  style={{
+                    padding: '16px 20px',
+                    fontSize: '14px',
+                    color: '#A0A0A0',
+                  }}
+                >
+                  {row.means}
+                </td>
+                <td
+                  style={{
+                    padding: '16px 20px',
+                    fontSize: '14px',
+                    color: '#A0A0A0',
+                  }}
+                >
+                  {row.outcome}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
       </div>
     </section>
   );

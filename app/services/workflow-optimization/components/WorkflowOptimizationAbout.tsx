@@ -8,6 +8,7 @@ const serviceEntities = [
   { label: 'Process Automation', href: '/services/process-automation' },
   { label: 'AI Integration', href: '/services/ai-integration' },
   { label: 'Custom AI Systems', href: '/services/custom-ai-solutions' },
+  { label: 'CRM Workflows', href: '/services/ai-integration' },
 ];
 
 const workflowEntities = [
@@ -17,6 +18,7 @@ const workflowEntities = [
   { label: 'Approval Workflows', href: '/services/workflow-optimization' },
   { label: 'Reporting Workflows', href: '/services/workflow-optimization' },
   { label: 'CRM Workflows', href: '/services/ai-integration' },
+  { label: 'Service Business Workflows', href: '/services/workflow-optimization' },
 ];
 
 const teamEntities = [
@@ -112,7 +114,7 @@ export default function WorkflowOptimizationAbout() {
             margin: '0 auto 56px',
           }}
         >
-          ThePrimeCrafters is a workflow optimization agency that maps, redesigns, and improves business processes across sales, support, operations, lead generation, admin, CRM, approval, and reporting workflows. Work spans workflow audits, process mapping, bottleneck analysis, automation roadmaps, AI opportunity mapping, tool alignment, documentation, KPI tracking, and post-launch improvement — all built around how your business actually operates, not a generic template.
+          ThePrimeCrafters is a workflow optimization agency that maps, redesigns, and improves business processes across sales, support, operations, lead generation, admin, CRM, approval, and reporting workflows. Work spans workflow audits, process mapping, bottleneck analysis, automation roadmaps, AI opportunity mapping, tool alignment, documentation, KPI tracking, and post launch improvement, all built around how a business actually operates rather than a generic template.
         </p>
 
         {/* Two entity panels */}
@@ -244,12 +246,7 @@ export default function WorkflowOptimizationAbout() {
             </div>
 
             {/* Divider */}
-            <div
-              style={{
-                height: '1px',
-                background: 'rgba(255,255,255,0.06)',
-              }}
-            />
+            <div style={{ height: '1px', background: 'rgba(255,255,255,0.06)' }} />
 
             {/* Team entities */}
             <div>

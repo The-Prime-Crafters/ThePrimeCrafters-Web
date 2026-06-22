@@ -8,7 +8,7 @@ const layers = [
     step: 'Step 1',
     label: 'Inputs',
     h3: 'Requests, Leads, Calls, Forms, Tickets, and Internal Tasks',
-    body: 'Every optimised workflow starts with a clear input layer — defining where work comes from, what triggers the process, and how each source is captured and routed into the right workflow path from the start.',
+    body: 'Every optimised workflow starts with a clearly defined input layer. This means knowing exactly where work originates, what triggers the process to begin, and how each source gets captured and routed into the correct workflow path from the very first moment it appears, rather than waiting for someone to notice it and act.',
     chips: [
       'Web Forms',
       'Inbound Leads',
@@ -25,7 +25,7 @@ const layers = [
     step: 'Step 2',
     label: 'Workflow Logic',
     h3: 'Rules, Ownership, Priority, Timing, and Exceptions',
-    body: 'Optimised workflows define who owns each step, what happens next, what gets escalated, when reminders fire, and how exceptions are handled — so work moves without waiting on someone to remember the next step.',
+    body: 'This is the layer that decides what happens to each input. Optimised workflows define who owns each step, what action follows next, what gets escalated and to whom, when reminders fire, and how exceptions are handled when something does not fit the standard path. Without this layer clearly defined, even the best tools cannot produce consistent results.',
     chips: [
       'Ownership Rules',
       'Priority Scoring',
@@ -43,7 +43,7 @@ const layers = [
     step: 'Step 3',
     label: 'AI Support',
     h3: 'Summaries, Routing, Drafts, Scores, and Recommendations',
-    body: 'AI acts as a support layer inside the optimised workflow — summarising conversations, classifying requests, scoring leads, drafting responses, recommending actions, and routing work based on the clear logic designed in the previous layer.',
+    body: 'AI operates as a support layer inside the workflow rather than as a replacement for the logic that governs it. It summarises conversations, classifies incoming requests, scores leads, drafts initial responses, recommends next actions, and routes work according to the rules defined in the logic layer above it. AI becomes useful precisely because the workflow logic around it is already clear.',
     chips: [
       'AI Summaries',
       'Smart Routing',
@@ -61,7 +61,7 @@ const layers = [
     step: 'Step 4',
     label: 'Outputs',
     h3: 'Tasks, Updates, Alerts, Approvals, and Reports',
-    body: 'Every optimised workflow produces clear, useful outputs — tasks created in the right system, records updated accurately, alerts sent to the right people, approvals requested where needed, dashboards refreshed, and reports generated without manual compilation.',
+    body: 'The final layer is what the workflow actually produces. A well designed workflow generates tasks created in the right system, records updated accurately without manual entry, alerts sent to the right people at the right time, approvals requested exactly when needed, dashboards refreshed automatically, and reports generated without anyone compiling them by hand.',
     chips: [
       'Tasks Created',
       'CRM Updated',
@@ -115,7 +115,7 @@ export default function WorkflowOptimizationFramework() {
             textAlign: 'center',
           }}
         >
-          Optimization Framework
+          The Framework
         </p>
 
         {/* H2 */}
@@ -141,11 +141,11 @@ export default function WorkflowOptimizationFramework() {
             color: '#888888',
             lineHeight: 1.75,
             textAlign: 'center',
-            maxWidth: '600px',
+            maxWidth: '680px',
             margin: '0 auto 72px',
           }}
         >
-          Inputs trigger workflow logic. Logic directs AI support. AI support drives outputs. Outputs feed back into continuous improvement. Each layer connects to the next as one clear operating system.
+          A well optimised workflow behaves like a system rather than a series of disconnected steps. Inputs trigger clear workflow logic, that logic directs where AI support is applied, AI support drives outputs, and those outputs feed directly into a continuous improvement loop. Each layer connects to the next so daily work runs predictably instead of depending on memory and good intentions.
         </p>
 
         {/* Framework flow */}

@@ -5,12 +5,13 @@ import { useState } from 'react';
 import Link from 'next/link';
 
 const whoNeedsChecklist = [
-  'Teams with repeated manual tasks and unclear ownership',
-  'Businesses with slow approvals and messy handoffs between people',
-  'Operations dealing with tool overload and missed follow-ups',
-  'Companies with automation ideas but no clear process to build on',
-  'Anyone with reporting gaps or visibility issues across workflows',
-  'Businesses that want AI but need their processes mapped first',
+  'Your team repeats the same manual tasks every day with no clear plan to remove them',
+  'Ownership of tasks, leads, or tickets is unclear and work falls through the cracks',
+  'Approvals stall because no one is sure who is supposed to act next',
+  'Your tools do not talk to each other and data has to be copied manually between them',
+  'Follow ups get missed because nothing reminds anyone to send them',
+  'You have automation or AI ideas but no clear process to plug them into',
+  'Leadership has limited visibility into where work is actually stuck',
 ];
 
 const scopeSteps = [
@@ -22,27 +23,27 @@ const scopeSteps = [
   {
     num: '02',
     title: 'Process Mapping',
-    body: 'Document every step, owner, system, status, and decision point across your key workflows.',
+    body: 'Document every step, owner, system, status, and decision point across the key workflows being optimised.',
   },
   {
     num: '03',
     title: 'Bottleneck Analysis',
-    body: 'Identify where work stalls, ownership breaks down, data gets lost, and manual effort is highest.',
+    body: 'Identify exactly where work stalls, where ownership breaks down, where data gets lost, and where manual effort is highest.',
   },
   {
     num: '04',
     title: 'Automation Roadmap',
-    body: 'Plan which steps to automate, which need AI support, which stay human-reviewed, and in what order.',
+    body: 'Plan which steps should be automated, which need AI support, which stay human reviewed, and in what order to build them.',
   },
   {
     num: '05',
     title: 'AI Opportunity Mapping',
-    body: 'Identify where AI can classify, summarise, score, route, or draft within the optimised workflow.',
+    body: 'Identify where AI can classify, summarise, score, route, or draft within the optimised workflow without removing human oversight where it matters.',
   },
   {
     num: '06',
     title: 'KPI Tracking and Improvement',
-    body: 'Define success metrics, track post-launch performance, and refine workflows based on real usage data.',
+    body: 'Define success metrics before launch, track post launch performance against them, and refine the workflow based on real usage data.',
   },
 ];
 
@@ -100,13 +101,27 @@ export default function WorkflowOptimizationService() {
             lineHeight: 1.2,
             textAlign: 'center',
             maxWidth: '760px',
-            margin: '0 auto 56px',
+            margin: '0 auto 20px',
           }}
         >
           Workflow Optimization Built Around How Your Team Actually Works
         </h2>
 
-        {/* Two-column: accordions left, scope right */}
+        <p
+          style={{
+            fontFamily: 'DM Sans, sans-serif',
+            fontSize: '16px',
+            color: '#888888',
+            lineHeight: 1.75,
+            textAlign: 'center',
+            maxWidth: '680px',
+            margin: '0 auto 56px',
+          }}
+        >
+          The Prime Crafters audits how work actually moves through your business, maps every handoff and decision point, identifies where bottlenecks are hiding, and designs a workflow that is ready for automation and AI before any tool gets built. The goal is not a process diagram that sits in a folder. It is a working operating system your team actually uses.
+        </p>
+
+        {/* Two-column: accordions left, scope table right */}
         <div
           style={{
             display: 'grid',
@@ -178,7 +193,7 @@ export default function WorkflowOptimizationService() {
                       margin: 0,
                     }}
                   >
-                    AI workflow optimization improves business processes through workflow mapping, automation planning, AI support, data visibility, and continuous measurement — so teams move work faster with fewer manual steps. It starts with how work actually moves today, identifies friction and bottlenecks, and designs a clear operating process before any automation or AI tool is added.
+                    AI workflow optimization is the practice of improving how work moves through a business by mapping current processes, identifying bottlenecks, designing clear ownership and routing logic, and introducing AI support where it adds real value. It combines workflow mapping, automation planning, AI assisted steps such as summarising and routing, and continuous measurement so teams complete the same work with fewer manual steps and less wasted time. Unlike simply buying new software, workflow optimization starts with the process itself and only adds tools once the logic is clear.
                   </p>
                 </div>
               )}
@@ -305,76 +320,108 @@ export default function WorkflowOptimizationService() {
             </Link>
           </div>
 
-          {/* Right: 6-step scope list */}
+          {/* Right: scope table */}
           <div>
-            <p
+            <h3
               style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontSize: '12px',
-                fontWeight: 600,
-                letterSpacing: '2px',
-                textTransform: 'uppercase',
-                color: '#C9A84C',
-                marginBottom: '24px',
+                fontFamily: 'Playfair Display, serif',
+                fontSize: '20px',
+                fontWeight: 700,
+                color: '#FFFFFF',
+                marginBottom: '12px',
               }}
             >
               What ThePrimeCrafters Handles
+            </h3>
+            <p
+              style={{
+                fontFamily: 'DM Sans, sans-serif',
+                fontSize: '14px',
+                color: '#777777',
+                lineHeight: 1.7,
+                marginBottom: '24px',
+              }}
+            >
+              Every engagement covers the full path from audit to ongoing improvement:
             </p>
 
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
-              {scopeSteps.map((step, i) => (
-                <div
-                  key={step.num}
-                  style={{
-                    display: 'flex',
-                    gap: '20px',
-                    alignItems: 'flex-start',
-                    padding: '20px 0',
-                    borderBottom:
-                      i < scopeSteps.length - 1
-                        ? '1px solid rgba(255,255,255,0.06)'
-                        : 'none',
-                  }}
-                >
-                  <span
-                    style={{
-                      fontFamily: 'DM Sans, sans-serif',
-                      fontSize: '12px',
-                      fontWeight: 700,
-                      color: 'rgba(201,168,76,0.5)',
-                      letterSpacing: '1px',
-                      minWidth: '24px',
-                      paddingTop: '2px',
-                    }}
-                  >
-                    {step.num}
-                  </span>
-                  <div>
-                    <h3
+            <div
+              style={{
+                border: '1px solid rgba(201,168,76,0.2)',
+                borderRadius: '10px',
+                overflow: 'hidden',
+              }}
+            >
+              <table
+                style={{
+                  width: '100%',
+                  borderCollapse: 'collapse',
+                  fontFamily: 'DM Sans, sans-serif',
+                }}
+              >
+                <thead>
+                  <tr style={{ background: '#1a1a1a' }}>
+                    {['Phase', 'What We Do'].map((h) => (
+                      <th
+                        key={h}
+                        style={{
+                          padding: '13px 18px',
+                          textAlign: 'left',
+                          fontSize: '13px',
+                          fontWeight: 700,
+                          color: '#FFFFFF',
+                          letterSpacing: '0.02em',
+                          borderBottom: '1px solid rgba(201,168,76,0.2)',
+                        }}
+                      >
+                        {h}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {scopeSteps.map((step, i) => (
+                    <tr
+                      key={step.num}
                       style={{
-                        fontFamily: 'DM Sans, sans-serif',
-                        fontSize: '15px',
-                        fontWeight: 600,
-                        color: '#FFFFFF',
-                        margin: '0 0 6px',
+                        background:
+                          i % 2 === 0
+                            ? 'rgba(255,255,255,0.02)'
+                            : 'rgba(255,255,255,0.04)',
+                        borderBottom:
+                          i < scopeSteps.length - 1
+                            ? '1px solid rgba(255,255,255,0.05)'
+                            : 'none',
                       }}
                     >
-                      {step.title}
-                    </h3>
-                    <p
-                      style={{
-                        fontFamily: 'DM Sans, sans-serif',
-                        fontSize: '13px',
-                        color: '#777777',
-                        lineHeight: 1.7,
-                        margin: 0,
-                      }}
-                    >
-                      {step.body}
-                    </p>
-                  </div>
-                </div>
-              ))}
+                      <td
+                        style={{
+                          padding: '14px 18px',
+                          fontSize: '13px',
+                          fontWeight: 500,
+                          color: '#C9A84C',
+                          whiteSpace: 'nowrap',
+                          verticalAlign: 'top',
+                          borderRight: '1px solid rgba(255,255,255,0.06)',
+                        }}
+                      >
+                        {step.num}&nbsp;&nbsp;{step.title}
+                      </td>
+                      <td
+                        style={{
+                          padding: '14px 18px',
+                          fontSize: '13px',
+                          color: '#A0A0A0',
+                          lineHeight: 1.65,
+                          verticalAlign: 'top',
+                        }}
+                      >
+                        {step.body}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           </div>
         </div>

@@ -8,7 +8,7 @@ const useCases = [
     icon: '📈',
     label: 'Sales Teams',
     h3: 'Sales Teams',
-    body: 'Lead intake, qualification, CRM updates, call summaries, pipeline ownership, follow-up reminders, and sales handoffs — all mapped into a clear workflow so leads move from capture to close without manual chasing.',
+    body: 'Lead intake, qualification, CRM updates, call summaries, pipeline ownership, follow up reminders, and sales handoffs are all mapped into a single clear workflow so leads move from capture to close without manual chasing at every stage.',
     keywords: ['Sales Workflow Optimization', 'AI Sales Workflow'],
     href: '/case-study/lead-generation-tools',
   },
@@ -16,7 +16,7 @@ const useCases = [
     icon: '💬',
     label: 'Customer Support Teams',
     h3: 'Customer Support Teams',
-    body: 'Ticket intake, AI summaries, routing, escalation alerts, customer status updates, knowledge lookup, and follow-up tasks — designed so support teams spend less time on admin and more time resolving issues.',
+    body: 'Ticket intake, AI summaries, routing, escalation alerts, customer status updates, knowledge lookup, and follow up tasks are designed so support teams spend less time on admin and more time actually resolving customer issues.',
     keywords: ['Support Workflow Optimization', 'AI Support Workflow'],
     href: '/services/custom-ai-solutions',
   },
@@ -24,7 +24,7 @@ const useCases = [
     icon: '⚙️',
     label: 'Operations Teams',
     h3: 'Operations Teams',
-    body: 'Internal requests, admin tasks, approvals, resource handoffs, status updates, SOPs, reports, and recurring operations workflows — connected across departments without adding tool complexity.',
+    body: 'Internal requests, admin tasks, approvals, resource handoffs, status updates, SOPs, reports, and recurring operations workflows are connected across departments without adding more tool complexity to manage.',
     keywords: ['Operations Workflow Optimization', 'Workflow Automation'],
     href: '/services/process-automation',
   },
@@ -32,7 +32,7 @@ const useCases = [
     icon: '🎯',
     label: 'Marketing and Lead Generation',
     h3: 'Marketing and Lead Generation Teams',
-    body: 'Campaign handoffs, source tracking, lead enrichment, segmentation, scoring, outreach support, and CRM follow-up workflows — connecting marketing output directly into sales pipeline workflows.',
+    body: 'Campaign handoffs, source tracking, lead enrichment, segmentation, scoring, outreach support, and CRM follow up workflows are connected so marketing output flows directly into sales pipeline workflows without manual reconciliation.',
     keywords: ['Marketing Workflow Optimization', 'Lead Generation Workflow'],
     href: '/case-study/lead-generation-tools',
   },
@@ -40,7 +40,7 @@ const useCases = [
     icon: '⚕️',
     label: 'Healthcare and Clinic Admin',
     h3: 'Healthcare and Clinic Admin Teams',
-    body: 'Intake routing, scheduling support, admin status updates, internal documentation workflows, and follow-up coordination — scoped carefully to your clinic environment and operational context.',
+    body: 'Intake routing, scheduling support, admin status updates, internal documentation workflows, and follow up coordination are scoped carefully against the specific clinic environment and operational context of each client.',
     keywords: ['Clinic Workflow Optimization', 'Healthcare Admin Workflow'],
     href: '/case-study/lmn8-ketamine-therapy',
     note: 'Healthcare workflows are scoped carefully against your specific environment.',
@@ -49,7 +49,7 @@ const useCases = [
     icon: '🏪',
     label: 'Service Businesses',
     h3: 'Service Businesses',
-    body: 'Call handling, booking workflows, quote requests, customer notes, reminders, follow-ups, and review request workflows — keeping service operations connected from first contact through job completion.',
+    body: 'Call handling, booking workflows, quote requests, customer notes, reminders, follow ups, and review request workflows are connected so service operations stay coordinated from first contact through job completion.',
     keywords: ['Service Business Workflow Optimization', 'Booking Workflow Automation'],
     href: '/case-study/rv-park-voice-agent',
   },
@@ -93,7 +93,7 @@ export default function WorkflowOptimizationUseCases() {
             textAlign: 'center',
           }}
         >
-          Use Cases
+          Who We Serve
         </p>
 
         {/* H2 */}
@@ -119,11 +119,11 @@ export default function WorkflowOptimizationUseCases() {
             color: '#888888',
             lineHeight: 1.75,
             textAlign: 'center',
-            maxWidth: '560px',
+            maxWidth: '620px',
             margin: '0 auto 56px',
           }}
         >
-          Find the workflow improvements most relevant to your team and see how optimization removes manual work while keeping control where it matters.
+          Workflow optimization delivers different value depending on where it is applied. Find the team context most relevant to your operation and see the specific improvements The Prime Crafters builds for it.
         </p>
 
         {/* Cards grid */}
@@ -160,13 +160,7 @@ export default function WorkflowOptimizationUseCases() {
               }}
             >
               {/* Icon + label row */}
-              <div
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '12px',
-                }}
-              >
+              <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
                 <div
                   style={{
                     width: '44px',

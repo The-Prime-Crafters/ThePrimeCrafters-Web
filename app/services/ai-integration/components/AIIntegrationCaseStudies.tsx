@@ -1,58 +1,53 @@
-// components/services/ai-integration/AIIntegrationCaseStudies.tsx
 'use client';
 
 import Link from 'next/link';
 
 const caseStudies = [
   {
-    category: 'Lead Generation Integration',
-    h3: 'AI Lead Generation Tools',
-    body: 'We built multi-channel lead gathering and filtering tools that extract data, run automated validation checks, score prospects, and feed polished contacts straight into Salesforce and HubSpot CRM platforms—reducing manual sales prospecting time by 90% ',
-    metric: '50K+',
-    metricLabel: 'qualified leads per month',
-    keywords: ['AI Lead Generation Integration', 'CRM Automation Case Study'],
-    href: '/case-study/lead-generation-tools',
-    angle: 'sales automation angle',
-  },
-  {
-    category: 'Sales Workflow Integration',
+    category: 'Sales Voice Agent',
     h3: 'Spectrum AI Voice Agent',
-    body: 'Our engineers designed a scalable sales voice system capable of handling 10K+ monthly client interactions. The tool runs instant call pre-screening, updates CRM deal pipelines, logs structured text summaries, and routes high-intent opportunities to sales representatives—slashing costs by 70% and boosting conversion rates by 45%.',
+    body: 'Voice calls, lead qualification, call summaries, routing, and CRM support. 10K+ monthly interactions handled automatically. Costs reduced by 70%, conversion rates up 45%.',
     metric: '10K+',
     metricLabel: 'AI-handled calls per month',
-    keywords: ['AI Voice Agent Integration', 'Sales Workflow Integration'],
+    keywords: ['AI Voice Agent Case Study', 'Sales Voice Agent'],
     href: '/case-study/spectrum-voice-agent',
-    angle: 'sales automation angle',
   },
   {
-    category: 'Booking & Service Integration',
+    category: 'Booking Agent',
     h3: 'RV Park AI Voice Agent',
-    body: 'We built an automated telephone assistant that connects directly with digital reservation engines and property management databases. The agent manages inbound call volume, answers pricing and policy questions, schedules guest stays, and updates availability logs—saving administrative staff over 30 hours every single week.',
+    body: 'Call answering, booking workflows, FAQs, reminders, and customer updates. 100% call answer rate. Saves administrative staff over 30 hours every week.',
     metric: '100%',
     metricLabel: 'call answer rate',
-    keywords: ['Booking Integration Case Study', 'AI Phone Agent Integration'],
+    keywords: ['Booking AI Agent Case Study', 'AI Phone Agent'],
     href: '/case-study/rv-park-voice-agent',
-    angle: 'service business integration',
   },
   {
-    category: 'Healthcare Admin Integration',
+    category: 'Lead Agent',
+    h3: 'AI Lead Generation Tools',
+    body: 'Lead gathering, filtering, validation, scoring, outreach, and CRM handoff. 50K+ qualified leads per month delivered into Salesforce and HubSpot.',
+    metric: '50K+',
+    metricLabel: 'qualified leads per month',
+    keywords: ['AI Lead Generation Agent', 'CRM Automation Case Study'],
+    href: '/case-study/lead-generation-tools',
+  },
+  {
+    category: 'Healthcare Admin',
     h3: 'lmn8 Ketamine Therapy AI Platform',
-    body: 'Our developers built a specialized screening platform that matches clinical patients to treatment centers. The setup handles safe intake collection, analyzes medical forms, and synchronizes records with healthcare database systems—delivering a 94% screening match accuracy.',
+    body: 'Intake support, patient clinic matching, scheduling support, and healthcare admin workflow connection. 94% screening match accuracy.',
     metric: '65%',
     metricLabel: 'faster patient intake',
-    keywords: ['Healthcare Workflow Integration', 'Clinic Admin Case Study'],
+    keywords: ['Healthcare AI Agent Case Study', 'Clinic Admin Automation'],
     href: '/case-study/lmn8-ketamine-therapy',
     note: 'Healthcare claims kept specific to scoped environment.',
   },
   {
-    category: 'Custom Platform Integration',
+    category: 'Custom AI Platform',
     h3: '3vltn Domain AI Platform',
-    body: 'We engineered a custom marketplace outreach setup that automates email conversations, checks asset pricing data, and manages sales follow-ups for digital domain portfolios—creating smooth workflows.',
+    body: 'Email agent workflow, automated campaigns, pricing support, deal workflows, and connected system logic. 250% increase in deal closure rate.',
     metric: '+250%',
     metricLabel: 'deal closure rate',
-    keywords: ['Custom AI Platform Integration', 'Custom API Integration Case Study'],
+    keywords: ['Custom AI Agent Platform', 'Workflow Agent Case Study'],
     href: '/case-study/3vltn',
-    angle: 'custom API and platform angle',
   },
 ];
 
@@ -125,7 +120,7 @@ export default function AIIntegrationCaseStudies() {
             margin: '0 auto 16px',
           }}
         >
-          AI Integrations and Connected Systems We've Built
+          AI Agent Case Studies and Custom AI Agent Examples
         </h2>
 
         <p
@@ -139,7 +134,7 @@ export default function AIIntegrationCaseStudies() {
             margin: '0 auto 56px',
           }}
         >
-          Real integration projects with measurable outcomes across lead generation, sales workflows, booking automation, healthcare admin, and custom platform builds.
+          Real AI agent projects with measurable outcomes across sales calls, booking automation, lead generation, healthcare admin, and custom platform builds.
         </p>
 
         {/* Top 3 cards */}

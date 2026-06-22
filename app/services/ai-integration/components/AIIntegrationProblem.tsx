@@ -5,28 +5,28 @@ import Link from 'next/link';
 
 const problems = [
   {
-    icon: '🔌',
-    h3: 'AI Tools Sit Outside Daily Workflows',
-    body: 'When intelligence stays locked behind separate web interfaces, chat frames, or standalone applications, it fails to optimize your business operations. True value is squandered when employees spend hours manually copy-pasting data out of isolated AI windows, downloading raw text files, or transferring AI-generated insights into corporate platforms instead of completing revenue-generating work.',
-    href: '/services/custom-ai-solutions',
-  },
-  {
-    icon: '📋',
-    h3: 'Teams Still Copy Data Between Systems',
-    body: 'Without architectural integration, manual data handling spikes dramatically. Personnel find themselves transcribing raw data from consumer forms into CRM frameworks, manually pasting automated phone and meeting records, reconciling spreadsheets, setting calendar markers, and creating support tickets from scratch—reverting high-tech tools back into tedious manual jobs.',
-    href: '/services/process-automation',
-  },
-  {
-    icon: '🔄',
-    h3: 'Customer and Lead Data Gets Out of Sync',
-    body: 'Disconnected communication links result in fragmented databases and duplicate CRM logs. Prospects who show deep engagement are frequently lost due to delayed notifications, sales pipelines display obsolete deal categories, and client-facing accounts are left unoptimized, meaning marketing and client support personnel operate with conflicting and incomplete datasets.',
+    icon: '⚡',
+    h3: 'Delayed Responses Reduce Conversion',
+    body: 'Prospects expect quick answers, qualification, and next steps. Every hour a lead waits is an opportunity for a competitor to respond first. AI agents qualify and respond immediately, any time of day, any day of the week.',
     href: '/case-study/lead-generation-tools',
   },
   {
+    icon: '🔁',
+    h3: 'Staff Time Lost to Repetitive Tasks',
+    body: 'Answering FAQs, collecting intake details, checking availability, sending reminders, updating tickets, and logging notes, repeated manually every day by staff whose time is better spent on work that actually needs human judgment.',
+    href: '/services/process-automation',
+  },
+  {
+    icon: '🔌',
+    h3: 'AI Without Integration Creates No Real Value',
+    body: 'AI agents only create real value when conversations produce clean records, tasks, bookings, summaries, and follow ups inside business tools. An isolated chat window that does not write to the CRM, create a task, or trigger a next step is not an agent — it is a more expensive FAQ page.',
+    href: '/services/ai-integration',
+  },
+  {
     icon: '⚠️',
-    h3: 'Basic Connectors Break When Logic Gets Complex',
-    body: 'Simple out-of-the-box automation bridges fail when hit with intricate real-world business dependencies. True business-level AI execution requires sophisticated multi-step field mapping, custom API webhooks, condition checking, smart exception management, role-based authorization, multi-layered data validation, and clean manual oversight checkpoints.',
-    href: '/services/workflow-optimization',
+    h3: 'Prebuilt Bots Fail Outside Scripted Paths',
+    body: 'Real agents need scripts, business rules, escalation paths, approval gates, tool access, testing, and clear boundaries. Prebuilt bots fail the moment a conversation goes beyond a simple FAQ.',
+    href: '/services/custom-ai-solutions',
   },
 ];
 
@@ -84,7 +84,7 @@ export default function AIIntegrationProblem() {
             margin: '0 auto 20px',
           }}
         >
-          Disconnected Tools Keep AI From Creating Real Business Value
+          Missed Calls, Slow Follow Up, and Repetitive Tasks All Have the Same Fix
         </h2>
 
         <p
@@ -98,7 +98,7 @@ export default function AIIntegrationProblem() {
             margin: '0 auto 56px',
           }}
         >
-          Deploying cutting-edge AI technologies inside a silo creates operational dead ends. When artificial intelligence remains isolated from your functional infrastructure, your business handles costly workflow integration gaps, manual data entry, and fragmented operations.
+          Missed calls, slow lead follow up, repeated support questions, manual CRM updates, scheduling delays, and staff spending time on routine tasks all share the same fix. Every one of these problems is a conversation or task that an AI agent can handle, faster, more consistently, and without adding headcount.
         </p>
 
         {/* Pain-point cards */}
@@ -179,7 +179,7 @@ export default function AIIntegrationProblem() {
           ))}
         </div>
 
-        {/* Contrast block: Basic connector vs AI Integration */}
+        {/* Contrast block: Basic Bot vs Custom AI Agent */}
         <div
           style={{
             display: 'grid',
@@ -191,13 +191,8 @@ export default function AIIntegrationProblem() {
             marginBottom: '56px',
           }}
         >
-          {/* Basic connector */}
-          <div
-            style={{
-              background: 'rgba(255,255,255,0.02)',
-              padding: '36px 32px',
-            }}
-          >
+          {/* Basic Bot */}
+          <div style={{ background: 'rgba(255,255,255,0.02)', padding: '36px 32px' }}>
             <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
@@ -209,45 +204,25 @@ export default function AIIntegrationProblem() {
                 marginBottom: '20px',
               }}
             >
-              Basic Connector
+              Basic Bot
             </p>
             {[
-              'Simple if/then triggers',
-              'Breaks with exceptions',
-              'No AI decision logic',
-              'Limited integration depth',
+              'Keyword triggers only',
+              'Breaks outside scripted paths',
+              'No CRM or tool connections',
+              'No escalation or fallback logic',
             ].map((item) => (
-              <div
-                key={item}
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '10px',
-                  marginBottom: '12px',
-                }}
-              >
+              <div key={item} style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '12px' }}>
                 <span style={{ color: '#555555', fontSize: '14px' }}>✕</span>
-                <span
-                  style={{
-                    fontFamily: 'DM Sans, sans-serif',
-                    fontSize: '14px',
-                    color: '#666666',
-                  }}
-                >
+                <span style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '14px', color: '#666666' }}>
                   {item}
                 </span>
               </div>
             ))}
           </div>
 
-          {/* AI Integration */}
-          <div
-            style={{
-              background: 'rgba(201,168,76,0.05)',
-              padding: '36px 32px',
-              borderLeft: '1px solid rgba(201,168,76,0.2)',
-            }}
-          >
+          {/* Custom AI Agent */}
+          <div style={{ background: 'rgba(201,168,76,0.05)', padding: '36px 32px', borderLeft: '1px solid rgba(201,168,76,0.2)' }}>
             <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
@@ -259,31 +234,17 @@ export default function AIIntegrationProblem() {
                 marginBottom: '20px',
               }}
             >
-              AI Integration
+              Custom AI Agent (ThePrimeCrafters)
             </p>
             {[
-              'Maps real business workflows',
-              'Classifies, routes, and drafts with AI',
-              'Connects CRMs, forms, and internal tools',
-              'Supports human approvals where needed',
+              'Understands context and business intent',
+              'Handles complex multi turn conversations',
+              'Connected to CRMs, calendars, and APIs',
+              'Escalates correctly when limits are reached',
             ].map((item) => (
-              <div
-                key={item}
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '10px',
-                  marginBottom: '12px',
-                }}
-              >
+              <div key={item} style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '12px' }}>
                 <span style={{ color: '#C9A84C', fontSize: '14px' }}>✓</span>
-                <span
-                  style={{
-                    fontFamily: 'DM Sans, sans-serif',
-                    fontSize: '14px',
-                    color: '#CCCCCC',
-                  }}
-                >
+                <span style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '14px', color: '#CCCCCC' }}>
                   {item}
                 </span>
               </div>
@@ -307,7 +268,7 @@ export default function AIIntegrationProblem() {
               display: 'inline-block',
             }}
           >
-            Talk to an AI Integration Expert →
+            Talk to an AI Agent Expert →
           </Link>
         </div>
       </div>

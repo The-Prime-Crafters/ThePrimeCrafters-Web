@@ -1,4 +1,3 @@
-// components/services/ai-integration/AIIntegrationBenefits.tsx
 'use client';
 
 import Link from 'next/link';
@@ -6,49 +5,49 @@ import Link from 'next/link';
 const benefits = [
   {
     icon: '🔗',
-    h3: 'Keep Data Synced Across Business Systems',
-    body: 'Eliminate conflicting data entries. Our systems instantly update customer records, internal conversation logs, and operational databases across every single corporate application the moment new information hits your workflow.',
-    keywords: 'Data Sync Automation · Connected Business Systems',
-    href: '/services/process-automation',
+    h3: 'Respond to Leads and Customers Around the Clock',
+    body: 'AI agents answer, qualify, collect details, and trigger next steps when staff are unavailable, so no lead goes unresponded and no customer waits until business hours to get help.',
+    keywords: '24/7 AI Agents · Automated Customer Response',
+    href: '/contact',
     featured: false,
   },
   {
     icon: '⏱️',
-    h3: 'Reduce Manual Copying and Tool Switching',
-    body: 'Give your team hours of productive time back. By automating routine transcription, field transfers, and simple notifications between separate apps, your workforce can focus entirely on driving sales, solving client issues, and refining high-value operations.',
-    keywords: 'Reduce Manual Data Entry · Tool Switching Automation',
+    h3: 'Reduce Repetitive Admin and Support Work',
+    body: 'Move common questions, logging, summaries, follow ups, and routing away from human teams when judgment is not required, freeing staff to focus on complex work that actually needs them.',
+    keywords: 'Reduce Manual Support Work · Admin Automation',
     href: null,
     featured: false,
   },
   {
     icon: '🧠',
-    h3: 'Make AI Outputs Useful Inside Your Existing Workflow',
-    body: 'Move AI out of isolated windows and directly into daily operations. Our setups push automated insights, lead scores, communication drafts, and data summaries right into the software screens your staff already uses every day.',
-    keywords: 'AI Workflow Integration · AI Business Automation',
-    href: '/services/custom-ai-solutions',
+    h3: 'Improve Lead Qualification and Follow Up Speed',
+    body: 'Qualify prospects, score intent, notify the right team member, and start follow up without waiting on manual review, so the fastest response wins more business.',
+    keywords: 'Lead Qualification AI Agent · Lead Follow Up Automation',
+    href: '/case-study/lead-generation-tools',
     featured: true,
   },
   {
     icon: '⚡',
-    h3: 'Improve Lead Response and Customer Handoffs',
-    body: 'Speed up your business\'s response times. Our integrations instantly evaluate web forms, score opportunities, assign account owners, send team alerts, and launch immediate touchpoints without waiting on manual human routing.',
-    keywords: 'Lead Response Automation · Customer Handoff Automation',
-    href: '/case-study/lead-generation-tools',
+    h3: 'Keep Conversation Data Useful Inside Your Tools',
+    body: 'Log call and chat summaries, update CRM fields, create tasks, and keep customer records current after every interaction, without manual entry by the team member who handled it.',
+    keywords: 'AI Agent CRM Integration · Conversation Logging',
+    href: '/services/ai-integration',
     featured: false,
   },
   {
     icon: '📊',
-    h3: 'Create Better Reporting From Connected Data',
-    body: 'Gain complete visibility over your performance. By gathering operational metrics from separate automation steps, we feed live dashboards and alert logs that help management track process execution speed and resource allocation accuracy.',
-    keywords: 'AI Reporting Integration · Dashboard Automation',
-    href: null,
+    h3: 'Scale Customer Interactions Without Adding Headcount',
+    body: 'Handle higher call, chat, support, and booking volume while keeping human teams focused on complex work, so growth does not automatically mean more hiring.',
+    keywords: 'Scale Customer Support With AI · AI Agents for Operations',
+    href: '/services/process-automation',
     featured: false,
   },
   {
     icon: '📈',
-    h3: 'Scale AI Automation Without Replacing Your Tools',
-    body: 'Protect your software investments. Our engineers integrate advanced cognitive models directly into your current platform setup, preventing the need for costly data migrations or painful staff retraining programs.',
-    keywords: 'AI Automation Integration · Integrate AI With Existing Tools',
+    h3: 'Control Risk With Clear Rules, Escalation, and Review',
+    body: 'Keep humans in control for sensitive decisions with guardrails, review queues, fallback flows, and escalation rules, so agents operate within approved boundaries at all times.',
+    keywords: 'Safe AI Agents · Human Review AI Agent',
     href: '/contact',
     featured: false,
     isFinal: true,
@@ -124,7 +123,7 @@ export default function AIIntegrationBenefits() {
             margin: '0 auto 16px',
           }}
         >
-          Why Businesses Invest in AI Integration Services
+          Why Businesses Invest in AI Agent Development Services
         </h2>
 
         <p
@@ -138,7 +137,7 @@ export default function AIIntegrationBenefits() {
             margin: '0 auto 56px',
           }}
         >
-          Connecting your software stack with intelligent models transforms raw technical capability into measurable operational efficiency. Here are the core benefits driving business growth:
+          Faster response, less manual work, 24/7 coverage, cleaner records, better handoffs, and scalable customer operations, without proportionally growing the team.
         </p>
 
         {/* Benefits grid */}
@@ -348,7 +347,7 @@ export default function AIIntegrationBenefits() {
               display: 'inline-block',
             }}
           >
-            See Integration Results in Our Case Studies →
+            See AI Agent Results in Our Case Studies →
           </Link>
         </div>
       </div>

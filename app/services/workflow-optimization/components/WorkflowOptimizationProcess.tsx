@@ -9,14 +9,14 @@ const steps = [
     num: '1',
     title: 'Workflow Discovery and Bottleneck Audit',
     h3: '1. Workflow Discovery and Bottleneck Audit',
-    body: 'We start with your real business context — reviewing current workflows, tools, users, handoffs, repeated tasks, delays, exceptions, and business goals before recommending any change. Discovery gives us a complete picture of how work actually moves today, not how it is supposed to move on paper.',
+    body: 'We start with the real business context, reviewing current workflows, tools, users, handoffs, repeated tasks, delays, exceptions, and business goals before recommending any change. This gives us a complete picture of how work actually moves today rather than how it is supposed to move on paper.',
     tags: ['Workflow Audit', 'Bottleneck Audit', 'Workflow Discovery'],
   },
   {
     num: '2',
     title: 'Process Mapping and Priority Scoring',
     h3: '2. Process Mapping and Priority Scoring',
-    body: 'We map current steps, owners, systems, delays, and risk points across your key workflows — then score each improvement opportunity by effort, business value, and workflow volume to build a clear priority order before any redesign begins.',
+    body: 'We document every step, owner, system, status, and decision point across the key workflows being optimised. Improvement opportunities are then scored by effort, business value, and workflow volume so the highest friction handoffs get addressed first.',
     tags: ['Process Mapping', 'Workflow Prioritisation', 'Improvement Roadmap'],
     note: 'We fix high-friction handoffs first.',
   },
@@ -24,7 +24,7 @@ const steps = [
     num: '3',
     title: 'Automation and AI Opportunity Roadmap',
     h3: '3. Automation and AI Opportunity Roadmap',
-    body: 'We identify which tasks should be automated, which benefit from AI support, which need to stay human-reviewed, and which need to be redesigned entirely before any tool is built. The roadmap gives a clear sequence so automation is added into a clean process — not a broken one.',
+    body: 'With the current state mapped, we identify which tasks should be automated outright, which should be supported by AI while staying human reviewed, and which need to be redesigned entirely before any tool gets built. This roadmap prevents the common mistake of automating a step that should have been removed or restructured instead.',
     tags: ['AI Automation Roadmap', 'Workflow Automation Roadmap', 'AI Opportunity Mapping'],
     href: '/services/process-automation',
   },
@@ -32,7 +32,7 @@ const steps = [
     num: '4',
     title: 'Workflow Redesign and Tool Alignment',
     h3: '4. Workflow Redesign and Tool Alignment',
-    body: 'We define triggers, owners, statuses, data fields, tool handoffs, approval steps, exception paths, and reporting needs — then align these with your existing tools or identify where tool changes are needed. Every redesign is documented before build begins.',
+    body: 'We define the new triggers, owners, statuses, data fields, tool handoffs, approval steps, exception paths, and reporting requirements for the optimised workflow. The client reviews and approves the redesign before development begins.',
     tags: ['Workflow Redesign', 'Tool Alignment', 'Operating Workflow Design'],
     checklist: [
       'Trigger and input definition',
@@ -47,7 +47,7 @@ const steps = [
     num: '5',
     title: 'Build, Test, and Document Improvements',
     h3: '5. Build, Test, and Document Improvements',
-    body: 'We build or configure the required workflows, test edge cases, confirm data quality, validate handoffs, train users, and document the new process so teams can operate it confidently after launch. Testing covers the scenarios that break most workflow implementations.',
+    body: 'We build or configure the workflows required, test them against real edge cases, confirm data quality across every connected tool, train the users who will run the new process daily, and document the workflow clearly so it does not depend on institutional memory.',
     tags: ['Workflow Implementation', 'Automation Testing', 'SOP Documentation'],
     href: '/services/ai-integration',
   },
@@ -55,7 +55,7 @@ const steps = [
     num: '6',
     title: 'Launch, Monitor, and Improve',
     h3: '6. Launch, Monitor, and Improve',
-    body: 'We deploy the optimised workflow, monitor bottlenecks, review user feedback, improve rules and routing, and track performance against the KPIs agreed before launch. Post-launch improvement is built into the process — continuous refinement is how workflows stay effective as the business evolves.',
+    body: 'We deploy the optimised workflow, monitor for new bottlenecks, gather feedback from the team using it daily, refine routing and ownership rules as needed, and track performance against the KPIs defined at the start of the project.',
     tags: ['Workflow Monitoring', 'Workflow Optimization KPIs', 'Post-Launch Support'],
     href: '/contact',
     isFinal: true,
@@ -129,11 +129,11 @@ export default function WorkflowOptimizationProcess() {
             color: '#888888',
             lineHeight: 1.75,
             textAlign: 'center',
-            maxWidth: '580px',
+            maxWidth: '640px',
             margin: '0 auto 64px',
           }}
         >
-          Every workflow optimization project follows a structured six-step process — from discovery and bottleneck audit through launch, monitoring, and continuous improvement.
+          Every optimization project follows six structured steps from discovery through launch, monitoring, and continuous improvement. No step is skipped and no workflow goes live without testing and client review.
         </p>
 
         {/* Two-column: nav left, detail right */}
@@ -341,11 +341,7 @@ export default function WorkflowOptimizationProcess() {
                 {active.checklist.map((item) => (
                   <div
                     key={item}
-                    style={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      gap: '8px',
-                    }}
+                    style={{ display: 'flex', alignItems: 'center', gap: '8px' }}
                   >
                     <span style={{ color: '#C9A84C', fontSize: '13px', flexShrink: 0 }}>✓</span>
                     <span
@@ -425,7 +421,7 @@ export default function WorkflowOptimizationProcess() {
                     display: 'inline-block',
                   }}
                 >
-                  Book a Free Workflow Optimization Strategy Call →
+                  Start the Process →
                 </Link>
               </div>
             )}
@@ -484,4 +480,4 @@ export default function WorkflowOptimizationProcess() {
       </div>
     </section>
   );
-}
+} 

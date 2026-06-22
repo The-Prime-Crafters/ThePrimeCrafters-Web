@@ -7,56 +7,56 @@ const deliverables = [
   {
     icon: '📈',
     h3: 'Sales and Lead Handoff Workflows',
-    body: 'Improve lead capture, qualification, CRM updates, ownership, reminders, follow-up timing, and sales pipeline movement so leads never stall between capture and close.',
+    body: 'Leads stall when capture, qualification, and ownership are not clearly defined. The Prime Crafters improves how leads are captured, qualified, assigned an owner, updated in the CRM, and followed up on so that no lead sits untouched between the moment it arrives and the moment a rep engages with it. The pipeline keeps moving instead of accumulating gaps.',
     keywords: ['Sales Workflow Optimization', 'Lead Handoff Automation', 'CRM Workflow Optimization'],
     href: '/case-study/lead-generation-tools',
   },
   {
     icon: '💬',
     h3: 'Customer Support and Ticket Workflows',
-    body: 'Map support requests from chat, email, forms, voice agents, and tickets into clear routing, escalation paths, AI summaries, and status updates that keep teams and customers informed.',
+    body: 'Support requests arrive from chat, email, forms, voice agents, and ticketing systems, often with no consistent routing logic between channels. The Prime Crafters maps these requests into clear routing rules, escalation paths, AI generated summaries, and status updates so customers get faster answers and support teams are not manually triaging every incoming message.',
     keywords: ['Support Workflow Optimization', 'Ticket Routing Automation'],
     href: '/services/custom-ai-solutions',
   },
   {
     icon: '⚙️',
     h3: 'Operations and Admin Workflows',
-    body: 'Improve task routing, internal requests, approvals, reminders, scheduling, document handoffs, and operational reporting across departments without adding more tool complexity.',
+    body: 'Internal operations often rely on informal coordination that breaks down as teams grow. The Prime Crafters improves task routing, internal requests, approval chains, reminders, scheduling, document handoffs, and operational reporting so departments stay coordinated without anyone manually chasing the next step.',
     keywords: ['Operations Workflow Optimization', 'Admin Workflow Automation'],
     href: '/services/process-automation',
   },
   {
     icon: '✅',
     h3: 'Approval and Review Workflows',
-    body: 'Clarify approval owners, review stages, thresholds, reminders, escalation paths, and human-in-the-loop steps for sensitive actions — so decisions get made without chasing people.',
+    body: 'Approvals stall most often because ownership is unclear or because there is no reminder system to push a pending decision forward. The Prime Crafters clarifies approval owners, defines review stages and thresholds, builds in reminders and escalation paths, and keeps human in the loop steps in place for sensitive decisions while removing the manual chasing around them.',
     keywords: ['Approval Workflow Optimization', 'Human In The Loop Automation'],
     href: '/contact',
   },
   {
     icon: '📊',
     h3: 'Reporting and Dashboard Workflows',
-    body: 'Turn scattered updates and system activity into useful summaries, dashboards, alerts, and recurring performance reports that give teams and leadership real visibility.',
+    body: 'When system activity and status updates are scattered across tools, building a useful report becomes a manual research project every time. The Prime Crafters turns that scattered activity into automated summaries, live dashboards, threshold based alerts, and recurring performance reports so leadership and teams see what is happening without anyone compiling it by hand.',
     keywords: ['Workflow Reporting', 'Dashboard Automation', 'KPI Tracking'],
     href: '/case-studies',
   },
   {
     icon: '🔄',
     h3: 'CRM and Data Sync Workflows',
-    body: 'Improve how records, notes, stages, tasks, contacts, call summaries, and follow-ups move between tools — keeping CRM data accurate without manual entry at every step.',
+    body: 'CRM accuracy depends entirely on how reliably records, notes, stages, tasks, contacts, call summaries, and follow ups move between systems. The Prime Crafters improves these data flows so the CRM stays accurate without requiring manual entry at every step, giving sales and support teams a single source of truth they can actually trust.',
     keywords: ['CRM Workflow Optimization', 'Data Sync Automation', 'CRM Automation'],
     href: '/services/ai-integration',
   },
   {
     icon: '🎙️',
     h3: 'AI Agent and Chatbot Workflows',
-    body: 'Design workflows that connect AI voice agents and chatbots to lead records, tickets, summaries, scheduling, and team follow-ups so every conversation drives a clear next action.',
+    body: 'Voice agents and chatbots only deliver real value when their output connects cleanly into the rest of the business. The Prime Crafters designs the workflow around these AI agents, connecting call and chat outcomes to lead records, ticket systems, summaries, scheduling tools, and team follow up tasks so every conversation produces a clear next action instead of disappearing into a transcript no one reviews.',
     keywords: ['AI Agent Workflow', 'Chatbot Workflow Automation', 'Voice Agent Workflows'],
     href: '/case-study/spectrum-voice-agent',
   },
   {
     icon: '📚',
     h3: 'Internal Knowledge and SOP Workflows',
-    body: 'Make SOPs, documents, policies, project notes, and service information easier to find, update, and use inside daily workflows — so teams spend less time searching and more time acting.',
+    body: 'Teams waste real time searching for the right document, policy, or set of instructions buried somewhere in shared drives or old messages. The Prime Crafters improves how SOPs, documents, policies, project notes, and service information are organised, updated, and surfaced inside daily workflows, scoped carefully to what each team actually needs access to.',
     keywords: ['SOP Workflow Optimization', 'Knowledge Base Workflow', 'Internal AI Assistant'],
     href: '/services/custom-ai-solutions',
   },
@@ -126,11 +126,11 @@ export default function WorkflowOptimizationDeliverables() {
             color: '#888888',
             lineHeight: 1.75,
             textAlign: 'center',
-            maxWidth: '580px',
+            maxWidth: '620px',
             margin: '0 auto 56px',
           }}
         >
-          From lead handoffs to internal approvals — we map, redesign, and improve the workflows that slow teams down, with AI and automation added where they create the most value.
+          From lead handoffs to internal approvals, The Prime Crafters maps, redesigns, and improves the workflows that slow teams down most, adding AI and automation only where they create real value.
         </p>
 
         {/* Cards grid */}

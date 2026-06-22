@@ -93,7 +93,9 @@ export default function AIIntegrationAbout() {
             margin: '0 auto 56px',
           }}
         >
-          As a dedicated technology implementation partner, ThePrimeCrafters engineered a comprehensive suite of AI integration services designed to unlock the true value of modern artificial intelligence for enterprise operations. By bridging the critical technical gaps between generative models, custom APIs, structured databases, web capture tools, and core customer relationship managers, we turn isolated tools into unified automated ecosystems. Our workflows ensure your business systems communicate clearly, transfer data securely, and execute tasks without manual friction.
+         ThePrimeCrafters is an AI agent development agency that designs, builds, integrates, and improves custom AI agents for sales, support, operations, lead generation, booking, and internal workflows. Work spans AI voice agents, AI chat agents, CRM connected agents, workflow automation, and custom AI systems, all built around real business operations and connected to the tools your team already uses.
+        ThePrimeCrafters builds AI agents for inbound and outbound calls, website and WhatsApp chat, lead qualification and CRM sync, appointment booking and calendar management, customer support and ticket routing, and internal knowledge and operations workflows.
+
         </p>
 
         {/* Single card: service pills + target environments */}
@@ -161,6 +163,7 @@ export default function AIIntegrationAbout() {
               Target Environments Deployed:
             </span>{' '}
             Salesforce, HubSpot, GoHighLevel, SQL/PostgreSQL Clusters, Custom Internal Form Webhooks, RESTful API Node Infrastructures, Enterprise Communication Channels (Slack, Teams), Active Client Support Frameworks.
+            
           </p>
         </div>
 

@@ -1,4 +1,3 @@
-// components/services/ai-integration/AIIntegrationProcess.tsx
 'use client';
 
 import { useState } from 'react';
@@ -7,55 +6,55 @@ import Link from 'next/link';
 const steps = [
   {
     num: '1',
-    title: 'System and Workflow Audit',
-    h3: '1. System and Workflow Audit',
-    body: 'We review your current software stack, analyze data handling challenges, track active communication tools, map security profiles, and pinpoint the specific operational bottlenecks dragging down team productivity.',
-    tags: ['System Audit', 'Workflow Review', 'Integration Discovery'],
+    title: 'Discovery',
+    h3: '1. Discovery',
+    body: 'We start with your real business context, reviewing current call, chat, email, CRM, booking, support, and operations workflows before designing any agent. Discovery ensures every agent is built around how your business actually handles conversations and tasks today, not a generic template.',
+    tags: ['AI Agent Discovery', 'Workflow Audit', 'Conversation Mapping'],
   },
   {
     num: '2',
-    title: 'Integration Opportunity Mapping',
-    h3: '2. Integration Opportunity Mapping',
-    body: 'Our architects isolate your highest-value automation paths, defining clear project milestones based on manual effort reduction, execution accuracy, and immediate returns on your technology investment.',
-    tags: ['Integration Roadmap', 'AI Automation Roadmap', 'Priority Mapping'],
+    title: 'Opportunity Mapping',
+    h3: '2. Opportunity Mapping',
+    body: 'We identify and prioritize the conversations and tasks that save the most time, improve response speed, or protect revenue. Starting with high volume, repeatable workflows ensures the first agent delivers clear value before expanding scope.',
+    tags: ['AI Agent Roadmap', 'Automation Opportunity Mapping', 'Priority Mapping'],
     note: 'We connect high-impact handoffs first.',
   },
   {
     num: '3',
-    title: 'Data Flow and API Architecture',
-    h3: '3. Data Flow and API Architecture',
-    body: 'Before writing code, we diagram complete structural pathways—detailing field definitions, API webhooks, validation rules, token limits, and secure approval steps to ensure safe data handling.',
-    tags: ['API Architecture', 'Data Flow Mapping', 'Integration Design'],
+    title: 'Conversation Design',
+    h3: '3. Conversation Design',
+    body: 'Before any build begins, we define scripts, intents, fallback rules, escalation paths, knowledge sources, permissions, and success metrics. Clear guardrails at this stage prevent problems after launch.',
+    tags: ['AI Agent Prompt Design', 'AI Agent Guardrails', 'Conversation Design'],
   },
   {
     num: '4',
-    title: 'Build Connectors and Automation Logic',
-    h3: '4. Build Connectors and Automation Logic',
-    body: 'Our team writes high-performance integration code, deploys secure endpoints, maps your custom data objects, embeds defensive error handling, and builds intuitive user interfaces for human verification steps.',
-    tags: ['AI Connector Build', 'API Workflow Automation', 'Custom Integrations'],
+    title: 'Build and Integration',
+    h3: '4. Build and Integration',
+    body: 'We connect the agent with CRMs, calendars, forms, ticket tools, databases, communication tools, or custom APIs where required. Integration is built and tested as part of the core build, not added afterward.',
+    tags: ['AI Agent Integration', 'CRM AI Agent', 'API Connected AI Agent'],
     href: '/services/custom-ai-solutions',
   },
   {
     num: '5',
-    title: 'Test Data Quality, Permissions, and Edge Cases',
-    h3: '5. Test Data Quality, Permissions, and Edge Cases',
-    body: 'We run exhaustive quality checks under heavy processing loads—testing data schema mismatches, failed API sync responses, duplicate records, access boundary constraints, and network latency anomalies.',
-    tags: ['Integration Testing', 'Data Sync Testing', 'API Testing'],
+    title: 'Testing and QA',
+    h3: '5. Testing and QA',
+    body: 'We test real scenarios, wrong inputs, sensitive requests, failed tool calls, duplicate records, handoffs, and escalation logic before launch. The agent does not go live until it handles edge cases reliably.',
+    tags: ['AI Agent Testing', 'Agent QA', 'Conversation QA'],
     checklist: [
-      'Sample data validation',
-      'Failed sync simulation',
+      'Real scenario testing',
+      'Wrong input handling',
+      'Failed tool call checks',
       'Duplicate record handling',
-      'Permission and access testing',
-      'Latency and timeout checks',
-      'User handoff verification',
+      'Handoff verification',
+      'Escalation logic testing',
     ],
   },
   {
     num: '6',
-    title: 'Launch, Monitor, and Improve Sync',
-    h3: '6. Launch, Monitor, and Improve Sync',
-    body: 'We push your integrations live with complete monitoring setups, tracking real-world processing metrics and fine-tuning prompts to optimize system efficiency as your operations expand.',
-    tags: ['Integration Monitoring', 'Workflow Optimization', 'Post-Launch Support'],
+    title: 'Launch, Monitor, and Optimize',
+    h3: '6. Launch, Monitor, and Optimize',
+    body: 'We deploy the agent, monitor transcripts and logs, improve prompts and rules, refine knowledge, and adjust workflows based on real use. Agents improve over time, launch is the beginning, not the end.',
+    tags: ['AI Agent Monitoring', 'AI Agent Optimization', 'Post-Launch Support'],
     href: '/services/workflow-optimization',
     isFinal: true,
   },
@@ -133,7 +132,7 @@ export default function AIIntegrationProcess() {
             margin: '0 auto 64px',
           }}
         >
-          ThePrimeCrafters delivers rapid development backed by exhaustive quality assurance. Our six-step implementation framework moves projects safely from initial audit to continuous post-launch optimization:
+          Every AI agent project follows a structured six step process, from workflow discovery through launch, monitoring, and continuous improvement.
         </p>
 
         {/* Two-column layout: step nav left, detail right */}
@@ -429,7 +428,7 @@ export default function AIIntegrationProcess() {
                     display: 'inline-block',
                   }}
                 >
-                  Book a Free AI Integration Strategy Call →
+                  Book a Free AI Agent Strategy Call →
                 </Link>
               </div>
             )}

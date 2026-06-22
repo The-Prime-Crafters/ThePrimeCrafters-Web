@@ -3,66 +3,71 @@
 import { useState } from 'react';
 import Link from 'next/link';
 
-const faqs = [
+interface FAQItem {
+  q: string;
+  a: string;
+  href?: string;
+  linkLabel?: string;
+  href2?: string;
+  linkLabel2?: string;
+}
+
+const faqs: FAQItem[] = [
   {
-    q: 'What are AI integration services?',
-    a: 'AI integration services involve the custom software engineering, data structure alignment, and API link configuration required to connect modern artificial intelligence engines straight into an enterprise\'s current software stack. This enables smart models to read information, evaluate files, make decisions, and update records natively inside daily operational tools without requiring manual data transfer.',
+    q: 'What is an AI agent?',
+    a: 'AI agents are software systems that can understand requests, take approved actions, use tools, and complete multi step workflows, without a human handling each step manually. Unlike a basic chatbot that returns scripted replies, an AI agent can qualify a lead, update a CRM record, book an appointment, and send a confirmation in a single conversation.',
   },
   {
-    q: 'What systems can ThePrimeCrafters connect with AI?',
-    a: 'Our developers design custom connectors across your entire technological stack, including prominent CRMs (Salesforce, HubSpot, GoHighLevel), cloud database clusters (SQL, PostgreSQL, MongoDB), customer portals, communication layers (Slack, Outlook, Teams), and custom internal legacy software through secure API integrations.',
-    href: '/services',
-    linkLabel: 'View All Services →',
+    q: 'What are AI agent development services?',
+    a: 'AI agent development services cover the full process of building a custom AI agent for your business, scoping the use case, designing the conversation logic, integrating with your tools, testing edge cases, deploying, and improving performance over time. ThePrimeCrafters handles this end to end.',
   },
   {
-    q: 'Can AI integration connect with my CRM?',
-    a: 'Yes. We specialize in deep CRM connections that empower AI models to automatically create prospect files, adjust active pipeline categories based on phone summaries, record meeting transcripts, compute custom lead values, and prompt timely team follow-up sequences.',
-    href: '/case-study/lead-generation-tools',
-    linkLabel: 'See CRM Integration Case Study →',
+    q: 'What types of AI agents can ThePrimeCrafters build?',
+    a: 'Voice agents, chat agents, sales and lead qualification agents, booking agents, customer support and ticket routing agents, CRM and follow up agents, internal knowledge assistants, and reporting agents. Each is built for a specific business workflow and connected to the relevant tools.',
   },
   {
-    q: 'How is AI integration different from basic automation connectors?',
-    a: 'Basic out-of-the-box automation bridges simply move raw data fields from point A to point B. Our custom AI integrations embed a smart cognitive layer directly into your workflows — enabling the system to clean text, analyze sentiment, summarize files, check complex conditions, handle errors, and include human validation checkpoints for higher-risk tasks.',
+    q: 'How is an AI agent different from a basic chatbot?',
+    a: 'Basic chatbots return keyword matched responses from a fixed script. AI agents understand context, handle multi turn conversations, take real actions (updating CRMs, booking appointments, routing tickets), escalate appropriately, and operate within business defined rules and guardrails.',
   },
   {
-    q: 'Can ThePrimeCrafters integrate AI voice agents and chatbots with business tools?',
-    a: 'Absolutely. We bridge front-facing voice agents and conversational chatbots directly to your backend calendars, ticket desks, and client databases. This allows the AI to book appointments, look up support tickets, and update consumer profiles in real time during a call or chat session.',
+    q: 'Can AI agents integrate with my existing business tools?',
+    a: 'Yes. ThePrimeCrafters builds agents that integrate with CRMs, calendars, ticketing systems, forms, email platforms, Slack, WhatsApp, databases, and custom APIs. Integration is part of the core build, not an optional add on.',
+    href: '/services/ai-integration',
+    linkLabel: 'Explore AI Integration →',
+  },
+  {
+    q: 'Can an AI agent handle inbound phone calls and bookings?',
+    a: 'Yes. AI voice agents can answer inbound calls, qualify callers, collect booking details, check availability, create appointments in connected calendar systems, send confirmations, and route calls that need human attention, available 24 hours a day.',
     href: '/case-study/spectrum-voice-agent',
-    linkLabel: 'See Voice Agent Integration Case Study →',
+    linkLabel: 'See Voice Agent Case Study →',
   },
   {
-    q: 'What is the process for building an AI integration?',
-    a: 'We follow a structured six-step implementation framework: we start with an intensive workflow and systems audit, map out clear integration opportunities, plan data flows and API architecture, write custom integration code, perform exhaustive edge-case testing, and provide ongoing post-launch monitoring and adjustments.',
+    q: 'Can AI agents qualify leads and follow up automatically?',
+    a: 'Yes. Lead qualification agents can engage inbound leads immediately, ask screening questions, score intent, enrich CRM records, send alerts to sales reps, and trigger follow up sequences, all without waiting on a human to be available.',
+    href: '/case-study/lead-generation-tools',
+    linkLabel: 'See Lead Generation Case Study →',
   },
   {
-    q: 'Do AI integrations require replacing our existing software?',
-    a: 'No. Our core philosophy is to build around the systems you already use. We write secure middleware and link APIs to introduce modern intelligence into your existing platform setup, preserving your software investments and avoiding painful staff retraining.',
+    q: 'What is the process for building a custom AI agent?',
+    a: 'Six steps: workflow discovery, use case and ROI mapping, conversation design and knowledge setup, tool integration and build, testing and QA, then launch and ongoing optimization. Each step is structured to reduce risk and ensure the agent works in real conditions before going live.',
   },
   {
-    q: 'How long does an AI integration project take?',
-    a: 'Project timelines depend entirely on the complexity of your workflow and the open accessibility of your software stack. Simple connections using standard API links can go live in 2 to 4 weeks, while complex enterprise systems featuring legacy software adjustments typically span 6 to 12 weeks. We outline definitive timelines during our initial planning phase.',
+    q: 'Will AI agents replace my team?',
+    a: 'No. AI agents handle high volume, repetitive conversations and tasks that do not require human judgment, freeing staff to focus on complex work, relationship building, and decisions that actually need a person. They extend team capacity rather than replacing it.',
   },
   {
-    q: 'How much do AI integration services cost?',
-    a: 'Every implementation project is customized to reflect the number of software tools involved, data synchronization speeds, and custom logic requirements. We deliver transparent, fixed-price project blueprints after completing your initial system and workflow audit.',
+    q: 'Are AI agents safe for sensitive business workflows?',
+    a: 'When designed properly, yes. ThePrimeCrafters builds agents with defined guardrails, fallback rules, escalation paths, and human review gates for sensitive actions. Agents operate only within approved knowledge and permissions, with audit logs maintained throughout.',
+  },
+  {
+    q: 'How long does it take to build an AI agent?',
+    a: 'Timeline depends on the complexity of the workflow, number of integrations, and testing requirements. Straightforward agents with clear scope and a single integration can launch in a few weeks. More complex multi system agents take longer. Discovery and scoping clarifies the timeline before build begins.',
+  },
+  {
+    q: 'How much do AI agent development services cost?',
+    a: 'Cost depends on scope, complexity, integrations, and ongoing support requirements. ThePrimeCrafters scopes each project individually rather than applying fixed pricing. A strategy call is the best starting point to understand what your workflow needs and what a realistic investment looks like.',
     href: '/contact',
     linkLabel: 'Book a Free Strategy Call →',
-  },
-  {
-    q: 'Are AI integrations safe for sensitive business workflows?',
-    a: 'Yes, data security is our top priority. We implement enterprise-grade encryption layers, use secure OAuth authentication, restrict access based on user roles, and insert human approval gates for sensitive actions like financial updates or external communications.',
-  },
-  {
-    q: 'How do you measure whether an AI integration is working?',
-    a: 'We embed native tracking tools directly into your automated workflows. This allows you to monitor key metrics like manual data handling hours saved, drop-offs in process execution delays, synchronization accuracy rates, and overall workflow performance improvements through clear management dashboards.',
-  },
-  {
-    q: 'Why choose ThePrimeCrafters for AI integration services?',
-    a: 'We stand apart by combining deep business workflow mapping with rigorous software and API engineering. We focus on building secure, robust, and highly scalable solutions designed to solve real operational bottlenecks and drive measurable business growth.',
-    href: '/about-us',
-    linkLabel: 'About ThePrimeCrafters →',
-    href2: '/case-studies',
-    linkLabel2: 'View Case Studies →',
   },
 ];
 
@@ -160,7 +165,7 @@ export default function AIIntegrationFAQ() {
             marginBottom: '16px',
           }}
         >
-          AI Integration Services FAQs
+          AI Agent Development Services FAQs
         </h2>
 
         <p
@@ -174,7 +179,7 @@ export default function AIIntegrationFAQ() {
             margin: '0 auto 56px',
           }}
         >
-          Find precise technical answers to common questions about our AI integration engineering, architectural security protocols, and implementation processes.
+          Common questions about AI agents, how they work, what they connect to, and what to expect from a custom AI agent project.
         </p>
 
         {/* FAQ Accordion */}
@@ -365,7 +370,7 @@ export default function AIIntegrationFAQ() {
               display: 'inline-block',
             }}
           >
-            Book a Free AI Integration Strategy Call →
+            Book a Free AI Agent Strategy Call →
           </Link>
         </div>
       </div>

@@ -1,4 +1,3 @@
-// components/services/ai-integration/AIIntegrationArchitecture.tsx
 'use client';
 
 import Link from 'next/link';
@@ -6,18 +5,18 @@ import Link from 'next/link';
 const layers = [
   {
     step: 'Step 1',
-    label: 'Ingestion Layer (Inputs)',
-    h3: 'Forms, Calls, Chats, Files, Databases, and CRM Events',
-    body: 'Workflows kick off instantly based on real business actions or real-time webhooks. These entry nodes process user submission forms, inbound phone requests, live chat messaging, document uploads, backend data mutations, or automated pipeline updates within your customer relationship manager.',
+    label: 'Inputs',
+    h3: 'Triggers that start an agent workflow',
+    body: 'Every agent workflow starts with a clear input, an inbound call, website chat, form submission, email, CRM event, or file upload that triggers the agent to begin understanding the request and deciding what action to take.',
     chips: ['Web Forms', 'CRM Events', 'Inbound Calls', 'Chat Messages', 'File Uploads', 'Database Changes', 'Scheduled Pulls'],
     color: '#C9A84C',
     icon: '⚡',
   },
   {
     step: 'Step 2',
-    label: 'Cognitive Layer (AI Logic)',
-    h3: 'Classify, Summarise, Score, Route, and Draft',
-    body: 'The system passes the incoming information through a tailored intelligence hub. Rather than simply copying raw values, the AI runs deep text classification, extracts underlying sentiment markers, creates contextual data summaries, calculates internal routing values, and prepares production-ready responses according to set company guidelines.',
+    label: 'Knowledge & Logic',
+    h3: 'Approved content the agent operates within',
+    body: 'Agents operate within approved knowledge, scripts, product details, service rules, tone guidelines, escalation thresholds, and guardrails that define exactly what the agent can say, ask, and do before taking any action.',
     chips: ['Classify', 'Summarise', 'Score', 'Route', 'Draft', 'Extract', 'Prioritise'],
     color: '#E8C97A',
     icon: '🧠',
@@ -25,9 +24,9 @@ const layers = [
   },
   {
     step: 'Step 3',
-    label: 'Execution Layer (Outputs)',
-    h3: 'CRM Updates, Notifications, Reports, Tasks, and Approvals',
-    body: 'Once processed, the system formats the AI-generated insights and maps them into your underlying tools. This layer updates user records, creates follow-up calendar blocks, dispatches internal team alerts, updates financial spreadsheets, and generates operational project tickets across separate platforms.',
+    label: 'Actions',
+    h3: 'What the agent actually does',
+    body: 'Based on the input and approved logic, the agent takes specific actions, qualifying a lead, answering a question, booking an appointment, updating a CRM record, routing a ticket, drafting a reply, or generating a report.',
     chips: ['CRM Updated', 'Task Created', 'Ticket Routed', 'Report Generated', 'Alert Sent', 'Approval Requested'],
     color: '#C9A84C',
     icon: '🔗',
@@ -35,13 +34,13 @@ const layers = [
   },
   {
     step: 'Step 4',
-    label: 'Verification Layer (Human Review)',
-    h3: 'Human Review for Sensitive Actions',
-    body: 'To ensure high quality and absolute trust, higher-risk actions pass through human-in-the-loop review queues. Communication drafts, financial calculations, or external adjustments pause within a secure management dashboard for one-click approval, ensuring absolute human control over critical business decisions.',
+    label: 'Human Review',
+    h3: 'Where humans stay in control',
+    body: 'Not every action should be fully automated. Approval gates, fallback rules, escalation paths, permissions, and audit logs keep humans in control for sensitive decisions, so agents stay practical, trustworthy, and safe for real business operations.',
     chips: ['Approval Gates', 'Review Queues', 'Escalation Rules', 'Permission Controls', 'Audit Logs'],
     color: '#E8C97A',
     icon: '✅',
-    href: '/services/process-automation',
+    href: '/contact',
     trust: true,
   },
 ];
@@ -85,7 +84,7 @@ export default function AIIntegrationArchitecture() {
             textAlign: 'center',
           }}
         >
-          AI + Integration Layer
+          Agent Architecture
         </p>
 
         {/* H2 */}
@@ -115,7 +114,7 @@ export default function AIIntegrationArchitecture() {
             margin: '0 auto 72px',
           }}
         >
-          We architect data networks where every system communicates in perfect alignment. Here is how information safely moves through our multi-layered architectural approach:
+          Inputs trigger knowledge and logic. Logic drives approved actions. Actions produce outputs. Sensitive steps route to human review. Each layer connects to the next as one controlled workflow.
         </p>
 
         {/* Architecture flow */}

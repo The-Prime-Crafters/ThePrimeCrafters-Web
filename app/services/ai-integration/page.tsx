@@ -16,8 +16,8 @@ import AIIntegrationWhyUs from "../ai-integration/components/AIIntegrationWhyUs"
 import { Footer } from "@/components";
 
 export const metadata: Metadata = {
-    title:'AI Integration Services for Connected Business Systems',
- description: 'ThePrimeCrafters provides AI integration services that connect AI with CRMs, websites, databases, APIs, and business tools so workflows stay synced.',
+    title:'AI Agent Development Services | ThePrimeCrafters',
+ description: 'ThePrimeCrafters builds custom AI agents for sales, support, operations, and booking, voice agents, chat agents, CRM agents, and internal assistants connected to your tools.',
 
   alternates: {
     canonical: "https://www.theprimecrafters.com/services/ai-integration",

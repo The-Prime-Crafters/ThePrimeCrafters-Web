@@ -16,7 +16,8 @@ import WorkflowOptimizationCTA from '../workflow-optimization/components/Workflo
 import WorkflowOptimizationFAQ from '../workflow-optimization/components/WorkflowOptimizationFAQ';
 
 export const metadata = {
- 
+ title:"AI Workflow Optimization Services for Faster Smarter Business Operations | The Prime Crafters",
+ description:"The Prime Crafters maps workflows, finds bottlenecks, and builds AI ready processes. Improve handoffs, ownership, and visibility before adding automation or AI tools.",
   alternates: {
     canonical: 'https://www.theprimecrafters.com/services/workflow-optimization',
   },
