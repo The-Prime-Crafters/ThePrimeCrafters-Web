@@ -4392,12 +4392,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d
 ;
 ;
 const badges = [
-    'AI Voice Agents',
-    'AI Chat Agents',
-    'CRM AI Agents',
-    'Lead Qualification',
-    'Workflow Automation',
-    'Custom AI Agents'
+    'CRM AI Integration',
+    'API Connections',
+    'Data Sync',
+    'Automation',
+    'Automation Triggers',
+    'Secure Workflows'
 ];
 function AIIntegrationHero() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -4455,13 +4455,13 @@ function AIIntegrationHero() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                 style: {
                                     fontFamily: 'Playfair Display, serif',
-                                    fontSize: 'clamp(36px, 4.5vw, 56px)',
+                                    fontSize: 'clamp(36px, 4.5vw, 50px)',
                                     fontWeight: 700,
                                     color: '#FFFFFF',
                                     lineHeight: 1.15,
                                     marginBottom: '24px'
                                 },
-                                children: "AI Agent Development Services for Sales, Support, and Operations"
+                                children: "AI Integration Services for Connected Business Systems"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationHero.tsx",
                                 lineNumber: 67,
@@ -4476,7 +4476,7 @@ function AIIntegrationHero() {
                                     lineHeight: 1.7,
                                     marginBottom: '20px'
                                 },
-                                children: "Custom AI Agents Built to Work Inside Real Business Workflows"
+                                children: "Connect AI With Your CRM, Website, Databases, APIs, and Internal Tools"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationHero.tsx",
                                 lineNumber: 81,
@@ -4490,10 +4490,24 @@ function AIIntegrationHero() {
                                     lineHeight: 1.8,
                                     marginBottom: '36px'
                                 },
-                                children: "ThePrimeCrafters builds custom AI agents that work inside real business workflows instead of sitting as isolated demo tools. Our agents answer calls, qualify leads, support customers, book appointments, update CRMs, and handle internal tasks automatically."
+                                children: "Is your business leveraging AI tools in isolation, or are your systems working intelligently as one cohesive ecosystem? At ThePrimeCrafters, we design, build, and deploy enterprise-grade custom AI integrations that seamlessly inject artificial intelligence directly into your existing infrastructure."
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationHero.tsx",
                                 lineNumber: 94,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                style: {
+                                    fontFamily: 'DM Sans, sans-serif',
+                                    fontSize: '16px',
+                                    color: '#B0B0B0',
+                                    lineHeight: 1.8,
+                                    marginBottom: '36px'
+                                },
+                                children: "Instead of manually logging into disparate chat windows or third-party web apps, our AI integration services empower your workflows by bridging the gaps between your core software stacks. We securely connect high-performing large language models and cognitive computing pipelines to your native CRMs, internal databases, customer-facing websites, legacy software architectures, and active communication layers. The result is automated data synchronization, cross-system operational execution, and contextual business decisions moving perfectly across your organization around the clock."
+                            }, void 0, false, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationHero.tsx",
+                                lineNumber: 106,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -4571,7 +4585,7 @@ function AIIntegrationHero() {
                                                         children: node.label
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationHero.tsx",
-                                                        lineNumber: 144,
+                                                        lineNumber: 156,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4583,13 +4597,13 @@ function AIIntegrationHero() {
                                                         children: node.sub
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationHero.tsx",
-                                                        lineNumber: 157,
+                                                        lineNumber: 169,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationHero.tsx",
-                                                lineNumber: 134,
+                                                lineNumber: 146,
                                                 columnNumber: 17
                                             }, this),
                                             i < 3 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4600,18 +4614,18 @@ function AIIntegrationHero() {
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationHero.tsx",
-                                                lineNumber: 168,
+                                                lineNumber: 180,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, node.label, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationHero.tsx",
-                                        lineNumber: 133,
+                                        lineNumber: 145,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationHero.tsx",
-                                lineNumber: 116,
+                                lineNumber: 128,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4634,12 +4648,12 @@ function AIIntegrationHero() {
                                         children: b
                                     }, b, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationHero.tsx",
-                                        lineNumber: 183,
+                                        lineNumber: 201,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationHero.tsx",
-                                lineNumber: 181,
+                                lineNumber: 193,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4662,10 +4676,10 @@ function AIIntegrationHero() {
                                             textDecoration: 'none',
                                             whiteSpace: 'nowrap'
                                         },
-                                        children: "Book a Free AI Agent Strategy Call →"
+                                        children: "Book a Free AI Integration Strategy Call →"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationHero.tsx",
-                                        lineNumber: 203,
+                                        lineNumber: 221,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -4685,19 +4699,19 @@ function AIIntegrationHero() {
                                         children: "View Case Studies"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationHero.tsx",
-                                        lineNumber: 219,
+                                        lineNumber: 237,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationHero.tsx",
-                                lineNumber: 202,
+                                lineNumber: 220,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationHero.tsx",
-                        lineNumber: 108,
+                        lineNumber: 120,
                         columnNumber: 9
                     }, this)
                 ]
@@ -4717,7 +4731,7 @@ function AIIntegrationHero() {
                 }
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationHero.tsx",
-                lineNumber: 241,
+                lineNumber: 259,
                 columnNumber: 7
             }, this)
         ]
@@ -4764,6 +4778,58 @@ const serviceEntities = [
         href: '/services/custom-ai-solutions'
     }
 ];
+const systemEntities = [
+    {
+        label: 'CRM Integration',
+        href: '/services'
+    },
+    {
+        label: 'API Integration',
+        href: '/services'
+    },
+    {
+        label: 'Website Integration',
+        href: '/services'
+    },
+    {
+        label: 'Database Integration',
+        href: '/services'
+    },
+    {
+        label: 'Email & Calendar',
+        href: '/services'
+    },
+    {
+        label: 'Spreadsheet Automation',
+        href: '/services'
+    }
+];
+const teamEntities = [
+    {
+        label: 'Sales Automation',
+        href: '/services/workflow-optimization'
+    },
+    {
+        label: 'Support Automation',
+        href: '/services/workflow-optimization'
+    },
+    {
+        label: 'Operations',
+        href: '/services/workflow-optimization'
+    },
+    {
+        label: 'Lead Generation',
+        href: '/services/workflow-optimization'
+    },
+    {
+        label: 'Admin Workflows',
+        href: '/services/workflow-optimization'
+    },
+    {
+        label: 'Customer Workflows',
+        href: '/services/workflow-optimization'
+    }
+];
 function AIIntegrationAbout() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         style: {
@@ -4785,7 +4851,7 @@ function AIIntegrationAbout() {
                 }
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationAbout.tsx",
-                lineNumber: 23,
+                lineNumber: 41,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4801,7 +4867,7 @@ function AIIntegrationAbout() {
                 }
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationAbout.tsx",
-                lineNumber: 37,
+                lineNumber: 55,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4824,7 +4890,7 @@ function AIIntegrationAbout() {
                         children: "About ThePrimeCrafters"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationAbout.tsx",
-                        lineNumber: 53,
+                        lineNumber: 71,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -4841,7 +4907,7 @@ function AIIntegrationAbout() {
                         children: "ThePrimeCrafters Provides AI Integration Services for Business Automation"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationAbout.tsx",
-                        lineNumber: 69,
+                        lineNumber: 87,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4854,95 +4920,256 @@ function AIIntegrationAbout() {
                             maxWidth: '760px',
                             margin: '0 auto 56px'
                         },
-                        children: "ThePrimeCrafters is an AI agent development agency that designs, builds, integrates, and improves custom AI agents for sales, support, operations, lead generation, booking, and internal workflows. Work spans AI voice agents, AI chat agents, CRM connected agents, workflow automation, and custom AI systems, all built around real business operations and connected to the tools your team already uses. ThePrimeCrafters builds AI agents for inbound and outbound calls, website and WhatsApp chat, lead qualification and CRM sync, appointment booking and calendar management, customer support and ticket routing, and internal knowledge and operations workflows."
+                        children: "As a dedicated technology implementation partner, ThePrimeCrafters engineered a comprehensive suite of AI integration services designed to unlock the true value of modern artificial intelligence for enterprise operations. By bridging the critical technical gaps between generative models, custom APIs, structured databases, web capture tools, and core customer relationship managers, we turn isolated tools into unified automated ecosystems. Our workflows ensure your business systems communicate clearly, transfer data securely, and execute tasks without manual friction."
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationAbout.tsx",
-                        lineNumber: 85,
+                        lineNumber: 103,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         style: {
-                            background: 'rgba(255,255,255,0.03)',
-                            border: '1px solid rgba(255,255,255,0.07)',
-                            borderRadius: '16px',
-                            padding: '32px 28px',
+                            display: 'grid',
+                            gridTemplateColumns: '1fr 1fr',
+                            gap: '24px',
                             marginBottom: '48px'
                         },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 style: {
-                                    display: 'flex',
-                                    flexWrap: 'wrap',
-                                    gap: '10px',
-                                    marginBottom: '24px'
-                                },
-                                children: serviceEntities.map((e)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        href: e.href,
-                                        style: {
-                                            fontFamily: 'DM Sans, sans-serif',
-                                            fontSize: '13px',
-                                            fontWeight: 500,
-                                            color: '#C9A84C',
-                                            background: 'rgba(201,168,76,0.07)',
-                                            border: '1px solid rgba(201,168,76,0.2)',
-                                            borderRadius: '999px',
-                                            padding: '7px 16px',
-                                            textDecoration: 'none',
-                                            transition: 'background 0.2s, border-color 0.2s'
-                                        },
-                                        onMouseEnter: (e)=>{
-                                            const el = e.currentTarget;
-                                            el.style.background = 'rgba(201,168,76,0.14)';
-                                            el.style.borderColor = 'rgba(201,168,76,0.4)';
-                                        },
-                                        onMouseLeave: (e)=>{
-                                            const el = e.currentTarget;
-                                            el.style.background = 'rgba(201,168,76,0.07)';
-                                            el.style.borderColor = 'rgba(201,168,76,0.2)';
-                                        },
-                                        children: e.label
-                                    }, e.label, false, {
-                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationAbout.tsx",
-                                        lineNumber: 121,
-                                        columnNumber: 15
-                                    }, this))
-                            }, void 0, false, {
-                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationAbout.tsx",
-                                lineNumber: 112,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                style: {
-                                    fontFamily: 'DM Sans, sans-serif',
-                                    fontSize: '14px',
-                                    color: '#909090',
-                                    lineHeight: 1.8,
-                                    margin: 0
+                                    background: 'rgba(255,255,255,0.03)',
+                                    border: '1px solid rgba(255,255,255,0.07)',
+                                    borderRadius: '16px',
+                                    padding: '32px 28px'
                                 },
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                         style: {
-                                            fontWeight: 700,
-                                            color: '#FFFFFF'
+                                            fontFamily: 'DM Sans, sans-serif',
+                                            fontSize: '11px',
+                                            fontWeight: 600,
+                                            letterSpacing: '2px',
+                                            textTransform: 'uppercase',
+                                            color: '#C9A84C',
+                                            margin: '0 0 20px'
                                         },
-                                        children: "Target Environments Deployed:"
+                                        children: "AI Integrations, CRM Automation, Process Automation, and Custom AI Systems"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationAbout.tsx",
-                                        lineNumber: 162,
+                                        lineNumber: 135,
                                         columnNumber: 13
                                     }, this),
-                                    ' ',
-                                    "Salesforce, HubSpot, GoHighLevel, SQL/PostgreSQL Clusters, Custom Internal Form Webhooks, RESTful API Node Infrastructures, Enterprise Communication Channels (Slack, Teams), Active Client Support Frameworks."
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        style: {
+                                            display: 'flex',
+                                            flexWrap: 'wrap',
+                                            gap: '10px'
+                                        },
+                                        children: serviceEntities.map((e)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: e.href,
+                                                style: {
+                                                    fontFamily: 'DM Sans, sans-serif',
+                                                    fontSize: '13px',
+                                                    fontWeight: 500,
+                                                    color: '#C9A84C',
+                                                    background: 'rgba(201,168,76,0.07)',
+                                                    border: '1px solid rgba(201,168,76,0.2)',
+                                                    borderRadius: '999px',
+                                                    padding: '7px 16px',
+                                                    textDecoration: 'none',
+                                                    transition: 'background 0.2s, border-color 0.2s'
+                                                },
+                                                onMouseEnter: (e)=>{
+                                                    const el = e.currentTarget;
+                                                    el.style.background = 'rgba(201,168,76,0.14)';
+                                                    el.style.borderColor = 'rgba(201,168,76,0.4)';
+                                                },
+                                                onMouseLeave: (e)=>{
+                                                    const el = e.currentTarget;
+                                                    el.style.background = 'rgba(201,168,76,0.07)';
+                                                    el.style.borderColor = 'rgba(201,168,76,0.2)';
+                                                },
+                                                children: e.label
+                                            }, e.label, false, {
+                                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationAbout.tsx",
+                                                lineNumber: 156,
+                                                columnNumber: 17
+                                            }, this))
+                                    }, void 0, false, {
+                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationAbout.tsx",
+                                        lineNumber: 148,
+                                        columnNumber: 13
+                                    }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationAbout.tsx",
-                                lineNumber: 153,
+                                lineNumber: 127,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                style: {
+                                    background: 'rgba(255,255,255,0.03)',
+                                    border: '1px solid rgba(255,255,255,0.07)',
+                                    borderRadius: '16px',
+                                    padding: '32px 28px',
+                                    display: 'flex',
+                                    flexDirection: 'column',
+                                    gap: '24px'
+                                },
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                style: {
+                                                    fontFamily: 'DM Sans, sans-serif',
+                                                    fontSize: '11px',
+                                                    fontWeight: 600,
+                                                    letterSpacing: '2px',
+                                                    textTransform: 'uppercase',
+                                                    color: '#C9A84C',
+                                                    margin: '0 0 14px'
+                                                },
+                                                children: "Target Environments: Salesforce, HubSpot, GoHighLevel, SQL/PostgreSQL, Custom Webhooks, RESTful APIs, Slack, Teams, and Client Support Frameworks"
+                                            }, void 0, false, {
+                                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationAbout.tsx",
+                                                lineNumber: 202,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                style: {
+                                                    display: 'flex',
+                                                    flexWrap: 'wrap',
+                                                    gap: '8px'
+                                                },
+                                                children: systemEntities.map((e)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                        href: e.href,
+                                                        style: {
+                                                            fontFamily: 'DM Sans, sans-serif',
+                                                            fontSize: '12px',
+                                                            fontWeight: 500,
+                                                            color: '#A0A0A0',
+                                                            background: 'rgba(255,255,255,0.04)',
+                                                            border: '1px solid rgba(255,255,255,0.08)',
+                                                            borderRadius: '999px',
+                                                            padding: '5px 14px',
+                                                            textDecoration: 'none',
+                                                            transition: 'color 0.2s, border-color 0.2s, background 0.2s'
+                                                        },
+                                                        onMouseEnter: (e)=>{
+                                                            const el = e.currentTarget;
+                                                            el.style.color = '#C9A84C';
+                                                            el.style.borderColor = 'rgba(201,168,76,0.3)';
+                                                            el.style.background = 'rgba(201,168,76,0.06)';
+                                                        },
+                                                        onMouseLeave: (e)=>{
+                                                            const el = e.currentTarget;
+                                                            el.style.color = '#A0A0A0';
+                                                            el.style.borderColor = 'rgba(255,255,255,0.08)';
+                                                            el.style.background = 'rgba(255,255,255,0.04)';
+                                                        },
+                                                        children: e.label
+                                                    }, e.label, false, {
+                                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationAbout.tsx",
+                                                        lineNumber: 217,
+                                                        columnNumber: 19
+                                                    }, this))
+                                            }, void 0, false, {
+                                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationAbout.tsx",
+                                                lineNumber: 215,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationAbout.tsx",
+                                        lineNumber: 201,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        style: {
+                                            height: '1px',
+                                            background: 'rgba(255,255,255,0.06)'
+                                        }
+                                    }, void 0, false, {
+                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationAbout.tsx",
+                                        lineNumber: 252,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                style: {
+                                                    fontFamily: 'DM Sans, sans-serif',
+                                                    fontSize: '11px',
+                                                    fontWeight: 600,
+                                                    letterSpacing: '2px',
+                                                    textTransform: 'uppercase',
+                                                    color: '#C9A84C',
+                                                    margin: '0 0 14px'
+                                                },
+                                                children: "Built for Sales, Operations, Support, Lead Generation, Admin, and Customer Workflows"
+                                            }, void 0, false, {
+                                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationAbout.tsx",
+                                                lineNumber: 261,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                style: {
+                                                    display: 'flex',
+                                                    flexWrap: 'wrap',
+                                                    gap: '8px'
+                                                },
+                                                children: teamEntities.map((e)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                        href: e.href,
+                                                        style: {
+                                                            fontFamily: 'DM Sans, sans-serif',
+                                                            fontSize: '12px',
+                                                            fontWeight: 500,
+                                                            color: '#A0A0A0',
+                                                            background: 'rgba(255,255,255,0.04)',
+                                                            border: '1px solid rgba(255,255,255,0.08)',
+                                                            borderRadius: '999px',
+                                                            padding: '5px 14px',
+                                                            textDecoration: 'none',
+                                                            transition: 'color 0.2s, border-color 0.2s, background 0.2s'
+                                                        },
+                                                        onMouseEnter: (e)=>{
+                                                            const el = e.currentTarget;
+                                                            el.style.color = '#C9A84C';
+                                                            el.style.borderColor = 'rgba(201,168,76,0.3)';
+                                                            el.style.background = 'rgba(201,168,76,0.06)';
+                                                        },
+                                                        onMouseLeave: (e)=>{
+                                                            const el = e.currentTarget;
+                                                            el.style.color = '#A0A0A0';
+                                                            el.style.borderColor = 'rgba(255,255,255,0.08)';
+                                                            el.style.background = 'rgba(255,255,255,0.04)';
+                                                        },
+                                                        children: e.label
+                                                    }, e.label, false, {
+                                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationAbout.tsx",
+                                                        lineNumber: 276,
+                                                        columnNumber: 19
+                                                    }, this))
+                                            }, void 0, false, {
+                                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationAbout.tsx",
+                                                lineNumber: 274,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationAbout.tsx",
+                                        lineNumber: 260,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationAbout.tsx",
+                                lineNumber: 189,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationAbout.tsx",
-                        lineNumber: 102,
+                        lineNumber: 118,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4969,7 +5196,7 @@ function AIIntegrationAbout() {
                                 children: "All Services →"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationAbout.tsx",
-                                lineNumber: 179,
+                                lineNumber: 321,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -4988,25 +5215,25 @@ function AIIntegrationAbout() {
                                 children: "Case Studies →"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationAbout.tsx",
-                                lineNumber: 195,
+                                lineNumber: 337,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationAbout.tsx",
-                        lineNumber: 171,
+                        lineNumber: 313,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationAbout.tsx",
-                lineNumber: 51,
+                lineNumber: 69,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationAbout.tsx",
-        lineNumber: 14,
+        lineNumber: 32,
         columnNumber: 5
     }, this);
 }
@@ -5020,6 +5247,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationArchitecture.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// components/services/ai-integration/AIIntegrationArchitecture.tsx
 __turbopack_context__.s([
     "default",
     ()=>AIIntegrationArchitecture
@@ -5033,8 +5261,8 @@ const layers = [
     {
         step: 'Step 1',
         label: 'Inputs',
-        h3: 'Triggers that start an agent workflow',
-        body: 'Every agent workflow starts with a clear input, an inbound call, website chat, form submission, email, CRM event, or file upload that triggers the agent to begin understanding the request and deciding what action to take.',
+        h3: 'Forms, Calls, Chats, Files, Databases, and CRM Events',
+        body: 'Every integration starts with a trigger — a form submission, CRM event, incoming call, uploaded file, database change, or scheduled data pull that initiates the workflow.',
         chips: [
             'Web Forms',
             'CRM Events',
@@ -5049,9 +5277,9 @@ const layers = [
     },
     {
         step: 'Step 2',
-        label: 'Knowledge & Logic',
-        h3: 'Approved content the agent operates within',
-        body: 'Agents operate within approved knowledge, scripts, product details, service rules, tone guidelines, escalation thresholds, and guardrails that define exactly what the agent can say, ask, and do before taking any action.',
+        label: 'AI Logic',
+        h3: 'Classify, Summarise, Score, Route, and Draft',
+        body: 'AI acts as the decision and assistance layer — classifying requests, summarising conversations, scoring leads, routing to the right owner, and drafting replies or records before passing output to connected systems.',
         chips: [
             'Classify',
             'Summarise',
@@ -5067,9 +5295,9 @@ const layers = [
     },
     {
         step: 'Step 3',
-        label: 'Actions',
-        h3: 'What the agent actually does',
-        body: 'Based on the input and approved logic, the agent takes specific actions, qualifying a lead, answering a question, booking an appointment, updating a CRM record, routing a ticket, drafting a reply, or generating a report.',
+        label: 'Integrations',
+        h3: 'CRM Updates, Notifications, Reports, Tasks, and Approvals',
+        body: 'AI output moves directly into the systems your team uses — updating CRM records, creating tasks, routing tickets, generating reports, sending alerts, and requesting approvals where human review is required.',
         chips: [
             'CRM Updated',
             'Task Created',
@@ -5085,8 +5313,8 @@ const layers = [
     {
         step: 'Step 4',
         label: 'Human Review',
-        h3: 'Where humans stay in control',
-        body: 'Not every action should be fully automated. Approval gates, fallback rules, escalation paths, permissions, and audit logs keep humans in control for sensitive decisions, so agents stay practical, trustworthy, and safe for real business operations.',
+        h3: 'Human Review for Sensitive Actions',
+        body: 'Not every step should be fully automated. Approval gates, review queues, escalation rules, permissions, and audit-friendly logs keep sensitive decisions under human control while automating everything before and after.',
         chips: [
             'Approval Gates',
             'Review Queues',
@@ -5122,7 +5350,7 @@ function AIIntegrationArchitecture() {
                 }
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationArchitecture.tsx",
-                lineNumber: 59,
+                lineNumber: 60,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5142,10 +5370,10 @@ function AIIntegrationArchitecture() {
                             marginBottom: '16px',
                             textAlign: 'center'
                         },
-                        children: "Agent Architecture"
+                        children: "AI + Integration Layer"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationArchitecture.tsx",
-                        lineNumber: 75,
+                        lineNumber: 76,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -5162,7 +5390,7 @@ function AIIntegrationArchitecture() {
                         children: "How AI Integration Turns Separate Tools Into One Workflow"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationArchitecture.tsx",
-                        lineNumber: 91,
+                        lineNumber: 92,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5172,13 +5400,13 @@ function AIIntegrationArchitecture() {
                             color: '#888888',
                             lineHeight: 1.75,
                             textAlign: 'center',
-                            maxWidth: '640px',
+                            maxWidth: '600px',
                             margin: '0 auto 72px'
                         },
-                        children: "Inputs trigger knowledge and logic. Logic drives approved actions. Actions produce outputs. Sensitive steps route to human review. Each layer connects to the next as one controlled workflow."
+                        children: "Inputs trigger AI logic. AI logic drives integrations. Integrations produce outputs. Sensitive steps route to human review. Each layer connects to the next as one continuous workflow."
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationArchitecture.tsx",
-                        lineNumber: 106,
+                        lineNumber: 107,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5225,7 +5453,7 @@ function AIIntegrationArchitecture() {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationArchitecture.tsx",
-                                                        lineNumber: 156,
+                                                        lineNumber: 157,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5242,7 +5470,7 @@ function AIIntegrationArchitecture() {
                                                         children: layer.step
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationArchitecture.tsx",
-                                                        lineNumber: 169,
+                                                        lineNumber: 170,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5263,20 +5491,20 @@ function AIIntegrationArchitecture() {
                                                                 children: layer.icon
                                                             }, void 0, false, {
                                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationArchitecture.tsx",
-                                                                lineNumber: 197,
+                                                                lineNumber: 198,
                                                                 columnNumber: 21
                                                             }, this),
                                                             layer.label
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationArchitecture.tsx",
-                                                        lineNumber: 183,
+                                                        lineNumber: 184,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationArchitecture.tsx",
-                                                lineNumber: 142,
+                                                lineNumber: 143,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5305,7 +5533,7 @@ function AIIntegrationArchitecture() {
                                                             children: layer.h3
                                                         }, void 0, false, {
                                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationArchitecture.tsx",
-                                                            lineNumber: 222,
+                                                            lineNumber: 223,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5320,7 +5548,7 @@ function AIIntegrationArchitecture() {
                                                             children: layer.body
                                                         }, void 0, false, {
                                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationArchitecture.tsx",
-                                                            lineNumber: 235,
+                                                            lineNumber: 236,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5344,12 +5572,12 @@ function AIIntegrationArchitecture() {
                                                                     children: chip
                                                                 }, chip, false, {
                                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationArchitecture.tsx",
-                                                                    lineNumber: 258,
+                                                                    lineNumber: 259,
                                                                     columnNumber: 25
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationArchitecture.tsx",
-                                                            lineNumber: 249,
+                                                            lineNumber: 250,
                                                             columnNumber: 21
                                                         }, this),
                                                         layer.href && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -5365,24 +5593,24 @@ function AIIntegrationArchitecture() {
                                                             children: layer.trust ? 'Discuss approval workflows →' : 'Learn more →'
                                                         }, void 0, false, {
                                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationArchitecture.tsx",
-                                                            lineNumber: 278,
+                                                            lineNumber: 279,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationArchitecture.tsx",
-                                                    lineNumber: 210,
+                                                    lineNumber: 211,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationArchitecture.tsx",
-                                                lineNumber: 203,
+                                                lineNumber: 204,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationArchitecture.tsx",
-                                        lineNumber: 132,
+                                        lineNumber: 133,
                                         columnNumber: 15
                                     }, this),
                                     i < layers.length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5408,7 +5636,7 @@ function AIIntegrationArchitecture() {
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationArchitecture.tsx",
-                                                    lineNumber: 316,
+                                                    lineNumber: 317,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5420,29 +5648,29 @@ function AIIntegrationArchitecture() {
                                                     children: "↓"
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationArchitecture.tsx",
-                                                    lineNumber: 324,
+                                                    lineNumber: 325,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationArchitecture.tsx",
-                                            lineNumber: 307,
+                                            lineNumber: 308,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationArchitecture.tsx",
-                                        lineNumber: 300,
+                                        lineNumber: 301,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, layer.label, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationArchitecture.tsx",
-                                lineNumber: 130,
+                                lineNumber: 131,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationArchitecture.tsx",
-                        lineNumber: 121,
+                        lineNumber: 122,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5466,24 +5694,24 @@ function AIIntegrationArchitecture() {
                             children: "Explore Process Automation Services →"
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationArchitecture.tsx",
-                            lineNumber: 342,
+                            lineNumber: 343,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationArchitecture.tsx",
-                        lineNumber: 341,
+                        lineNumber: 342,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationArchitecture.tsx",
-                lineNumber: 73,
+                lineNumber: 74,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationArchitecture.tsx",
-        lineNumber: 50,
+        lineNumber: 51,
         columnNumber: 5
     }, this);
 }
@@ -5497,6 +5725,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationBenefits.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// components/services/ai-integration/AIIntegrationBenefits.tsx
 __turbopack_context__.s([
     "default",
     ()=>AIIntegrationBenefits
@@ -5509,49 +5738,49 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d
 const benefits = [
     {
         icon: '🔗',
-        h3: 'Respond to Leads and Customers Around the Clock',
-        body: 'AI agents answer, qualify, collect details, and trigger next steps when staff are unavailable, so no lead goes unresponded and no customer waits until business hours to get help.',
-        keywords: '24/7 AI Agents · Automated Customer Response',
-        href: '/contact',
+        h3: 'Keep Data Synced Across Business Systems',
+        body: 'Eliminate conflicting data entries. Our systems instantly update customer records, internal conversation logs, and operational databases across every single corporate application the moment new information hits your workflow.',
+        keywords: 'Data Sync Automation · Connected Business Systems',
+        href: '/services/process-automation',
         featured: false
     },
     {
         icon: '⏱️',
-        h3: 'Reduce Repetitive Admin and Support Work',
-        body: 'Move common questions, logging, summaries, follow ups, and routing away from human teams when judgment is not required, freeing staff to focus on complex work that actually needs them.',
-        keywords: 'Reduce Manual Support Work · Admin Automation',
+        h3: 'Reduce Manual Copying and Tool Switching',
+        body: 'Give your team hours of productive time back. By automating routine transcription, field transfers, and simple notifications between separate apps, your workforce can focus entirely on driving sales, solving client issues, and refining high-value operations.',
+        keywords: 'Reduce Manual Data Entry · Tool Switching Automation',
         href: null,
         featured: false
     },
     {
         icon: '🧠',
-        h3: 'Improve Lead Qualification and Follow Up Speed',
-        body: 'Qualify prospects, score intent, notify the right team member, and start follow up without waiting on manual review, so the fastest response wins more business.',
-        keywords: 'Lead Qualification AI Agent · Lead Follow Up Automation',
-        href: '/case-study/lead-generation-tools',
+        h3: 'Make AI Outputs Useful Inside Your Existing Workflow',
+        body: 'Move AI out of isolated windows and directly into daily operations. Our setups push automated insights, lead scores, communication drafts, and data summaries right into the software screens your staff already uses every day.',
+        keywords: 'AI Workflow Integration · AI Business Automation',
+        href: '/services/custom-ai-solutions',
         featured: true
     },
     {
         icon: '⚡',
-        h3: 'Keep Conversation Data Useful Inside Your Tools',
-        body: 'Log call and chat summaries, update CRM fields, create tasks, and keep customer records current after every interaction, without manual entry by the team member who handled it.',
-        keywords: 'AI Agent CRM Integration · Conversation Logging',
-        href: '/services/ai-integration',
+        h3: 'Improve Lead Response and Customer Handoffs',
+        body: 'Speed up your business\'s response times. Our integrations instantly evaluate web forms, score opportunities, assign account owners, send team alerts, and launch immediate touchpoints without waiting on manual human routing.',
+        keywords: 'Lead Response Automation · Customer Handoff Automation',
+        href: '/case-study/lead-generation-tools',
         featured: false
     },
     {
         icon: '📊',
-        h3: 'Scale Customer Interactions Without Adding Headcount',
-        body: 'Handle higher call, chat, support, and booking volume while keeping human teams focused on complex work, so growth does not automatically mean more hiring.',
-        keywords: 'Scale Customer Support With AI · AI Agents for Operations',
-        href: '/services/process-automation',
+        h3: 'Create Better Reporting From Connected Data',
+        body: 'Gain complete visibility over your performance. By gathering operational metrics from separate automation steps, we feed live dashboards and alert logs that help management track process execution speed and resource allocation accuracy.',
+        keywords: 'AI Reporting Integration · Dashboard Automation',
+        href: null,
         featured: false
     },
     {
         icon: '📈',
-        h3: 'Control Risk With Clear Rules, Escalation, and Review',
-        body: 'Keep humans in control for sensitive decisions with guardrails, review queues, fallback flows, and escalation rules, so agents operate within approved boundaries at all times.',
-        keywords: 'Safe AI Agents · Human Review AI Agent',
+        h3: 'Scale AI Automation Without Replacing Your Tools',
+        body: 'Protect your software investments. Our engineers integrate advanced cognitive models directly into your current platform setup, preventing the need for costly data migrations or painful staff retraining programs.',
+        keywords: 'AI Automation Integration · Integrate AI With Existing Tools',
         href: '/contact',
         featured: false,
         isFinal: true
@@ -5578,7 +5807,7 @@ function AIIntegrationBenefits() {
                 }
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationBenefits.tsx",
-                lineNumber: 68,
+                lineNumber: 69,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5594,7 +5823,7 @@ function AIIntegrationBenefits() {
                 }
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationBenefits.tsx",
-                lineNumber: 82,
+                lineNumber: 83,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5617,7 +5846,7 @@ function AIIntegrationBenefits() {
                         children: "Benefits"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationBenefits.tsx",
-                        lineNumber: 98,
+                        lineNumber: 99,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -5631,10 +5860,10 @@ function AIIntegrationBenefits() {
                             maxWidth: '720px',
                             margin: '0 auto 16px'
                         },
-                        children: "Why Businesses Invest in AI Agent Development Services"
+                        children: "Why Businesses Invest in AI Integration Services"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationBenefits.tsx",
-                        lineNumber: 114,
+                        lineNumber: 115,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5647,10 +5876,10 @@ function AIIntegrationBenefits() {
                             maxWidth: '620px',
                             margin: '0 auto 56px'
                         },
-                        children: "Faster response, less manual work, 24/7 coverage, cleaner records, better handoffs, and scalable customer operations, without proportionally growing the team."
+                        children: "Connecting your software stack with intelligent models transforms raw technical capability into measurable operational efficiency. Here are the core benefits driving business growth:"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationBenefits.tsx",
-                        lineNumber: 129,
+                        lineNumber: 130,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5708,12 +5937,12 @@ function AIIntegrationBenefits() {
                                             children: "Key Benefit"
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationBenefits.tsx",
-                                            lineNumber: 197,
+                                            lineNumber: 198,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationBenefits.tsx",
-                                        lineNumber: 187,
+                                        lineNumber: 188,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5732,7 +5961,7 @@ function AIIntegrationBenefits() {
                                         children: b.icon
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationBenefits.tsx",
-                                        lineNumber: 213,
+                                        lineNumber: 214,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -5747,7 +5976,7 @@ function AIIntegrationBenefits() {
                                         children: b.h3
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationBenefits.tsx",
-                                        lineNumber: 233,
+                                        lineNumber: 234,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5762,7 +5991,7 @@ function AIIntegrationBenefits() {
                                         children: b.body
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationBenefits.tsx",
-                                        lineNumber: 247,
+                                        lineNumber: 248,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5772,7 +6001,7 @@ function AIIntegrationBenefits() {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationBenefits.tsx",
-                                        lineNumber: 261,
+                                        lineNumber: 262,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5795,12 +6024,12 @@ function AIIntegrationBenefits() {
                                                 children: kw
                                             }, kw, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationBenefits.tsx",
-                                                lineNumber: 279,
+                                                lineNumber: 280,
                                                 columnNumber: 19
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationBenefits.tsx",
-                                        lineNumber: 271,
+                                        lineNumber: 272,
                                         columnNumber: 15
                                     }, this),
                                     b.href && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -5818,18 +6047,18 @@ function AIIntegrationBenefits() {
                                         children: b.isFinal ? 'Talk to us about your stack →' : 'Learn more →'
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationBenefits.tsx",
-                                        lineNumber: 299,
+                                        lineNumber: 300,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, b.h3, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationBenefits.tsx",
-                                lineNumber: 153,
+                                lineNumber: 154,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationBenefits.tsx",
-                        lineNumber: 144,
+                        lineNumber: 145,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5845,7 +6074,7 @@ function AIIntegrationBenefits() {
                         children: "Strategic Value: Discover the immediate ROI of clean system connectivity. Connect with our business systems consultants."
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationBenefits.tsx",
-                        lineNumber: 320,
+                        lineNumber: 321,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5865,27 +6094,27 @@ function AIIntegrationBenefits() {
                                 textDecoration: 'none',
                                 display: 'inline-block'
                             },
-                            children: "See AI Agent Results in Our Case Studies →"
+                            children: "See Integration Results in Our Case Studies →"
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationBenefits.tsx",
-                            lineNumber: 336,
+                            lineNumber: 337,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationBenefits.tsx",
-                        lineNumber: 335,
+                        lineNumber: 336,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationBenefits.tsx",
-                lineNumber: 96,
+                lineNumber: 97,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationBenefits.tsx",
-        lineNumber: 59,
+        lineNumber: 60,
         columnNumber: 5
     }, this);
 }
@@ -6157,8 +6386,9 @@ function CaseStudyCard({ cs }) {
             padding: '32px 28px',
             display: 'flex',
             flexDirection: 'column',
-            gap: '16px',
-            transition: 'border-color 0.25s, background 0.25s'
+            gap: '0px',
+            transition: 'border-color 0.25s, background 0.25s',
+            height: '100%'
         },
         onMouseEnter: (e)=>{
             const el = e.currentTarget;
@@ -6179,12 +6409,12 @@ function CaseStudyCard({ cs }) {
                     letterSpacing: '1.5px',
                     textTransform: 'uppercase',
                     color: '#C9A84C',
-                    margin: 0
+                    margin: '0 0 16px 0'
                 },
                 children: cs.category
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCaseStudies.tsx",
-                lineNumber: 218,
+                lineNumber: 219,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -6194,12 +6424,15 @@ function CaseStudyCard({ cs }) {
                     fontWeight: 700,
                     color: '#FFFFFF',
                     lineHeight: 1.3,
-                    margin: 0
+                    margin: '0 0 16px 0',
+                    minHeight: '52px',
+                    display: 'flex',
+                    alignItems: 'flex-start'
                 },
                 children: cs.h3
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCaseStudies.tsx",
-                lineNumber: 233,
+                lineNumber: 234,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6208,41 +6441,52 @@ function CaseStudyCard({ cs }) {
                     fontSize: '14px',
                     color: '#888888',
                     lineHeight: 1.75,
-                    margin: 0,
-                    flexGrow: 1
+                    margin: '0 0 24px 0',
+                    flexGrow: 1,
+                    minHeight: '80px'
                 },
                 children: cs.body
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCaseStudies.tsx",
-                lineNumber: 247,
+                lineNumber: 251,
                 columnNumber: 7
             }, this),
-            cs.note && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 style: {
-                    background: 'rgba(201,168,76,0.05)',
-                    border: '1px solid rgba(201,168,76,0.15)',
-                    borderLeft: '3px solid rgba(201,168,76,0.4)',
-                    borderRadius: '6px',
-                    padding: '10px 14px'
+                    minHeight: '60px',
+                    marginBottom: '24px'
                 },
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                children: 'note' in cs && cs.note ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     style: {
-                        fontFamily: 'DM Sans, sans-serif',
-                        fontSize: '12px',
-                        color: 'rgba(201,168,76,0.7)',
-                        margin: 0,
-                        fontStyle: 'italic'
+                        background: 'rgba(201,168,76,0.05)',
+                        border: '1px solid rgba(201,168,76,0.15)',
+                        borderLeft: '3px solid rgba(201,168,76,0.4)',
+                        borderRadius: '6px',
+                        padding: '10px 14px'
                     },
-                    children: cs.note
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        style: {
+                            fontFamily: 'DM Sans, sans-serif',
+                            fontSize: '12px',
+                            color: 'rgba(201,168,76,0.7)',
+                            margin: 0,
+                            fontStyle: 'italic'
+                        },
+                        children: cs.note
+                    }, void 0, false, {
+                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCaseStudies.tsx",
+                        lineNumber: 277,
+                        columnNumber: 13
+                    }, this)
                 }, void 0, false, {
                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCaseStudies.tsx",
-                    lineNumber: 271,
+                    lineNumber: 268,
                     columnNumber: 11
-                }, this)
+                }, this) : null
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCaseStudies.tsx",
-                lineNumber: 262,
-                columnNumber: 9
+                lineNumber: 266,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 style: {
@@ -6252,7 +6496,9 @@ function CaseStudyCard({ cs }) {
                     padding: '16px 20px',
                     background: 'rgba(201,168,76,0.06)',
                     border: '1px solid rgba(201,168,76,0.15)',
-                    borderRadius: '10px'
+                    borderRadius: '10px',
+                    marginBottom: '24px',
+                    minHeight: '66px'
                 },
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -6266,7 +6512,7 @@ function CaseStudyCard({ cs }) {
                         children: cs.metric
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCaseStudies.tsx",
-                        lineNumber: 297,
+                        lineNumber: 306,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -6278,20 +6524,22 @@ function CaseStudyCard({ cs }) {
                         children: cs.metricLabel
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCaseStudies.tsx",
-                        lineNumber: 308,
+                        lineNumber: 317,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCaseStudies.tsx",
-                lineNumber: 286,
+                lineNumber: 293,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 style: {
                     display: 'flex',
                     flexWrap: 'wrap',
-                    gap: '6px'
+                    gap: '6px',
+                    marginBottom: '24px',
+                    minHeight: '48px'
                 },
                 children: cs.keywords.map((kw)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         style: {
@@ -6302,17 +6550,18 @@ function CaseStudyCard({ cs }) {
                             background: 'rgba(201,168,76,0.05)',
                             border: '1px solid rgba(201,168,76,0.12)',
                             borderRadius: '999px',
-                            padding: '3px 10px'
+                            padding: '3px 10px',
+                            height: 'fit-content'
                         },
                         children: kw
                     }, kw, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCaseStudies.tsx",
-                        lineNumber: 322,
+                        lineNumber: 331,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCaseStudies.tsx",
-                lineNumber: 320,
+                lineNumber: 329,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -6325,12 +6574,13 @@ function CaseStudyCard({ cs }) {
                     textDecoration: 'none',
                     display: 'inline-flex',
                     alignItems: 'center',
-                    gap: '4px'
+                    gap: '4px',
+                    marginTop: 'auto'
                 },
                 children: "View case study →"
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCaseStudies.tsx",
-                lineNumber: 341,
+                lineNumber: 351,
                 columnNumber: 7
             }, this)
         ]
@@ -6363,28 +6613,28 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d
 ;
 const problems = [
     {
-        icon: '⚡',
-        h3: 'Delayed Responses Reduce Conversion',
-        body: 'Prospects expect quick answers, qualification, and next steps. Every hour a lead waits is an opportunity for a competitor to respond first. AI agents qualify and respond immediately, any time of day, any day of the week.',
-        href: '/case-study/lead-generation-tools'
+        icon: '🔌',
+        h3: 'AI Tools Sit Outside Daily Workflows',
+        body: 'AI output loses value when it stays in chat windows, PDFs, or separate tools instead of updating the business systems your team works in every day.',
+        href: '/services/custom-ai-solutions'
     },
     {
-        icon: '🔁',
-        h3: 'Staff Time Lost to Repetitive Tasks',
-        body: 'Answering FAQs, collecting intake details, checking availability, sending reminders, updating tickets, and logging notes, repeated manually every day by staff whose time is better spent on work that actually needs human judgment.',
+        icon: '📋',
+        h3: 'Teams Still Copy Data Between Systems',
+        body: 'Moving leads from forms to CRM, copying call notes, updating spreadsheets, sending reminders, and creating tickets — all done manually, every day.',
         href: '/services/process-automation'
     },
     {
-        icon: '🔌',
-        h3: 'AI Without Integration Creates No Real Value',
-        body: 'AI agents only create real value when conversations produce clean records, tasks, bookings, summaries, and follow ups inside business tools. An isolated chat window that does not write to the CRM, create a task, or trigger a next step is not an agent — it is a more expensive FAQ page.',
-        href: '/services/ai-integration'
+        icon: '🔄',
+        h3: 'Customer and Lead Data Gets Out of Sync',
+        body: 'Duplicate records, missed follow-ups, outdated pipeline status, and support teams working from incomplete information all trace back to disconnected systems.',
+        href: '/case-study/lead-generation-tools'
     },
     {
         icon: '⚠️',
-        h3: 'Prebuilt Bots Fail Outside Scripted Paths',
-        body: 'Real agents need scripts, business rules, escalation paths, approval gates, tool access, testing, and clear boundaries. Prebuilt bots fail the moment a conversation goes beyond a simple FAQ.',
-        href: '/services/custom-ai-solutions'
+        h3: 'Basic Connectors Break When Logic Gets Complex',
+        body: 'Real AI integrations need data mapping, API logic, error handling, permissions, testing, and sometimes human approval — far beyond what simple no-code connectors can handle.',
+        href: '/services/workflow-optimization'
     }
 ];
 function AIIntegrationProblem() {
@@ -6445,7 +6695,7 @@ function AIIntegrationProblem() {
                             maxWidth: '720px',
                             margin: '0 auto 20px'
                         },
-                        children: "Missed Calls, Slow Follow Up, and Repetitive Tasks All Have the Same Fix"
+                        children: "Disconnected Tools Keep AI From Creating Real Business Value"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProblem.tsx",
                         lineNumber: 75,
@@ -6458,10 +6708,10 @@ function AIIntegrationProblem() {
                             color: '#888888',
                             lineHeight: 1.75,
                             textAlign: 'center',
-                            maxWidth: '640px',
+                            maxWidth: '580px',
                             margin: '0 auto 56px'
                         },
-                        children: "Missed calls, slow lead follow up, repeated support questions, manual CRM updates, scheduling delays, and staff spending time on routine tasks all share the same fix. Every one of these problems is a conversation or task that an AI agent can handle, faster, more consistently, and without adding headcount."
+                        children: "Isolated AI tools, manual copying, broken handoffs, stale CRM records, and scattered data all share one root cause — the systems are not connected."
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProblem.tsx",
                         lineNumber: 90,
@@ -6588,17 +6838,17 @@ function AIIntegrationProblem() {
                                             color: '#555555',
                                             marginBottom: '20px'
                                         },
-                                        children: "Basic Bot"
+                                        children: "Basic Connector"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProblem.tsx",
-                                        lineNumber: 196,
+                                        lineNumber: 201,
                                         columnNumber: 13
                                     }, this),
                                     [
-                                        'Keyword triggers only',
-                                        'Breaks outside scripted paths',
-                                        'No CRM or tool connections',
-                                        'No escalation or fallback logic'
+                                        'Simple if/then triggers',
+                                        'Breaks with exceptions',
+                                        'No AI decision logic',
+                                        'Limited integration depth'
                                     ].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             style: {
                                                 display: 'flex',
@@ -6615,7 +6865,7 @@ function AIIntegrationProblem() {
                                                     children: "✕"
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProblem.tsx",
-                                                    lineNumber: 216,
+                                                    lineNumber: 229,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -6627,13 +6877,13 @@ function AIIntegrationProblem() {
                                                     children: item
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProblem.tsx",
-                                                    lineNumber: 217,
+                                                    lineNumber: 230,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, item, true, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProblem.tsx",
-                                            lineNumber: 215,
+                                            lineNumber: 220,
                                             columnNumber: 15
                                         }, this))
                                 ]
@@ -6659,17 +6909,17 @@ function AIIntegrationProblem() {
                                             color: '#C9A84C',
                                             marginBottom: '20px'
                                         },
-                                        children: "Custom AI Agent (ThePrimeCrafters)"
+                                        children: "AI Integration"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProblem.tsx",
-                                        lineNumber: 226,
+                                        lineNumber: 251,
                                         columnNumber: 13
                                     }, this),
                                     [
-                                        'Understands context and business intent',
-                                        'Handles complex multi turn conversations',
-                                        'Connected to CRMs, calendars, and APIs',
-                                        'Escalates correctly when limits are reached'
+                                        'Maps real business workflows',
+                                        'Classifies, routes, and drafts with AI',
+                                        'Connects CRMs, forms, and internal tools',
+                                        'Supports human approvals where needed'
                                     ].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             style: {
                                                 display: 'flex',
@@ -6686,7 +6936,7 @@ function AIIntegrationProblem() {
                                                     children: "✓"
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProblem.tsx",
-                                                    lineNumber: 246,
+                                                    lineNumber: 279,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -6698,19 +6948,19 @@ function AIIntegrationProblem() {
                                                     children: item
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProblem.tsx",
-                                                    lineNumber: 247,
+                                                    lineNumber: 280,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, item, true, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProblem.tsx",
-                                            lineNumber: 245,
+                                            lineNumber: 270,
                                             columnNumber: 15
                                         }, this))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProblem.tsx",
-                                lineNumber: 225,
+                                lineNumber: 244,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -6736,15 +6986,15 @@ function AIIntegrationProblem() {
                                 textDecoration: 'none',
                                 display: 'inline-block'
                             },
-                            children: "Talk to an AI Agent Expert →"
+                            children: "Talk to an AI Integration Expert →"
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProblem.tsx",
-                            lineNumber: 257,
+                            lineNumber: 296,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProblem.tsx",
-                        lineNumber: 256,
+                        lineNumber: 295,
                         columnNumber: 9
                     }, this)
                 ]
@@ -6770,6 +7020,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// components/services/ai-integration/AIIntegrationProcess.tsx
 __turbopack_context__.s([
     "default",
     ()=>AIIntegrationProcess
@@ -6785,77 +7036,77 @@ var _s = __turbopack_context__.k.signature();
 const steps = [
     {
         num: '1',
-        title: 'Discovery',
-        h3: '1. Discovery',
-        body: 'We start with your real business context, reviewing current call, chat, email, CRM, booking, support, and operations workflows before designing any agent. Discovery ensures every agent is built around how your business actually handles conversations and tasks today, not a generic template.',
+        title: 'System and Workflow Audit',
+        h3: '1. System and Workflow Audit',
+        body: 'We start with your real business context — reviewing current tools, workflows, data sources, users, bottlenecks, permissions, and goals before designing anything. This ensures integrations are built around how your business actually operates, not a generic template.',
         tags: [
-            'AI Agent Discovery',
-            'Workflow Audit',
-            'Conversation Mapping'
+            'System Audit',
+            'Workflow Review',
+            'Integration Discovery'
         ]
     },
     {
         num: '2',
-        title: 'Opportunity Mapping',
-        h3: '2. Opportunity Mapping',
-        body: 'We identify and prioritize the conversations and tasks that save the most time, improve response speed, or protect revenue. Starting with high volume, repeatable workflows ensures the first agent delivers clear value before expanding scope.',
+        title: 'Integration Opportunity Mapping',
+        h3: '2. Integration Opportunity Mapping',
+        body: 'We identify which systems should connect first based on business value, manual effort, risk, and workflow volume — then prioritise the highest-impact handoffs to build a clear integration roadmap before any development begins.',
         tags: [
-            'AI Agent Roadmap',
-            'Automation Opportunity Mapping',
+            'Integration Roadmap',
+            'AI Automation Roadmap',
             'Priority Mapping'
         ],
         note: 'We connect high-impact handoffs first.'
     },
     {
         num: '3',
-        title: 'Conversation Design',
-        h3: '3. Conversation Design',
-        body: 'Before any build begins, we define scripts, intents, fallback rules, escalation paths, knowledge sources, permissions, and success metrics. Clear guardrails at this stage prevent problems after launch.',
+        title: 'Data Flow and API Architecture',
+        h3: '3. Data Flow and API Architecture',
+        body: 'We define triggers, APIs, fields, sync direction, permissions, security requirements, exception handling, and human approval paths. Every data flow is planned before a single line of integration code is written.',
         tags: [
-            'AI Agent Prompt Design',
-            'AI Agent Guardrails',
-            'Conversation Design'
+            'API Architecture',
+            'Data Flow Mapping',
+            'Integration Design'
         ]
     },
     {
         num: '4',
-        title: 'Build and Integration',
-        h3: '4. Build and Integration',
-        body: 'We connect the agent with CRMs, calendars, forms, ticket tools, databases, communication tools, or custom APIs where required. Integration is built and tested as part of the core build, not added afterward.',
+        title: 'Build Connectors and Automation Logic',
+        h3: '4. Build Connectors and Automation Logic',
+        body: 'We connect tools, build API workflows, add AI logic, create notifications, map data fields, and handle exceptions. Every connector is built for production with real error handling, retry logic, and testing checkpoints throughout the build phase.',
         tags: [
-            'AI Agent Integration',
-            'CRM AI Agent',
-            'API Connected AI Agent'
+            'AI Connector Build',
+            'API Workflow Automation',
+            'Custom Integrations'
         ],
         href: '/services/custom-ai-solutions'
     },
     {
         num: '5',
-        title: 'Testing and QA',
-        h3: '5. Testing and QA',
-        body: 'We test real scenarios, wrong inputs, sensitive requests, failed tool calls, duplicate records, handoffs, and escalation logic before launch. The agent does not go live until it handles edge cases reliably.',
+        title: 'Test Data Quality, Permissions, and Edge Cases',
+        h3: '5. Test Data Quality, Permissions, and Edge Cases',
+        body: 'We test with sample data, failed syncs, duplicate records, missing fields, permission mismatches, latency, and user handoffs before any integration goes live. QA covers the edge cases that break basic connectors in production.',
         tags: [
-            'AI Agent Testing',
-            'Agent QA',
-            'Conversation QA'
+            'Integration Testing',
+            'Data Sync Testing',
+            'API Testing'
         ],
         checklist: [
-            'Real scenario testing',
-            'Wrong input handling',
-            'Failed tool call checks',
+            'Sample data validation',
+            'Failed sync simulation',
             'Duplicate record handling',
-            'Handoff verification',
-            'Escalation logic testing'
+            'Permission and access testing',
+            'Latency and timeout checks',
+            'User handoff verification'
         ]
     },
     {
         num: '6',
-        title: 'Launch, Monitor, and Optimize',
-        h3: '6. Launch, Monitor, and Optimize',
-        body: 'We deploy the agent, monitor transcripts and logs, improve prompts and rules, refine knowledge, and adjust workflows based on real use. Agents improve over time, launch is the beginning, not the end.',
+        title: 'Launch, Monitor, and Improve Sync',
+        h3: '6. Launch, Monitor, and Improve Sync',
+        body: 'We deploy integrations, monitor errors, review data quality, improve prompts and rules, and adjust the workflow based on real usage. Post-launch optimization is built into the process — not an afterthought.',
         tags: [
-            'AI Agent Monitoring',
-            'AI Agent Optimization',
+            'Integration Monitoring',
+            'Workflow Optimization',
             'Post-Launch Support'
         ],
         href: '/services/workflow-optimization',
@@ -6886,7 +7137,7 @@ function AIIntegrationProcess() {
                 }
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                lineNumber: 78,
+                lineNumber: 79,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6909,7 +7160,7 @@ function AIIntegrationProcess() {
                         children: "Our Process"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                        lineNumber: 93,
+                        lineNumber: 94,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -6926,7 +7177,7 @@ function AIIntegrationProcess() {
                         children: "Our AI Integration Implementation Process"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                        lineNumber: 109,
+                        lineNumber: 110,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6936,13 +7187,13 @@ function AIIntegrationProcess() {
                             color: '#888888',
                             lineHeight: 1.75,
                             textAlign: 'center',
-                            maxWidth: '640px',
+                            maxWidth: '580px',
                             margin: '0 auto 64px'
                         },
-                        children: "Every AI agent project follows a structured six step process, from workflow discovery through launch, monitoring, and continuous improvement."
+                        children: "Every integration project follows a structured six-step process — from system audit through launch, monitoring, and optimization."
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                        lineNumber: 124,
+                        lineNumber: 125,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7011,12 +7262,12 @@ function AIIntegrationProcess() {
                                                     children: step.num
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                                                    lineNumber: 214,
+                                                    lineNumber: 215,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                                                lineNumber: 198,
+                                                lineNumber: 199,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -7031,18 +7282,18 @@ function AIIntegrationProcess() {
                                                 children: step.title
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                                                lineNumber: 227,
+                                                lineNumber: 228,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, step.num, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                                        lineNumber: 158,
+                                        lineNumber: 159,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                                lineNumber: 148,
+                                lineNumber: 149,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7082,12 +7333,12 @@ function AIIntegrationProcess() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                                            lineNumber: 266,
+                                            lineNumber: 267,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                                        lineNumber: 254,
+                                        lineNumber: 255,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -7102,7 +7353,7 @@ function AIIntegrationProcess() {
                                         children: active.h3
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                                        lineNumber: 281,
+                                        lineNumber: 282,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -7116,7 +7367,7 @@ function AIIntegrationProcess() {
                                         children: active.body
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                                        lineNumber: 295,
+                                        lineNumber: 296,
                                         columnNumber: 13
                                     }, this),
                                     active.note && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7142,12 +7393,12 @@ function AIIntegrationProcess() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                                            lineNumber: 319,
+                                            lineNumber: 320,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                                        lineNumber: 309,
+                                        lineNumber: 310,
                                         columnNumber: 15
                                     }, this),
                                     active.checklist && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7172,7 +7423,7 @@ function AIIntegrationProcess() {
                                                         children: "✓"
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                                                        lineNumber: 352,
+                                                        lineNumber: 353,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -7184,18 +7435,18 @@ function AIIntegrationProcess() {
                                                         children: item
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                                                        lineNumber: 353,
+                                                        lineNumber: 354,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, item, true, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                                                lineNumber: 344,
+                                                lineNumber: 345,
                                                 columnNumber: 19
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                                        lineNumber: 335,
+                                        lineNumber: 336,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7219,12 +7470,12 @@ function AIIntegrationProcess() {
                                                 children: tag
                                             }, tag, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                                                lineNumber: 377,
+                                                lineNumber: 378,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                                        lineNumber: 368,
+                                        lineNumber: 369,
                                         columnNumber: 13
                                     }, this),
                                     active.href && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -7240,7 +7491,7 @@ function AIIntegrationProcess() {
                                         children: active.isFinal ? 'Explore Workflow Optimization →' : 'Explore Custom AI Solutions →'
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                                        lineNumber: 397,
+                                        lineNumber: 398,
                                         columnNumber: 15
                                     }, this),
                                     active.isFinal && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7260,15 +7511,15 @@ function AIIntegrationProcess() {
                                                 textDecoration: 'none',
                                                 display: 'inline-block'
                                             },
-                                            children: "Book a Free AI Agent Strategy Call →"
+                                            children: "Book a Free AI Integration Strategy Call →"
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                                            lineNumber: 417,
+                                            lineNumber: 418,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                                        lineNumber: 416,
+                                        lineNumber: 417,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7298,7 +7549,7 @@ function AIIntegrationProcess() {
                                                 children: "← Previous"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                                                lineNumber: 446,
+                                                lineNumber: 447,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -7319,37 +7570,37 @@ function AIIntegrationProcess() {
                                                 children: "Next →"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                                                lineNumber: 464,
+                                                lineNumber: 465,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                                        lineNumber: 437,
+                                        lineNumber: 438,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                                lineNumber: 244,
+                                lineNumber: 245,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                        lineNumber: 139,
+                        lineNumber: 140,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-                lineNumber: 91,
+                lineNumber: 92,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationProcess.tsx",
-        lineNumber: 69,
+        lineNumber: 70,
         columnNumber: 5
     }, this);
 }
@@ -7364,6 +7615,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// components/services/ai-integration/AIIntegrationService.tsx
 __turbopack_context__.s([
     "default",
     ()=>AIIntegrationService
@@ -7377,43 +7629,41 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 const whoNeedsChecklist = [
-    'High inbound call or chat volume that exceeds team capacity',
-    'Slow lead follow up that costs conversions to faster competitors',
-    'Repeated support questions that do not require human judgment to answer',
-    'Manual booking, scheduling, or intake that delays the customer experience',
-    'Scattered CRM data caused by inconsistent manual entry after calls or chats',
-    'Staff spending significant time on admin tasks that could be automated'
+    'Operations that rely on manual extraction, cleaning, and inputting of data across multiple software environments',
+    'Critical business databases and customer pipelines that fall out of sync, leading to delayed outreach or mismatched status dashboards',
+    'Scaling lead pipelines, incoming user queries, or support systems that overwhelm standard administrative staffing capabilities',
+    'Recently adopted generative AI solutions or voice agents that operate in isolation from main records and internal tools'
 ];
 const scopeSteps = [
     {
         num: '01',
-        title: 'Discovery',
-        body: 'Review current call, chat, CRM, booking, support, and operations workflows.'
+        title: 'Comprehensive System Audits & Technical Discovery',
+        body: 'Deep mapping of your operational platforms, current code bases, and API configurations.'
     },
     {
         num: '02',
-        title: 'Conversation Design',
-        body: 'Define scripts, intents, tone, fallback rules, and escalation paths.'
+        title: 'Data Flow Optimization & Logic Architecture',
+        body: 'Designing the structural blueprints for how data, triggers, and intelligence interact securely.'
     },
     {
         num: '03',
-        title: 'Knowledge Setup',
-        body: 'Build the approved knowledge base, rules, and guardrails the agent operates within.'
+        title: 'Bespoke API Engineering & Connector Development',
+        body: 'Writing clean, high-performance middleware and configuring secure webhook relays.'
     },
     {
         num: '04',
-        title: 'Tool Integration',
-        body: 'Connect the agent with CRMs, calendars, ticket systems, and custom APIs.'
+        title: 'Model Optimization & Content Safeguarding',
+        body: 'Tuning prompt instructions, data processing rules, and token management frameworks.'
     },
     {
         num: '05',
-        title: 'Testing and QA',
-        body: 'Real scenarios, wrong inputs, edge cases, handoffs, and escalation logic.'
+        title: 'End-to-End Functional & Boundary Quality Testing',
+        body: 'Simulating data drops, API limits, validation errors, and multi-tenant performance metrics.'
     },
     {
         num: '06',
-        title: 'Launch, Monitor, and Optimize',
-        body: 'Deploy, review transcripts, refine prompts, improve workflows.'
+        title: 'Deployment, Native Logging, & Iterative Tuning',
+        body: 'Launching live production environments alongside performance tracking dashboards for post-launch enhancement.'
     }
 ];
 function AIIntegrationService() {
@@ -7440,7 +7690,7 @@ function AIIntegrationService() {
                 }
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                lineNumber: 38,
+                lineNumber: 37,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7463,7 +7713,7 @@ function AIIntegrationService() {
                         children: "Our Service"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                        lineNumber: 53,
+                        lineNumber: 52,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -7475,28 +7725,12 @@ function AIIntegrationService() {
                             lineHeight: 1.2,
                             textAlign: 'center',
                             maxWidth: '760px',
-                            margin: '0 auto 20px'
-                        },
-                        children: "AI Agent Development Services Built Around Real Business Workflows"
-                    }, void 0, false, {
-                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                        lineNumber: 69,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            fontFamily: 'DM Sans, sans-serif',
-                            fontSize: '16px',
-                            color: '#888888',
-                            lineHeight: 1.75,
-                            textAlign: 'center',
-                            maxWidth: '680px',
                             margin: '0 auto 56px'
                         },
-                        children: "ThePrimeCrafters is the team that designs, builds, integrates, tests, and continuously improves AI agents for sales, support, admin, and operations. Every agent is built around real business workflows, connected to the tools your team already uses, and scoped carefully so it operates within approved limits from day one."
+                        children: "AI Integrations Built Around Your Existing Tech Stack"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                        lineNumber: 84,
+                        lineNumber: 68,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7546,10 +7780,10 @@ function AIIntegrationService() {
                                                             margin: 0,
                                                             textAlign: 'left'
                                                         },
-                                                        children: "What Are AI Agent Development Services?"
+                                                        children: "What Are AI Integration Services?"
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                                        lineNumber: 134,
+                                                        lineNumber: 119,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -7564,13 +7798,13 @@ function AIIntegrationService() {
                                                         children: "+"
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                                        lineNumber: 146,
+                                                        lineNumber: 131,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                                lineNumber: 120,
+                                                lineNumber: 105,
                                                 columnNumber: 15
                                             }, this),
                                             definitionOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7585,21 +7819,21 @@ function AIIntegrationService() {
                                                         lineHeight: 1.8,
                                                         margin: 0
                                                     },
-                                                    children: "AI agent development services are the process of designing and building AI systems that can understand requests, take approved actions, connect with business tools, and complete multi step workflows, without requiring a human to handle each step manually. This includes scoping the use case, designing the conversation logic, building the agent, integrating it with CRMs and other platforms, testing edge cases, deploying, and improving performance over time."
+                                                    children: "AI integration services comprise the technical strategy, software development, data mapping, and API engineering required to embed intelligent models and automated logic directly inside an organization's existing software stack. Rather than forcing teams to adopt completely new platforms, it updates native systems (such as CRMs, web infrastructures, database servers, and internal tools) so that AI logic functions natively inside current operational channels."
                                                 }, void 0, false, {
                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                                    lineNumber: 161,
+                                                    lineNumber: 146,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                                lineNumber: 160,
+                                                lineNumber: 145,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                        lineNumber: 112,
+                                        lineNumber: 97,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7633,10 +7867,10 @@ function AIIntegrationService() {
                                                             margin: 0,
                                                             textAlign: 'left'
                                                         },
-                                                        children: "Who Needs AI Agent Development Services?"
+                                                        children: "Who Needs AI Integration Services?"
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                                        lineNumber: 199,
+                                                        lineNumber: 184,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -7651,13 +7885,13 @@ function AIIntegrationService() {
                                                         children: "+"
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                                        lineNumber: 211,
+                                                        lineNumber: 196,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                                lineNumber: 185,
+                                                lineNumber: 170,
                                                 columnNumber: 15
                                             }, this),
                                             whoOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7673,10 +7907,10 @@ function AIIntegrationService() {
                                                             lineHeight: 1.7,
                                                             margin: '0 0 14px'
                                                         },
-                                                        children: "AI agents are the right fit for businesses with:"
+                                                        children: "Our tailored systems are built precisely for expanding corporations, agile mid-market organizations, and high-volume enterprises experiencing the following operational bottlenecks:"
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                                        lineNumber: 226,
+                                                        lineNumber: 211,
                                                         columnNumber: 19
                                                     }, this),
                                                     whoNeedsChecklist.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7697,7 +7931,7 @@ function AIIntegrationService() {
                                                                     children: "✓"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                                                    lineNumber: 247,
+                                                                    lineNumber: 232,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -7710,13 +7944,13 @@ function AIIntegrationService() {
                                                                     children: item
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                                                    lineNumber: 248,
+                                                                    lineNumber: 242,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, item, true, {
                                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                                            lineNumber: 238,
+                                                            lineNumber: 223,
                                                             columnNumber: 21
                                                         }, this)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -7730,22 +7964,22 @@ function AIIntegrationService() {
                                                             display: 'inline-block',
                                                             marginTop: '8px'
                                                         },
-                                                        children: "Talk to us about your use case →"
+                                                        children: "Talk to us about your workflow →"
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                                        lineNumber: 253,
+                                                        lineNumber: 254,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                                lineNumber: 225,
+                                                lineNumber: 210,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                        lineNumber: 177,
+                                        lineNumber: 162,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -7766,13 +8000,13 @@ function AIIntegrationService() {
                                         children: "About ThePrimeCrafters →"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                        lineNumber: 272,
+                                        lineNumber: 273,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                lineNumber: 109,
+                                lineNumber: 94,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7790,7 +8024,7 @@ function AIIntegrationService() {
                                         children: "What ThePrimeCrafters Handles"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                        lineNumber: 294,
+                                        lineNumber: 295,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -7801,10 +8035,10 @@ function AIIntegrationService() {
                                             lineHeight: 1.7,
                                             marginBottom: '24px'
                                         },
-                                        children: "End to end from strategy to post launch optimization:"
+                                        children: "We take complete technical ownership of your infrastructure's evolution through a comprehensive service scope:"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                        lineNumber: 307,
+                                        lineNumber: 308,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7835,7 +8069,7 @@ function AIIntegrationService() {
                                                         children: step.num
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                                        lineNumber: 334,
+                                                        lineNumber: 336,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7851,7 +8085,7 @@ function AIIntegrationService() {
                                                                 children: step.title
                                                             }, void 0, false, {
                                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                                                lineNumber: 348,
+                                                                lineNumber: 352,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -7865,36 +8099,36 @@ function AIIntegrationService() {
                                                                 children: step.body
                                                             }, void 0, false, {
                                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                                                lineNumber: 359,
+                                                                lineNumber: 363,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                                        lineNumber: 347,
+                                                        lineNumber: 351,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, step.num, true, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                                lineNumber: 321,
+                                                lineNumber: 322,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                        lineNumber: 319,
+                                        lineNumber: 320,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                lineNumber: 293,
+                                lineNumber: 294,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                        lineNumber: 99,
+                        lineNumber: 84,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7920,7 +8154,7 @@ function AIIntegrationService() {
                                     children: "About Us"
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                    lineNumber: 388,
+                                    lineNumber: 392,
                                     columnNumber: 13
                                 }, this),
                                 ' ',
@@ -7935,31 +8169,31 @@ function AIIntegrationService() {
                                     children: "Contact Page"
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                                    lineNumber: 392,
+                                    lineNumber: 396,
                                     columnNumber: 13
                                 }, this),
                                 "."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                            lineNumber: 379,
+                            lineNumber: 383,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                        lineNumber: 378,
+                        lineNumber: 382,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-                lineNumber: 51,
+                lineNumber: 50,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationService.tsx",
-        lineNumber: 29,
+        lineNumber: 28,
         columnNumber: 5
     }, this);
 }
@@ -8713,6 +8947,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCTA.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// components/services/ai-integration/AIIntegrationCTA.tsx
 __turbopack_context__.s([
     "default",
     ()=>AIIntegrationCTA
@@ -8743,7 +8978,7 @@ function AIIntegrationCTA() {
                 }
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCTA.tsx",
-                lineNumber: 16,
+                lineNumber: 17,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8759,7 +8994,7 @@ function AIIntegrationCTA() {
                 }
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCTA.tsx",
-                lineNumber: 30,
+                lineNumber: 31,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8775,7 +9010,7 @@ function AIIntegrationCTA() {
                 }
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCTA.tsx",
-                lineNumber: 45,
+                lineNumber: 46,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8791,7 +9026,7 @@ function AIIntegrationCTA() {
                 }
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCTA.tsx",
-                lineNumber: 57,
+                lineNumber: 58,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8807,7 +9042,7 @@ function AIIntegrationCTA() {
                 }
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCTA.tsx",
-                lineNumber: 69,
+                lineNumber: 70,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8823,7 +9058,7 @@ function AIIntegrationCTA() {
                 }
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCTA.tsx",
-                lineNumber: 81,
+                lineNumber: 82,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8852,7 +9087,7 @@ function AIIntegrationCTA() {
                         children: "ThePrimeCrafters"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCTA.tsx",
-                        lineNumber: 108,
+                        lineNumber: 109,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -8867,7 +9102,7 @@ function AIIntegrationCTA() {
                         children: "Ready to Connect AI With Your Business Tools?"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCTA.tsx",
-                        lineNumber: 123,
+                        lineNumber: 124,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -8879,10 +9114,10 @@ function AIIntegrationCTA() {
                             maxWidth: '560px',
                             marginBottom: '48px'
                         },
-                        children: "Bring your current call, chat, CRM, booking, or support workflow. We will review the process, identify the best agent use case, and recommend a clear build path in a free strategy call."
+                        children: "Share the systems you need to connect and the workflow outcome you want. We will review your integration and show you what is possible in a free strategy call."
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCTA.tsx",
-                        lineNumber: 137,
+                        lineNumber: 138,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -8924,10 +9159,10 @@ function AIIntegrationCTA() {
                             color: '#666666',
                             marginBottom: '40px'
                         },
-                        children: "Share these details and we will review your current process, identify the best agent use case, and recommend a build path:"
+                        children: "Tell Us the Tools You Want to Connect"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCTA.tsx",
-                        lineNumber: 183,
+                        lineNumber: 184,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -8941,19 +9176,15 @@ function AIIntegrationCTA() {
                         children: [
                             {
                                 icon: '✓',
-                                label: 'Current workflow or process'
+                                label: 'No commitment required'
                             },
                             {
                                 icon: '✓',
-                                label: 'Tools and systems in use'
+                                label: 'Free strategy call'
                             },
                             {
                                 icon: '✓',
-                                label: 'Data sources and CRM setup'
-                            },
-                            {
-                                icon: '✓',
-                                label: 'Goals and success metrics'
+                                label: 'Built around your existing stack'
                             }
                         ].map((t)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 style: {
@@ -8972,7 +9203,7 @@ function AIIntegrationCTA() {
                                         children: t.icon
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCTA.tsx",
-                                        lineNumber: 219,
+                                        lineNumber: 218,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -8984,13 +9215,13 @@ function AIIntegrationCTA() {
                                         children: t.label
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCTA.tsx",
-                                        lineNumber: 229,
+                                        lineNumber: 228,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, t.label, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCTA.tsx",
-                                lineNumber: 211,
+                                lineNumber: 210,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
@@ -9007,7 +9238,7 @@ function AIIntegrationCTA() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCTA.tsx",
-                        lineNumber: 243,
+                        lineNumber: 242,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9041,7 +9272,7 @@ function AIIntegrationCTA() {
                                 children: "View Case Studies →"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCTA.tsx",
-                                lineNumber: 262,
+                                lineNumber: 261,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -9052,7 +9283,7 @@ function AIIntegrationCTA() {
                                 children: "|"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCTA.tsx",
-                                lineNumber: 285,
+                                lineNumber: 284,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -9078,7 +9309,7 @@ function AIIntegrationCTA() {
                                 children: "All Services →"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCTA.tsx",
-                                lineNumber: 286,
+                                lineNumber: 285,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -9089,7 +9320,7 @@ function AIIntegrationCTA() {
                                 children: "|"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCTA.tsx",
-                                lineNumber: 309,
+                                lineNumber: 308,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -9115,25 +9346,25 @@ function AIIntegrationCTA() {
                                 children: "About Us →"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCTA.tsx",
-                                lineNumber: 310,
+                                lineNumber: 309,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCTA.tsx",
-                        lineNumber: 254,
+                        lineNumber: 253,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCTA.tsx",
-                lineNumber: 94,
+                lineNumber: 95,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationCTA.tsx",
-        lineNumber: 7,
+        lineNumber: 8,
         columnNumber: 5
     }, this);
 }
@@ -9161,60 +9392,64 @@ var _s = __turbopack_context__.k.signature();
 ;
 const faqs = [
     {
-        q: 'What is an AI agent?',
-        a: 'AI agents are software systems that can understand requests, take approved actions, use tools, and complete multi step workflows, without a human handling each step manually. Unlike a basic chatbot that returns scripted replies, an AI agent can qualify a lead, update a CRM record, book an appointment, and send a confirmation in a single conversation.'
+        q: 'What are AI integration services?',
+        a: 'AI integration services involve the custom software engineering, data structure alignment, and API link configuration required to connect modern artificial intelligence engines straight into an enterprise\'s current software stack. This enables smart models to read information, evaluate files, make decisions, and update records natively inside daily operational tools without requiring manual data transfer.'
     },
     {
-        q: 'What are AI agent development services?',
-        a: 'AI agent development services cover the full process of building a custom AI agent for your business, scoping the use case, designing the conversation logic, integrating with your tools, testing edge cases, deploying, and improving performance over time. ThePrimeCrafters handles this end to end.'
+        q: 'What systems can ThePrimeCrafters connect with AI?',
+        a: 'Our developers design custom connectors across your entire technological stack, including prominent CRMs (Salesforce, HubSpot, GoHighLevel), cloud database clusters (SQL, PostgreSQL, MongoDB), customer portals, communication layers (Slack, Outlook, Teams), and custom internal legacy software through secure API integrations.',
+        href: '/services',
+        linkLabel: 'View All Services →'
     },
     {
-        q: 'What types of AI agents can ThePrimeCrafters build?',
-        a: 'Voice agents, chat agents, sales and lead qualification agents, booking agents, customer support and ticket routing agents, CRM and follow up agents, internal knowledge assistants, and reporting agents. Each is built for a specific business workflow and connected to the relevant tools.'
-    },
-    {
-        q: 'How is an AI agent different from a basic chatbot?',
-        a: 'Basic chatbots return keyword matched responses from a fixed script. AI agents understand context, handle multi turn conversations, take real actions (updating CRMs, booking appointments, routing tickets), escalate appropriately, and operate within business defined rules and guardrails.'
-    },
-    {
-        q: 'Can AI agents integrate with my existing business tools?',
-        a: 'Yes. ThePrimeCrafters builds agents that integrate with CRMs, calendars, ticketing systems, forms, email platforms, Slack, WhatsApp, databases, and custom APIs. Integration is part of the core build, not an optional add on.',
-        href: '/services/ai-integration',
-        linkLabel: 'Explore AI Integration →'
-    },
-    {
-        q: 'Can an AI agent handle inbound phone calls and bookings?',
-        a: 'Yes. AI voice agents can answer inbound calls, qualify callers, collect booking details, check availability, create appointments in connected calendar systems, send confirmations, and route calls that need human attention, available 24 hours a day.',
-        href: '/case-study/spectrum-voice-agent',
-        linkLabel: 'See Voice Agent Case Study →'
-    },
-    {
-        q: 'Can AI agents qualify leads and follow up automatically?',
-        a: 'Yes. Lead qualification agents can engage inbound leads immediately, ask screening questions, score intent, enrich CRM records, send alerts to sales reps, and trigger follow up sequences, all without waiting on a human to be available.',
+        q: 'Can AI integration connect with my CRM?',
+        a: 'Yes. We specialize in deep CRM connections that empower AI models to automatically create prospect files, adjust active pipeline categories based on phone summaries, record meeting transcripts, compute custom lead values, and prompt timely team follow-up sequences.',
         href: '/case-study/lead-generation-tools',
-        linkLabel: 'See Lead Generation Case Study →'
+        linkLabel: 'See CRM Integration Case Study →'
     },
     {
-        q: 'What is the process for building a custom AI agent?',
-        a: 'Six steps: workflow discovery, use case and ROI mapping, conversation design and knowledge setup, tool integration and build, testing and QA, then launch and ongoing optimization. Each step is structured to reduce risk and ensure the agent works in real conditions before going live.'
+        q: 'How is AI integration different from basic automation connectors?',
+        a: 'Basic out-of-the-box automation bridges simply move raw data fields from point A to point B. Our custom AI integrations embed a smart cognitive layer directly into your workflows — enabling the system to clean text, analyze sentiment, summarize files, check complex conditions, handle errors, and include human validation checkpoints for higher-risk tasks.'
     },
     {
-        q: 'Will AI agents replace my team?',
-        a: 'No. AI agents handle high volume, repetitive conversations and tasks that do not require human judgment, freeing staff to focus on complex work, relationship building, and decisions that actually need a person. They extend team capacity rather than replacing it.'
+        q: 'Can ThePrimeCrafters integrate AI voice agents and chatbots with business tools?',
+        a: 'Absolutely. We bridge front-facing voice agents and conversational chatbots directly to your backend calendars, ticket desks, and client databases. This allows the AI to book appointments, look up support tickets, and update consumer profiles in real time during a call or chat session.',
+        href: '/case-study/spectrum-voice-agent',
+        linkLabel: 'See Voice Agent Integration Case Study →'
     },
     {
-        q: 'Are AI agents safe for sensitive business workflows?',
-        a: 'When designed properly, yes. ThePrimeCrafters builds agents with defined guardrails, fallback rules, escalation paths, and human review gates for sensitive actions. Agents operate only within approved knowledge and permissions, with audit logs maintained throughout.'
+        q: 'What is the process for building an AI integration?',
+        a: 'We follow a structured six-step implementation framework: we start with an intensive workflow and systems audit, map out clear integration opportunities, plan data flows and API architecture, write custom integration code, perform exhaustive edge-case testing, and provide ongoing post-launch monitoring and adjustments.'
     },
     {
-        q: 'How long does it take to build an AI agent?',
-        a: 'Timeline depends on the complexity of the workflow, number of integrations, and testing requirements. Straightforward agents with clear scope and a single integration can launch in a few weeks. More complex multi system agents take longer. Discovery and scoping clarifies the timeline before build begins.'
+        q: 'Do AI integrations require replacing our existing software?',
+        a: 'No. Our core philosophy is to build around the systems you already use. We write secure middleware and link APIs to introduce modern intelligence into your existing platform setup, preserving your software investments and avoiding painful staff retraining.'
     },
     {
-        q: 'How much do AI agent development services cost?',
-        a: 'Cost depends on scope, complexity, integrations, and ongoing support requirements. ThePrimeCrafters scopes each project individually rather than applying fixed pricing. A strategy call is the best starting point to understand what your workflow needs and what a realistic investment looks like.',
+        q: 'How long does an AI integration project take?',
+        a: 'Project timelines depend entirely on the complexity of your workflow and the open accessibility of your software stack. Simple connections using standard API links can go live in 2 to 4 weeks, while complex enterprise systems featuring legacy software adjustments typically span 6 to 12 weeks. We outline definitive timelines during our initial planning phase.'
+    },
+    {
+        q: 'How much do AI integration services cost?',
+        a: 'Every implementation project is customized to reflect the number of software tools involved, data synchronization speeds, and custom logic requirements. We deliver transparent, fixed-price project blueprints after completing your initial system and workflow audit.',
         href: '/contact',
         linkLabel: 'Book a Free Strategy Call →'
+    },
+    {
+        q: 'Are AI integrations safe for sensitive business workflows?',
+        a: 'Yes, data security is our top priority. We implement enterprise-grade encryption layers, use secure OAuth authentication, restrict access based on user roles, and insert human approval gates for sensitive actions like financial updates or external communications.'
+    },
+    {
+        q: 'How do you measure whether an AI integration is working?',
+        a: 'We embed native tracking tools directly into your automated workflows. This allows you to monitor key metrics like manual data handling hours saved, drop-offs in process execution delays, synchronization accuracy rates, and overall workflow performance improvements through clear management dashboards.'
+    },
+    {
+        q: 'Why choose ThePrimeCrafters for AI integration services?',
+        a: 'We stand apart by combining deep business workflow mapping with rigorous software and API engineering. We focus on building secure, robust, and highly scalable solutions designed to solve real operational bottlenecks and drive measurable business growth.',
+        href: '/about-us',
+        linkLabel: 'About ThePrimeCrafters →',
+        href2: '/case-studies',
+        linkLabel2: 'View Case Studies →'
     }
 ];
 const faqSchema = {
@@ -9251,7 +9486,7 @@ function AIIntegrationFAQ() {
                 }
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationFAQ.tsx",
-                lineNumber: 96,
+                lineNumber: 100,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9266,7 +9501,7 @@ function AIIntegrationFAQ() {
                 }
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationFAQ.tsx",
-                lineNumber: 102,
+                lineNumber: 106,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9282,7 +9517,7 @@ function AIIntegrationFAQ() {
                 }
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationFAQ.tsx",
-                lineNumber: 116,
+                lineNumber: 120,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9307,7 +9542,7 @@ function AIIntegrationFAQ() {
                         children: "FAQ"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationFAQ.tsx",
-                        lineNumber: 132,
+                        lineNumber: 136,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -9320,10 +9555,10 @@ function AIIntegrationFAQ() {
                             textAlign: 'center',
                             marginBottom: '16px'
                         },
-                        children: "AI Agent Development Services FAQs"
+                        children: "AI Integration Services FAQs"
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationFAQ.tsx",
-                        lineNumber: 148,
+                        lineNumber: 152,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -9336,10 +9571,10 @@ function AIIntegrationFAQ() {
                             maxWidth: '560px',
                             margin: '0 auto 56px'
                         },
-                        children: "Common questions about AI agents, how they work, what they connect to, and what to expect from a custom AI agent project."
+                        children: "Find precise technical answers to common questions about our AI integration engineering, architectural security protocols, and implementation processes."
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationFAQ.tsx",
-                        lineNumber: 162,
+                        lineNumber: 166,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9390,7 +9625,7 @@ function AIIntegrationFAQ() {
                                                 children: faq.q
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationFAQ.tsx",
-                                                lineNumber: 220,
+                                                lineNumber: 224,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -9407,13 +9642,13 @@ function AIIntegrationFAQ() {
                                                 children: "+"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationFAQ.tsx",
-                                                lineNumber: 234,
+                                                lineNumber: 238,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationFAQ.tsx",
-                                        lineNumber: 204,
+                                        lineNumber: 208,
                                         columnNumber: 17
                                     }, this),
                                     isOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9429,7 +9664,7 @@ function AIIntegrationFAQ() {
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationFAQ.tsx",
-                                                lineNumber: 254,
+                                                lineNumber: 258,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -9444,7 +9679,7 @@ function AIIntegrationFAQ() {
                                                 children: faq.a
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationFAQ.tsx",
-                                                lineNumber: 263,
+                                                lineNumber: 267,
                                                 columnNumber: 21
                                             }, this),
                                             (faq.href || faq.href2) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9470,7 +9705,7 @@ function AIIntegrationFAQ() {
                                                         children: faq.linkLabel
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationFAQ.tsx",
-                                                        lineNumber: 288,
+                                                        lineNumber: 292,
                                                         columnNumber: 27
                                                     }, this),
                                                     faq.href2 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -9488,31 +9723,31 @@ function AIIntegrationFAQ() {
                                                         children: faq.linkLabel2
                                                     }, void 0, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationFAQ.tsx",
-                                                        lineNumber: 305,
+                                                        lineNumber: 309,
                                                         columnNumber: 27
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationFAQ.tsx",
-                                                lineNumber: 279,
+                                                lineNumber: 283,
                                                 columnNumber: 23
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationFAQ.tsx",
-                                        lineNumber: 252,
+                                        lineNumber: 256,
                                         columnNumber: 19
                                     }, this)
                                 ]
                             }, faq.q, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationFAQ.tsx",
-                                lineNumber: 189,
+                                lineNumber: 193,
                                 columnNumber: 15
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationFAQ.tsx",
-                        lineNumber: 177,
+                        lineNumber: 181,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -9534,7 +9769,7 @@ function AIIntegrationFAQ() {
                                 children: "Have a question not covered here?"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationFAQ.tsx",
-                                lineNumber: 340,
+                                lineNumber: 344,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -9550,28 +9785,28 @@ function AIIntegrationFAQ() {
                                     textDecoration: 'none',
                                     display: 'inline-block'
                                 },
-                                children: "Book a Free AI Agent Strategy Call →"
+                                children: "Book a Free AI Integration Strategy Call →"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationFAQ.tsx",
-                                lineNumber: 350,
+                                lineNumber: 354,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationFAQ.tsx",
-                        lineNumber: 331,
+                        lineNumber: 335,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationFAQ.tsx",
-                lineNumber: 130,
+                lineNumber: 134,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/services/ai-integration/components/AIIntegrationFAQ.tsx",
-        lineNumber: 86,
+        lineNumber: 90,
         columnNumber: 5
     }, this);
 }

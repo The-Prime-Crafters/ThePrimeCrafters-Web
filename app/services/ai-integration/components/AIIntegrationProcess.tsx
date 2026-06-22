@@ -1,3 +1,4 @@
+// components/services/ai-integration/AIIntegrationProcess.tsx
 'use client';
 
 import { useState } from 'react';
@@ -6,55 +7,55 @@ import Link from 'next/link';
 const steps = [
   {
     num: '1',
-    title: 'Discovery',
-    h3: '1. Discovery',
-    body: 'We start with your real business context, reviewing current call, chat, email, CRM, booking, support, and operations workflows before designing any agent. Discovery ensures every agent is built around how your business actually handles conversations and tasks today, not a generic template.',
-    tags: ['AI Agent Discovery', 'Workflow Audit', 'Conversation Mapping'],
+    title: 'System and Workflow Audit',
+    h3: '1. System and Workflow Audit',
+    body: 'We start with your real business context — reviewing current tools, workflows, data sources, users, bottlenecks, permissions, and goals before designing anything. This ensures integrations are built around how your business actually operates, not a generic template.',
+    tags: ['System Audit', 'Workflow Review', 'Integration Discovery'],
   },
   {
     num: '2',
-    title: 'Opportunity Mapping',
-    h3: '2. Opportunity Mapping',
-    body: 'We identify and prioritize the conversations and tasks that save the most time, improve response speed, or protect revenue. Starting with high volume, repeatable workflows ensures the first agent delivers clear value before expanding scope.',
-    tags: ['AI Agent Roadmap', 'Automation Opportunity Mapping', 'Priority Mapping'],
+    title: 'Integration Opportunity Mapping',
+    h3: '2. Integration Opportunity Mapping',
+    body: 'We identify which systems should connect first based on business value, manual effort, risk, and workflow volume — then prioritise the highest-impact handoffs to build a clear integration roadmap before any development begins.',
+    tags: ['Integration Roadmap', 'AI Automation Roadmap', 'Priority Mapping'],
     note: 'We connect high-impact handoffs first.',
   },
   {
     num: '3',
-    title: 'Conversation Design',
-    h3: '3. Conversation Design',
-    body: 'Before any build begins, we define scripts, intents, fallback rules, escalation paths, knowledge sources, permissions, and success metrics. Clear guardrails at this stage prevent problems after launch.',
-    tags: ['AI Agent Prompt Design', 'AI Agent Guardrails', 'Conversation Design'],
+    title: 'Data Flow and API Architecture',
+    h3: '3. Data Flow and API Architecture',
+    body: 'We define triggers, APIs, fields, sync direction, permissions, security requirements, exception handling, and human approval paths. Every data flow is planned before a single line of integration code is written.',
+    tags: ['API Architecture', 'Data Flow Mapping', 'Integration Design'],
   },
   {
     num: '4',
-    title: 'Build and Integration',
-    h3: '4. Build and Integration',
-    body: 'We connect the agent with CRMs, calendars, forms, ticket tools, databases, communication tools, or custom APIs where required. Integration is built and tested as part of the core build, not added afterward.',
-    tags: ['AI Agent Integration', 'CRM AI Agent', 'API Connected AI Agent'],
+    title: 'Build Connectors and Automation Logic',
+    h3: '4. Build Connectors and Automation Logic',
+    body: 'We connect tools, build API workflows, add AI logic, create notifications, map data fields, and handle exceptions. Every connector is built for production with real error handling, retry logic, and testing checkpoints throughout the build phase.',
+    tags: ['AI Connector Build', 'API Workflow Automation', 'Custom Integrations'],
     href: '/services/custom-ai-solutions',
   },
   {
     num: '5',
-    title: 'Testing and QA',
-    h3: '5. Testing and QA',
-    body: 'We test real scenarios, wrong inputs, sensitive requests, failed tool calls, duplicate records, handoffs, and escalation logic before launch. The agent does not go live until it handles edge cases reliably.',
-    tags: ['AI Agent Testing', 'Agent QA', 'Conversation QA'],
+    title: 'Test Data Quality, Permissions, and Edge Cases',
+    h3: '5. Test Data Quality, Permissions, and Edge Cases',
+    body: 'We test with sample data, failed syncs, duplicate records, missing fields, permission mismatches, latency, and user handoffs before any integration goes live. QA covers the edge cases that break basic connectors in production.',
+    tags: ['Integration Testing', 'Data Sync Testing', 'API Testing'],
     checklist: [
-      'Real scenario testing',
-      'Wrong input handling',
-      'Failed tool call checks',
+      'Sample data validation',
+      'Failed sync simulation',
       'Duplicate record handling',
-      'Handoff verification',
-      'Escalation logic testing',
+      'Permission and access testing',
+      'Latency and timeout checks',
+      'User handoff verification',
     ],
   },
   {
     num: '6',
-    title: 'Launch, Monitor, and Optimize',
-    h3: '6. Launch, Monitor, and Optimize',
-    body: 'We deploy the agent, monitor transcripts and logs, improve prompts and rules, refine knowledge, and adjust workflows based on real use. Agents improve over time, launch is the beginning, not the end.',
-    tags: ['AI Agent Monitoring', 'AI Agent Optimization', 'Post-Launch Support'],
+    title: 'Launch, Monitor, and Improve Sync',
+    h3: '6. Launch, Monitor, and Improve Sync',
+    body: 'We deploy integrations, monitor errors, review data quality, improve prompts and rules, and adjust the workflow based on real usage. Post-launch optimization is built into the process — not an afterthought.',
+    tags: ['Integration Monitoring', 'Workflow Optimization', 'Post-Launch Support'],
     href: '/services/workflow-optimization',
     isFinal: true,
   },
@@ -128,11 +129,11 @@ export default function AIIntegrationProcess() {
             color: '#888888',
             lineHeight: 1.75,
             textAlign: 'center',
-            maxWidth: '640px',
+            maxWidth: '580px',
             margin: '0 auto 64px',
           }}
         >
-          Every AI agent project follows a structured six step process, from workflow discovery through launch, monitoring, and continuous improvement.
+          Every integration project follows a structured six-step process — from system audit through launch, monitoring, and optimization.
         </p>
 
         {/* Two-column layout: step nav left, detail right */}
@@ -428,7 +429,7 @@ export default function AIIntegrationProcess() {
                     display: 'inline-block',
                   }}
                 >
-                  Book a Free AI Agent Strategy Call →
+                  Book a Free AI Integration Strategy Call →
                 </Link>
               </div>
             )}

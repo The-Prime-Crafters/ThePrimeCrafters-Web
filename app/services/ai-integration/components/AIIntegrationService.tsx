@@ -1,24 +1,23 @@
+// components/services/ai-integration/AIIntegrationService.tsx
 'use client';
 
 import Link from 'next/link';
 import { useState } from 'react';
 
 const whoNeedsChecklist = [
-  'High inbound call or chat volume that exceeds team capacity',
-  'Slow lead follow up that costs conversions to faster competitors',
-  'Repeated support questions that do not require human judgment to answer',
-  'Manual booking, scheduling, or intake that delays the customer experience',
-  'Scattered CRM data caused by inconsistent manual entry after calls or chats',
-  'Staff spending significant time on admin tasks that could be automated',
+  'Operations that rely on manual extraction, cleaning, and inputting of data across multiple software environments',
+  'Critical business databases and customer pipelines that fall out of sync, leading to delayed outreach or mismatched status dashboards',
+  'Scaling lead pipelines, incoming user queries, or support systems that overwhelm standard administrative staffing capabilities',
+  'Recently adopted generative AI solutions or voice agents that operate in isolation from main records and internal tools',
 ];
 
 const scopeSteps = [
-  { num: '01', title: 'Discovery', body: 'Review current call, chat, CRM, booking, support, and operations workflows.' },
-  { num: '02', title: 'Conversation Design', body: 'Define scripts, intents, tone, fallback rules, and escalation paths.' },
-  { num: '03', title: 'Knowledge Setup', body: 'Build the approved knowledge base, rules, and guardrails the agent operates within.' },
-  { num: '04', title: 'Tool Integration', body: 'Connect the agent with CRMs, calendars, ticket systems, and custom APIs.' },
-  { num: '05', title: 'Testing and QA', body: 'Real scenarios, wrong inputs, edge cases, handoffs, and escalation logic.' },
-  { num: '06', title: 'Launch, Monitor, and Optimize', body: 'Deploy, review transcripts, refine prompts, improve workflows.' },
+  { num: '01', title: 'Comprehensive System Audits & Technical Discovery', body: 'Deep mapping of your operational platforms, current code bases, and API configurations.' },
+  { num: '02', title: 'Data Flow Optimization & Logic Architecture', body: 'Designing the structural blueprints for how data, triggers, and intelligence interact securely.' },
+  { num: '03', title: 'Bespoke API Engineering & Connector Development', body: 'Writing clean, high-performance middleware and configuring secure webhook relays.' },
+  { num: '04', title: 'Model Optimization & Content Safeguarding', body: 'Tuning prompt instructions, data processing rules, and token management frameworks.' },
+  { num: '05', title: 'End-to-End Functional & Boundary Quality Testing', body: 'Simulating data drops, API limits, validation errors, and multi-tenant performance metrics.' },
+  { num: '06', title: 'Deployment, Native Logging, & Iterative Tuning', body: 'Launching live production environments alongside performance tracking dashboards for post-launch enhancement.' },
 ];
 
 export default function AIIntegrationService() {
@@ -75,25 +74,11 @@ export default function AIIntegrationService() {
             lineHeight: 1.2,
             textAlign: 'center',
             maxWidth: '760px',
-            margin: '0 auto 20px',
-          }}
-        >
-          AI Agent Development Services Built Around Real Business Workflows
-        </h2>
-
-        <p
-          style={{
-            fontFamily: 'DM Sans, sans-serif',
-            fontSize: '16px',
-            color: '#888888',
-            lineHeight: 1.75,
-            textAlign: 'center',
-            maxWidth: '680px',
             margin: '0 auto 56px',
           }}
         >
-          ThePrimeCrafters is the team that designs, builds, integrates, tests, and continuously improves AI agents for sales, support, admin, and operations. Every agent is built around real business workflows, connected to the tools your team already uses, and scoped carefully so it operates within approved limits from day one.
-        </p>
+          AI Integrations Built Around Your Existing Tech Stack
+        </h2>
 
         {/* Two-column: accordions left, scope right */}
         <div
@@ -141,7 +126,7 @@ export default function AIIntegrationService() {
                     textAlign: 'left',
                   }}
                 >
-                  What Are AI Agent Development Services?
+                  What Are AI Integration Services?
                 </h3>
                 <span
                   style={{
@@ -167,7 +152,7 @@ export default function AIIntegrationService() {
                       margin: 0,
                     }}
                   >
-                    AI agent development services are the process of designing and building AI systems that can understand requests, take approved actions, connect with business tools, and complete multi step workflows, without requiring a human to handle each step manually. This includes scoping the use case, designing the conversation logic, building the agent, integrating it with CRMs and other platforms, testing edge cases, deploying, and improving performance over time.
+                    AI integration services comprise the technical strategy, software development, data mapping, and API engineering required to embed intelligent models and automated logic directly inside an organization's existing software stack. Rather than forcing teams to adopt completely new platforms, it updates native systems (such as CRMs, web infrastructures, database servers, and internal tools) so that AI logic functions natively inside current operational channels.
                   </p>
                 </div>
               )}
@@ -206,7 +191,7 @@ export default function AIIntegrationService() {
                     textAlign: 'left',
                   }}
                 >
-                  Who Needs AI Agent Development Services?
+                  Who Needs AI Integration Services?
                 </h3>
                 <span
                   style={{
@@ -232,7 +217,7 @@ export default function AIIntegrationService() {
                       margin: '0 0 14px',
                     }}
                   >
-                    AI agents are the right fit for businesses with:
+                    Our tailored systems are built precisely for expanding corporations, agile mid-market organizations, and high-volume enterprises experiencing the following operational bottlenecks:
                   </p>
                   {whoNeedsChecklist.map((item) => (
                     <div
@@ -244,8 +229,24 @@ export default function AIIntegrationService() {
                         marginBottom: '12px',
                       }}
                     >
-                      <span style={{ color: '#C9A84C', fontSize: '14px', marginTop: '2px', flexShrink: 0 }}>✓</span>
-                      <span style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '14px', color: '#A0A0A0', lineHeight: 1.7 }}>
+                      <span
+                        style={{
+                          color: '#C9A84C',
+                          fontSize: '14px',
+                          marginTop: '2px',
+                          flexShrink: 0,
+                        }}
+                      >
+                        ✓
+                      </span>
+                      <span
+                        style={{
+                          fontFamily: 'DM Sans, sans-serif',
+                          fontSize: '14px',
+                          color: '#A0A0A0',
+                          lineHeight: 1.7,
+                        }}
+                      >
                         {item}
                       </span>
                     </div>
@@ -262,7 +263,7 @@ export default function AIIntegrationService() {
                       marginTop: '8px',
                     }}
                   >
-                    Talk to us about your use case →
+                    Talk to us about your workflow →
                   </Link>
                 </div>
               )}
@@ -313,7 +314,7 @@ export default function AIIntegrationService() {
                 marginBottom: '24px',
               }}
             >
-              End to end from strategy to post launch optimization:
+              We take complete technical ownership of your infrastructure's evolution through a comprehensive service scope:
             </p>
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
@@ -331,6 +332,7 @@ export default function AIIntegrationService() {
                         : 'none',
                   }}
                 >
+                  {/* Number */}
                   <span
                     style={{
                       fontFamily: 'DM Sans, sans-serif',
@@ -344,6 +346,8 @@ export default function AIIntegrationService() {
                   >
                     {step.num}
                   </span>
+
+                  {/* Content */}
                   <div>
                     <h3
                       style={{

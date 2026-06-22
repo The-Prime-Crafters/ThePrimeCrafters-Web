@@ -1,3 +1,4 @@
+// components/services/ai-integration/AIIntegrationArchitecture.tsx
 'use client';
 
 import Link from 'next/link';
@@ -6,17 +7,17 @@ const layers = [
   {
     step: 'Step 1',
     label: 'Inputs',
-    h3: 'Triggers that start an agent workflow',
-    body: 'Every agent workflow starts with a clear input, an inbound call, website chat, form submission, email, CRM event, or file upload that triggers the agent to begin understanding the request and deciding what action to take.',
+    h3: 'Forms, Calls, Chats, Files, Databases, and CRM Events',
+    body: 'Every integration starts with a trigger — a form submission, CRM event, incoming call, uploaded file, database change, or scheduled data pull that initiates the workflow.',
     chips: ['Web Forms', 'CRM Events', 'Inbound Calls', 'Chat Messages', 'File Uploads', 'Database Changes', 'Scheduled Pulls'],
     color: '#C9A84C',
     icon: '⚡',
   },
   {
     step: 'Step 2',
-    label: 'Knowledge & Logic',
-    h3: 'Approved content the agent operates within',
-    body: 'Agents operate within approved knowledge, scripts, product details, service rules, tone guidelines, escalation thresholds, and guardrails that define exactly what the agent can say, ask, and do before taking any action.',
+    label: 'AI Logic',
+    h3: 'Classify, Summarise, Score, Route, and Draft',
+    body: 'AI acts as the decision and assistance layer — classifying requests, summarising conversations, scoring leads, routing to the right owner, and drafting replies or records before passing output to connected systems.',
     chips: ['Classify', 'Summarise', 'Score', 'Route', 'Draft', 'Extract', 'Prioritise'],
     color: '#E8C97A',
     icon: '🧠',
@@ -24,9 +25,9 @@ const layers = [
   },
   {
     step: 'Step 3',
-    label: 'Actions',
-    h3: 'What the agent actually does',
-    body: 'Based on the input and approved logic, the agent takes specific actions, qualifying a lead, answering a question, booking an appointment, updating a CRM record, routing a ticket, drafting a reply, or generating a report.',
+    label: 'Integrations',
+    h3: 'CRM Updates, Notifications, Reports, Tasks, and Approvals',
+    body: 'AI output moves directly into the systems your team uses — updating CRM records, creating tasks, routing tickets, generating reports, sending alerts, and requesting approvals where human review is required.',
     chips: ['CRM Updated', 'Task Created', 'Ticket Routed', 'Report Generated', 'Alert Sent', 'Approval Requested'],
     color: '#C9A84C',
     icon: '🔗',
@@ -35,8 +36,8 @@ const layers = [
   {
     step: 'Step 4',
     label: 'Human Review',
-    h3: 'Where humans stay in control',
-    body: 'Not every action should be fully automated. Approval gates, fallback rules, escalation paths, permissions, and audit logs keep humans in control for sensitive decisions, so agents stay practical, trustworthy, and safe for real business operations.',
+    h3: 'Human Review for Sensitive Actions',
+    body: 'Not every step should be fully automated. Approval gates, review queues, escalation rules, permissions, and audit-friendly logs keep sensitive decisions under human control while automating everything before and after.',
     chips: ['Approval Gates', 'Review Queues', 'Escalation Rules', 'Permission Controls', 'Audit Logs'],
     color: '#E8C97A',
     icon: '✅',
@@ -84,7 +85,7 @@ export default function AIIntegrationArchitecture() {
             textAlign: 'center',
           }}
         >
-          Agent Architecture
+          AI + Integration Layer
         </p>
 
         {/* H2 */}
@@ -110,11 +111,11 @@ export default function AIIntegrationArchitecture() {
             color: '#888888',
             lineHeight: 1.75,
             textAlign: 'center',
-            maxWidth: '640px',
+            maxWidth: '600px',
             margin: '0 auto 72px',
           }}
         >
-          Inputs trigger knowledge and logic. Logic drives approved actions. Actions produce outputs. Sensitive steps route to human review. Each layer connects to the next as one controlled workflow.
+          Inputs trigger AI logic. AI logic drives integrations. Integrations produce outputs. Sensitive steps route to human review. Each layer connects to the next as one continuous workflow.
         </p>
 
         {/* Architecture flow */}

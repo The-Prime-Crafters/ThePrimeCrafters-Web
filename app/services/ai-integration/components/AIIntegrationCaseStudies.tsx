@@ -200,8 +200,9 @@ function CaseStudyCard({ cs }: { cs: (typeof caseStudies)[0] }) {
         padding: '32px 28px',
         display: 'flex',
         flexDirection: 'column',
-        gap: '16px',
+        gap: '0px', // Managed by internal margins for precision
         transition: 'border-color 0.25s, background 0.25s',
+        height: '100%', // Ensure all cards fill the grid row height
       }}
       onMouseEnter={(e) => {
         const el = e.currentTarget as HTMLDivElement;
@@ -223,13 +224,13 @@ function CaseStudyCard({ cs }: { cs: (typeof caseStudies)[0] }) {
           letterSpacing: '1.5px',
           textTransform: 'uppercase',
           color: '#C9A84C',
-          margin: 0,
+          margin: '0 0 16px 0',
         }}
       >
         {cs.category}
       </p>
 
-      {/* H3 */}
+      {/* H3 - Fixed height to ensure titles align */}
       <h3
         style={{
           fontFamily: 'Playfair Display, serif',
@@ -237,52 +238,58 @@ function CaseStudyCard({ cs }: { cs: (typeof caseStudies)[0] }) {
           fontWeight: 700,
           color: '#FFFFFF',
           lineHeight: 1.3,
-          margin: 0,
+          margin: '0 0 16px 0',
+          minHeight: '52px', // Accommodates 2 lines of text
+          display: 'flex',
+          alignItems: 'flex-start',
         }}
       >
         {cs.h3}
       </h3>
 
-      {/* Body */}
+      {/* Body - Flex grow with fixed min height for alignment */}
       <p
         style={{
           fontFamily: 'DM Sans, sans-serif',
           fontSize: '14px',
           color: '#888888',
           lineHeight: 1.75,
-          margin: 0,
+          margin: '0 0 24px 0',
           flexGrow: 1,
+          minHeight: '80px', // Ensures descriptions start the next section at the same point
         }}
       >
         {cs.body}
       </p>
 
-      {/* Healthcare note */}
-      {cs.note && (
-        <div
-          style={{
-            background: 'rgba(201,168,76,0.05)',
-            border: '1px solid rgba(201,168,76,0.15)',
-            borderLeft: '3px solid rgba(201,168,76,0.4)',
-            borderRadius: '6px',
-            padding: '10px 14px',
-          }}
-        >
-          <p
+      {/* Healthcare note - Absolute positioning placeholder to avoid shifting layout */}
+      <div style={{ minHeight: '60px', marginBottom: '24px' }}>
+        {('note' in cs) && cs.note ? (
+          <div
             style={{
-              fontFamily: 'DM Sans, sans-serif',
-              fontSize: '12px',
-              color: 'rgba(201,168,76,0.7)',
-              margin: 0,
-              fontStyle: 'italic',
+              background: 'rgba(201,168,76,0.05)',
+              border: '1px solid rgba(201,168,76,0.15)',
+              borderLeft: '3px solid rgba(201,168,76,0.4)',
+              borderRadius: '6px',
+              padding: '10px 14px',
             }}
           >
-            {cs.note}
-          </p>
-        </div>
-      )}
+            <p
+              style={{
+                fontFamily: 'DM Sans, sans-serif',
+                fontSize: '12px',
+                color: 'rgba(201,168,76,0.7)',
+                margin: 0,
+                fontStyle: 'italic',
+              }}
+            >
+              {cs.note}
+            </p>
+          </div>
+        ) : null}
+      </div>
 
-      {/* Metric */}
+      {/* Metric - Fixed layout */}
       <div
         style={{
           display: 'flex',
@@ -292,6 +299,8 @@ function CaseStudyCard({ cs }: { cs: (typeof caseStudies)[0] }) {
           background: 'rgba(201,168,76,0.06)',
           border: '1px solid rgba(201,168,76,0.15)',
           borderRadius: '10px',
+          marginBottom: '24px',
+          minHeight: '66px',
         }}
       >
         <span
@@ -316,8 +325,8 @@ function CaseStudyCard({ cs }: { cs: (typeof caseStudies)[0] }) {
         </span>
       </div>
 
-      {/* Keyword pills */}
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
+      {/* Keyword pills - Fixed container height */}
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px', marginBottom: '24px', minHeight: '48px' }}>
         {cs.keywords.map((kw) => (
           <span
             key={kw}
@@ -330,6 +339,7 @@ function CaseStudyCard({ cs }: { cs: (typeof caseStudies)[0] }) {
               border: '1px solid rgba(201,168,76,0.12)',
               borderRadius: '999px',
               padding: '3px 10px',
+              height: 'fit-content',
             }}
           >
             {kw}
@@ -349,6 +359,7 @@ function CaseStudyCard({ cs }: { cs: (typeof caseStudies)[0] }) {
           display: 'inline-flex',
           alignItems: 'center',
           gap: '4px',
+          marginTop: 'auto', // Pushes link to the very bottom
         }}
       >
         View case study →

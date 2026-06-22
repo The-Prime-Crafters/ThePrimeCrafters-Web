@@ -5,28 +5,28 @@ import Link from 'next/link';
 
 const problems = [
   {
-    icon: '⚡',
-    h3: 'Delayed Responses Reduce Conversion',
-    body: 'Prospects expect quick answers, qualification, and next steps. Every hour a lead waits is an opportunity for a competitor to respond first. AI agents qualify and respond immediately, any time of day, any day of the week.',
-    href: '/case-study/lead-generation-tools',
+    icon: '🔌',
+    h3: 'AI Tools Sit Outside Daily Workflows',
+    body: 'AI output loses value when it stays in chat windows, PDFs, or separate tools instead of updating the business systems your team works in every day.',
+    href: '/services/custom-ai-solutions',
   },
   {
-    icon: '🔁',
-    h3: 'Staff Time Lost to Repetitive Tasks',
-    body: 'Answering FAQs, collecting intake details, checking availability, sending reminders, updating tickets, and logging notes, repeated manually every day by staff whose time is better spent on work that actually needs human judgment.',
+    icon: '📋',
+    h3: 'Teams Still Copy Data Between Systems',
+    body: 'Moving leads from forms to CRM, copying call notes, updating spreadsheets, sending reminders, and creating tickets — all done manually, every day.',
     href: '/services/process-automation',
   },
   {
-    icon: '🔌',
-    h3: 'AI Without Integration Creates No Real Value',
-    body: 'AI agents only create real value when conversations produce clean records, tasks, bookings, summaries, and follow ups inside business tools. An isolated chat window that does not write to the CRM, create a task, or trigger a next step is not an agent — it is a more expensive FAQ page.',
-    href: '/services/ai-integration',
+    icon: '🔄',
+    h3: 'Customer and Lead Data Gets Out of Sync',
+    body: 'Duplicate records, missed follow-ups, outdated pipeline status, and support teams working from incomplete information all trace back to disconnected systems.',
+    href: '/case-study/lead-generation-tools',
   },
   {
     icon: '⚠️',
-    h3: 'Prebuilt Bots Fail Outside Scripted Paths',
-    body: 'Real agents need scripts, business rules, escalation paths, approval gates, tool access, testing, and clear boundaries. Prebuilt bots fail the moment a conversation goes beyond a simple FAQ.',
-    href: '/services/custom-ai-solutions',
+    h3: 'Basic Connectors Break When Logic Gets Complex',
+    body: 'Real AI integrations need data mapping, API logic, error handling, permissions, testing, and sometimes human approval — far beyond what simple no-code connectors can handle.',
+    href: '/services/workflow-optimization',
   },
 ];
 
@@ -84,7 +84,7 @@ export default function AIIntegrationProblem() {
             margin: '0 auto 20px',
           }}
         >
-          Missed Calls, Slow Follow Up, and Repetitive Tasks All Have the Same Fix
+          Disconnected Tools Keep AI From Creating Real Business Value
         </h2>
 
         <p
@@ -94,11 +94,11 @@ export default function AIIntegrationProblem() {
             color: '#888888',
             lineHeight: 1.75,
             textAlign: 'center',
-            maxWidth: '640px',
+            maxWidth: '580px',
             margin: '0 auto 56px',
           }}
         >
-          Missed calls, slow lead follow up, repeated support questions, manual CRM updates, scheduling delays, and staff spending time on routine tasks all share the same fix. Every one of these problems is a conversation or task that an AI agent can handle, faster, more consistently, and without adding headcount.
+          Isolated AI tools, manual copying, broken handoffs, stale CRM records, and scattered data all share one root cause — the systems are not connected.
         </p>
 
         {/* Pain-point cards */}
@@ -179,7 +179,7 @@ export default function AIIntegrationProblem() {
           ))}
         </div>
 
-        {/* Contrast block: Basic Bot vs Custom AI Agent */}
+        {/* Contrast block: Basic connector vs AI Integration */}
         <div
           style={{
             display: 'grid',
@@ -191,8 +191,13 @@ export default function AIIntegrationProblem() {
             marginBottom: '56px',
           }}
         >
-          {/* Basic Bot */}
-          <div style={{ background: 'rgba(255,255,255,0.02)', padding: '36px 32px' }}>
+          {/* Basic connector */}
+          <div
+            style={{
+              background: 'rgba(255,255,255,0.02)',
+              padding: '36px 32px',
+            }}
+          >
             <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
@@ -204,25 +209,45 @@ export default function AIIntegrationProblem() {
                 marginBottom: '20px',
               }}
             >
-              Basic Bot
+              Basic Connector
             </p>
             {[
-              'Keyword triggers only',
-              'Breaks outside scripted paths',
-              'No CRM or tool connections',
-              'No escalation or fallback logic',
+              'Simple if/then triggers',
+              'Breaks with exceptions',
+              'No AI decision logic',
+              'Limited integration depth',
             ].map((item) => (
-              <div key={item} style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '12px' }}>
+              <div
+                key={item}
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '10px',
+                  marginBottom: '12px',
+                }}
+              >
                 <span style={{ color: '#555555', fontSize: '14px' }}>✕</span>
-                <span style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '14px', color: '#666666' }}>
+                <span
+                  style={{
+                    fontFamily: 'DM Sans, sans-serif',
+                    fontSize: '14px',
+                    color: '#666666',
+                  }}
+                >
                   {item}
                 </span>
               </div>
             ))}
           </div>
 
-          {/* Custom AI Agent */}
-          <div style={{ background: 'rgba(201,168,76,0.05)', padding: '36px 32px', borderLeft: '1px solid rgba(201,168,76,0.2)' }}>
+          {/* AI Integration */}
+          <div
+            style={{
+              background: 'rgba(201,168,76,0.05)',
+              padding: '36px 32px',
+              borderLeft: '1px solid rgba(201,168,76,0.2)',
+            }}
+          >
             <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
@@ -234,17 +259,31 @@ export default function AIIntegrationProblem() {
                 marginBottom: '20px',
               }}
             >
-              Custom AI Agent (ThePrimeCrafters)
+              AI Integration
             </p>
             {[
-              'Understands context and business intent',
-              'Handles complex multi turn conversations',
-              'Connected to CRMs, calendars, and APIs',
-              'Escalates correctly when limits are reached',
+              'Maps real business workflows',
+              'Classifies, routes, and drafts with AI',
+              'Connects CRMs, forms, and internal tools',
+              'Supports human approvals where needed',
             ].map((item) => (
-              <div key={item} style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '12px' }}>
+              <div
+                key={item}
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '10px',
+                  marginBottom: '12px',
+                }}
+              >
                 <span style={{ color: '#C9A84C', fontSize: '14px' }}>✓</span>
-                <span style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '14px', color: '#CCCCCC' }}>
+                <span
+                  style={{
+                    fontFamily: 'DM Sans, sans-serif',
+                    fontSize: '14px',
+                    color: '#CCCCCC',
+                  }}
+                >
                   {item}
                 </span>
               </div>
@@ -268,7 +307,7 @@ export default function AIIntegrationProblem() {
               display: 'inline-block',
             }}
           >
-            Talk to an AI Agent Expert →
+            Talk to an AI Integration Expert →
           </Link>
         </div>
       </div>

@@ -21,6 +21,10 @@ export const metadata = {
   alternates: {
     canonical: 'https://www.theprimecrafters.com/services/workflow-optimization',
   },
+   robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function WorkflowOptimizationPage() {

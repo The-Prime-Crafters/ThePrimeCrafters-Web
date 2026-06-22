@@ -1,3 +1,4 @@
+// components/services/ai-integration/AIIntegrationCTA.tsx
 'use client';
 
 import Link from 'next/link';
@@ -144,8 +145,7 @@ export default function AIIntegrationCTA() {
             marginBottom: '48px',
           }}
         >
-         Bring your current call, chat, CRM, booking, or support workflow. We will review the process, identify the best agent use case, and recommend a clear build path in a free strategy call.
-
+          Share the systems you need to connect and the workflow outcome you want. We will review your integration and show you what is possible in a free strategy call.
         </p>
 
         {/* Primary CTA button */}
@@ -176,6 +176,7 @@ export default function AIIntegrationCTA() {
             el.style.boxShadow = '0 8px 32px rgba(201,168,76,0.25)';
           }}
         >
+          {/* H3: Primary CTA label */}
           Book a Free AI Integration Strategy Call →
         </Link>
 
@@ -188,8 +189,7 @@ export default function AIIntegrationCTA() {
             marginBottom: '40px',
           }}
         >
-          Share these details and we will review your current process, identify the best agent use case, and recommend a build path:
-
+          Tell Us the Tools You Want to Connect
         </p>
 
         {/* Trust row */}
@@ -203,10 +203,9 @@ export default function AIIntegrationCTA() {
           }}
         >
           {[
-            { icon: '✓', label: 'Current workflow or process' },
-            { icon: '✓', label: 'Tools and systems in use' },
-            { icon: '✓', label: 'Data sources and CRM setup' },
-            { icon: '✓', label: 'Goals and success metrics' },
+            { icon: '✓', label: 'No commitment required' },
+            { icon: '✓', label: 'Free strategy call' },
+            { icon: '✓', label: 'Built around your existing stack' },
           ].map((t) => (
             <div
               key={t.label}
