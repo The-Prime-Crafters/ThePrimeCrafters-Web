@@ -1,3 +1,3 @@
-module.exports=[35639,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(68095);a.n(d("[project]/prime/ThePrimeCrafters-Web/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},13568,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(68095);a.n(d("[project]/prime/ThePrimeCrafters-Web/node_modules/next/dist/client/components/builtin/global-error.js"))},13898,a=>{"use strict";a.i(35639);var b=a.i(13568);a.n(b)}];
+module.exports=[154325,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(468095);a.n(d("[project]/prime/ThePrimeCrafters-Web/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},513568,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(468095);a.n(d("[project]/prime/ThePrimeCrafters-Web/node_modules/next/dist/client/components/builtin/global-error.js"))},813898,a=>{"use strict";a.i(154325);var b=a.i(513568);a.n(b)}];
 
 //# sourceMappingURL=5c776_next_dist_client_components_builtin_global-error_2543ef11.js.map

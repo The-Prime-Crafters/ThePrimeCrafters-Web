@@ -2,8 +2,8 @@ var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/terms-and-c
 R.c("server/chunks/ssr/[root-of-the-server]__f4e2a9dd._.js")
 R.c("server/chunks/ssr/5c776_next_dist_bdc349e2._.js")
 R.c("server/chunks/ssr/prime_ThePrimeCrafters-Web_718606ec._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__213f515f._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__15fa2494._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__08e5977b._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__b9c9ae74._.js")
 R.c("server/chunks/ssr/5c776_next_dist_3fd80ab8._.js")
 R.c("server/chunks/ssr/5c776_next_dist_client_components_builtin_global-error_2543ef11.js")
 R.c("server/chunks/ssr/prime_ThePrimeCrafters-Web_9d269ebd._.js")
@@ -11,5 +11,5 @@ R.c("server/chunks/ssr/5c776_next_dist_client_components_faaf989a._.js")
 R.c("server/chunks/ssr/5c776_next_dist_client_components_builtin_forbidden_21a5d102.js")
 R.c("server/chunks/ssr/5c776_next_dist_client_components_builtin_unauthorized_c5690c5d.js")
 R.c("server/chunks/ssr/82832__next-internal_server_app_terms-and-conditions_page_actions_e54f18aa.js")
-R.m(90551)
-module.exports=R.m(90551).exports
+R.m(490551)
+module.exports=R.m(490551).exports

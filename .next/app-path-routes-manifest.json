@@ -2,6 +2,8 @@
   "/_global-error/page": "/_global-error",
   "/_not-found/page": "/_not-found",
   "/about-us/page": "/about-us",
+  "/blog/[slug]/page": "/blog/[slug]",
+  "/blog/page": "/blog",
   "/case-studies/page": "/case-studies",
   "/case-study/[slug]/page": "/case-study/[slug]",
   "/contact/page": "/contact",
@@ -16,5 +18,6 @@
   "/services/process-automation/page": "/services/process-automation",
   "/services/workflow-optimization/page": "/services/workflow-optimization",
   "/sitemap.xml/route": "/sitemap.xml",
+  "/studio/[[...tool]]/page": "/studio/[[...tool]]",
   "/terms-and-conditions/page": "/terms-and-conditions"
 }

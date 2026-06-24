@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[236614,["/_next/static/chunks/c449871c6b98432e.js","/_next/static/chunks/84b468724a89bd8e.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+0:{"buildId":"sOlKQcBOAak9Gg6r9mAgi","rsc":["$","$1","c",{"children":[["$","main",null,{"children":[["$","section",null,{"className":"bg-gray-950 text-white py-24 px-6 text-center","children":[["$","p",null,{"className":"text-blue-400 text-sm font-semibold uppercase tracking-widest mb-4","children":"Our Blog"}],["$","h1",null,{"className":"text-4xl md:text-6xl font-bold mb-6","children":"Insights & Resources"}],["$","p",null,{"className":"text-gray-400 max-w-2xl mx-auto text-lg","children":"Expert tips, industry insights, and behind-the-scenes from The Prime Crafters team."}]]}],["$","section",null,{"className":"max-w-7xl mx-auto px-6 py-20","children":["$","p",null,{"className":"text-center text-gray-400 py-20","children":"No posts published yet. Check back soon!"}]}]]}],[["$","script","script-0",{"src":"/_next/static/chunks/ab4ac27d83263ef3.js","async":true}]],["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"loading":null,"isPartial":false}
+4:null

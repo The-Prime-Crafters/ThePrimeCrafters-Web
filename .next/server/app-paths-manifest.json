@@ -2,6 +2,8 @@
   "/_global-error/page": "app/_global-error/page.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/about-us/page": "app/about-us/page.js",
+  "/blog/[slug]/page": "app/blog/[slug]/page.js",
+  "/blog/page": "app/blog/page.js",
   "/case-studies/page": "app/case-studies/page.js",
   "/case-study/[slug]/page": "app/case-study/[slug]/page.js",
   "/contact/page": "app/contact/page.js",
@@ -16,5 +18,6 @@
   "/services/process-automation/page": "app/services/process-automation/page.js",
   "/services/workflow-optimization/page": "app/services/workflow-optimization/page.js",
   "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/studio/[[...tool]]/page": "app/studio/[[...tool]]/page.js",
   "/terms-and-conditions/page": "app/terms-and-conditions/page.js"
 }
