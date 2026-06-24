@@ -1,5 +1,21 @@
 import { groq } from 'next-sanity'
 
+export const latestPostsQuery = groq`
+  *[_type == "post"] | order(publishedAt desc) [0...6] {
+    _id,
+    title,
+    slug,
+    publishedAt,
+    excerpt,
+    mainImage {
+      asset->{ _id, url },
+      alt
+    },
+    categories[]->{ title },
+    author->{ name, image { asset->{ url } } }
+  }
+`
+
 export const allPostsQuery = groq`
   *[_type == "post"] | order(publishedAt desc) {
     _id,
