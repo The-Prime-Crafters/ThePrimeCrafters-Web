@@ -1,7 +1,7 @@
 import { groq } from 'next-sanity'
 
 export const latestPostsQuery = groq`
-  *[_type == "post"] | order(publishedAt desc) [0...6] {
+  *[_type == "post"] | order(publishedAt desc) [0...7] {
     _id,
     title,
     slug,
