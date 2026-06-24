@@ -1,0 +1,20 @@
+/* Blog specific styles */
+.prose-invert h2 {
+  @apply text-2xl font-bold mt-12 mb-6 text-white;
+}
+
+.prose-invert p {
+  @apply text-gray-400 leading-relaxed mb-6;
+}
+
+.prose-invert table {
+  @apply w-full border-collapse border border-white/10 my-8;
+}
+
+.prose-invert th, .prose-invert td {
+  @apply border border-white/10 p-4 text-left;
+}
+
+.prose-invert thead {
+  @apply bg-white/5;
+}

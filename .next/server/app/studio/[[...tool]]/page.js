@@ -2,7 +2,7 @@ var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/studio/[
 R.c("server/chunks/ssr/[root-of-the-server]__5f254a21._.js")
 R.c("server/chunks/ssr/5c776_next_dist_bdc349e2._.js")
 R.c("server/chunks/ssr/prime_ThePrimeCrafters-Web_5d67a533._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__08e5977b._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__1f2fc7d0._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__b9c9ae74._.js")
 R.c("server/chunks/ssr/5c776_next_dist_3fd80ab8._.js")
 R.c("server/chunks/ssr/5c776_next_dist_client_components_builtin_global-error_2543ef11.js")

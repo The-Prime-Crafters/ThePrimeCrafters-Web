@@ -37,11 +37,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const { slug } = await params
   const post = await client.fetch(postBySlugQuery, { slug })
 
-  if (!post) notFound()
-
-  const formattedDate = new Date(post.publishedAt).toLocaleDateString('en-US', {
-    year: 'numeric', month: 'long', day: 'numeric',
-  })
+const BlogDetailPage = ({ params }: { params: { slug: string } }) => {
+  const post = getBlogPost(params.slug);
 
   const authorLinkedin = post.author?.linkedin || 'https://www.linkedin.com/in/areej-abbas-b32096211'
   const authorBio = post.author?.bio || 'Areej Abbas is an SEO-optimized content writer, digital strategist, and virtual assistant with a proven track record of helping brands build authority and rank online. Specializing at the intersection of modern technology and content creation, she expertly crafts copy across dynamic industries like AI automation, digital products, and AI-driven domain investing. With a strong background in project management and social media, Areej blends search engine strategy with engaging storytelling to turn casual readers into loyal clients.'

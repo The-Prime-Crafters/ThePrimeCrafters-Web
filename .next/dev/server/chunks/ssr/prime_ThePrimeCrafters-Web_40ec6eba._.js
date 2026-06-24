@@ -33,6 +33,10 @@ const navLinks = [
     {
         name: "Contact",
         href: "/contact"
+    },
+    {
+        name: "Blog",
+        href: "/blog"
     }
 ];
 function Navbar() {
@@ -64,7 +68,7 @@ function Navbar() {
                                     className: "h-8 w-auto"
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/components/Navbar.tsx",
-                                    lineNumber: 45,
+                                    lineNumber: 46,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -75,7 +79,7 @@ function Navbar() {
                                             children: "Prime"
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/components/Navbar.tsx",
-                                            lineNumber: 52,
+                                            lineNumber: 53,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -83,19 +87,19 @@ function Navbar() {
                                             children: "Crafters"
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/components/Navbar.tsx",
-                                            lineNumber: 53,
+                                            lineNumber: 54,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/components/Navbar.tsx",
-                                    lineNumber: 51,
+                                    lineNumber: 52,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/components/Navbar.tsx",
-                            lineNumber: 40,
+                            lineNumber: 41,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -109,18 +113,18 @@ function Navbar() {
                                             className: "absolute -bottom-1 left-0 w-0 h-[2px] bg-[#D4AF37] transition-all duration-300 group-hover:w-full"
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/components/Navbar.tsx",
-                                            lineNumber: 67,
+                                            lineNumber: 68,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, link.name, true, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/components/Navbar.tsx",
-                                    lineNumber: 60,
+                                    lineNumber: 61,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/components/Navbar.tsx",
-                            lineNumber: 58,
+                            lineNumber: 59,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -142,23 +146,23 @@ function Navbar() {
                                             d: "M17 8l4 4m0 0l-4 4m4-4H3"
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/components/Navbar.tsx",
-                                            lineNumber: 86,
+                                            lineNumber: 87,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/components/Navbar.tsx",
-                                        lineNumber: 80,
+                                        lineNumber: 81,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/components/Navbar.tsx",
-                                lineNumber: 74,
+                                lineNumber: 75,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/components/Navbar.tsx",
-                            lineNumber: 73,
+                            lineNumber: 74,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -172,38 +176,38 @@ function Navbar() {
                                         className: `block w-6 h-0.5 bg-[#D4AF37] transition-all duration-300 ${isMobileMenuOpen ? "rotate-45 translate-y-2" : ""}`
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/components/Navbar.tsx",
-                                        lineNumber: 103,
+                                        lineNumber: 104,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: `block w-6 h-0.5 bg-[#D4AF37] transition-all duration-300 ${isMobileMenuOpen ? "opacity-0" : ""}`
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/components/Navbar.tsx",
-                                        lineNumber: 109,
+                                        lineNumber: 110,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: `block w-6 h-0.5 bg-[#D4AF37] transition-all duration-300 ${isMobileMenuOpen ? "-rotate-45 -translate-y-2" : ""}`
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/components/Navbar.tsx",
-                                        lineNumber: 115,
+                                        lineNumber: 116,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/components/Navbar.tsx",
-                                lineNumber: 102,
+                                lineNumber: 103,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/components/Navbar.tsx",
-                            lineNumber: 97,
+                            lineNumber: 98,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/prime/ThePrimeCrafters-Web/components/Navbar.tsx",
-                    lineNumber: 37,
+                    lineNumber: 38,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -218,7 +222,7 @@ function Navbar() {
                                     children: link.name
                                 }, link.name, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/components/Navbar.tsx",
-                                    lineNumber: 132,
+                                    lineNumber: 133,
                                     columnNumber: 15
                                 }, this)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -239,40 +243,40 @@ function Navbar() {
                                             d: "M17 8l4 4m0 0l-4 4m4-4H3"
                                         }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/components/Navbar.tsx",
-                                            lineNumber: 155,
+                                            lineNumber: 156,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/components/Navbar.tsx",
-                                        lineNumber: 149,
+                                        lineNumber: 150,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/components/Navbar.tsx",
-                                lineNumber: 142,
+                                lineNumber: 143,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/components/Navbar.tsx",
-                        lineNumber: 130,
+                        lineNumber: 131,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/prime/ThePrimeCrafters-Web/components/Navbar.tsx",
-                    lineNumber: 125,
+                    lineNumber: 126,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/prime/ThePrimeCrafters-Web/components/Navbar.tsx",
-            lineNumber: 36,
+            lineNumber: 37,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/components/Navbar.tsx",
-        lineNumber: 29,
+        lineNumber: 30,
         columnNumber: 5
     }, this);
 }
@@ -1881,15 +1885,15 @@ function Projects() {
                 className: "max-w-7xl mx-auto relative z-10 w-full px-4 sm:px-6",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: `text-center mb-6 lg:mb-8 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`,
+                        className: "flex flex-col items-center mb-6 lg:mb-8",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "inline-block text-[#D4AF37] text-[10px] font-semibold tracking-widest uppercase mb-1.5",
                                 children: "Our Portfolio"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                                lineNumber: 226,
-                                columnNumber: 11
+                                lineNumber: 222,
+                                columnNumber: 3
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-2xl sm:text-3xl lg:text-4xl font-bold font-[var(--font-cormorant)] mb-2",
@@ -1899,35 +1903,66 @@ function Projects() {
                                         children: "Delivered "
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                                        lineNumber: 230,
-                                        columnNumber: 13
+                                        lineNumber: 227,
+                                        columnNumber: 5
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "text-gradient-gold",
                                         children: "Projects"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                                        lineNumber: 231,
-                                        columnNumber: 13
+                                        lineNumber: 228,
+                                        columnNumber: 5
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                                lineNumber: 229,
-                                columnNumber: 11
+                                lineNumber: 226,
+                                columnNumber: 3
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-[#a3a3a3] text-sm lg:text-base max-w-2xl mx-auto",
+                                className: "text-[#a3a3a3] text-sm lg:text-base max-w-2xl text-center mb-3",
                                 children: "Explore our track record of successful AI automation implementations."
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                                lineNumber: 233,
-                                columnNumber: 11
+                                lineNumber: 231,
+                                columnNumber: 3
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/case-studies",
+                                className: "inline-flex items-center gap-2 text-[#D4AF37] text-sm font-medium hover:text-[#FFD700] transition-colors",
+                                children: [
+                                    "View Case Studies",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                        className: "w-4 h-4",
+                                        fill: "none",
+                                        stroke: "currentColor",
+                                        viewBox: "0 0 24 24",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                            strokeLinecap: "round",
+                                            strokeLinejoin: "round",
+                                            strokeWidth: 2,
+                                            d: "M17 8l4 4m0 0l-4 4m4-4H3"
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
+                                            lineNumber: 247,
+                                            columnNumber: 7
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
+                                        lineNumber: 241,
+                                        columnNumber: 5
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
+                                lineNumber: 236,
+                                columnNumber: 3
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                        lineNumber: 222,
+                        lineNumber: 221,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1946,14 +1981,14 @@ function Projects() {
                                                 children: project.image
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                                                lineNumber: 251,
+                                                lineNumber: 270,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-[rgba(10,10,10,0.5)] to-transparent opacity-80"
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                                                lineNumber: 254,
+                                                lineNumber: 273,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1961,13 +1996,13 @@ function Projects() {
                                                 children: project.industry
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                                                lineNumber: 257,
+                                                lineNumber: 276,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                                        lineNumber: 250,
+                                        lineNumber: 269,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1978,7 +2013,7 @@ function Projects() {
                                                 children: project.title
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                                                lineNumber: 264,
+                                                lineNumber: 283,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1986,7 +2021,7 @@ function Projects() {
                                                 children: project.description
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                                                lineNumber: 267,
+                                                lineNumber: 286,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1996,12 +2031,12 @@ function Projects() {
                                                         children: result
                                                     }, result, false, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                                                        lineNumber: 274,
+                                                        lineNumber: 293,
                                                         columnNumber: 21
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                                                lineNumber: 272,
+                                                lineNumber: 291,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2025,18 +2060,18 @@ function Projects() {
                                                                     d: "M17 8l4 4m0 0l-4 4m4-4H3"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                                                                    lineNumber: 297,
+                                                                    lineNumber: 316,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                                                                lineNumber: 291,
+                                                                lineNumber: 310,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                                                        lineNumber: 285,
+                                                        lineNumber: 304,
                                                         columnNumber: 19
                                                     }, this),
                                                     project.websiteUrl && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -2058,55 +2093,55 @@ function Projects() {
                                                                     d: "M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                                                                    lineNumber: 320,
+                                                                    lineNumber: 339,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                                                                lineNumber: 314,
+                                                                lineNumber: 333,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                                                        lineNumber: 307,
+                                                        lineNumber: 326,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                                                lineNumber: 284,
+                                                lineNumber: 303,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                                        lineNumber: 263,
+                                        lineNumber: 282,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute bottom-0 left-1/2 -translate-x-1/2 w-3/4 h-1 bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                                        lineNumber: 333,
+                                        lineNumber: 352,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute inset-0 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none shadow-[inset_0_0_60px_rgba(212,175,55,0.1)]"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                                        lineNumber: 336,
+                                        lineNumber: 355,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, project.title, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                                lineNumber: 241,
+                                lineNumber: 260,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                        lineNumber: 239,
+                        lineNumber: 258,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2128,23 +2163,23 @@ function Projects() {
                                         d: "M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                                        lineNumber: 354,
+                                        lineNumber: 373,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                                    lineNumber: 348,
+                                    lineNumber: 367,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                            lineNumber: 346,
+                            lineNumber: 365,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/components/Projects.tsx",
-                        lineNumber: 342,
+                        lineNumber: 361,
                         columnNumber: 9
                     }, this)
                 ]
