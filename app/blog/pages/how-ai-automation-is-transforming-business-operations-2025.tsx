@@ -22,10 +22,10 @@ export default function AIAutomationTransformingBusiness() {
       <main className="bg-[#0a0a0a] min-h-screen">
 
         {/* ── HERO / TITLE ── */}
-        <section className="max-w-4xl mx-auto px-6 lg:px-8 pt-36 pb-12">
+        <section className="max-w-[760px] mx-auto px-6 pt-36 pb-10">
 
           {/* breadcrumb */}
-          <nav className="flex items-center gap-2 text-sm text-white mb-10 uppercase tracking-widest font-medium">
+          <nav className="flex items-center gap-2 text-xs text-white mb-8 uppercase tracking-widest font-medium">
             <Link href="/" className="hover:text-[#D4AF37] transition-colors">Home</Link>
             <span className="text-white/40">/</span>
             <Link href="/blog" className="hover:text-[#D4AF37] transition-colors">Blog</Link>
@@ -34,30 +34,30 @@ export default function AIAutomationTransformingBusiness() {
           </nav>
 
           {/* category */}
-          <span className="inline-block text-xs font-bold uppercase tracking-[0.25em] text-black bg-[#D4AF37] px-4 py-1.5 rounded-full mb-8">
+          <span className="inline-block text-xs font-bold uppercase tracking-[0.25em] text-black bg-[#D4AF37] px-4 py-1.5 rounded-full mb-6">
             AI Automation
           </span>
 
-          {/* title */}
+          {/* H1 — ~48px, line-height 1.2 */}
           <h1
-            className="text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.05] mb-8"
+            className="text-[38px] md:text-[48px] font-bold text-white leading-[1.2] mb-6"
             style={{ fontFamily: "'Cormorant Garamond', serif" }}
           >
             How AI Automation Is Transforming Business Operations in 2025
           </h1>
 
-          {/* meta */}
-          <div className="flex flex-wrap items-center gap-6 pb-10 border-b border-white/10">
+          {/* meta row — 14px muted */}
+          <div className="flex flex-wrap items-center gap-5 pb-8 border-b border-white/10">
             <div className="flex items-center gap-3">
-              <div className="w-11 h-11 rounded-full bg-[rgba(212,175,55,0.15)] border border-[rgba(212,175,55,0.3)] flex items-center justify-center flex-shrink-0">
-                <span className="text-[#D4AF37] font-bold text-lg" style={{ fontFamily: "'Cormorant Garamond', serif" }}>A</span>
+              <div className="w-10 h-10 rounded-full bg-[rgba(212,175,55,0.15)] border border-[rgba(212,175,55,0.3)] flex items-center justify-center flex-shrink-0">
+                <span className="text-[#D4AF37] font-bold text-base" style={{ fontFamily: "'Cormorant Garamond', serif" }}>A</span>
               </div>
               <div>
-                <p className="text-white font-semibold text-base">Amanullah Naqvi</p>
-                <p className="text-white/50 text-sm">Founder, The Prime Crafters</p>
+                <p className="text-white font-semibold text-sm">Amanullah Naqvi</p>
+                <p className="text-white/50 text-xs">Founder, The Prime Crafters</p>
               </div>
             </div>
-            <div className="flex items-center gap-5 text-white/50 text-sm">
+            <div className="flex items-center gap-4 text-white/50 text-xs">
               <span>June 26, 2025</span>
               <span className="w-1 h-1 rounded-full bg-white/30" />
               <span>10 min read</span>
@@ -66,34 +66,34 @@ export default function AIAutomationTransformingBusiness() {
         </section>
 
         {/* ── ARTICLE BODY ── */}
-        <article className="max-w-4xl mx-auto px-6 lg:px-8 py-12 space-y-10">
+        <article className="max-w-[760px] mx-auto px-6 py-10 space-y-7">
 
-          {/* intro */}
-          <p className="text-white/80 text-xl md:text-2xl leading-[1.75] font-light">
+          {/* intro — 18px, line-height 1.7 */}
+          <p className="text-white text-lg leading-[1.7]">
             2025 is the year AI automation stopped being optional. Across every industry — from e-commerce
             to professional services to healthcare — businesses are replacing manual, repetitive workflows
             with intelligent systems that run 24/7, make context-aware decisions, and get better over time.
           </p>
 
-          <p className="text-white/75 text-lg md:text-xl leading-[1.8]">
+          <p className="text-white text-base leading-[1.6]">
             This isn't hype. It's a structural shift in how companies operate. And the gap between
             businesses that have adopted AI automation and those that haven't is widening every quarter.
           </p>
 
-          {/* section 1 */}
-          <div className="space-y-5">
+          {/* section 1 — H2: 32px, line-height 1.3 */}
+          <div className="space-y-4 pt-3">
             <h2
-              className="text-3xl md:text-4xl font-bold text-white"
+              className="text-[26px] md:text-[32px] font-bold text-white leading-[1.3]"
               style={{ fontFamily: "'Cormorant Garamond', serif" }}
             >
               The Shift From Rule-Based to Intelligent Automation
             </h2>
-            <p className="text-white/75 text-lg md:text-xl leading-[1.8]">
+            <p className="text-white text-base leading-[1.6]">
               Traditional automation — the kind built on rigid if/then logic — has existed for decades.
               It works well for perfectly predictable tasks. But the moment something unexpected happens,
               it breaks.
             </p>
-            <p className="text-white/75 text-lg md:text-xl leading-[1.8]">
+            <p className="text-white text-base leading-[1.6]">
               AI automation is fundamentally different. Large language models and AI agents can interpret
               context, handle ambiguity, draft nuanced responses, and make judgment calls — things that
               previously required a human in the loop. This is why 2025 feels different: we crossed the
@@ -101,24 +101,24 @@ export default function AIAutomationTransformingBusiness() {
             </p>
           </div>
 
-          {/* pull quote */}
-          <div className="border-l-4 border-[#D4AF37] pl-6 py-2">
-            <p className="text-white text-xl md:text-2xl font-medium leading-relaxed italic">
+          {/* pull quote — ~18-20px italic */}
+          <div className="border-l-4 border-[#D4AF37] pl-5 py-1 my-2">
+            <p className="text-white text-lg leading-[1.6] italic font-medium">
               "The businesses winning in 2025 aren't necessarily the biggest or best-funded —
               they're the ones that automated the right things first."
             </p>
           </div>
 
           {/* section 2 */}
-          <div className="space-y-5">
+          <div className="space-y-6 pt-3">
             <h2
-              className="text-3xl md:text-4xl font-bold text-white"
+              className="text-[26px] md:text-[32px] font-bold text-white leading-[1.3]"
               style={{ fontFamily: "'Cormorant Garamond', serif" }}
             >
               5 Operations Being Transformed Right Now
             </h2>
 
-            <div className="space-y-8">
+            <div className="space-y-7">
               {[
                 {
                   num: '01',
@@ -143,24 +143,25 @@ export default function AIAutomationTransformingBusiness() {
                 {
                   num: '05',
                   title: 'Onboarding & Operations',
-                  body: 'New client onboarding, employee onboarding, document processing, contract review — AI handles the heavy lifting. Tasks that took days get done in minutes. Error rates drop because AI doesn\'t get tired or make copy-paste mistakes.',
+                  body: "New client onboarding, employee onboarding, document processing, contract review — AI handles the heavy lifting. Tasks that took days get done in minutes. Error rates drop because AI doesn't get tired or make copy-paste mistakes.",
                 },
               ].map(item => (
-                <div key={item.num} className="flex gap-6">
+                <div key={item.num} className="flex gap-5">
                   <span
-                    className="text-[#D4AF37] text-4xl font-bold leading-none flex-shrink-0 opacity-40"
+                    className="text-[#D4AF37] text-3xl font-bold leading-none flex-shrink-0 opacity-35 mt-0.5"
                     style={{ fontFamily: "'Cormorant Garamond', serif" }}
                   >
                     {item.num}
                   </span>
                   <div>
+                    {/* H3 — 24px, line-height 1.4 */}
                     <h3
-                      className="text-white text-xl md:text-2xl font-bold mb-2"
+                      className="text-[20px] md:text-[24px] font-bold text-white leading-[1.4] mb-2"
                       style={{ fontFamily: "'Cormorant Garamond', serif" }}
                     >
                       {item.title}
                     </h3>
-                    <p className="text-white/75 text-lg leading-[1.8]">{item.body}</p>
+                    <p className="text-white text-base leading-[1.6]">{item.body}</p>
                   </div>
                 </div>
               ))}
@@ -168,64 +169,64 @@ export default function AIAutomationTransformingBusiness() {
           </div>
 
           {/* section 3 */}
-          <div className="space-y-5">
+          <div className="space-y-4 pt-3">
             <h2
-              className="text-3xl md:text-4xl font-bold text-white"
+              className="text-[26px] md:text-[32px] font-bold text-white leading-[1.3]"
               style={{ fontFamily: "'Cormorant Garamond', serif" }}
             >
               The Cost of Waiting
             </h2>
-            <p className="text-white/75 text-lg md:text-xl leading-[1.8]">
+            <p className="text-white text-base leading-[1.6]">
               Every month a business delays AI adoption, its competitors are getting faster, leaner, and
               more responsive. The ROI on AI automation compounds — a system built today will have six
               months of data and refinement by the time a competitor starts building theirs.
             </p>
-            <p className="text-white/75 text-lg md:text-xl leading-[1.8]">
+            <p className="text-white text-base leading-[1.6]">
               The barrier isn't cost. A well-scoped automation project typically pays for itself within
               60–90 days. The real barrier is not knowing where to start or how to build it properly.
             </p>
           </div>
 
           {/* section 4 */}
-          <div className="space-y-5">
+          <div className="space-y-4 pt-3">
             <h2
-              className="text-3xl md:text-4xl font-bold text-white"
+              className="text-[26px] md:text-[32px] font-bold text-white leading-[1.3]"
               style={{ fontFamily: "'Cormorant Garamond', serif" }}
             >
               How to Get Started
             </h2>
-            <p className="text-white/75 text-lg md:text-xl leading-[1.8]">
+            <p className="text-white text-base leading-[1.6]">
               The highest-leverage first step is a simple audit: identify the top three most repetitive,
               high-volume tasks in your business. For most companies, at least one of them is automatable
               with AI today.
             </p>
-            <ul className="space-y-4">
+            <ul className="space-y-3">
               {[
-                'Pick one process — don\'t try to boil the ocean.',
+                "Pick one process — don't try to boil the ocean.",
                 'Define what "done" looks like so the AI has a clear output to hit.',
                 'Build a minimum viable version and measure time saved vs. baseline.',
                 'Iterate and expand once you have proof it works.',
               ].map((item, i) => (
-                <li key={i} className="flex gap-4">
-                  <span className="mt-1.5 w-2 h-2 rounded-full bg-[#D4AF37] flex-shrink-0" />
-                  <p className="text-white/75 text-lg md:text-xl leading-[1.8]">{item}</p>
+                <li key={i} className="flex gap-3">
+                  <span className="mt-[9px] w-1.5 h-1.5 rounded-full bg-[#D4AF37] flex-shrink-0" />
+                  <p className="text-white text-base leading-[1.6]">{item}</p>
                 </li>
               ))}
             </ul>
           </div>
 
           {/* CTA box */}
-          <div className="bg-[#0f0f0f] border border-[rgba(212,175,55,0.2)] rounded-2xl p-8 md:p-10">
-            <p className="text-white text-2xl md:text-3xl font-bold mb-3" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+          <div className="bg-[#0f0f0f] border border-[rgba(212,175,55,0.2)] rounded-2xl p-7 md:p-9 mt-4">
+            <p className="text-white text-xl md:text-2xl font-bold mb-2" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
               Ready to put AI to work in your business?
             </p>
-            <p className="text-white/60 text-lg mb-6">
+            <p className="text-white text-sm leading-[1.6] mb-5">
               Book a free 20-minute strategy call. We'll identify your highest-ROI automation opportunity
               and show you exactly what it would take to build it.
             </p>
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl bg-[#D4AF37] text-black font-bold text-sm hover:scale-105 hover:shadow-[0_0_30px_rgba(212,175,55,0.3)] transition-all duration-300"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[#D4AF37] text-black font-bold text-sm hover:scale-105 hover:shadow-[0_0_30px_rgba(212,175,55,0.3)] transition-all duration-300"
             >
               Book Free Consultation
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -237,22 +238,24 @@ export default function AIAutomationTransformingBusiness() {
         </article>
 
         {/* ── AUTHOR BIO ── */}
-        <section className="max-w-4xl mx-auto px-6 lg:px-8 pb-20">
-          <div className="bg-[#0f0f0f] border border-white/[0.07] rounded-2xl p-8 md:p-10">
-            <div className="flex items-center gap-2 mb-7">
+        <section className="max-w-[760px] mx-auto px-6 pb-16">
+          <div className="bg-[#0f0f0f] border border-white/[0.07] rounded-2xl p-7 md:p-9">
+            <div className="flex items-center gap-2 mb-6">
               <span className="w-4 h-px bg-[#D4AF37]" />
               <p className="text-[#D4AF37] text-xs font-bold uppercase tracking-[0.25em]">About the Author</p>
             </div>
-            <div className="flex flex-col sm:flex-row gap-6 items-start">
-              <div className="w-[72px] h-[72px] rounded-full bg-gradient-to-br from-[rgba(212,175,55,0.2)] to-[rgba(212,175,55,0.05)] border border-[rgba(212,175,55,0.25)] flex items-center justify-center flex-shrink-0">
-                <span className="text-[#D4AF37] font-bold text-2xl" style={{ fontFamily: "'Cormorant Garamond', serif" }}>A</span>
+            <div className="flex flex-col sm:flex-row gap-5 items-start">
+              <div className="w-16 h-16 rounded-full bg-gradient-to-br from-[rgba(212,175,55,0.2)] to-[rgba(212,175,55,0.05)] border border-[rgba(212,175,55,0.25)] flex items-center justify-center flex-shrink-0">
+                <span className="text-[#D4AF37] font-bold text-xl" style={{ fontFamily: "'Cormorant Garamond', serif" }}>A</span>
               </div>
               <div className="flex-1">
-                <h3 className="text-white text-xl font-bold mb-1" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                {/* author name — 16px semibold */}
+                <h3 className="text-white text-base font-semibold mb-0.5">
                   Amanullah Naqvi
                 </h3>
-                <p className="text-white/50 text-sm mb-4">Founder & CTO, The Prime Crafters</p>
-                <p className="text-white/65 text-base md:text-lg leading-relaxed">
+                <p className="text-white/50 text-xs mb-3">Founder & CTO, The Prime Crafters</p>
+                {/* author bio — 14px, line-height 1.6 */}
+                <p className="text-white text-sm leading-[1.6]">
                   Amanullah builds custom AI automation systems for businesses that want to scale without
                   scaling headcount. He leads The Prime Crafters — an AI agency focused on practical,
                   high-ROI automation solutions for SMBs and growth-stage companies.
@@ -263,7 +266,7 @@ export default function AIAutomationTransformingBusiness() {
         </section>
 
         {/* ── BOTTOM NAV ── */}
-        <div className="max-w-4xl mx-auto px-6 lg:px-8 pb-24 flex items-center justify-between flex-wrap gap-4 border-t border-white/[0.06] pt-8">
+        <div className="max-w-[760px] mx-auto px-6 pb-20 flex items-center justify-between flex-wrap gap-4 border-t border-white/[0.06] pt-7">
           <Link
             href="/blog"
             className="inline-flex items-center gap-2 text-[#D4AF37] text-sm font-semibold uppercase tracking-wider hover:gap-3 transition-all duration-300"
