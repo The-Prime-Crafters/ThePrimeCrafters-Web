@@ -125,6 +125,10 @@ const blockContentType = (0, __TURBOPACK__imported__module__$5b$project$5d2f$pri
                     title: 'Alternative Text'
                 }
             ]
+        }),
+        // Table block, added via @sanity/table plugin
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$types$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defineArrayMember"])({
+            type: 'table'
         })
     ]
 });
@@ -186,24 +190,38 @@ const postType = (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$Th
     title: 'Post',
     type: 'document',
     icon: __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$icons$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DocumentTextIcon"],
+    groups: [
+        {
+            name: 'content',
+            title: 'Content',
+            default: true
+        },
+        {
+            name: 'seo',
+            title: 'SEO'
+        }
+    ],
     fields: [
         (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$types$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defineField"])({
             name: 'title',
-            type: 'string'
+            type: 'string',
+            group: 'content'
         }),
         (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$types$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defineField"])({
             name: 'slug',
             type: 'slug',
             options: {
                 source: 'title'
-            }
+            },
+            group: 'content'
         }),
         (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$types$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defineField"])({
             name: 'author',
             type: 'reference',
             to: {
                 type: 'author'
-            }
+            },
+            group: 'content'
         }),
         (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$types$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defineField"])({
             name: 'mainImage',
@@ -217,7 +235,8 @@ const postType = (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$Th
                     type: 'string',
                     title: 'Alternative text'
                 })
-            ]
+            ],
+            group: 'content'
         }),
         (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$types$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defineField"])({
             name: 'categories',
@@ -229,15 +248,43 @@ const postType = (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$Th
                         type: 'category'
                     }
                 })
-            ]
+            ],
+            group: 'content'
+        }),
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$types$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defineField"])({
+            name: 'excerpt',
+            title: 'Excerpt',
+            type: 'text',
+            rows: 3,
+            group: 'content'
         }),
         (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$types$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defineField"])({
             name: 'publishedAt',
-            type: 'datetime'
+            type: 'datetime',
+            group: 'content'
         }),
         (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$types$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defineField"])({
             name: 'body',
-            type: 'blockContent'
+            type: 'blockContent',
+            group: 'content'
+        }),
+        // ── SEO FIELDS ──
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$types$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defineField"])({
+            name: 'metaTitle',
+            title: 'Meta Title',
+            type: 'string',
+            description: 'Title shown in search engine results and browser tabs. Keep under 60 characters. Falls back to the post title if left empty.',
+            validation: (Rule)=>Rule.max(60).warning('Longer titles may be truncated in search results'),
+            group: 'seo'
+        }),
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$types$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defineField"])({
+            name: 'metaDescription',
+            title: 'Meta Description',
+            type: 'text',
+            rows: 3,
+            description: 'Description shown in search engine results. Keep under 160 characters. Falls back to the excerpt if left empty.',
+            validation: (Rule)=>Rule.max(160).warning('Longer descriptions may be truncated in search results'),
+            group: 'seo'
         })
     ],
     preview: {
@@ -307,19 +354,8 @@ const authorType = (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$
         (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$types$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defineField"])({
             name: 'bio',
             title: 'Bio',
-            type: 'array',
-            of: [
-                (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$types$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defineArrayMember"])({
-                    type: 'block',
-                    styles: [
-                        {
-                            title: 'Normal',
-                            value: 'normal'
-                        }
-                    ],
-                    lists: []
-                })
-            ]
+            type: 'text',
+            rows: 4
         })
     ],
     preview: {
@@ -394,11 +430,13 @@ __turbopack_context__.s([
  */ var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$vision$2f$lib$2f$_chunks$2d$es$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/prime/ThePrimeCrafters-Web/node_modules/@sanity/vision/lib/_chunks-es/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$sanity$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/prime/ThePrimeCrafters-Web/node_modules/sanity/lib/index.js [app-client] (ecmascript) <locals>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$sanity$2f$lib$2f$_chunks$2d$es$2f$structureTool$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/prime/ThePrimeCrafters-Web/node_modules/sanity/lib/_chunks-es/structureTool.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$table$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/prime/ThePrimeCrafters-Web/node_modules/@sanity/table/dist/index.js [app-client] (ecmascript)");
 // Go to https://www.sanity.io/docs/api-versioning to learn how API versioning works
 var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$sanity$2f$env$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/prime/ThePrimeCrafters-Web/sanity/env.ts [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$sanity$2f$schemaTypes$2f$index$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/prime/ThePrimeCrafters-Web/sanity/schemaTypes/index.ts [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$sanity$2f$structure$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/prime/ThePrimeCrafters-Web/sanity/structure.ts [app-client] (ecmascript)");
 'use client';
+;
 ;
 ;
 ;
@@ -419,7 +457,8 @@ const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$pr
         // https://www.sanity.io/docs/the-vision-plugin
         (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$vision$2f$lib$2f$_chunks$2d$es$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["visionTool"])({
             defaultApiVersion: __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$sanity$2f$env$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["apiVersion"]
-        })
+        }),
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$table$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["table"])()
     ]
 });
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {

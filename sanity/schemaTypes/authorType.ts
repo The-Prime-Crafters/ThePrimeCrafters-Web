@@ -40,11 +40,7 @@ export const authorType = defineType({
       },
     }),
 
-    defineField({
-      name: 'linkedin',
-      title: 'LinkedIn URL',
-      type: 'url',
-    }),
+   
     defineField({
       name: 'bio',
       title: 'Bio',

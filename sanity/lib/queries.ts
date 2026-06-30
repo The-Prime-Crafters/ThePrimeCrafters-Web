@@ -1,9 +1,27 @@
-// Add this to your existing @/sanity/lib/queries.ts file
-// (or create it if it doesn't exist yet)
-
 import { groq } from 'next-sanity'
 
-// Fetch all posts for the blog listing page — ordered newest first
+export const allPostSlugsQuery = groq`
+  *[_type == "post" && defined(slug.current)] {
+    "slug": slug.current
+  }
+`
+
+export const latestPostsQuery = groq`
+  *[_type == "post"] | order(publishedAt desc) [0...7] {
+    _id,
+    title,
+    slug,
+    publishedAt,
+    excerpt,
+    mainImage {
+      asset->{ _id, url },
+      alt
+    },
+    categories[]->{ title },
+    author->{ name, image { asset->{ url } } }
+  }
+`
+
 export const allPostsQuery = groq`
   *[_type == "post"] | order(publishedAt desc) {
     _id,
@@ -11,11 +29,13 @@ export const allPostsQuery = groq`
     slug,
     excerpt,
     publishedAt,
-    readTime,
-    category,
     mainImage {
       asset -> { url },
       alt
+    },
+    categories[] -> {
+      _id,
+      title
     },
     author -> {
       name,
@@ -26,6 +46,32 @@ export const allPostsQuery = groq`
   }
 `
 
-// Already exists in your codebase — kept here for reference:
-// export const allPostSlugsQuery = groq`*[_type == "post"]{ slug }`
-// export const postBySlugQuery   = groq`*[_type == "post" && slug.current == $slug][0]{ ... }`
+export const postBySlugQuery = groq`
+  *[_type == "post" && slug.current == $slug][0] {
+    _id,
+    title,
+    slug,
+    excerpt,
+    publishedAt,
+    body,
+    metaTitle,
+    metaDescription,
+    mainImage {
+      asset -> { url },
+      alt
+    },
+    categories[] -> {
+      _id,
+      title,
+      slug
+    },
+    author -> {
+      name,
+      bio,
+      linkedin,
+      image {
+        asset -> { url }
+      }
+    }
+  }
+`

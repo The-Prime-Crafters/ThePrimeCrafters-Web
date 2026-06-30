@@ -4439,6 +4439,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d
 var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/prime/ThePrimeCrafters-Web/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/prime/ThePrimeCrafters-Web/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$client$2f$dist$2f$index$2e$browser$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/prime/ThePrimeCrafters-Web/node_modules/@sanity/client/dist/index.browser.js [app-client] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$image$2d$url$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/prime/ThePrimeCrafters-Web/node_modules/@sanity/image-url/lib/index.js [app-client] (ecmascript) <locals>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$components$2f$index$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/prime/ThePrimeCrafters-Web/components/index.ts [app-client] (ecmascript) <locals>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$components$2f$Navbar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Navbar$3e$__ = __turbopack_context__.i("[project]/prime/ThePrimeCrafters-Web/components/Navbar.tsx [app-client] (ecmascript) <export default as Navbar>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$components$2f$Footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Footer$3e$__ = __turbopack_context__.i("[project]/prime/ThePrimeCrafters-Web/components/Footer.tsx [app-client] (ecmascript) <export default as Footer>");
@@ -4450,45 +4451,49 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
+;
 /**
  * SANITY CLIENT CONFIGURATION
  * Replace 'your-project-id' with your actual ID from sanity.io/manage
  */ const client = (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$client$2f$dist$2f$index$2e$browser$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["createClient"])({
-    projectId: 'tvdhipft',
+    projectId: 'your-project-id',
     dataset: 'production',
     apiVersion: '2023-05-03',
     useCdn: false
 });
+// Initialize the image builder
+const builder = (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$image$2d$url$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"])(client);
+function urlFor(source) {
+    return builder.image(source);
+}
 const BlogListingPage = ()=>{
     _s();
     const [posts, setPosts] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const [loading, setLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(true);
-    const [error, setError] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     const [activeCategory, setActiveCategory] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('All');
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "BlogListingPage.useEffect": ()=>{
-            const query = `*[_type == "post"] | order(date desc) {
-      "slug": slug.current,
+            const query = `*[_type == "post"] | order(publishedAt desc) {
+      _id,
+      slug,
       title,
       excerpt,
-      date,
+      publishedAt,
       "category": category->title, 
-      icon
+      mainImage
     }`;
             const fetchPosts = {
                 "BlogListingPage.useEffect.fetchPosts": async ()=>{
                     if (client.config().projectId === 'your-project-id') {
-                        setError("Configuration Error: Please update your Sanity Project ID in the code.");
+                        console.warn("Please set your Sanity Project ID");
                         setLoading(false);
                         return;
                     }
                     try {
                         const data = await client.fetch(query);
                         setPosts(data);
-                        setError(null);
                     } catch (err) {
                         console.error("Sanity fetch error:", err);
-                        setError("Failed to reach Sanity. Check your Project ID and CORS settings.");
                     } finally{
                         setLoading(false);
                     }
@@ -4523,647 +4528,403 @@ const BlogListingPage = ()=>{
     ]);
     if (loading) {
         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "min-h-screen bg-[#0b0c14] flex flex-col items-center justify-center text-[#C9A84C]",
+            className: "min-h-screen bg-[#05080d] flex flex-col items-center justify-center text-[#C9A84C]",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "w-12 h-12 border-2 border-[#C9A84C]/20 border-t-[#C9A84C] rounded-full animate-spin mb-4"
                 }, void 0, false, {
                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                    lineNumber: 79,
+                    lineNumber: 86,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     className: "tracking-widest uppercase text-xs font-bold font-serif",
-                    children: "Syncing with Intelligence..."
+                    children: "Syncing Intelligence..."
                 }, void 0, false, {
                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                    lineNumber: 80,
+                    lineNumber: 87,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-            lineNumber: 78,
-            columnNumber: 7
-        }, ("TURBOPACK compile-time value", void 0));
-    }
-    if (error) {
-        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "min-h-screen bg-[#0b0c14] flex flex-col items-center justify-center p-6 text-center",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "w-20 h-20 bg-red-500/10 border border-red-500/20 rounded-full flex items-center justify-center text-4xl mb-6",
-                    children: "⚠️"
-                }, void 0, false, {
-                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                    lineNumber: 88,
-                    columnNumber: 9
-                }, ("TURBOPACK compile-time value", void 0)),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                    className: "text-2xl font-serif text-white mb-4",
-                    children: "Connection Failed"
-                }, void 0, false, {
-                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                    lineNumber: 89,
-                    columnNumber: 9
-                }, ("TURBOPACK compile-time value", void 0)),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "text-gray-400 max-w-md mb-8 leading-relaxed",
-                    children: error
-                }, void 0, false, {
-                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                    lineNumber: 90,
-                    columnNumber: 9
-                }, ("TURBOPACK compile-time value", void 0)),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                    onClick: ()=>window.location.reload(),
-                    className: "px-6 py-3 bg-[#C9A84C] text-black rounded-lg font-bold text-sm",
-                    children: "Try Again"
-                }, void 0, false, {
-                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                    lineNumber: 91,
-                    columnNumber: 9
-                }, ("TURBOPACK compile-time value", void 0))
-            ]
-        }, void 0, true, {
-            fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-            lineNumber: 87,
+            lineNumber: 85,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0));
     }
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "jsx-2deca24483799986" + " " + "min-h-screen bg-[#0b0c14] text-[#f5f1e8] selection:bg-[#C9A84C]/30",
+        className: "jsx-dbbe92298247feb1" + " " + "min-h-screen bg-[#05080d] text-[#f5f1e8] selection:bg-[#C9A84C]/30",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$components$2f$Navbar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Navbar$3e$__["Navbar"], {}, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                lineNumber: 98,
+                lineNumber: 94,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "jsx-2deca24483799986" + " " + "relative min-h-screen flex flex-col lg:flex-row items-center overflow-hidden pt-20",
+                className: "jsx-dbbe92298247feb1" + " " + "relative min-h-[70vh] flex flex-col items-center justify-center overflow-hidden pt-32 pb-20 px-6",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-2deca24483799986" + " " + "w-full lg:w-1/2 px-8 lg:px-20 py-20 relative z-10",
+                        style: {
+                            backgroundImage: 'radial-gradient(#C9A84C 1px, transparent 1px)',
+                            backgroundSize: '40px 40px'
+                        },
+                        className: "jsx-dbbe92298247feb1" + " " + "absolute inset-0 opacity-[0.03] pointer-events-none"
+                    }, void 0, false, {
+                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
+                        lineNumber: 98,
+                        columnNumber: 9
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "jsx-dbbe92298247feb1" + " " + "relative z-10 text-center max-w-4xl",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-2deca24483799986" + " " + "inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 mb-8 backdrop-blur-sm",
+                                className: "jsx-dbbe92298247feb1" + " " + "inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 mb-8 backdrop-blur-sm",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "jsx-2deca24483799986" + " " + "w-2 h-2 rounded-full bg-[#C9A84C] animate-pulse"
+                                        className: "jsx-dbbe92298247feb1" + " " + "w-2 h-2 rounded-full bg-[#C9A84C] animate-pulse"
+                                    }, void 0, false, {
+                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
+                                        lineNumber: 103,
+                                        columnNumber: 13
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "jsx-dbbe92298247feb1" + " " + "text-[10px] font-bold tracking-[0.3em] uppercase text-[#C9A84C]",
+                                        children: "ThePrimeCrafters Intelligence"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
                                         lineNumber: 104,
                                         columnNumber: 13
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "jsx-2deca24483799986" + " " + "text-xs font-semibold tracking-widest uppercase text-[#C9A84C]",
-                                        children: "ThePrimeCrafters Insights"
-                                    }, void 0, false, {
-                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                        lineNumber: 105,
-                                        columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                lineNumber: 103,
+                                lineNumber: 102,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                className: "jsx-2deca24483799986" + " " + "text-5xl md:text-7xl lg:text-8xl font-bold mb-8 font-serif leading-[1.1] tracking-tight",
+                                className: "jsx-dbbe92298247feb1" + " " + "text-5xl md:text-8xl font-bold mb-8 font-serif leading-[1.1] tracking-tight",
                                 children: [
-                                    "The Future of ",
+                                    "Blog & ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                        className: "jsx-2deca24483799986"
+                                        className: "jsx-dbbe92298247feb1"
+                                    }, void 0, false, {
+                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
+                                        lineNumber: 108,
+                                        columnNumber: 20
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "jsx-dbbe92298247feb1" + " " + "text-[#C9A84C] italic",
+                                        children: "Insights"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
                                         lineNumber: 109,
-                                        columnNumber: 27
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "jsx-2deca24483799986" + " " + "text-[#C9A84C] italic",
-                                        children: "AI Automation"
-                                    }, void 0, false, {
-                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                        lineNumber: 110,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                lineNumber: 108,
+                                lineNumber: 107,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "jsx-2deca24483799986" + " " + "text-xl text-gray-400 max-w-xl mb-12 leading-relaxed font-sans",
-                                children: "Expert analysis on AI voice agents, workflow optimization, and custom systems engineered to scale your business operations without increasing overhead."
+                                className: "jsx-dbbe92298247feb1" + " " + "text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed font-sans",
+                                children: "Expert analysis on AI automation and digital assets engineered to scale your business operations — automatically synchronized with our research."
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                lineNumber: 113,
-                                columnNumber: 11
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-2deca24483799986" + " " + "flex gap-6",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        href: "#articles",
-                                        className: "px-8 py-4 bg-[#C9A84C] text-black font-bold rounded-lg hover:shadow-[0_0_20px_rgba(201,168,76,0.3)] transition-all",
-                                        children: "Read Articles"
-                                    }, void 0, false, {
-                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                        lineNumber: 118,
-                                        columnNumber: 14
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        href: "/contact",
-                                        className: "px-8 py-4 border border-white/10 rounded-lg hover:bg-white/5 transition-all",
-                                        children: "Book Strategy Call"
-                                    }, void 0, false, {
-                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                        lineNumber: 121,
-                                        columnNumber: 14
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                lineNumber: 117,
+                                lineNumber: 112,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                        lineNumber: 102,
-                        columnNumber: 9
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-2deca24483799986" + " " + "w-full lg:w-1/2 h-[60vh] lg:h-screen relative flex items-center justify-center p-10 overflow-hidden",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-2deca24483799986" + " " + "absolute inset-0 bg-gradient-to-l from-[#C9A84C]/5 to-transparent pointer-events-none"
-                            }, void 0, false, {
-                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                lineNumber: 128,
-                                columnNumber: 11
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                style: {
-                                    backgroundImage: 'radial-gradient(#C9A84C 1px, transparent 1px)',
-                                    backgroundSize: '30px 30px'
-                                },
-                                className: "jsx-2deca24483799986" + " " + "absolute inset-0 opacity-[0.03] pointer-events-none"
-                            }, void 0, false, {
-                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                lineNumber: 129,
-                                columnNumber: 11
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-2deca24483799986" + " " + "relative w-full max-w-md aspect-square",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-2deca24483799986" + " " + "absolute top-0 right-0 w-72 h-96 bg-white/[0.03] border border-white/10 rounded-3xl backdrop-blur-xl rotate-12 animate-float-slow p-6 flex flex-col gap-4 shadow-2xl",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-2deca24483799986" + " " + "w-full h-1 bg-white/10 rounded-full overflow-hidden",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-2deca24483799986" + " " + "w-2/3 h-full bg-[#C9A84C] animate-progress"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                                    lineNumber: 135,
-                                                    columnNumber: 17
-                                                }, ("TURBOPACK compile-time value", void 0))
-                                            }, void 0, false, {
-                                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                                lineNumber: 134,
-                                                columnNumber: 15
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-2deca24483799986" + " " + "flex gap-2",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-2deca24483799986" + " " + "w-8 h-8 rounded-lg bg-[#C9A84C]/20 border border-[#C9A84C]/30 animate-pulse"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                                        lineNumber: 138,
-                                                        columnNumber: 17
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-2deca24483799986" + " " + "flex-1 h-8 rounded-lg bg-white/5"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                                        lineNumber: 139,
-                                                        columnNumber: 17
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                                lineNumber: 137,
-                                                columnNumber: 15
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-2deca24483799986" + " " + "flex-1 rounded-2xl bg-white/5 p-4 flex flex-col gap-3",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-2deca24483799986" + " " + "w-full h-2 bg-white/10 rounded-full"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                                        lineNumber: 142,
-                                                        columnNumber: 17
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-2deca24483799986" + " " + "w-4/5 h-2 bg-white/10 rounded-full"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                                        lineNumber: 143,
-                                                        columnNumber: 17
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-2deca24483799986" + " " + "w-3/4 h-2 bg-white/10 rounded-full"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                                        lineNumber: 144,
-                                                        columnNumber: 17
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-2deca24483799986" + " " + "mt-auto h-16 flex items-end gap-1",
-                                                        children: [
-                                                            ...Array(12)
-                                                        ].map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                style: {
-                                                                    animationDelay: `${i * 0.1}s`
-                                                                },
-                                                                className: "jsx-2deca24483799986" + " " + "flex-1 bg-[#C9A84C]/40 rounded-t-sm animate-wave"
-                                                            }, i, false, {
-                                                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                                                lineNumber: 147,
-                                                                columnNumber: 21
-                                                            }, ("TURBOPACK compile-time value", void 0)))
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                                        lineNumber: 145,
-                                                        columnNumber: 17
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                                lineNumber: 141,
-                                                columnNumber: 15
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                        lineNumber: 133,
-                                        columnNumber: 13
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-2deca24483799986" + " " + "absolute bottom-10 left-0 w-72 h-96 bg-[#C9A84C]/5 border border-[#C9A84C]/20 rounded-3xl backdrop-blur-xl -rotate-6 animate-float-delayed shadow-2xl shadow-[#C9A84C]/10 p-8 flex flex-col items-center justify-center",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-2deca24483799986" + " " + "relative w-32 h-32 mb-8",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-2deca24483799986" + " " + "absolute inset-0 border-2 border-dashed border-[#C9A84C]/30 rounded-full animate-spin-slow"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                                        lineNumber: 155,
-                                                        columnNumber: 17
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-2deca24483799986" + " " + "absolute inset-4 border border-[#C9A84C]/50 rounded-full flex items-center justify-center text-4xl",
-                                                        children: "✨"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                                        lineNumber: 156,
-                                                        columnNumber: 17
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                                lineNumber: 154,
-                                                columnNumber: 15
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-2deca24483799986" + " " + "text-center",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-2deca24483799986" + " " + "text-[#C9A84C] font-bold text-xl mb-2",
-                                                        children: "System Optimized"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                                        lineNumber: 161,
-                                                        columnNumber: 17
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-2deca24483799986" + " " + "text-white/40 text-xs uppercase tracking-widest",
-                                                        children: "+250% Efficiency"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                                        lineNumber: 162,
-                                                        columnNumber: 17
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                                lineNumber: 160,
-                                                columnNumber: 15
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                        lineNumber: 153,
-                                        columnNumber: 13
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-2deca24483799986" + " " + "absolute inset-0 flex items-center justify-center pointer-events-none",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-2deca24483799986" + " " + "w-64 h-64 bg-gradient-to-br from-[#C9A84C] to-[#E8C97A] rounded-full blur-[120px] opacity-20 animate-pulse"
-                                        }, void 0, false, {
-                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                            lineNumber: 167,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0))
-                                    }, void 0, false, {
-                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                        lineNumber: 166,
-                                        columnNumber: 13
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                lineNumber: 132,
-                                columnNumber: 11
-                            }, ("TURBOPACK compile-time value", void 0))
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                        lineNumber: 127,
+                        lineNumber: 101,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                lineNumber: 101,
+                lineNumber: 97,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "jsx-dbbe92298247feb1" + " " + "flex flex-wrap justify-center gap-3 mb-20 px-6",
+                children: categories.map((cat)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        onClick: ()=>setActiveCategory(cat),
+                        className: "jsx-dbbe92298247feb1" + " " + `px-6 py-2 rounded-full text-[10px] font-bold tracking-[0.2em] uppercase transition-all duration-300 border ${activeCategory === cat ? 'bg-[#C9A84C] text-black border-[#C9A84C] shadow-[0_0_15px_rgba(201,168,76,0.3)]' : 'bg-white/5 text-gray-500 border-white/10 hover:border-[#C9A84C]/50'}`,
+                        children: cat
+                    }, cat, false, {
+                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
+                        lineNumber: 121,
+                        columnNumber: 11
+                    }, ("TURBOPACK compile-time value", void 0)))
+            }, void 0, false, {
+                fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
+                lineNumber: 119,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 id: "articles",
-                className: "jsx-2deca24483799986" + " " + "py-32 px-6 relative border-t border-white/5",
+                className: "jsx-dbbe92298247feb1" + " " + "pb-32 px-6 relative",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "jsx-2deca24483799986" + " " + "max-w-6xl mx-auto",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-2deca24483799986" + " " + "flex flex-wrap justify-center gap-3 mb-20",
-                            children: categories.map((cat)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                    onClick: ()=>setActiveCategory(cat),
-                                    className: "jsx-2deca24483799986" + " " + `px-6 py-2 rounded-full text-xs font-bold tracking-widest uppercase transition-all duration-300 border ${activeCategory === cat ? 'bg-[#C9A84C] text-black border-[#C9A84C] shadow-[0_0_15px_rgba(201,168,76,0.3)]' : 'bg-white/5 text-gray-400 border-white/10 hover:border-[#C9A84C]/50'}`,
-                                    children: cat
-                                }, cat, false, {
-                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                    lineNumber: 179,
-                                    columnNumber: 15
-                                }, ("TURBOPACK compile-time value", void 0)))
-                        }, void 0, false, {
-                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                            lineNumber: 177,
-                            columnNumber: 11
-                        }, ("TURBOPACK compile-time value", void 0)),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-2deca24483799986" + " " + "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10",
-                            children: filteredPosts.map((post)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
-                                    className: "jsx-2deca24483799986" + " " + "group relative perspective-1000",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        href: `/blog/${post.slug}`,
-                                        className: "block h-full",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-2deca24483799986" + " " + "relative h-full bg-gradient-to-br from-white/[0.05] to-transparent rounded-3xl p-8 border border-white/10 backdrop-blur-md transition-all duration-500 group-hover:translate-y-[-12px] group-hover:rotate-x-2 group-hover:shadow-[0_20px_50px_rgba(201,168,76,0.15)] group-hover:border-[#C9A84C]/30 flex flex-col overflow-hidden",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    style: {
-                                                        backgroundImage: 'linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)',
-                                                        backgroundSize: '20px 20px'
-                                                    },
-                                                    className: "jsx-2deca24483799986" + " " + "absolute inset-0 opacity-[0.02] pointer-events-none"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                                    lineNumber: 198,
-                                                    columnNumber: 21
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-2deca24483799986" + " " + "w-14 h-14 rounded-2xl bg-gradient-to-br from-[#C9A84C]/20 to-transparent border border-[#C9A84C]/30 flex items-center justify-center text-3xl mb-8 group-hover:scale-110 transition-transform duration-500 shadow-lg shadow-[#C9A84C]/5",
-                                                    children: post.icon || '📄'
-                                                }, void 0, false, {
-                                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                                    lineNumber: 200,
-                                                    columnNumber: 21
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-2deca24483799986" + " " + "flex items-center gap-4 mb-6",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "jsx-2deca24483799986" + " " + "text-[10px] font-bold tracking-[0.2em] uppercase text-[#C9A84C]",
-                                                            children: post.category || 'Insights'
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                                            lineNumber: 204,
-                                                            columnNumber: 23
-                                                        }, ("TURBOPACK compile-time value", void 0)),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-2deca24483799986" + " " + "w-1 h-1 rounded-full bg-white/20"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                                            lineNumber: 205,
-                                                            columnNumber: 23
-                                                        }, ("TURBOPACK compile-time value", void 0)),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "jsx-2deca24483799986" + " " + "text-[10px] font-medium text-gray-500 uppercase tracking-wider",
-                                                            children: post.date ? new Date(post.date).toLocaleDateString('en-US', {
-                                                                month: 'short',
-                                                                day: 'numeric',
-                                                                year: 'numeric'
-                                                            }) : 'Recently'
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                                            lineNumber: 206,
-                                                            columnNumber: 23
-                                                        }, ("TURBOPACK compile-time value", void 0))
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                                    lineNumber: 203,
-                                                    columnNumber: 21
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                    className: "jsx-2deca24483799986" + " " + "text-2xl font-bold mb-4 font-serif group-hover:text-[#C9A84C] transition-colors leading-tight",
-                                                    children: post.title
-                                                }, void 0, false, {
-                                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                                    lineNumber: 210,
-                                                    columnNumber: 21
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "jsx-2deca24483799986" + " " + "text-gray-400 text-sm mb-10 line-clamp-4 leading-relaxed flex-grow",
-                                                    children: post.excerpt
-                                                }, void 0, false, {
-                                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                                    lineNumber: 211,
-                                                    columnNumber: 21
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-2deca24483799986" + " " + "flex items-center gap-3 text-xs font-bold uppercase tracking-widest text-[#C9A84C] group-hover:gap-5 transition-all",
-                                                    children: [
-                                                        "Explore Insights",
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-2deca24483799986" + " " + "h-[1px] w-8 bg-[#C9A84C]/50 group-hover:w-12 transition-all"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                                            lineNumber: 214,
-                                                            columnNumber: 23
-                                                        }, ("TURBOPACK compile-time value", void 0))
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                                    lineNumber: 212,
-                                                    columnNumber: 21
-                                                }, ("TURBOPACK compile-time value", void 0))
-                                            ]
-                                        }, void 0, true, {
+                    className: "jsx-dbbe92298247feb1" + " " + "max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",
+                    children: filteredPosts.map((post)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
+                            className: "jsx-dbbe92298247feb1" + " " + "group bg-[#0a0d14] border border-white/5 rounded-2xl overflow-hidden hover:border-[#C9A84C]/30 transition-all duration-500 flex flex-col shadow-2xl",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "jsx-dbbe92298247feb1" + " " + "relative aspect-[16/10] overflow-hidden bg-[#07090f]",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            style: {
+                                                backgroundImage: 'linear-gradient(90deg, transparent 50%, #000 50%)',
+                                                backgroundSize: '10px 100%'
+                                            },
+                                            className: "jsx-dbbe92298247feb1" + " " + "absolute inset-0 opacity-[0.15] pointer-events-none"
+                                        }, void 0, false, {
                                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                            lineNumber: 197,
-                                            columnNumber: 19
+                                            lineNumber: 144,
+                                            columnNumber: 17
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "jsx-dbbe92298247feb1" + " " + "absolute inset-0 bg-gradient-to-t from-[#0a0d14] via-transparent to-transparent"
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
+                                            lineNumber: 148,
+                                            columnNumber: 17
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "jsx-dbbe92298247feb1" + " " + "absolute inset-0 flex items-center justify-end pr-10",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "jsx-dbbe92298247feb1" + " " + "w-36 h-36 relative",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-dbbe92298247feb1" + " " + "absolute inset-0 bg-[#C9A84C]/20 rounded-full blur-3xl animate-pulse"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
+                                                        lineNumber: 153,
+                                                        columnNumber: 23
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    post.mainImage ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                        src: urlFor(post.mainImage).width(400).url(),
+                                                        alt: post.title,
+                                                        className: "jsx-dbbe92298247feb1" + " " + "relative z-10 w-full h-full object-contain group-hover:scale-110 group-hover:rotate-6 transition-all duration-700"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
+                                                        lineNumber: 155,
+                                                        columnNumber: 25
+                                                    }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-dbbe92298247feb1" + " " + "relative z-10 w-full h-full flex items-center justify-center text-6xl drop-shadow-[0_0_20px_rgba(201,168,76,0.5)]",
+                                                        children: "✨"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
+                                                        lineNumber: 161,
+                                                        columnNumber: 25
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
+                                                lineNumber: 152,
+                                                columnNumber: 20
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
+                                            lineNumber: 151,
+                                            columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0))
-                                    }, void 0, false, {
-                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                        lineNumber: 196,
-                                        columnNumber: 17
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                }, post.slug, false, {
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                    lineNumber: 195,
+                                    lineNumber: 142,
                                     columnNumber: 15
-                                }, ("TURBOPACK compile-time value", void 0)))
-                        }, void 0, false, {
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "jsx-dbbe92298247feb1" + " " + "p-10 flex flex-col flex-grow border-t border-white/5",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "jsx-dbbe92298247feb1" + " " + "text-[10px] font-bold text-gray-500 uppercase tracking-[0.3em] mb-5",
+                                            children: post.publishedAt ? new Date(post.publishedAt).toLocaleDateString('en-US', {
+                                                month: 'long',
+                                                day: 'numeric',
+                                                year: 'numeric'
+                                            }) : 'Recently Published'
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
+                                            lineNumber: 169,
+                                            columnNumber: 17
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "jsx-dbbe92298247feb1" + " " + "text-2xl font-bold text-white mb-5 group-hover:text-[#C9A84C] transition-colors leading-[1.3] font-serif",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: `/blog/${post.slug.current}`,
+                                                children: post.title
+                                            }, void 0, false, {
+                                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
+                                                lineNumber: 174,
+                                                columnNumber: 19
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
+                                            lineNumber: 173,
+                                            columnNumber: 17
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "jsx-dbbe92298247feb1" + " " + "text-gray-500 text-sm mb-10 line-clamp-3 leading-relaxed font-sans",
+                                            children: post.excerpt
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
+                                            lineNumber: 177,
+                                            columnNumber: 17
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "jsx-dbbe92298247feb1" + " " + "mt-auto",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: `/blog/${post.slug.current}`,
+                                                className: "inline-flex items-center gap-3 text-[11px] font-bold uppercase tracking-[0.25em] text-white group-hover:text-[#C9A84C] group-hover:gap-5 transition-all",
+                                                children: [
+                                                    "Read More",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                                        fill: "none",
+                                                        stroke: "currentColor",
+                                                        viewBox: "0 0 24 24",
+                                                        className: "jsx-dbbe92298247feb1" + " " + "w-4 h-4",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                            strokeLinecap: "round",
+                                                            strokeLinejoin: "round",
+                                                            strokeWidth: 3,
+                                                            d: "M17 8l4 4m0 0l-4 4m4-4H3",
+                                                            className: "jsx-dbbe92298247feb1"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
+                                                            lineNumber: 185,
+                                                            columnNumber: 23
+                                                        }, ("TURBOPACK compile-time value", void 0))
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
+                                                        lineNumber: 184,
+                                                        columnNumber: 21
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
+                                                lineNumber: 182,
+                                                columnNumber: 19
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        }, void 0, false, {
+                                            fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
+                                            lineNumber: 181,
+                                            columnNumber: 17
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
+                                    lineNumber: 168,
+                                    columnNumber: 15
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, post._id, true, {
                             fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                            lineNumber: 193,
-                            columnNumber: 11
-                        }, ("TURBOPACK compile-time value", void 0))
-                    ]
-                }, void 0, true, {
+                            lineNumber: 139,
+                            columnNumber: 13
+                        }, ("TURBOPACK compile-time value", void 0)))
+                }, void 0, false, {
                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                    lineNumber: 175,
+                    lineNumber: 137,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                lineNumber: 174,
+                lineNumber: 136,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "jsx-2deca24483799986" + " " + "py-40 px-6 relative overflow-hidden bg-[#08090f]",
+                className: "jsx-dbbe92298247feb1" + " " + "py-32 px-6 relative overflow-hidden bg-[#08090f] border-t border-white/5",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "jsx-2deca24483799986" + " " + "max-w-5xl mx-auto relative",
+                    className: "jsx-dbbe92298247feb1" + " " + "max-w-4xl mx-auto relative",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-2deca24483799986" + " " + "relative p-12 md:p-24 rounded-[40px] bg-gradient-to-br from-white/[0.03] to-transparent border border-white/10 backdrop-blur-xl text-center overflow-hidden",
+                        className: "jsx-dbbe92298247feb1" + " " + "relative p-12 md:p-20 rounded-[40px] bg-gradient-to-br from-white/[0.03] to-transparent border border-white/10 backdrop-blur-xl text-center shadow-2xl",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-2deca24483799986" + " " + "absolute -top-24 -right-24 w-64 h-64 bg-[#C9A84C]/10 rounded-full blur-[80px]"
+                                className: "jsx-dbbe92298247feb1" + " " + "absolute -top-20 -right-20 w-64 h-64 bg-[#C9A84C]/10 rounded-full blur-[80px]"
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                lineNumber: 228,
-                                columnNumber: 13
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-2deca24483799986" + " " + "absolute -bottom-24 -left-24 w-64 h-64 bg-blue-500/10 rounded-full blur-[80px]"
-                            }, void 0, false, {
-                                fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                lineNumber: 229,
+                                lineNumber: 199,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "jsx-2deca24483799986" + " " + "text-4xl md:text-6xl font-bold mb-8 font-serif leading-tight",
+                                className: "jsx-dbbe92298247feb1" + " " + "text-4xl md:text-6xl font-bold mb-8 font-serif leading-tight",
                                 children: [
                                     "Ready to ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "jsx-2deca24483799986" + " " + "italic text-[#C9A84C]",
+                                        className: "jsx-dbbe92298247feb1" + " " + "italic text-[#C9A84C]",
                                         children: "Scale"
                                     }, void 0, false, {
                                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                        lineNumber: 232,
+                                        lineNumber: 202,
                                         columnNumber: 24
                                     }, ("TURBOPACK compile-time value", void 0)),
-                                    " Your Operations?"
+                                    "?"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                lineNumber: 231,
+                                lineNumber: 201,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "jsx-2deca24483799986" + " " + "text-xl text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed",
-                                children: "Explore how AI automation can revolutionize your business—let's build your custom implementation roadmap today."
+                                className: "jsx-dbbe92298247feb1" + " " + "text-lg text-gray-400 mb-12 max-w-xl mx-auto leading-relaxed",
+                                children: "Let's build your custom AI implementation roadmap today and revolutionize your business operations."
                             }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                lineNumber: 234,
+                                lineNumber: 204,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-2deca24483799986" + " " + "flex flex-col sm:flex-row gap-6 justify-center items-center",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        href: "/contact",
-                                        className: "group relative px-10 py-5 bg-[#C9A84C] text-black font-bold rounded-xl hover:shadow-[0_0_30px_rgba(201,168,76,0.4)] transition-all duration-300 active:scale-95",
-                                        children: "Book Strategy Call"
-                                    }, void 0, false, {
-                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                        lineNumber: 239,
-                                        columnNumber: 15
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        href: "/services",
-                                        className: "px-10 py-5 bg-white/5 border border-white/10 font-bold rounded-xl hover:bg-white/10 transition-all backdrop-blur-sm",
-                                        children: "Our Services"
-                                    }, void 0, false, {
-                                        fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                        lineNumber: 245,
-                                        columnNumber: 15
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                ]
-                            }, void 0, true, {
+                                className: "jsx-dbbe92298247feb1" + " " + "flex flex-col sm:flex-row gap-5 justify-center items-center",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                    href: "/contact",
+                                    className: "px-10 py-5 bg-[#C9A84C] text-black font-bold rounded-2xl hover:shadow-[0_0_40px_rgba(201,168,76,0.4)] transition-all active:scale-95 text-sm uppercase tracking-widest",
+                                    children: "Book Strategy Call"
+                                }, void 0, false, {
+                                    fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
+                                    lineNumber: 209,
+                                    columnNumber: 15
+                                }, ("TURBOPACK compile-time value", void 0))
+                            }, void 0, false, {
                                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                                lineNumber: 238,
+                                lineNumber: 208,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                        lineNumber: 227,
+                        lineNumber: 198,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                    lineNumber: 226,
+                    lineNumber: 197,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                lineNumber: 225,
+                lineNumber: 196,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$components$2f$Footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Footer$3e$__["Footer"], {}, void 0, false, {
                 fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-                lineNumber: 255,
+                lineNumber: 217,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                id: "2deca24483799986",
-                children: ".perspective-1000{perspective:1000px}.rotate-x-2{transform:rotateX(2deg)}@keyframes float-slow{0%,to{transform:translateY(0)rotate(12deg)}50%{transform:translateY(-20px)rotate(14deg)}}@keyframes float-delayed{0%,to{transform:translateY(0)rotate(-6deg)}50%{transform:translateY(-15px)rotate(-4deg)}}@keyframes progress{0%{width:0%}to{width:66%}}@keyframes wave{0%,to{height:20%}50%{height:80%}}@keyframes spin-slow{0%{transform:rotate(0)}to{transform:rotate(360deg)}}.animate-float-slow{animation:6s ease-in-out infinite float-slow}.animate-float-delayed{animation:7s ease-in-out 1s infinite float-delayed}.animate-progress{animation:2s ease-out forwards progress}.animate-wave{animation:1.5s ease-in-out infinite wave}.animate-spin-slow{animation:10s linear infinite spin-slow}"
+                id: "dbbe92298247feb1",
+                children: "@keyframes float-slow{0%,to{transform:translateY(0)}50%{transform:translateY(-10px)}}.animate-float-slow{animation:6s ease-in-out infinite float-slow}"
             }, void 0, false, void 0, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/prime/ThePrimeCrafters-Web/app/blog/page.tsx",
-        lineNumber: 97,
+        lineNumber: 93,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
-_s(BlogListingPage, "UUZStWp0cwL+VP94QXOMvbev3Dg=");
+_s(BlogListingPage, "V+Grv9w1OIpKNfmXPLvoTIKULr8=");
 _c = BlogListingPage;
 const __TURBOPACK__default__export__ = BlogListingPage;
 var _c;

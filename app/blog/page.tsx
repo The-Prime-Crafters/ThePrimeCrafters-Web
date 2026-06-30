@@ -1,290 +1,283 @@
-'use client';
+import { client } from '@/sanity/lib/client'
+import { allPostsQuery } from '@/sanity/lib/queries'
+import BlogCard from '@/components/blog/BlogCard'
+import BlogHero3D from '@/components/blog/BlogHero3D'
+import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
+import Image from 'next/image'
+import Link from 'next/link'
+import type { Metadata } from 'next'
 
-import React, { useEffect, useState, useMemo } from 'react';
-import Link from 'next/link';
-import { createClient } from 'next-sanity';
-import { Navbar, Footer } from "@/components";
-
-/**
- * SANITY CLIENT CONFIGURATION
- * Replace 'your-project-id' with your actual ID from sanity.io/manage
- */
-const client = createClient({
-  projectId: 'tvdhipft', 
-  dataset: 'production',
-  apiVersion: '2023-05-03',
-  useCdn: false, 
-});
-
-interface Post {
-  slug: string;
-  title: string;
-  excerpt: string;
-  date: string;
-  category: string;
-  icon: string;
+export const metadata: Metadata = {
+  
+  alternates: { canonical: 'https://www.theprimecrafters.com/blog' },
 }
 
-const BlogListingPage = () => {
-  const [posts, setPosts] = useState<Post[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-  const [activeCategory, setActiveCategory] = useState('All');
+type Post = {
+  _id: string
+  title: string
+  slug: { current: string }
+  publishedAt: string
+  excerpt?: string
+  mainImage?: { asset: { url: string }; alt?: string }
+  categories?: { title: string }[]
+  author?: { name: string; image?: { asset: { url: string } } }
+}
 
-  useEffect(() => {
-    const query = `*[_type == "post"] | order(date desc) {
-      "slug": slug.current,
-      title,
-      excerpt,
-      date,
-      "category": category->title, 
-      icon
-    }`;
-
-    const fetchPosts = async () => {
-      if (client.config().projectId === 'your-project-id') {
-        setError("Configuration Error: Please update your Sanity Project ID in the code.");
-        setLoading(false);
-        return;
-      }
-
-      try {
-        const data = await client.fetch(query);
-        setPosts(data);
-        setError(null);
-      } catch (err: any) {
-        console.error("Sanity fetch error:", err);
-        setError("Failed to reach Sanity. Check your Project ID and CORS settings.");
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchPosts();
-  }, []);
-
-  const categories = useMemo(() => {
-    const unique = Array.from(new Set(posts.map(p => p.category || 'Insights')));
-    return ['All', ...unique];
-  }, [posts]);
-
-  const filteredPosts = useMemo(() => {
-    if (activeCategory === 'All') return posts;
-    return posts.filter(p => p.category === activeCategory);
-  }, [posts, activeCategory]);
-
-  if (loading) {
-    return (
-      <div className="min-h-screen bg-[#0b0c14] flex flex-col items-center justify-center text-[#C9A84C]">
-        <div className="w-12 h-12 border-2 border-[#C9A84C]/20 border-t-[#C9A84C] rounded-full animate-spin mb-4" />
-        <p className="tracking-widest uppercase text-xs font-bold font-serif">Syncing with Intelligence...</p>
-      </div>
-    );
-  }
-
-  if (error) {
-    return (
-      <div className="min-h-screen bg-[#0b0c14] flex flex-col items-center justify-center p-6 text-center">
-        <div className="w-20 h-20 bg-red-500/10 border border-red-500/20 rounded-full flex items-center justify-center text-4xl mb-6">⚠️</div>
-        <h2 className="text-2xl font-serif text-white mb-4">Connection Failed</h2>
-        <p className="text-gray-400 max-w-md mb-8 leading-relaxed">{error}</p>
-        <button onClick={() => window.location.reload()} className="px-6 py-3 bg-[#C9A84C] text-black rounded-lg font-bold text-sm">Try Again</button>
-      </div>
-    );
-  }
+export default async function BlogPage() {
+  const posts: Post[] = await client.fetch(allPostsQuery)
+  const featured = posts[0] ?? null
+  const rest = posts.slice(1)
 
   return (
     <div className="min-h-screen bg-[#0b0c14] text-[#f5f1e8] selection:bg-[#C9A84C]/30">
       <Navbar />
-      
-      {/* SPLIT-SCREEN HERO SECTION */}
-      <section className="relative min-h-screen flex flex-col lg:flex-row items-center overflow-hidden pt-20">
-        <div className="w-full lg:w-1/2 px-8 lg:px-20 py-20 relative z-10">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 mb-8 backdrop-blur-sm">
-            <span className="w-2 h-2 rounded-full bg-[#C9A84C] animate-pulse" />
-            <span className="text-xs font-semibold tracking-widest uppercase text-[#C9A84C]">ThePrimeCrafters Insights</span>
-          </div>
-          
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-8 font-serif leading-[1.1] tracking-tight">
-            The Future of <br />
-            <span className="text-[#C9A84C] italic">AI Automation</span>
-          </h1>
+      <main className="bg-[#0a0a0a] min-h-screen overflow-x-hidden">
 
-          <p className="text-xl text-gray-400 max-w-xl mb-12 leading-relaxed font-sans">
-            Expert analysis on AI voice agents, workflow optimization, and custom systems engineered to scale your business operations without increasing overhead.
-          </p>
+        {/* ═══════════════════════════════════════
+            SPLIT-SCREEN HERO
+        ═══════════════════════════════════════ */}
+        <section className="relative min-h-[88vh] flex flex-col lg:flex-row overflow-hidden">
 
-          <div className="flex gap-6">
-             <Link href="#articles" className="px-8 py-4 bg-[#C9A84C] text-black font-bold rounded-lg hover:shadow-[0_0_20px_rgba(201,168,76,0.3)] transition-all">
-                Read Articles
-             </Link>
-             <Link href="/contact" className="px-8 py-4 border border-white/10 rounded-lg hover:bg-white/5 transition-all">
-                Book Strategy Call
-             </Link>
-          </div>
-        </div>
+          <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[rgba(212,175,55,0.2)] to-transparent z-10" />
 
-        <div className="w-full lg:w-1/2 h-[60vh] lg:h-screen relative flex items-center justify-center p-10 overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-l from-[#C9A84C]/5 to-transparent pointer-events-none" />
-          <div className="absolute inset-0 opacity-[0.03] pointer-events-none" 
-               style={{ backgroundImage: 'radial-gradient(#C9A84C 1px, transparent 1px)', backgroundSize: '30px 30px' }} />
+          {/* LEFT — text content */}
+          <div className="relative z-10 flex flex-col justify-center px-8 md:px-14 lg:px-20 pt-36 pb-16 lg:pt-0 lg:pb-0 w-full lg:w-[55%]">
+            <div className="absolute -top-20 -left-20 w-[500px] h-[500px] bg-[#D4AF37] rounded-full opacity-[0.035] blur-[120px] pointer-events-none" />
 
-          <div className="relative w-full max-w-md aspect-square">
-            <div className="absolute top-0 right-0 w-72 h-96 bg-white/[0.03] border border-white/10 rounded-3xl backdrop-blur-xl rotate-12 animate-float-slow p-6 flex flex-col gap-4 shadow-2xl">
-              <div className="w-full h-1 bg-white/10 rounded-full overflow-hidden">
-                <div className="w-2/3 h-full bg-[#C9A84C] animate-progress" />
-              </div>
-              <div className="flex gap-2">
-                <div className="w-8 h-8 rounded-lg bg-[#C9A84C]/20 border border-[#C9A84C]/30 animate-pulse" />
-                <div className="flex-1 h-8 rounded-lg bg-white/5" />
-              </div>
-              <div className="flex-1 rounded-2xl bg-white/5 p-4 flex flex-col gap-3">
-                <div className="w-full h-2 bg-white/10 rounded-full" />
-                <div className="w-4/5 h-2 bg-white/10 rounded-full" />
-                <div className="w-3/4 h-2 bg-white/10 rounded-full" />
-                <div className="mt-auto h-16 flex items-end gap-1">
-                  {[...Array(12)].map((_, i) => (
-                    <div key={i} className="flex-1 bg-[#C9A84C]/40 rounded-t-sm animate-wave" style={{ animationDelay: `${i * 0.1}s` }} />
-                  ))}
-                </div>
-              </div>
+            <div className="flex items-center gap-2 text-xs text-[#404040] mb-8 font-medium tracking-wider uppercase">
+              <Link href="/" className="hover:text-[#D4AF37] transition-colors">Home</Link>
+              <span className="text-[#2a2a2a]">/</span>
+              <span className="text-[#D4AF37]">Blog</span>
             </div>
 
-            <div className="absolute bottom-10 left-0 w-72 h-96 bg-[#C9A84C]/5 border border-[#C9A84C]/20 rounded-3xl backdrop-blur-xl -rotate-6 animate-float-delayed shadow-2xl shadow-[#C9A84C]/10 p-8 flex flex-col items-center justify-center">
-              <div className="relative w-32 h-32 mb-8">
-                <div className="absolute inset-0 border-2 border-dashed border-[#C9A84C]/30 rounded-full animate-spin-slow" />
-                <div className="absolute inset-4 border border-[#C9A84C]/50 rounded-full flex items-center justify-center text-4xl">
-                  ✨
-                </div>
-              </div>
-              <div className="text-center">
-                <div className="text-[#C9A84C] font-bold text-xl mb-2">System Optimized</div>
-                <div className="text-white/40 text-xs uppercase tracking-widest">+250% Efficiency</div>
-              </div>
-            </div>
-            
-            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-              <div className="w-64 h-64 bg-gradient-to-br from-[#C9A84C] to-[#E8C97A] rounded-full blur-[120px] opacity-20 animate-pulse" />
-            </div>
-          </div>
-        </div>
-      </section>
+            <span className="inline-flex items-center gap-2 text-[#D4AF37] text-[11px] font-bold uppercase tracking-[0.3em] mb-6 self-start">
+              <span className="w-6 h-px bg-[#D4AF37]" />
+              Knowledge Hub
+            </span>
 
-      {/* FILTER BAR & DYNAMIC GRID */}
-      <section id="articles" className="py-32 px-6 relative border-t border-white/5">
-        <div className="max-w-6xl mx-auto">
-          
-          <div className="flex flex-wrap justify-center gap-3 mb-20">
-            {categories.map((cat) => (
-              <button
-                key={cat}
-                onClick={() => setActiveCategory(cat)}
-                className={`px-6 py-2 rounded-full text-xs font-bold tracking-widest uppercase transition-all duration-300 border ${
-                  activeCategory === cat 
-                  ? 'bg-[#C9A84C] text-black border-[#C9A84C] shadow-[0_0_15px_rgba(201,168,76,0.3)]' 
-                  : 'bg-white/5 text-gray-400 border-white/10 hover:border-[#C9A84C]/50'
-                }`}
-              >
-                {cat}
-              </button>
-            ))}
-          </div>
+            <h1
+              className="text-[clamp(3rem,6vw,5.5rem)] font-bold leading-[1.0] text-[#f0f0f0] mb-6"
+              style={{ fontFamily: "'Cormorant Garamond', serif" }}
+            >
+              Blog &amp;
+              <br />
+              <span className="text-gradient-gold">Insights</span>
+            </h1>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-            {filteredPosts.map((post) => (
-              <article key={post.slug} className="group relative perspective-1000">
-                <Link href={`/blog/${post.slug}`} className="block h-full">
-                  <div className="relative h-full bg-gradient-to-br from-white/[0.05] to-transparent rounded-3xl p-8 border border-white/10 backdrop-blur-md transition-all duration-500 group-hover:translate-y-[-12px] group-hover:rotate-x-2 group-hover:shadow-[0_20px_50px_rgba(201,168,76,0.15)] group-hover:border-[#C9A84C]/30 flex flex-col overflow-hidden">
-                    <div className="absolute inset-0 opacity-[0.02] pointer-events-none" 
-                         style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)', backgroundSize: '20px 20px' }} />
-                    <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#C9A84C]/20 to-transparent border border-[#C9A84C]/30 flex items-center justify-center text-3xl mb-8 group-hover:scale-110 transition-transform duration-500 shadow-lg shadow-[#C9A84C]/5">
-                      {post.icon || '📄'}
-                    </div>
-                    <div className="flex items-center gap-4 mb-6">
-                      <span className="text-[10px] font-bold tracking-[0.2em] uppercase text-[#C9A84C]">{post.category || 'Insights'}</span>
-                      <div className="w-1 h-1 rounded-full bg-white/20" />
-                      <span className="text-[10px] font-medium text-gray-500 uppercase tracking-wider">
-                        {post.date ? new Date(post.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : 'Recently'}
-                      </span>
-                    </div>
-                    <h3 className="text-2xl font-bold mb-4 font-serif group-hover:text-[#C9A84C] transition-colors leading-tight">{post.title}</h3>
-                    <p className="text-gray-400 text-sm mb-10 line-clamp-4 leading-relaxed flex-grow">{post.excerpt}</p>
-                    <div className="flex items-center gap-3 text-xs font-bold uppercase tracking-widest text-[#C9A84C] group-hover:gap-5 transition-all">
-                      Explore Insights
-                      <div className="h-[1px] w-8 bg-[#C9A84C]/50 group-hover:w-12 transition-all" />
-                    </div>
-                  </div>
-                </Link>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* 3D Glass CTA Section */}
-      <section className="py-40 px-6 relative overflow-hidden bg-[#08090f]">
-        <div className="max-w-5xl mx-auto relative">
-          <div className="relative p-12 md:p-24 rounded-[40px] bg-gradient-to-br from-white/[0.03] to-transparent border border-white/10 backdrop-blur-xl text-center overflow-hidden">
-            <div className="absolute -top-24 -right-24 w-64 h-64 bg-[#C9A84C]/10 rounded-full blur-[80px]" />
-            <div className="absolute -bottom-24 -left-24 w-64 h-64 bg-blue-500/10 rounded-full blur-[80px]" />
-            
-            <h2 className="text-4xl md:text-6xl font-bold mb-8 font-serif leading-tight">
-              Ready to <span className="italic text-[#C9A84C]">Scale</span> Your Operations?
-            </h2>
-            <p className="text-xl text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-              Explore how AI automation can revolutionize your business—let's build your custom implementation roadmap today.
+            <p className="text-[#5a5a5a] text-base md:text-lg leading-relaxed max-w-[480px] mb-10">
+              Expert takes on AI automation, digital transformation, and the
+              strategies behind building businesses that scale — from the team
+              at The Prime Crafters.
             </p>
-            
-            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <Link 
-                href="/contact" 
-                className="group relative px-10 py-5 bg-[#C9A84C] text-black font-bold rounded-xl hover:shadow-[0_0_30px_rgba(201,168,76,0.4)] transition-all duration-300 active:scale-95"
-              >
-                Book Strategy Call
-              </Link>
-              <Link 
-                href="/services" 
-                className="px-10 py-5 bg-white/5 border border-white/10 font-bold rounded-xl hover:bg-white/10 transition-all backdrop-blur-sm"
-              >
-                Our Services
-              </Link>
+
+            <div className="flex flex-wrap gap-2">
+              {['AI Automation', 'Case Studies', 'Strategy', 'Digital Growth'].map(tag => (
+                <span
+                  key={tag}
+                  className="text-[11px] font-semibold uppercase tracking-widest text-[#3a3a3a] border border-[rgba(255,255,255,0.06)] px-3 py-1.5 rounded-full"
+                >
+                  {tag}
+                </span>
+              ))}
             </div>
           </div>
+
+          {/* RIGHT — 3D canvas */}
+          <div className="relative w-full lg:w-[45%] min-h-[420px] lg:min-h-0">
+            <div className="hidden lg:block absolute left-0 top-[15%] bottom-[15%] w-px bg-gradient-to-b from-transparent via-[rgba(212,175,55,0.12)] to-transparent" />
+            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+              <div className="w-[360px] h-[360px] bg-[#D4AF37] rounded-full opacity-[0.04] blur-[100px]" />
+            </div>
+            <BlogHero3D />
+          </div>
+
+          <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[rgba(212,175,55,0.12)] to-transparent" />
+        </section>
+
+        {/* ═══════════════════════════════════════
+            POSTS
+        ═══════════════════════════════════════ */}
+        <div className="max-w-7xl mx-auto px-6 lg:px-8 py-20 space-y-20">
+
+          {posts.length === 0 && (
+            <div className="text-center py-32">
+              <div className="w-14 h-14 rounded-full bg-[rgba(212,175,55,0.08)] border border-[rgba(212,175,55,0.15)] flex items-center justify-center mx-auto mb-6">
+                <svg className="w-6 h-6 text-[#D4AF37]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
+              </div>
+              <p className="text-[#3a3a3a] text-base">No posts yet — check back soon.</p>
+            </div>
+          )}
+
+          {/* FEATURED POST */}
+          {featured && (
+            <div>
+              <div className="flex items-center gap-3 mb-8">
+                <span className="w-6 h-px bg-[#D4AF37]" />
+                <span className="text-[#D4AF37] text-[11px] font-bold uppercase tracking-[0.25em]">Featured</span>
+              </div>
+
+              <Link
+                href={`/blog/${featured.slug.current}`}
+                className="group flex flex-col md:flex-row gap-0 bg-[#0f0f0f] rounded-2xl overflow-hidden border border-[rgba(255,255,255,0.06)] hover:border-[rgba(212,175,55,0.3)] transition-all duration-400 hover:shadow-[0_24px_80px_rgba(212,175,55,0.07)]"
+              >
+                {/* image */}
+                <div className="relative w-full md:w-[45%] aspect-[16/10] md:aspect-auto overflow-hidden flex-shrink-0 bg-[#0a0a0a]">
+                  {featured.mainImage?.asset?.url ? (
+                    <>
+                      <Image
+                        src={featured.mainImage.asset.url}
+                        alt={featured.mainImage.alt || featured.title}
+                        fill
+                        className="object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-600"
+                        priority
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#0f0f0f] opacity-40" />
+                    </>
+                  ) : (
+                    <div className="w-full h-full flex items-center justify-center min-h-[280px]">
+                      <div className="w-14 h-14 rounded-full bg-[rgba(212,175,55,0.08)] flex items-center justify-center">
+                        <svg className="w-7 h-7 text-[#D4AF37]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                        </svg>
+                      </div>
+                    </div>
+                  )}
+                  {featured.categories?.[0] && (
+                    <span className="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-widest text-black bg-[#D4AF37] px-3 py-1 rounded-full">
+                      {featured.categories[0].title}
+                    </span>
+                  )}
+                </div>
+
+                {/* content */}
+                <div className="flex flex-col justify-between p-8 md:p-10 lg:p-14 flex-1">
+                  <div>
+                    <p className="text-[#404040] text-xs font-medium mb-4 tracking-widest uppercase">
+                      {new Date(featured.publishedAt).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+                    </p>
+                    <h2
+                      className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#ebebeb] group-hover:text-[#D4AF37] transition-colors duration-300 leading-snug mb-5"
+                      style={{ fontFamily: "'Cormorant Garamond', serif" }}
+                    >
+                      {featured.title}
+                    </h2>
+                    {featured.excerpt && (
+                      <p className="text-[#4a4a4a] text-sm md:text-base leading-relaxed line-clamp-3 mb-8">
+                        {featured.excerpt}
+                      </p>
+                    )}
+                  </div>
+
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-3">
+                      {featured.author?.image?.asset?.url ? (
+                        <Image
+                          src={featured.author.image.asset.url}
+                          alt={featured.author.name}
+                          width={36}
+                          height={36}
+                          className="rounded-full object-cover ring-1 ring-[rgba(212,175,55,0.25)]"
+                        />
+                      ) : (
+                        <div className="w-9 h-9 rounded-full bg-[rgba(212,175,55,0.1)] flex items-center justify-center flex-shrink-0">
+                          <span className="text-[#D4AF37] text-sm font-bold">
+                            {featured.author?.name?.charAt(0) ?? 'P'}
+                          </span>
+                        </div>
+                      )}
+                      {featured.author?.name && (
+                        <span className="text-[#4a4a4a] text-sm">{featured.author.name}</span>
+                      )}
+                    </div>
+                    <span className="inline-flex items-center gap-2 text-[#D4AF37] text-sm font-semibold tracking-wider uppercase group-hover:gap-3 transition-all duration-300">
+                      Read Article
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </Link>
+            </div>
+          )}
+
+          {/* GRID */}
+          {rest.length > 0 && (
+            <div>
+              <div className="flex items-center gap-3 mb-8">
+                <span className="w-6 h-px bg-[#D4AF37]" />
+                <span className="text-[#D4AF37] text-[11px] font-bold uppercase tracking-[0.25em]">Latest Posts</span>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {rest.map((post) => (
+                  <BlogCard key={post._id} {...post} />
+                ))}
+              </div>
+            </div>
+          )}
         </div>
-      </section>
+
+        {/* ═══════════════════════════════════════
+            CTA
+        ═══════════════════════════════════════ */}
+        <section className="relative py-24 px-6 overflow-hidden">
+          <div className="absolute inset-0 pointer-events-none">
+            <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[rgba(212,175,55,0.1)] to-transparent" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-[#D4AF37] rounded-full opacity-[0.03] blur-[100px]" />
+          </div>
+
+          <div className="max-w-4xl mx-auto text-center relative z-10">
+            <div className="bg-[#0f0f0f] border border-[rgba(255,255,255,0.06)] rounded-[2rem] p-10 sm:p-14 md:p-20 relative overflow-hidden">
+              <div className="absolute top-[-60px] left-1/2 -translate-x-1/2 w-[280px] h-[280px] bg-[rgba(212,175,55,0.07)] blur-[90px] rounded-full pointer-events-none" />
+
+              <span className="inline-flex items-center gap-2 text-[#D4AF37] text-[11px] font-bold uppercase tracking-[0.3em] mb-6">
+                <span className="w-4 h-px bg-[#D4AF37]" />
+                Let's Work Together
+                <span className="w-4 h-px bg-[#D4AF37]" />
+              </span>
+
+              <h2
+                className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.08] mb-6 relative z-10"
+                style={{ fontFamily: "'Cormorant Garamond', serif" }}
+              >
+                <span className="text-[#f0f0f0]">Ready to Put AI</span>
+                <br />
+                <span className="text-gradient-gold">to Work for You?</span>
+              </h2>
+
+              <p className="text-[#4a4a4a] text-base md:text-lg leading-relaxed max-w-xl mx-auto mb-10 relative z-10">
+                The strategies in our blog are just the start. Book a free 20-minute
+                consultation and we'll map out exactly how AI automation can accelerate
+                your business — no fluff, no commitment.
+              </p>
+
+              <div className="flex flex-wrap justify-center gap-4 relative z-10">
+                <Link
+                  href="/contact"
+                  className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-[#D4AF37] text-black font-bold text-sm hover:scale-105 hover:shadow-[0_0_40px_rgba(212,175,55,0.35)] transition-all duration-300"
+                >
+                  Schedule a Free Consultation
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </Link>
+                <Link
+                  href="/services"
+                  className="inline-flex items-center gap-2 px-8 py-4 rounded-xl border border-[rgba(255,255,255,0.08)] text-[#a3a3a3] text-sm hover:border-[rgba(212,175,55,0.35)] hover:text-[#D4AF37] hover:scale-105 transition-all duration-300"
+                >
+                  Explore Our Services
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </main>
       <Footer />
 
-      <style jsx global>{`
-        .perspective-1000 { perspective: 1000px; }
-        .rotate-x-2 { transform: rotateX(2deg); }
-        @keyframes float-slow {
-          0%, 100% { transform: translateY(0) rotate(12deg); }
-          50% { transform: translateY(-20px) rotate(14deg); }
-        }
-        @keyframes float-delayed {
-          0%, 100% { transform: translateY(0) rotate(-6deg); }
-          50% { transform: translateY(-15px) rotate(-4deg); }
-        }
-        @keyframes progress {
-          0% { width: 0%; }
-          100% { width: 66%; }
-        }
-        @keyframes wave {
-          0%, 100% { height: 20%; }
-          50% { height: 80%; }
-        }
-        @keyframes spin-slow {
-          from { transform: rotate(0deg); }
-          to { transform: rotate(360deg); }
-        }
-        .animate-float-slow { animation: float-slow 6s ease-in-out infinite; }
-        .animate-float-delayed { animation: float-delayed 7s ease-in-out infinite; animation-delay: 1s; }
-        .animate-progress { animation: progress 2s ease-out forwards; }
-        .animate-wave { animation: wave 1.5s ease-in-out infinite; }
-        .animate-spin-slow { animation: spin-slow 10s linear infinite; }
-      `}</style>
     </div>
-  );
-};
-
-export default BlogListingPage;
+  )
+}

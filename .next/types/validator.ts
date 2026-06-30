@@ -63,6 +63,15 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../app/blog/pages/how-ai-automation-is-transforming-business-operations-2025/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/blog/pages/how-ai-automation-is-transforming-business-operations-2025">> = Specific
+  const handler = {} as typeof import("../../app/blog/pages/how-ai-automation-is-transforming-business-operations-2025/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../app/case-studies/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/case-studies">> = Specific

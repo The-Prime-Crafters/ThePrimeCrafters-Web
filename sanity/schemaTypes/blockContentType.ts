@@ -72,5 +72,9 @@ export const blockContentType = defineType({
         }
       ]
     }),
+    // Table block, added via @sanity/table plugin
+    defineArrayMember({
+      type: 'table',
+    }),
   ],
 })
