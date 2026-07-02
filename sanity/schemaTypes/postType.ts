@@ -69,6 +69,50 @@ export const postType = defineType({
       group: 'content',
     }),
 
+    // ── KEY TAKEAWAYS ──
+    defineField({
+      name: 'keyTakeaways',
+      title: 'Key Takeaways',
+      type: 'array',
+      of: [defineArrayMember({type: 'string'})],
+      description: 'Bullet points summarizing the article. Aim for 5-6, max 10. Rendered as a callout box right after the intro paragraph.',
+      validation: (Rule) => Rule.max(10).warning('Keep this to 10 points or fewer for readability'),
+      group: 'content',
+    }),
+
+    // ── FAQS ──
+    defineField({
+      name: 'faqs',
+      title: 'FAQs',
+      type: 'array',
+      description: 'Frequently asked questions shown at the bottom of the post. Also used to generate FAQ rich-snippet markup for Google.',
+      of: [
+        defineArrayMember({
+          type: 'object',
+          name: 'faq',
+          fields: [
+            defineField({
+              name: 'question',
+              title: 'Question',
+              type: 'string',
+              validation: (Rule) => Rule.required(),
+            }),
+            defineField({
+              name: 'answer',
+              title: 'Answer',
+              type: 'text',
+              rows: 3,
+              validation: (Rule) => Rule.required(),
+            }),
+          ],
+          preview: {
+            select: {title: 'question'},
+          },
+        }),
+      ],
+      group: 'content',
+    }),
+
     // ── SEO FIELDS ──
     defineField({
       name: 'metaTitle',

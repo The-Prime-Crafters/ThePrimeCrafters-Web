@@ -268,6 +268,54 @@ const postType = (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$Th
             type: 'blockContent',
             group: 'content'
         }),
+        // ── KEY TAKEAWAYS ──
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$types$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defineField"])({
+            name: 'keyTakeaways',
+            title: 'Key Takeaways',
+            type: 'array',
+            of: [
+                (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$types$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defineArrayMember"])({
+                    type: 'string'
+                })
+            ],
+            description: 'Bullet points summarizing the article. Aim for 5-6, max 10. Rendered as a callout box right after the intro paragraph.',
+            validation: (Rule)=>Rule.max(10).warning('Keep this to 10 points or fewer for readability'),
+            group: 'content'
+        }),
+        // ── FAQS ──
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$types$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defineField"])({
+            name: 'faqs',
+            title: 'FAQs',
+            type: 'array',
+            description: 'Frequently asked questions shown at the bottom of the post. Also used to generate FAQ rich-snippet markup for Google.',
+            of: [
+                (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$types$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defineArrayMember"])({
+                    type: 'object',
+                    name: 'faq',
+                    fields: [
+                        (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$types$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defineField"])({
+                            name: 'question',
+                            title: 'Question',
+                            type: 'string',
+                            validation: (Rule)=>Rule.required()
+                        }),
+                        (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$types$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defineField"])({
+                            name: 'answer',
+                            title: 'Answer',
+                            type: 'text',
+                            rows: 3,
+                            validation: (Rule)=>Rule.required()
+                        })
+                    ],
+                    preview: {
+                        select: {
+                            title: 'question'
+                        }
+                    }
+                })
+            ],
+            group: 'content'
+        }),
         // ── SEO FIELDS ──
         (0, __TURBOPACK__imported__module__$5b$project$5d2f$prime$2f$ThePrimeCrafters$2d$Web$2f$node_modules$2f40$sanity$2f$types$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["defineField"])({
             name: 'metaTitle',

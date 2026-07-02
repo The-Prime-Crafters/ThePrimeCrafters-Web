@@ -56,6 +56,11 @@ export const postBySlugQuery = groq`
     body,
     metaTitle,
     metaDescription,
+    keyTakeaways,
+    faqs[] {
+      question,
+      answer
+    },
     mainImage {
       asset -> { url },
       alt
